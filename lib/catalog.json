@@ -132,7 +132,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 946,
+    "stars": 947,
     "description": "An in-progress decompilation of Silent Hill on the PlayStation 1.",
     "version": null,
     "releasedAt": "2026-10-20",
@@ -236,7 +236,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 385,
+    "stars": 386,
     "description": "A decompilation of Pikmin 2 (USA) brought to you by fans of the series.",
     "version": null,
     "releasedAt": "2026-10-20",
@@ -316,7 +316,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 305,
+    "stars": 307,
     "description": "Experimental Windows x64 native porting toolkit for Super Smash Bros. Ultimate: static AArch64 recompilation, a D3D11 runtime, and Local Wireless relay netplay.",
     "version": null,
     "releasedAt": "2026-10-20",
@@ -378,7 +378,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 2303,
+    "stars": 2305,
     "description": "Decompilation of The Legend of Zelda: Breath of the Wild (Switch 1.5.0)",
     "version": null,
     "releasedAt": "2026-10-20",
@@ -473,6 +473,47 @@
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
   },
   {
+    "id": "gamboozino-ngbrecomp",
+    "repo": "gamboozino/ngbrecomp",
+    "title": "Ninja Gaiden Black",
+    "game": "ninja-gaiden-black",
+    "author": "gamboozino",
+    "console": "Xbox",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 97,
+    "description": "Ninja Gaiden Black (Xbox, 2005) statically recompiled into native Linux and Windows builds, drawn by its own Vulkan renderer. A steady 60 fps, widescreen and ultrawide, keyboard and mouse, Steam Deck ready. Bring your own copy of the game.",
+    "version": null,
+    "releasedAt": "2026-10-20",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/gamboozino/ngbrecomp/releases",
+    "licenseId": "GPL-2.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-2.0"
+  },
+  {
+    "id": "rrika-cdcenginedxhr",
+    "repo": "rrika/cdcEngineDXHR",
+    "title": "Deus Ex",
+    "game": null,
+    "author": "rrika",
+    "console": "PC",
+    "mechanism": "native",
+    "platforms": [
+      "Windows"
+    ],
+    "stars": 325,
+    "description": "Decompilation of Deus Ex: Human Revolution",
+    "version": null,
+    "releasedAt": "2026-10-20",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/rrika/cdcEngineDXHR/releases",
+    "licenseId": null,
+    "licenseUrl": null
+  },
+  {
     "id": "yokimitsuro-khdays-port",
     "repo": "Yokimitsuro/khdays-port",
     "title": "Kingdom Hearts 358/2 Days",
@@ -483,7 +524,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 165,
+    "stars": 166,
     "description": "Experimental native PC runtime for Kingdom Hearts 358/2 Days, developed alongside the matching Nintendo DS decompilation. No copyrighted game data included.",
     "version": "v0.1.3",
     "releasedAt": "2026-10-19",
@@ -515,27 +556,6 @@
     "licenseUrl": null
   },
   {
-    "id": "gamboozino-ngbrecomp",
-    "repo": "gamboozino/ngbrecomp",
-    "title": "Ninja Gaiden Black",
-    "game": "ninja-gaiden-black",
-    "author": "gamboozino",
-    "console": "Xbox",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 97,
-    "description": "Ninja Gaiden Black (Xbox, 2005) statically recompiled into native Linux and Windows builds, drawn by its own Vulkan renderer. A steady 60 fps, widescreen and ultrawide, keyboard and mouse, Steam Deck ready. Bring your own copy of the game.",
-    "version": null,
-    "releasedAt": "2026-10-19",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/gamboozino/ngbrecomp/releases",
-    "licenseId": "GPL-2.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-2.0"
-  },
-  {
     "id": "samuelit0davila-fifa-street-pc-port",
     "repo": "samuelit0davila/fifa-street-pc-port",
     "title": "FIFA Street",
@@ -546,7 +566,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 377,
+    "stars": 378,
     "description": "ReStreet: FIFA Street (2012) recompiled for Windows PC, with online play, a launcher with friends, chat and rooms. Bring your own game.",
     "version": "v2.0.4-online-beta",
     "releasedAt": "2026-10-19",
@@ -788,6 +808,26 @@
     "licenseUrl": "https://api.github.com/licenses/mit"
   },
   {
+    "id": "parkerallan-doa3-recomp",
+    "repo": "parkerallan/doa3-recomp",
+    "title": "doa3",
+    "game": null,
+    "author": "parkerallan",
+    "console": "Xbox",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows"
+    ],
+    "stars": 57,
+    "description": "Dead or Alive 3 PC Port ",
+    "version": "v1.0.6",
+    "releasedAt": "2026-10-19",
+    "sizeBytes": 8206227,
+    "releaseUrl": "https://github.com/parkerallan/doa3-recomp/releases/tag/v1.0.6",
+    "licenseId": null,
+    "licenseUrl": null
+  },
+  {
     "id": "harbourmasters-shipwright",
     "repo": "HarbourMasters/Shipwright",
     "title": "The Legend of Zelda: Ocarina of Time",
@@ -800,7 +840,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 5701,
+    "stars": 5702,
     "description": "Ship of Harkinian: a PC port of Ocarina of Time built from the decompilation, with widescreen, high framerate and mod support.",
     "version": "9.3.1",
     "releasedAt": "2026-10-18",
@@ -922,7 +962,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 584,
+    "stars": 587,
     "description": "An unofficial original Xbox version PC port of BLACK (2006) via static recompilation.",
     "version": "V2",
     "releasedAt": "2026-10-18",
@@ -943,7 +983,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 426,
+    "stars": 427,
     "description": "Unofficial static recompilation of the Xbox 360 version of Need for Speed: Most Wanted (2005): a native port for Steam Deck, Steam Machine, Steam Frame, Linux and Mac (iPhone/iPad: sideload the experimental IPA or build it yourself). Bring your own disc: no game files included. Not affiliated with EA or Valve.",
     "version": "v0.1.7",
     "releasedAt": "2026-10-18",
@@ -1043,7 +1083,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 78,
+    "stars": 79,
     "description": "Army of Two (Army of 2) 2008 [Xbox360] game static recompilation project based on RexGlue-SDK",
     "version": "1.3",
     "releasedAt": "2026-10-18",
@@ -1233,7 +1273,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 348,
+    "stars": 349,
     "description": "Native PC port (Linux/Windows) of The Last Guardian (PS4, CUSA03627) — runs your own game dump; no game or firmware files included. Mouse/keyboard, optional 60 FPS, SMAA/CAS filters. | Port nativo para PC de The Last Guardian — usa o seu próprio dump.",
     "version": "v2026.10.17-b8d5f41",
     "releasedAt": "2026-10-17",
@@ -1400,7 +1440,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 375,
+    "stars": 376,
     "description": "PSP games in the browser, static recompilation to WebAssembly, an HLE kernel and a WebGL2 renderer",
     "version": null,
     "releasedAt": "2026-10-15",
@@ -1420,7 +1460,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 109,
+    "stars": 110,
     "description": "Experimental static recompilation of Forza Motorsport 4 using ReXGlue. No game files included.",
     "version": "v0.1.0-alpha.2",
     "releasedAt": "2026-10-15",
@@ -1570,7 +1610,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 3619,
+    "stars": 3622,
     "description": "Playstation 2 Static Recompiler & Runtime Tool to make native PC ports",
     "version": null,
     "releasedAt": "2026-10-14",
@@ -1712,7 +1752,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 1753,
+    "stars": 1754,
     "description": "Decompilation of The Legend of Zelda: Majora's Mask",
     "version": null,
     "releasedAt": "2026-10-11",
@@ -1752,7 +1792,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 71,
+    "stars": 72,
     "description": "Unofficial native Windows port of Star Wars: Episode III - Revenge of the Sith (Xbox). Bring your own copy.",
     "version": null,
     "releasedAt": "2026-10-10",
@@ -2368,7 +2408,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2353,
+    "stars": 2355,
     "description": "2 Ship 2 Harkinian: a PC port of Majora's Mask built from the decompilation, with widescreen, high resolution and mod support.",
     "version": "5.0.1",
     "releasedAt": "2026-08-25",
@@ -2512,7 +2552,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 231,
+    "stars": 232,
     "description": "WIP 1:1 Decompilation of multiple versions of NFS:MW",
     "version": "extension_0.1.0",
     "releasedAt": "2026-07-29",
@@ -2520,26 +2560,6 @@
     "releaseUrl": "https://github.com/dbalatoni13/nfsmw/releases/tag/extension_0.1.0",
     "licenseId": "CC0-1.0",
     "licenseUrl": "https://api.github.com/licenses/cc0-1.0"
-  },
-  {
-    "id": "rrika-cdcenginedxhr",
-    "repo": "rrika/cdcEngineDXHR",
-    "title": "Deus Ex",
-    "game": null,
-    "author": "rrika",
-    "console": "PC",
-    "mechanism": "native",
-    "platforms": [
-      "Windows"
-    ],
-    "stars": 325,
-    "description": "Decompilation of Deus Ex: Human Revolution",
-    "version": null,
-    "releasedAt": "2026-06-24",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/rrika/cdcEngineDXHR/releases",
-    "licenseId": null,
-    "licenseUrl": null
   },
   {
     "id": "primetime43-cod-ff-tools",
