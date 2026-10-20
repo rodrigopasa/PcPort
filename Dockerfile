@@ -28,6 +28,12 @@ COPY --from=builder --chown=nextjs:nodejs /app/.next/static ./.next/static
 # restart regenerates every page cold.
 RUN mkdir -p .next/cache && chown -R nextjs:nodejs .next
 
+# The catalog is read from disk at runtime, not compiled into the bundle, so
+# ingestion can update it without a rebuild. A named volume mounted here is
+# seeded from these files the first time it is created.
+COPY --from=builder --chown=nextjs:nodejs /app/lib/catalog.json /app/lib/shots.json /app/lib/fandom.json /app/lib/covers.json ./data/
+ENV DATA_DIR=/app/data
+
 USER nextjs
 EXPOSE 3000
 

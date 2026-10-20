@@ -1,0 +1,64 @@
+#!/usr/bin/env bash
+# Pulls the catalog the ingestion workflow published and tells the site to
+# pick it up. Runs on the host, from cron.
+#
+#   /opt/pcport/deploy/sync-catalog.sh
+#
+# Why this exists: the hourly GitHub workflow commits fresh data to the
+# repository, but nothing carried it to production. The catalog used to be
+# compiled into the bundle, so even /api/revalidate regenerated pages from the
+# same frozen data — the automation looked alive and changed nothing.
+#
+# Now the container reads the catalog from a volume, so this is the whole
+# delivery: fetch, compare, write, revalidate. No rebuild, no deploy, no
+# downtime, and no credentials — the repository is public.
+set -euo pipefail
+
+REPO_RAW="https://raw.githubusercontent.com/rodrigopasa/PcPort/main/lib"
+VOLUME="pcport_catalog-data"
+FILES="catalog.json shots.json fandom.json covers.json"
+TMP="$(mktemp -d)"
+trap 'rm -rf "$TMP"' EXIT
+
+changed=0
+
+for f in $FILES; do
+  if ! curl -fsS -m 60 "$REPO_RAW/$f" -o "$TMP/$f"; then
+    echo "sync: falhou ao baixar $f, abortando sem alterar nada"
+    exit 1
+  fi
+  # Refuse an empty or truncated file rather than publishing a broken catalog.
+  if ! python3 -c "import json,sys; json.load(open(sys.argv[1]))" "$TMP/$f" 2>/dev/null; then
+    echo "sync: $f nao e JSON valido, abortando"
+    exit 1
+  fi
+
+  atual="$(docker run --rm -v "$VOLUME":/d alpine cat "/d/$f" 2>/dev/null || echo '')"
+  if [ "$(cat "$TMP/$f")" != "$atual" ]; then
+    changed=1
+  fi
+done
+
+if [ "$changed" -eq 0 ]; then
+  echo "sync: nada mudou"
+  exit 0
+fi
+
+# Write all four together: a half-updated catalog would render entries whose
+# images point at rows that no longer exist.
+docker run --rm -v "$VOLUME":/d -v "$TMP":/src:ro alpine \
+  sh -c 'for f in catalog.json shots.json fandom.json covers.json; do cp "/src/$f" "/d/$f"; done'
+
+# The container publishes no port — it is reachable only on the proxy network —
+# so the call is made from inside it rather than from the host.
+TOKEN="$(grep -E '^REVALIDATE_TOKEN=' /opt/pcport/.env | cut -d= -f2-)"
+code="$(docker exec -e TOKEN="$TOKEN" pcport-app node -e '
+fetch("http://127.0.0.1:3000/api/revalidate", {
+  method: "POST",
+  headers: { "content-type": "application/json", "x-revalidate-token": process.env.TOKEN },
+  body: JSON.stringify({ slugs: [] }),
+}).then(r => { process.stdout.write(String(r.status)) })
+  .catch(() => process.stdout.write("000"))
+' 2>/dev/null || echo 000)"
+
+echo "sync: catalogo atualizado, revalidate HTTP $code"

@@ -98,3 +98,7 @@ main().catch((err) => {
   console.error(err instanceof Error ? err.message : err)
   process.exit(1)
 })
+
+// Sem imports, o TypeScript trata este arquivo como script global e o `main`
+// daqui colide com o de outro script. Isto o torna um modulo.
+export {}

@@ -1,5 +1,6 @@
 import { revalidatePath } from 'next/cache'
 import { consoleSlug } from '@/lib/data'
+import { reload } from '@/lib/store'
 
 export const dynamic = 'force-dynamic'
 
@@ -26,6 +27,10 @@ export async function POST(req: Request) {
   } catch {
     return Response.json({ error: 'invalid json' }, { status: 400 })
   }
+
+  // Drop the cached data first: regenerating pages from the old catalog is
+  // what made this endpoint a no-op before.
+  reload()
 
   const paths: string[] = ['/pt', '/en', '/pt/radar', '/en/radar']
 

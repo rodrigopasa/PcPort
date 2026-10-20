@@ -4,7 +4,7 @@ import { Fragment, useMemo, useState, useId } from 'react'
 import Link from 'next/link'
 import type { Lang, Mechanism } from '@/lib/db/schema'
 import type { Entry } from '@/lib/data'
-import { formatDate, gameYear } from '@/lib/data'
+import { formatDate, gameYear } from '@/lib/format'
 import { DICT, entryPath } from '@/lib/i18n'
 import { StatusChip } from './StatusChip'
 

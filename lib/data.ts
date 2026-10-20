@@ -1,7 +1,10 @@
-import CATALOG from './catalog.json'
-import COVERS from './covers.json'
-import SHOTS from './shots.json'
-import FANDOM from './fandom.json'
+import { catalog, covers as coversFile, shots as shotsFile, fandom as fandomFile } from './store'
+import { consoleSlug, formatDate, formatSize, gameYear, slugify, type Game, type Shot } from './format'
+
+// Re-exported so server code keeps one import, while client components pull
+// these from './format' and never drag the filesystem into the bundle.
+export { consoleSlug, formatDate, formatSize, gameYear, slugify }
+export type { Game, Shot }
 import { GAMES, type GameMeta } from './games'
 import { installSteps, portSummary } from './content'
 import type { Lang, Mechanism } from './db/schema'
@@ -32,19 +35,7 @@ export type CatalogRow = {
 }
 
 /** A README image with its intrinsic size, so the page never crops it. */
-export type Shot = { url: string; w: number; h: number }
 
-export type Game = {
-  releasedAt: string
-  developer: string
-  publisher: string | null
-  genres: string[]
-  summary: string
-  cover: Shot | null
-  /** Where the cover came from, so the page can credit it. */
-  coverSource: string | null
-  igdbId: number | null
-}
 
 export type Entry = CatalogRow & {
   slug: string
@@ -59,21 +50,12 @@ export type Entry = CatalogRow & {
   screenshots: Shot[]
 }
 
-const rows = CATALOG as CatalogRow[]
-const covers = COVERS as Record<string, { igdbId: number; coverUrl: string | null }>
-const shots = SHOTS as Record<string, { images: Shot[]; repo: string }>
-const fandom = FANDOM as Record<string, Shot & { source: string }>
+const rows = () => catalog<CatalogRow[]>()
+const covers = () => coversFile<Record<string, { igdbId: number; coverUrl: string | null }>>()
+const shots = () => shotsFile<Record<string, { images: Shot[]; repo: string }>>()
+const fandom = () => fandomFile<Record<string, Shot & { source: string }>>()
 
-export function slugify(s: string): string {
-  return s
-    .toLowerCase()
-    .normalize('NFD')
-    .replace(/[̀-ͯ]/g, '')
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-|-$/g, '')
-}
 
-export const consoleSlug = slugify
 
 /**
  * "<game> pc" is the query, so it leads the slug. Two ports of the same game
@@ -84,7 +66,7 @@ function buildSlugs(lang: Lang): Map<string, string> {
   const seen = new Map<string, number>()
   const out = new Map<string, string>()
 
-  for (const row of rows) {
+  for (const row of rows()) {
     const base = `${slugify(row.title)}-${suffix}`
     const n = seen.get(base) ?? 0
     seen.set(base, n + 1)
@@ -93,9 +75,19 @@ function buildSlugs(lang: Lang): Map<string, string> {
   return out
 }
 
-const SLUGS: Record<Lang, Map<string, string>> = {
-  pt: buildSlugs('pt'),
-  en: buildSlugs('en'),
+/**
+ * Rebuilt whenever the catalog changes. Computing this once at module load
+ * meant a reloaded catalog kept the old slugs, so new entries resolved to
+ * nothing.
+ */
+let slugCache: { size: number; maps: Record<Lang, Map<string, string>> } | null = null
+
+function SLUGS_FOR(lang: Lang): Map<string, string> {
+  const size = rows().length
+  if (!slugCache || slugCache.size !== size) {
+    slugCache = { size, maps: { pt: buildSlugs('pt'), en: buildSlugs('en') } }
+  }
+  return slugCache.maps[lang]
 }
 
 function gameOf(key: string | null, lang: Lang): Game | null {
@@ -103,8 +95,8 @@ function gameOf(key: string | null, lang: Lang): Game | null {
   if (!meta || !key) return null
   // IGDB fills only what games.ts leaves empty: a fuzzy match can never
   // overwrite a verified date or summary.
-  const fetched = covers[key]
-  const fan = fandom[key]
+  const fetched = covers()[key]
+  const fan = fandom()[key]
 
   // Priority: a hand-verified URL, then IGDB (licensed for this), then Fandom
   // (a stopgap that disappears the moment IGDB is configured).
@@ -129,25 +121,25 @@ function gameOf(key: string | null, lang: Lang): Game | null {
 function toEntry(row: CatalogRow, lang: Lang): Entry {
   return {
     ...row,
-    slug: SLUGS[lang].get(row.id)!,
-    slugAlt: SLUGS[lang === 'pt' ? 'en' : 'pt'].get(row.id)!,
+    slug: SLUGS_FOR(lang).get(row.id)!,
+    slugAlt: SLUGS_FOR(lang === 'pt' ? 'en' : 'pt').get(row.id)!,
     repoDescription: row.description,
     seoDescription: portSummary(row, lang),
     installSteps: installSteps(row, lang),
     gameMeta: gameOf(row.game, lang),
-    screenshots: shots[row.id]?.images ?? [],
+    screenshots: shots()[row.id]?.images ?? [],
   }
 }
 
 export async function getEntries(lang: Lang): Promise<Entry[]> {
-  return rows
+  return rows()
     .map((r) => toEntry(r, lang))
     .sort((a, b) => (b.releasedAt ?? '').localeCompare(a.releasedAt ?? ''))
 }
 
 export async function getEntry(lang: Lang, slug: string): Promise<Entry | null> {
-  const id = [...SLUGS[lang].entries()].find(([, s]) => s === slug)?.[0]
-  const row = id ? rows.find((r) => r.id === id) : undefined
+  const id = [...SLUGS_FOR(lang).entries()].find(([, s]) => s === slug)?.[0]
+  const row = id ? rows().find((r) => r.id === id) : undefined
   return row ? toEntry(row, lang) : null
 }
 
@@ -179,37 +171,13 @@ export async function getByConsole(lang: Lang, slug: string) {
 }
 
 export async function getCounts() {
-  const week = rows.filter((r) => {
+  const week = rows().filter((r) => {
     if (!r.releasedAt) return false
     return Date.now() - new Date(`${r.releasedAt}T12:00:00Z`).getTime() < 7 * 864e5
   }).length
-  return { total: rows.length, week }
+  return { total: rows().length, week }
 }
 
-export function formatSize(bytes: number | null): string | null {
-  if (!bytes) return null
-  if (bytes >= 1e9) return `${(bytes / 1e9).toFixed(1).replace('.', ',')} GB`
-  return `${Math.round(bytes / 1e6)} MB`
-}
 
-const MONTHS: Record<Lang, string[]> = {
-  pt: ['jan', 'fev', 'mar', 'abr', 'mai', 'jun', 'jul', 'ago', 'set', 'out', 'nov', 'dez'],
-  en: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
-}
 
-/**
- * Read in UTC and formatted by hand. `new Date('2026-10-12')` is UTC midnight,
- * so any timezone west of Greenwich renders the day before — and Intl's pt-BR
- * short form ("12 de out. de 2026") is long enough to wrap the column.
- */
-export function formatDate(iso: string | null, lang: Lang): string | null {
-  if (!iso) return null
-  const d = new Date(`${iso}T12:00:00Z`)
-  if (Number.isNaN(d.getTime())) return null
-  const day = String(d.getUTCDate()).padStart(2, '0')
-  return `${day} ${MONTHS[lang][d.getUTCMonth()]} ${d.getUTCFullYear()}`
-}
 
-export function gameYear(game: Game | null): string | null {
-  return game ? game.releasedAt.slice(0, 4) : null
-}

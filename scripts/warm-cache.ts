@@ -13,7 +13,7 @@
  * Run it after each deploy.
  */
 
-const origin = argValue('--origin') ?? 'https://pcport.org'
+const site = argValue('--origin') ?? 'https://pcport.org'
 const concurrency = Number(argValue('--concurrency') ?? 8)
 
 function argValue(flag: string): string | undefined {
@@ -22,7 +22,7 @@ function argValue(flag: string): string | undefined {
 }
 
 async function sitemapUrls(): Promise<string[]> {
-  const res = await fetch(`${origin}/sitemap.xml`)
+  const res = await fetch(`${site}/sitemap.xml`)
   if (!res.ok) throw new Error(`sitemap: HTTP ${res.status}`)
   const xml = await res.text()
   return [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1])

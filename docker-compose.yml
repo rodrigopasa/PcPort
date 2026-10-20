@@ -24,6 +24,9 @@ services:
       # The ISR cache lives on disk. Without this, every container restart
       # regenerates every page cold.
       - next-cache:/app/.next/cache
+      # The catalog, so ingestion can update content without a rebuild. Seeded
+      # from the image on first creation.
+      - catalog-data:/app/data
 
     networks:
       - traefik-proxy
@@ -43,6 +46,7 @@ services:
 
 volumes:
   next-cache:
+  catalog-data:
 
 networks:
   traefik-proxy:
