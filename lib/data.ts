@@ -1,6 +1,7 @@
 import CATALOG from './catalog.json'
 import COVERS from './covers.json'
 import SHOTS from './shots.json'
+import FANDOM from './fandom.json'
 import { GAMES, type GameMeta } from './games'
 import { installSteps, portSummary } from './content'
 import type { Lang, Mechanism } from './db/schema'
@@ -39,7 +40,9 @@ export type Game = {
   publisher: string | null
   genres: string[]
   summary: string
-  coverUrl: string | null
+  cover: Shot | null
+  /** Where the cover came from, so the page can credit it. */
+  coverSource: string | null
   igdbId: number | null
 }
 
@@ -59,6 +62,7 @@ export type Entry = CatalogRow & {
 const rows = CATALOG as CatalogRow[]
 const covers = COVERS as Record<string, { igdbId: number; coverUrl: string | null }>
 const shots = SHOTS as Record<string, { images: Shot[]; repo: string }>
+const fandom = FANDOM as Record<string, Shot & { source: string }>
 
 export function slugify(s: string): string {
   return s
@@ -100,13 +104,24 @@ function gameOf(key: string | null, lang: Lang): Game | null {
   // IGDB fills only what games.ts leaves empty: a fuzzy match can never
   // overwrite a verified date or summary.
   const fetched = covers[key]
+  const fan = fandom[key]
+
+  // Priority: a hand-verified URL, then IGDB (licensed for this), then Fandom
+  // (a stopgap that disappears the moment IGDB is configured).
+  const cover: Shot | null = meta.coverUrl
+    ? { url: meta.coverUrl, w: 0, h: 0 }
+    : fetched?.coverUrl
+      ? { url: fetched.coverUrl, w: 0, h: 0 }
+      : (fan ?? null)
+
   return {
     releasedAt: meta.releasedAt,
     developer: meta.developer,
     publisher: meta.publisher ?? null,
     genres: meta.genres,
     summary: meta.summary[lang],
-    coverUrl: meta.coverUrl ?? fetched?.coverUrl ?? null,
+    cover,
+    coverSource: meta.coverUrl || fetched?.coverUrl ? null : (fan?.source ?? null),
     igdbId: meta.igdbId ?? fetched?.igdbId ?? null,
   }
 }

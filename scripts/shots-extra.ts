@@ -16,6 +16,7 @@
  * Merges into lib/shots.json without touching entries that already have images.
  */
 import { readFile, writeFile } from 'node:fs/promises'
+import { imageSize } from '../lib/imagesize'
 
 type Row = { id: string; repo: string; title: string }
 type Shot = { url: string; w: number; h: number }
@@ -23,37 +24,12 @@ type Store = Record<string, { images: Shot[]; repo: string }>
 
 const SKIP = /badge|shields\.io|licen[sc]e|discord|twitter|patreon|ko-?fi|paypal|\.svg($|\?)|star-history/i
 
-function dimensions(buf: Buffer): { w: number; h: number } | null {
-  if (buf.length > 24 && buf.readUInt32BE(0) === 0x89504e47) {
-    return { w: buf.readUInt32BE(16), h: buf.readUInt32BE(20) }
-  }
-  if (
-    buf.length > 30 &&
-    buf.toString('ascii', 0, 4) === 'RIFF' &&
-    buf.toString('ascii', 8, 12) === 'WEBP' &&
-    buf.toString('ascii', 12, 16) === 'VP8X'
-  ) {
-    return { w: buf.readUIntLE(24, 3) + 1, h: buf.readUIntLE(27, 3) + 1 }
-  }
-  if (buf.length > 4 && buf[0] === 0xff && buf[1] === 0xd8) {
-    let i = 2
-    while (i < buf.length - 9) {
-      if (buf[i] !== 0xff) { i++; continue }
-      const marker = buf[i + 1]
-      if (marker >= 0xc0 && marker <= 0xcf && ![0xc4, 0xc8, 0xcc].includes(marker)) {
-        return { w: buf.readUInt16BE(i + 7), h: buf.readUInt16BE(i + 5) }
-      }
-      i += 2 + buf.readUInt16BE(i + 2)
-    }
-  }
-  return null
-}
 
 async function measure(url: string): Promise<Shot | null> {
   try {
     const res = await fetch(url, { redirect: 'follow' })
     if (!res.ok || !(res.headers.get('content-type') ?? '').startsWith('image/')) return null
-    const dim = dimensions(Buffer.from(await res.arrayBuffer()))
+    const dim = imageSize(Buffer.from(await res.arrayBuffer()))
     if (!dim || dim.w < 480) return null
     return { url, w: dim.w, h: dim.h }
   } catch {

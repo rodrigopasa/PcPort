@@ -11,12 +11,10 @@ const RULE: Record<Mechanism, string> = {
 }
 
 /**
- * Real cover art once IGDB is configured, and otherwise a cartridge-label plate
- * built from what the entry already knows. Seventeen of the catalogue's
- * projects publish no image anywhere, so this is a permanent state for them,
- * not a loading placeholder — it is designed to be looked at rather than
- * excused. Never fake box art, and never a grey rectangle pretending a request
- * failed.
+ * Real cover art where a source has it, and otherwise a cartridge-label plate
+ * built from what the entry already knows. The plate is a permanent state for
+ * the projects no source covers, not a loading placeholder — it is designed to
+ * be looked at rather than excused. Never fake box art.
  */
 export function Cover({
   entry,
@@ -28,20 +26,31 @@ export function Cover({
   priority?: boolean
 }) {
   const t = DICT[lang]
-  const url = entry.gameMeta?.coverUrl ?? null
+  const cover = entry.gameMeta?.cover ?? null
 
-  if (url) {
+  if (cover) {
+    // Box art ranges from square to tall, so it is laid out at its own aspect
+    // rather than cropped into a fixed frame. `unoptimized` keeps the browser
+    // fetching directly, which matters for hosts that check the Referer.
+    const known = cover.w > 0 && cover.h > 0
     return (
-      <div className="relative aspect-[3/4] w-full overflow-hidden border border-hairline">
+      <figure className="m-0">
         <Image
-          src={url}
+          src={cover.url}
           alt={t.coverOf(entry.title)}
-          fill
+          width={known ? cover.w : 600}
+          height={known ? cover.h : 800}
           sizes="(max-width: 1024px) 60vw, 320px"
-          className="object-cover"
           priority={priority}
+          unoptimized
+          className="h-auto w-full border border-hairline bg-raise"
         />
-      </div>
+        {entry.gameMeta?.coverSource ? (
+          <figcaption className="mt-1.5 text-[10px] text-faint">
+            {entry.gameMeta.coverSource}
+          </figcaption>
+        ) : null}
+      </figure>
     )
   }
 
