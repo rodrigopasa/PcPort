@@ -1,7 +1,37 @@
 import Image from 'next/image'
 import type { Lang } from '@/lib/db/schema'
-import type { Entry } from '@/lib/data'
+import type { Entry, Shot } from '@/lib/data'
 import { DICT } from '@/lib/i18n'
+
+/**
+ * Each image is laid out at its own intrinsic aspect. READMEs mix screenshots
+ * with comparison strips and banners, and forcing those into a fixed frame
+ * crops them into something that reads as empty.
+ */
+function Plate({
+  shot,
+  alt,
+  priority = false,
+  sizes,
+}: {
+  shot: Shot
+  alt: string
+  priority?: boolean
+  sizes: string
+}) {
+  return (
+    <Image
+      src={shot.url}
+      alt={alt}
+      width={shot.w}
+      height={shot.h}
+      sizes={sizes}
+      priority={priority}
+      unoptimized
+      className="h-auto w-full border border-hairline bg-raise"
+    />
+  )
+}
 
 /**
  * The project's own screenshots of the port running. More useful than box art
@@ -15,34 +45,22 @@ export function Shots({ entry, lang }: { entry: Entry; lang: Lang }) {
 
   return (
     <figure className="m-0">
-      <div className="relative aspect-video w-full overflow-hidden border border-hairline bg-raise">
-        <Image
-          src={lead}
-          alt={t.shotOf(entry.title)}
-          fill
-          sizes="(max-width: 1024px) 100vw, 860px"
-          className="object-cover"
-          priority
-          unoptimized
-        />
-      </div>
+      <Plate
+        shot={lead}
+        alt={t.shotOf(entry.title)}
+        priority
+        sizes="(max-width: 1024px) 100vw, 860px"
+      />
 
       {rest.length ? (
         <div className="mt-2 grid grid-cols-2 gap-2">
-          {rest.map((src, i) => (
-            <div
-              key={src}
-              className="relative aspect-video overflow-hidden border border-hairline bg-raise"
-            >
-              <Image
-                src={src}
-                alt={`${t.shotOf(entry.title)} ${i + 2}`}
-                fill
-                sizes="(max-width: 1024px) 50vw, 420px"
-                className="object-cover"
-                unoptimized
-              />
-            </div>
+          {rest.map((shot, i) => (
+            <Plate
+              key={shot.url}
+              shot={shot}
+              alt={`${t.shotOf(entry.title)} ${i + 2}`}
+              sizes="(max-width: 1024px) 50vw, 420px"
+            />
           ))}
         </div>
       ) : null}
@@ -52,21 +70,16 @@ export function Shots({ entry, lang }: { entry: Entry; lang: Lang }) {
   )
 }
 
-/** A single wide shot, for the home band. */
+/** A single shot for the home band. */
 export function LeadShot({ entry, lang }: { entry: Entry; lang: Lang }) {
-  const src = entry.screenshots[0]
-  if (!src) return null
+  const shot = entry.screenshots[0]
+  if (!shot) return null
   return (
-    <div className="relative aspect-video w-full overflow-hidden border border-hairline bg-raise">
-      <Image
-        src={src}
-        alt={DICT[lang].shotOf(entry.title)}
-        fill
-        sizes="(max-width: 1024px) 100vw, 520px"
-        className="object-cover"
-        priority
-        unoptimized
-      />
-    </div>
+    <Plate
+      shot={shot}
+      alt={DICT[lang].shotOf(entry.title)}
+      priority
+      sizes="(max-width: 1024px) 100vw, 400px"
+    />
   )
 }

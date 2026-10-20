@@ -30,6 +30,9 @@ export type CatalogRow = {
   licenseUrl: string | null
 }
 
+/** A README image with its intrinsic size, so the page never crops it. */
+export type Shot = { url: string; w: number; h: number }
+
 export type Game = {
   releasedAt: string
   developer: string
@@ -50,12 +53,12 @@ export type Entry = CatalogRow & {
   installSteps: string[]
   gameMeta: Game | null
   /** The project's own screenshots of the port running, from its README. */
-  screenshots: string[]
+  screenshots: Shot[]
 }
 
 const rows = CATALOG as CatalogRow[]
 const covers = COVERS as Record<string, { igdbId: number; coverUrl: string | null }>
-const shots = SHOTS as Record<string, { images: string[]; repo: string }>
+const shots = SHOTS as Record<string, { images: Shot[]; repo: string }>
 
 export function slugify(s: string): string {
   return s
