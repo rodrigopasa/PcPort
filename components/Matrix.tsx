@@ -132,7 +132,19 @@ export function Matrix({ entries, lang }: { entries: Entry[]; lang: Lang }) {
                   data-open={isOpen}
                   className={`cursor-pointer border-t border-hairline transition-colors hover:bg-raise ${TONE[e.mechanism]}`}
                 >
-                  <td className={`row-mark ${CELL} text-[15px] font-medium text-ink`}>{e.title}</td>
+                  {/* A real anchor, not just a clickable row: a crawler does
+                      not follow onClick, and without this the entry pages have
+                      no internal links pointing at them at all. The row still
+                      expands; the link stops the click from reaching it. */}
+                  <td className={`row-mark ${CELL} text-[15px] font-medium`}>
+                    <Link
+                      href={entryPath(lang, e.slug)}
+                      onClick={(ev) => ev.stopPropagation()}
+                      className="text-ink no-underline hover:underline decoration-hairline-strong"
+                    >
+                      {e.title}
+                    </Link>
+                  </td>
                   <td className={`${CELL} text-[13px] text-muted`}>{e.console}</td>
                   <td className={`${CELL} tabular hidden text-[13px] text-muted xl:table-cell`}>
                     {gameYear(e.gameMeta) ?? '—'}
