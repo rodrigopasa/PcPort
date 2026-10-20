@@ -53,6 +53,9 @@ type Dict = {
   noCover: string
   license: string
   howThisWorks: string
+  shotOf: (t: string) => string
+  shotCredit: (r: string) => string
+  screenshots: string
   /** The <h1> and the <title> are built from how people actually search. */
   onPc: (t: string) => string
   seoTitle: (t: string, mech: string) => string
@@ -117,6 +120,9 @@ export const DICT: Record<Lang, Dict> = {
     noCover: 'Capa não disponível',
     license: 'Licença',
     howThisWorks: 'Como esse port funciona',
+    shotOf: (t) => `Captura de ${t} rodando no PC`,
+    shotCredit: (r) => `Capturas publicadas pelo próprio projeto em ${r}`,
+    screenshots: 'Capturas',
     // "jogo + no PC" is the query; the version number never is.
     onPc: (t) => `${t} no PC`,
     seoTitle: (t, mech) => `${t} no PC — ${mech}`,
@@ -187,6 +193,9 @@ export const DICT: Record<Lang, Dict> = {
     noCover: 'No cover available',
     license: 'License',
     howThisWorks: 'How this port works',
+    shotOf: (t) => `Screenshot of ${t} running on PC`,
+    shotCredit: (r) => `Screenshots published by the project itself at ${r}`,
+    screenshots: 'Screenshots',
     onPc: (t) => `${t} on PC`,
     seoTitle: (t, mech) => `${t} PC Port — ${mech}`,
     seoDescription: (t, console, mech) =>

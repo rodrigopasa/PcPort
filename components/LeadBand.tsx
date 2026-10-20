@@ -5,6 +5,7 @@ import { formatDate, formatSize, gameYear } from '@/lib/data'
 import { DICT, entryPath } from '@/lib/i18n'
 import { StatusChip } from './StatusChip'
 import { Cover } from './Cover'
+import { LeadShot } from './Shots'
 
 /**
  * The page's single focal move. The scale jump between the title and the
@@ -24,8 +25,14 @@ export function LeadBand({ entry, lang }: { entry: Entry; lang: Lang }) {
   return (
     <section className="border-b border-hairline">
       <div className="mx-auto grid max-w-[1400px] items-end gap-8 px-5 py-10 md:py-14 lg:grid-cols-[auto_1.2fr_auto] lg:gap-12">
-        <div className="hidden w-[180px] lg:block">
-          <Cover entry={entry} lang={lang} priority />
+        {/* A shot of the port running says more than box art; the cover plate
+            is the fallback when the project publishes none. */}
+        <div className={`hidden lg:block ${entry.screenshots.length ? 'w-[380px]' : 'w-[180px]'}`}>
+          {entry.screenshots.length ? (
+            <LeadShot entry={entry} lang={lang} />
+          ) : (
+            <Cover entry={entry} lang={lang} priority />
+          )}
         </div>
 
         <div className="min-w-0">

@@ -18,6 +18,7 @@ import { SiteHeader } from '@/components/SiteHeader'
 import { SiteFooter } from '@/components/SiteFooter'
 import { StatusChip } from '@/components/StatusChip'
 import { Cover } from '@/components/Cover'
+import { Shots } from '@/components/Shots'
 import { AdSlot } from '@/components/AdSlot'
 
 export const revalidate = 300
@@ -241,6 +242,13 @@ export default async function EntryPage({ params }: { params: Params }) {
 
           {/* 3 — the long tail */}
           <div className="order-3 min-w-0 lg:col-start-1 lg:row-start-2">
+            {entry.screenshots.length ? (
+              <section className="mb-12">
+                <h2 className={`${h2} mb-4`}>{t.screenshots}</h2>
+                <Shots entry={entry} lang={lang} />
+              </section>
+            ) : null}
+
             {game ? (
               <section>
                 <h2 className={h2}>{t.aboutGame}</h2>

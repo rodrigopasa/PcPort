@@ -7,8 +7,14 @@ const config: NextConfig = {
   compress: false,
   images: {
     formats: ['image/avif', 'image/webp'],
-    // IGDB is the only external image host; nothing else is allowed through.
-    remotePatterns: [{ protocol: 'https', hostname: 'images.igdb.com', pathname: '/igdb/image/**' }],
+    // Two hosts only: IGDB for cover art, and GitHub's raw host for the
+    // screenshots the port projects publish in their own READMEs.
+    remotePatterns: [
+      { protocol: 'https', hostname: 'images.igdb.com', pathname: '/igdb/image/**' },
+      { protocol: 'https', hostname: 'raw.githubusercontent.com' },
+      { protocol: 'https', hostname: 'user-images.githubusercontent.com' },
+      { protocol: 'https', hostname: 'github.com' },
+    ],
   },
 }
 

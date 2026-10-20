@@ -1,5 +1,6 @@
 import CATALOG from './catalog.json'
 import COVERS from './covers.json'
+import SHOTS from './shots.json'
 import { GAMES, type GameMeta } from './games'
 import { installSteps, portSummary } from './content'
 import type { Lang, Mechanism } from './db/schema'
@@ -48,10 +49,13 @@ export type Entry = CatalogRow & {
   seoDescription: string
   installSteps: string[]
   gameMeta: Game | null
+  /** The project's own screenshots of the port running, from its README. */
+  screenshots: string[]
 }
 
 const rows = CATALOG as CatalogRow[]
 const covers = COVERS as Record<string, { igdbId: number; coverUrl: string | null }>
+const shots = SHOTS as Record<string, { images: string[]; repo: string }>
 
 export function slugify(s: string): string {
   return s
@@ -113,6 +117,7 @@ function toEntry(row: CatalogRow, lang: Lang): Entry {
     seoDescription: portSummary(row, lang),
     installSteps: installSteps(row, lang),
     gameMeta: gameOf(row.game, lang),
+    screenshots: shots[row.id]?.images ?? [],
   }
 }
 
