@@ -5,7 +5,10 @@
   --color-raise: #15171b;
   --color-ink: #f2f3f5;
   --color-muted: #8b9099;
-  --color-faint: #5d636c;
+  /* 4.6:1 on the ground. The previous #5d636c measured 3.19:1, which fails
+     WCAG AA for normal text — and this token carries table headers, spec
+     labels and figure captions at 10–11px, which is exactly normal text. */
+  --color-faint: #7a8089;
   --color-hairline: rgba(255, 255, 255, 0.09);
   --color-hairline-strong: rgba(255, 255, 255, 0.16);
 
@@ -13,7 +16,9 @@
   --color-native: #35b37e;
   --color-recompiled: #d99a2b;
   --color-translation: #7b6cf6;
-  --color-progress: #6b7280;
+  /* 4.9:1. The previous #6b7280 measured 3.99:1 and carried the "in progress"
+     chip at 10px — the quietest status still has to be readable. */
+  --color-progress: #7a818a;
 
   --font-display: var(--font-archivo), ui-sans-serif, system-ui, sans-serif;
   --font-mono: var(--font-mono-face), ui-monospace, monospace;

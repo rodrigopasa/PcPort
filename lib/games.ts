@@ -311,6 +311,106 @@ export const GAMES: Record<string, GameMeta> = {
       en: 'A sixth-anniversary celebration of Celeste: a three-dimensional reinterpretation built in under two weeks by its original creators.',
     },
   },
+  'virtua-fighter': {
+    releasedAt: '1993-12-01',
+    developer: 'Sega AM2',
+    publisher: 'Sega',
+    genres: ['Luta'],
+    summary: {
+      pt: 'O primeiro jogo de luta em 3D com polígonos, feito por Yu Suzuki na placa Model 1. Trocou golpes especiais por timing e espaçamento.',
+      en: 'The first 3D polygonal fighting game, by Yu Suzuki on the Model 1 board. It traded special moves for timing and spacing.',
+    },
+  },
+  'virtua-fighter-2': {
+    releasedAt: '1994-11-01',
+    developer: 'Sega AM2',
+    publisher: 'Sega',
+    genres: ['Luta'],
+    summary: {
+      pt: 'A sequência rodou a 60 quadros por segundo com texturas na Model 2 e virou um dos maiores sucessos de fliperama do Japão.',
+      en: 'The sequel ran at 60 frames per second with texture mapping on the Model 2, and became one of Japan\'s biggest arcade successes.',
+    },
+  },
+  'cod-mw2': {
+    releasedAt: '2009-11-10',
+    developer: 'Infinity Ward',
+    publisher: 'Activision',
+    genres: ['Tiro em primeira pessoa'],
+    summary: {
+      pt: 'Campanha militar que levou a série ao auge comercial, com multiplayer de progressão por killstreaks que definiu o gênero por anos.',
+      en: 'The military campaign that took the series to its commercial peak, with killstreak progression multiplayer that defined the genre for years.',
+    },
+  },
+  'army-of-two': {
+    releasedAt: '2008-03-06',
+    developer: 'EA Montreal',
+    publisher: 'Electronic Arts',
+    genres: ['Tiro em terceira pessoa', 'Cooperativo'],
+    summary: {
+      pt: 'Tiro em terceira pessoa desenhado em volta da cooperação: dois mercenários dividem atenção inimiga com o sistema de aggro.',
+      en: 'A third-person shooter designed around co-operation: two mercenaries split enemy attention through its aggro system.',
+    },
+  },
+  'knuckles-chaotix': {
+    releasedAt: '1995-04-21',
+    developer: 'Sega',
+    publisher: 'Sega',
+    genres: ['Plataforma'],
+    summary: {
+      pt: 'Plataforma do Sega 32X em que dois personagens ficam presos por um anel elástico, e a física dessa ligação é a mecânica central.',
+      en: 'A Sega 32X platformer where two characters are tethered by an elastic ring, and the physics of that tether is the core mechanic.',
+    },
+  },
+  'gravity-rush-2': {
+    releasedAt: '2017-01-18',
+    developer: 'SIE Japan Studio',
+    publisher: 'Sony Interactive Entertainment',
+    genres: ['Ação', 'Aventura'],
+    summary: {
+      pt: 'Kat manipula a gravidade para cair em qualquer direção numa cidade suspensa, com estilo de arte em quadrinhos franco-belga.',
+      en: 'Kat manipulates gravity to fall in any direction across a floating city, drawn in a French-Belgian comics style.',
+    },
+  },
+  'dead-rising-2-case-west': {
+    releasedAt: '2010-12-27',
+    developer: 'Capcom Vancouver',
+    publisher: 'Capcom',
+    genres: ['Ação', 'Sobrevivência'],
+    summary: {
+      pt: 'Epílogo de Dead Rising 2 em que Chuck Greene e Frank West investigam juntos a instalação da Phenotrans.',
+      en: 'The Dead Rising 2 epilogue, in which Chuck Greene and Frank West investigate the Phenotrans facility together.',
+    },
+  },
+  'god-of-war-2': {
+    releasedAt: '2007-03-13',
+    developer: 'SCE Santa Monica Studio',
+    publisher: 'Sony Computer Entertainment',
+    genres: ['Ação', 'Hack and slash'],
+    summary: {
+      pt: 'Kratos desafia Zeus e recorre às Irmãs do Destino. Levou o PlayStation 2 ao limite técnico no fim da vida do console.',
+      en: 'Kratos defies Zeus and turns to the Sisters of Fate. It pushed the PlayStation 2 to its technical limit late in the console\'s life.',
+    },
+  },
+  'sonic-advance': {
+    releasedAt: '2001-12-20',
+    developer: 'Dimps',
+    publisher: 'Sega',
+    genres: ['Plataforma'],
+    summary: {
+      pt: 'O retorno do Sonic em duas dimensões no Game Boy Advance, feito pela Dimps com a Sonic Team — o primeiro Sonic num portátil da Nintendo.',
+      en: 'Sonic\'s return to two dimensions on the Game Boy Advance, by Dimps with Sonic Team — the first Sonic on a Nintendo handheld.',
+    },
+  },
+  'halo-ce': {
+    releasedAt: '2001-11-15',
+    developer: 'Bungie',
+    publisher: 'Microsoft Game Studios',
+    genres: ['Tiro em primeira pessoa'],
+    summary: {
+      pt: 'O jogo de lançamento do Xbox que estabeleceu o esquema de dois botões para tiro em console, com escudo recarregável e veículos.',
+      en: 'The Xbox launch title that established the two-stick console shooter, with regenerating shields and vehicles.',
+    },
+  },
   pikmin: {
     releasedAt: '2001-10-26',
     developer: 'Nintendo EAD',

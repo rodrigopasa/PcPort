@@ -66,6 +66,16 @@ const WIKI: Record<string, [wiki: string, title: string]> = {
   'pikmin-2': ['pikmin', 'Pikmin 2'],
   'resident-evil-4': ['residentevil', 'Resident Evil 4'],
   'smash-ultimate': ['supersmashbros', 'Super Smash Bros. Ultimate'],
+  'virtua-fighter': ['virtuafighter', 'Virtua Fighter (game)'],
+  'virtua-fighter-2': ['virtuafighter', 'Virtua Fighter 2'],
+  'cod-mw2': ['callofduty', 'Call of Duty: Modern Warfare 2'],
+  'army-of-two': ['armyoftwo', 'Army of Two'],
+  'knuckles-chaotix': ['sonic', "Knuckles' Chaotix"],
+  'gravity-rush-2': ['gravityrush', 'Gravity Rush 2'],
+  'dead-rising-2-case-west': ['deadrising', 'Dead Rising 2: Case West'],
+  'god-of-war-2': ['godofwar', 'God of War II'],
+  'sonic-advance': ['sonic', 'Sonic Advance'],
+  'halo-ce': ['halo', 'Halo: Combat Evolved'],
 }
 
 type Shot = { url: string; w: number; h: number; source: string }

@@ -117,6 +117,53 @@ const CURATED: Record<string, Curation> = {
     title: 'Super Smash Bros. Ultimate',
     console: 'Nintendo Switch',
   },
+
+  // Third batch, found by sweeping for bad titles rather than by star count.
+  // Each of these was a well-known game hiding behind a repository name —
+  // "gr2_pc" is Gravity Rush 2, "sa2" is Sonic Advance.
+  'CaiusCodes/GoldenEye-007-XBLA-PC-Recomp': {
+    game: 'goldeneye-007',
+    title: 'GoldenEye 007',
+    console: 'Xbox 360',
+  },
+  'mr-finster/vf1-recomp': { game: 'virtua-fighter', title: 'Virtua Fighter', console: 'Arcade' },
+  'mr-finster/vf2-recomp': {
+    game: 'virtua-fighter-2',
+    title: 'Virtua Fighter 2',
+    console: 'Arcade',
+  },
+  'PaulCombal/mw2-recompiled': {
+    game: 'cod-mw2',
+    title: 'Call of Duty: Modern Warfare 2',
+    console: 'Xbox 360',
+  },
+  'OpenPortroid/ArmyOfTwoRecompilation': {
+    game: 'army-of-two',
+    title: 'Army of Two',
+    console: 'Xbox 360',
+  },
+  'YuutaTsubasa/ChaotixRecompiled': {
+    game: 'knuckles-chaotix',
+    title: "Knuckles' Chaotix",
+    console: 'Sega 32X',
+  },
+  'HayatoG/gr2_pc': {
+    game: 'gravity-rush-2',
+    title: 'Gravity Rush 2',
+    console: 'PlayStation 4',
+  },
+  'wivi514/Dead_Rising_2_Case_West_Xenon_Recomp': {
+    game: 'dead-rising-2-case-west',
+    title: 'Dead Rising 2: Case West',
+    console: 'Xbox 360',
+  },
+  'andrebrumdev/gow2-recomp': {
+    game: 'god-of-war-2',
+    title: 'God of War II',
+    console: 'PlayStation 2',
+  },
+  'SAT-R/sa2': { game: 'sonic-advance', title: 'Sonic Advance', console: 'Game Boy Advance' },
+  'halo-re/halo': { game: 'halo-ce', title: 'Halo: Combat Evolved', console: 'Xbox' },
 }
 
 type Row = { repo: string; title: string; game: string | null; console: string }

@@ -42,7 +42,7 @@ const NOT_A_PORT =
  * "decompilation of <game>" is the project this catalog is about.
  */
 const GENERIC_TOOL =
-  /\b(decompiler|disassembler|deobfuscator|decompilation (engine|framework|tool)|loader plugin|splitting tool|command.?line tool|automated tool|modding (toolkit|sdk))\b/i
+  /\b(decompiler|disassembler|deobfuscator|decompilation (engine|framework|tool)|loader plugin|splitting tool|command.?line tool|automated tool|modding (toolkit|sdk)|a tool for|reverse engineering website|controller manager|filesystem|image extractor)\b/i
 
 /**
  * Source ports of games that were already PC games. Doom, Quake, Heretic,
