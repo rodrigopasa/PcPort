@@ -1,0 +1,26 @@
+node_modules/
+.next/
+out/
+build/
+dist/
+
+.env
+.env.local
+.env*.local
+
+*.log
+npm-debug.log*
+
+.DS_Store
+Thumbs.db
+
+next-env.d.ts
+tsconfig.tsbuildinfo
+
+# Impeccable: committed config is the team value, local overrides are not
+.impeccable/config.local.json
+.impeccable/review/
+.impeccable/build/
+
+# Postgres volume when running compose locally
+.data/
