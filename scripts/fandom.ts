@@ -62,6 +62,10 @@ const WIKI: Record<string, [wiki: string, title: string]> = {
   'fifa-street': ['fifa', 'FIFA Street (2012)'],
   'nfs-most-wanted': ['nfs', 'Need for Speed: Most Wanted (2005)'],
   driveclub: ['driveclub', 'Driveclub'],
+  pikmin: ['pikmin', 'Pikmin (game)'],
+  'pikmin-2': ['pikmin', 'Pikmin 2'],
+  'resident-evil-4': ['residentevil', 'Resident Evil 4'],
+  'smash-ultimate': ['supersmashbros', 'Super Smash Bros. Ultimate'],
 }
 
 type Shot = { url: string; w: number; h: number; source: string }

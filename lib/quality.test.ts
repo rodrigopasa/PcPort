@@ -77,6 +77,45 @@ test('keeps a game decompilation, which is the thing itself', () => {
   assert.equal(v.ok, true)
 })
 
+test('rejects source ports of games that were already PC games', () => {
+  const cases = [
+    { repo: 'fabiangreffrath/woof', description: 'Woof! is a continuation of the Boom/MBF bloodline of Doom source ports' },
+    { repo: 'bibendovsky/bstone', description: 'Unofficial source port for Blake Stone series' },
+    { repo: 'skyjake/Doomsday-Engine', description: 'A portable, enhanced source port of Doom, Heretic and Hexen.' },
+  ]
+  for (const c of cases) assert.equal(isCatalogable(c).ok, false, `${c.repo} should be rejected`)
+})
+
+test('rejects ports whose only target is not a PC', () => {
+  const cases = [
+    { repo: 'x/harkinianpad', description: 'Ocarina of Time native on iOS and iPadOS via Ship of Harkinian' },
+    { repo: 'x/Watch_Quake', description: 'Quake 1 port for Apple Watch' },
+    { repo: 'x/PS5X360', description: 'Experimental Xbox 360 emulator for PlayStation 5' },
+  ]
+  for (const c of cases) assert.equal(isCatalogable(c).ok, false, `${c.repo} should be rejected`)
+})
+
+test('keeps a port that lists a phone alongside the PC', () => {
+  // The non-PC rule must not catch the many ports that ship Windows and
+  // Android from one codebase.
+  const v = isCatalogable({
+    repo: 'nathanialf/ico-pc',
+    description: 'PC, Android, iOS and macOS port of the ICO (PS2) decompilation',
+    version: 'v1',
+    sizeBytes: 20_000_000,
+  })
+  assert.equal(v.ok, true)
+})
+
+test('rejects developer tooling that supports porting without being a port', () => {
+  const cases = [
+    { repo: 'ethteck/splat', description: 'A binary splitting tool to assist with decompilation and modding projects' },
+    { repo: 'emoose/idaxex', description: 'XEX/XBE loader plugin for IDA 9' },
+    { repo: 'iliazeus/iso2god-rs', description: 'A command-line tool to convert Xbox 360 ISOs' },
+  ]
+  for (const c of cases) assert.equal(isCatalogable(c).ok, false, `${c.repo} should be rejected`)
+})
+
 test('rejects a repository with neither a build nor any port signal', () => {
   const v = isCatalogable({ repo: 'x/nbcraft', description: 'The ultimate cross-platform mining experience.' })
   assert.equal(v.ok, false)

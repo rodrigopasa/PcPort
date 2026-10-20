@@ -311,6 +311,46 @@ export const GAMES: Record<string, GameMeta> = {
       en: 'A sixth-anniversary celebration of Celeste: a three-dimensional reinterpretation built in under two weeks by its original creators.',
     },
   },
+  pikmin: {
+    releasedAt: '2001-10-26',
+    developer: 'Nintendo EAD',
+    publisher: 'Nintendo',
+    genres: ['Estratégia em tempo real', 'Quebra-cabeça'],
+    summary: {
+      pt: 'O capitão Olimar cai num planeta hostil e comanda criaturas-planta para recuperar as peças da nave. Cada dia dura trinta minutos e os Pikmin deixados para trás morrem à noite.',
+      en: 'Captain Olimar crashes on a hostile planet and commands plant creatures to recover his ship\'s parts. Each day lasts thirty minutes, and Pikmin left behind die at nightfall.',
+    },
+  },
+  'pikmin-2': {
+    releasedAt: '2004-04-29',
+    developer: 'Nintendo EAD',
+    publisher: 'Nintendo',
+    genres: ['Estratégia em tempo real', 'Quebra-cabeça'],
+    summary: {
+      pt: 'Tira o limite de dias do primeiro e acrescenta cavernas geradas com regras próprias, dois capitães controláveis e duas espécies novas de Pikmin.',
+      en: 'Drops the first game\'s day limit and adds rule-generated caves, two controllable captains and two new Pikmin species.',
+    },
+  },
+  'resident-evil-4': {
+    releasedAt: '2005-01-11',
+    developer: 'Capcom Production Studio 4',
+    publisher: 'Capcom',
+    genres: ['Terror', 'Ação em terceira pessoa'],
+    summary: {
+      pt: 'Leon Kennedy resgata a filha do presidente numa aldeia espanhola. A câmera por cima do ombro redefiniu o jogo de ação em terceira pessoa por mais de uma década.',
+      en: 'Leon Kennedy rescues the president\'s daughter in a Spanish village. Its over-the-shoulder camera redefined third-person action for over a decade.',
+    },
+  },
+  'smash-ultimate': {
+    releasedAt: '2018-12-07',
+    developer: 'Bandai Namco Studios',
+    publisher: 'Nintendo',
+    genres: ['Luta', 'Plataforma'],
+    summary: {
+      pt: 'Reúne todos os lutadores que já apareceram na série, com modo aventura próprio e dezenas de cenários.',
+      en: 'Brings together every fighter the series has ever featured, with its own adventure mode and dozens of stages.',
+    },
+  },
   'driver-2': {
     releasedAt: '2000-11-13',
     developer: 'Reflections Interactive',

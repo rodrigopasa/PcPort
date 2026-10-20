@@ -229,9 +229,9 @@
     "id": "projectpiki-pikmin2",
     "repo": "projectPiki/pikmin2",
     "title": "Pikmin 2",
-    "game": null,
+    "game": "pikmin-2",
     "author": "projectPiki",
-    "console": "PC",
+    "console": "GameCube",
     "mechanism": "native",
     "platforms": [
       "Windows"
@@ -308,10 +308,10 @@
   {
     "id": "sno2207-windowsmash",
     "repo": "SNO2207/WindowSmash",
-    "title": "WindowSmash",
-    "game": null,
+    "title": "Super Smash Bros. Ultimate",
+    "game": "smash-ultimate",
     "author": "SNO2207",
-    "console": "PC",
+    "console": "Nintendo Switch",
     "mechanism": "recompiled",
     "platforms": [
       "Windows"
@@ -951,26 +951,6 @@
     "licenseUrl": null
   },
   {
-    "id": "nycolazs-windwakerhd-android-plus",
-    "repo": "Nycolazs/WindWakerHD-Android-Plus",
-    "title": "WindWakerHD Android Plus",
-    "game": null,
-    "author": "Nycolazs",
-    "console": "Wii",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows"
-    ],
-    "stars": 62,
-    "description": "The Legend of Zelda: The Wind Waker HD natively on Android (static recompilation, Vulkan). Built-in Brazilian Portuguese translation, HUD editor, .wua support, controller gyro, and more. Bring your own game.",
-    "version": "v1.12",
-    "releasedAt": "2026-10-18",
-    "sizeBytes": 65260777,
-    "releaseUrl": "https://github.com/Nycolazs/WindWakerHD-Android-Plus/releases/tag/v1.12",
-    "licenseId": "MPL-2.0",
-    "licenseUrl": "https://api.github.com/licenses/mpl-2.0"
-  },
-  {
     "id": "arnoansems-catacombgl",
     "repo": "ArnoAnsems/CatacombGL",
     "title": "CatacombGL",
@@ -1009,26 +989,6 @@
     "releaseUrl": "https://github.com/SulphurS16/ACFA-Port/releases/tag/v0.7.2",
     "licenseId": "MIT",
     "licenseUrl": "https://api.github.com/licenses/mit"
-  },
-  {
-    "id": "maryncrt-ultimate-mortal-kombat-3-ios-decompiled",
-    "repo": "MaryNCRT/Ultimate-Mortal-Kombat-3-iOS-Decompiled",
-    "title": "Ultimate Mortal Kombat 3 iOS",
-    "game": null,
-    "author": "MaryNCRT",
-    "console": "PC",
-    "mechanism": "in-progress",
-    "platforms": [
-      "Windows"
-    ],
-    "stars": 43,
-    "description": "Ultimate Mortal Kombat 3 (iOS, EA Mobile 2011), fully decompiled: all 2,572 game functions are readable C, checked against a static ARM-to-C recompiler. Native port in progress: menus, sound and saves run; fight data tables extracted from your copy and verified; not playable yet. No game assets - bring your own copy.",
-    "version": null,
-    "releasedAt": "2026-10-18",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/MaryNCRT/Ultimate-Mortal-Kombat-3-iOS-Decompiled/releases",
-    "licenseId": "NOASSERTION",
-    "licenseUrl": null
   },
   {
     "id": "openportroid-armyoftworecompilation",
@@ -1740,46 +1700,6 @@
     "licenseUrl": null
   },
   {
-    "id": "brinootk-ps5x360",
-    "repo": "BrinooTk/PS5X360",
-    "title": "PS5X360",
-    "game": null,
-    "author": "BrinooTk",
-    "console": "Xbox 360",
-    "mechanism": "translation-layer",
-    "platforms": [
-      "Windows"
-    ],
-    "stars": 326,
-    "description": "Experimental Xbox 360 emulator for PlayStation 5, built on Xenia Canary with native audio, DualSense input and RADV Vulkan graphics.",
-    "version": "v0.6.0",
-    "releasedAt": "2026-10-11",
-    "sizeBytes": 24745309,
-    "releaseUrl": "https://github.com/BrinooTk/PS5X360/releases/tag/v0.6.0",
-    "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit"
-  },
-  {
-    "id": "ethteck-splat",
-    "repo": "ethteck/splat",
-    "title": "splat",
-    "game": null,
-    "author": "ethteck",
-    "console": "Nintendo 64",
-    "mechanism": "native",
-    "platforms": [
-      "Windows"
-    ],
-    "stars": 371,
-    "description": "A binary splitting tool to assist with decompilation and modding projects",
-    "version": null,
-    "releasedAt": "2026-10-10",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/ethteck/splat/releases",
-    "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit"
-  },
-  {
     "id": "jedijosh920-swrots-pc",
     "repo": "jedijosh920/SWROTS-PC",
     "title": "Star Wars",
@@ -1796,26 +1716,6 @@
     "releasedAt": "2026-10-10",
     "sizeBytes": null,
     "releaseUrl": "https://github.com/jedijosh920/SWROTS-PC/releases",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
-  },
-  {
-    "id": "dorpxp-driftdroid",
-    "repo": "dorPXP/driftdroid",
-    "title": "Mario Kart Wii and Retro Rewind",
-    "game": null,
-    "author": "dorPXP",
-    "console": "Wii",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows"
-    ],
-    "stars": 100,
-    "description": "A native Android port of Mario Kart Wii and Retro Rewind. Fast, easy.",
-    "version": "v1.3.0",
-    "releasedAt": "2026-10-09",
-    "sizeBytes": 202093393,
-    "releaseUrl": "https://github.com/dorPXP/driftdroid/releases/tag/v1.3.0",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
   },
@@ -1884,10 +1784,10 @@
   {
     "id": "projectpiki-pikmin",
     "repo": "projectPiki/pikmin",
-    "title": "Pikmin brought to you by fans of the series",
-    "game": null,
+    "title": "Pikmin",
+    "game": "pikmin",
     "author": "projectPiki",
-    "console": "PC",
+    "console": "GameCube",
     "mechanism": "native",
     "platforms": [
       "Windows"
@@ -1921,26 +1821,6 @@
     "releaseUrl": "https://github.com/OpenPhantom/OpenPhantom/releases/tag/i2.0.1",
     "licenseId": "MIT",
     "licenseUrl": "https://api.github.com/licenses/mit"
-  },
-  {
-    "id": "chrissotraidis-harkinianpad",
-    "repo": "chrissotraidis/harkinianpad",
-    "title": "harkinianpad",
-    "game": null,
-    "author": "chrissotraidis",
-    "console": "PC",
-    "mechanism": "native",
-    "platforms": [
-      "Windows"
-    ],
-    "stars": 393,
-    "description": "Ocarina of Time native on iOS and iPadOS via Ship of Harkinian with Metal rendering, touch controls, controller support, and ROM-free reproducible builds.",
-    "version": "v0.2.1",
-    "releasedAt": "2026-10-04",
-    "sizeBytes": 2749,
-    "releaseUrl": "https://github.com/chrissotraidis/harkinianpad/releases/tag/v0.2.1",
-    "licenseId": "NOASSERTION",
-    "licenseUrl": null
   },
   {
     "id": "littlebitua-dprecomp",
@@ -1985,8 +1865,8 @@
   {
     "id": "adonis-singh-re4",
     "repo": "adonis-singh/re4",
-    "title": "re4",
-    "game": null,
+    "title": "Resident Evil 4",
+    "game": "resident-evil-4",
     "author": "adonis-singh",
     "console": "GameCube",
     "mechanism": "native",
@@ -2227,26 +2107,6 @@
     "licenseUrl": null
   },
   {
-    "id": "buku313-skate3-mobile",
-    "repo": "Buku313/Skate3-Mobile",
-    "title": "Skate3 Mobile",
-    "game": null,
-    "author": "Buku313",
-    "console": "PC",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows"
-    ],
-    "stars": 235,
-    "description": "Play Skate 3 natively on Android. Download one APK, select your own ISO, and skate. ARM64 recompilation with Vulkan rendering.",
-    "version": "v2.1.0",
-    "releasedAt": "2026-09-15",
-    "sizeBytes": 42057478,
-    "releaseUrl": "https://github.com/Buku313/Skate3-Mobile/releases/tag/v2.1.0",
-    "licenseId": null,
-    "licenseUrl": null
-  },
-  {
     "id": "nblood-nblood",
     "repo": "NBlood/NBlood",
     "title": "NBlood",
@@ -2265,69 +2125,6 @@
     "releaseUrl": "https://github.com/NBlood/NBlood/releases/tag/r14388",
     "licenseId": null,
     "licenseUrl": null
-  },
-  {
-    "id": "themuffinator-openq4",
-    "repo": "themuffinator/openQ4",
-    "title": "openQ4",
-    "game": null,
-    "author": "themuffinator",
-    "console": "PC",
-    "mechanism": "native",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "macOS"
-    ],
-    "stars": 161,
-    "description": "The modern way to play QUAKE 4.",
-    "version": "v0.13.2",
-    "releasedAt": "2026-09-14",
-    "sizeBytes": 721798501,
-    "releaseUrl": "https://github.com/themuffinator/openQ4/releases/tag/v0.13.2",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
-  },
-  {
-    "id": "pdawg-bytes-badbuilder",
-    "repo": "Pdawg-bytes/BadBuilder",
-    "title": "BadBuilder",
-    "game": null,
-    "author": "Pdawg-bytes",
-    "console": "Xbox 360",
-    "mechanism": "native",
-    "platforms": [
-      "Windows"
-    ],
-    "stars": 268,
-    "description": "An automated tool for creating BadUpdate/ABadAvatar USB drives for the Xbox 360.",
-    "version": "v2.1.0",
-    "releasedAt": "2026-09-14",
-    "sizeBytes": 88769188,
-    "releaseUrl": "https://github.com/Pdawg-bytes/BadBuilder/releases/tag/v2.1.0",
-    "licenseId": "BSD-3-Clause",
-    "licenseUrl": "https://api.github.com/licenses/bsd-3-clause"
-  },
-  {
-    "id": "wojciech-graj-doom-ascii",
-    "repo": "wojciech-graj/doom-ascii",
-    "title": "doom ascii",
-    "game": null,
-    "author": "wojciech-graj",
-    "console": "PC",
-    "mechanism": "native",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 886,
-    "description": "DooM in the terminal!",
-    "version": "v0.3.2",
-    "releasedAt": "2026-09-11",
-    "sizeBytes": 1223160,
-    "releaseUrl": "https://github.com/wojciech-graj/doom-ascii/releases/tag/v0.3.2",
-    "licenseId": "GPL-2.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-2.0"
   },
   {
     "id": "pauloubirajara-asuras-wrath-recomp",
@@ -2368,27 +2165,6 @@
     "releaseUrl": "https://github.com/Dryxio/reagent/releases/tag/v0.4.0",
     "licenseId": "MIT",
     "licenseUrl": "https://api.github.com/licenses/mit"
-  },
-  {
-    "id": "fabiangreffrath-woof",
-    "repo": "fabiangreffrath/woof",
-    "title": "woof",
-    "game": null,
-    "author": "fabiangreffrath",
-    "console": "PC",
-    "mechanism": "native",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 334,
-    "description": "Woof! is a continuation of the Boom/MBF bloodline of Doom source ports",
-    "version": "woof_16.0.0",
-    "releasedAt": "2026-09-08",
-    "sizeBytes": 16511513,
-    "releaseUrl": "https://github.com/fabiangreffrath/woof/releases/tag/woof_16.0.0",
-    "licenseId": "GPL-2.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-2.0"
   },
   {
     "id": "harbourmasters-ghostship",
@@ -2684,26 +2460,6 @@
     "licenseUrl": "https://api.github.com/licenses/gpl-2.0"
   },
   {
-    "id": "bradharding-doomretro",
-    "repo": "bradharding/doomretro",
-    "title": "doomretro",
-    "game": null,
-    "author": "bradharding",
-    "console": "PC",
-    "mechanism": "native",
-    "platforms": [
-      "Windows"
-    ],
-    "stars": 779,
-    "description": "The classic, refined DOOM source port. For Windows PC.",
-    "version": "v6.3",
-    "releasedAt": "2026-08-08",
-    "sizeBytes": 4196567,
-    "releaseUrl": "https://github.com/bradharding/doomretro/releases/tag/v6.3",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
-  },
-  {
     "id": "taisei-project-taisei",
     "repo": "taisei-project/taisei",
     "title": "Taisei Project",
@@ -2766,26 +2522,6 @@
     "licenseUrl": "https://api.github.com/licenses/cc0-1.0"
   },
   {
-    "id": "dk8827-cnc-port",
-    "repo": "dk8827/cnc-port",
-    "title": "Command & Conquer",
-    "game": null,
-    "author": "dk8827",
-    "console": "PC",
-    "mechanism": "native",
-    "platforms": [
-      "macOS"
-    ],
-    "stars": 71,
-    "description": "Unofficial working port of Command & Conquer: Tiberian Dawn running natively on iOS, Android and macOS.",
-    "version": null,
-    "releasedAt": "2026-07-12",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/dk8827/cnc-port/releases",
-    "licenseId": "NOASSERTION",
-    "licenseUrl": null
-  },
-  {
     "id": "rrika-cdcenginedxhr",
     "repo": "rrika/cdcEngineDXHR",
     "title": "Deus Ex",
@@ -2803,68 +2539,6 @@
     "sizeBytes": null,
     "releaseUrl": "https://github.com/rrika/cdcEngineDXHR/releases",
     "licenseId": null,
-    "licenseUrl": null
-  },
-  {
-    "id": "xenios-jp-xenios",
-    "repo": "xenios-jp/XeniOS",
-    "title": "Xenia",
-    "game": null,
-    "author": "xenios-jp",
-    "console": "Xbox 360",
-    "mechanism": "in-progress",
-    "platforms": [
-      "macOS"
-    ],
-    "stars": 325,
-    "description": "The iOS and MacOS port of Xenia, the Xbox 360 Emulator Research project.",
-    "version": "release-v2.0.1-build-9730",
-    "releasedAt": "2026-06-08",
-    "sizeBytes": 77245617,
-    "releaseUrl": "https://github.com/xenios-jp/XeniOS/releases/tag/release-v2.0.1-build-9730",
-    "licenseId": "BSD-3-Clause",
-    "licenseUrl": "https://api.github.com/licenses/bsd-3-clause"
-  },
-  {
-    "id": "emoose-idaxex",
-    "repo": "emoose/idaxex",
-    "title": "idaxex",
-    "game": null,
-    "author": "emoose",
-    "console": "Xbox 360",
-    "mechanism": "native",
-    "platforms": [
-      "Windows"
-    ],
-    "stars": 215,
-    "description": "XEX/XBE loader plugin for IDA 9, and xex1tool, supporting most known Xbox/Xbox360 executable formats.",
-    "version": "0.44",
-    "releasedAt": "2026-06-04",
-    "sizeBytes": 1134540,
-    "releaseUrl": "https://github.com/emoose/idaxex/releases/tag/0.44",
-    "licenseId": "BSD-3-Clause",
-    "licenseUrl": "https://api.github.com/licenses/bsd-3-clause"
-  },
-  {
-    "id": "bibendovsky-bstone",
-    "repo": "bibendovsky/bstone",
-    "title": "bstone",
-    "game": null,
-    "author": "bibendovsky",
-    "console": "PC",
-    "mechanism": "native",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "macOS"
-    ],
-    "stars": 372,
-    "description": "Unofficial source port for Blake Stone series",
-    "version": "v1.3.4",
-    "releasedAt": "2026-05-27",
-    "sizeBytes": 2242517,
-    "releaseUrl": "https://github.com/bibendovsky/bstone/releases/tag/v1.3.4",
-    "licenseId": "NOASSERTION",
     "licenseUrl": null
   },
   {
@@ -2951,27 +2625,6 @@
     "licenseUrl": null
   },
   {
-    "id": "jnechaevsky-international-doom",
-    "repo": "JNechaevsky/international-doom",
-    "title": "international doom",
-    "game": null,
-    "author": "JNechaevsky",
-    "console": "PC",
-    "mechanism": "native",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 53,
-    "description": "Small, functional and simple source ports, created with help, efforts and bits of code from people around the world.",
-    "version": "9.0",
-    "releasedAt": "2026-03-31",
-    "sizeBytes": 26787775,
-    "releaseUrl": "https://github.com/JNechaevsky/international-doom/releases/tag/9.0",
-    "licenseId": "GPL-2.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-2.0"
-  },
-  {
     "id": "nmlgc-rec98",
     "repo": "nmlgc/ReC98",
     "title": "ReC98",
@@ -3052,28 +2705,6 @@
     "releaseUrl": "https://github.com/klorfmorf/Goemon64Recomp/releases/tag/v0.2.0-dev",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
-  },
-  {
-    "id": "iliazeus-iso2god-rs",
-    "repo": "iliazeus/iso2god-rs",
-    "title": "iso2god rs",
-    "game": null,
-    "author": "iliazeus",
-    "console": "Xbox 360",
-    "mechanism": "native",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "macOS"
-    ],
-    "stars": 294,
-    "description": "A command-line tool to convert Xbox 360 and original Xbox ISOs into an Xbox 360 compatible Games-On-Demand file format. For Linux, Windows and MacOS.",
-    "version": "v1.8.1",
-    "releasedAt": "2025-08-10",
-    "sizeBytes": 1317368,
-    "releaseUrl": "https://github.com/iliazeus/iso2god-rs/releases/tag/v1.8.1",
-    "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit"
   },
   {
     "id": "dancol90-mi-360",
@@ -3181,26 +2812,6 @@
     "licenseUrl": null
   },
   {
-    "id": "wojciech-graj-doom-docm",
-    "repo": "wojciech-graj/doom-docm",
-    "title": "doom docm",
-    "game": null,
-    "author": "wojciech-graj",
-    "console": "PC",
-    "mechanism": "native",
-    "platforms": [
-      "Windows"
-    ],
-    "stars": 292,
-    "description": "DooM in Microsoft Word",
-    "version": "0.2.0",
-    "releasedAt": "2025-01-21",
-    "sizeBytes": 6918803,
-    "releaseUrl": "https://github.com/wojciech-graj/doom-docm/releases/tag/0.2.0",
-    "licenseId": "GPL-2.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-2.0"
-  },
-  {
     "id": "wheremyfoodat-panda3ds",
     "repo": "wheremyfoodat/Panda3DS",
     "title": "Panda3DS",
@@ -3241,26 +2852,6 @@
     "releaseUrl": "https://github.com/kernaltrap8/WoR-Plus/releases/tag/v0.8b",
     "licenseId": null,
     "licenseUrl": null
-  },
-  {
-    "id": "wojciech-graj-cydoomgeneric",
-    "repo": "wojciech-graj/cydoomgeneric",
-    "title": "cydoomgeneric",
-    "game": null,
-    "author": "wojciech-graj",
-    "console": "PC",
-    "mechanism": "native",
-    "platforms": [
-      "Windows"
-    ],
-    "stars": 95,
-    "description": "Easily portable DooM for Python (+ some pretty sick demos)",
-    "version": null,
-    "releasedAt": "2024-11-16",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/wojciech-graj/cydoomgeneric/releases",
-    "licenseId": "GPL-2.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-2.0"
   },
   {
     "id": "aerosoul94-fatxtools",
@@ -3325,46 +2916,6 @@
     "licenseUrl": null
   },
   {
-    "id": "byteoverlord-watch-quake",
-    "repo": "ByteOverlord/Watch_Quake",
-    "title": "Watch Quake",
-    "game": null,
-    "author": "ByteOverlord",
-    "console": "PC",
-    "mechanism": "native",
-    "platforms": [
-      "Windows"
-    ],
-    "stars": 308,
-    "description": "Quake 1 port for Apple Watch",
-    "version": null,
-    "releasedAt": "2023-10-10",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/ByteOverlord/Watch_Quake/releases",
-    "licenseId": "GPL-2.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-2.0"
-  },
-  {
-    "id": "byteoverlord-watch-quake2",
-    "repo": "ByteOverlord/Watch_Quake2",
-    "title": "Watch Quake2",
-    "game": null,
-    "author": "ByteOverlord",
-    "console": "PC",
-    "mechanism": "native",
-    "platforms": [
-      "Windows"
-    ],
-    "stars": 52,
-    "description": "Quake 2 port for Apple Watch",
-    "version": null,
-    "releasedAt": "2023-10-10",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/ByteOverlord/Watch_Quake2/releases",
-    "licenseId": "GPL-2.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-2.0"
-  },
-  {
     "id": "halo-re-halo",
     "repo": "halo-re/halo",
     "title": "halo",
@@ -3403,26 +2954,6 @@
     "releaseUrl": "https://github.com/Xeeynamo/sotn-decomp/releases/tag/cc1-psx-26",
     "licenseId": "AGPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/agpl-3.0"
-  },
-  {
-    "id": "ctr-tools-ctr-modsdk",
-    "repo": "CTR-tools/CTR-ModSDK",
-    "title": "CTR ModSDK",
-    "game": null,
-    "author": "CTR-tools",
-    "console": "PlayStation",
-    "mechanism": "native",
-    "platforms": [
-      "Windows"
-    ],
-    "stars": 455,
-    "description": "ModSDK - a modding toolkit to create mods for Crash Team Racing in C. This repository also houses an effort to fully decompile and reverse-engineer CTR in C.",
-    "version": "r11",
-    "releasedAt": "2023-03-26",
-    "sizeBytes": 23197361,
-    "releaseUrl": "https://github.com/CTR-tools/CTR-ModSDK/releases/tag/r11",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
   },
   {
     "id": "decomp-decomp",
@@ -3483,26 +3014,6 @@
     "releaseUrl": "https://github.com/jval1972/Rad-X/releases/tag/1.2.21.755",
     "licenseId": "GPL-2.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-2.0"
-  },
-  {
-    "id": "jval1972-delphidoom",
-    "repo": "jval1972/DelphiDoom",
-    "title": "Doom",
-    "game": null,
-    "author": "jval1972",
-    "console": "PC",
-    "mechanism": "native",
-    "platforms": [
-      "Windows"
-    ],
-    "stars": 64,
-    "description": "Source port of Doom, Heretic, Hexen and Strife developed in Delphi",
-    "version": "2.0.7.735",
-    "releasedAt": "2022-05-01",
-    "sizeBytes": 10990688,
-    "releaseUrl": "https://github.com/jval1972/DelphiDoom/releases/tag/2.0.7.735",
-    "licenseId": null,
-    "licenseUrl": null
   },
   {
     "id": "hmxmilohax-guitar-hero-ii-deluxe-360",
@@ -3587,26 +3098,6 @@
     "licenseUrl": null
   },
   {
-    "id": "team-eternity-calico-doom",
-    "repo": "team-eternity/calico-doom",
-    "title": "Jaguar Doom to the PC",
-    "game": null,
-    "author": "team-eternity",
-    "console": "PC",
-    "mechanism": "native",
-    "platforms": [
-      "Windows"
-    ],
-    "stars": 57,
-    "description": "Backport of Jaguar Doom to the PC",
-    "version": "v2.0",
-    "releasedAt": "2021-01-31",
-    "sizeBytes": 1220674,
-    "releaseUrl": "https://github.com/team-eternity/calico-doom/releases/tag/v2.0",
-    "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit"
-  },
-  {
     "id": "emoose-xbox-winfsp",
     "repo": "emoose/xbox-winfsp",
     "title": "xbox winfsp",
@@ -3623,26 +3114,6 @@
     "releasedAt": "2021-01-31",
     "sizeBytes": 91465,
     "releaseUrl": "https://github.com/emoose/xbox-winfsp/releases/tag/0.4",
-    "licenseId": null,
-    "licenseUrl": null
-  },
-  {
-    "id": "skyjake-doomsday-engine",
-    "repo": "skyjake/Doomsday-Engine",
-    "title": "Doom",
-    "game": null,
-    "author": "skyjake",
-    "console": "PC",
-    "mechanism": "native",
-    "platforms": [
-      "Windows"
-    ],
-    "stars": 306,
-    "description": "A portable, enhanced source port of Doom, Heretic and Hexen.",
-    "version": "v2.3.0",
-    "releasedAt": "2020-12-30",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/skyjake/Doomsday-Engine/releases/tag/v2.3.0",
     "licenseId": null,
     "licenseUrl": null
   },

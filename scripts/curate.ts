@@ -104,6 +104,19 @@ const CURATED: Record<string, Curation> = {
     title: 'Driveclub',
     console: 'PlayStation 4',
   },
+
+  // Second batch, from the 200–400 star range. Of the twenty candidates there,
+  // only these four were console games reaching the PC; the rest were source
+  // ports of PC games, tooling, or ports targeting phones and other consoles,
+  // and the quality filter now rejects those at ingestion.
+  'projectPiki/pikmin': { game: 'pikmin', title: 'Pikmin', console: 'GameCube' },
+  'projectPiki/pikmin2': { game: 'pikmin-2', title: 'Pikmin 2', console: 'GameCube' },
+  'adonis-singh/re4': { game: 'resident-evil-4', title: 'Resident Evil 4', console: 'GameCube' },
+  'SNO2207/WindowSmash': {
+    game: 'smash-ultimate',
+    title: 'Super Smash Bros. Ultimate',
+    console: 'Nintendo Switch',
+  },
 }
 
 type Row = { repo: string; title: string; game: string | null; console: string }

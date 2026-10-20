@@ -41,7 +41,26 @@ const NOT_A_PORT =
  * port. The distinction is the noun: "a decompiler" is the tool, while
  * "decompilation of <game>" is the project this catalog is about.
  */
-const GENERIC_TOOL = /\b(decompiler|disassembler|deobfuscator|decompilation (engine|framework|tool))\b/i
+const GENERIC_TOOL =
+  /\b(decompiler|disassembler|deobfuscator|decompilation (engine|framework|tool)|loader plugin|splitting tool|command.?line tool|automated tool|modding (toolkit|sdk))\b/i
+
+/**
+ * Source ports of games that were already PC games. Doom, Quake, Heretic,
+ * Hexen and the Build engine have a large and healthy source-port scene, but
+ * this catalog is about console games reaching the PC — a Doom port is not
+ * that, however good it is.
+ */
+const PC_NATIVE_GAME =
+  /\b(doom|quake|heretic|hexen|blake stone|duke nukem 3d|build engine|boom\/mbf|wolfenstein 3d)\b/i
+
+/**
+ * The catalog is about the PC. A port whose only target is a phone, a watch or
+ * another console is real work and the wrong catalog — so it is rejected only
+ * when no PC target is mentioned at all, because most ports list Windows
+ * alongside macOS and Android.
+ */
+const NON_PC_TARGET = /\b(ios|ipados|android|apple watch|playstation 5|ps5|nintendo switch port)\b/i
+const PC_TARGET = /\b(windows|linux|pc|steam ?deck|win64|x86|desktop)\b/i
 
 /**
  * Evidence the project is a port of a console game to PC.
@@ -69,6 +88,12 @@ export function isCatalogable(c: Candidate): Verdict {
   }
   if (GENERIC_TOOL.test(hay)) {
     return { ok: false, reason: 'general reverse-engineering tool, not a game port' }
+  }
+  if (PC_NATIVE_GAME.test(hay)) {
+    return { ok: false, reason: 'source port of a game that was already a PC game' }
+  }
+  if (NON_PC_TARGET.test(hay) && !PC_TARGET.test(hay)) {
+    return { ok: false, reason: 'targets a phone, watch or console rather than the PC' }
   }
 
   // A published release with a real asset is the strongest evidence that
