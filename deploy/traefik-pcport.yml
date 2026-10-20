@@ -1,0 +1,31 @@
+# Routing for the shared Traefik on the host.
+# Install to /opt/traefik/dynamic/pcport.yml — the file provider watches that
+# directory, so it takes effect without restarting Traefik or touching any
+# other site.
+#
+# Conventions copied from the sites already running there: the `letsencrypt`
+# resolver (HTTP-01 over the `web` entrypoint), the shared `https-headers`
+# middleware, and services addressed by container name on `traefik-proxy`.
+
+http:
+  routers:
+    pcport:
+      rule: "Host(`pcport.org`) || Host(`www.pcport.org`)"
+      entryPoints: [websecure]
+      service: pcport
+      tls: { certResolver: letsencrypt }
+      # www folds into the apex so one canonical host accumulates the authority.
+      middlewares: [https-headers, pcport-wwwredirect]
+
+  services:
+    pcport:
+      loadBalancer:
+        servers:
+          - url: "http://pcport-app:3000"
+
+  middlewares:
+    pcport-wwwredirect:
+      redirectRegex:
+        regex: "^https?://www\\.pcport\\.org/(.*)"
+        replacement: "https://pcport.org/${1}"
+        permanent: true
