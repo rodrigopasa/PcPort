@@ -1,0 +1,82 @@
+name: Refresh catalog
+
+# Release spikes decay within days, so the cost of being late is losing the
+# traffic entirely. Hourly is the cadence that wins them.
+on:
+  schedule:
+    # Hourly: catch releases.
+    - cron: '7 * * * *'
+    # Mondays 04:07 UTC: also re-scan images. The weekly run matches this
+    # expression exactly, which is how the image step knows to fire.
+    - cron: '7 4 * * 1'
+  workflow_dispatch:
+    inputs:
+      images:
+        description: 'Also re-scan images (slower; weekly is enough)'
+        type: boolean
+        default: false
+
+concurrency:
+  group: catalog
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Refresh catalog from GitHub
+        id: catalog
+        env:
+          # Provided to every run: 1000 requests an hour, which is far above
+          # what this needs and removes the need for a personal token.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SITE_ORIGIN: ${{ secrets.SITE_ORIGIN }}
+          REVALIDATE_TOKEN: ${{ secrets.REVALIDATE_TOKEN }}
+        run: npx tsx scripts/build-catalog.ts
+
+      # Images move far more slowly than releases, so they are a weekly job
+      # rather than an hourly one.
+      - name: Re-scan images
+        if: inputs.images || github.event.schedule == '7 4 * * 1'
+        env:
+          IGDB_CLIENT_ID: ${{ secrets.IGDB_CLIENT_ID }}
+          IGDB_CLIENT_SECRET: ${{ secrets.IGDB_CLIENT_SECRET }}
+        run: |
+          npx tsx scripts/shots.ts || true
+          npx tsx scripts/shots-extra.ts || true
+          npx tsx scripts/fandom.ts || true
+          if [ -n "$IGDB_CLIENT_ID" ]; then npx tsx scripts/enrich.ts || true; fi
+
+      # The guard is the one rule the catalog cannot drift on, so a run that
+      # breaks it never reaches the repository.
+      - name: Test
+        run: npm test
+
+      - name: Build
+        run: npm run build
+
+      - name: Commit updated data
+        run: |
+          if git diff --quiet -- lib/; then
+            echo "nothing changed"
+            exit 0
+          fi
+          git config user.name  "pcport-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add lib/catalog.json lib/shots.json lib/fandom.json lib/covers.json
+          git commit -m "Atualiza catálogo ($(date -u +%Y-%m-%d\ %H:%M) UTC)"
+          git push

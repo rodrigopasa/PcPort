@@ -1,14 +1,19 @@
 /**
- * Builds the catalog from GitHub. This is the real pipeline.
+ * Builds and refreshes the catalog from GitHub. This is the real pipeline.
  *
  *   GITHUB_TOKEN=... npx tsx scripts/build-catalog.ts
  *
  * Every field written here came from the API: repo, description, release tag,
- * publish date, asset size, licence, owner. Nothing is hand-written, so nothing
- * can be a guess. Entries that fail the game-data guard are dropped.
+ * date, asset size, licence, owner. Nothing is hand-written, so nothing can be
+ * a guess. Releases that carry game data are rejected by the guard.
  *
- * Writes lib/catalog.json. Resumable: existing rows are kept when a run is cut
- * short by the rate limit.
+ * Two jobs in one pass:
+ *   - REFRESH every entry already in the catalog, because a cron that skipped
+ *     them would never see a new release, which is the whole point.
+ *   - DISCOVER new projects from the seed list and GitHub topic search.
+ *
+ * Hand-curated fields survive a refresh: `game` links an entry to lib/games.ts
+ * and `title` is the game's real name, neither of which the API can infer.
  */
 import { writeFile, readFile } from 'node:fs/promises'
 import { checkRelease } from '../lib/guard'
@@ -18,7 +23,11 @@ const API = 'https://api.github.com'
 const TOKEN = process.env.GITHUB_TOKEN
 const OUT = 'lib/catalog.json'
 
-const PROBE = [
+/** Minimum stars for an auto-discovered project to enter the catalog. */
+const MIN_STARS = 40
+
+/** Known hubs of the scene. Discovery adds to this; it never replaces it. */
+const SEED = [
   'HarbourMasters/Shipwright',
   'HarbourMasters/Ghostship',
   '2ship2harkinian/2ship2harkinian',
@@ -27,30 +36,16 @@ const PROBE = [
   'shadps4-emu/shadPS4',
   'taisei-project/taisei',
   'EXOK/Celeste64',
-  'TGP482/SCDA-XBERecomp',
-  'murkantor/Project-Midas',
-  'jkdansereau/goldeneye-pc-port',
-  'psxrestore/Condemned2Recomp',
-  'NoRain211/doaxvb-re',
-  'LittleBitUA/DPRecomp',
-  'Jorge262007/FFTARecomp',
-  'Yokimitsuro/khdays-port',
-  'saulob/dragons-crown-pro-pc',
-  'KIexster/god-of-war-recomp',
-  'Yharnam-Hunters/Paleblood',
-  'JackandBeans/Snap64Recomp',
-  'KaikoClanworth1/wwe-svr2011-pc',
-  'GiZcesi/OpenTricky',
-  'wivi514/Dead_Rising_2_Case_Zero_Xenon_Recomp',
-  'vyanhursky/DefJamFFNY-recomp',
-  'kirklandsig/halo2-decompiled',
-  'some-scurvy-dog/banjo-tooie-scurvy-dog-port',
-  'gamboozino/ngbrecomp',
-  'invinceble55-wq/Estacado-The-Darkness-Recomp',
-  'GenryTheFox0/Project-2099',
-  'Shagg88/Athelas',
-  'pablocpas/OpenCMR2',
-  'alexbeavs-ps1-ports/psxrecomp-ports',
+]
+
+const TOPICS = [
+  'n64-recompilation',
+  'recompilation',
+  'decompilation',
+  'source-port',
+  'pc-port',
+  'xbox360',
+  'static-recompilation',
 ]
 
 type Repo = {
@@ -63,12 +58,12 @@ type Repo = {
   stargazers_count: number
   html_url: string
   pushed_at: string
+  archived: boolean
+  fork: boolean
 }
 
 type Release = {
   tag_name: string
-  name: string | null
-  body: string | null
   published_at: string
   html_url: string
   assets: { name: string; size: number; browser_download_url: string }[]
@@ -78,6 +73,7 @@ export type CatalogRow = {
   id: string
   repo: string
   title: string
+  game: string | null
   author: string
   console: string
   mechanism: Mechanism
@@ -92,6 +88,8 @@ export type CatalogRow = {
   licenseUrl: string | null
 }
 
+class RateLimit extends Error {}
+
 async function gh<T>(path: string): Promise<T | null> {
   const res = await fetch(`${API}${path}`, {
     headers: {
@@ -101,7 +99,7 @@ async function gh<T>(path: string): Promise<T | null> {
     },
   })
   if (res.status === 404) return null
-  if (res.status === 403) throw new Error('RATE_LIMIT')
+  if (res.status === 403 || res.status === 429) throw new RateLimit()
   if (!res.ok) return null
   return (await res.json()) as T
 }
@@ -109,19 +107,18 @@ async function gh<T>(path: string): Promise<T | null> {
 /** Read off the repo's own words — never inferred from the game's name. */
 function classify(repo: Repo): Mechanism {
   const hay = `${repo.description ?? ''} ${(repo.topics ?? []).join(' ')}`.toLowerCase()
-  if (/\b(wip|work in progress|not playable|unfinished|research|early)\b/.test(hay))
+  if (/\b(wip|work in progress|not playable|unfinished|research|early|in development)\b/.test(hay))
     return 'in-progress'
   if (/recompil/.test(hay)) return 'recompiled'
   if (/emulator|translation layer|compatibility layer|runtime for/.test(hay))
     return 'translation-layer'
-  if (/decompil|source port|native|pc port|port of/.test(hay)) return 'native'
   return 'native'
 }
 
 const CONSOLES: [RegExp, string][] = [
   [/\b(n64|nintendo 64)\b/i, 'Nintendo 64'],
-  [/\bxbox 360\b/i, 'Xbox 360'],
-  [/\b(original xbox|xbox)\b/i, 'Xbox'],
+  [/\bxbox ?360\b/i, 'Xbox 360'],
+  [/\b(original xbox|xbox|xbe)\b/i, 'Xbox'],
   [/\b(ps2|playstation 2)\b/i, 'PlayStation 2'],
   [/\b(ps4|playstation 4)\b/i, 'PlayStation 4'],
   [/\b(ps3|playstation 3)\b/i, 'PlayStation 3'],
@@ -131,7 +128,7 @@ const CONSOLES: [RegExp, string][] = [
   [/\b(gba|game boy advance)\b/i, 'Game Boy Advance'],
   [/\b(nintendo ds|nds)\b/i, 'Nintendo DS'],
   [/\bdreamcast\b/i, 'Dreamcast'],
-  [/\bnaomi|arcade\b/i, 'Arcade'],
+  [/\b(naomi|arcade)\b/i, 'Arcade'],
   [/\bswitch\b/i, 'Nintendo Switch'],
 ]
 
@@ -152,14 +149,17 @@ function detectPlatforms(release: Release | null, repo: Repo): string[] {
 
 /** Strip the port's own branding to get at the game's name. */
 function gameTitle(repo: Repo): string {
-  if (repo.description) {
-    const m = repo.description.match(
-      /(?:port of|recompilation of|decompilation of|version of)\s+([A-Z][^,.:(]{2,60})/i,
-    )
-    if (m) return m[1].trim()
-  }
-  return repo.name.replace(/[-_]/g, ' ').replace(/\b(recomp|port|pc|decomp)\b/gi, '').trim() ||
+  const m = repo.description?.match(
+    /(?:port of|recompilation of|decompilation of|version of)\s+([A-Z][^,.:(]{2,60})/i,
+  )
+  if (m) return m[1].trim()
+  return (
     repo.name
+      .replace(/[-_]/g, ' ')
+      .replace(/\b(recomp|recompiled|port|pc|decomp|decompiled|project)\b/gi, '')
+      .replace(/\s+/g, ' ')
+      .trim() || repo.name
+  )
 }
 
 function slugify(s: string) {
@@ -171,77 +171,150 @@ function slugify(s: string) {
     .replace(/^-|-$/g, '')
 }
 
+async function discover(): Promise<string[]> {
+  const found = new Set(SEED)
+  for (const topic of TOPICS) {
+    try {
+      const res = await gh<{ items: Repo[] }>(
+        `/search/repositories?q=topic:${topic}&sort=stars&per_page=50`,
+      )
+      for (const r of res?.items ?? []) {
+        if (r.stargazers_count >= MIN_STARS && !r.archived && !r.fork) found.add(r.full_name)
+      }
+    } catch (err) {
+      if (err instanceof RateLimit) throw err
+    }
+    await new Promise((r) => setTimeout(r, TOKEN ? 900 : 6500))
+  }
+  return [...found]
+}
+
+async function fetchRow(path: string, previous?: CatalogRow): Promise<CatalogRow | 'rejected' | null> {
+  const repo = await gh<Repo>(`/repos/${path}`)
+  if (!repo || repo.archived || repo.fork) return null
+
+  const release = await gh<Release>(`/repos/${path}/releases/latest`)
+  const assets = (release?.assets ?? []).map((a) => ({
+    name: a.name,
+    size: a.size,
+    url: a.browser_download_url,
+  }))
+
+  const verdict = checkRelease(assets)
+  if (!verdict.ok) {
+    console.warn(`   rejected: ${verdict.reason}`)
+    return 'rejected'
+  }
+
+  const biggest = [...assets].sort((a, b) => b.size - a.size)[0]
+
+  return {
+    id: previous?.id ?? slugify(repo.full_name),
+    repo: repo.full_name,
+    // Hand-curated and unreachable from the API: keep whatever is there.
+    title: previous?.title ?? gameTitle(repo),
+    game: previous?.game ?? null,
+    author: repo.owner.login,
+    console: previous?.console ?? detectConsole(repo),
+    mechanism: classify(repo),
+    platforms: detectPlatforms(release, repo),
+    stars: repo.stargazers_count,
+    description: repo.description ?? previous?.description ?? '',
+    version: release?.tag_name ?? previous?.version ?? null,
+    releasedAt: release?.published_at?.slice(0, 10) ?? repo.pushed_at.slice(0, 10),
+    sizeBytes: biggest?.size ?? previous?.sizeBytes ?? null,
+    releaseUrl: release?.html_url ?? `${repo.html_url}/releases`,
+    licenseId: repo.license?.spdx_id ?? null,
+    licenseUrl: repo.license?.url ?? null,
+  }
+}
+
 async function main() {
   const existing: CatalogRow[] = await readFile(OUT, 'utf8')
     .then((r) => JSON.parse(r))
     .catch(() => [])
   const byRepo = new Map(existing.map((r) => [r.repo, r]))
 
+  let targets: string[]
+  try {
+    targets = await discover()
+    console.log(`discovery: ${targets.length} candidate repositories`)
+  } catch {
+    console.warn('discovery hit the rate limit; refreshing existing entries only')
+    targets = []
+  }
+
+  // Refresh what is already catalogued first: a new release on a known project
+  // matters more than finding one more project.
+  const queue = [...new Set([...byRepo.keys(), ...targets])]
+
+  const changed: { repo: string; from: string | null; to: string | null }[] = []
   let added = 0
   let rejected = 0
   let limited = false
 
-  for (const path of PROBE) {
-    if (byRepo.has(path)) continue
+  for (const path of queue) {
+    const previous = byRepo.get(path)
     try {
-      const repo = await gh<Repo>(`/repos/${path}`)
-      if (!repo) continue
+      const row = await fetchRow(path, previous)
+      if (row === 'rejected') { rejected++; continue }
+      if (!row) continue
 
-      const release = await gh<Release>(`/repos/${path}/releases/latest`)
-      const assets = (release?.assets ?? []).map((a) => ({
-        name: a.name,
-        size: a.size,
-        url: a.browser_download_url,
-      }))
-
-      const verdict = checkRelease(assets)
-      if (!verdict.ok) {
-        console.warn(`rejected ${path}: ${verdict.reason}`)
-        rejected++
-        continue
+      if (!previous) {
+        // A discovered project needs a `game` mapping before its page can carry
+        // release dates and a summary; it ships with what the API gives.
+        byRepo.set(path, row)
+        added++
+        console.log(`+  ${row.title} — ${row.repo} ${row.version ?? ''}`)
+      } else {
+        if (previous.version !== row.version) {
+          changed.push({ repo: path, from: previous.version, to: row.version })
+          console.log(`~  ${row.title} — ${previous.version ?? 'none'} → ${row.version ?? 'none'}`)
+        }
+        byRepo.set(path, row)
       }
-
-      const biggest = [...assets].sort((a, b) => b.size - a.size)[0]
-      const title = gameTitle(repo)
-
-      byRepo.set(path, {
-        id: slugify(repo.full_name),
-        repo: repo.full_name,
-        title,
-        author: repo.owner.login,
-        console: detectConsole(repo),
-        mechanism: classify(repo),
-        platforms: detectPlatforms(release, repo),
-        stars: repo.stargazers_count,
-        description: repo.description ?? '',
-        version: release?.tag_name ?? null,
-        releasedAt: release?.published_at?.slice(0, 10) ?? repo.pushed_at.slice(0, 10),
-        sizeBytes: biggest?.size ?? null,
-        releaseUrl: release?.html_url ?? repo.html_url,
-        licenseId: repo.license?.spdx_id ?? null,
-        licenseUrl: repo.license?.url ?? null,
-      })
-      added++
-      console.log(`✓ ${path} — ${title} · ${release?.tag_name ?? 'no release'}`)
     } catch (err) {
-      if (err instanceof Error && err.message === 'RATE_LIMIT') {
+      if (err instanceof RateLimit) {
         console.warn('\nrate limit reached — saving what was collected')
         limited = true
         break
       }
       throw err
     }
-    await new Promise((r) => setTimeout(r, TOKEN ? 120 : 900))
+    await new Promise((r) => setTimeout(r, TOKEN ? 90 : 900))
   }
 
   const rows = [...byRepo.values()].sort((a, b) =>
     (b.releasedAt ?? '').localeCompare(a.releasedAt ?? ''),
   )
   await writeFile(OUT, `${JSON.stringify(rows, null, 2)}\n`)
+
   console.log(
-    `\n${rows.length} entries in ${OUT} (+${added} this run, ${rejected} rejected)` +
-      (limited ? ' — re-run with GITHUB_TOKEN to continue' : ''),
+    `\n${rows.length} entries · +${added} new · ${changed.length} updated · ${rejected} rejected` +
+      (limited ? ' · stopped early on the rate limit' : ''),
   )
+
+  // Tell the running site which pages to regenerate. Nothing else does.
+  if (changed.length && process.env.SITE_ORIGIN && process.env.REVALIDATE_TOKEN) {
+    const res = await fetch(`${process.env.SITE_ORIGIN}/api/revalidate`, {
+      method: 'POST',
+      headers: {
+        'content-type': 'application/json',
+        'x-revalidate-token': process.env.REVALIDATE_TOKEN,
+      },
+      body: JSON.stringify({
+        slugs: [],
+        consoles: [...new Set(rows.map((r) => r.console))],
+      }),
+    }).catch(() => null)
+    console.log(`revalidate: ${res?.status ?? 'unreachable'}`)
+  }
+
+  // The workflow reads this to decide whether to commit.
+  if (process.env.GITHUB_OUTPUT) {
+    const { appendFileSync } = await import('node:fs')
+    appendFileSync(process.env.GITHUB_OUTPUT, `changed=${added + changed.length}\n`)
+  }
 }
 
 main().catch((err) => {
