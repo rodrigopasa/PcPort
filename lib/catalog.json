@@ -30,7 +30,7 @@
     "platforms": [
       "Linux"
     ],
-    "stars": 97,
+    "stars": 98,
     "description": "Halo 2 decompilation (decomp) for the original Xbox: a matching decompilation of the retail game into C/C++ source, rebuilt byte for byte, toward native PC, Linux and handheld ports. Contributors welcome. Source only; bring your own disc.",
     "version": null,
     "releasedAt": "2026-10-20",
@@ -70,7 +70,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 124,
+    "stars": 125,
     "description": "Native Windows port of Pokémon: Let's Go, Eevee! (Switch v1.0.0) by static recompilation, built on LAS Recomp. No game files included.",
     "version": "v0.5.0",
     "releasedAt": "2026-10-20",
@@ -194,7 +194,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 480,
+    "stars": 481,
     "description": "Native port of Metroid Prime (GameCube) for Linux, Windows and Android, built from the PrimeDecomp decompilation. No emulator, no game assets included: bring your own disc image.",
     "version": "v0.30.1",
     "releasedAt": "2026-10-20",
@@ -216,7 +216,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 402,
+    "stars": 404,
     "description": "PC, Android, iOS and macOS port of the ICO (PS2) decompilation (nathanialf/ico): Windows, Linux, Steam Deck, Android, iPhone via LiveContainer and Apple-silicon Mac (contributed). Contains no game data.",
     "version": "v0.8.2",
     "releasedAt": "2026-10-20",
@@ -296,7 +296,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 45,
+    "stars": 46,
     "description": "Native Windows PC recompilation of the unreleased GoldenEye 007 Xbox 360/XBLA remaster using ReXGlue. Requires your own copy.",
     "version": "v0.9.6",
     "releasedAt": "2026-10-20",
@@ -316,7 +316,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 304,
+    "stars": 305,
     "description": "Experimental Windows x64 native porting toolkit for Super Smash Bros. Ultimate: static AArch64 recompilation, a D3D11 runtime, and Local Wireless relay netplay.",
     "version": null,
     "releasedAt": "2026-10-20",
@@ -358,7 +358,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 586,
+    "stars": 587,
     "description": "PSX Static Recompiler and Runtime, Not Affiliated With Sony or PlayStation",
     "version": null,
     "releasedAt": "2026-10-20",
@@ -378,7 +378,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 2302,
+    "stars": 2303,
     "description": "Decompilation of The Legend of Zelda: Breath of the Wild (Switch 1.5.0)",
     "version": null,
     "releasedAt": "2026-10-20",
@@ -451,6 +451,28 @@
     "licenseUrl": "https://api.github.com/licenses/mit"
   },
   {
+    "id": "pablocpas-opencmr2",
+    "repo": "pablocpas/OpenCMR2",
+    "title": "Colin McRae Rally 2.0",
+    "game": "colin-mcrae-rally-2",
+    "author": "pablocpas",
+    "console": "PlayStation",
+    "mechanism": "native",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "stars": 76,
+    "description": "Native SDL3 port of Colin McRae Rally 2.0 built from the CMR2Decomp decompilation. No game data included.",
+    "version": "v1.5.2",
+    "releasedAt": "2026-10-20",
+    "sizeBytes": 14837691,
+    "releaseUrl": "https://github.com/pablocpas/OpenCMR2/releases/tag/v1.5.2",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
+  },
+  {
     "id": "yokimitsuro-khdays-port",
     "repo": "Yokimitsuro/khdays-port",
     "title": "Kingdom Hearts 358/2 Days",
@@ -483,7 +505,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 101,
+    "stars": 102,
     "description": "Def Jam: Fight for NY PC port — static recompilation of the original Xbox game for native Windows and macOS (Direct3D 11 / Vulkan). Bring your own game dump.",
     "version": "v0.10.5",
     "releasedAt": "2026-10-19",
@@ -512,28 +534,6 @@
     "releaseUrl": "https://github.com/gamboozino/ngbrecomp/releases",
     "licenseId": "GPL-2.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-2.0"
-  },
-  {
-    "id": "pablocpas-opencmr2",
-    "repo": "pablocpas/OpenCMR2",
-    "title": "Colin McRae Rally 2.0",
-    "game": "colin-mcrae-rally-2",
-    "author": "pablocpas",
-    "console": "PlayStation",
-    "mechanism": "native",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "macOS"
-    ],
-    "stars": 76,
-    "description": "Native SDL3 port of Colin McRae Rally 2.0 built from the CMR2Decomp decompilation. No game data included.",
-    "version": "v1.5.1",
-    "releasedAt": "2026-10-19",
-    "sizeBytes": 14837243,
-    "releaseUrl": "https://github.com/pablocpas/OpenCMR2/releases/tag/v1.5.1",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
   },
   {
     "id": "samuelit0davila-fifa-street-pc-port",
@@ -567,7 +567,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 109,
+    "stars": 110,
     "description": "Call of Duty: Modern Warfare 2 (2009) for Xbox 360 recompiled for Windows & Linux",
     "version": "v0.6.0",
     "releasedAt": "2026-10-19",
@@ -715,7 +715,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 706,
+    "stars": 710,
     "description": "Native PC port (Linux/Windows) of inFAMOUS Second Son (PS4, CUSA00223) — in development, playable; runs your own game dump; no game or firmware files included. Motion sensor emulation. | Port nativo para PC de inFAMOUS Second Son (em desenvolvimento) — usa o seu próprio dump.",
     "version": "v2026.10.19-d3995fe",
     "releasedAt": "2026-10-19",
@@ -800,7 +800,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 5698,
+    "stars": 5701,
     "description": "Ship of Harkinian: a PC port of Ocarina of Time built from the decompilation, with widescreen, high framerate and mod support.",
     "version": "9.3.1",
     "releasedAt": "2026-10-18",
@@ -820,7 +820,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 314,
+    "stars": 315,
     "description": "An unofficial original Xbox version PC port of Splinter Cell: Double Agent via static recompilation.",
     "version": "V2",
     "releasedAt": "2026-10-18",
@@ -882,7 +882,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 160,
+    "stars": 161,
     "description": "Native Windows port of Final Fantasy Tactics Advance with widescreen, video/audio options and a one-click installer.",
     "version": "v3.0",
     "releasedAt": "2026-10-18",
@@ -902,7 +902,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 143,
+    "stars": 144,
     "description": "Native PC port of God of War (PS2) via static recompilation with PS2Recomp",
     "version": null,
     "releasedAt": "2026-10-18",
@@ -922,7 +922,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 579,
+    "stars": 584,
     "description": "An unofficial original Xbox version PC port of BLACK (2006) via static recompilation.",
     "version": "V2",
     "releasedAt": "2026-10-18",
@@ -1023,7 +1023,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 84,
+    "stars": 85,
     "description": "Unofficial PC port of the Xbox 360 version of Army of Two (2008). Online co-op supported.",
     "version": "v1.2",
     "releasedAt": "2026-10-18",
@@ -1127,7 +1127,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 152,
+    "stars": 153,
     "description": "Dragon's Crown Pro native PC port for Windows, with direct PS4 PKG installation, TRG launcher and modern graphics options",
     "version": "v0.6.0",
     "releasedAt": "2026-10-17",
@@ -1233,7 +1233,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 346,
+    "stars": 348,
     "description": "Native PC port (Linux/Windows) of The Last Guardian (PS4, CUSA03627) — runs your own game dump; no game or firmware files included. Mouse/keyboard, optional 60 FPS, SMAA/CAS filters. | Port nativo para PC de The Last Guardian — usa o seu próprio dump.",
     "version": "v2026.10.17-b8d5f41",
     "releasedAt": "2026-10-17",
@@ -1254,7 +1254,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 67,
+    "stars": 68,
     "description": "Native PC port (Linux/Windows) of Gravity Rush 2 (PS4, CUSA03694) — runs your own game dump; no game or firmware files included. Bilingual launcher (English/Portuguese). | Port nativo para PC de Gravity Rush 2 — usa o seu próprio dump.",
     "version": "v2026.10.17-fd637d0",
     "releasedAt": "2026-10-17",
@@ -1276,7 +1276,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 817,
+    "stars": 819,
     "description": "A playable preview of Forza Horizon static recompilation",
     "version": "v0.6.0",
     "releasedAt": "2026-10-17",
@@ -1442,7 +1442,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 33809,
+    "stars": 33811,
     "description": "PlayStation 4 emulator for Windows, Linux, macOS and FreeBSD written in C++",
     "version": "v.0.20.0",
     "releasedAt": "2026-10-14",
@@ -1570,7 +1570,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 3617,
+    "stars": 3619,
     "description": "Playstation 2 Static Recompiler & Runtime Tool to make native PC ports",
     "version": null,
     "releasedAt": "2026-10-14",
@@ -1590,7 +1590,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 163,
+    "stars": 164,
     "description": "Wind Waker HD (Wii U) static recompilation for Nintendo Switch, deko3d renderer. Requires your own game dump.",
     "version": "v0.4.7",
     "releasedAt": "2026-10-14",
@@ -1632,7 +1632,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 490,
+    "stars": 491,
     "description": "Static recompilation of a PSP game into a native executable. Vulkan and SDL3. Bring your own copy of the game.",
     "version": "v0.7.5",
     "releasedAt": "2026-10-13",
@@ -2325,7 +2325,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 315,
+    "stars": 316,
     "description": "Silent Hill: Downpour — native Windows PC port via static recompilation of the Xbox 360 binary. v1.0 stable: 60 FPS unlocked, ROV warm-cache, standalone launcher, DualSense adaptive triggers, portable saves. Tested on USA + Europe X360 dumps.",
     "version": "v1.1.8",
     "releasedAt": "2026-09-02",
@@ -3127,7 +3127,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 1420,
+    "stars": 1421,
     "description": "Driver 2 Playstation game reverse engineering effort",
     "version": "7.4-rc2",
     "releasedAt": "2022-02-04",
