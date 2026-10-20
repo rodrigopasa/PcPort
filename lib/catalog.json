@@ -70,7 +70,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 125,
+    "stars": 128,
     "description": "Native Windows port of Pokémon: Let's Go, Eevee! (Switch v1.0.0) by static recompilation, built on LAS Recomp. No game files included.",
     "version": "v0.5.0",
     "releasedAt": "2026-10-20",
@@ -132,7 +132,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 947,
+    "stars": 948,
     "description": "An in-progress decompilation of Silent Hill on the PlayStation 1.",
     "version": null,
     "releasedAt": "2026-10-20",
@@ -216,7 +216,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 404,
+    "stars": 405,
     "description": "PC, Android, iOS and macOS port of the ICO (PS2) decompilation (nathanialf/ico): Windows, Linux, Steam Deck, Android, iPhone via LiveContainer and Apple-silicon Mac (contributed). Contains no game data.",
     "version": "v0.8.2",
     "releasedAt": "2026-10-20",
@@ -342,7 +342,7 @@
     "description": "Virtua Fighter (Sega Model 1, 1993) statically recompiled for Mac, Windows and Steam Deck: up to 6x, widescreen, smooth 120 fps. Bring your own vf.zip.",
     "version": "v1.4.0",
     "releasedAt": "2026-10-20",
-    "sizeBytes": 7614338,
+    "sizeBytes": 7617525,
     "releaseUrl": "https://github.com/mr-finster/vf1-recomp/releases/tag/v1.4.0",
     "licenseId": "NOASSERTION",
     "licenseUrl": null
@@ -378,7 +378,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 2305,
+    "stars": 2306,
     "description": "Decompilation of The Legend of Zelda: Breath of the Wild (Switch 1.5.0)",
     "version": null,
     "releasedAt": "2026-10-20",
@@ -490,8 +490,8 @@
     "releasedAt": "2026-10-20",
     "sizeBytes": null,
     "releaseUrl": "https://github.com/gamboozino/ngbrecomp/releases",
-    "licenseId": "GPL-2.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-2.0"
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
   },
   {
     "id": "rrika-cdcenginedxhr",
@@ -514,6 +514,66 @@
     "licenseUrl": null
   },
   {
+    "id": "samuelit0davila-fifa-street-pc-port",
+    "repo": "samuelit0davila/fifa-street-pc-port",
+    "title": "FIFA Street",
+    "game": "fifa-street",
+    "author": "samuelit0davila",
+    "console": "Xbox 360",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows"
+    ],
+    "stars": 381,
+    "description": "ReStreet: FIFA Street (2012) recompiled for Windows PC, with online play, a launcher with friends, chat and rooms. Bring your own game.",
+    "version": "v2.0.5-online-beta",
+    "releasedAt": "2026-10-20",
+    "sizeBytes": 450031115,
+    "releaseUrl": "https://github.com/samuelit0davila/fifa-street-pc-port/releases/tag/v2.0.5-online-beta",
+    "licenseId": "MIT",
+    "licenseUrl": "https://api.github.com/licenses/mit"
+  },
+  {
+    "id": "sp00nznet-redalert2-recomp",
+    "repo": "sp00nznet/redalert2-recomp",
+    "title": "Command & Conquer",
+    "game": null,
+    "author": "sp00nznet",
+    "console": "PC",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows"
+    ],
+    "stars": 57,
+    "description": "Static recompilation of Command & Conquer: Red Alert 2 / Yuri's Revenge (Westwood, 2000-01) to native C, with the remaster the engine never got: a D3D11 presenter, 720p to 4K, HD voxel units. Built on pcrecomp.",
+    "version": null,
+    "releasedAt": "2026-10-20",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/sp00nznet/redalert2-recomp/releases",
+    "licenseId": "MIT",
+    "licenseUrl": "https://api.github.com/licenses/mit"
+  },
+  {
+    "id": "santiquiroz-gears-of-war-2-pc-port",
+    "repo": "santiquiroz/gears-of-war-2-pc-port",
+    "title": "gears of war 2",
+    "game": null,
+    "author": "santiquiroz",
+    "console": "Xbox 360",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows"
+    ],
+    "stars": 40,
+    "description": "Gears of War 2 native PC port: the Xbox 360 game statically recompiled to x64 (not an emulator). 1440p/4K, FSR, 4K texture packs, keyboard & mouse, Android in progress. Bring your own copy.",
+    "version": "v0.2.5",
+    "releasedAt": "2026-10-20",
+    "sizeBytes": 69087523,
+    "releaseUrl": "https://github.com/santiquiroz/gears-of-war-2-pc-port/releases/tag/v0.2.5",
+    "licenseId": "BSD-3-Clause",
+    "licenseUrl": "https://api.github.com/licenses/bsd-3-clause"
+  },
+  {
     "id": "yokimitsuro-khdays-port",
     "repo": "Yokimitsuro/khdays-port",
     "title": "Kingdom Hearts 358/2 Days",
@@ -524,7 +584,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 166,
+    "stars": 167,
     "description": "Experimental native PC runtime for Kingdom Hearts 358/2 Days, developed alongside the matching Nintendo DS decompilation. No copyrighted game data included.",
     "version": "v0.1.3",
     "releasedAt": "2026-10-19",
@@ -546,7 +606,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 102,
+    "stars": 103,
     "description": "Def Jam: Fight for NY PC port — static recompilation of the original Xbox game for native Windows and macOS (Direct3D 11 / Vulkan). Bring your own game dump.",
     "version": "v0.10.5",
     "releasedAt": "2026-10-19",
@@ -554,26 +614,6 @@
     "releaseUrl": "https://github.com/vyanhursky/DefJamFFNY-recomp/releases/tag/v0.10.5",
     "licenseId": "NOASSERTION",
     "licenseUrl": null
-  },
-  {
-    "id": "samuelit0davila-fifa-street-pc-port",
-    "repo": "samuelit0davila/fifa-street-pc-port",
-    "title": "FIFA Street",
-    "game": "fifa-street",
-    "author": "samuelit0davila",
-    "console": "Xbox 360",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows"
-    ],
-    "stars": 378,
-    "description": "ReStreet: FIFA Street (2012) recompiled for Windows PC, with online play, a launcher with friends, chat and rooms. Bring your own game.",
-    "version": "v2.0.4-online-beta",
-    "releasedAt": "2026-10-19",
-    "sizeBytes": 370105867,
-    "releaseUrl": "https://github.com/samuelit0davila/fifa-street-pc-port/releases/tag/v2.0.4-online-beta",
-    "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit"
   },
   {
     "id": "paulcombal-mw2-recompiled",
@@ -628,7 +668,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 80,
+    "stars": 81,
     "description": "Dragon Ball Z: Burst Limit Recompiled - native PC port via ReXGlue static recompilation",
     "version": "v0.6.2-alpha",
     "releasedAt": "2026-10-19",
@@ -676,7 +716,7 @@
     "description": "Virtua Fighter 2 (Sega Model 2, 1994) for Mac, Windows and Steam Deck: the arcade's i960 program recompiled to native code, up to 6x, widescreen, smooth 120 fps. Bring your own vf2.zip.",
     "version": "v0.1.12",
     "releasedAt": "2026-10-19",
-    "sizeBytes": 8402745,
+    "sizeBytes": 8407614,
     "releaseUrl": "https://github.com/mr-finster/vf2-recomp/releases/tag/v0.1.12",
     "licenseId": "NOASSERTION",
     "licenseUrl": null
@@ -692,7 +732,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 724,
+    "stars": 726,
     "description": "Decompilation of Pokemon HeartGold/SoulSilver",
     "version": null,
     "releasedAt": "2026-10-19",
@@ -735,7 +775,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 710,
+    "stars": 712,
     "description": "Native PC port (Linux/Windows) of inFAMOUS Second Son (PS4, CUSA00223) — in development, playable; runs your own game dump; no game or firmware files included. Motion sensor emulation. | Port nativo para PC de inFAMOUS Second Son (em desenvolvimento) — usa o seu próprio dump.",
     "version": "v2026.10.19-d3995fe",
     "releasedAt": "2026-10-19",
@@ -778,32 +818,12 @@
       "Windows",
       "Linux"
     ],
-    "stars": 244,
+    "stars": 245,
     "description": "Forza Horizon (Xbox 360) natively on PC, rebuilt around the modern Horizon experience: shared online free roam, leaderboards and rivals, 120/144 fps, and a self-hostable online server.",
     "version": "v0.1.24",
     "releasedAt": "2026-10-19",
     "sizeBytes": 83467525,
     "releaseUrl": "https://github.com/Dyotson/ForzaHorizon1-ReImagined/releases/tag/v0.1.24",
-    "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit"
-  },
-  {
-    "id": "sp00nznet-redalert2-recomp",
-    "repo": "sp00nznet/redalert2-recomp",
-    "title": "Command & Conquer",
-    "game": null,
-    "author": "sp00nznet",
-    "console": "PC",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows"
-    ],
-    "stars": 57,
-    "description": "Static recompilation of Command & Conquer: Red Alert 2 / Yuri's Revenge (Westwood, 2000-01) to native C, with the remaster the engine never got: a D3D11 presenter, 720p to 4K, HD voxel units. Built on pcrecomp.",
-    "version": null,
-    "releasedAt": "2026-10-19",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/sp00nznet/redalert2-recomp/releases",
     "licenseId": "MIT",
     "licenseUrl": "https://api.github.com/licenses/mit"
   },
@@ -818,7 +838,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 57,
+    "stars": 58,
     "description": "Dead or Alive 3 PC Port ",
     "version": "v1.0.6",
     "releasedAt": "2026-10-19",
@@ -901,7 +921,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 239,
+    "stars": 240,
     "description": "A static recompilation of Condemned 2: Bloodshot done with RexGlue.",
     "version": "0.3.7",
     "releasedAt": "2026-10-18",
@@ -942,7 +962,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 144,
+    "stars": 145,
     "description": "Native PC port of God of War (PS2) via static recompilation with PS2Recomp",
     "version": null,
     "releasedAt": "2026-10-18",
@@ -962,7 +982,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 587,
+    "stars": 588,
     "description": "An unofficial original Xbox version PC port of BLACK (2006) via static recompilation.",
     "version": "V2",
     "releasedAt": "2026-10-18",
@@ -1043,7 +1063,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 46,
+    "stars": 47,
     "description": "Unofficial native Windows port of ARMORED CORE for Answer (PS3), built from your own copy of the game. Part of Project Glintburn.",
     "version": "v0.7.2",
     "releasedAt": "2026-10-18",
@@ -1126,7 +1146,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 45,
+    "stars": 46,
     "description": "Static recompilation of the Sega 32X game Knuckles' Chaotix into native C++ (Windows/Linux/macOS/Android), with true widescreen. Bring your own ROM; no game data included.",
     "version": "v0.4.4",
     "releasedAt": "2026-10-18",
@@ -1146,7 +1166,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 43,
+    "stars": 44,
     "description": "Ultimate Mortal Kombat 3 (iOS, EA Mobile 2011), fully decompiled: all 2,572 game functions are readable C, checked against a static ARM-to-C recompiler. Native port in progress: menus, sound and saves run; fight data tables extracted from your copy and verified; not playable yet. No game assets - bring your own copy.",
     "version": null,
     "releasedAt": "2026-10-18",
@@ -1294,7 +1314,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 68,
+    "stars": 67,
     "description": "Native PC port (Linux/Windows) of Gravity Rush 2 (PS4, CUSA03694) — runs your own game dump; no game or firmware files included. Bilingual launcher (English/Portuguese). | Port nativo para PC de Gravity Rush 2 — usa o seu próprio dump.",
     "version": "v2026.10.17-fd637d0",
     "releasedAt": "2026-10-17",
@@ -1316,7 +1336,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 819,
+    "stars": 821,
     "description": "A playable preview of Forza Horizon static recompilation",
     "version": "v0.6.0",
     "releasedAt": "2026-10-17",
@@ -1482,7 +1502,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 33811,
+    "stars": 33812,
     "description": "PlayStation 4 emulator for Windows, Linux, macOS and FreeBSD written in C++",
     "version": "v.0.20.0",
     "releasedAt": "2026-10-14",
@@ -1610,7 +1630,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 3622,
+    "stars": 3623,
     "description": "Playstation 2 Static Recompiler & Runtime Tool to make native PC ports",
     "version": null,
     "releasedAt": "2026-10-14",
@@ -1672,7 +1692,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 491,
+    "stars": 492,
     "description": "Static recompilation of a PSP game into a native executable. Vulkan and SDL3. Bring your own copy of the game.",
     "version": "v0.7.5",
     "releasedAt": "2026-10-13",
@@ -1732,7 +1752,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 69,
+    "stars": 70,
     "description": "Community Windows PC port of Skate 2, built with ReXGlue. Controller support, adjustable rendering quality, and unlocked FPS. Original game files required.",
     "version": "v0.1.1",
     "releasedAt": "2026-10-12",
@@ -2219,7 +2239,7 @@
     "platforms": [
       "Linux"
     ],
-    "stars": 2131,
+    "stars": 2132,
     "description": "Reconstruct and validate C/C++ code from compiled programs with AI.",
     "version": "v0.4.0",
     "releasedAt": "2026-09-09",
