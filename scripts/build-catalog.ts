@@ -17,6 +17,7 @@
  */
 import { writeFile, readFile } from 'node:fs/promises'
 import { checkRelease } from '../lib/guard'
+import { isCatalogable } from '../lib/quality'
 import type { Mechanism } from '../lib/db/schema'
 
 const API = 'https://api.github.com'
@@ -207,6 +208,22 @@ async function fetchRow(path: string, previous?: CatalogRow): Promise<CatalogRow
   }
 
   const biggest = [...assets].sort((a, b) => b.size - a.size)[0]
+
+  // Topic search returns awesome-lists and emulator tooling alongside real
+  // ports. Those become thin pages, and thin pages drag the whole domain.
+  const quality = isCatalogable({
+    repo: repo.full_name,
+    title: previous?.title,
+    description: repo.description,
+    topics: repo.topics,
+    version: release?.tag_name ?? null,
+    sizeBytes: biggest?.size ?? null,
+    stars: repo.stargazers_count,
+  })
+  if (!quality.ok) {
+    console.warn(`   skipped: ${quality.reason}`)
+    return 'rejected'
+  }
 
   return {
     id: previous?.id ?? slugify(repo.full_name),
