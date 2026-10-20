@@ -311,6 +311,166 @@ export const GAMES: Record<string, GameMeta> = {
       en: 'A sixth-anniversary celebration of Celeste: a three-dimensional reinterpretation built in under two weeks by its original creators.',
     },
   },
+  'driver-2': {
+    releasedAt: '2000-11-13',
+    developer: 'Reflections Interactive',
+    publisher: 'Infogrames',
+    genres: ['Corrida', 'Ação', 'Mundo aberto'],
+    summary: {
+      pt: 'Sequência de Driver que acrescentou sair do carro a pé, em quatro cidades abertas com perseguições de polícia inspiradas no cinema policial dos anos 70.',
+      en: 'The Driver sequel that added stepping out of the car on foot, across four open cities with police chases drawn from 1970s crime cinema.',
+    },
+  },
+  'castlevania-sotn': {
+    releasedAt: '1997-03-20',
+    developer: 'Konami',
+    publisher: 'Konami',
+    genres: ['Metroidvania', 'RPG de ação'],
+    summary: {
+      pt: 'Alucard explora o castelo de Drácula num mapa interligado que se abre conforme você ganha habilidades. É metade do nome do gênero "metroidvania".',
+      en: 'Alucard explores Dracula\'s castle across one interconnected map that opens up as you gain abilities. It is half the name of the metroidvania genre.',
+    },
+  },
+  wipeout: {
+    releasedAt: '1995-09-29',
+    developer: 'Psygnosis',
+    publisher: 'Sony Computer Entertainment',
+    genres: ['Corrida', 'Futurista'],
+    summary: {
+      pt: 'Corrida antigravidade em alta velocidade que ajudou a definir a identidade do primeiro PlayStation, com trilha de música eletrônica e direção de arte do estúdio The Designers Republic.',
+      en: 'High-speed antigravity racing that helped define the first PlayStation\'s identity, with an electronic soundtrack and art direction by The Designers Republic.',
+    },
+  },
+  'forza-horizon': {
+    releasedAt: '2012-10-23',
+    developer: 'Playground Games',
+    publisher: 'Microsoft Studios',
+    genres: ['Corrida', 'Mundo aberto'],
+    summary: {
+      pt: 'O primeiro Horizon tirou a série Forza da pista fechada e a colocou num Colorado aberto, em volta de um festival de música e carros.',
+      en: 'The first Horizon took the Forza series off the closed circuit and into an open Colorado, built around a music and car festival.',
+    },
+  },
+  'silent-hill': {
+    releasedAt: '1999-01-31',
+    developer: 'Team Silent',
+    publisher: 'Konami',
+    genres: ['Terror', 'Survival horror'],
+    summary: {
+      pt: 'Harry Mason procura a filha desaparecida numa cidade tomada por névoa. O nevoeiro nasceu de uma limitação técnica do PlayStation e virou a assinatura da série.',
+      en: 'Harry Mason searches for his missing daughter in a town swallowed by fog. The fog began as a PlayStation hardware limitation and became the series\' signature.',
+    },
+  },
+  'infamous-second-son': {
+    releasedAt: '2014-03-21',
+    developer: 'Sucker Punch Productions',
+    publisher: 'Sony Computer Entertainment',
+    genres: ['Ação', 'Mundo aberto'],
+    summary: {
+      pt: 'Delsin Rowe absorve poderes de outros condutores numa Seattle aberta, com escolhas morais que mudam habilidades e final.',
+      en: 'Delsin Rowe absorbs powers from other conduits across an open Seattle, with moral choices that change both abilities and ending.',
+    },
+  },
+  black: {
+    releasedAt: '2006-02-24',
+    developer: 'Criterion Games',
+    publisher: 'Electronic Arts',
+    genres: ['Tiro em primeira pessoa'],
+    summary: {
+      pt: 'Tiro em primeira pessoa focado em destruição de cenário e no peso das armas, feito pelos criadores de Burnout no motor RenderWare.',
+      en: 'A first-person shooter built around environmental destruction and the weight of its guns, made by the Burnout team on the RenderWare engine.',
+    },
+  },
+  'metroid-prime': {
+    releasedAt: '2002-11-17',
+    developer: 'Retro Studios',
+    publisher: 'Nintendo',
+    genres: ['Aventura em primeira pessoa', 'Metroidvania'],
+    summary: {
+      pt: 'Levou Metroid para a primeira pessoa sem virar um jogo de tiro: exploração, varredura de ambiente e isolamento continuam no centro.',
+      en: 'Took Metroid into first person without becoming a shooter: exploration, scanning and isolation remain at the centre.',
+    },
+  },
+  'oddworld-abes-exoddus': {
+    releasedAt: '1998-11-17',
+    developer: 'Oddworld Inhabitants',
+    publisher: 'GT Interactive',
+    genres: ['Plataforma', 'Quebra-cabeça'],
+    summary: {
+      pt: 'Plataforma com quebra-cabeças em que você fala com outros Mudokons para guiá-los à segurança, em vez de lutar.',
+      en: 'A puzzle platformer where you speak to fellow Mudokons to guide them to safety rather than fighting.',
+    },
+  },
+  ico: {
+    releasedAt: '2001-09-24',
+    developer: 'Team Ico',
+    publisher: 'Sony Computer Entertainment',
+    genres: ['Aventura', 'Quebra-cabeça'],
+    summary: {
+      pt: 'Um menino guia uma garota pela mão através de um castelo vazio. Quase sem diálogo e sem interface, foi referência para o design minimalista que veio depois.',
+      en: 'A boy leads a girl by the hand through an empty castle. Almost wordless and interface-free, it set a reference for the minimal design that followed.',
+    },
+  },
+  'the-last-guardian': {
+    releasedAt: '2016-12-06',
+    developer: 'genDESIGN',
+    publisher: 'Sony Interactive Entertainment',
+    genres: ['Aventura', 'Quebra-cabeça'],
+    summary: {
+      pt: 'Um garoto e a criatura Trico resolvem quebra-cabeças juntos. O jogo aposta na teimosia do animal: ele hesita, se distrai e precisa ser convencido.',
+      en: 'A boy and the creature Trico solve puzzles together. The design leans on the animal\'s stubbornness: it hesitates, gets distracted and must be coaxed.',
+    },
+  },
+  'mystical-ninja-goemon': {
+    releasedAt: '1997-08-07',
+    developer: 'Konami',
+    publisher: 'Konami',
+    genres: ['Ação', 'Aventura'],
+    summary: {
+      pt: 'Aventura 3D de humor japonês com cidades exploráveis, masmorras e combates em robô gigante.',
+      en: 'A comedic 3D Japanese adventure with explorable towns, dungeons and giant-robot battles.',
+    },
+  },
+  'silent-hill-downpour': {
+    releasedAt: '2012-03-13',
+    developer: 'Vatra Games',
+    publisher: 'Konami',
+    genres: ['Terror', 'Survival horror'],
+    summary: {
+      pt: 'Um presidiário sobrevivente de acidente explora Silent Hill num mapa mais aberto que o dos jogos anteriores, com missões paralelas.',
+      en: 'A convict who survives a crash explores Silent Hill across a more open map than earlier entries, with side quests.',
+    },
+  },
+  'fifa-street': {
+    releasedAt: '2012-03-13',
+    developer: 'EA Canada',
+    publisher: 'EA Sports',
+    genres: ['Esporte', 'Futebol'],
+    summary: {
+      pt: 'Reinício da série de futebol de rua, trocando o exagero arcade dos primeiros por controle de drible mais próximo do FIFA principal.',
+      en: 'A reboot of the street football series, trading the earlier games\' arcade excess for dribbling closer to mainline FIFA.',
+    },
+  },
+  'nfs-most-wanted': {
+    releasedAt: '2005-11-15',
+    developer: 'EA Black Box',
+    publisher: 'Electronic Arts',
+    genres: ['Corrida', 'Mundo aberto'],
+    summary: {
+      pt: 'Perseguições policiais em mundo aberto com a Blacklist de quinze rivais. O filtro sépia e o Speedbreaker marcaram a identidade visual da série.',
+      en: 'Open-world police pursuits built around a Blacklist of fifteen rivals. Its sepia filter and Speedbreaker defined the series\' look.',
+    },
+  },
+  driveclub: {
+    releasedAt: '2014-10-07',
+    developer: 'Evolution Studios',
+    publisher: 'Sony Computer Entertainment',
+    genres: ['Corrida'],
+    summary: {
+      pt: 'Corrida de clubes com meteorologia dinâmica que virou referência técnica do PS4, especialmente a chuva. Os servidores foram desligados em 2020.',
+      en: 'Club-based racing whose dynamic weather became a PS4 technical showcase, the rain especially. Its servers were shut down in 2020.',
+    },
+  },
   taisei: {
     releasedAt: '2011-01-01',
     developer: 'Taisei Project',

@@ -46,6 +46,22 @@ const WIKI: Record<string, [wiki: string, title: string]> = {
   'condemned-2': ['condemned', 'Condemned 2: Bloodshot'],
   'red-alert': ['cnc', 'Command & Conquer: Red Alert'],
   'colin-mcrae-rally-2': ['codemasters', 'Colin McRae Rally 2.0'],
+  'driver-2': ['driver', 'Driver 2'],
+  'castlevania-sotn': ['castlevania', 'Castlevania: Symphony of the Night'],
+  wipeout: ['wipeout', 'Wipeout (game)'],
+  'forza-horizon': ['forzamotorsport', 'Forza Horizon'],
+  'silent-hill': ['silenthill', 'Silent Hill (video game)'],
+  'silent-hill-downpour': ['silenthill', 'Silent Hill: Downpour'],
+  'infamous-second-son': ['infamous', 'InFAMOUS Second Son'],
+  black: ['black', 'Black (video game)'],
+  'metroid-prime': ['metroid', 'Metroid Prime'],
+  'oddworld-abes-exoddus': ['oddworld', "Oddworld: Abe's Exoddus"],
+  ico: ['teamico', 'Ico'],
+  'the-last-guardian': ['teamico', 'The Last Guardian'],
+  'mystical-ninja-goemon': ['goemon', 'Mystical Ninja Starring Goemon'],
+  'fifa-street': ['fifa', 'FIFA Street (2012)'],
+  'nfs-most-wanted': ['nfs', 'Need for Speed: Most Wanted (2005)'],
+  driveclub: ['driveclub', 'Driveclub'],
 }
 
 type Shot = { url: string; w: number; h: number; source: string }
