@@ -11,10 +11,22 @@
 #
 # Now the container reads the catalog from a volume, so this is the whole
 # delivery: fetch, compare, write, revalidate. No rebuild, no deploy, no
-# downtime, and no credentials — the repository is public.
+# downtime.
+#
+# A public repository needs no credentials. A private one needs a read-only
+# token in GITHUB_TOKEN inside /opt/pcport/.env — note that an hourly workflow
+# on a private repository also burns roughly 2400 Actions minutes a month,
+# against a 2000-minute free allowance, while public repositories are
+# unlimited.
 set -euo pipefail
 
-REPO_RAW="https://raw.githubusercontent.com/rodrigopasa/PcPort/main/lib"
+REPO="rodrigopasa/PcPort"
+REPO_RAW="https://raw.githubusercontent.com/$REPO/main/lib"
+
+# Optional: only needed while the repository is private.
+GITHUB_TOKEN="$(grep -E '^GITHUB_TOKEN=' /opt/pcport/.env 2>/dev/null | cut -d= -f2- || true)"
+AUTH=()
+[ -n "${GITHUB_TOKEN:-}" ] && AUTH=(-H "Authorization: Bearer $GITHUB_TOKEN")
 VOLUME="pcport_catalog-data"
 FILES="catalog.json shots.json fandom.json covers.json"
 TMP="$(mktemp -d)"
@@ -23,8 +35,9 @@ trap 'rm -rf "$TMP"' EXIT
 changed=0
 
 for f in $FILES; do
-  if ! curl -fsS -m 60 "$REPO_RAW/$f" -o "$TMP/$f"; then
+  if ! curl -fsS -m 60 "${AUTH[@]}" "$REPO_RAW/$f" -o "$TMP/$f"; then
     echo "sync: falhou ao baixar $f, abortando sem alterar nada"
+    [ -z "${GITHUB_TOKEN:-}" ] && echo "       (repositorio privado? defina GITHUB_TOKEN em /opt/pcport/.env)"
     exit 1
   fi
   # Refuse an empty or truncated file rather than publishing a broken catalog.
