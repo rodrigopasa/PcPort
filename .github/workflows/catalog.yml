@@ -29,9 +29,12 @@ jobs:
     timeout-minutes: 30
 
     steps:
-      - uses: actions/checkout@v4
+      # v4 targets Node 20, which the runner now forces onto Node 24 and warns
+      # about. v7 runs on node24 natively; `node-version` and `cache` are
+      # unchanged, which was checked against the action's own manifest.
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         with:
           node-version: 22
           cache: npm
