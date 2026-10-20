@@ -1,4 +1,4 @@
-import { readFileSync } from 'node:fs'
+import { readFileSync, statSync } from 'node:fs'
 import { join } from 'node:path'
 
 /**
@@ -10,28 +10,53 @@ import { join } from 'node:path'
  * `/api/revalidate` regenerated pages from the same frozen data — the
  * automation looked alive and changed nothing.
  *
- * Reading from a directory the container mounts means new data takes effect on
- * revalidation, with no rebuild and no deploy.
+ * Invalidation is by file mtime rather than an explicit reload call. Next
+ * bundles per route, so `lib/store.ts` is instantiated separately in the API
+ * route and in each page: clearing a module-level cache from the endpoint
+ * cleared only the endpoint's own copy, and the pages kept rendering stale
+ * data. Checking the file's timestamp needs no coordination between bundles
+ * and no cache-busting call at all — whoever writes the file wins.
  *
- * DATA_DIR defaults to the bundled copy, so local development and the build
- * itself keep working with no configuration.
+ * A `statSync` per read costs microseconds and only happens when a page is
+ * actually regenerated, which ISR makes rare.
+ *
+ * DATA_DIR defaults to the bundled copy, so development and the build itself
+ * keep working with no configuration.
  */
 const DATA_DIR = process.env.DATA_DIR ?? join(process.cwd(), 'lib')
 
-type Cache = { catalog?: unknown; shots?: unknown; fandom?: unknown; covers?: unknown }
-let cache: Cache = {}
+type Entry = { mtime: number; value: unknown }
 
-function read<T>(name: keyof Cache, fallback: T): T {
-  if (cache[name] !== undefined) return cache[name] as T
+/**
+ * On globalThis so the separate per-route bundles share one cache instead of
+ * each re-parsing the same file.
+ */
+const store: Map<string, Entry> = ((globalThis as Record<string, unknown>).__pcportStore ??=
+  new Map()) as Map<string, Entry>
+
+function read<T>(name: string, fallback: T): T {
+  const path = join(DATA_DIR, `${name}.json`)
+
+  let mtime = 0
   try {
-    const raw = readFileSync(join(DATA_DIR, `${name}.json`), 'utf8')
-    cache[name] = JSON.parse(raw)
+    mtime = statSync(path).mtimeMs
   } catch {
-    // A missing or malformed data file must not take the site down: the page
-    // renders with whatever the other files hold.
-    cache[name] = fallback
+    // No file at all: serve the fallback rather than taking the site down.
+    return (store.get(name)?.value as T) ?? fallback
   }
-  return cache[name] as T
+
+  const hit = store.get(name)
+  if (hit && hit.mtime === mtime) return hit.value as T
+
+  try {
+    const value = JSON.parse(readFileSync(path, 'utf8')) as T
+    store.set(name, { mtime, value })
+    return value
+  } catch {
+    // Malformed JSON — most likely a half-written file. Keep serving the last
+    // good copy instead of rendering an empty catalog.
+    return (hit?.value as T) ?? fallback
+  }
 }
 
 export function catalog<T>(): T {
@@ -47,9 +72,12 @@ export function covers<T>(): T {
   return read('covers', {} as unknown as T)
 }
 
-/** Called by the revalidate endpoint so fresh data is picked up without a restart. */
+/**
+ * Kept for the revalidate endpoint. Invalidation is by mtime, so this is only
+ * a belt-and-braces drop of the cache.
+ */
 export function reload(): void {
-  cache = {}
+  store.clear()
 }
 
 export { DATA_DIR }

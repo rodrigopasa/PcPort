@@ -1,0 +1,7 @@
+# Shell scripts run on Linux. Without this, a Windows checkout rewrites them
+# with CRLF and the server answers `/usr/bin/env: 'bash\r': No such file or
+# directory` — which is what happened to deploy/sync-catalog.sh.
+*.sh text eol=lf
+Dockerfile text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
