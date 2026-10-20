@@ -52,6 +52,25 @@
     caret-color: var(--color-native);
   }
 
+  /* The native select popup is drawn by the OS, not by the page. Without
+     color-scheme ON THE ELEMENT it renders as a white panel while the options
+     inherit the page's near-white text — invisible. The html-level declaration
+     does not reach it on Chrome/Windows, and the options need explicit colours
+     because the popup ignores most inherited styling. */
+  select {
+    color-scheme: dark;
+  }
+
+  select option {
+    background-color: var(--color-ground);
+    color: var(--color-ink);
+  }
+
+  select option:checked {
+    background-color: var(--color-raise);
+    color: var(--color-ink);
+  }
+
   :focus-visible {
     outline: 2px solid var(--color-native);
     outline-offset: 2px;
