@@ -31,7 +31,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 115,
+    "stars": 118,
     "description": "Ninja Gaiden Black (Xbox, 2005) statically recompiled into native Linux and Windows builds, drawn by its own Vulkan renderer. A steady 60 fps, widescreen and ultrawide, keyboard and mouse, Steam Deck ready. Bring your own copy of the game.",
     "version": null,
     "releasedAt": "2026-10-21",
@@ -132,7 +132,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 952,
+    "stars": 953,
     "description": "An in-progress decompilation of Silent Hill on the PlayStation 1.",
     "version": null,
     "releasedAt": "2026-10-21",
@@ -172,7 +172,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 393,
+    "stars": 394,
     "description": "ReStreet: FIFA Street (2012) recompiled for Windows PC, with online play, a launcher with friends, chat and rooms. Bring your own game.",
     "version": "v2.0.7-online-beta",
     "releasedAt": "2026-10-21",
@@ -268,21 +268,21 @@
   },
   {
     "id": "sno2207-windowsmash",
-    "repo": "SNO2207/WindowSmash",
+    "repo": "OpenSmash-Ultimate/WindowSmash",
     "title": "Super Smash Bros. Ultimate",
     "game": "smash-ultimate",
-    "author": "SNO2207",
+    "author": "OpenSmash-Ultimate",
     "console": "Nintendo Switch",
     "mechanism": "recompiled",
     "platforms": [
       "Windows"
     ],
-    "stars": 325,
+    "stars": 324,
     "description": "Experimental Windows x64 native porting toolkit for Super Smash Bros. Ultimate: static AArch64 recompilation, a D3D11 runtime, and Local Wireless relay netplay.",
     "version": null,
     "releasedAt": "2026-10-21",
     "sizeBytes": null,
-    "releaseUrl": "https://github.com/SNO2207/WindowSmash/releases",
+    "releaseUrl": "https://github.com/OpenSmash-Ultimate/WindowSmash/releases",
     "licenseId": null,
     "licenseUrl": null
   },
@@ -298,7 +298,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 754,
+    "stars": 755,
     "description": "Native PC port (Linux/Windows) of inFAMOUS Second Son (PS4, CUSA00223) — in development, playable; runs your own game dump; no game or firmware files included. Motion sensor emulation. | Port nativo para PC de inFAMOUS Second Son (em desenvolvimento) — usa o seu próprio dump.",
     "version": "v2026.10.21-da39b0b",
     "releasedAt": "2026-10-21",
@@ -401,7 +401,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 89,
+    "stars": 91,
     "description": "Dragon Ball Z: Burst Limit Recompiled - native PC port via ReXGlue static recompilation",
     "version": "v0.7.1-alpha",
     "releasedAt": "2026-10-21",
@@ -503,7 +503,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 251,
+    "stars": 252,
     "description": "Forza Horizon (Xbox 360) natively on PC, rebuilt around the modern Horizon experience: shared online free roam, leaderboards and rivals, 120/144 fps, and a self-hostable online server.",
     "version": "v0.1.25",
     "releasedAt": "2026-10-21",
@@ -535,6 +535,26 @@
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
   },
   {
+    "id": "opensmash-ultimate-windowsmash",
+    "repo": "OpenSmash-Ultimate/WindowSmash",
+    "title": "WindowSmash",
+    "game": null,
+    "author": "OpenSmash-Ultimate",
+    "console": "PC",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows"
+    ],
+    "stars": 324,
+    "description": "Experimental Windows x64 native porting toolkit for Super Smash Bros. Ultimate: static AArch64 recompilation, a D3D11 runtime, and Local Wireless relay netplay.",
+    "version": null,
+    "releasedAt": "2026-10-21",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/OpenSmash-Ultimate/WindowSmash/releases",
+    "licenseId": null,
+    "licenseUrl": null
+  },
+  {
     "id": "yharnam-hunters-paleblood",
     "repo": "Yharnam-Hunters/Paleblood",
     "title": "Bloodborne",
@@ -545,7 +565,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 128,
+    "stars": 129,
     "description": "A decompilation of Bloodborne (CUSA03173 v1.09) with its own runtime: the game's code rewritten as readable C++, one verified function at a time. The game doesn't run on it yet; 21 functions verified. No game files included.",
     "version": null,
     "releasedAt": "2026-10-20",
@@ -585,7 +605,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 1680,
+    "stars": 1681,
     "description": "Decompilation of Pokémon FireRed/LeafGreen",
     "version": null,
     "releasedAt": "2026-10-20",
@@ -897,7 +917,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 112,
+    "stars": 113,
     "description": "Call of Duty: Modern Warfare 2 (2009) for Xbox 360 recompiled for Windows & Linux",
     "version": "v0.6.0",
     "releasedAt": "2026-10-19",
@@ -1025,7 +1045,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 62,
+    "stars": 64,
     "description": "CPS-2 Recomp: unofficial native PC ports of Capcom CPS-2 arcade games (Street Fighter Alpha 2, Super Puzzle Fighter II Turbo, Vampire Savior) via static recompilation, with training modes, in one launcher: macOS, Linux, Steam Deck, Windows. Requires your own ROM sets. Beta.",
     "version": "v0.4.0-beta.3",
     "releasedAt": "2026-10-19",
@@ -1270,7 +1290,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 48,
+    "stars": 49,
     "description": "Unofficial native Windows port of ARMORED CORE for Answer (PS3), built from your own copy of the game. Part of Project Glintburn.",
     "version": "v0.7.2",
     "releasedAt": "2026-10-18",
@@ -1438,7 +1458,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 840,
+    "stars": 843,
     "description": "A playable preview of Forza Horizon static recompilation",
     "version": "v0.6.0",
     "releasedAt": "2026-10-17",
@@ -1562,7 +1582,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 33837,
+    "stars": 33838,
     "description": "PlayStation 4 emulator for Windows, Linux, macOS and FreeBSD written in C++",
     "version": "v.0.20.0",
     "releasedAt": "2026-10-14",
@@ -1582,7 +1602,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 108,
+    "stars": 109,
     "description": "OpenTricky is an unofficial PC port of SSX Tricky, made by static recompilation. Bring your own disc.",
     "version": null,
     "releasedAt": "2026-10-14",
@@ -1604,7 +1624,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 101,
+    "stars": 102,
     "description": "Native PC port of the Xbox 360 XBLA game Dead Rising 2: Case Zero, by static recompilation. Windows and Linux, Vulkan, keyboard/mouse and controller. You supply your own copy of the game.",
     "version": "v1.1.3",
     "releasedAt": "2026-10-14",
@@ -1648,7 +1668,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 94,
+    "stars": 95,
     "description": "Native PC port of the Xbox 360 XBLA game Dead Rising 2: Case West, by static recompilation. Windows and Linux, Vulkan, keyboard/mouse and controller. You supply your own copy of the game.",
     "version": "v1.1.2",
     "releasedAt": "2026-10-14",
@@ -1955,7 +1975,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 3623,
+    "stars": 3624,
     "description": "Decompilation of Pokémon Emerald",
     "version": null,
     "releasedAt": "2026-10-01",
@@ -2097,7 +2117,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 61,
+    "stars": 62,
     "description": "Tekken 3 hybrid recompilation preview with Jun Kazama, widescreen, custom skins and local asset import tools.",
     "version": null,
     "releasedAt": "2026-09-23",
@@ -2265,7 +2285,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 741,
+    "stars": 742,
     "description": "Multiplatform and Feature-rich Port based on PSX decompilation of Silent Hill 1 made with Claude and Psycross. Still in beta and is in active development.",
     "version": "crossplatform-beta",
     "releasedAt": "2026-09-04",
@@ -2698,7 +2718,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5241,
+    "stars": 5242,
     "description": "An unofficial PC port of the Xbox 360 version of Sonic Unleashed created through the process of static recompilation.",
     "version": "v1.0.3",
     "releasedAt": "2025-04-03",
