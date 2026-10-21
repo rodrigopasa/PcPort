@@ -10,7 +10,7 @@
     "platforms": [
       "Linux"
     ],
-    "stars": 99,
+    "stars": 100,
     "description": "Halo 2 decompilation (decomp) for the original Xbox: a matching decompilation of the retail game into C/C++ source, rebuilt byte for byte, toward native PC, Linux and handheld ports. Contributors welcome. Source only; bring your own disc.",
     "version": null,
     "releasedAt": "2026-10-21",
@@ -39,6 +39,47 @@
     "releaseUrl": "https://github.com/gamboozino/ngbrecomp/releases",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
+  },
+  {
+    "id": "aleksandarsimjanoski-pokopia-desktop-edition",
+    "repo": "aleksandarsimjanoski/pokopia-desktop-edition",
+    "title": "pokopia desktop edition",
+    "game": null,
+    "author": "aleksandarsimjanoski",
+    "console": "PC",
+    "mechanism": "native",
+    "platforms": [
+      "Windows"
+    ],
+    "stars": 59,
+    "description": "Pokémon Pokopia Desktop | Catch ‘Em All in 2026 on Windows & Nintendo PC Ports",
+    "version": null,
+    "releasedAt": "2026-10-21",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/aleksandarsimjanoski/pokopia-desktop-edition/releases",
+    "licenseId": null,
+    "licenseUrl": null
+  },
+  {
+    "id": "saulob-dragons-crown-pro-pc",
+    "repo": "saulob/dragons-crown-pro-pc",
+    "title": "Dragon's Crown Pro",
+    "game": "dragons-crown",
+    "author": "saulob",
+    "console": "PlayStation 4",
+    "mechanism": "native",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 156,
+    "description": "Dragon's Crown Pro native PC port for Windows, with direct PS4 PKG installation, TRG launcher and modern graphics options",
+    "version": "v0.7.0",
+    "releasedAt": "2026-10-21",
+    "sizeBytes": 16824985,
+    "releaseUrl": "https://github.com/saulob/dragons-crown-pro-pc/releases/tag/v0.7.0",
+    "licenseId": "GPL-2.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-2.0"
   },
   {
     "id": "yharnam-hunters-paleblood",
@@ -91,7 +132,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 131,
+    "stars": 132,
     "description": "Native Windows port of Pokémon: Let's Go, Eevee! (Switch v1.0.0) by static recompilation, built on LAS Recomp. No game files included.",
     "version": "v0.5.0",
     "releasedAt": "2026-10-20",
@@ -215,7 +256,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 485,
+    "stars": 486,
     "description": "Native port of Metroid Prime (GameCube) for Linux, Windows and Android, built from the PrimeDecomp decompilation. No emulator, no game assets included: bring your own disc image.",
     "version": "v0.31.0",
     "releasedAt": "2026-10-20",
@@ -285,26 +326,6 @@
     "releaseUrl": "https://github.com/PrimeDecomp/prime/releases",
     "licenseId": "CC0-1.0",
     "licenseUrl": "https://api.github.com/licenses/cc0-1.0"
-  },
-  {
-    "id": "aleksandarsimjanoski-pokopia-desktop-edition",
-    "repo": "aleksandarsimjanoski/pokopia-desktop-edition",
-    "title": "pokopia desktop edition",
-    "game": null,
-    "author": "aleksandarsimjanoski",
-    "console": "PC",
-    "mechanism": "native",
-    "platforms": [
-      "Windows"
-    ],
-    "stars": 59,
-    "description": "Pokémon Pokopia Desktop | Catch ‘Em All in 2026 on Windows & Nintendo PC Ports",
-    "version": null,
-    "releasedAt": "2026-10-20",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/aleksandarsimjanoski/pokopia-desktop-edition/releases",
-    "licenseId": null,
-    "licenseUrl": null
   },
   {
     "id": "caiuscodes-goldeneye-007-xbla-pc-recomp",
@@ -606,7 +627,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 105,
+    "stars": 106,
     "description": "Def Jam: Fight for NY PC port — static recompilation of the original Xbox game for native Windows and macOS (Direct3D 11 / Vulkan). Bring your own game dump.",
     "version": "v0.10.5",
     "releasedAt": "2026-10-19",
@@ -668,7 +689,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 81,
+    "stars": 82,
     "description": "Dragon Ball Z: Burst Limit Recompiled - native PC port via ReXGlue static recompilation",
     "version": "v0.6.2-alpha",
     "releasedAt": "2026-10-19",
@@ -690,7 +711,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 74,
+    "stars": 75,
     "description": "Eternal Darkness: Sanity's Requiem static recompilation (DolRecomp + GXRuntime) for Mac, Windows and Linux / Steam Deck. Bring your own disc.",
     "version": "v0.9.5",
     "releasedAt": "2026-10-19",
@@ -797,7 +818,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 56,
+    "stars": 57,
     "description": "CPS-2 Recomp: unofficial native PC ports of Capcom CPS-2 arcade games (Street Fighter Alpha 2, Super Puzzle Fighter II Turbo, Vampire Savior) via static recompilation, with training modes, in one launcher: macOS, Linux, Steam Deck, Windows. Requires your own ROM sets. Beta.",
     "version": "v0.4.0-beta.3",
     "releasedAt": "2026-10-19",
@@ -982,7 +1003,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 590,
+    "stars": 592,
     "description": "An unofficial original Xbox version PC port of BLACK (2006) via static recompilation.",
     "version": "V2",
     "releasedAt": "2026-10-18",
@@ -1176,27 +1197,6 @@
     "licenseUrl": null
   },
   {
-    "id": "saulob-dragons-crown-pro-pc",
-    "repo": "saulob/dragons-crown-pro-pc",
-    "title": "Dragon's Crown Pro",
-    "game": "dragons-crown",
-    "author": "saulob",
-    "console": "PlayStation 4",
-    "mechanism": "native",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 154,
-    "description": "Dragon's Crown Pro native PC port for Windows, with direct PS4 PKG installation, TRG launcher and modern graphics options",
-    "version": "v0.6.0",
-    "releasedAt": "2026-10-17",
-    "sizeBytes": 14258013,
-    "releaseUrl": "https://github.com/saulob/dragons-crown-pro-pc/releases/tag/v0.6.0",
-    "licenseId": "GPL-2.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-2.0"
-  },
-  {
     "id": "jackandbeans-snap64recomp",
     "repo": "JackandBeans/Snap64Recomp",
     "title": "Pokémon Snap",
@@ -1229,7 +1229,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 90,
+    "stars": 91,
     "description": "Banjo-Tooie Scurvy Dog Port: a native Windows PC port of Banjo-Tooie. **Not affiliated with the Banjo: Recompiled team**",
     "version": null,
     "releasedAt": "2026-10-17",
@@ -1732,7 +1732,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 88,
+    "stars": 89,
     "description": "Estacado: a native PC recompilation of The Darkness (Xbox 360). Unofficial fan port; bring your own copy of the game.",
     "version": null,
     "releasedAt": "2026-10-12",
