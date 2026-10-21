@@ -75,3 +75,18 @@ fetch("http://127.0.0.1:3000/api/revalidate", {
 ' 2>/dev/null || echo 000)"
 
 echo "sync: catalogo atualizado, revalidate HTTP $code"
+
+# Revalidating drops the rendered pages, so the next visitor would pay the cold
+# price again — 800–1100 ms against ~100 ms warm, because the origin is in
+# Germany. Walking the sitemap puts them back in the edge cache first.
+# Four at a time: this shares a host with a dozen other sites.
+warmed=0
+while read -r url; do
+  [ -z "$url" ] && continue
+  curl -s -o /dev/null -m 30 "$url" &
+  warmed=$((warmed + 1))
+  [ $((warmed % 4)) -eq 0 ] && wait
+done < <(curl -s -m 60 https://pcport.org/sitemap.xml | grep -o '<loc>[^<]*</loc>' | sed 's/<[^>]*>//g')
+wait
+
+echo "sync: $warmed paginas aquecidas no cache da borda"
