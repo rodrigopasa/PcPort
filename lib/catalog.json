@@ -31,7 +31,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 99,
+    "stars": 100,
     "description": "Ninja Gaiden Black (Xbox, 2005) statically recompiled into native Linux and Windows builds, drawn by its own Vulkan renderer. A steady 60 fps, widescreen and ultrawide, keyboard and mouse, Steam Deck ready. Bring your own copy of the game.",
     "version": null,
     "releasedAt": "2026-10-21",
@@ -112,7 +112,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 1754,
+    "stars": 1755,
     "description": "Decompilation of The Legend of Zelda: Majora's Mask",
     "version": null,
     "releasedAt": "2026-10-21",
@@ -214,7 +214,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 68,
+    "stars": 70,
     "description": "Native PC port (Linux/Windows) of Gravity Rush 2 (PS4, CUSA03694) — runs your own game dump; no game or firmware files included. Bilingual launcher (English/Portuguese). | Port nativo para PC de Gravity Rush 2 — usa o seu próprio dump.",
     "version": "v2026.10.21-29a370b",
     "releasedAt": "2026-10-21",
@@ -267,6 +267,67 @@
     "licenseUrl": "https://api.github.com/licenses/mit"
   },
   {
+    "id": "sno2207-windowsmash",
+    "repo": "SNO2207/WindowSmash",
+    "title": "Super Smash Bros. Ultimate",
+    "game": "smash-ultimate",
+    "author": "SNO2207",
+    "console": "Nintendo Switch",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows"
+    ],
+    "stars": 314,
+    "description": "Experimental Windows x64 native porting toolkit for Super Smash Bros. Ultimate: static AArch64 recompilation, a D3D11 runtime, and Local Wireless relay netplay.",
+    "version": null,
+    "releasedAt": "2026-10-21",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/SNO2207/WindowSmash/releases",
+    "licenseId": null,
+    "licenseUrl": null
+  },
+  {
+    "id": "hayatog-iss-pc",
+    "repo": "HayatoG/iss_pc",
+    "title": "inFAMOUS Second Son",
+    "game": "infamous-second-son",
+    "author": "HayatoG",
+    "console": "PlayStation 4",
+    "mechanism": "in-progress",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 729,
+    "description": "Native PC port (Linux/Windows) of inFAMOUS Second Son (PS4, CUSA00223) — in development, playable; runs your own game dump; no game or firmware files included. Motion sensor emulation. | Port nativo para PC de inFAMOUS Second Son (em desenvolvimento) — usa o seu próprio dump.",
+    "version": "v2026.10.21-da39b0b",
+    "releasedAt": "2026-10-21",
+    "sizeBytes": 122637833,
+    "releaseUrl": "https://github.com/HayatoG/iss_pc/releases/tag/v2026.10.21-da39b0b",
+    "licenseId": null,
+    "licenseUrl": null
+  },
+  {
+    "id": "openportroid-armyoftworecompilation",
+    "repo": "OpenPortroid/ArmyOfTwoRecompilation",
+    "title": "Army of Two",
+    "game": "army-of-two",
+    "author": "OpenPortroid",
+    "console": "Xbox 360",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows"
+    ],
+    "stars": 86,
+    "description": "Unofficial PC port of the Xbox 360 version of Army of Two (2008). Online co-op supported.",
+    "version": "v1.3",
+    "releasedAt": "2026-10-21",
+    "sizeBytes": 34929156,
+    "releaseUrl": "https://github.com/OpenPortroid/ArmyOfTwoRecompilation/releases/tag/v1.3",
+    "licenseId": "MIT",
+    "licenseUrl": "https://api.github.com/licenses/mit"
+  },
+  {
     "id": "yharnam-hunters-paleblood",
     "repo": "Yharnam-Hunters/Paleblood",
     "title": "Bloodborne",
@@ -277,7 +338,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 127,
+    "stars": 128,
     "description": "A decompilation of Bloodborne (CUSA03173 v1.09) with its own runtime: the game's code rewritten as readable C++, one verified function at a time. The game doesn't run on it yet; 21 functions verified. No game files included.",
     "version": null,
     "releasedAt": "2026-10-20",
@@ -493,26 +554,6 @@
     "licenseUrl": null
   },
   {
-    "id": "sno2207-windowsmash",
-    "repo": "SNO2207/WindowSmash",
-    "title": "Super Smash Bros. Ultimate",
-    "game": "smash-ultimate",
-    "author": "SNO2207",
-    "console": "Nintendo Switch",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows"
-    ],
-    "stars": 314,
-    "description": "Experimental Windows x64 native porting toolkit for Super Smash Bros. Ultimate: static AArch64 recompilation, a D3D11 runtime, and Local Wireless relay netplay.",
-    "version": null,
-    "releasedAt": "2026-10-20",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/SNO2207/WindowSmash/releases",
-    "licenseId": null,
-    "licenseUrl": null
-  },
-  {
     "id": "mr-finster-vf1-recomp",
     "repo": "mr-finster/vf1-recomp",
     "title": "Virtua Fighter",
@@ -525,7 +566,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 50,
+    "stars": 51,
     "description": "Virtua Fighter (Sega Model 1, 1993) statically recompiled for Mac, Windows and Steam Deck: up to 6x, widescreen, smooth 120 fps. Bring your own vf.zip.",
     "version": "v1.4.0",
     "releasedAt": "2026-10-20",
@@ -545,7 +586,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 2316,
+    "stars": 2318,
     "description": "Decompilation of The Legend of Zelda: Breath of the Wild (Switch 1.5.0)",
     "version": null,
     "releasedAt": "2026-10-20",
@@ -773,7 +814,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 97,
+    "stars": 99,
     "description": "Driveclub PS4 PC Port",
     "version": null,
     "releasedAt": "2026-10-19",
@@ -794,7 +835,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 84,
+    "stars": 86,
     "description": "Dragon Ball Z: Burst Limit Recompiled - native PC port via ReXGlue static recompilation",
     "version": "v0.6.2-alpha",
     "releasedAt": "2026-10-19",
@@ -838,7 +879,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 57,
+    "stars": 58,
     "description": "Virtua Fighter 2 (Sega Model 2, 1994) for Mac, Windows and Steam Deck: the arcade's i960 program recompiled to native code, up to 6x, widescreen, smooth 120 fps. Bring your own vf2.zip.",
     "version": "v0.1.12",
     "releasedAt": "2026-10-19",
@@ -890,27 +931,6 @@
     "licenseUrl": "https://api.github.com/licenses/apache-2.0"
   },
   {
-    "id": "hayatog-iss-pc",
-    "repo": "HayatoG/iss_pc",
-    "title": "inFAMOUS Second Son",
-    "game": "infamous-second-son",
-    "author": "HayatoG",
-    "console": "PlayStation 4",
-    "mechanism": "in-progress",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 727,
-    "description": "Native PC port (Linux/Windows) of inFAMOUS Second Son (PS4, CUSA00223) — in development, playable; runs your own game dump; no game or firmware files included. Motion sensor emulation. | Port nativo para PC de inFAMOUS Second Son (em desenvolvimento) — usa o seu próprio dump.",
-    "version": "v2026.10.19-d3995fe",
-    "releasedAt": "2026-10-19",
-    "sizeBytes": 118653998,
-    "releaseUrl": "https://github.com/HayatoG/iss_pc/releases/tag/v2026.10.19-d3995fe",
-    "licenseId": null,
-    "licenseUrl": null
-  },
-  {
     "id": "tmcleroy-cps2recomp",
     "repo": "tmcleroy/cps2recomp",
     "title": "cps2recomp",
@@ -944,7 +964,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 246,
+    "stars": 247,
     "description": "Forza Horizon (Xbox 360) natively on PC, rebuilt around the modern Horizon experience: shared online free roam, leaderboards and rivals, 120/144 fps, and a self-hostable online server.",
     "version": "v0.1.24",
     "releasedAt": "2026-10-19",
@@ -986,7 +1006,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 5703,
+    "stars": 5704,
     "description": "Ship of Harkinian: a PC port of Ocarina of Time built from the decompilation, with widescreen, high framerate and mod support.",
     "version": "9.3.1",
     "releasedAt": "2026-10-18",
@@ -1199,26 +1219,6 @@
     "licenseUrl": "https://api.github.com/licenses/mit"
   },
   {
-    "id": "openportroid-armyoftworecompilation",
-    "repo": "OpenPortroid/ArmyOfTwoRecompilation",
-    "title": "Army of Two",
-    "game": "army-of-two",
-    "author": "OpenPortroid",
-    "console": "Xbox 360",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows"
-    ],
-    "stars": 86,
-    "description": "Unofficial PC port of the Xbox 360 version of Army of Two (2008). Online co-op supported.",
-    "version": "v1.2",
-    "releasedAt": "2026-10-18",
-    "sizeBytes": 34296675,
-    "releaseUrl": "https://github.com/OpenPortroid/ArmyOfTwoRecompilation/releases/tag/v1.2",
-    "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit"
-  },
-  {
     "id": "nikolaygorb-armyoftworecomp",
     "repo": "nikolaygorb/ArmyOfTwoRecomp",
     "title": "ArmyOfTwoRecomp",
@@ -1377,7 +1377,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 832,
+    "stars": 834,
     "description": "A playable preview of Forza Horizon static recompilation",
     "version": "v0.6.0",
     "releasedAt": "2026-10-17",
@@ -1500,7 +1500,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 111,
+    "stars": 112,
     "description": "Experimental static recompilation of Forza Motorsport 4 using ReXGlue. No game files included.",
     "version": "v0.1.0-alpha.2",
     "releasedAt": "2026-10-15",
@@ -1522,7 +1522,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 33817,
+    "stars": 33822,
     "description": "PlayStation 4 emulator for Windows, Linux, macOS and FreeBSD written in C++",
     "version": "v.0.20.0",
     "releasedAt": "2026-10-14",
@@ -1586,7 +1586,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 96,
+    "stars": 97,
     "description": "The 18 Tekken Tag Tournament characters in Tekken 3: playable in every mode and fought by the CPU. Tekken 3's cast can use their TTT movesets. Built from your own Tekken 3 disc and arcade ROMs.",
     "version": "v1.3.0",
     "releasedAt": "2026-10-14",
@@ -1608,7 +1608,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 66,
+    "stars": 67,
     "description": "Underworld Exhumed: Ultima Underworld I and II as byte-matching source code and native ports for macOS, Windows and Linux",
     "version": "uw1-v1.0.2",
     "releasedAt": "2026-10-14",
@@ -1650,7 +1650,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 3629,
+    "stars": 3632,
     "description": "Playstation 2 Static Recompiler & Runtime Tool to make native PC ports",
     "version": null,
     "releasedAt": "2026-10-14",
@@ -1712,7 +1712,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 495,
+    "stars": 496,
     "description": "Static recompilation of a PSP game into a native executable. Vulkan and SDL3. Bring your own copy of the game.",
     "version": "v0.7.5",
     "releasedAt": "2026-10-13",
@@ -1752,7 +1752,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 92,
+    "stars": 93,
     "description": "Estacado: a native PC recompilation of The Darkness (Xbox 360). Unofficial fan port; bring your own copy of the game.",
     "version": null,
     "releasedAt": "2026-10-12",
@@ -1834,7 +1834,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 280,
+    "stars": 281,
     "description": "GoldenEye 007 (N64, 1997) as a native PC game for Windows, Linux, Steam Deck and macOS. Built from the open decompilation, with widescreen, mouse and keyboard or controller, and split-screen. Not an emulator.",
     "version": "v0.5.0",
     "releasedAt": "2026-10-07",
@@ -2345,7 +2345,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 155,
+    "stars": 156,
     "description": "Native SH-4 AOT recompilation of Initial D Arcade Stage 3 (NAOMI 2) — BIOS-free Vulkan public early demo (WIP).",
     "version": "v2489-verified-vulkan-checkpoint",
     "releasedAt": "2026-09-03",
