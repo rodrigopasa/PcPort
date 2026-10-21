@@ -42,7 +42,7 @@ const NOT_A_PORT =
  * "decompilation of <game>" is the project this catalog is about.
  */
 const GENERIC_TOOL =
-  /\b(decompiler|disassembler|deobfuscator|decompilation (engine|framework|tool)|loader plugin|splitting tool|command.?line tool|automated tool|modding (toolkit|sdk)|a tool for|reverse engineering website|controller manager|filesystem|image extractor)\b/i
+  /\b(decompiler|disassembler|deobfuscator|decompilation (engine|framework|tool)|loader plugin|splitting tool|command.?line tool|automated tool|modding (toolkit|sdk)|a tool for|is a tool|reverse engineering website|controller manager|filesystem|image extractor|emulator (manager|frontend|launcher|wrapper))\b/i
 
 /**
  * Source ports of games that were already PC games. Doom, Quake, Heretic,
@@ -64,12 +64,15 @@ const NON_PC_TARGET =
 const PC_TARGET = /\b(windows|linux|pc|steam ?deck|win64|x86|desktop|macos)\b/i
 
 /**
- * Emulators run console software; they do not port it. Checked as a function
- * rather than a pattern because "no emulator" and "without an emulator" are
- * how the actual ports describe themselves — the exact opposite claim, in
- * nearly the same words.
+ * Native ports are the focus; emulators are long-tail content that earns its
+ * own status rather than rejection, so the visitor can tell them apart at a
+ * glance and filter them out.
+ *
+ * Checked as a function rather than a pattern because "no emulator" and
+ * "without an emulator" are how the actual ports describe themselves — the
+ * exact opposite claim, in nearly the same words.
  */
-function isEmulator(hay: string): boolean {
+export function isEmulator(hay: string): boolean {
   const mentions = /\b([a-z0-9]+ emulator|emulator (for|manager|research|project))\b/i.test(hay)
   if (!mentions) return false
   // The article is optional: "no emulator" and "without an emulator" are both
@@ -92,24 +95,9 @@ const UTILITY =
 const PORT_SIGNAL =
   /\b(port|recomp|decomp|native|reimplement|runtime|homebrew|for (windows|linux|pc|macos))/i
 
-/**
- * Deliberate exceptions, by repository.
- *
- * The rules below are generic and will sometimes be right about a category and
- * wrong about a specific project. shadPS4 is an emulator and the rule rejects
- * emulators — but it is also the single most relevant project in this space,
- * the actual answer to "Bloodborne no PC", and the reason that search has a
- * legitimate destination at all. A regex should not get to decide that.
- *
- * Keep this list short. A long one means the rules are wrong, not that the
- * exceptions are right.
- */
-const ALLOWLIST = new Set(['shadps4-emu/shadPS4'])
-
 export type Verdict = { ok: true } | { ok: false; reason: string }
 
 export function isCatalogable(c: Candidate): Verdict {
-  if (ALLOWLIST.has(c.repo)) return { ok: true }
 
   // The repository name counts as evidence: `gow2-recomp` says what it is even
   // when the description is just the game's name.
@@ -133,9 +121,6 @@ export function isCatalogable(c: Candidate): Verdict {
   if (NON_PC_TARGET.test(hay) && !PC_TARGET.test(hay)) {
     return { ok: false, reason: 'targets a phone, watch or console rather than the PC' }
   }
-  if (isEmulator(hay)) {
-    return { ok: false, reason: 'an emulator runs console software rather than porting it' }
-  }
   if (UTILITY.test(hay)) {
     return { ok: false, reason: 'hardware or data utility, not a port' }
   }
@@ -144,8 +129,8 @@ export function isCatalogable(c: Candidate): Verdict {
   // published release stand in for that evidence, and a Spring Boot JAR
   // encryption tool with 1800 stars walked straight in — a release proves
   // something ships, never that it is a console game on the PC.
-  if (!PORT_SIGNAL.test(hay)) {
-    return { ok: false, reason: 'nothing in the description identifies it as a port' }
+  if (!PORT_SIGNAL.test(hay) && !isEmulator(hay)) {
+    return { ok: false, reason: 'nothing identifies it as a port or an emulator' }
   }
 
   return { ok: true }

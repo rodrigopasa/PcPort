@@ -11,6 +11,7 @@ export const mechanism = pgEnum('mechanism', [
   'native',
   'recompiled',
   'translation-layer',
+  'emulator',
   'in-progress',
 ])
 

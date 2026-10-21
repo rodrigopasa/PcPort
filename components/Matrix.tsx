@@ -17,6 +17,7 @@ const TONE: Record<Mechanism, string> = {
   native: 'text-native',
   recompiled: 'text-recompiled',
   'translation-layer': 'text-translation',
+  emulator: 'text-emulator',
   'in-progress': 'text-progress',
 }
 

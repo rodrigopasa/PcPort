@@ -5,6 +5,7 @@ const TONE: Record<Mechanism, string> = {
   native: 'text-native border-native/35 bg-native/10',
   recompiled: 'text-recompiled border-recompiled/35 bg-recompiled/10',
   'translation-layer': 'text-translation border-translation/35 bg-translation/10',
+  emulator: 'text-emulator border-emulator/35 bg-emulator/10',
   'in-progress': 'text-progress border-progress/40 bg-progress/10',
 }
 

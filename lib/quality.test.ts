@@ -129,13 +129,23 @@ test('a release asset is not evidence on its own', () => {
   assert.equal(v.ok, false)
 })
 
-test('rejects emulators, which run console software rather than porting it', () => {
+test('keeps emulators, which are long-tail content rather than the focus', () => {
+  // Native ports are what the catalog is about, but an emulator is how a lot
+  // of people actually reach a console game on the PC. They are kept and get
+  // their own status so a visitor can tell them apart and filter them out.
   const cases = [
     { repo: 'wheremyfoodat/Panda3DS', description: 'HLE 3DS emulator' },
-    { repo: 'x/X360-Mobile', description: 'This repository will contain all future releases of the experimental Xbox 360 emulator' },
-    { repo: 'xenia-manager/xenia-manager', description: 'Xenia Manager is a tool that tries to make using Xenia Emulator easier.' },
+    { repo: 'shadps4-emu/shadPS4', description: 'PlayStation 4 emulator for Windows, Linux and macOS' },
   ]
-  for (const c of cases) assert.equal(isCatalogable(c).ok, false, `${c.repo} should be rejected`)
+  for (const c of cases) assert.equal(isCatalogable(c).ok, true, `${c.repo} should be kept`)
+})
+
+test('an emulator manager is still tooling, not an emulator', () => {
+  const v = isCatalogable({
+    repo: 'xenia-manager/xenia-manager',
+    description: 'Xenia Manager is a tool that tries to make using Xenia Emulator easier.',
+  })
+  assert.equal(v.ok, false)
 })
 
 test('keeps ports that describe themselves as having no emulator', () => {

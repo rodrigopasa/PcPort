@@ -17,7 +17,7 @@
  */
 import { writeFile, readFile } from 'node:fs/promises'
 import { checkRelease } from '../lib/guard'
-import { isCatalogable } from '../lib/quality'
+import { isCatalogable, isEmulator } from '../lib/quality'
 import type { Mechanism } from '../lib/db/schema'
 
 const API = 'https://api.github.com'
@@ -111,8 +111,10 @@ function classify(repo: Repo): Mechanism {
   if (/\b(wip|work in progress|not playable|unfinished|research|early|in development)\b/.test(hay))
     return 'in-progress'
   if (/recompil/.test(hay)) return 'recompiled'
-  if (/emulator|translation layer|compatibility layer|runtime for/.test(hay))
-    return 'translation-layer'
+  // Emulators are their own category: long-tail content next to the native
+  // ports the catalog is actually about.
+  if (isEmulator(hay)) return 'emulator'
+  if (/translation layer|compatibility layer|runtime for/.test(hay)) return 'translation-layer'
   return 'native'
 }
 

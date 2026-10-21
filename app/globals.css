@@ -18,6 +18,10 @@
   --color-translation: #7b6cf6;
   /* 4.9:1. The previous #6b7280 measured 3.99:1 and carried the "in progress"
      chip at 10px — the quietest status still has to be readable. */
+  /* Emulators are long-tail content, not the focus: a cool, quiet blue that
+     reads as distinct from the port statuses without competing with them. */
+  --color-emulator: #5b94d6;
+
   --color-progress: #7a818a;
 
   --font-display: var(--font-archivo), ui-sans-serif, system-ui, sans-serif;
