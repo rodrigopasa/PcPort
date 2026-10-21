@@ -32,7 +32,18 @@ export async function POST(req: Request) {
   // what made this endpoint a no-op before.
   reload()
 
-  const paths: string[] = ['/pt', '/en', '/pt/radar', '/en/radar']
+  // The sitemap and the console pages are generated from the same catalog, so
+  // they go stale with it. Leaving the sitemap out meant a new entry got a
+  // page that nothing — including the crawler — could discover.
+  const paths: string[] = [
+    '/pt',
+    '/en',
+    '/pt/radar',
+    '/en/radar',
+    '/pt/consoles',
+    '/en/consoles',
+    '/sitemap.xml',
+  ]
 
   for (const s of body.slugs ?? []) {
     if (s?.pt) paths.push(`/pt/jogo/${s.pt}`)
