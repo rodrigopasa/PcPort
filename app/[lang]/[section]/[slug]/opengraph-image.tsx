@@ -20,6 +20,7 @@ const TONE: Record<Mechanism, string> = {
   native: '#35b37e',
   recompiled: '#d99a2b',
   'translation-layer': '#7b6cf6',
+  emulator: '#5b94d6',
   'in-progress': '#6b7280',
 }
 

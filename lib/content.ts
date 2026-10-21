@@ -22,6 +22,8 @@ const MECHANISM_PT: Record<Mechanism, string> = {
     'É uma recompilação estática: uma ferramenta traduz o binário original do console para código de PC, de forma mecânica, em vez de reescrever o jogo à mão. O resultado roda nativo, geralmente com FPS destravado e widescreen.',
   'translation-layer':
     'É uma camada de tradução: o executável original roda direto no seu processador e só as chamadas de sistema e de gráfico são convertidas em tempo real. Fica entre o port nativo e o emulador — mais rápido que emular tudo, menos previsível que um port feito à mão.',
+  emulator:
+    'É um emulador: ele recria o console inteiro por software e roda o jogo original sem alterá-lo. Exige mais da máquina que um port nativo, mas serve a biblioteca toda do console em vez de um jogo só.',
   'in-progress':
     'O projeto ainda está em andamento. Decompilação é um trabalho longo e manual, que reconstrói o código-fonte do jogo a partir do binário, e pode levar anos até virar um port jogável.',
 }
@@ -33,6 +35,8 @@ const MECHANISM_EN: Record<Mechanism, string> = {
     'This is a static recompilation: tooling mechanically translates the original console binary into PC code rather than rewriting the game by hand. The result runs natively, typically with an uncapped framerate and widescreen.',
   'translation-layer':
     'This is a translation layer: the original executable runs directly on your CPU and only system and graphics calls are converted at runtime. It sits between a native port and an emulator — faster than emulating everything, less predictable than a hand-built port.',
+  emulator:
+    "This is an emulator: it recreates the whole console in software and runs the original game unmodified. It asks more of your machine than a native port, but it serves the console's entire library rather than one game.",
   'in-progress':
     'The project is still under way. Decompilation is long, manual work that rebuilds the game\'s source from its binary, and it can take years before a playable port exists.',
 }

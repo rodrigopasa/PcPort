@@ -7,6 +7,7 @@ const RULE: Record<Mechanism, string> = {
   native: 'bg-native',
   recompiled: 'bg-recompiled',
   'translation-layer': 'bg-translation',
+  emulator: 'bg-emulator',
   'in-progress': 'bg-progress',
 }
 
