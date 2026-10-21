@@ -311,6 +311,76 @@ export const GAMES: Record<string, GameMeta> = {
       en: 'A sixth-anniversary celebration of Celeste: a three-dimensional reinterpretation built in under two weeks by its original creators.',
     },
   },
+  'yugioh-forbidden-memories': {
+    releasedAt: '1999-12-09',
+    developer: 'Konami',
+    publisher: 'Konami',
+    genres: ['Cartas', 'RPG'],
+    summary: {
+      pt: 'Card game no Egito antigo com regras próprias, diferentes do jogo de mesa — a fusão por tentativa e erro virou parte do folclore do título.',
+      en: 'A card game set in ancient Egypt with its own rules, unlike the tabletop game — its trial-and-error fusion system became part of the title\'s folklore.',
+    },
+  },
+  'pokemon-lets-go-eevee': {
+    releasedAt: '2018-11-16',
+    developer: 'Game Freak',
+    publisher: 'Nintendo',
+    genres: ['RPG'],
+    summary: {
+      pt: 'Releitura de Pokémon Yellow com a captura no estilo Pokémon GO, feita para quem estava chegando à série pelo celular.',
+      en: 'A retelling of Pokémon Yellow with Pokémon GO-style catching, aimed at players arriving at the series from mobile.',
+    },
+  },
+  'snowboard-kids-2': {
+    releasedAt: '1999-07-29',
+    developer: 'Racdym',
+    publisher: 'Atlus',
+    genres: ['Corrida', 'Esporte'],
+    summary: {
+      pt: 'Corrida de snowboard com itens e pistas de fantasia, mais próxima de Mario Kart que de um jogo de esporte sério.',
+      en: 'Item-based snowboard racing on fantasy courses, closer to Mario Kart than to a serious sports game.',
+    },
+  },
+  'conkers-bad-fur-day': {
+    releasedAt: '2001-03-05',
+    developer: 'Rare',
+    publisher: 'Nintendo',
+    genres: ['Plataforma', 'Ação'],
+    summary: {
+      pt: 'Plataforma adulto da Rare, com humor escatológico e paródias de cinema, lançado quando o Nintendo 64 já estava no fim.',
+      en: 'Rare\'s adult platformer, with crude humour and film parodies, released as the Nintendo 64 was already ending.',
+    },
+  },
+  'sonic-adventure': {
+    releasedAt: '1998-12-23',
+    developer: 'Sonic Team',
+    publisher: 'Sega',
+    genres: ['Plataforma', 'Ação'],
+    summary: {
+      pt: 'A estreia do Sonic em três dimensões e o carro-chefe do lançamento do Dreamcast, com seis personagens jogáveis e estilos de jogo distintos.',
+      en: 'Sonic\'s 3D debut and the Dreamcast\'s flagship launch title, with six playable characters and distinct play styles.',
+    },
+  },
+  'forza-motorsport-4': {
+    releasedAt: '2011-10-11',
+    developer: 'Turn 10 Studios',
+    publisher: 'Microsoft Studios',
+    genres: ['Corrida', 'Simulação'],
+    summary: {
+      pt: 'Simulador de corrida com mais de 500 carros e física revista, considerado o ponto alto da série na geração do Xbox 360.',
+      en: 'A racing simulator with over 500 cars and revised physics, widely held as the series\' high point on the Xbox 360.',
+    },
+  },
+  'initial-d-arcade-stage-3': {
+    releasedAt: '2004-01-29',
+    developer: 'Sega Rosso',
+    publisher: 'Sega',
+    genres: ['Corrida', 'Arcade'],
+    summary: {
+      pt: 'Corrida de montanha baseada no mangá Initial D, na placa NAOMI 2, com cartão de memória para guardar o progresso entre máquinas.',
+      en: 'Downhill racing based on the Initial D manga, on the NAOMI 2 board, with a memory card carrying progress between cabinets.',
+    },
+  },
   'virtua-fighter': {
     releasedAt: '1993-12-01',
     developer: 'Sega AM2',

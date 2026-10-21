@@ -164,6 +164,43 @@ const CURATED: Record<string, Curation> = {
   },
   'SAT-R/sa2': { game: 'sonic-advance', title: 'Sonic Advance', console: 'Game Boy Advance' },
   'halo-re/halo': { game: 'halo-ce', title: 'Halo: Combat Evolved', console: 'Xbox' },
+
+  // Fourth batch, from the entries the hourly ingestion discovered on its own.
+  'Unchiga/YuGiOhForbiddenMemoriesRecomp': {
+    game: 'yugioh-forbidden-memories',
+    title: 'Yu-Gi-Oh! Forbidden Memories',
+    console: 'PlayStation',
+  },
+  'raulzrrs/letsgo-recomp': {
+    game: 'pokemon-lets-go-eevee',
+    title: "Pokémon: Let's Go, Eevee!",
+    console: 'Nintendo Switch',
+  },
+  'cdlewis/snowboardkids2-recomp': {
+    game: 'snowboard-kids-2',
+    title: 'Snowboard Kids 2',
+    console: 'Nintendo 64',
+  },
+  'DahSidiAbdallah/ConkerBFDReloaded': {
+    game: 'conkers-bad-fur-day',
+    title: "Conker's Bad Fur Day",
+    console: 'Nintendo 64',
+  },
+  'sonicfreak1337/SARecomp': {
+    game: 'sonic-adventure',
+    title: 'Sonic Adventure',
+    console: 'Dreamcast',
+  },
+  'Alexbeav/fm4-recomp': {
+    game: 'forza-motorsport-4',
+    title: 'Forza Motorsport 4',
+    console: 'Xbox 360',
+  },
+  'distilledorion-sketch/Initial-D-Arcade-Stage-3-Native-SH-4-Recompilation-WIP-': {
+    game: 'initial-d-arcade-stage-3',
+    title: 'Initial D Arcade Stage 3',
+    console: 'Arcade',
+  },
 }
 
 type Row = { repo: string; title: string; game: string | null; console: string }

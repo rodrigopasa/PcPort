@@ -59,8 +59,28 @@ const PC_NATIVE_GAME =
  * when no PC target is mentioned at all, because most ports list Windows
  * alongside macOS and Android.
  */
-const NON_PC_TARGET = /\b(ios|ipados|android|apple watch|playstation 5|ps5|nintendo switch port)\b/i
-const PC_TARGET = /\b(windows|linux|pc|steam ?deck|win64|x86|desktop)\b/i
+const NON_PC_TARGET =
+  /\b(ios|ipados|iphone|ipad|android|apple watch|playstation 5|ps5|for nintendo switch|for the switch)\b/i
+const PC_TARGET = /\b(windows|linux|pc|steam ?deck|win64|x86|desktop|macos)\b/i
+
+/**
+ * Emulators run console software; they do not port it. Checked as a function
+ * rather than a pattern because "no emulator" and "without an emulator" are
+ * how the actual ports describe themselves — the exact opposite claim, in
+ * nearly the same words.
+ */
+function isEmulator(hay: string): boolean {
+  const mentions = /\b([a-z0-9]+ emulator|emulator (for|manager|research|project))\b/i.test(hay)
+  if (!mentions) return false
+  // The article is optional: "no emulator" and "without an emulator" are both
+  // how a port denies being one.
+  const denies = /\b(no|without|not)\s+(an?\s+)?emulator\b/i.test(hay)
+  return !denies
+}
+
+/** Hardware and data utilities that orbit the scene without porting anything. */
+const UTILITY =
+  /\b(controller (emulation|manager)|data recovery|battery status|usb driver|save ?manager|iso (tool|converter))\b/i
 
 /**
  * Evidence the project is a port of a console game to PC.
@@ -72,10 +92,28 @@ const PC_TARGET = /\b(windows|linux|pc|steam ?deck|win64|x86|desktop)\b/i
 const PORT_SIGNAL =
   /\b(port|recomp|decomp|native|reimplement|runtime|homebrew|for (windows|linux|pc|macos))/i
 
+/**
+ * Deliberate exceptions, by repository.
+ *
+ * The rules below are generic and will sometimes be right about a category and
+ * wrong about a specific project. shadPS4 is an emulator and the rule rejects
+ * emulators — but it is also the single most relevant project in this space,
+ * the actual answer to "Bloodborne no PC", and the reason that search has a
+ * legitimate destination at all. A regex should not get to decide that.
+ *
+ * Keep this list short. A long one means the rules are wrong, not that the
+ * exceptions are right.
+ */
+const ALLOWLIST = new Set(['shadps4-emu/shadPS4'])
+
 export type Verdict = { ok: true } | { ok: false; reason: string }
 
 export function isCatalogable(c: Candidate): Verdict {
-  const hay = `${c.title ?? ''} ${c.description ?? ''} ${(c.topics ?? []).join(' ')}`
+  if (ALLOWLIST.has(c.repo)) return { ok: true }
+
+  // The repository name counts as evidence: `gow2-recomp` says what it is even
+  // when the description is just the game's name.
+  const hay = `${c.repo} ${c.title ?? ''} ${c.description ?? ''} ${(c.topics ?? []).join(' ')}`
 
   if (AWESOME_REPO.test(c.repo)) {
     return { ok: false, reason: `awesome-list repository: ${c.repo}` }
@@ -95,16 +133,20 @@ export function isCatalogable(c: Candidate): Verdict {
   if (NON_PC_TARGET.test(hay) && !PC_TARGET.test(hay)) {
     return { ok: false, reason: 'targets a phone, watch or console rather than the PC' }
   }
+  if (isEmulator(hay)) {
+    return { ok: false, reason: 'an emulator runs console software rather than porting it' }
+  }
+  if (UTILITY.test(hay)) {
+    return { ok: false, reason: 'hardware or data utility, not a port' }
+  }
 
-  // A published release with a real asset is the strongest evidence that
-  // something runs, and it outweighs whatever the description happens to say.
-  const hasBuild = Boolean(c.version && c.sizeBytes)
-  if (hasBuild) return { ok: true }
+  // The description has to identify this as a port. An earlier version let a
+  // published release stand in for that evidence, and a Spring Boot JAR
+  // encryption tool with 1800 stars walked straight in — a release proves
+  // something ships, never that it is a console game on the PC.
+  if (!PORT_SIGNAL.test(hay)) {
+    return { ok: false, reason: 'nothing in the description identifies it as a port' }
+  }
 
-  // Without a build, the description has to carry it. These are the
-  // in-progress decompilations worth listing; everything else waits until it
-  // ships something.
-  if (PORT_SIGNAL.test(hay)) return { ok: true }
-
-  return { ok: false, reason: 'no release asset and nothing identifying it as a port' }
+  return { ok: true }
 }

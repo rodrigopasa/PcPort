@@ -76,6 +76,13 @@ const WIKI: Record<string, [wiki: string, title: string]> = {
   'god-of-war-2': ['godofwar', 'God of War II'],
   'sonic-advance': ['sonic', 'Sonic Advance'],
   'halo-ce': ['halo', 'Halo: Combat Evolved'],
+  'yugioh-forbidden-memories': ['yugioh', 'Yu-Gi-Oh! Forbidden Memories'],
+  'pokemon-lets-go-eevee': ['pokemon', "Pokémon: Let's Go, Pikachu! and Let's Go, Eevee!"],
+  'snowboard-kids-2': ['snowboardkids', 'Snowboard Kids 2'],
+  'conkers-bad-fur-day': ['conker', "Conker's Bad Fur Day"],
+  'sonic-adventure': ['sonic', 'Sonic Adventure'],
+  'forza-motorsport-4': ['forzamotorsport', 'Forza Motorsport 4'],
+  'initial-d-arcade-stage-3': ['initiald', 'Initial D Arcade Stage 3'],
 }
 
 type Shot = { url: string; w: number; h: number; source: string }
