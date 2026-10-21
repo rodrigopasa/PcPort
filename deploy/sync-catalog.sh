@@ -79,14 +79,23 @@ echo "sync: catalogo atualizado, revalidate HTTP $code"
 # Revalidating drops the rendered pages, so the next visitor would pay the cold
 # price again — 800–1100 ms against ~100 ms warm, because the origin is in
 # Germany. Walking the sitemap puts them back in the edge cache first.
-# Four at a time: this shares a host with a dozen other sites.
-warmed=0
-while read -r url; do
-  [ -z "$url" ] && continue
-  curl -s -o /dev/null -m 30 "$url" &
-  warmed=$((warmed + 1))
-  [ $((warmed % 4)) -eq 0 ] && wait
-done < <(curl -s -m 60 https://pcport.org/sitemap.xml | grep -o '<loc>[^<]*</loc>' | sed 's/<[^>]*>//g')
-wait
+#
+# Two passes, because one is not enough: the first catches pages mid-
+# regeneration and the edge stores them as EXPIRED, which still costs a
+# second or two. The second pass turns those into HIT. Measured.
+#
+# Four at a time: this host runs a dozen other sites and is not ours to saturate.
+mapfile -t URLS < <(curl -s -m 60 https://pcport.org/sitemap.xml |
+  grep -o '<loc>[^<]*</loc>' | sed 's/<[^>]*>//g')
 
-echo "sync: $warmed paginas aquecidas no cache da borda"
+for pass in 1 2; do
+  n=0
+  for url in "${URLS[@]}"; do
+    [ -z "$url" ] && continue
+    curl -s -o /dev/null -m 30 "$url" &
+    n=$((n + 1))
+    [ $((n % 4)) -eq 0 ] && wait
+  done
+  wait
+  echo "sync: passada $pass — ${#URLS[@]} paginas aquecidas"
+done
