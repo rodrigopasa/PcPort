@@ -101,10 +101,10 @@
     ],
     "stars": 47,
     "description": "Static recompilation of the Sega 32X game Knuckles' Chaotix into native C++ (Windows/Linux/macOS/Android), with true widescreen. Bring your own ROM; no game data included.",
-    "version": "v0.6.0",
+    "version": "v0.6.1",
     "releasedAt": "2026-10-22",
-    "sizeBytes": 30410700,
-    "releaseUrl": "https://github.com/YuutaTsubasa/ChaotixRecompiled/releases/tag/v0.6.0",
+    "sizeBytes": 30413100,
+    "releaseUrl": "https://github.com/YuutaTsubasa/ChaotixRecompiled/releases/tag/v0.6.1",
     "licenseId": "MIT",
     "licenseUrl": "https://api.github.com/licenses/mit",
     "curated": true
@@ -167,7 +167,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 52,
+    "stars": 53,
     "description": "WipEout Omega Collection (PS4) native PC port for Windows: original x86-64 code on the CPU, PS4 runtime, shadPS4 Vulkan video core. Early development. No game files included.",
     "version": "windows-v0.2.1",
     "releasedAt": "2026-10-22",
@@ -191,10 +191,10 @@
     ],
     "stars": 260,
     "description": "Forza Horizon (Xbox 360) natively on PC, rebuilt around the modern Horizon experience: shared online free roam, leaderboards and rivals, 120/144 fps, and a self-hostable online server.",
-    "version": "v0.1.28",
+    "version": "v0.1.29",
     "releasedAt": "2026-10-22",
-    "sizeBytes": 93268825,
-    "releaseUrl": "https://github.com/Dyotson/ForzaHorizon1-ReImagined/releases/tag/v0.1.28",
+    "sizeBytes": 93369997,
+    "releaseUrl": "https://github.com/Dyotson/ForzaHorizon1-ReImagined/releases/tag/v0.1.29",
     "licenseId": "MIT",
     "licenseUrl": "https://api.github.com/licenses/mit",
     "curated": true
@@ -229,7 +229,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 100,
+    "stars": 101,
     "description": "Native PC port of Killzone (PS2) via static recompilation. Mouse and keyboard, 120+ fps, upscaling. Bring your own disc.",
     "version": null,
     "releasedAt": "2026-10-22",
@@ -292,7 +292,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 793,
+    "stars": 794,
     "description": "Native PC port (Linux/Windows) of inFAMOUS Second Son (PS4, CUSA00223) — in development, playable; runs your own game dump; no game or firmware files included. Motion sensor emulation. | Port nativo para PC de inFAMOUS Second Son (em desenvolvimento) — usa o seu próprio dump.",
     "version": "v1.0",
     "releasedAt": "2026-10-22",
@@ -435,7 +435,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 119,
+    "stars": 120,
     "description": "Call of Duty: Modern Warfare 2 (2009) for Xbox 360 recompiled for Windows & Linux",
     "version": "v0.7.0",
     "releasedAt": "2026-10-22",
@@ -562,7 +562,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 127,
+    "stars": 128,
     "description": "Def Jam: Fight for NY PC port — static recompilation of the original Xbox game for native Windows and macOS (Direct3D 11 / Vulkan). Bring your own game dump.",
     "version": "v0.10.7",
     "releasedAt": "2026-10-22",
@@ -597,6 +597,30 @@
     "curated": true
   },
   {
+    "id": "odrannnn-metroidprimeport",
+    "repo": "Odrannnn/MetroidPrimePort",
+    "title": "Metroid Prime",
+    "game": "metroid-prime",
+    "author": "Odrannnn",
+    "console": "GameCube",
+    "mechanism": "native",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Android"
+    ],
+    "stars": 499,
+    "description": "Native port of Metroid Prime (GameCube) for Linux, Windows and Android, built from the PrimeDecomp decompilation. No emulator, no game assets included: bring your own disc image.",
+    "version": "v0.32.0",
+    "releasedAt": "2026-10-22",
+    "sizeBytes": 145749763,
+    "releaseUrl": "https://github.com/Odrannnn/MetroidPrimePort/releases/tag/v0.32.0",
+    "licenseId": "NOASSERTION",
+    "licenseUrl": null,
+    "curated": true
+  },
+  {
     "id": "gamboozino-ngbrecomp",
     "repo": "gamboozino/ngbrecomp",
     "title": "Ninja Gaiden Black",
@@ -627,7 +651,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 189,
+    "stars": 191,
     "description": "Dragon's Crown Pro native PC port for Windows, with direct PS4 PKG installation, TRG launcher and modern graphics options",
     "version": "v0.7.0",
     "releasedAt": "2026-10-21",
@@ -684,7 +708,7 @@
     "console": "PC",
     "mechanism": "native",
     "platforms": [],
-    "stars": 620,
+    "stars": 621,
     "description": "Decompilation of 東方紅魔郷　～ the Embodiment of Scarlet Devil (1.02h)",
     "version": null,
     "releasedAt": "2026-10-21",
@@ -773,30 +797,6 @@
     "sizeBytes": null,
     "releaseUrl": "https://github.com/umarzubair392/ambient-ocarina-toolkit/releases",
     "licenseId": null,
-    "licenseUrl": null,
-    "curated": true
-  },
-  {
-    "id": "odrannnn-metroidprimeport",
-    "repo": "Odrannnn/MetroidPrimePort",
-    "title": "Metroid Prime",
-    "game": "metroid-prime",
-    "author": "Odrannnn",
-    "console": "GameCube",
-    "mechanism": "native",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "macOS",
-      "Android"
-    ],
-    "stars": 498,
-    "description": "Native port of Metroid Prime (GameCube) for Linux, Windows and Android, built from the PrimeDecomp decompilation. No emulator, no game assets included: bring your own disc image.",
-    "version": "v0.31.1",
-    "releasedAt": "2026-10-21",
-    "sizeBytes": 142651727,
-    "releaseUrl": "https://github.com/Odrannnn/MetroidPrimePort/releases/tag/v0.31.1",
-    "licenseId": "NOASSERTION",
     "licenseUrl": null,
     "curated": true
   },
@@ -1011,7 +1011,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 183,
+    "stars": 184,
     "description": "Experimental native PC runtime for Kingdom Hearts 358/2 Days, developed alongside the matching Nintendo DS decompilation. No copyrighted game data included.",
     "version": "v0.1.3",
     "releasedAt": "2026-10-19",
@@ -1053,7 +1053,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 131,
+    "stars": 132,
     "description": "Eternal Darkness: Sanity's Requiem static recompilation (DolRecomp + GXRuntime) for Mac, Windows and Linux / Steam Deck. Bring your own disc.",
     "version": "v0.9.5",
     "releasedAt": "2026-10-19",
@@ -1158,7 +1158,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 329,
+    "stars": 330,
     "description": "An unofficial original Xbox version PC port of Splinter Cell: Double Agent via static recompilation.",
     "version": "V2",
     "releasedAt": "2026-10-18",
@@ -1201,7 +1201,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 243,
+    "stars": 244,
     "description": "A static recompilation of Condemned 2: Bloodshot done with RexGlue.",
     "version": "0.3.7",
     "releasedAt": "2026-10-18",
@@ -1262,7 +1262,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 656,
+    "stars": 658,
     "description": "An unofficial original Xbox version PC port of BLACK (2006) via static recompilation.",
     "version": "V2",
     "releasedAt": "2026-10-18",
@@ -1368,7 +1368,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 119,
+    "stars": 120,
     "description": "Native Windows, Linux and macOS port of Pokémon Snap (N64) by static recompilation. Plays like the cartridge by default; every enhancement is opt-in. Bring your own dump; no game data is included.",
     "version": "v1.1.5",
     "releasedAt": "2026-10-17",
@@ -1497,7 +1497,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 114,
+    "stars": 116,
     "description": "Experimental static recompilation of Forza Motorsport 4 using ReXGlue. No game files included.",
     "version": "v0.1.0-alpha.2",
     "releasedAt": "2026-10-15",
@@ -1520,7 +1520,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 33863,
+    "stars": 33865,
     "description": "PlayStation 4 emulator for Windows, Linux, macOS and FreeBSD written in C++",
     "version": "v.0.20.0",
     "releasedAt": "2026-10-14",
@@ -1710,7 +1710,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 73,
+    "stars": 74,
     "description": "Community Windows PC port of Skate 2, built with ReXGlue. Controller support, adjustable rendering quality, and unlocked FPS. Original game files required.",
     "version": "v0.1.1",
     "releasedAt": "2026-10-12",
