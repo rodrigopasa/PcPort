@@ -35,10 +35,10 @@
     ],
     "stars": 97,
     "description": "Unofficial static recompilation of Sonic Free Riders for Windows, Linux and Android, with controller/keyboard support, custom VRM avatars, and Kinect v1, Kinect v2 (experimental) and webcam motion controls on Windows.",
-    "version": "v0.10.23",
+    "version": "v0.10.24",
     "releasedAt": "2026-10-22",
-    "sizeBytes": 81499286,
-    "releaseUrl": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.23",
+    "sizeBytes": 81515670,
+    "releaseUrl": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.24",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
@@ -122,7 +122,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 423,
+    "stars": 424,
     "description": "PC, Android, iOS and macOS port of the ICO (PS2) decompilation (nathanialf/ico): Windows, Linux, Steam Deck, Android, iPhone via LiveContainer and Apple-silicon Mac (contributed). Contains no game data.",
     "version": "v0.8.4",
     "releasedAt": "2026-10-22",
@@ -144,7 +144,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 376,
+    "stars": 377,
     "description": "Native PC port (Linux/Windows) of The Last Guardian (PS4, CUSA03627) — runs your own game dump; no game or firmware files included. Mouse/keyboard, optional 60 FPS, SMAA/CAS filters. | Port nativo para PC de The Last Guardian — usa o seu próprio dump.",
     "version": "v2026.10.22-3232792",
     "releasedAt": "2026-10-22",
@@ -165,7 +165,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 48,
+    "stars": 49,
     "description": "WipEout Omega Collection (PS4) native PC port for Windows: original x86-64 code on the CPU, PS4 runtime, shadPS4 Vulkan video core. Early development. No game files included.",
     "version": "windows-v0.2.1",
     "releasedAt": "2026-10-22",
@@ -189,10 +189,10 @@
     ],
     "stars": 257,
     "description": "Forza Horizon (Xbox 360) natively on PC, rebuilt around the modern Horizon experience: shared online free roam, leaderboards and rivals, 120/144 fps, and a self-hostable online server.",
-    "version": "v0.1.27",
+    "version": "v0.1.28",
     "releasedAt": "2026-10-22",
-    "sizeBytes": 92933994,
-    "releaseUrl": "https://github.com/Dyotson/ForzaHorizon1-ReImagined/releases/tag/v0.1.27",
+    "sizeBytes": 93268825,
+    "releaseUrl": "https://github.com/Dyotson/ForzaHorizon1-ReImagined/releases/tag/v0.1.28",
     "licenseId": "MIT",
     "licenseUrl": "https://api.github.com/licenses/mit",
     "curated": true
@@ -246,7 +246,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 98,
+    "stars": 99,
     "description": "Unofficial PC port of the Xbox 360 version of Army of Two (2008). Online co-op supported.",
     "version": "v1.3.5",
     "releasedAt": "2026-10-22",
@@ -349,7 +349,7 @@
     "platforms": [
       "Linux"
     ],
-    "stars": 92,
+    "stars": 93,
     "description": "Dragon Ball Z: Burst Limit Recompiled - native PC port via ReXGlue static recompilation",
     "version": "v0.7.2-alpha",
     "releasedAt": "2026-10-22",
@@ -371,7 +371,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 113,
+    "stars": 114,
     "description": "Conker's Bad Fur Day running natively on PC: an N64 recompilation with a Classic mode true to the N64 and a Modern mode (widescreen, smooth frame rate, free camera).",
     "version": "v1.4.4",
     "releasedAt": "2026-10-22",
@@ -456,7 +456,7 @@
       "macOS",
       "iOS"
     ],
-    "stars": 443,
+    "stars": 445,
     "description": "Unofficial static recompilation of the Xbox 360 version of Need for Speed: Most Wanted (2005): a native port for Steam Deck, Steam Machine, Steam Frame, Linux and Mac (iPhone/iPad: sideload the experimental IPA or build it yourself). Bring your own disc: no game files included. Not affiliated with EA or Valve.",
     "version": "v0.1.8",
     "releasedAt": "2026-10-22",
@@ -467,23 +467,44 @@
     "curated": true
   },
   {
-    "id": "shadps4-emu-shadps4",
-    "repo": "shadps4-emu/shadPS4",
-    "title": "shadPS4",
-    "game": null,
-    "author": "shadps4-emu",
-    "console": "PlayStation 4",
-    "mechanism": "emulator",
-    "platforms": [],
-    "stars": 33859,
-    "description": "PlayStation 4 emulator for Windows, Linux, macOS and FreeBSD written in C++",
-    "version": "v.0.20.0",
+    "id": "samuelit0davila-fifa-street-pc-port",
+    "repo": "samuelit0davila/fifa-street-pc-port",
+    "title": "FIFA Street",
+    "game": "fifa-street",
+    "author": "samuelit0davila",
+    "console": "Xbox 360",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 404,
+    "description": "ReStreet: FIFA Street (2012) recompiled for Windows PC, with online play, a launcher with friends, chat and rooms. Bring your own game.",
+    "version": "v2.0.8-online-beta",
     "releasedAt": "2026-10-22",
-    "sizeBytes": 36937952,
-    "releaseUrl": "https://github.com/shadps4-emu/shadPS4/releases",
-    "licenseId": "GPL-2.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-2.0",
+    "sizeBytes": 451460619,
+    "releaseUrl": "https://github.com/samuelit0davila/fifa-street-pc-port/releases/tag/v2.0.8-online-beta",
+    "licenseId": "MIT",
+    "licenseUrl": "https://api.github.com/licenses/mit",
     "curated": true
+  },
+  {
+    "id": "dhaiwat10-cricket07-browser",
+    "repo": "Dhaiwat10/cricket07-browser",
+    "title": "cricket07 browser",
+    "game": null,
+    "author": "Dhaiwat10",
+    "console": "PC",
+    "mechanism": "recompiled",
+    "platforms": [],
+    "stars": 50,
+    "description": "EA Sports Cricket 07 (2006) running in the browser: every function statically recompiled from x86 to C, then WebAssembly, with Direct3D 8 rebuilt on WebGPU. Bring your own copy.",
+    "version": null,
+    "releasedAt": "2026-10-22",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/Dhaiwat10/cricket07-browser/releases",
+    "licenseId": "MIT",
+    "licenseUrl": "https://api.github.com/licenses/mit"
   },
   {
     "id": "gamboozino-ngbrecomp",
@@ -516,7 +537,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 183,
+    "stars": 184,
     "description": "Dragon's Crown Pro native PC port for Windows, with direct PS4 PKG installation, TRG launcher and modern graphics options",
     "version": "v0.7.0",
     "releasedAt": "2026-10-21",
@@ -603,28 +624,6 @@
     "curated": true
   },
   {
-    "id": "samuelit0davila-fifa-street-pc-port",
-    "repo": "samuelit0davila/fifa-street-pc-port",
-    "title": "FIFA Street",
-    "game": "fifa-street",
-    "author": "samuelit0davila",
-    "console": "Xbox 360",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 403,
-    "description": "ReStreet: FIFA Street (2012) recompiled for Windows PC, with online play, a launcher with friends, chat and rooms. Bring your own game.",
-    "version": "v2.0.7-online-beta",
-    "releasedAt": "2026-10-21",
-    "sizeBytes": 450215435,
-    "releaseUrl": "https://github.com/samuelit0davila/fifa-street-pc-port/releases/tag/v2.0.7-online-beta",
-    "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit",
-    "curated": true
-  },
-  {
     "id": "hayatog-gr2-pc",
     "repo": "HayatoG/gr2_pc",
     "title": "Gravity Rush 2",
@@ -680,7 +679,7 @@
       "PC",
       "Android"
     ],
-    "stars": 114,
+    "stars": 115,
     "description": "Unofficial native PC port of WWE SmackDown vs. Raw 2011 (Xbox 360). Bring your own disc.",
     "version": "v2.1.4.1",
     "releasedAt": "2026-10-21",
@@ -788,7 +787,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 857,
+    "stars": 858,
     "description": "A playable preview of Forza Horizon static recompilation",
     "version": "v0.6.1",
     "releasedAt": "2026-10-21",
@@ -1010,7 +1009,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 182,
+    "stars": 183,
     "description": "Experimental native PC runtime for Kingdom Hearts 358/2 Days, developed alongside the matching Nintendo DS decompilation. No copyrighted game data included.",
     "version": "v0.1.3",
     "releasedAt": "2026-10-19",
@@ -1052,7 +1051,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 119,
+    "stars": 120,
     "description": "Eternal Darkness: Sanity's Requiem static recompilation (DolRecomp + GXRuntime) for Mac, Windows and Linux / Steam Deck. Bring your own disc.",
     "version": "v0.9.5",
     "releasedAt": "2026-10-19",
@@ -1115,7 +1114,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 68,
+    "stars": 69,
     "description": "Dead or Alive 3 PC Port ",
     "version": "v1.0.6",
     "releasedAt": "2026-10-19",
@@ -1242,7 +1241,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 161,
+    "stars": 162,
     "description": "Native PC port of God of War (PS2) via static recompilation with PS2Recomp",
     "version": null,
     "releasedAt": "2026-10-18",
@@ -1507,6 +1506,29 @@
     "curated": true
   },
   {
+    "id": "shadps4-emu-shadps4",
+    "repo": "shadps4-emu/shadPS4",
+    "title": "shadPS4",
+    "game": null,
+    "author": "shadps4-emu",
+    "console": "PlayStation 4",
+    "mechanism": "emulator",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "stars": 33861,
+    "description": "PlayStation 4 emulator for Windows, Linux, macOS and FreeBSD written in C++",
+    "version": "v.0.20.0",
+    "releasedAt": "2026-10-14",
+    "sizeBytes": 36937952,
+    "releaseUrl": "https://github.com/shadps4-emu/shadPS4/releases/tag/v.0.20.0",
+    "licenseId": "GPL-2.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-2.0",
+    "curated": true
+  },
+  {
     "id": "gizcesi-opentricky",
     "repo": "GiZcesi/OpenTricky",
     "title": "SSX Tricky",
@@ -1515,7 +1537,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 110,
+    "stars": 111,
     "description": "OpenTricky is an unofficial PC port of SSX Tricky, made by static recompilation. Bring your own disc.",
     "version": null,
     "releasedAt": "2026-10-14",
@@ -1822,7 +1844,7 @@
     "console": "Game Boy Advance",
     "mechanism": "native",
     "platforms": [],
-    "stars": 3626,
+    "stars": 3625,
     "description": "Decompilation of Pokémon Emerald",
     "version": null,
     "releasedAt": "2026-10-01",
