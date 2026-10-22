@@ -74,7 +74,7 @@
     "console": "Nintendo DS",
     "mechanism": "native",
     "platforms": [],
-    "stars": 581,
+    "stars": 582,
     "description": "Decompilation of Pokémon Platinum",
     "version": null,
     "releasedAt": "2026-10-22",
@@ -95,14 +95,16 @@
     "platforms": [
       "Windows",
       "Linux",
-      "Android"
+      "macOS",
+      "Android",
+      "iOS"
     ],
     "stars": 47,
     "description": "Static recompilation of the Sega 32X game Knuckles' Chaotix into native C++ (Windows/Linux/macOS/Android), with true widescreen. Bring your own ROM; no game data included.",
-    "version": "v0.5.1",
+    "version": "v0.6.0",
     "releasedAt": "2026-10-22",
-    "sizeBytes": 30281668,
-    "releaseUrl": "https://github.com/YuutaTsubasa/ChaotixRecompiled/releases/tag/v0.5.1",
+    "sizeBytes": 30410700,
+    "releaseUrl": "https://github.com/YuutaTsubasa/ChaotixRecompiled/releases/tag/v0.6.0",
     "licenseId": "MIT",
     "licenseUrl": "https://api.github.com/licenses/mit",
     "curated": true
@@ -122,7 +124,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 424,
+    "stars": 425,
     "description": "PC, Android, iOS and macOS port of the ICO (PS2) decompilation (nathanialf/ico): Windows, Linux, Steam Deck, Android, iPhone via LiveContainer and Apple-silicon Mac (contributed). Contains no game data.",
     "version": "v0.8.4",
     "releasedAt": "2026-10-22",
@@ -144,7 +146,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 379,
+    "stars": 380,
     "description": "Native PC port (Linux/Windows) of The Last Guardian (PS4, CUSA03627) — runs your own game dump; no game or firmware files included. Mouse/keyboard, optional 60 FPS, SMAA/CAS filters. | Port nativo para PC de The Last Guardian — usa o seu próprio dump.",
     "version": "v2026.10.22-3232792",
     "releasedAt": "2026-10-22",
@@ -165,7 +167,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 51,
+    "stars": 52,
     "description": "WipEout Omega Collection (PS4) native PC port for Windows: original x86-64 code on the CPU, PS4 runtime, shadPS4 Vulkan video core. Early development. No game files included.",
     "version": "windows-v0.2.1",
     "releasedAt": "2026-10-22",
@@ -227,7 +229,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 96,
+    "stars": 97,
     "description": "Native PC port of Killzone (PS2) via static recompilation. Mouse and keyboard, 120+ fps, upscaling. Bring your own disc.",
     "version": null,
     "releasedAt": "2026-10-22",
@@ -290,7 +292,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 789,
+    "stars": 792,
     "description": "Native PC port (Linux/Windows) of inFAMOUS Second Son (PS4, CUSA00223) — in development, playable; runs your own game dump; no game or firmware files included. Motion sensor emulation. | Port nativo para PC de inFAMOUS Second Son (em desenvolvimento) — usa o seu próprio dump.",
     "version": "v1.0",
     "releasedAt": "2026-10-22",
@@ -328,7 +330,7 @@
     "console": "Nintendo Switch",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 342,
+    "stars": 345,
     "description": "Experimental Windows x64 native porting toolkit for Super Smash Bros. Ultimate: static AArch64 recompilation, a D3D11 runtime, and Local Wireless relay netplay.",
     "version": null,
     "releasedAt": "2026-10-22",
@@ -349,7 +351,7 @@
     "platforms": [
       "Linux"
     ],
-    "stars": 94,
+    "stars": 95,
     "description": "Dragon Ball Z: Burst Limit Recompiled - native PC port via ReXGlue static recompilation",
     "version": "v0.7.2-alpha",
     "releasedAt": "2026-10-22",
@@ -433,7 +435,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 117,
+    "stars": 118,
     "description": "Call of Duty: Modern Warfare 2 (2009) for Xbox 360 recompiled for Windows & Linux",
     "version": "v0.7.0",
     "releasedAt": "2026-10-22",
@@ -497,7 +499,7 @@
     "console": "PC",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 61,
+    "stars": 66,
     "description": "EA Sports Cricket 07 (2006) running in the browser: every function statically recompiled from x86 to C, then WebAssembly, with Direct3D 8 rebuilt on WebGPU. Bring your own copy.",
     "version": null,
     "releasedAt": "2026-10-22",
@@ -505,6 +507,28 @@
     "releaseUrl": "https://github.com/Dhaiwat10/cricket07-browser/releases",
     "licenseId": "MIT",
     "licenseUrl": "https://api.github.com/licenses/mit"
+  },
+  {
+    "id": "kaikoclanworth1-wwe-svr2011-pc",
+    "repo": "KaikoClanworth1/wwe-svr2011-pc",
+    "title": "WWE SmackDown vs. Raw 2011",
+    "game": "wwe-svr-2011",
+    "author": "KaikoClanworth1",
+    "console": "Xbox 360",
+    "mechanism": "recompiled",
+    "platforms": [
+      "PC",
+      "Android"
+    ],
+    "stars": 119,
+    "description": "Unofficial native PC port of WWE SmackDown vs. Raw 2011 (Xbox 360). Bring your own disc.",
+    "version": "v2.1.5",
+    "releasedAt": "2026-10-22",
+    "sizeBytes": 565928602,
+    "releaseUrl": "https://github.com/KaikoClanworth1/wwe-svr2011-pc/releases/tag/v2.1.5",
+    "licenseId": null,
+    "licenseUrl": null,
+    "curated": true
   },
   {
     "id": "gamboozino-ngbrecomp",
@@ -537,7 +561,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 187,
+    "stars": 188,
     "description": "Dragon's Crown Pro native PC port for Windows, with direct PS4 PKG installation, TRG launcher and modern graphics options",
     "version": "v0.7.0",
     "releasedAt": "2026-10-21",
@@ -668,28 +692,6 @@
     "curated": true
   },
   {
-    "id": "kaikoclanworth1-wwe-svr2011-pc",
-    "repo": "KaikoClanworth1/wwe-svr2011-pc",
-    "title": "WWE SmackDown vs. Raw 2011",
-    "game": "wwe-svr-2011",
-    "author": "KaikoClanworth1",
-    "console": "Xbox 360",
-    "mechanism": "recompiled",
-    "platforms": [
-      "PC",
-      "Android"
-    ],
-    "stars": 118,
-    "description": "Unofficial native PC port of WWE SmackDown vs. Raw 2011 (Xbox 360). Bring your own disc.",
-    "version": "v2.1.4.1",
-    "releasedAt": "2026-10-21",
-    "sizeBytes": 533372518,
-    "releaseUrl": "https://github.com/KaikoClanworth1/wwe-svr2011-pc/releases/tag/v2.1.4.1",
-    "licenseId": null,
-    "licenseUrl": null,
-    "curated": true
-  },
-  {
     "id": "shagg88-athelas",
     "repo": "Shagg88/Athelas",
     "title": "The Lord of the Rings: The Return of the King",
@@ -765,7 +767,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 497,
+    "stars": 496,
     "description": "Native port of Metroid Prime (GameCube) for Linux, Windows and Android, built from the PrimeDecomp decompilation. No emulator, no game assets included: bring your own disc image.",
     "version": "v0.31.1",
     "releasedAt": "2026-10-21",
@@ -787,7 +789,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 858,
+    "stars": 859,
     "description": "A playable preview of Forza Horizon static recompilation",
     "version": "v0.6.1",
     "releasedAt": "2026-10-21",
@@ -1028,7 +1030,7 @@
     "console": "PlayStation 4",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 111,
+    "stars": 112,
     "description": "Driveclub PS4 PC Port",
     "version": null,
     "releasedAt": "2026-10-19",
@@ -1051,7 +1053,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 126,
+    "stars": 127,
     "description": "Eternal Darkness: Sanity's Requiem static recompilation (DolRecomp + GXRuntime) for Mac, Windows and Linux / Steam Deck. Bring your own disc.",
     "version": "v0.9.5",
     "releasedAt": "2026-10-19",
@@ -1070,7 +1072,7 @@
     "console": "Nintendo DS",
     "mechanism": "native",
     "platforms": [],
-    "stars": 734,
+    "stars": 735,
     "description": "Decompilation of Pokemon HeartGold/SoulSilver",
     "version": null,
     "releasedAt": "2026-10-19",
@@ -1322,7 +1324,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 82,
+    "stars": 83,
     "description": "Army of Two (Army of 2) 2008 [Xbox360] game static recompilation project based on RexGlue-SDK",
     "version": "1.3",
     "releasedAt": "2026-10-18",
@@ -1583,7 +1585,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 96,
+    "stars": 97,
     "description": "Native PC port of the Xbox 360 XBLA game Dead Rising 2: Case West, by static recompilation. Windows and Linux, Vulkan, keyboard/mouse and controller. You supply your own copy of the game.",
     "version": "v1.1.2",
     "releasedAt": "2026-10-14",
@@ -1602,7 +1604,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 3651,
+    "stars": 3650,
     "description": "Playstation 2 Static Recompiler & Runtime Tool to make native PC ports",
     "version": null,
     "releasedAt": "2026-10-14",
@@ -1656,6 +1658,27 @@
     "licenseId": "MIT",
     "licenseUrl": "https://api.github.com/licenses/mit",
     "curated": true
+  },
+  {
+    "id": "nautilusbits-skynet-godot",
+    "repo": "nautilusbits/skynet-godot",
+    "title": "Bethesda's 1996 XnGine shooters SkyNET and Future Shock - pla",
+    "game": null,
+    "author": "nautilusbits",
+    "console": "PC",
+    "mechanism": "native",
+    "platforms": [
+      "Windows",
+      "Android"
+    ],
+    "stars": 40,
+    "description": "A Godot 4 port of Bethesda's 1996 XnGine shooters SkyNET and Future Shock - plays your own copy of the original game data.",
+    "version": "v0.5.0",
+    "releasedAt": "2026-10-13",
+    "sizeBytes": 110534864,
+    "releaseUrl": "https://github.com/nautilusbits/skynet-godot/releases/tag/v0.5.0",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
   },
   {
     "id": "invinceble55-wq-estacado",
@@ -1787,7 +1810,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 171,
+    "stars": 172,
     "description": "Deadly Premonition (Xbox 360) native PC port by static recompilation - v2.0.14: native DirectX 12 renderer ready for testing (up to 4x internal resolution); 60 FPS, mouse look, keyboard driving, FSR 3, ISO installer, PAL + USA",
     "version": "v2.0.14",
     "releasedAt": "2026-10-03",
@@ -1844,7 +1867,7 @@
     "console": "Game Boy Advance",
     "mechanism": "native",
     "platforms": [],
-    "stars": 3625,
+    "stars": 3626,
     "description": "Decompilation of Pokémon Emerald",
     "version": null,
     "releasedAt": "2026-10-01",
@@ -1985,7 +2008,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 144,
+    "stars": 143,
     "description": "Static recompilation of Yu-Gi-Oh! Forbidden Memories (PS1) into a native executable - with a live duel-rank meter, a fusion assistant, adjustable card drops and a cheat menu. Bring your own disc.",
     "version": "v0.6.2",
     "releasedAt": "2026-09-20",
@@ -2152,7 +2175,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 324,
+    "stars": 325,
     "description": "Silent Hill: Downpour — native Windows PC port via static recompilation of the Xbox 360 binary. v1.0 stable: 60 FPS unlocked, ROV warm-cache, standalone launcher, DualSense adaptive triggers, portable saves. Tested on USA + Europe X360 dumps.",
     "version": "v1.1.8",
     "releasedAt": "2026-09-02",
@@ -2401,7 +2424,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5249,
+    "stars": 5250,
     "description": "An unofficial PC port of the Xbox 360 version of Sonic Unleashed created through the process of static recompilation.",
     "version": "v1.0.3",
     "releasedAt": "2025-04-03",
