@@ -462,4 +462,25 @@ export const GUIDES: Record<string, Guide> = {
       'This is where most third-generation ROM hacks and translations come from: the C code is readable and changeable, which the ROM on its own is not.',
     ],
   },
+
+  'TeamGDB/Yakumo': {
+    pt: [
+      'Você precisa da sua própria imagem de disco de Monster Hunter Portable 3rd para PSP. O jogo nunca saiu do Japão, então a cópia é a japonesa — e o projeto traz tradução de texto da comunidade por arquivo separado, instalada depois pelo menu do próprio jogo.',
+      'O caminho mais simples é baixar a release estável mais recente, que vem compilada. Compilar você mesmo também é suportado e documentado.',
+      'O executável do jogo é preparado a partir da sua imagem pelo próprio programa, com a opção de instalação apontando para o seu .iso. Não é preciso nenhuma ferramenta externa de descriptografia.',
+      'Depois disso, a imagem e o executável preparado são vinculados ao perfil do jogo pelos scripts que acompanham o projeto.',
+      'Se for compilar: precisa de CMake 3.20 ou mais novo, Ninja, um compilador C++20, Python 3, SDL3, Vulkan e o glslangValidator. No macOS e no Linux também precisa de make e um compilador C, porque o build monta o próprio FFmpeg para a música e os vídeos; no Windows não precisa.',
+      'Reserve alguns gigabytes de memória livre para compilar — o código recompilado é grande, e falta de memória é a causa mais comum de build interrompido.',
+      'Status: jogável. Leia as notas da release antes de reportar problema.',
+    ],
+    en: [
+      'You need your own Monster Hunter Portable 3rd disc image for PSP. The game never released outside Japan, so the copy is the Japanese one — and the project offers community text translations as a separate file, installed afterwards from the game\'s own menu.',
+      'The simplest route is to download the latest stable release, which comes prebuilt. Building it yourself is also supported and documented.',
+      'The game executable is prepared from your image by the program itself, using its install option pointed at your .iso. No external decryption tool is needed.',
+      'After that, the image and the prepared executable are linked into the game profile by the scripts that ship with the project.',
+      'To build it: CMake 3.20 or newer, Ninja, a C++20 compiler, Python 3, SDL3, Vulkan and glslangValidator. On macOS and Linux you also need make and a C compiler, because the build makes its own FFmpeg for the music and the movies; on Windows it does not.',
+      'Set aside a few gigabytes of free memory for the build — the recompiled code is large, and running out of memory is the most common cause of a halted build.',
+      'Status: playable. Read the release notes before filing a problem.',
+    ],
+  },
 }

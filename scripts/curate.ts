@@ -507,6 +507,50 @@ const CURATED: Record<string, Curation> = {
     title: 'Spider-Man: Edge of Time',
     console: 'Xbox 360',
   },
+  // Seventh batch: everything the catalog still had without a judgement.
+  //
+  // Four are games. Yakumo named no game anywhere in its description, and the
+  // catalog would have kept it as "Yakumo" forever — its build profile is
+  // `mhp3rd` and its community translation repo says so outright: Monster
+  // Hunter Portable 3rd, which never released outside Japan.
+  'TeamGDB/Yakumo': {
+    game: 'monster-hunter-portable-3rd',
+    title: 'Monster Hunter Portable 3rd',
+    console: 'PSP',
+  },
+  'Masterllgod/naruto-storm-generations-port-nativo': {
+    game: 'naruto-storm-generations',
+    title: 'Naruto Shippuden: Ultimate Ninja Storm Generations',
+    console: 'Xbox 360',
+  },
+  'nikolaygorb/ArmyOfTwoRecomp': {
+    game: 'army-of-two',
+    title: 'Army of Two',
+    console: 'Xbox 360',
+  },
+  'umarzubair392/ambient-ocarina-toolkit': {
+    game: 'ocarina-of-time',
+    title: 'The Legend of Zelda: Ocarina of Time',
+    console: 'Nintendo 64',
+  },
+
+  // The rest get a readable title and no game, because they map to no single
+  // one: an emulator, the recompiler toolkits that the ports in this catalog
+  // are built on, and three decompilations of games that were already on PC —
+  // kept for the code, titled honestly, and not dressed up as console ports.
+  'shadps4-emu/shadPS4': { title: 'shadPS4', console: 'PlayStation 4', mechanism: 'emulator' },
+  'ran-j/PS2Recomp': { title: 'PS2Recomp', console: 'PlayStation 2' },
+  'BlackLabelHQ/RecompOne': { title: 'RecompOne', console: 'PlayStation' },
+  'tmcleroy/cps2recomp': { title: 'CPS-2 Recomp', console: 'Arcade' },
+  'alexbeavs-ps1-ports/psxrecomp-ports': { title: 'PSX Recomp Ports', console: 'PlayStation' },
+  'DogParty/iPodClickWheelRecomps': {
+    title: 'iPod Click Wheel Recomps',
+    console: 'iPod Classic',
+  },
+  'rrika/cdcEngineDXHR': { title: 'Deus Ex: Human Revolution', console: 'PC' },
+  'GensokyoClub/th06': { title: 'Touhou 6: The Embodiment of Scarlet Devil', console: 'PC' },
+  'whylurking/IsaacRecomp': { title: 'The Binding of Isaac', console: 'PC' },
+  'ioncodes/llvm8': { title: 'CHIP-8 Recomp', console: 'CHIP-8' },
 }
 
 type Row = {

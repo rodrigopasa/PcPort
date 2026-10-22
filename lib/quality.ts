@@ -22,6 +22,27 @@ export type Candidate = {
   stars?: number
 }
 
+/**
+ * Repositories a person judged and rejected, with the reason.
+ *
+ * The counterpart of curation: curation says "this is a port of that game",
+ * and this says "this is not a port at all". Both are human judgements that
+ * no pattern should have to reconstruct.
+ *
+ * It exists because of the first entry. The description rules below read the
+ * repository's own blurb, and that is all the catalog stores — the words that
+ * gave this one away ("desktop companion", "Pokedex", "battle assistant")
+ * live in its README, which is never fetched. Writing a pattern against text
+ * the catalog does not hold would have been a rule that passes its test and
+ * catches nothing.
+ */
+const DENIED: Record<string, string> = {
+  'aleksandarsimjanoski/pokopia-desktop-edition':
+    'not a port: a companion app for an unreleased 2026 game, with thirteen ' +
+    'topics stuffed with this catalog\'s keywords, no releases, and its ' +
+    'download pointing at a GitHub Pages site instead of a release asset',
+}
+
 /** A curated link list. Unambiguous from the repository name alone. */
 const AWESOME_REPO = /(^|\/)awesome[-_]/i
 
@@ -31,9 +52,16 @@ const LIST_SIGNAL =
 /**
  * Tooling that orbits emulators without being a port: configuration bundles,
  * patch packs, trainers, mod menus. Useful software, wrong catalog.
+ *
+ * `companion` and the Pokedex words were added for a repository that called
+ * itself a desktop companion while carrying thirteen topics stuffed with this
+ * catalog's own keywords — pokopia-pc, pokopia-windows, pokopia-update — no
+ * releases, and a download badge pointing at a GitHub Pages site rather than
+ * a release asset. It is caught on its own description, which is the only
+ * signal here that a spam repository cannot simply edit away.
  */
 const NOT_A_PORT =
-  /\b(cheat table|trainer|mod (suite|menu|manager|loader)|game settings|settings (for|repo)|patches for|save ?editor|texture pack|launcher for|frontend for|wrapper for)\b/i
+  /\b(cheat table|trainer|mod (suite|menu|manager|loader)|game settings|settings (for|repo)|patches for|save ?editor|texture pack|launcher for|frontend for|wrapper for|companion|pok[eé]dex|battle assistant|trainer management)\b/i
 
 /**
  * General-purpose reverse-engineering tooling, which the `decomp` prefix in
@@ -144,6 +172,10 @@ export function isCatalogable(c: Candidate): Verdict {
   // when the description is just the game's name.
   const hay = `${c.repo} ${c.title ?? ''} ${c.description ?? ''} ${(c.topics ?? []).join(' ')}`
 
+  const denied = DENIED[c.repo]
+  if (denied) {
+    return { ok: false, reason: denied }
+  }
   if (AWESOME_REPO.test(c.repo)) {
     return { ok: false, reason: `awesome-list repository: ${c.repo}` }
   }

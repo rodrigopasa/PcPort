@@ -17,7 +17,16 @@ export type GameMeta = {
   publisher?: string
   genres: string[]
   igdbId?: number
-  coverUrl?: string
+  /**
+   * A cover verified by hand, which outranks every fetched source.
+   *
+   * It replaces a bare `coverUrl` that no record ever used. The dimensions
+   * are part of it because a cover with none makes the page reserve no space
+   * and shift when the image arrives, and the attribution is part of it
+   * because an image hotlinked from someone else's CDN deserves the same
+   * credit the fetched ones get — the old shape silently dropped it.
+   */
+  cover?: { url: string; w: number; h: number; source?: string }
   summary: { pt: string; en: string }
 }
 
@@ -332,6 +341,12 @@ export const GAMES: Record<string, GameMeta> = {
     },
   },
   'cnc-tiberian-dawn': {
+    cover: {
+      url: 'https://thumbnails.libretro.com/DOS/Named_Boxarts/Command%20and%20Conquer.png',
+      w: 512,
+      h: 611,
+      source: 'libretro-thumbnails',
+    },
     releasedAt: '1995-08-31',
     developer: 'Westwood Studios',
     publisher: 'Virgin Interactive',
@@ -871,6 +886,12 @@ export const GAMES: Record<string, GameMeta> = {
     },
   },
   'tekken-3': {
+    cover: {
+      url: 'https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Tekken%203%20(USA).png',
+      w: 512,
+      h: 499,
+      source: 'libretro-thumbnails',
+    },
     releasedAt: '1998-03-26',
     developer: 'Namco',
     publisher: 'Namco',
@@ -968,6 +989,26 @@ export const GAMES: Record<string, GameMeta> = {
     summary: {
       pt: 'Luta livre deliberadamente exagerada, com saltos de vários metros e combos aéreos, colocando lutadores clássicos contra os da época. Nada de simulação: é jogo de arcade.',
       en: 'Deliberately exaggerated wrestling, with leaps of several metres and aerial combos, setting classic wrestlers against contemporary ones. No simulation here: it is an arcade game.',
+    },
+  },
+  'monster-hunter-portable-3rd': {
+    releasedAt: '2010-12-01',
+    developer: 'Capcom',
+    publisher: 'Capcom',
+    genres: ['Ação', 'RPG'],
+    summary: {
+      pt: 'A entrada de PSP que vendeu dois milhões de cópias na primeira semana no Japão e nunca saiu de lá. Caça a monstros em partidas longas, com aldeia própria, companheiros Felyne e foco em cooperativo local.',
+      en: 'The PSP entry that shipped two million copies in its first week in Japan and never left the country. Long monster hunts, its own village, Felyne companions and a focus on local co-op.',
+    },
+  },
+  'naruto-storm-generations': {
+    releasedAt: '2012-02-23',
+    developer: 'CyberConnect2',
+    publisher: 'Bandai Namco Games',
+    genres: ['Luta'],
+    summary: {
+      pt: 'Luta em arena tridimensional com o maior elenco da série até então, dividido entre as eras do Naruto e do Shippuden. Combate de um botão com substituição e apoio de companheiros.',
+      en: 'Three-dimensional arena fighting with the largest roster in the series to that point, split between the Naruto and Shippuden eras. One-button combat with substitution and support characters.',
     },
   },
 }

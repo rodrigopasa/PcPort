@@ -108,8 +108,8 @@ function gameOf(key: string | null, lang: Lang): Game | null {
 
   // Priority: a hand-verified URL, then IGDB (licensed for this), then Fandom
   // (a stopgap that disappears the moment IGDB is configured).
-  const cover: Shot | null = meta.coverUrl
-    ? { url: meta.coverUrl, w: 0, h: 0 }
+  const cover: Shot | null = meta.cover
+    ? { url: meta.cover.url, w: meta.cover.w, h: meta.cover.h }
     : fetched?.coverUrl
       ? { url: fetched.coverUrl, w: 0, h: 0 }
       : (fan ?? null)
@@ -121,7 +121,13 @@ function gameOf(key: string | null, lang: Lang): Game | null {
     genres: meta.genres,
     summary: meta.summary[lang],
     cover,
-    coverSource: meta.coverUrl || fetched?.coverUrl ? null : (fan?.source ?? null),
+    // A hand-verified cover keeps its own attribution; IGDB is licensed for
+    // this and needs none; Fandom carries the wiki it came from.
+    coverSource: meta.cover
+      ? (meta.cover.source ?? null)
+      : fetched?.coverUrl
+        ? null
+        : (fan?.source ?? null),
     igdbId: meta.igdbId ?? fetched?.igdbId ?? null,
   }
 }

@@ -188,6 +188,34 @@ test('rejects a port whose target is another console or a phone', () => {
   for (const c of cases) assert.equal(isCatalogable(c).ok, false, `${c.repo} should be rejected`)
 })
 
+test('rejects a project that describes itself as a companion app', () => {
+  // This checks the description rule only. It does NOT cover the repository
+  // that prompted it: those words are in that project's README, and the
+  // catalog stores only the repo blurb. See the deny-list test below.
+  const v = isCatalogable({
+    repo: 'x/some-companion',
+    title: 'pokopia desktop edition',
+    description:
+      'A desktop companion for the Pokemon Pokopia universe: a Pokedex, trainer management console and real-time battle assistant.',
+    topics: ['pc-port', 'pokopia-pc', 'pokopia-windows', 'nintendo-port'],
+  })
+  assert.equal(v.ok, false)
+})
+
+test('the deny list rejects a repository on its real stored text', () => {
+  // Exactly what lib/catalog.json holds for it: repo, title, description. No
+  // topics, no README. Nothing in this text gives the project away, which is
+  // the whole reason the deny list exists.
+  const v = isCatalogable({
+    repo: 'aleksandarsimjanoski/pokopia-desktop-edition',
+    title: 'pokopia desktop edition',
+    description:
+      "Pok\u00e9mon Pokopia Desktop | Catch \u2018Em All in 2026 on Windows & Nintendo PC Ports",
+  })
+  assert.equal(v.ok, false)
+  assert.match((v as { reason: string }).reason, /not a port/)
+})
+
 test('rejects a repository with neither a build nor any port signal', () => {
   const v = isCatalogable({ repo: 'x/nbcraft', description: 'The ultimate cross-platform mining experience.' })
   assert.equal(v.ok, false)
