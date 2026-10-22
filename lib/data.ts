@@ -66,7 +66,15 @@ function buildSlugs(lang: Lang): Map<string, string> {
   const seen = new Map<string, number>()
   const out = new Map<string, string>()
 
-  for (const row of rows()) {
+  // Curated entries claim the clean slug first. Two projects can port the same
+  // game — there are two Wipeouts and two GoldenEyes — and without this the
+  // uncurated one won the canonical URL by catalogue order, taking the title,
+  // the cover and the release date of the entry that actually has them.
+  const ordered = [...rows()].sort(
+    (a, b) => Number(Boolean(b.game)) - Number(Boolean(a.game)) || b.stars - a.stars,
+  )
+
+  for (const row of ordered) {
     const base = `${slugify(row.title)}-${suffix}`
     const n = seen.get(base) ?? 0
     seen.set(base, n + 1)

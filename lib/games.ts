@@ -311,6 +311,46 @@ export const GAMES: Record<string, GameMeta> = {
       en: 'A sixth-anniversary celebration of Celeste: a three-dimensional reinterpretation built in under two weeks by its original creators.',
     },
   },
+  'breath-of-the-wild': {
+    releasedAt: '2017-03-03',
+    developer: 'Nintendo EPD',
+    publisher: 'Nintendo',
+    genres: ['Ação', 'Aventura', 'Mundo aberto'],
+    summary: {
+      pt: 'Hyrule aberta desde o primeiro minuto, com física e química consistentes em vez de soluções roteirizadas: o jogo aceita qualquer caminho que as regras permitam.',
+      en: 'Hyrule open from the first minute, with consistent physics and chemistry instead of scripted solutions: the game accepts any route its rules allow.',
+    },
+  },
+  'wipeout-omega-collection': {
+    releasedAt: '2017-06-06',
+    developer: 'Clever Beans',
+    publisher: 'Sony Interactive Entertainment',
+    genres: ['Corrida', 'Futurista'],
+    summary: {
+      pt: 'Reúne WipEout HD, Fury e 2048 remasterizados a 1080p e 60 quadros, com suporte a 4K no PS4 Pro.',
+      en: 'Collects WipEout HD, Fury and 2048 remastered at 1080p and 60 frames, with 4K support on the PS4 Pro.',
+    },
+  },
+  'cnc-tiberian-dawn': {
+    releasedAt: '1995-08-31',
+    developer: 'Westwood Studios',
+    publisher: 'Virgin Interactive',
+    genres: ['Estratégia em tempo real'],
+    summary: {
+      pt: 'O Command & Conquer original, que firmou o gênero com coleta de recursos, construção de base e vídeos em imagem real entre as missões.',
+      en: 'The original Command & Conquer, which set the genre with resource harvesting, base building and full-motion video between missions.',
+    },
+  },
+  'cnc-red-alert-2': {
+    releasedAt: '2000-10-23',
+    developer: 'Westwood Pacific',
+    publisher: 'Electronic Arts',
+    genres: ['Estratégia em tempo real'],
+    summary: {
+      pt: 'Aliados contra soviéticos numa guerra alternativa de tom deliberadamente exagerado, com a expansão Yuri\'s Revenge acrescentando uma terceira facção.',
+      en: 'Allies against Soviets in a deliberately over-the-top alternate war, with the Yuri\'s Revenge expansion adding a third faction.',
+    },
+  },
   'yugioh-forbidden-memories': {
     releasedAt: '1999-12-09',
     developer: 'Konami',

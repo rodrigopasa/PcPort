@@ -17,7 +17,7 @@
 import { readFileSync, writeFileSync } from 'node:fs'
 import { GAMES } from '../lib/games'
 
-type Curation = { game: string; title: string; console?: string }
+type Curation = { game?: string; title: string; console?: string; mechanism?: string }
 
 const CURATED: Record<string, Curation> = {
   'OpenDriver2/REDRIVER2': { game: 'driver-2', title: 'Driver 2', console: 'PlayStation' },
@@ -201,9 +201,42 @@ const CURATED: Record<string, Curation> = {
     title: 'Initial D Arcade Stage 3',
     console: 'Arcade',
   },
+
+  // Fifth batch: entries whose titles collided because ingestion derived them
+  // from the repository. Two different Zeldas both read "The Legend of Zelda",
+  // and the loose "wipeout" is the PS4 Omega Collection, a different game from
+  // the PlayStation original already in the catalog.
+  'zeldaret/mm': {
+    game: 'majoras-mask',
+    title: "The Legend of Zelda: Majora's Mask",
+    console: 'Nintendo 64',
+  },
+  'zeldaret/botw': {
+    game: 'breath-of-the-wild',
+    title: 'The Legend of Zelda: Breath of the Wild',
+    console: 'Nintendo Switch',
+  },
+  'AbdelmoumenDeghbouche/wipeout_pc': {
+    game: 'wipeout-omega-collection',
+    title: 'WipEout Omega Collection',
+    console: 'PlayStation 4',
+  },
+  'dk8827/cnc-port': {
+    game: 'cnc-tiberian-dawn',
+    title: 'Command & Conquer: Tiberian Dawn',
+    console: 'PC',
+  },
+  'sp00nznet/redalert2-recomp': {
+    game: 'cnc-red-alert-2',
+    title: 'Command & Conquer: Red Alert 2',
+    console: 'PC',
+  },
+
+  // Not a game: an emulator gets a readable title and nothing else.
+  'xenia-project/xenia': { title: 'Xenia', console: 'Xbox 360', mechanism: 'emulator' },
 }
 
-type Row = { repo: string; title: string; game: string | null; console: string }
+type Row = { repo: string; title: string; game: string | null; console: string; mechanism: string }
 
 const FILE = 'lib/catalog.json'
 const rows: Row[] = JSON.parse(readFileSync(FILE, 'utf8'))
@@ -219,11 +252,13 @@ for (const [repo, c] of Object.entries(CURATED)) {
     unmatched.push(repo)
     continue
   }
-  row.game = c.game
+  // An emulator is not a game: it gets a title and nothing else.
+  if (c.game) row.game = c.game
   row.title = c.title
   if (c.console) row.console = c.console
+  if (c.mechanism) (row as Record<string, unknown>).mechanism = c.mechanism
   applied++
-  if (!GAMES[c.game]) missingMeta.add(c.game)
+  if (c.game && !GAMES[c.game]) missingMeta.add(c.game)
 }
 
 writeFileSync(FILE, `${JSON.stringify(rows, null, 2)}\n`)

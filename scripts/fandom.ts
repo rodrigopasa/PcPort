@@ -90,6 +90,10 @@ const WIKI: Record<string, string[]> = {
   'initial-d-arcade-stage-3': ['initiald'],
   'celeste-64': ['celeste'],
   taisei: ['touhou'],
+  'breath-of-the-wild': ['zelda'],
+  'wipeout-omega-collection': ['wipeout'],
+  'cnc-tiberian-dawn': ['cnc'],
+  'cnc-red-alert-2': ['cnc'],
 }
 
 /** Every game also gets the general gaming wiki as a last resort. */
