@@ -136,7 +136,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 417,
+    "stars": 419,
     "description": "PC, Android, iOS and macOS port of the ICO (PS2) decompilation (nathanialf/ico): Windows, Linux, Steam Deck, Android, iPhone via LiveContainer and Apple-silicon Mac (contributed). Contains no game data.",
     "version": "v0.8.3",
     "releasedAt": "2026-10-22",
@@ -177,7 +177,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 42,
+    "stars": 43,
     "description": "WipEout Omega Collection (PS4) native PC port for Windows: original x86-64 code on the CPU, PS4 runtime, shadPS4 Vulkan video core. Early development. No game files included.",
     "version": "windows-v0.2.0",
     "releasedAt": "2026-10-22",
@@ -198,7 +198,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 255,
+    "stars": 256,
     "description": "Forza Horizon (Xbox 360) natively on PC, rebuilt around the modern Horizon experience: shared online free roam, leaderboards and rivals, 120/144 fps, and a self-hostable online server.",
     "version": "v0.1.26",
     "releasedAt": "2026-10-22",
@@ -248,6 +248,48 @@
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
   },
   {
+    "id": "openportroid-armyoftworecompilation",
+    "repo": "OpenPortroid/ArmyOfTwoRecompilation",
+    "title": "Army of Two",
+    "game": "army-of-two",
+    "author": "OpenPortroid",
+    "console": "Xbox 360",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows"
+    ],
+    "stars": 93,
+    "description": "Unofficial PC port of the Xbox 360 version of Army of Two (2008). Online co-op supported.",
+    "version": "v1.3.5",
+    "releasedAt": "2026-10-22",
+    "sizeBytes": 34944499,
+    "releaseUrl": "https://github.com/OpenPortroid/ArmyOfTwoRecompilation/releases/tag/v1.3.5",
+    "licenseId": "MIT",
+    "licenseUrl": "https://api.github.com/licenses/mit"
+  },
+  {
+    "id": "mr-finster-vf2-recomp",
+    "repo": "mr-finster/vf2-recomp",
+    "title": "Virtua Fighter 2",
+    "game": "virtua-fighter-2",
+    "author": "mr-finster",
+    "console": "Arcade",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "stars": 61,
+    "description": "Virtua Fighter 2 (Sega Model 2, 1994) for Mac, Windows and Steam Deck: the arcade's i960 program recompiled to native code, up to 6x, widescreen, smooth 120 fps. Bring your own vf2.zip.",
+    "version": "v0.1.13",
+    "releasedAt": "2026-10-22",
+    "sizeBytes": 8407569,
+    "releaseUrl": "https://github.com/mr-finster/vf2-recomp/releases/tag/v0.1.13",
+    "licenseId": "NOASSERTION",
+    "licenseUrl": null
+  },
+  {
     "id": "gamboozino-ngbrecomp",
     "repo": "gamboozino/ngbrecomp",
     "title": "Ninja Gaiden Black",
@@ -280,7 +322,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 171,
+    "stars": 172,
     "description": "Dragon's Crown Pro native PC port for Windows, with direct PS4 PKG installation, TRG launcher and modern graphics options",
     "version": "v0.7.0",
     "releasedAt": "2026-10-21",
@@ -464,7 +506,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 773,
+    "stars": 776,
     "description": "Native PC port (Linux/Windows) of inFAMOUS Second Son (PS4, CUSA00223) — in development, playable; runs your own game dump; no game or firmware files included. Motion sensor emulation. | Port nativo para PC de inFAMOUS Second Son (em desenvolvimento) — usa o seu próprio dump.",
     "version": "v2026.10.21-da39b0b",
     "releasedAt": "2026-10-21",
@@ -472,26 +514,6 @@
     "releaseUrl": "https://github.com/HayatoG/iss_pc/releases/tag/v2026.10.21-da39b0b",
     "licenseId": null,
     "licenseUrl": null
-  },
-  {
-    "id": "openportroid-armyoftworecompilation",
-    "repo": "OpenPortroid/ArmyOfTwoRecompilation",
-    "title": "Army of Two",
-    "game": "army-of-two",
-    "author": "OpenPortroid",
-    "console": "Xbox 360",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows"
-    ],
-    "stars": 92,
-    "description": "Unofficial PC port of the Xbox 360 version of Army of Two (2008). Online co-op supported.",
-    "version": "v1.3.4",
-    "releasedAt": "2026-10-21",
-    "sizeBytes": 34674137,
-    "releaseUrl": "https://github.com/OpenPortroid/ArmyOfTwoRecompilation/releases/tag/v1.3.4",
-    "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit"
   },
   {
     "id": "sp00nznet-redalert2-recomp",
@@ -586,7 +608,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 95,
+    "stars": 96,
     "description": "Play The Return of the King (PC and Xbox) and The Two Towers (Xbox) on a modern PC",
     "version": "1.4",
     "releasedAt": "2026-10-21",
@@ -672,7 +694,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 852,
+    "stars": 853,
     "description": "A playable preview of Forza Horizon static recompilation",
     "version": "v0.6.1",
     "releasedAt": "2026-10-21",
@@ -835,7 +857,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 2325,
+    "stars": 2326,
     "description": "Decompilation of The Legend of Zelda: Breath of the Wild (Switch 1.5.0)",
     "version": null,
     "releasedAt": "2026-10-20",
@@ -918,7 +940,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 117,
+    "stars": 118,
     "description": "Def Jam: Fight for NY PC port — static recompilation of the original Xbox game for native Windows and macOS (Direct3D 11 / Vulkan). Bring your own game dump.",
     "version": "v0.10.6",
     "releasedAt": "2026-10-20",
@@ -1023,7 +1045,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 95,
+    "stars": 98,
     "description": "Eternal Darkness: Sanity's Requiem static recompilation (DolRecomp + GXRuntime) for Mac, Windows and Linux / Steam Deck. Bring your own disc.",
     "version": "v0.9.5",
     "releasedAt": "2026-10-19",
@@ -1031,28 +1053,6 @@
     "releaseUrl": "https://github.com/griches/EternalDarknessRecomp/releases/tag/v0.9.5",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
-  },
-  {
-    "id": "mr-finster-vf2-recomp",
-    "repo": "mr-finster/vf2-recomp",
-    "title": "Virtua Fighter 2",
-    "game": "virtua-fighter-2",
-    "author": "mr-finster",
-    "console": "Arcade",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "macOS"
-    ],
-    "stars": 61,
-    "description": "Virtua Fighter 2 (Sega Model 2, 1994) for Mac, Windows and Steam Deck: the arcade's i960 program recompiled to native code, up to 6x, widescreen, smooth 120 fps. Bring your own vf2.zip.",
-    "version": "v0.1.12",
-    "releasedAt": "2026-10-19",
-    "sizeBytes": 8407614,
-    "releaseUrl": "https://github.com/mr-finster/vf2-recomp/releases/tag/v0.1.12",
-    "licenseId": "NOASSERTION",
-    "licenseUrl": null
   },
   {
     "id": "pret-pokeheartgold",
@@ -1253,7 +1253,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 157,
+    "stars": 158,
     "description": "Native PC port of God of War (PS2) via static recompilation with PS2Recomp",
     "version": null,
     "releasedAt": "2026-10-18",
@@ -1294,7 +1294,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 433,
+    "stars": 434,
     "description": "Unofficial static recompilation of the Xbox 360 version of Need for Speed: Most Wanted (2005): a native port for Steam Deck, Steam Machine, Steam Frame, Linux and Mac (iPhone/iPad: sideload the experimental IPA or build it yourself). Bring your own disc: no game files included. Not affiliated with EA or Valve.",
     "version": "v0.1.7",
     "releasedAt": "2026-10-18",
@@ -1561,7 +1561,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 379,
+    "stars": 380,
     "description": "PSP games in the browser, static recompilation to WebAssembly, an HLE kernel and a WebGL2 renderer",
     "version": null,
     "releasedAt": "2026-10-15",
@@ -1709,7 +1709,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 3643,
+    "stars": 3644,
     "description": "Playstation 2 Static Recompiler & Runtime Tool to make native PC ports",
     "version": null,
     "releasedAt": "2026-10-14",
@@ -1731,7 +1731,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 100,
+    "stars": 101,
     "description": "The 18 Tekken Tag Tournament characters in Tekken 3: playable in every mode and fought by the CPU. Tekken 3's cast can use their TTT movesets. Built from your own Tekken 3 disc and arcade ROMs.",
     "version": "v1.3.0",
     "releasedAt": "2026-10-14",
@@ -1773,7 +1773,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 500,
+    "stars": 502,
     "description": "Static recompilation of a PSP game into a native executable. Vulkan and SDL3. Bring your own copy of the game.",
     "version": "v0.7.5",
     "releasedAt": "2026-10-13",
@@ -2016,7 +2016,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 201,
+    "stars": 202,
     "description": "Native Windows port of Dead or Alive Xtreme Beach Volleyball (Xbox), built by static recompilation with a hand-written runtime. Requires your own copy of the game.",
     "version": "v0.5.3",
     "releasedAt": "2026-09-30",
@@ -2220,7 +2220,7 @@
     "platforms": [
       "Linux"
     ],
-    "stars": 2145,
+    "stars": 2147,
     "description": "Reconstruct and validate C/C++ code from compiled programs with AI.",
     "version": "v0.4.0",
     "releasedAt": "2026-09-09",
@@ -2284,7 +2284,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 184,
+    "stars": 183,
     "description": "Complete static recompilation of Virtua Racing for the Sega 32X (optimization in progress)",
     "version": null,
     "releasedAt": "2026-09-05",
