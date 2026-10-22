@@ -69,7 +69,25 @@ export function installSteps(row: CatalogRow, lang: Lang): string[] {
   if (guide) return guide[lang]
 
   const own = needsOwnCopy(row)
-  const multi = row.platforms.length > 1
+
+  // `platforms` is only what a release file actually names (lib/platforms.ts),
+  // so it can be empty, and `version` is null for exactly the projects GitHub
+  // reported no release for. The old steps collapsed both into "download the
+  // Windows build", which is the one sentence an entry with no PC binary — or
+  // no binary at all — must never print.
+  const noRelease = !row.version
+  const buildStep =
+    row.platforms.length > 1
+      ? lang === 'pt'
+        ? `Escolha a build do seu sistema: ${row.platforms.join(', ')}.`
+        : `Pick the build for your system: ${row.platforms.join(', ')}.`
+      : row.platforms.length === 1
+        ? lang === 'pt'
+          ? `A release atual publica build para ${row.platforms[0]}.`
+          : `The current release ships a ${row.platforms[0]} build.`
+        : lang === 'pt'
+          ? 'Os nomes dos arquivos da release não dizem para qual sistema cada build serve — confira na página da release antes de baixar.'
+          : 'The release file names do not say which system each build is for — check on the release page before downloading.'
 
   if (row.mechanism === 'in-progress') {
     return lang === 'pt'
@@ -85,13 +103,34 @@ export function installSteps(row: CatalogRow, lang: Lang): string[] {
         ].filter(Boolean)
   }
 
+  // Playable, going by the classifier, but with nothing published to download.
+  // Four entries are here, and the composed steps used to walk them through
+  // extracting a release that does not exist.
+  if (noRelease) {
+    return lang === 'pt'
+      ? [
+          own
+            ? `Use sua própria cópia de ${row.title}. O projeto não distribui nenhum arquivo do jogo.`
+            : `${row.title} é gratuito e completo — nenhum arquivo externo é necessário.`,
+          'Este projeto não tem release publicada: há código no GitHub e nada pronto para baixar.',
+          'Para rodar hoje, compile o projeto você mesmo seguindo o README do repositório.',
+        ]
+      : [
+          own
+            ? `Supply your own copy of ${row.title}. The project distributes no game files.`
+            : `${row.title} is free and complete — no external files are needed.`,
+          'This project has no published release: there is code on GitHub and nothing ready to download.',
+          'To run it today, build the project yourself by following the repository README.',
+        ]
+  }
+
   if (lang === 'pt') {
     return [
       own
         ? `Use sua própria cópia de ${row.title}. O projeto não distribui nenhum arquivo do jogo.`
         : `${row.title} é gratuito e completo — nenhum arquivo externo é necessário.`,
       'Baixe a release mais recente na página do projeto no GitHub.',
-      multi ? `Escolha a build do seu sistema: ${row.platforms.join(', ')}.` : 'Baixe a build para Windows.',
+      buildStep,
       'Extraia o arquivo em uma pasta vazia, fora de Arquivos de Programas.',
       own ? 'Aponte o programa para os arquivos da sua cópia quando ele pedir.' : 'Execute o programa.',
       'Ajuste resolução, limite de FPS e controle antes de jogar.',
@@ -103,7 +142,7 @@ export function installSteps(row: CatalogRow, lang: Lang): string[] {
       ? `Supply your own copy of ${row.title}. The project distributes no game files.`
       : `${row.title} is free and complete — no external files are needed.`,
     'Download the latest release from the project\'s GitHub page.',
-    multi ? `Pick the build for your system: ${row.platforms.join(', ')}.` : 'Download the Windows build.',
+    buildStep,
     'Extract it into an empty folder outside Program Files.',
     own ? 'Point the program at your own game files when prompted.' : 'Run the program.',
     'Set resolution, frame cap and input before playing.',
@@ -149,7 +188,11 @@ export function buildFaq(entry: Entry, lang: Lang): QA[] {
 
     out.push({
       q: `Em quais sistemas funciona?`,
-      a: `A release atual${entry.version ? ` (${entry.version})` : ''} tem build para ${entry.platforms.join(', ')}. O jogo é originalmente de ${entry.console}.`,
+      a: entry.platforms.length
+        ? `A release atual${entry.version ? ` (${entry.version})` : ''} tem build para ${entry.platforms.join(', ')}. O jogo é originalmente de ${entry.console}.`
+        : entry.version
+          ? `Os nomes dos arquivos da release atual${entry.version ? ` (${entry.version})` : ''} não dizem a quais sistemas as builds servem, então esta página não afirma nada: confira na página da release. O jogo é originalmente de ${entry.console}.`
+          : `Não há release publicada para dizer em quais sistemas funciona. O jogo é originalmente de ${entry.console}.`,
     })
 
     out.push({
@@ -186,7 +229,11 @@ export function buildFaq(entry: Entry, lang: Lang): QA[] {
 
   out.push({
     q: `Which systems does it support?`,
-    a: `The current release${entry.version ? ` (${entry.version})` : ''} ships builds for ${entry.platforms.join(', ')}. The game originally shipped on ${entry.console}.`,
+    a: entry.platforms.length
+      ? `The current release${entry.version ? ` (${entry.version})` : ''} ships builds for ${entry.platforms.join(', ')}. The game originally shipped on ${entry.console}.`
+      : entry.version
+        ? `The file names in the current release${entry.version ? ` (${entry.version})` : ''} do not say which systems the builds are for, so this page claims none: check the release page. The game originally shipped on ${entry.console}.`
+        : `No release has been published, so there is nothing to say which systems it runs on. The game originally shipped on ${entry.console}.`,
   })
 
   out.push({

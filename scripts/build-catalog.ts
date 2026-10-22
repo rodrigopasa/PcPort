@@ -18,6 +18,7 @@
 import { writeFile, readFile } from 'node:fs/promises'
 import { checkRelease } from '../lib/guard'
 import { isCatalogable, isEmulator } from '../lib/quality'
+import { detectPlatforms } from '../lib/platforms'
 import type { Mechanism } from '../lib/db/schema'
 
 const API = 'https://api.github.com'
@@ -146,15 +147,6 @@ function detectConsole(repo: Repo): string {
   return 'PC'
 }
 
-function detectPlatforms(release: Release | null, repo: Repo): string[] {
-  const hay = `${release?.assets.map((a) => a.name).join(' ') ?? ''} ${repo.description ?? ''}`
-  const out: string[] = []
-  if (/win|\.exe|\.zip/i.test(hay)) out.push('Windows')
-  if (/linux|appimage|\.tar/i.test(hay)) out.push('Linux')
-  if (/mac|darwin|osx/i.test(hay)) out.push('macOS')
-  return out.length ? out : ['Windows']
-}
-
 /** Strip the port's own branding to get at the game's name. */
 function gameTitle(repo: Repo): string {
   const m = repo.description?.match(
@@ -244,7 +236,9 @@ async function fetchRow(path: string, previous?: CatalogRow): Promise<CatalogRow
     // hourly refresh used to throw that away: Xenia was re-tagged every hour.
     // An uncurated row is still reclassified, so classifier fixes reach it.
     mechanism: previous?.curated ? previous.mechanism : classify(repo),
-    platforms: detectPlatforms(release, repo),
+    // Only what a release file names. No release, or none that names a
+    // platform, writes an empty list rather than guessing Windows.
+    platforms: detectPlatforms(release ? release.assets : null),
     stars: repo.stargazers_count,
     description: repo.description ?? previous?.description ?? '',
     version: release?.tag_name ?? previous?.version ?? null,

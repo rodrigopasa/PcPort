@@ -11,6 +11,7 @@
  * King on a modern PC") and a naive filter rejected those while accepting
  * awesome-lists whose blurb happened to mention porting.
  */
+import { PC_PLATFORMS } from './platforms'
 
 export type Candidate = {
   repo: string
@@ -21,6 +22,13 @@ export type Candidate = {
    * ingestion filter and the pruner disagree, and invited keyword stuffing.
    */
   topics?: string[]
+  /**
+   * What a release file actually named (lib/platforms.ts), as stored in the
+   * catalog. Unlike `topics` this is evidence the repository owner cannot
+   * simply edit, and unlike the description it is the same field the pruner
+   * reads, so ingestion and pruning judge the same thing.
+   */
+  platforms?: string[]
   version?: string | null
   sizeBytes?: number | null
   stars?: number
@@ -220,6 +228,27 @@ export function isCatalogable(c: Candidate): Verdict {
   }
   if (NON_PC_TARGET.test(hay) && !PC_TARGET.test(hay)) {
     return { ok: false, reason: 'targets a phone, watch or console rather than the PC' }
+  }
+
+  // The same judgement made on binaries instead of prose. A release that ships
+  // only .apk or .ipa files has no PC build at all, whatever the blurb says —
+  // which is exactly how X360-Mobile in DENIED above got in, back when
+  // detectPlatforms answered Windows for it.
+  //
+  // Measured over all 123 entries with the honest platforms, judging every one
+  // of them and ignoring the curated guard that normally protects them: this
+  // rule alone rejects NOTHING. Fourteen entries do publish an .apk or an
+  // .ipa, and every one of them publishes a desktop build next to it. It costs
+  // nothing today and stands where the only evidence is binaries, which is
+  // the case prose could not reach.
+  //
+  // `PC` counts as a PC platform: four releases name their desktop build no
+  // more precisely than that, and reading it as non-PC would reject them.
+  if (c.platforms?.length && !c.platforms.some((p) => PC_PLATFORMS.includes(p))) {
+    return {
+      ok: false,
+      reason: `every build in the release is for ${c.platforms.join(', ')}, not the PC`,
+    }
   }
   if (UTILITY.test(hay)) {
     return { ok: false, reason: 'hardware or data utility, not a port' }

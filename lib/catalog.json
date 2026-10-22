@@ -7,10 +7,8 @@
     "author": "kirklandsig",
     "console": "Xbox",
     "mechanism": "native",
-    "platforms": [
-      "Linux"
-    ],
-    "stars": 105,
+    "platforms": [],
+    "stars": 106,
     "description": "Halo 2 decompilation (decomp) for the original Xbox: a matching decompilation of the retail game into C/C++ source, rebuilt byte for byte, toward native PC, Linux and handheld ports. Contributors welcome. Source only; bring your own disc.",
     "version": null,
     "releasedAt": "2026-10-22",
@@ -31,7 +29,9 @@
     "platforms": [
       "Windows",
       "Linux",
-      "macOS"
+      "macOS",
+      "Android",
+      "iOS"
     ],
     "stars": 97,
     "description": "Unofficial static recompilation of Sonic Free Riders for Windows, Linux and Android, with controller/keyboard support, custom VRM avatars, and Kinect v1, Kinect v2 (experimental) and webcam motion controls on Windows.",
@@ -52,9 +52,10 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [
-      "Windows"
+      "Windows",
+      "Android"
     ],
-    "stars": 48,
+    "stars": 49,
     "description": "Gears of War 2 native PC port: the Xbox 360 game statically recompiled to x64 (not an emulator). 1440p/4K, FSR, 4K texture packs, keyboard & mouse, Android in progress. Bring your own copy.",
     "version": "v0.2.11",
     "releasedAt": "2026-10-22",
@@ -72,10 +73,8 @@
     "author": "pret",
     "console": "Nintendo DS",
     "mechanism": "native",
-    "platforms": [
-      "Windows"
-    ],
-    "stars": 579,
+    "platforms": [],
+    "stars": 580,
     "description": "Decompilation of Pokémon Platinum",
     "version": null,
     "releasedAt": "2026-10-22",
@@ -96,14 +95,14 @@
     "platforms": [
       "Windows",
       "Linux",
-      "macOS"
+      "Android"
     ],
     "stars": 47,
     "description": "Static recompilation of the Sega 32X game Knuckles' Chaotix into native C++ (Windows/Linux/macOS/Android), with true widescreen. Bring your own ROM; no game data included.",
-    "version": "v0.4.9",
+    "version": "v0.5.0",
     "releasedAt": "2026-10-22",
-    "sizeBytes": 30032516,
-    "releaseUrl": "https://github.com/YuutaTsubasa/ChaotixRecompiled/releases/tag/v0.4.9",
+    "sizeBytes": 30277508,
+    "releaseUrl": "https://github.com/YuutaTsubasa/ChaotixRecompiled/releases/tag/v0.5.0",
     "licenseId": "MIT",
     "licenseUrl": "https://api.github.com/licenses/mit",
     "curated": true
@@ -119,9 +118,11 @@
     "platforms": [
       "Windows",
       "Linux",
-      "macOS"
+      "macOS",
+      "Android",
+      "iOS"
     ],
-    "stars": 421,
+    "stars": 423,
     "description": "PC, Android, iOS and macOS port of the ICO (PS2) decompilation (nathanialf/ico): Windows, Linux, Steam Deck, Android, iPhone via LiveContainer and Apple-silicon Mac (contributed). Contains no game data.",
     "version": "v0.8.4",
     "releasedAt": "2026-10-22",
@@ -205,7 +206,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [
-      "Windows"
+      "PC"
     ],
     "stars": 49,
     "description": "Native Windows PC recompilation of the unreleased GoldenEye 007 Xbox 360/XBLA remaster using ReXGlue. Requires your own copy.",
@@ -225,9 +226,7 @@
     "author": "drakolordx7",
     "console": "PlayStation 2",
     "mechanism": "recompiled",
-    "platforms": [
-      "Windows"
-    ],
+    "platforms": [],
     "stars": 92,
     "description": "Native PC port of Killzone (PS2) via static recompilation. Mouse and keyboard, 120+ fps, upscaling. Bring your own disc.",
     "version": null,
@@ -246,9 +245,7 @@
     "author": "OpenPortroid",
     "console": "Xbox 360",
     "mechanism": "recompiled",
-    "platforms": [
-      "Windows"
-    ],
+    "platforms": [],
     "stars": 98,
     "description": "Unofficial PC port of the Xbox 360 version of Army of Two (2008). Online co-op supported.",
     "version": "v1.3.5",
@@ -269,7 +266,6 @@
     "mechanism": "recompiled",
     "platforms": [
       "Windows",
-      "Linux",
       "macOS"
     ],
     "stars": 62,
@@ -294,12 +290,12 @@
       "Windows",
       "Linux"
     ],
-    "stars": 784,
+    "stars": 785,
     "description": "Native PC port (Linux/Windows) of inFAMOUS Second Son (PS4, CUSA00223) — in development, playable; runs your own game dump; no game or firmware files included. Motion sensor emulation. | Port nativo para PC de inFAMOUS Second Son (em desenvolvimento) — usa o seu próprio dump.",
-    "version": "v2026.10.22-cde38af",
+    "version": "v1.0",
     "releasedAt": "2026-10-22",
     "sizeBytes": 122650527,
-    "releaseUrl": "https://github.com/HayatoG/iss_pc/releases/tag/v2026.10.22-cde38af",
+    "releaseUrl": "https://github.com/HayatoG/iss_pc/releases/tag/v1.0",
     "licenseId": null,
     "licenseUrl": null,
     "curated": true
@@ -312,9 +308,7 @@
     "author": "sp00nznet",
     "console": "PC",
     "mechanism": "recompiled",
-    "platforms": [
-      "Windows"
-    ],
+    "platforms": [],
     "stars": 62,
     "description": "Static recompilation of Command & Conquer: Red Alert 2 / Yuri's Revenge (Westwood, 2000-01) to native C, with the remaster the engine never got: a D3D11 presenter, 720p to 4K, HD voxel units. Built on pcrecomp.",
     "version": null,
@@ -333,10 +327,8 @@
     "author": "OpenSmash-Ultimate",
     "console": "Nintendo Switch",
     "mechanism": "recompiled",
-    "platforms": [
-      "Windows"
-    ],
-    "stars": 337,
+    "platforms": [],
+    "stars": 339,
     "description": "Experimental Windows x64 native porting toolkit for Super Smash Bros. Ultimate: static AArch64 recompilation, a D3D11 runtime, and Local Wireless relay netplay.",
     "version": null,
     "releasedAt": "2026-10-22",
@@ -355,7 +347,6 @@
     "console": "PlayStation 3",
     "mechanism": "recompiled",
     "platforms": [
-      "Windows",
       "Linux"
     ],
     "stars": 92,
@@ -380,7 +371,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 111,
+    "stars": 113,
     "description": "Conker's Bad Fur Day running natively on PC: an N64 recompilation with a Classic mode true to the N64 and a Modern mode (widescreen, smooth frame rate, free camera).",
     "version": "v1.4.4",
     "releasedAt": "2026-10-22",
@@ -398,9 +389,7 @@
     "author": "MaryNCRT",
     "console": "Arcade",
     "mechanism": "in-progress",
-    "platforms": [
-      "Windows"
-    ],
+    "platforms": [],
     "stars": 44,
     "description": "Ultimate Mortal Kombat 3 (iOS, EA Mobile 2011), fully decompiled: all 2,572 game functions are readable C, checked against a static ARM-to-C recompiler. Native port in progress: menus, sound and saves run; fight data tables extracted from your copy and verified; not playable yet. No game assets - bring your own copy.",
     "version": null,
@@ -419,11 +408,8 @@
     "author": "gamboozino",
     "console": "Xbox",
     "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 126,
+    "platforms": [],
+    "stars": 127,
     "description": "Ninja Gaiden Black (Xbox, 2005) statically recompiled into native Linux and Windows builds, drawn by its own Vulkan renderer. A steady 60 fps, widescreen and ultrawide, keyboard and mouse, Steam Deck ready. Bring your own copy of the game.",
     "version": null,
     "releasedAt": "2026-10-21",
@@ -463,9 +449,7 @@
     "author": "BlackLabelHQ",
     "console": "PlayStation",
     "mechanism": "recompiled",
-    "platforms": [
-      "Windows"
-    ],
+    "platforms": [],
     "stars": 589,
     "description": "PSX Static Recompiler and Runtime, Not Affiliated With Sony or PlayStation",
     "version": null,
@@ -484,9 +468,7 @@
     "author": "zeldaret",
     "console": "Nintendo 64",
     "mechanism": "native",
-    "platforms": [
-      "Windows"
-    ],
+    "platforms": [],
     "stars": 1756,
     "description": "Decompilation of The Legend of Zelda: Majora's Mask",
     "version": null,
@@ -505,9 +487,7 @@
     "author": "shdecompilations",
     "console": "PlayStation",
     "mechanism": "native",
-    "platforms": [
-      "Windows"
-    ],
+    "platforms": [],
     "stars": 956,
     "description": "An in-progress decompilation of Silent Hill on the PlayStation 1.",
     "version": null,
@@ -526,9 +506,7 @@
     "author": "GensokyoClub",
     "console": "PC",
     "mechanism": "native",
-    "platforms": [
-      "Windows"
-    ],
+    "platforms": [],
     "stars": 620,
     "description": "Decompilation of 東方紅魔郷　～ the Embodiment of Scarlet Devil (1.02h)",
     "version": null,
@@ -614,8 +592,8 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [
-      "Windows",
-      "macOS"
+      "PC",
+      "Android"
     ],
     "stars": 115,
     "description": "Unofficial native PC port of WWE SmackDown vs. Raw 2011 (Xbox 360). Bring your own disc.",
@@ -635,9 +613,7 @@
     "author": "Shagg88",
     "console": "Xbox",
     "mechanism": "recompiled",
-    "platforms": [
-      "Windows"
-    ],
+    "platforms": [],
     "stars": 96,
     "description": "Play The Return of the King (PC and Xbox) and The Two Towers (Xbox) on a modern PC",
     "version": "1.4",
@@ -656,9 +632,7 @@
     "author": "umarzubair392",
     "console": "Nintendo 64",
     "mechanism": "recompiled",
-    "platforms": [
-      "Windows"
-    ],
+    "platforms": [],
     "stars": 55,
     "description": "The Legend of Zelda: Ocarina of Time Definitive PC Port — Ship of Harkinian Recompiled for 2026",
     "version": null,
@@ -680,7 +654,8 @@
     "platforms": [
       "Windows",
       "Linux",
-      "macOS"
+      "macOS",
+      "Android"
     ],
     "stars": 77,
     "description": "Native SDL3 port of Colin McRae Rally 2.0 built from the CMR2Decomp decompilation. No game data included.",
@@ -703,7 +678,8 @@
     "platforms": [
       "Windows",
       "Linux",
-      "macOS"
+      "macOS",
+      "Android"
     ],
     "stars": 494,
     "description": "Native port of Metroid Prime (GameCube) for Linux, Windows and Android, built from the PrimeDecomp decompilation. No emulator, no game assets included: bring your own disc image.",
@@ -724,7 +700,6 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [
-      "Windows",
       "Linux",
       "macOS"
     ],
@@ -746,9 +721,7 @@
     "author": "Yharnam-Hunters",
     "console": "PlayStation 4",
     "mechanism": "native",
-    "platforms": [
-      "Windows"
-    ],
+    "platforms": [],
     "stars": 131,
     "description": "A decompilation of Bloodborne (CUSA03173 v1.09) with its own runtime: the game's code rewritten as readable C++, one verified function at a time. The game doesn't run on it yet; 21 functions verified. No game files included.",
     "version": null,
@@ -788,9 +761,7 @@
     "author": "pret",
     "console": "Game Boy Advance",
     "mechanism": "native",
-    "platforms": [
-      "Windows"
-    ],
+    "platforms": [],
     "stars": 1681,
     "description": "Decompilation of Pokémon FireRed/LeafGreen",
     "version": null,
@@ -809,9 +780,7 @@
     "author": "projectPiki",
     "console": "GameCube",
     "mechanism": "native",
-    "platforms": [
-      "Windows"
-    ],
+    "platforms": [],
     "stars": 388,
     "description": "A decompilation of Pikmin 2 (USA) brought to you by fans of the series.",
     "version": null,
@@ -830,9 +799,7 @@
     "author": "PrimeDecomp",
     "console": "GameCube",
     "mechanism": "native",
-    "platforms": [
-      "Windows"
-    ],
+    "platforms": [],
     "stars": 382,
     "description": "A matching decompilation of Metroid Prime",
     "version": null,
@@ -853,7 +820,6 @@
     "mechanism": "recompiled",
     "platforms": [
       "Windows",
-      "Linux",
       "macOS"
     ],
     "stars": 56,
@@ -874,9 +840,7 @@
     "author": "zeldaret",
     "console": "Nintendo Switch",
     "mechanism": "native",
-    "platforms": [
-      "Windows"
-    ],
+    "platforms": [],
     "stars": 2324,
     "description": "Decompilation of The Legend of Zelda: Breath of the Wild (Switch 1.5.0)",
     "version": null,
@@ -895,9 +859,7 @@
     "author": "CTR-tools",
     "console": "PlayStation",
     "mechanism": "native",
-    "platforms": [
-      "Windows"
-    ],
+    "platforms": [],
     "stars": 422,
     "description": "A Crash Team Racing Decompilation Project",
     "version": null,
@@ -918,7 +880,8 @@
     "mechanism": "recompiled",
     "platforms": [
       "Windows",
-      "Linux"
+      "Linux",
+      "Android"
     ],
     "stars": 52,
     "description": "Native C++ recompilation of The Binding of Isaac (Flash) — 60 fps, 1080p, Windows/Linux/Switch. Requires the original game from Steam",
@@ -938,9 +901,7 @@
     "author": "rrika",
     "console": "PC",
     "mechanism": "native",
-    "platforms": [
-      "Windows"
-    ],
+    "platforms": [],
     "stars": 325,
     "description": "Decompilation of Deus Ex: Human Revolution",
     "version": null,
@@ -1025,9 +986,7 @@
     "author": "BlackLineInteractive",
     "console": "PlayStation 4",
     "mechanism": "recompiled",
-    "platforms": [
-      "Windows"
-    ],
+    "platforms": [],
     "stars": 110,
     "description": "Driveclub PS4 PC Port",
     "version": null,
@@ -1069,9 +1028,7 @@
     "author": "pret",
     "console": "Nintendo DS",
     "mechanism": "native",
-    "platforms": [
-      "Windows"
-    ],
+    "platforms": [],
     "stars": 733,
     "description": "Decompilation of Pokemon HeartGold/SoulSilver",
     "version": null,
@@ -1157,9 +1114,7 @@
     "author": "TGP482",
     "console": "Xbox",
     "mechanism": "recompiled",
-    "platforms": [
-      "Windows"
-    ],
+    "platforms": [],
     "stars": 328,
     "description": "An unofficial original Xbox version PC port of Splinter Cell: Double Agent via static recompilation.",
     "version": "V2",
@@ -1223,7 +1178,8 @@
     "mechanism": "recompiled",
     "platforms": [
       "Windows",
-      "Linux"
+      "Linux",
+      "Android"
     ],
     "stars": 170,
     "description": "Native Windows port of Final Fantasy Tactics Advance with widescreen, video/audio options and a one-click installer.",
@@ -1243,9 +1199,7 @@
     "author": "KIexster",
     "console": "PlayStation 2",
     "mechanism": "recompiled",
-    "platforms": [
-      "Windows"
-    ],
+    "platforms": [],
     "stars": 160,
     "description": "Native PC port of God of War (PS2) via static recompilation with PS2Recomp",
     "version": null,
@@ -1264,9 +1218,7 @@
     "author": "TGP482",
     "console": "Xbox",
     "mechanism": "recompiled",
-    "platforms": [
-      "Windows"
-    ],
+    "platforms": [],
     "stars": 648,
     "description": "An unofficial original Xbox version PC port of BLACK (2006) via static recompilation.",
     "version": "V2",
@@ -1287,7 +1239,8 @@
     "mechanism": "recompiled",
     "platforms": [
       "Linux",
-      "macOS"
+      "macOS",
+      "iOS"
     ],
     "stars": 443,
     "description": "Unofficial static recompilation of the Xbox 360 version of Need for Speed: Most Wanted (2005): a native port for Steam Deck, Steam Machine, Steam Frame, Linux and Mac (iPhone/iPad: sideload the experimental IPA or build it yourself). Bring your own disc: no game files included. Not affiliated with EA or Valve.",
@@ -1308,7 +1261,8 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [
-      "Windows"
+      "Windows",
+      "Android"
     ],
     "stars": 72,
     "description": "Naruto Shippuden: Ultimate Ninja Storm Generations (Xbox 360) rodando nativamente no Android e no PC: recompilação estática, sem emulador de CPU.",
@@ -1328,9 +1282,7 @@
     "author": "SulphurS16",
     "console": "PlayStation 3",
     "mechanism": "recompiled",
-    "platforms": [
-      "Windows"
-    ],
+    "platforms": [],
     "stars": 49,
     "description": "Unofficial native Windows port of ARMORED CORE for Answer (PS3), built from your own copy of the game. Part of Project Glintburn.",
     "version": "v0.7.2",
@@ -1415,9 +1367,7 @@
     "author": "some-scurvy-dog",
     "console": "Nintendo 64",
     "mechanism": "recompiled",
-    "platforms": [
-      "Windows"
-    ],
+    "platforms": [],
     "stars": 92,
     "description": "Banjo-Tooie Scurvy Dog Port: a static PC recompilation of Banjo-Tooie. **Not affiliated with the Banjo: Recompiled team**",
     "version": null,
@@ -1569,9 +1519,7 @@
     "author": "GiZcesi",
     "console": "PlayStation 2",
     "mechanism": "recompiled",
-    "platforms": [
-      "Windows"
-    ],
+    "platforms": [],
     "stars": 110,
     "description": "OpenTricky is an unofficial PC port of SSX Tricky, made by static recompilation. Bring your own disc.",
     "version": null,
@@ -1636,9 +1584,7 @@
     "author": "ran-j",
     "console": "PlayStation 2",
     "mechanism": "recompiled",
-    "platforms": [
-      "Windows"
-    ],
+    "platforms": [],
     "stars": 3645,
     "description": "Playstation 2 Static Recompiler & Runtime Tool to make native PC ports",
     "version": null,
@@ -1681,7 +1627,8 @@
     "platforms": [
       "Windows",
       "Linux",
-      "macOS"
+      "macOS",
+      "Android"
     ],
     "stars": 503,
     "description": "Static recompilation of a PSP game into a native executable. Vulkan and SDL3. Bring your own copy of the game.",
@@ -1701,9 +1648,7 @@
     "author": "invinceble55-wq",
     "console": "Xbox 360",
     "mechanism": "recompiled",
-    "platforms": [
-      "Windows"
-    ],
+    "platforms": [],
     "stars": 96,
     "description": "Estacado: a native PC recompilation of The Darkness (Xbox 360). Unofficial fan port; bring your own copy of the game.",
     "version": null,
@@ -1743,9 +1688,7 @@
     "author": "pret",
     "console": "Nintendo DS",
     "mechanism": "native",
-    "platforms": [
-      "Windows"
-    ],
+    "platforms": [],
     "stars": 544,
     "description": "Decompilation of Pokémon Diamond/Pearl",
     "version": null,
@@ -1764,9 +1707,7 @@
     "author": "jedijosh920",
     "console": "Xbox",
     "mechanism": "native",
-    "platforms": [
-      "Windows"
-    ],
+    "platforms": [],
     "stars": 76,
     "description": "Unofficial native Windows port of Star Wars: Episode III - Revenge of the Sith (Xbox). Bring your own copy.",
     "version": null,
@@ -1787,8 +1728,7 @@
     "mechanism": "native",
     "platforms": [
       "Windows",
-      "Linux",
-      "macOS"
+      "Linux"
     ],
     "stars": 284,
     "description": "GoldenEye 007 (N64, 1997) as a native PC game for Windows, Linux, Steam Deck and macOS. Built from the open decompilation, with widescreen, mouse and keyboard or controller, and split-screen. Not an emulator.",
@@ -1808,9 +1748,7 @@
     "author": "projectPiki",
     "console": "GameCube",
     "mechanism": "native",
-    "platforms": [
-      "Windows"
-    ],
+    "platforms": [],
     "stars": 326,
     "description": "A decompilation of Pikmin brought to you by fans of the series.",
     "version": null,
@@ -1850,9 +1788,7 @@
     "author": "GRAnimated",
     "console": "Xbox 360",
     "mechanism": "native",
-    "platforms": [
-      "Windows"
-    ],
+    "platforms": [],
     "stars": 622,
     "description": "11.217% - Decompilation of Minecraft: Legacy Console Edition",
     "version": null,
@@ -1871,9 +1807,7 @@
     "author": "adonis-singh",
     "console": "GameCube",
     "mechanism": "native",
-    "platforms": [
-      "Windows"
-    ],
+    "platforms": [],
     "stars": 355,
     "description": "Resident Evil 4 (GameCube, G4BE08 debug build) — complete byte-identical decompilation to C/C++",
     "version": null,
@@ -1892,9 +1826,7 @@
     "author": "pret",
     "console": "Game Boy Advance",
     "mechanism": "native",
-    "platforms": [
-      "Windows"
-    ],
+    "platforms": [],
     "stars": 3625,
     "description": "Decompilation of Pokémon Emerald",
     "version": null,
@@ -1913,9 +1845,7 @@
     "author": "NoRain211",
     "console": "Xbox",
     "mechanism": "recompiled",
-    "platforms": [
-      "Windows"
-    ],
+    "platforms": [],
     "stars": 203,
     "description": "Native Windows port of Dead or Alive Xtreme Beach Volleyball (Xbox), built by static recompilation with a hand-written runtime. Requires your own copy of the game.",
     "version": "v0.5.3",
@@ -1935,7 +1865,6 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [
-      "Windows",
       "macOS"
     ],
     "stars": 55,
@@ -1956,9 +1885,7 @@
     "author": "pret",
     "console": "Game Boy Advance",
     "mechanism": "native",
-    "platforms": [
-      "Windows"
-    ],
+    "platforms": [],
     "stars": 1006,
     "description": "Decompilation of Pokémon Ruby/Sapphire",
     "version": null,
@@ -1977,9 +1904,7 @@
     "author": "pmret",
     "console": "Nintendo 64",
     "mechanism": "native",
-    "platforms": [
-      "Windows"
-    ],
+    "platforms": [],
     "stars": 1638,
     "description": "Decompilation of Paper Mario (Nintendo 64)",
     "version": null,
@@ -1999,7 +1924,6 @@
     "console": "PlayStation",
     "mechanism": "recompiled",
     "platforms": [
-      "Windows",
       "Linux"
     ],
     "stars": 73,
@@ -2020,9 +1944,7 @@
     "author": "FishB0nes98",
     "console": "PlayStation",
     "mechanism": "recompiled",
-    "platforms": [
-      "Windows"
-    ],
+    "platforms": [],
     "stars": 62,
     "description": "Tekken 3 hybrid recompilation preview with Jun Kazama, widescreen, custom skins and local asset import tools.",
     "version": null,
@@ -2064,9 +1986,7 @@
     "author": "PauloUbirajara",
     "console": "PlayStation 3",
     "mechanism": "in-progress",
-    "platforms": [
-      "Windows"
-    ],
+    "platforms": [],
     "stars": 62,
     "description": "Recomp of Asura's Wrath using RexGlue for PC (wip)",
     "version": null,
@@ -2131,9 +2051,7 @@
     "author": "matiaszanolli",
     "console": "Sega 32X",
     "mechanism": "recompiled",
-    "platforms": [
-      "Windows"
-    ],
+    "platforms": [],
     "stars": 184,
     "description": "Complete static recompilation of Virtua Racing for the Sega 32X (optimization in progress)",
     "version": null,
@@ -2153,9 +2071,10 @@
     "console": "PlayStation",
     "mechanism": "native",
     "platforms": [
-      "Windows",
       "Linux",
-      "macOS"
+      "macOS",
+      "Android",
+      "iOS"
     ],
     "stars": 747,
     "description": "Multiplatform and Feature-rich Port based on PSX decompilation of Silent Hill 1 made with Claude and Psycross. Still in beta and is in active development.",
@@ -2175,9 +2094,7 @@
     "author": "distilledorion-sketch",
     "console": "Arcade",
     "mechanism": "in-progress",
-    "platforms": [
-      "Windows"
-    ],
+    "platforms": [],
     "stars": 158,
     "description": "Native SH-4 AOT recompilation of Initial D Arcade Stage 3 (NAOMI 2) — BIOS-free Vulkan public early demo (WIP).",
     "version": "v2489-verified-vulkan-checkpoint",
@@ -2217,9 +2134,7 @@
     "author": "LittleBitUA",
     "console": "Xbox 360",
     "mechanism": "recompiled",
-    "platforms": [
-      "Windows"
-    ],
+    "platforms": [],
     "stars": 321,
     "description": "Silent Hill: Downpour — native Windows PC port via static recompilation of the Xbox 360 binary. v1.0 stable: 60 FPS unlocked, ROV warm-cache, standalone launcher, DualSense adaptive triggers, portable saves. Tested on USA + Europe X360 dumps.",
     "version": "v1.1.8",
@@ -2238,10 +2153,7 @@
     "author": "dk8827",
     "console": "PC",
     "mechanism": "native",
-    "platforms": [
-      "Linux",
-      "macOS"
-    ],
+    "platforms": [],
     "stars": 239,
     "description": "Unofficial working port of Command & Conquer: Red Alert running natively on iOS, Android, Linux and macOS. SDL2 video/audio/input. No game assets included.",
     "version": null,
@@ -2329,9 +2241,7 @@
     "author": "SAT-R",
     "console": "Game Boy Advance",
     "mechanism": "native",
-    "platforms": [
-      "Windows"
-    ],
+    "platforms": [],
     "stars": 684,
     "description": "A decompilation and port of Sonic Advance 1 & 2 - GameBoy Advance game's written in C",
     "version": null,
@@ -2350,9 +2260,7 @@
     "author": "dbalatoni13",
     "console": "Xbox 360",
     "mechanism": "in-progress",
-    "platforms": [
-      "Windows"
-    ],
+    "platforms": [],
     "stars": 235,
     "description": "WIP 1:1 Decompilation of multiple versions of NFS:MW",
     "version": "extension_0.1.0",
@@ -2371,9 +2279,7 @@
     "author": "dk8827",
     "console": "PC",
     "mechanism": "native",
-    "platforms": [
-      "macOS"
-    ],
+    "platforms": [],
     "stars": 71,
     "description": "Unofficial working port of Command & Conquer: Tiberian Dawn running natively on iOS, Android and macOS.",
     "version": null,
@@ -2393,7 +2299,8 @@
     "console": "Xbox 360",
     "mechanism": "emulator",
     "platforms": [
-      "macOS"
+      "macOS",
+      "iOS"
     ],
     "stars": 326,
     "description": "The iOS and MacOS port of Xenia, the Xbox 360 Emulator Research project.",
@@ -2413,9 +2320,7 @@
     "author": "xenia-project",
     "console": "Xbox 360",
     "mechanism": "emulator",
-    "platforms": [
-      "Windows"
-    ],
+    "platforms": [],
     "stars": 9751,
     "description": "Xbox 360 Emulator Research Project",
     "version": null,
@@ -2457,9 +2362,7 @@
     "author": "mikage-emu",
     "console": "Nintendo 3DS",
     "mechanism": "emulator",
-    "platforms": [
-      "Windows"
-    ],
+    "platforms": [],
     "stars": 421,
     "description": "Mikage Developer Edition",
     "version": null,
@@ -2544,9 +2447,7 @@
     "author": "wipeout-phantom-edition",
     "console": "PlayStation",
     "mechanism": "native",
-    "platforms": [
-      "Windows"
-    ],
+    "platforms": [],
     "stars": 980,
     "description": "An enhanced PC source port of the original WipeOut.",
     "version": "v1.2.256",
@@ -2588,9 +2489,7 @@
     "author": "halo-re",
     "console": "Xbox",
     "mechanism": "in-progress",
-    "platforms": [
-      "Windows"
-    ],
+    "platforms": [],
     "stars": 457,
     "description": "Halo: Combat Evolved (for original Xbox) Decompilation Research Project",
     "version": null,
@@ -2609,9 +2508,7 @@
     "author": "Xeeynamo",
     "console": "PlayStation",
     "mechanism": "native",
-    "platforms": [
-      "Linux"
-    ],
+    "platforms": [],
     "stars": 1165,
     "description": "Decompilation of Castlevania: Symphony of the Night (PSX, PSP, Saturn)",
     "version": "cc1-psx-26",
@@ -2652,10 +2549,7 @@
     "author": "ioncodes",
     "console": "CHIP-8",
     "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "macOS"
-    ],
+    "platforms": [],
     "stars": 99,
     "description": "Statically recompiling CHIP8 to Windows and macOS using LLVM",
     "version": null,

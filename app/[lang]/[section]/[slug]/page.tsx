@@ -99,7 +99,9 @@ export default async function EntryPage({ params }: { params: Params }) {
       '@type': 'SoftwareApplication',
       name: `${entry.title} — ${t.mechanisms[entry.mechanism]}`,
       applicationCategory: 'GameApplication',
-      operatingSystem: entry.platforms.join(', '),
+      // Empty when no release file names a platform: an absent field is
+      // honest, `operatingSystem: ''` would be a claim about nothing.
+      operatingSystem: entry.platforms.length ? entry.platforms.join(', ') : undefined,
       softwareVersion: entry.version ?? undefined,
       datePublished: entry.releasedAt ?? undefined,
       downloadUrl: entry.releaseUrl,
@@ -157,7 +159,7 @@ export default async function EntryPage({ params }: { params: Params }) {
     game && { label: t.gameReleased, value: formatDate(game.releasedAt, lang)! },
     formatSize(entry.sizeBytes) && { label: t.sizeLabel, value: formatSize(entry.sizeBytes)! },
     { label: t.colConsole, value: entry.console },
-    { label: 'Build', value: entry.platforms.join(' · ') },
+    entry.platforms.length > 0 && { label: 'Build', value: entry.platforms.join(' · ') },
     entry.licenseId && { label: t.license, value: entry.licenseId },
   ].filter(Boolean) as { label: string; value: string }[]
 

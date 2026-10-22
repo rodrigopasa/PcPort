@@ -168,8 +168,8 @@ test('rejects hardware and data utilities', () => {
 })
 
 test('keeps a port whose non-PC platform is the source, not the target', () => {
-  // `platforms` cannot settle this: detectPlatforms falls back to Windows when
-  // it finds nothing, so every row claims it. The words have to carry it.
+  // `platforms` cannot settle this either way: this project publishes no
+  // release at all, so there is no binary to read. The words have to carry it.
   const v = isCatalogable({
     repo: 'MaryNCRT/Ultimate-Mortal-Kombat-3-iOS-Decompiled',
     title: 'Ultimate Mortal Kombat 3 iOS Decompiled',
@@ -241,4 +241,38 @@ test('rejects a repository with neither a build nor any port signal', () => {
 
 test('rejects an empty description with no release', () => {
   assert.equal(isCatalogable({ repo: 'x/mystery', description: null }).ok, false)
+})
+
+
+test('rejects an entry whose release ships only phone binaries', () => {
+  // The binary counterpart of the rule above, and the one that would have
+  // caught X360-Mobile without a hand-written deny-list entry: platforms is
+  // read off the release's own file names, so .apk-only reads as Android.
+  const v = isCatalogable({
+    repo: 'x/some-360-emulator',
+    description: 'Xbox 360 emulator, fast and accurate',
+    platforms: ['Android'],
+  })
+  assert.equal(v.ok, false)
+  assert.match((v as { reason: string }).reason, /not the PC/)
+})
+
+test('keeps an entry that ships a phone build alongside a PC one', () => {
+  const v = isCatalogable({
+    repo: 'x/gow2-recomp',
+    description: 'God of War 2 static recompilation, native build',
+    platforms: ['Windows', 'Android'],
+  })
+  assert.equal(v.ok, true, (v as { reason?: string }).reason)
+})
+
+test('an empty platforms list rejects nothing', () => {
+  // Empty means nothing could be read, not that there is no PC build. An
+  // in-progress decompilation with no release has to survive this.
+  const v = isCatalogable({
+    repo: 'x/mk-decomp',
+    description: 'Mortal Kombat (N64) decompilation in progress, native port',
+    platforms: [],
+  })
+  assert.equal(v.ok, true, (v as { reason?: string }).reason)
 })

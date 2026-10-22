@@ -24,6 +24,7 @@ type Row = {
   game: string | null
   curated?: boolean
   description: string | null
+  platforms?: string[]
   version: string | null
   sizeBytes: number | null
   stars: number
