@@ -357,6 +357,13 @@ const CURATED: Record<string, Curation> = {
   },
   'matiaszanolli/sega-vr-disasm': { title: 'Virtua Racing Deluxe', console: 'Sega 32X' },
   'mikage-emu/mikage-dev': { title: 'Mikage', console: 'Nintendo 3DS', mechanism: 'emulator' },
+
+  // Its own repository description calls it "Xenia", so ingestion derived that
+  // title and it collided with the real Xenia -- the catalog showed two
+  // entries named the same thing, one of them winning the suffixed URL. It is
+  // the macOS and iOS port of Xenia, and macOS is a desktop, so the filter is
+  // right to keep it; it just needed its own name.
+  'xenios-jp/XeniOS': { title: 'XeniOS', console: 'Xbox 360', mechanism: 'emulator' },
   // Backfill. These were mapped by hand into lib/catalog.json before this file
   // existed, and only the refresh preserving `previous?.game` kept them alive:
   // regenerating the catalog from scratch would have dropped Ship of Harkinian,

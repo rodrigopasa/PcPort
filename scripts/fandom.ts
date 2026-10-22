@@ -135,7 +135,7 @@ const IMAGE_FILE = /\.(png|jpe?g|webp)(\/|$|\?)/i
  */
 const STRONG = /box ?art|cover|packshot|front|packaging|caratula/i
 const WEAK = /art(work)?\b/i
-const WRONG = /screen ?shot|gameplay|concept|logo|banner|wallpaper|promo|icon|render/i
+const WRONG = /screen ?shot|gameplay|concept|logo|banner|wallpaper|promo|icon|render|character ?photo/i
 
 function preference(name: string): number {
   let n = 0
@@ -200,8 +200,25 @@ async function findPages(wiki: string, name: string): Promise<string[]> {
  */
 const isCoverShaped = (s: Shot) => s.h >= s.w * 0.95
 
+/**
+ * Picks a page's best cover candidate.
+ *
+ * Two signals: the shape of the image and what the file is called. Shape
+ * dominates and the name breaks ties — `name + (cover-shaped ? 10 : 0)`.
+ *
+ * That order was measured, not assumed. Ranking the name first instead took
+ * the catalog from eight landscape covers to seventeen: a file called `cover`
+ * is often a wide scan of the front and back together, or a store banner,
+ * while an unnamed portrait image on a game's wiki page is almost always the
+ * box. The name still earns its keep at equal shape, and still rules out a
+ * screenshot or a character photo whichever shape it is.
+ *
+ * The lead image scores 0: a wiki's lead is as often a screenshot as box art.
+ */
 async function coverFromPage(wiki: string, title: string): Promise<Shot | null> {
-  let fallback: Shot | null = null
+  const found: { shot: Shot; rank: number }[] = []
+  const add = (shot: Shot, score: number) =>
+    found.push({ shot, rank: score + (isCoverShaped(shot) ? 10 : 0) })
 
   const lead = await api<PageImages>(wiki, {
     prop: 'pageimages',
@@ -212,10 +229,7 @@ async function coverFromPage(wiki: string, title: string): Promise<Shot | null> 
   const leadUrl = Object.values(lead?.query?.pages ?? {})[0]?.original?.source
   if (leadUrl && IMAGE_FILE.test(leadUrl)) {
     const shot = await measure(leadUrl, `${wiki}.fandom.com`)
-    if (shot) {
-      if (isCoverShaped(shot)) return shot
-      fallback = shot
-    }
+    if (shot) add(shot, 0)
   }
 
   const files = await api<PageFiles>(wiki, { prop: 'images', titles: title, redirects: '1' })
@@ -226,18 +240,20 @@ async function coverFromPage(wiki: string, title: string): Promise<Shot | null> 
     .slice(0, 6)
 
   for (const name of names) {
+    // Only a name the ranking rules out outright is skipped. Anything else
+    // can still win on shape, which is the stronger signal.
+    if (preference(name) < 0 && found.some((f) => f.rank >= 10)) continue
     const info = await api<FileInfo>(wiki, { prop: 'imageinfo', iiprop: 'url', titles: name })
     const url = Object.values(info?.query?.pages ?? {})[0]?.imageinfo?.[0]?.url
     if (!url) continue
     const shot = await measure(url, `${wiki}.fandom.com`)
-    if (!shot) continue
-    if (isCoverShaped(shot)) return shot
-    fallback ??= shot
+    if (shot) add(shot, preference(name))
   }
 
   // Something beats nothing: a wide image still tells the reader which game
   // this is, and the page crops it rather than leaving a hole.
-  return fallback
+  found.sort((a, b) => b.rank - a.rank)
+  return found[0]?.shot ?? null
 }
 
 async function coverFor(key: string, name: string): Promise<Shot | null> {
