@@ -1,6 +1,7 @@
 import type { CatalogRow, Entry } from './data'
 import type { Lang, Mechanism } from './db/schema'
 import { GAMES } from './games'
+import { GUIDES } from './install-guides'
 import { DICT } from './i18n'
 
 export type QA = { q: string; a: string }
@@ -61,6 +62,12 @@ export function portSummary(row: CatalogRow, lang: Lang): string {
 }
 
 export function installSteps(row: CatalogRow, lang: Lang): string[] {
+  // A hand-written guide wins over the composed one. The generated steps are
+  // correct but generic, and what people actually get stuck on is which copy
+  // of the game the project wants — that is knowledge, not a template.
+  const guide = GUIDES[row.repo]
+  if (guide) return guide[lang]
+
   const own = needsOwnCopy(row)
   const multi = row.platforms.length > 1
 

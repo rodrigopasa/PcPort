@@ -1,14 +1,19 @@
 /**
  * Cover art from Fandom's open MediaWiki API. No credentials.
  *
- *   npx tsx scripts/fandom.ts
+ *   npx tsx scripts/fandom.ts [--force]
  *
  * This is the LOWEST-priority art source and a stopgap, not the destination.
  * The images are publisher box art uploaded by fans under Fandom's own fair-use
  * claims, and hotlinking static.wikia.nocookie.net is against Fandom's terms —
  * they can block it whenever they like. IGDB serves the same art licensed for
- * exactly this, so lib/covers.json wins over lib/fandom.json everywhere, and
- * this file stops being read the moment IGDB is configured.
+ * exactly this, so lib/covers.json wins over lib/fandom.json everywhere.
+ *
+ * Page titles are SEARCHED, never guessed. An earlier version guessed them and
+ * missed fourteen games: the Wipeout wiki calls its page "Wipeout (video game)"
+ * and the guess was "Wipeout (game)". Each game lists candidate wikis and falls
+ * back to the general gaming wiki, so a wrong slug costs a fallback rather than
+ * the cover.
  *
  * Writes lib/fandom.json.
  */
@@ -16,78 +21,82 @@ import { readFile, writeFile } from 'node:fs/promises'
 import { imageSize } from '../lib/imagesize'
 import { GAMES } from '../lib/games'
 
-/** Which Fandom wiki holds each game. Guessing the slug does not work. */
-const WIKI: Record<string, [wiki: string, title: string]> = {
-  'halo-2': ['halo', 'Halo 2'],
-  'ninja-gaiden-black': ['ninjagaiden', 'Ninja Gaiden Black'],
-  'sonic-unleashed': ['sonic', 'Sonic Unleashed'],
-  'majoras-mask': ['zelda', "The Legend of Zelda: Majora's Mask"],
-  'ocarina-of-time': ['zelda', 'The Legend of Zelda: Ocarina of Time'],
-  'banjo-tooie': ['banjokazooie', 'Banjo-Tooie'],
-  'kh-days': ['kingdomhearts', 'Kingdom Hearts 358/2 Days'],
-  'splinter-cell-double-agent': ['splintercell', 'Splinter Cell: Double Agent'],
-  bloodborne: ['bloodborne', 'Bloodborne'],
-  doaxbv: ['deadoralive', 'Dead or Alive Xtreme Beach Volleyball'],
-  ffta: ['finalfantasy', 'Final Fantasy Tactics Advance'],
-  'dragons-crown': ['dragonscrown', "Dragon's Crown"],
-  'dead-rising-2-case-zero': ['deadrising', 'Dead Rising 2: Case Zero'],
-  'lotr-return-of-the-king': ['lotr', 'The Lord of the Rings: The Return of the King'],
-  'god-of-war': ['godofwar', 'God of War (2005 video game)'],
-  'def-jam-ffny': ['defjam', 'Def Jam: Fight for NY'],
-  'super-mario-64': ['mario', 'Super Mario 64'],
-  'jak-and-daxter': ['jakanddaxter', 'Jak and Daxter: The Precursor Legacy'],
-  'goldeneye-007': ['jamesbond', 'GoldenEye 007 (1997 video game)'],
-  'pokemon-snap': ['pokemon', 'Pokémon Snap'],
-  'ssx-tricky': ['ssx', 'SSX Tricky'],
-  'the-darkness': ['thedarkness', 'The Darkness (video game)'],
-  'spider-man-edge-of-time': ['spiderman', 'Spider-Man: Edge of Time'],
-  'wwe-svr-2011': ['prowrestling', 'WWE SmackDown vs. Raw 2011'],
-  'deadly-premonition': ['deadlypremonition', 'Deadly Premonition'],
-  'condemned-2': ['condemned', 'Condemned 2: Bloodshot'],
-  'red-alert': ['cnc', 'Command & Conquer: Red Alert'],
-  'colin-mcrae-rally-2': ['codemasters', 'Colin McRae Rally 2.0'],
-  'driver-2': ['driver', 'Driver 2'],
-  'castlevania-sotn': ['castlevania', 'Castlevania: Symphony of the Night'],
-  wipeout: ['wipeout', 'Wipeout (game)'],
-  'forza-horizon': ['forzamotorsport', 'Forza Horizon'],
-  'silent-hill': ['silenthill', 'Silent Hill (video game)'],
-  'silent-hill-downpour': ['silenthill', 'Silent Hill: Downpour'],
-  'infamous-second-son': ['infamous', 'InFAMOUS Second Son'],
-  black: ['black', 'Black (video game)'],
-  'metroid-prime': ['metroid', 'Metroid Prime'],
-  'oddworld-abes-exoddus': ['oddworld', "Oddworld: Abe's Exoddus"],
-  ico: ['teamico', 'Ico'],
-  'the-last-guardian': ['teamico', 'The Last Guardian'],
-  'mystical-ninja-goemon': ['goemon', 'Mystical Ninja Starring Goemon'],
-  'fifa-street': ['fifa', 'FIFA Street (2012)'],
-  'nfs-most-wanted': ['nfs', 'Need for Speed: Most Wanted (2005)'],
-  driveclub: ['driveclub', 'Driveclub'],
-  pikmin: ['pikmin', 'Pikmin (game)'],
-  'pikmin-2': ['pikmin', 'Pikmin 2'],
-  'resident-evil-4': ['residentevil', 'Resident Evil 4'],
-  'smash-ultimate': ['supersmashbros', 'Super Smash Bros. Ultimate'],
-  'virtua-fighter': ['virtuafighter', 'Virtua Fighter (game)'],
-  'virtua-fighter-2': ['virtuafighter', 'Virtua Fighter 2'],
-  'cod-mw2': ['callofduty', 'Call of Duty: Modern Warfare 2'],
-  'army-of-two': ['armyoftwo', 'Army of Two'],
-  'knuckles-chaotix': ['sonic', "Knuckles' Chaotix"],
-  'gravity-rush-2': ['gravityrush', 'Gravity Rush 2'],
-  'dead-rising-2-case-west': ['deadrising', 'Dead Rising 2: Case West'],
-  'god-of-war-2': ['godofwar', 'God of War II'],
-  'sonic-advance': ['sonic', 'Sonic Advance'],
-  'halo-ce': ['halo', 'Halo: Combat Evolved'],
-  'yugioh-forbidden-memories': ['yugioh', 'Yu-Gi-Oh! Forbidden Memories'],
-  'pokemon-lets-go-eevee': ['pokemon', "Pokémon: Let's Go, Pikachu! and Let's Go, Eevee!"],
-  'snowboard-kids-2': ['snowboardkids', 'Snowboard Kids 2'],
-  'conkers-bad-fur-day': ['conker', "Conker's Bad Fur Day"],
-  'sonic-adventure': ['sonic', 'Sonic Adventure'],
-  'forza-motorsport-4': ['forzamotorsport', 'Forza Motorsport 4'],
-  'initial-d-arcade-stage-3': ['initiald', 'Initial D Arcade Stage 3'],
+/** Candidate wikis per game. `gaming` is the general one and catches the rest. */
+const WIKI: Record<string, string[]> = {
+  'halo-2': ['halo'],
+  'halo-ce': ['halo'],
+  'ninja-gaiden-black': ['ninjagaiden'],
+  'sonic-unleashed': ['sonic'],
+  'sonic-adventure': ['sonic'],
+  'sonic-advance': ['sonic'],
+  'knuckles-chaotix': ['sonic'],
+  'majoras-mask': ['zelda'],
+  'ocarina-of-time': ['zelda'],
+  'banjo-tooie': ['banjokazooie'],
+  'kh-days': ['kingdomhearts'],
+  'splinter-cell-double-agent': ['splintercell'],
+  bloodborne: ['bloodborne', 'soulsborne'],
+  doaxbv: ['deadoralive'],
+  ffta: ['finalfantasy'],
+  'dragons-crown': ['dragonscrown', 'vanillaware'],
+  'dead-rising-2-case-zero': ['deadrising'],
+  'dead-rising-2-case-west': ['deadrising'],
+  'lotr-return-of-the-king': ['lotr'],
+  'god-of-war': ['godofwar'],
+  'god-of-war-2': ['godofwar'],
+  'def-jam-ffny': ['defjam'],
+  'super-mario-64': ['mario'],
+  'jak-and-daxter': ['jakanddaxter'],
+  'goldeneye-007': ['jamesbond', 'goldeneye'],
+  'pokemon-snap': ['pokemon'],
+  'pokemon-lets-go-eevee': ['pokemon'],
+  'ssx-tricky': ['ssx'],
+  'the-darkness': ['thedarkness'],
+  'spider-man-edge-of-time': ['spiderman'],
+  'wwe-svr-2011': ['prowrestling'],
+  'deadly-premonition': ['deadlypremonition'],
+  'condemned-2': ['condemned'],
+  'red-alert': ['cnc'],
+  'colin-mcrae-rally-2': ['codemasters', 'dirt'],
+  'driver-2': ['driver'],
+  'castlevania-sotn': ['castlevania'],
+  wipeout: ['wipeout'],
+  'forza-horizon': ['forzamotorsport', 'forza'],
+  'forza-motorsport-4': ['forzamotorsport', 'forza'],
+  'silent-hill': ['silenthill'],
+  'silent-hill-downpour': ['silenthill'],
+  'infamous-second-son': ['infamous', 'infamousseries'],
+  black: ['blackgame', 'criterion'],
+  'metroid-prime': ['metroid'],
+  'oddworld-abes-exoddus': ['oddworld'],
+  ico: ['teamico'],
+  'the-last-guardian': ['teamico'],
+  'mystical-ninja-goemon': ['goemon'],
+  'fifa-street': ['fifa'],
+  'nfs-most-wanted': ['nfs'],
+  driveclub: ['driveclub', 'gran-turismo'],
+  pikmin: ['pikmin'],
+  'pikmin-2': ['pikmin'],
+  'resident-evil-4': ['residentevil'],
+  'smash-ultimate': ['supersmashbros'],
+  'virtua-fighter': ['virtuafighter'],
+  'virtua-fighter-2': ['virtuafighter'],
+  'cod-mw2': ['callofduty'],
+  'army-of-two': ['armyoftwo'],
+  'gravity-rush-2': ['gravityrush'],
+  'yugioh-forbidden-memories': ['yugioh'],
+  'snowboard-kids-2': ['snowboardkids'],
+  'conkers-bad-fur-day': ['conker'],
+  'initial-d-arcade-stage-3': ['initiald'],
+  'celeste-64': ['celeste'],
+  taisei: ['touhou'],
 }
+
+/** Every game also gets the general gaming wiki as a last resort. */
+const FALLBACK = 'gaming'
 
 type Shot = { url: string; w: number; h: number; source: string }
 
-/** A page image is only art if it is actually an image file of real size. */
 const IMAGE_FILE = /\.(png|jpe?g|webp)(\/|$|\?)/i
 const PREFER = /box|cover|art|packshot|front/i
 
@@ -96,27 +105,28 @@ async function api<T>(wiki: string, params: Record<string, string>): Promise<T |
   try {
     const res = await fetch(`https://${wiki}.fandom.com/api.php?${qs}`, {
       headers: { 'user-agent': 'pcport/1.0 (catalog of open-source PC ports)' },
+      signal: AbortSignal.timeout(20_000),
     })
     if (!res.ok) return null
-    return (await res.json()) as T
+    const text = await res.text()
+    if (!text.startsWith('{')) return null // a Cloudflare challenge page
+    return JSON.parse(text) as T
   } catch {
     return null
   }
 }
 
-
 async function measure(url: string, source: string): Promise<Shot | null> {
   try {
-    // The CDN answers 403 to a request with no Referer. That it answers at all
-    // to pcport.org is a setting on their side, not a guarantee — see the note
-    // at the top of this file.
+    // The CDN answers 403 to a request with no Referer.
     const res = await fetch(url, {
       headers: { 'user-agent': 'Mozilla/5.0', referer: 'https://pcport.org/' },
+      signal: AbortSignal.timeout(25_000),
     })
     if (!res.ok || !(res.headers.get('content-type') ?? '').startsWith('image/')) return null
     const buf = Buffer.from(await res.arrayBuffer())
     const dim = imageSize(buf)
-    // Box art is portrait-ish and not tiny; a 90px icon or a video still is not.
+    // Box art is not tiny, and a sub-20KB file is an icon or a video still.
     if (!dim || dim.w < 200 || buf.length < 20_000) return null
     return { url, w: dim.w, h: dim.h, source }
   } catch {
@@ -124,12 +134,18 @@ async function measure(url: string, source: string): Promise<Shot | null> {
   }
 }
 
+type Search = { query?: { search?: { title: string }[] } }
 type PageImages = { query?: { pages?: Record<string, { original?: { source: string } }> } }
 type PageFiles = { query?: { pages?: Record<string, { images?: { title: string }[] }> } }
 type FileInfo = { query?: { pages?: Record<string, { imageinfo?: { url: string }[] }> } }
 
-async function coverFor(wiki: string, title: string): Promise<Shot | null> {
-  // 1. The page's lead image is usually the box art.
+/** Ask the wiki which page this is instead of guessing its exact title. */
+async function findPages(wiki: string, name: string): Promise<string[]> {
+  const res = await api<Search>(wiki, { list: 'search', srsearch: name, srlimit: '4' })
+  return (res?.query?.search ?? []).map((s) => s.title)
+}
+
+async function coverFromPage(wiki: string, title: string): Promise<Shot | null> {
   const lead = await api<PageImages>(wiki, {
     prop: 'pageimages',
     piprop: 'original',
@@ -142,13 +158,12 @@ async function coverFor(wiki: string, title: string): Promise<Shot | null> {
     if (shot) return shot
   }
 
-  // 2. Otherwise look through the page's files for one named like cover art.
   const files = await api<PageFiles>(wiki, { prop: 'images', titles: title, redirects: '1' })
   const names = (Object.values(files?.query?.pages ?? {})[0]?.images ?? [])
     .map((i) => i.title)
     .filter((n) => IMAGE_FILE.test(n))
     .sort((a, b) => Number(PREFER.test(b)) - Number(PREFER.test(a)))
-    .slice(0, 4)
+    .slice(0, 3)
 
   for (const name of names) {
     const info = await api<FileInfo>(wiki, { prop: 'imageinfo', iiprop: 'url', titles: name })
@@ -160,30 +175,55 @@ async function coverFor(wiki: string, title: string): Promise<Shot | null> {
   return null
 }
 
+async function coverFor(key: string, name: string): Promise<Shot | null> {
+  for (const wiki of [...(WIKI[key] ?? []), FALLBACK]) {
+    for (const title of await findPages(wiki, name)) {
+      const shot = await coverFromPage(wiki, title)
+      if (shot) return shot
+    }
+    await new Promise((r) => setTimeout(r, 250))
+  }
+  return null
+}
+
+/** The catalog's titles, keyed by the game record they point at. */
+async function titles(): Promise<Map<string, string>> {
+  const rows = JSON.parse(await readFile('lib/catalog.json', 'utf8')) as {
+    game: string | null
+    title: string
+  }[]
+  const out = new Map<string, string>()
+  for (const r of rows) if (r.game && !out.has(r.game)) out.set(r.game, r.title)
+  return out
+}
+
 async function main() {
+  const force = process.argv.includes('--force')
   const existing: Record<string, Shot> = await readFile('lib/fandom.json', 'utf8')
     .then((r) => JSON.parse(r))
     .catch(() => ({}))
+  const names = await titles()
 
   let added = 0
   for (const key of Object.keys(GAMES)) {
-    if (existing[key]) continue
-    const entry = WIKI[key]
-    if (!entry) { console.log(`·  ${key} — no wiki mapped`); continue }
+    if (existing[key] && !force) continue
+    const name = names.get(key) ?? key.replace(/-/g, ' ')
 
-    const shot = await coverFor(entry[0], entry[1])
+    const shot = await coverFor(key, name)
     if (shot) {
       existing[key] = shot
       added++
-      console.log(`✓  ${key} — ${shot.w}×${shot.h}  ${shot.source}`)
+      console.log(`✓  ${key.padEnd(30)} ${shot.w}×${shot.h}  ${shot.source}`)
     } else {
-      console.log(`·  ${key} — nothing usable`)
+      console.log(`·  ${key.padEnd(30)} nada encontrado`)
     }
-    await new Promise((r) => setTimeout(r, 350))
+    await new Promise((r) => setTimeout(r, 300))
   }
 
   await writeFile('lib/fandom.json', `${JSON.stringify(existing, null, 2)}\n`)
-  console.log(`\n+${added} · ${Object.keys(existing).length}/${Object.keys(GAMES).length} games have a Fandom cover`)
+  console.log(
+    `\n+${added} · ${Object.keys(existing).length}/${Object.keys(GAMES).length} jogos com capa`,
+  )
 }
 
 main().catch((err) => {
