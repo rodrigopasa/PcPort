@@ -52,8 +52,18 @@ for f in $FILES; do
   fi
 done
 
-if [ "$changed" -eq 0 ]; then
+# `--force` revalida e aquece mesmo sem dado novo. Depois de um deploy o
+# codigo mudou e o cache ISR vive num volume que sobrevive ao restart, entao
+# ha paginas renderizadas a partir do codigo antigo com dados corretos — o
+# caso que deixou a correcao de slug invisivel em producao.
+FORCE=0
+[ "${1:-}" = "--force" ] && FORCE=1
+
+if [ "$changed" -eq 0 ] && [ "$FORCE" -eq 0 ]; then
   echo "sync: nada mudou"
+  # Nota: raw.githubusercontent.com tem cache de CDN de alguns minutos, entao
+  # um sync imediatamente apos um push ainda ve a versao anterior. O cron roda
+  # no minuto 25 e o workflow commita por volta do 10, o que cobre a janela.
   exit 0
 fi
 
