@@ -28,7 +28,7 @@ GITHUB_TOKEN="$(grep -E '^GITHUB_TOKEN=' /opt/pcport/.env 2>/dev/null | cut -d= 
 AUTH=()
 [ -n "${GITHUB_TOKEN:-}" ] && AUTH=(-H "Authorization: Bearer $GITHUB_TOKEN")
 VOLUME="pcport_catalog-data"
-FILES="catalog.json shots.json fandom.json covers.json"
+FILES="catalog.json shots.json fandom.json covers.json libretro.json"
 TMP="$(mktemp -d)"
 trap 'rm -rf "$TMP"' EXIT
 
@@ -69,8 +69,11 @@ fi
 
 # Write all four together: a half-updated catalog would render entries whose
 # images point at rows that no longer exist.
+# $FILES rather than the list again: it was written out twice, and a file
+# added to one copy and not the other is delivered to nobody.
+# shellcheck disable=SC2086
 docker run --rm -v "$VOLUME":/d -v "$TMP":/src:ro alpine \
-  sh -c 'for f in catalog.json shots.json fandom.json covers.json; do cp "/src/$f" "/d/$f"; done'
+  sh -c 'for f in "$@"; do cp "/src/$f" "/d/$f"; done' _ $FILES
 
 # The container publishes no port — it is reachable only on the proxy network —
 # so the call is made from inside it rather than from the host.

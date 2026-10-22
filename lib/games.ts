@@ -1011,6 +1011,16 @@ export const GAMES: Record<string, GameMeta> = {
       en: 'Three-dimensional arena fighting with the largest roster in the series to that point, split between the Naruto and Shippuden eras. One-button combat with substitution and support characters.',
     },
   },
+  'hard-corps-uprising': {
+    releasedAt: '2011-02-16',
+    developer: 'Arc System Works',
+    publisher: 'Konami',
+    genres: ['Ação', 'Plataforma'],
+    summary: {
+      pt: 'Spin-off de Contra feito pelo estúdio de Guilty Gear, com arte desenhada à mão e um sistema de avanço que deixa o jogador comprar vidas e habilidades entre as fases. Corre e atira para a direita, difícil como manda a série.',
+      en: 'A Contra spin-off from the Guilty Gear studio, with hand-drawn art and a progression system that lets the player buy lives and abilities between stages. Run and gun to the right, as hard as the series demands.',
+    },
+  },
 }
 
 export function gameFor(key: string | null): GameMeta | null {

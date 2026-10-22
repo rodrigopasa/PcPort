@@ -1,4 +1,10 @@
-import { catalog, covers as coversFile, shots as shotsFile, fandom as fandomFile } from './store'
+import {
+  catalog,
+  covers as coversFile,
+  shots as shotsFile,
+  fandom as fandomFile,
+  libretro as libretroFile,
+} from './store'
 import { consoleSlug, formatDate, formatSize, gameYear, slugify, type Game, type Shot } from './format'
 
 // Re-exported so server code keeps one import, while client components pull
@@ -54,6 +60,7 @@ const rows = () => catalog<CatalogRow[]>()
 const covers = () => coversFile<Record<string, { igdbId: number; coverUrl: string | null }>>()
 const shots = () => shotsFile<Record<string, { images: Shot[]; repo: string }>>()
 const fandom = () => fandomFile<Record<string, Shot & { source: string }>>()
+const libretro = () => libretroFile<Record<string, Shot & { source: string }>>()
 
 
 
@@ -104,15 +111,22 @@ function gameOf(key: string | null, lang: Lang): Game | null {
   // IGDB fills only what games.ts leaves empty: a fuzzy match can never
   // overwrite a verified date or summary.
   const fetched = covers()[key]
+  const lib = libretro()[key]
   const fan = fandom()[key]
 
-  // Priority: a hand-verified URL, then IGDB (licensed for this), then Fandom
-  // (a stopgap that disappears the moment IGDB is configured).
+  // Priority: a hand-verified URL, then IGDB (licensed for this), then the
+  // libretro archive, then Fandom.
+  //
+  // libretro outranks Fandom because the two were compared by looking at all
+  // 94 covers: a third of the Fandom ones were wrong, ten of them a different
+  // game. A wiki page holds everything about a game and its lead image is as
+  // often a screenshot as the box; the archive holds one thing per game, and
+  // that thing is a scan of the box.
   const cover: Shot | null = meta.cover
     ? { url: meta.cover.url, w: meta.cover.w, h: meta.cover.h }
     : fetched?.coverUrl
       ? { url: fetched.coverUrl, w: 0, h: 0 }
-      : (fan ?? null)
+      : (lib ?? fan ?? null)
 
   return {
     releasedAt: meta.releasedAt,
@@ -127,7 +141,7 @@ function gameOf(key: string | null, lang: Lang): Game | null {
       ? (meta.cover.source ?? null)
       : fetched?.coverUrl
         ? null
-        : (fan?.source ?? null),
+        : (lib?.source ?? fan?.source ?? null),
     igdbId: meta.igdbId ?? fetched?.igdbId ?? null,
   }
 }

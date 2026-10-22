@@ -16,6 +16,10 @@ export type Candidate = {
   repo: string
   title?: string
   description: string | null
+  /**
+   * Accepted and deliberately IGNORED. See `isCatalogable`: using it made the
+   * ingestion filter and the pruner disagree, and invited keyword stuffing.
+   */
   topics?: string[]
   version?: string | null
   sizeBytes?: number | null
@@ -37,6 +41,10 @@ export type Candidate = {
  * catches nothing.
  */
 const DENIED: Record<string, string> = {
+  'Ashnar2602/X360-Mobile---OFFICIAL':
+    'an Xbox 360 emulator for Android, not for the PC: every release asset is ' +
+    'an .apk and its README says so in the title. Nothing of that is in the ' +
+    'repository description, which is all this catalog stores',
   'aleksandarsimjanoski/pokopia-desktop-edition':
     'not a port: a companion app for an unreleased 2026 game, with thirteen ' +
     'topics stuffed with this catalog\'s keywords, no releases, and its ' +
@@ -170,7 +178,20 @@ export function isCatalogable(c: Candidate): Verdict {
 
   // The repository name counts as evidence: `gow2-recomp` says what it is even
   // when the description is just the game's name.
-  const hay = `${c.repo} ${c.title ?? ''} ${c.description ?? ''} ${(c.topics ?? []).join(' ')}`
+  //
+  // Topics are NOT in here, and that is the point. Two reasons, both paid for:
+  //
+  // Ingestion passes the repository's topics; the pruner reads lib/catalog.json,
+  // which does not store them. So the two judged different text and disagreed:
+  // nine entries removed by hand came straight back on the next hourly run,
+  // every one of them carrying the topic `decompilation`, which PORT_SIGNAL
+  // matches on its `decomp` prefix. A decompiler tool is not a game port, and
+  // no pruning decision could ever stick while this held.
+  //
+  // And topics are a free-text field the repository owner edits. The spam
+  // entry in DENIED above carried thirteen of them stuffed with this catalog's
+  // own keywords. Evidence that the subject writes for us is not evidence.
+  const hay = `${c.repo} ${c.title ?? ''} ${c.description ?? ''}`
 
   const denied = DENIED[c.repo]
   if (denied) {

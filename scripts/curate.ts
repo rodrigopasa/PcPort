@@ -364,6 +364,18 @@ const CURATED: Record<string, Curation> = {
   // the macOS and iOS port of Xenia, and macOS is a desktop, so the filter is
   // right to keep it; it just needed its own name.
   'xenios-jp/XeniOS': { title: 'XeniOS', console: 'Xbox 360', mechanism: 'emulator' },
+
+  // Eighth batch, from what the hourly ingestion found on its own.
+  'wheremyfoodat/Panda3DS': {
+    title: 'Panda3DS',
+    console: 'Nintendo 3DS',
+    mechanism: 'emulator',
+  },
+  'saulob/hard-corps-uprising-recompiled': {
+    game: 'hard-corps-uprising',
+    title: 'Hard Corps: Uprising',
+    console: 'Xbox 360',
+  },
   // Backfill. These were mapped by hand into lib/catalog.json before this file
   // existed, and only the refresh preserving `previous?.game` kept them alive:
   // regenerating the catalog from scratch would have dropped Ship of Harkinian,

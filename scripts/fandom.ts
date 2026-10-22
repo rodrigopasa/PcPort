@@ -118,10 +118,50 @@ const WIKI: Record<string, string[]> = {
   'bloody-roar-2': ['bloodyroar'],
   'tony-hawk-project-8': ['tonyhawkgames', 'tonyhawk'],
   'wwe-all-stars': ['prowrestling'],
+  'hard-corps-uprising': ['contra'],
 }
 
-/** Every game also gets the general gaming wiki as a last resort. */
-const FALLBACK = 'gaming'
+/**
+ * There is no general-wiki fallback any more, and the reason is in the
+ * numbers. Seven covers came from gaming.fandom.com and they were looked at:
+ * two were a different game (Ultimate Ninja Storm 2 for Storm Generations,
+ * Monster Hunter Wilds for Portable 3rd), one was an Australian classification
+ * certificate, two were screenshots, and the two that were right are covered
+ * by the libretro archive anyway.
+ *
+ * A search across a wiki about games in general returns whatever is loosely
+ * related, and nothing downstream can tell that apart from the real thing.
+ * A game whose own wiki has no cover now gets none.
+ */
+
+/**
+ * Games this script must not fill, because it was caught filling them wrong.
+ *
+ * Every cover in the catalog was looked at, one by one. These four were a
+ * DIFFERENT GAME, which no automated check here can detect: the file name and
+ * the shape were both plausible. They are console generations the libretro
+ * archive does not reach, so there is no keyless replacement — and a page with
+ * no cover is honest, while a page showing another game is not.
+ *
+ * IGDB covers all four. The day a key exists, lib/covers.json outranks this
+ * file anyway and the list stops mattering.
+ */
+const REJECTED: Record<string, string> = {
+  'naruto-storm-generations':
+    'Fandom served the box of Ultimate Ninja Storm 2, a different game in the series',
+  'monster-hunter-portable-3rd':
+    'Fandom served Monster Hunter Wilds (PS5); the libretro archive has the real PSP box',
+  'geometry-wars-2': 'a gameplay screenshot of the first Retro Evolved, not this game',
+  'snowboard-kids-2': 'an Australian classification certificate, not a cover',
+  'cod-mw2':
+    'Fandom served the box of Modern Warfare II (2022); this entry is Modern Warfare 2 (2009)',
+  'dragons-crown':
+    'Fandom served Dungeons & Dragons Tactics (PSP), a different game entirely',
+  'driveclub':
+    'Fandom served Gran Turismo (PSP), a different game entirely',
+  'pokemon-lets-go-eevee':
+    "Fandom served the box of Let's Go, Pikachu!, the other version",
+}
 
 type Shot = { url: string; w: number; h: number; source: string }
 
@@ -257,7 +297,7 @@ async function coverFromPage(wiki: string, title: string): Promise<Shot | null> 
 }
 
 async function coverFor(key: string, name: string): Promise<Shot | null> {
-  for (const wiki of [...(WIKI[key] ?? []), FALLBACK]) {
+  for (const wiki of WIKI[key] ?? []) {
     for (const title of await findPages(wiki, name)) {
       const shot = await coverFromPage(wiki, title)
       if (shot) return shot
@@ -287,6 +327,11 @@ async function main() {
 
   let added = 0
   for (const key of Object.keys(GAMES)) {
+    if (REJECTED[key]) {
+      delete existing[key]
+      console.log(`x  ${key.padEnd(30)} ${REJECTED[key]}`)
+      continue
+    }
     if (existing[key] && !force) continue
     const name = names.get(key) ?? key.replace(/-/g, ' ')
 

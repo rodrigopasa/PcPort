@@ -216,6 +216,24 @@ test('the deny list rejects a repository on its real stored text', () => {
   assert.match((v as { reason: string }).reason, /not a port/)
 })
 
+test('a decompiler tool is rejected however its topics are tagged', () => {
+  // These came back every hour. Ingestion passes the repository's topics and
+  // the pruner cannot, so `decompilation` as a topic re-admitted nine entries
+  // that had been removed by hand. The verdict must not depend on it.
+  const tool = {
+    repo: 'Vector35/binaryninja-api',
+    title: 'binaryninja api',
+    description: 'Public API, examples, documentation and issues for Binary Ninja',
+  }
+  const bare = isCatalogable(tool)
+  const tagged = isCatalogable({
+    ...tool,
+    topics: ['decompilation', 'reverse-engineering', 'binary-analysis'],
+  })
+  assert.equal(bare.ok, false)
+  assert.equal(tagged.ok, false, 'topics must not rescue a tool the description rejects')
+})
+
 test('rejects a repository with neither a build nor any port signal', () => {
   const v = isCatalogable({ repo: 'x/nbcraft', description: 'The ultimate cross-platform mining experience.' })
   assert.equal(v.ok, false)

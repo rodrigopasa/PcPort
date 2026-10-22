@@ -71,6 +71,9 @@ export function fandom<T>(): T {
 export function covers<T>(): T {
   return read('covers', {} as unknown as T)
 }
+export function libretro<T>(): T {
+  return read('libretro', {} as unknown as T)
+}
 
 /**
  * Kept for the revalidate endpoint. Invalidation is by mtime, so this is only
