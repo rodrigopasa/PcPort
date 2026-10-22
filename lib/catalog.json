@@ -54,7 +54,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 48,
+    "stars": 49,
     "description": "Gears of War 2 native PC port: the Xbox 360 game statically recompiled to x64 (not an emulator). 1440p/4K, FSR, 4K texture packs, keyboard & mouse, Android in progress. Bring your own copy.",
     "version": "v0.2.11",
     "releasedAt": "2026-10-22",
@@ -75,7 +75,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 579,
+    "stars": 580,
     "description": "Decompilation of Pokémon Platinum",
     "version": null,
     "releasedAt": "2026-10-22",
@@ -294,12 +294,12 @@
       "Windows",
       "Linux"
     ],
-    "stars": 784,
+    "stars": 785,
     "description": "Native PC port (Linux/Windows) of inFAMOUS Second Son (PS4, CUSA00223) — in development, playable; runs your own game dump; no game or firmware files included. Motion sensor emulation. | Port nativo para PC de inFAMOUS Second Son (em desenvolvimento) — usa o seu próprio dump.",
-    "version": "v2026.10.22-cde38af",
+    "version": "v1.0",
     "releasedAt": "2026-10-22",
     "sizeBytes": 122650527,
-    "releaseUrl": "https://github.com/HayatoG/iss_pc/releases/tag/v2026.10.22-cde38af",
+    "releaseUrl": "https://github.com/HayatoG/iss_pc/releases/tag/v1.0",
     "licenseId": null,
     "licenseUrl": null,
     "curated": true
@@ -336,7 +336,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 337,
+    "stars": 338,
     "description": "Experimental Windows x64 native porting toolkit for Super Smash Bros. Ultimate: static AArch64 recompilation, a D3D11 runtime, and Local Wireless relay netplay.",
     "version": null,
     "releasedAt": "2026-10-22",
@@ -380,7 +380,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 111,
+    "stars": 113,
     "description": "Conker's Bad Fur Day running natively on PC: an N64 recompilation with a Classic mode true to the N64 and a Modern mode (widescreen, smooth frame rate, free camera).",
     "version": "v1.4.4",
     "releasedAt": "2026-10-22",
@@ -409,6 +409,94 @@
     "releaseUrl": "https://github.com/MaryNCRT/Ultimate-Mortal-Kombat-3-iOS-Decompiled/releases",
     "licenseId": "NOASSERTION",
     "licenseUrl": null,
+    "curated": true
+  },
+  {
+    "id": "raulzrrs-letsgo-recomp",
+    "repo": "raulzrrs/letsgo-recomp",
+    "title": "Pokémon: Let's Go, Eevee!",
+    "game": "pokemon-lets-go-eevee",
+    "author": "raulzrrs",
+    "console": "Nintendo Switch",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows"
+    ],
+    "stars": 154,
+    "description": "Native Windows port of Pokémon: Let's Go, Eevee! (Switch v1.0.0) by static recompilation, built on LAS Recomp. No game files included.",
+    "version": "v0.6.0",
+    "releasedAt": "2026-10-22",
+    "sizeBytes": 91038721,
+    "releaseUrl": "https://github.com/raulzrrs/letsgo-recomp/releases/tag/v0.6.0",
+    "licenseId": "NOASSERTION",
+    "licenseUrl": null,
+    "curated": true
+  },
+  {
+    "id": "paulcombal-mw2-recompiled",
+    "repo": "PaulCombal/mw2-recompiled",
+    "title": "Call of Duty: Modern Warfare 2",
+    "game": "cod-mw2",
+    "author": "PaulCombal",
+    "console": "Xbox 360",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 117,
+    "description": "Call of Duty: Modern Warfare 2 (2009) for Xbox 360 recompiled for Windows & Linux",
+    "version": "v0.7.0",
+    "releasedAt": "2026-10-22",
+    "sizeBytes": 23229553,
+    "releaseUrl": "https://github.com/PaulCombal/mw2-recompiled/releases/tag/v0.7.0",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
+  },
+  {
+    "id": "speedbreakerproject-speedbreaker",
+    "repo": "SpeedBreakerProject/speedbreaker",
+    "title": "Need for Speed: Most Wanted",
+    "game": "nfs-most-wanted",
+    "author": "SpeedBreakerProject",
+    "console": "Xbox 360",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Linux",
+      "macOS"
+    ],
+    "stars": 443,
+    "description": "Unofficial static recompilation of the Xbox 360 version of Need for Speed: Most Wanted (2005): a native port for Steam Deck, Steam Machine, Steam Frame, Linux and Mac (iPhone/iPad: sideload the experimental IPA or build it yourself). Bring your own disc: no game files included. Not affiliated with EA or Valve.",
+    "version": "v0.1.8",
+    "releasedAt": "2026-10-22",
+    "sizeBytes": 213558044,
+    "releaseUrl": "https://github.com/SpeedBreakerProject/speedbreaker/releases/tag/v0.1.8",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
+  },
+  {
+    "id": "shadps4-emu-shadps4",
+    "repo": "shadps4-emu/shadPS4",
+    "title": "shadPS4",
+    "game": null,
+    "author": "shadps4-emu",
+    "console": "PlayStation 4",
+    "mechanism": "emulator",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "stars": 33858,
+    "description": "PlayStation 4 emulator for Windows, Linux, macOS and FreeBSD written in C++",
+    "version": "v.0.20.0",
+    "releasedAt": "2026-10-22",
+    "sizeBytes": 36937952,
+    "releaseUrl": "https://github.com/shadps4-emu/shadPS4/releases",
+    "licenseId": "GPL-2.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-2.0",
     "curated": true
   },
   {
@@ -445,7 +533,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 181,
+    "stars": 183,
     "description": "Dragon's Crown Pro native PC port for Windows, with direct PS4 PKG installation, TRG launcher and modern graphics options",
     "version": "v0.7.0",
     "releasedAt": "2026-10-21",
@@ -638,7 +726,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 96,
+    "stars": 97,
     "description": "Play The Return of the King (PC and Xbox) and The Two Towers (Xbox) on a modern PC",
     "version": "1.4",
     "releasedAt": "2026-10-21",
@@ -780,27 +868,6 @@
     "curated": true
   },
   {
-    "id": "raulzrrs-letsgo-recomp",
-    "repo": "raulzrrs/letsgo-recomp",
-    "title": "Pokémon: Let's Go, Eevee!",
-    "game": "pokemon-lets-go-eevee",
-    "author": "raulzrrs",
-    "console": "Nintendo Switch",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows"
-    ],
-    "stars": 152,
-    "description": "Native Windows port of Pokémon: Let's Go, Eevee! (Switch v1.0.0) by static recompilation, built on LAS Recomp. No game files included.",
-    "version": "v0.5.0",
-    "releasedAt": "2026-10-20",
-    "sizeBytes": 90941597,
-    "releaseUrl": "https://github.com/raulzrrs/letsgo-recomp/releases/tag/v0.5.0",
-    "licenseId": "NOASSERTION",
-    "licenseUrl": null,
-    "curated": true
-  },
-  {
     "id": "pret-pokefirered",
     "repo": "pret/pokefirered",
     "title": "Pokémon FireRed",
@@ -811,7 +878,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 1681,
+    "stars": 1682,
     "description": "Decompilation of Pokémon FireRed/LeafGreen",
     "version": null,
     "releasedAt": "2026-10-20",
@@ -897,7 +964,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 2324,
+    "stars": 2325,
     "description": "Decompilation of The Legend of Zelda: Breath of the Wild (Switch 1.5.0)",
     "version": null,
     "releasedAt": "2026-10-20",
@@ -918,7 +985,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 422,
+    "stars": 423,
     "description": "A Crash Team Racing Decompilation Project",
     "version": null,
     "releasedAt": "2026-10-20",
@@ -984,7 +1051,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 120,
+    "stars": 121,
     "description": "Def Jam: Fight for NY PC port — static recompilation of the original Xbox game for native Windows and macOS (Direct3D 11 / Vulkan). Bring your own game dump.",
     "version": "v0.10.6",
     "releasedAt": "2026-10-20",
@@ -1027,7 +1094,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 181,
+    "stars": 182,
     "description": "Experimental native PC runtime for Kingdom Hearts 358/2 Days, developed alongside the matching Nintendo DS decompilation. No copyrighted game data included.",
     "version": "v0.1.3",
     "releasedAt": "2026-10-19",
@@ -1035,28 +1102,6 @@
     "releaseUrl": "https://github.com/Yokimitsuro/khdays-port/releases/tag/v0.1.3",
     "licenseId": "MIT",
     "licenseUrl": "https://api.github.com/licenses/mit",
-    "curated": true
-  },
-  {
-    "id": "paulcombal-mw2-recompiled",
-    "repo": "PaulCombal/mw2-recompiled",
-    "title": "Call of Duty: Modern Warfare 2",
-    "game": "cod-mw2",
-    "author": "PaulCombal",
-    "console": "Xbox 360",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 116,
-    "description": "Call of Duty: Modern Warfare 2 (2009) for Xbox 360 recompiled for Windows & Linux",
-    "version": "v0.6.0",
-    "releasedAt": "2026-10-19",
-    "sizeBytes": 22262406,
-    "releaseUrl": "https://github.com/PaulCombal/mw2-recompiled/releases/tag/v0.6.0",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
   },
   {
@@ -1093,7 +1138,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 114,
+    "stars": 116,
     "description": "Eternal Darkness: Sanity's Requiem static recompilation (DolRecomp + GXRuntime) for Mac, Windows and Linux / Steam Deck. Bring your own disc.",
     "version": "v0.9.5",
     "releasedAt": "2026-10-19",
@@ -1114,7 +1159,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 733,
+    "stars": 734,
     "description": "Decompilation of Pokemon HeartGold/SoulSilver",
     "version": null,
     "releasedAt": "2026-10-19",
@@ -1320,28 +1365,6 @@
     "curated": true
   },
   {
-    "id": "speedbreakerproject-speedbreaker",
-    "repo": "SpeedBreakerProject/speedbreaker",
-    "title": "Need for Speed: Most Wanted",
-    "game": "nfs-most-wanted",
-    "author": "SpeedBreakerProject",
-    "console": "Xbox 360",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Linux",
-      "macOS"
-    ],
-    "stars": 443,
-    "description": "Unofficial static recompilation of the Xbox 360 version of Need for Speed: Most Wanted (2005): a native port for Steam Deck, Steam Machine, Steam Frame, Linux and Mac (iPhone/iPad: sideload the experimental IPA or build it yourself). Bring your own disc: no game files included. Not affiliated with EA or Valve.",
-    "version": "v0.1.7",
-    "releasedAt": "2026-10-18",
-    "sizeBytes": 213558040,
-    "releaseUrl": "https://github.com/SpeedBreakerProject/speedbreaker/releases/tag/v0.1.7",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
-    "curated": true
-  },
-  {
     "id": "masterllgod-naruto-storm-generations-port-nativo",
     "repo": "Masterllgod/naruto-storm-generations-port-nativo",
     "title": "Naruto Shippuden: Ultimate Ninja Storm Generations",
@@ -1352,7 +1375,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 72,
+    "stars": 73,
     "description": "Naruto Shippuden: Ultimate Ninja Storm Generations (Xbox 360) rodando nativamente no Android e no PC: recompilação estática, sem emulador de CPU.",
     "version": "v0.3.5",
     "releasedAt": "2026-10-18",
@@ -1416,7 +1439,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 100,
+    "stars": 101,
     "description": "A fully playable, work-in-progress native Sonic Adventure port for Windows, Linux and Steam Deck. Powered by KatanaRecomp.",
     "version": "v0.52.1",
     "releasedAt": "2026-10-18",
@@ -1600,29 +1623,6 @@
     "curated": true
   },
   {
-    "id": "shadps4-emu-shadps4",
-    "repo": "shadps4-emu/shadPS4",
-    "title": "shadPS4",
-    "game": null,
-    "author": "shadps4-emu",
-    "console": "PlayStation 4",
-    "mechanism": "emulator",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "macOS"
-    ],
-    "stars": 33858,
-    "description": "PlayStation 4 emulator for Windows, Linux, macOS and FreeBSD written in C++",
-    "version": "v.0.20.0",
-    "releasedAt": "2026-10-14",
-    "sizeBytes": 36937952,
-    "releaseUrl": "https://github.com/shadps4-emu/shadPS4/releases/tag/v.0.20.0",
-    "licenseId": "GPL-2.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-2.0",
-    "curated": true
-  },
-  {
     "id": "gizcesi-opentricky",
     "repo": "GiZcesi/OpenTricky",
     "title": "SSX Tricky",
@@ -1700,7 +1700,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 3645,
+    "stars": 3646,
     "description": "Playstation 2 Static Recompiler & Runtime Tool to make native PC ports",
     "version": null,
     "releasedAt": "2026-10-14",
@@ -1723,7 +1723,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 101,
+    "stars": 102,
     "description": "The 18 Tekken Tag Tournament characters in Tekken 3: playable in every mode and fought by the CPU. Tekken 3's cast can use their TTT movesets. Built from your own Tekken 3 disc and arcade ROMs.",
     "version": "v1.3.0",
     "releasedAt": "2026-10-14",
@@ -1978,7 +1978,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 3625,
+    "stars": 3626,
     "description": "Decompilation of Pokémon Emerald",
     "version": null,
     "releasedAt": "2026-10-01",
@@ -2624,7 +2624,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5247,
+    "stars": 5248,
     "description": "An unofficial PC port of the Xbox 360 version of Sonic Unleashed created through the process of static recompilation.",
     "version": "v1.0.3",
     "releasedAt": "2025-04-03",
