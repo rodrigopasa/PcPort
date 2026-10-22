@@ -27,6 +27,11 @@ export function slugify(s: string): string {
     .toLowerCase()
     .normalize('NFD')
     .replace(/[̀-ͯ]/g, '')
+    // Apostrophes vanish rather than becoming a separator. Left to the rule
+    // below they produced `tony-hawk-s-project-8` and
+    // `eternal-darkness-sanity-s-requiem`, which split the very token people
+    // type — nobody searches for "tony hawk s project 8".
+    .replace(/['’ʼ]/g, '')
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-|-$/g, '')
 }
