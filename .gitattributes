@@ -5,3 +5,9 @@
 Dockerfile text eol=lf
 *.yml text eol=lf
 *.yaml text eol=lf
+
+# ads.txt is read by crawlers, and git archive was exporting it with CRLF
+# because no rule covered *.txt and core.autocrlf converts on export. The
+# spec accepts CRLF, so this is tidiness rather than a fix -- but this repo
+# has already been bitten once by a Windows line ending reaching the server.
+*.txt text eol=lf
