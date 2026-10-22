@@ -112,7 +112,12 @@ const CURATED: Record<string, Curation> = {
   'projectPiki/pikmin': { game: 'pikmin', title: 'Pikmin', console: 'GameCube' },
   'projectPiki/pikmin2': { game: 'pikmin-2', title: 'Pikmin 2', console: 'GameCube' },
   'adonis-singh/re4': { game: 'resident-evil-4', title: 'Resident Evil 4', console: 'GameCube' },
-  'SNO2207/WindowSmash': {
+  // Transferred: the project moved from SNO2207 to the OpenSmash-Ultimate
+  // organisation, so the old path vanished from the catalog and the curation
+  // pointed at nothing. Curation keys on the repository path, so a transfer
+  // silently un-curates an entry — the mismatch count at the end of this
+  // script is what surfaces it.
+  'OpenSmash-Ultimate/WindowSmash': {
     game: 'smash-ultimate',
     title: 'Super Smash Bros. Ultimate',
     console: 'Nintendo Switch',
@@ -234,9 +239,277 @@ const CURATED: Record<string, Curation> = {
 
   // Not a game: an emulator gets a readable title and nothing else.
   'xenia-project/xenia': { title: 'Xenia', console: 'Xbox 360', mechanism: 'emulator' },
+
+  // Sixth batch. The pruner had just removed twenty-six entries that were
+  // tooling or source ports of games that were already on the PC; what was
+  // left included a long row of real console games hiding behind a repository
+  // name. Every path below was read out of the catalog.
+  'pmret/papermario': { game: 'paper-mario', title: 'Paper Mario', console: 'Nintendo 64' },
+  'CTR-tools/ctr-native': {
+    game: 'crash-team-racing',
+    title: 'Crash Team Racing',
+    console: 'PlayStation',
+  },
+  'GRAnimated/MinecraftLCE': {
+    game: 'minecraft-lce',
+    title: 'Minecraft: Legacy Console Edition',
+    console: 'Xbox 360',
+  },
+  'pret/pokeruby': {
+    game: 'pokemon-ruby',
+    title: 'Pokémon Ruby',
+    console: 'Game Boy Advance',
+  },
+  'pret/pokefirered': {
+    game: 'pokemon-firered',
+    title: 'Pokémon FireRed',
+    console: 'Game Boy Advance',
+  },
+  'pret/pokeemerald': {
+    game: 'pokemon-emerald',
+    title: 'Pokémon Emerald',
+    console: 'Game Boy Advance',
+  },
+  'pret/pokediamond': {
+    game: 'pokemon-diamond',
+    title: 'Pokémon Diamond',
+    console: 'Nintendo DS',
+  },
+  'pret/pokeplatinum': {
+    game: 'pokemon-platinum',
+    title: 'Pokémon Platinum',
+    console: 'Nintendo DS',
+  },
+  'pret/pokeheartgold': {
+    game: 'pokemon-heartgold',
+    title: 'Pokémon HeartGold',
+    console: 'Nintendo DS',
+  },
+  'griches/EternalDarknessRecomp': {
+    game: 'eternal-darkness',
+    title: "Eternal Darkness: Sanity's Requiem",
+    console: 'GameCube',
+  },
+  'drakolordx7/KillzoneRecomp': { game: 'killzone', title: 'Killzone', console: 'PlayStation 2' },
+  'YuutaTsubasa/Free-Riders-Recompiled': {
+    game: 'sonic-free-riders',
+    title: 'Sonic Free Riders',
+    console: 'Xbox 360',
+  },
+  'christianortel/skate2-recompile-pc': { game: 'skate-2', title: 'Skate 2', console: 'Xbox 360' },
+  'parkerallan/doa3-recomp': { game: 'doa3', title: 'Dead or Alive 3', console: 'Xbox' },
+  'FishB0nes98/Tekken3Recompiled': { game: 'tekken-3', title: 'Tekken 3', console: 'PlayStation' },
+  'PauloUbirajara/asuras-wrath-recomp': {
+    game: 'asuras-wrath',
+    title: "Asura's Wrath",
+    console: 'PlayStation 3',
+  },
+  'saulob/geometry-wars-retro-evolved-2-recompiled': {
+    game: 'geometry-wars-2',
+    title: 'Geometry Wars: Retro Evolved 2',
+    console: 'Xbox 360',
+  },
+  'SulphurS16/ACFA-Port': {
+    game: 'armored-core-fa',
+    title: 'Armored Core: For Answer',
+    console: 'PlayStation 3',
+  },
+  'santiquiroz/gears-of-war-2-pc-port': {
+    game: 'gears-of-war-2',
+    title: 'Gears of War 2',
+    console: 'Xbox 360',
+  },
+  'jedijosh920/SWROTS-PC': {
+    game: 'star-wars-rots',
+    title: 'Star Wars Episode III: Revenge of the Sith',
+    console: 'Xbox',
+  },
+  'iExplosiveRage/DBZ-Burst-Limit-Recompiled': {
+    game: 'dbz-burst-limit',
+    title: 'Dragon Ball Z: Burst Limit',
+    console: 'PlayStation 3',
+  },
+  'novapowers0/BloodyRoar2Recomp': {
+    game: 'bloody-roar-2',
+    title: 'Bloody Roar II',
+    console: 'PlayStation',
+  },
+  'theokyr/Project8Recomp': {
+    game: 'tony-hawk-project-8',
+    title: "Tony Hawk's Project 8",
+    console: 'Xbox 360',
+  },
+  'shaneomac1337/WWE-AllStars-Recomp': {
+    game: 'wwe-all-stars',
+    title: 'WWE All Stars',
+    console: 'Xbox 360',
+  },
+
+  // Titles with no game record, on purpose. For these four the sources
+  // disagree on the original release date — Ultimate Mortal Kombat 3 is given
+  // as both 20 October and 6 November 1995, and the 32X Virtua Racing as both
+  // 21 November and 12 December 1994 — and a date invented to fill the gap is
+  // worse than a page without one. Mikage and Xenia are emulators, which map
+  // to no single game at all.
+  'MaryNCRT/Ultimate-Mortal-Kombat-3-iOS-Decompiled': {
+    title: 'Ultimate Mortal Kombat 3',
+    console: 'Arcade',
+  },
+  'matiaszanolli/sega-vr-disasm': { title: 'Virtua Racing Deluxe', console: 'Sega 32X' },
+  'mikage-emu/mikage-dev': { title: 'Mikage', console: 'Nintendo 3DS', mechanism: 'emulator' },
+  // Backfill. These were mapped by hand into lib/catalog.json before this file
+  // existed, and only the refresh preserving `previous?.game` kept them alive:
+  // regenerating the catalog from scratch would have dropped Ship of Harkinian,
+  // Unleashed Recompiled and Jak together. Curation belongs here.
+  'HarbourMasters/Shipwright': {
+    game: 'ocarina-of-time',
+    title: 'The Legend of Zelda: Ocarina of Time',
+    console: 'Nintendo 64',
+  },
+  'hedge-dev/UnleashedRecomp': {
+    game: 'sonic-unleashed',
+    title: 'Sonic Unleashed',
+    console: 'Xbox 360',
+  },
+  'open-goal/jak-project': {
+    game: 'jak-and-daxter',
+    title: 'Jak and Daxter',
+    console: 'PlayStation 2',
+  },
+  '2ship2harkinian/2ship2harkinian': {
+    game: 'majoras-mask',
+    title: "The Legend of Zelda: Majora's Mask",
+    console: 'Nintendo 64',
+  },
+  'EXOK/Celeste64': {
+    game: 'celeste-64',
+    title: 'Celeste 64: Fragments of the Mountain',
+    console: 'PC',
+  },
+  'taisei-project/taisei': { game: 'taisei', title: 'Taisei Project', console: 'PC' },
+  'HarbourMasters/Ghostship': {
+    game: 'super-mario-64',
+    title: 'Super Mario 64',
+    console: 'Nintendo 64',
+  },
+  'TGP482/SCDA-XBERecomp': {
+    game: 'splinter-cell-double-agent',
+    title: 'Splinter Cell: Double Agent',
+    console: 'Xbox',
+  },
+  'murkantor/Project-Midas': {
+    game: 'goldeneye-007',
+    title: 'GoldenEye 007',
+    console: 'Nintendo 64',
+  },
+  'jkdansereau/goldeneye-pc-port': {
+    game: 'goldeneye-007',
+    title: 'GoldenEye 007',
+    console: 'Nintendo 64',
+  },
+  'psxrestore/Condemned2Recomp': {
+    game: 'condemned-2',
+    title: 'Condemned 2: Bloodshot',
+    console: 'Xbox 360',
+  },
+  'dk8827/ra-port': { game: 'red-alert', title: 'Command & Conquer: Red Alert', console: 'PC' },
+  'NoRain211/doaxvb-re': {
+    game: 'doaxbv',
+    title: 'Dead or Alive Xtreme Beach Volleyball',
+    console: 'Xbox',
+  },
+  'Yokimitsuro/khdays-port': {
+    game: 'kh-days',
+    title: 'Kingdom Hearts 358/2 Days',
+    console: 'Nintendo DS',
+  },
+  'saulob/dragons-crown-pro-pc': {
+    game: 'dragons-crown',
+    title: "Dragon's Crown Pro",
+    console: 'PlayStation 4',
+  },
+  'LittleBitUA/DPRecomp': {
+    game: 'deadly-premonition',
+    title: 'Deadly Premonition',
+    console: 'Xbox 360',
+  },
+  'Jorge262007/FFTARecomp': {
+    game: 'ffta',
+    title: 'Final Fantasy Tactics Advance',
+    console: 'Game Boy Advance',
+  },
+  'KIexster/god-of-war-recomp': {
+    game: 'god-of-war',
+    title: 'God of War',
+    console: 'PlayStation 2',
+  },
+  'Yharnam-Hunters/Paleblood': {
+    game: 'bloodborne',
+    title: 'Bloodborne',
+    console: 'PlayStation 4',
+  },
+  'gamboozino/ngbrecomp': {
+    game: 'ninja-gaiden-black',
+    title: 'Ninja Gaiden Black',
+    console: 'Xbox',
+  },
+  'vyanhursky/DefJamFFNY-recomp': {
+    game: 'def-jam-ffny',
+    title: 'Def Jam: Fight for NY',
+    console: 'Xbox',
+  },
+  'JackandBeans/Snap64Recomp': {
+    game: 'pokemon-snap',
+    title: 'Pokémon Snap',
+    console: 'Nintendo 64',
+  },
+  'KaikoClanworth1/wwe-svr2011-pc': {
+    game: 'wwe-svr-2011',
+    title: 'WWE SmackDown vs. Raw 2011',
+    console: 'Xbox 360',
+  },
+  'GiZcesi/OpenTricky': { game: 'ssx-tricky', title: 'SSX Tricky', console: 'PlayStation 2' },
+  'kirklandsig/halo2-decompiled': { game: 'halo-2', title: 'Halo 2', console: 'Xbox' },
+  'wivi514/Dead_Rising_2_Case_Zero_Xenon_Recomp': {
+    game: 'dead-rising-2-case-zero',
+    title: 'Dead Rising 2: Case Zero',
+    console: 'Xbox 360',
+  },
+  'Shagg88/Athelas': {
+    game: 'lotr-return-of-the-king',
+    title: 'The Lord of the Rings: The Return of the King',
+    console: 'Xbox',
+  },
+  'invinceble55-wq/Estacado-The-Darkness-Recomp': {
+    game: 'the-darkness',
+    title: 'The Darkness',
+    console: 'Xbox 360',
+  },
+  'some-scurvy-dog/banjo-tooie-scurvy-dog-port': {
+    game: 'banjo-tooie',
+    title: 'Banjo-Tooie',
+    console: 'Nintendo 64',
+  },
+  'pablocpas/OpenCMR2': {
+    game: 'colin-mcrae-rally-2',
+    title: 'Colin McRae Rally 2.0',
+    console: 'PlayStation',
+  },
+  'GenryTheFox0/Project-2099': {
+    game: 'spider-man-edge-of-time',
+    title: 'Spider-Man: Edge of Time',
+    console: 'Xbox 360',
+  },
 }
 
-type Row = { repo: string; title: string; game: string | null; console: string; mechanism: string }
+type Row = {
+  repo: string
+  title: string
+  game: string | null
+  console: string
+  mechanism: string
+  curated?: boolean
+}
 
 const FILE = 'lib/catalog.json'
 const rows: Row[] = JSON.parse(readFileSync(FILE, 'utf8'))
@@ -257,6 +530,10 @@ for (const [repo, c] of Object.entries(CURATED)) {
   row.title = c.title
   if (c.console) row.console = c.console
   if (c.mechanism) (row as Record<string, unknown>).mechanism = c.mechanism
+  // The mark, not the `game` field, is what protects an entry from the pruner.
+  // An emulator is curated and has no game, so the old proxy left Xenia and
+  // Mikage to be saved or dropped by a regex.
+  row.curated = true
   applied++
   if (c.game && !GAMES[c.game]) missingMeta.add(c.game)
 }

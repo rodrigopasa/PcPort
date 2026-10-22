@@ -730,6 +730,246 @@ export const GAMES: Record<string, GameMeta> = {
       en: 'A free and open shoot \'em up set in the Tōhō Project universe, developed in the open since the early 2010s.',
     },
   },
+  'paper-mario': {
+    releasedAt: '2000-08-11',
+    developer: 'Intelligent Systems',
+    publisher: 'Nintendo',
+    genres: ['RPG'],
+    summary: {
+      pt: 'RPG de turnos em que os personagens são recortes de papel sobre cenários tridimensionais. Os ataques pedem que o jogador acerte o tempo do botão, e cada parceiro resolve um tipo de obstáculo no mapa.',
+      en: 'A turn-based RPG whose characters are paper cut-outs standing in three-dimensional scenery. Attacks ask the player to time a button press, and each partner solves one kind of obstacle on the map.',
+    },
+  },
+  'crash-team-racing': {
+    releasedAt: '1999-09-30',
+    developer: 'Naughty Dog',
+    publisher: 'Sony Computer Entertainment',
+    genres: ['Corrida'],
+    summary: {
+      pt: 'Kart com um sistema de saltos que recompensa quem encadeia três turbos no tempo exato, mantendo a velocidade acumulada entre curvas. Tem modo aventura com chefes e troféus.',
+      en: 'A kart racer built on a hop system that rewards chaining three boosts on the exact beat, carrying accumulated speed between corners. It includes an adventure mode with bosses and trophies.',
+    },
+  },
+  'minecraft-lce': {
+    releasedAt: '2012-05-09',
+    developer: '4J Studios',
+    publisher: 'Microsoft Studios',
+    genres: ['Sandbox', 'Sobrevivência'],
+    summary: {
+      pt: 'A versão de console do Minecraft, com mundos de tamanho fixo, tela dividida local e interface pensada para controle. Recebeu pacotes de textura e mundos temáticos que a versão de PC nunca teve.',
+      en: 'The console edition of Minecraft, with fixed-size worlds, local split-screen and an interface designed for a controller. It received texture packs and themed worlds the PC version never had.',
+    },
+  },
+  'pokemon-ruby': {
+    releasedAt: '2002-11-21',
+    developer: 'Game Freak',
+    publisher: 'Nintendo',
+    genres: ['RPG'],
+    summary: {
+      pt: 'A terceira geração, ambientada em Hoenn. Introduziu batalhas duplas, habilidades passivas e os bônus de natureza que passaram a definir o jogo competitivo.',
+      en: 'The third generation, set in Hoenn. It introduced double battles, passive abilities and the nature bonuses that went on to define competitive play.',
+    },
+  },
+  'pokemon-firered': {
+    releasedAt: '2004-01-29',
+    developer: 'Game Freak',
+    publisher: 'Nintendo',
+    genres: ['RPG'],
+    summary: {
+      pt: 'Refazimento da primeira geração sobre o motor de Hoenn, o que trouxe habilidades e batalhas duplas para Kanto. Acrescentou as Ilhas Sete como área pós-jogo.',
+      en: 'A remake of the first generation on the Hoenn engine, which brought abilities and double battles to Kanto. It added the Sevii Islands as a post-game area.',
+    },
+  },
+  'pokemon-emerald': {
+    releasedAt: '2004-09-16',
+    developer: 'Game Freak',
+    publisher: 'Nintendo',
+    genres: ['RPG'],
+    summary: {
+      pt: 'A versão ampliada de Hoenn, com as duas equipes vilãs na mesma história e a Frente de Batalha — o conjunto de desafios mais duro que a série tinha produzido até então.',
+      en: 'The expanded take on Hoenn, with both villainous teams in one story and the Battle Frontier, the hardest set of challenges the series had produced to that point.',
+    },
+  },
+  'pokemon-diamond': {
+    releasedAt: '2006-09-28',
+    developer: 'Game Freak',
+    publisher: 'Nintendo',
+    genres: ['RPG'],
+    summary: {
+      pt: 'A quarta geração, em Sinnoh. Separou o cálculo de ataque físico e especial por golpe em vez de por tipo, mudança que reorganizou toda a estratégia da série.',
+      en: 'The fourth generation, in Sinnoh. It split the physical and special attack calculation per move rather than per type, a change that reorganised the whole series strategy.',
+    },
+  },
+  'pokemon-platinum': {
+    releasedAt: '2008-09-13',
+    developer: 'Game Freak',
+    publisher: 'Nintendo',
+    genres: ['RPG'],
+    summary: {
+      pt: 'A revisão de Sinnoh, com o Mundo Distorcido, ritmo mais rápido e a Área de Batalha no pós-jogo. É a versão que a comunidade trata como definitiva da geração.',
+      en: 'The revision of Sinnoh, with the Distortion World, a faster pace and the Battle Area in the post-game. It is the version the community treats as the generation definitive one.',
+    },
+  },
+  'pokemon-heartgold': {
+    releasedAt: '2009-09-12',
+    developer: 'Game Freak',
+    publisher: 'Nintendo',
+    genres: ['RPG'],
+    summary: {
+      pt: 'Refazimento da segunda geração, com Johto e Kanto no mesmo jogo. O primeiro Pokémon da equipe anda atrás do jogador, e o Pokéwalker conta passos no mundo real.',
+      en: 'A remake of the second generation, with Johto and Kanto in one game. The lead team member walks behind the player, and the Pokéwalker counts real-world steps.',
+    },
+  },
+  'eternal-darkness': {
+    releasedAt: '2002-06-24',
+    developer: 'Silicon Knights',
+    publisher: 'Nintendo',
+    genres: ['Terror', 'Ação', 'Aventura'],
+    summary: {
+      pt: 'Terror atravessando dois milênios, com doze personagens jogáveis em épocas diferentes. A barra de sanidade faz o próprio jogo mentir para o jogador quando ela cai.',
+      en: 'Horror spanning two millennia, with twelve playable characters in different eras. The sanity meter makes the game itself lie to the player as it drains.',
+    },
+  },
+  killzone: {
+    releasedAt: '2004-11-02',
+    developer: 'Guerrilla Games',
+    publisher: 'Sony Computer Entertainment',
+    genres: ['Tiro em primeira pessoa'],
+    summary: {
+      pt: 'Tiro em primeira pessoa de peso deliberado, com armas que recuam e personagens que demoram a virar. Quatro soldados jogáveis encaram a invasão Helghast.',
+      en: 'A deliberately heavy first-person shooter, with weapons that kick and characters slow to turn. Four playable soldiers face the Helghast invasion.',
+    },
+  },
+  'sonic-free-riders': {
+    releasedAt: '2010-11-04',
+    developer: 'Sonic Team',
+    publisher: 'Sega',
+    genres: ['Corrida'],
+    summary: {
+      pt: 'Terceiro jogo da série de pranchas aéreas, feito para controle por movimento sem acessório. Cada tipo de personagem — velocidade, força ou voo — usa atalhos diferentes na mesma pista.',
+      en: 'The third game in the hoverboard series, built for controller-free motion input. Each character type — speed, power or flight — takes different shortcuts on the same track.',
+    },
+  },
+  'skate-2': {
+    releasedAt: '2009-01-21',
+    developer: 'EA Black Box',
+    publisher: 'Electronic Arts',
+    genres: ['Esporte'],
+    summary: {
+      pt: 'Skate controlado pelos dois analógicos, em que o movimento do polegar imita o do pé na prancha. A sequência acrescentou descer da prancha e mover obstáculos pelo cenário.',
+      en: 'Skateboarding controlled with both sticks, where the thumb motion mirrors the foot on the board. The sequel added stepping off the board and moving obstacles around the city.',
+    },
+  },
+  doa3: {
+    releasedAt: '2001-11-15',
+    developer: 'Team Ninja',
+    publisher: 'Tecmo',
+    genres: ['Luta'],
+    summary: {
+      pt: 'Luta construída sobre o triângulo entre golpe, agarrão e contra-ataque, com cenários de vários níveis em que a queda continua o combo. Foi jogo de lançamento do primeiro Xbox.',
+      en: 'A fighting game built on the triangle of strike, throw and hold, with multi-level stages where a fall continues the combo. It was a launch title for the first Xbox.',
+    },
+  },
+  'tekken-3': {
+    releasedAt: '1998-03-26',
+    developer: 'Namco',
+    publisher: 'Namco',
+    genres: ['Luta'],
+    summary: {
+      pt: 'A conversão doméstica que acertou o desvio lateral e tornou o palco tridimensional de verdade. Trouxe os modos Tekken Force e Tekken Ball, exclusivos do console.',
+      en: 'The home conversion that got sidestepping right and made the stage genuinely three-dimensional. It added the console-only Tekken Force and Tekken Ball modes.',
+    },
+  },
+  'asuras-wrath': {
+    releasedAt: '2012-02-21',
+    developer: 'CyberConnect2',
+    publisher: 'Capcom',
+    genres: ['Ação'],
+    summary: {
+      pt: 'Ação dividida em episódios com vinhetas de abertura e encerramento, como uma série de televisão. Alterna luta corpo a corpo, tiro e sequências de botão em escala absurda.',
+      en: 'Action split into episodes with opening and closing credits, like a television series. It alternates melee, shooting and button sequences at absurd scale.',
+    },
+  },
+  'geometry-wars-2': {
+    releasedAt: '2008-07-30',
+    developer: 'Bizarre Creations',
+    publisher: 'Activision',
+    genres: ['Tiro', 'Arcade'],
+    summary: {
+      pt: 'Tiro de arena com dois analógicos e seis modos de regras distintas, cada um com sua própria tabela de pontuação entre amigos. Visual vetorial sobre grade elástica.',
+      en: 'A twin-stick arena shooter with six modes of distinct rules, each with its own scoreboard among friends. Vector visuals over an elastic grid.',
+    },
+  },
+  'armored-core-fa': {
+    releasedAt: '2008-03-19',
+    developer: 'FromSoftware',
+    publisher: 'FromSoftware',
+    genres: ['Ação', 'Simulação'],
+    summary: {
+      pt: 'Combate de robôs montados peça por peça, em que peso, geração de energia e refrigeração decidem a luta antes do primeiro tiro. Os NEXT voam rápido e superaquecem.',
+      en: 'Mech combat with machines assembled part by part, where weight, energy generation and cooling decide the fight before the first shot. The NEXT units fly fast and overheat.',
+    },
+  },
+  'gears-of-war-2': {
+    releasedAt: '2008-11-07',
+    developer: 'Epic Games',
+    publisher: 'Microsoft Game Studios',
+    genres: ['Tiro em terceira pessoa'],
+    summary: {
+      pt: 'Tiro em terceira pessoa com cobertura, recarga ativa por tempo e campanha cooperativa para dois. A sequência acrescentou o modo Horda, que virou referência do gênero.',
+      en: 'A third-person cover shooter with timed active reload and a two-player co-op campaign. The sequel added Horde mode, which became a genre reference point.',
+    },
+  },
+  'star-wars-rots': {
+    releasedAt: '2005-05-05',
+    developer: 'The Collective',
+    publisher: 'LucasArts',
+    genres: ['Ação'],
+    summary: {
+      pt: 'Ação de sabre de luz com combos aprendidos ao longo da campanha, cobrindo a história do terceiro filme. Tem modo de duelo para dois jogadores na mesma tela.',
+      en: 'Lightsaber action with combos learned across the campaign, covering the third film story. It includes a two-player duel mode on one screen.',
+    },
+  },
+  'dbz-burst-limit': {
+    releasedAt: '2008-06-05',
+    developer: 'Dimps',
+    publisher: 'Bandai Namco Games',
+    genres: ['Luta'],
+    summary: {
+      pt: 'Luta em plano bidimensional com cenários tridimensionais, construída em torno de um medidor que libera explosões de aura e defesas em momento exato. Cobre as sagas Saiyajin, Freeza e Cell.',
+      en: 'Fighting on a two-dimensional plane with three-dimensional stages, built around a gauge that unlocks aura bursts and precisely timed guards. It covers the Saiyan, Frieza and Cell arcs.',
+    },
+  },
+  'bloody-roar-2': {
+    releasedAt: '1999-04-29',
+    developer: 'Eighting',
+    publisher: 'Hudson Soft',
+    genres: ['Luta'],
+    summary: {
+      pt: 'Luta em que cada personagem se transforma em um animal ao encher o medidor de besta, trocando alcance e dano por velocidade. A transformação também serve para escapar de combo.',
+      en: 'A fighting game where each character turns into an animal on filling the beast gauge, trading reach and damage for speed. The change is also a way out of a combo.',
+    },
+  },
+  'tony-hawk-project-8': {
+    releasedAt: '2006-11-07',
+    developer: 'Neversoft',
+    publisher: 'Activision',
+    genres: ['Esporte'],
+    summary: {
+      pt: 'Skate com o modo Nail the Trick, que entra em câmera lenta e passa o controle dos pés para os dois analógicos. Cidade única e contínua, sem telas de carregamento entre áreas.',
+      en: 'Skateboarding with Nail the Trick, which drops into slow motion and hands control of the feet to both sticks. A single continuous city, with no loading screens between areas.',
+    },
+  },
+  'wwe-all-stars': {
+    releasedAt: '2011-03-29',
+    developer: 'THQ San Diego',
+    publisher: 'THQ',
+    genres: ['Luta', 'Esporte'],
+    summary: {
+      pt: 'Luta livre deliberadamente exagerada, com saltos de vários metros e combos aéreos, colocando lutadores clássicos contra os da época. Nada de simulação: é jogo de arcade.',
+      en: 'Deliberately exaggerated wrestling, with leaps of several metres and aerial combos, setting classic wrestlers against contemporary ones. No simulation here: it is an arcade game.',
+    },
+  },
 }
 
 export function gameFor(key: string | null): GameMeta | null {

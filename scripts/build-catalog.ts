@@ -87,6 +87,11 @@ export type CatalogRow = {
   releaseUrl: string
   licenseId: string | null
   licenseUrl: string | null
+  /**
+   * Set by scripts/curate.ts: a person judged this entry. Nothing automated
+   * may overrule it — not the quality filter, not the classifier.
+   */
+  curated?: boolean
 }
 
 class RateLimit extends Error {}
@@ -235,7 +240,10 @@ async function fetchRow(path: string, previous?: CatalogRow): Promise<CatalogRow
     game: previous?.game ?? null,
     author: repo.owner.login,
     console: previous?.console ?? detectConsole(repo),
-    mechanism: classify(repo),
+    // Curation can say `emulator` where the classifier reads `native`, and the
+    // hourly refresh used to throw that away: Xenia was re-tagged every hour.
+    // An uncurated row is still reclassified, so classifier fixes reach it.
+    mechanism: previous?.curated ? previous.mechanism : classify(repo),
     platforms: detectPlatforms(release, repo),
     stars: repo.stargazers_count,
     description: repo.description ?? previous?.description ?? '',
@@ -245,6 +253,7 @@ async function fetchRow(path: string, previous?: CatalogRow): Promise<CatalogRow
     releaseUrl: release?.html_url ?? `${repo.html_url}/releases`,
     licenseId: repo.license?.spdx_id ?? null,
     licenseUrl: repo.license?.url ?? null,
+    ...(previous?.curated ? { curated: true } : {}),
   }
 }
 

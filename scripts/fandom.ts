@@ -94,6 +94,30 @@ const WIKI: Record<string, string[]> = {
   'wipeout-omega-collection': ['wipeout'],
   'cnc-tiberian-dawn': ['cnc'],
   'cnc-red-alert-2': ['cnc'],
+  'paper-mario': ['mario', 'papermario'],
+  'crash-team-racing': ['crashbandicoot'],
+  'minecraft-lce': ['minecraft'],
+  'pokemon-ruby': ['pokemon'],
+  'pokemon-firered': ['pokemon'],
+  'pokemon-emerald': ['pokemon'],
+  'pokemon-diamond': ['pokemon'],
+  'pokemon-platinum': ['pokemon'],
+  'pokemon-heartgold': ['pokemon'],
+  'eternal-darkness': ['eternaldarkness'],
+  killzone: ['killzone'],
+  'sonic-free-riders': ['sonic'],
+  'skate-2': ['skate'],
+  doa3: ['deadoralive'],
+  'tekken-3': ['tekken'],
+  'asuras-wrath': ['asuraswrath'],
+  'geometry-wars-2': ['geometrywars'],
+  'armored-core-fa': ['armoredcore'],
+  'gears-of-war-2': ['gearsofwar'],
+  'star-wars-rots': ['starwars'],
+  'dbz-burst-limit': ['dragonball'],
+  'bloody-roar-2': ['bloodyroar'],
+  'tony-hawk-project-8': ['tonyhawkgames', 'tonyhawk'],
+  'wwe-all-stars': ['prowrestling'],
 }
 
 /** Every game also gets the general gaming wiki as a last resort. */
@@ -102,7 +126,24 @@ const FALLBACK = 'gaming'
 type Shot = { url: string; w: number; h: number; source: string }
 
 const IMAGE_FILE = /\.(png|jpe?g|webp)(\/|$|\?)/i
-const PREFER = /box|cover|art|packshot|front/i
+/**
+ * Ranks a wiki's image file names by how likely each one is the box art.
+ *
+ * A boolean "prefers" test was not enough. It treated `Bloodborne_concept_art`
+ * and `Bloodborne_cover` as equally good, and the concept art sorted first, so
+ * the measured candidates ran out before the real cover was reached.
+ */
+const STRONG = /box ?art|cover|packshot|front|packaging|caratula/i
+const WEAK = /art(work)?\b/i
+const WRONG = /screen ?shot|gameplay|concept|logo|banner|wallpaper|promo|icon|render/i
+
+function preference(name: string): number {
+  let n = 0
+  if (STRONG.test(name)) n += 3
+  if (WEAK.test(name)) n += 1
+  if (WRONG.test(name)) n -= 2
+  return n
+}
 
 async function api<T>(wiki: string, params: Record<string, string>): Promise<T | null> {
   const qs = new URLSearchParams({ action: 'query', format: 'json', ...params })
@@ -149,7 +190,19 @@ async function findPages(wiki: string, name: string): Promise<string[]> {
   return (res?.query?.search ?? []).map((s) => s.title)
 }
 
+/**
+ * Box art is square or taller. A wiki's lead image is just as often a
+ * screenshot, and a 16:9 screenshot dropped into a cover slot is what made the
+ * Minecraft and Armored Core pages look broken — so a landscape lead is held
+ * as a fallback while the file list is searched for something cover-shaped.
+ *
+ * 0.95 rather than 1: plenty of real box art is a hair wider than it is tall.
+ */
+const isCoverShaped = (s: Shot) => s.h >= s.w * 0.95
+
 async function coverFromPage(wiki: string, title: string): Promise<Shot | null> {
+  let fallback: Shot | null = null
+
   const lead = await api<PageImages>(wiki, {
     prop: 'pageimages',
     piprop: 'original',
@@ -159,24 +212,32 @@ async function coverFromPage(wiki: string, title: string): Promise<Shot | null> 
   const leadUrl = Object.values(lead?.query?.pages ?? {})[0]?.original?.source
   if (leadUrl && IMAGE_FILE.test(leadUrl)) {
     const shot = await measure(leadUrl, `${wiki}.fandom.com`)
-    if (shot) return shot
+    if (shot) {
+      if (isCoverShaped(shot)) return shot
+      fallback = shot
+    }
   }
 
   const files = await api<PageFiles>(wiki, { prop: 'images', titles: title, redirects: '1' })
   const names = (Object.values(files?.query?.pages ?? {})[0]?.images ?? [])
     .map((i) => i.title)
     .filter((n) => IMAGE_FILE.test(n))
-    .sort((a, b) => Number(PREFER.test(b)) - Number(PREFER.test(a)))
-    .slice(0, 3)
+    .sort((a, b) => preference(b) - preference(a))
+    .slice(0, 6)
 
   for (const name of names) {
     const info = await api<FileInfo>(wiki, { prop: 'imageinfo', iiprop: 'url', titles: name })
     const url = Object.values(info?.query?.pages ?? {})[0]?.imageinfo?.[0]?.url
     if (!url) continue
     const shot = await measure(url, `${wiki}.fandom.com`)
-    if (shot) return shot
+    if (!shot) continue
+    if (isCoverShaped(shot)) return shot
+    fallback ??= shot
   }
-  return null
+
+  // Something beats nothing: a wide image still tells the reader which game
+  // this is, and the page crops it rather than leaving a hole.
+  return fallback
 }
 
 async function coverFor(key: string, name: string): Promise<Shot | null> {

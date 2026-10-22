@@ -42,7 +42,7 @@ const NOT_A_PORT =
  * "decompilation of <game>" is the project this catalog is about.
  */
 const GENERIC_TOOL =
-  /\b(decompiler|disassembler|deobfuscator|decompilation (engine|framework|tool)|loader plugin|splitting tool|command.?line tool|automated tool|modding (toolkit|sdk)|a tool for|is a tool|reverse engineering website|controller manager|filesystem|image extractor|emulator (manager|frontend|launcher|wrapper))\b/i
+  /\b(decompiler|disassembler|deobfuscator|decompilation (engine|framework|tool|pipeline)|loader plugin|splitting tool|command.?line tool|automated tool|modding (toolkit|sdk)|a tool for|is a tool|diffing tool|reverse engineering website|controller manager|filesystems?|image extractor|emulator (manager|frontend|launcher|wrapper))\b/i
 
 /**
  * Source ports of games that were already PC games. Doom, Quake, Heretic,
@@ -51,16 +51,22 @@ const GENERIC_TOOL =
  * that, however good it is.
  */
 const PC_NATIVE_GAME =
-  /\b(doom|quake|heretic|hexen|blake stone|duke nukem 3d|build engine|boom\/mbf|wolfenstein 3d)\b/i
+  /\b(doom|quake|heretic|hexen|blake stone|duke nukem 3d|build engine|boom\/mbf|wolfenstein 3d|eduke32|build games|ultima underworld)\b/i
 
 /**
  * The catalog is about the PC. A port whose only target is a phone, a watch or
  * another console is real work and the wrong catalog — so it is rejected only
  * when no PC target is mentioned at all, because most ports list Windows
  * alongside macOS and Android.
+ *
+ * The platform name alone is not enough: it is just as likely to be the
+ * platform the project is porting FROM. A bare list of these words rejected
+ * `Ultimate-Mortal-Kombat-3-iOS-Decompiled`, a Windows port of the iOS build
+ * that even asks the reader to bring their own copy. So a target has to be
+ * declared: a preposition before it, or `port`/`build`/`version` after it.
  */
 const NON_PC_TARGET =
-  /\b(ios|ipados|iphone|ipad|android|apple watch|playstation 5|ps5|for nintendo switch|for the switch)\b/i
+  /\b(?:(?:for|on|onto|to) (?:ios|ipados|iphone|ipad|an? apple watch|apple watch|android|playstation 5|ps5|nintendo switch|the switch)|(?:ios|ipados|iphone|ipad|android|switch|ps5) (?:port|build|version|release|edition))\b/i
 const PC_TARGET = /\b(windows|linux|pc|steam ?deck|win64|x86|desktop|macos)\b/i
 
 /**
@@ -95,6 +101,41 @@ const UTILITY =
 const PORT_SIGNAL =
   /\b(port|recomp|decomp|native|reimplement|runtime|homebrew|for (windows|linux|pc|macos))/i
 
+/**
+ * Evidence the game came from a console, which is the whole premise: this
+ * catalog is console games reaching the PC.
+ *
+ * Not a requirement on its own. Measured against the catalog, demanding it
+ * would have cut forty entries, among them all six Pokémon decompilations,
+ * Tekken 3 and Ultimate Mortal Kombat 3 — real console games whose blurb
+ * simply never names the console. It earns its keep as a tiebreaker below.
+ */
+const CONSOLE_ORIGIN =
+  /\b(xbox|x360|xbla|xenon|playstation|ps[1-4]|psx|psp|vita|nintendo 64|n64|gamecube|gcn|wii ?u|wii|switch|nds|3ds|game ?boy|gba|dreamcast|saturn|mega ?drive|genesis|32x|arcade|cps-?[123]|naomi|neo ?geo|console edition)\b/i
+
+/**
+ * How a project ports a game that was already a PC game. Doom, Descent, PREY,
+ * Ultima Underworld, Catacomb 3D and Dune II all have healthy scenes, and all
+ * of them are the wrong catalog — but there is no list of game names long
+ * enough to catch them, and the next one ships next week.
+ *
+ * There is a textual signal instead, and it is theirs alone: a project that
+ * calls itself a source port, a remaster or a remake is working from code or
+ * assets that already ran on a PC. A console project says recompilation,
+ * decompilation or port. So this phrasing with no console named anywhere is a
+ * rejection — and naming a console clears it, which is why the rule above is a
+ * tiebreaker and not a requirement.
+ */
+const PC_ERA_PROJECT =
+  /\b(source[- ]port|remaster|remake|enhanced port|modernized)\b/i
+
+/**
+ * The browser is not the PC. A recompilation to WebAssembly or Three.js is a
+ * genuine achievement and produces no executable anyone installs, which is
+ * what every page here promises.
+ */
+const BROWSER_TARGET = /\b(three\.js|in the browser|webassembly|wasm|webgl)\b/i
+
 export type Verdict = { ok: true } | { ok: false; reason: string }
 
 export function isCatalogable(c: Candidate): Verdict {
@@ -117,6 +158,12 @@ export function isCatalogable(c: Candidate): Verdict {
   }
   if (PC_NATIVE_GAME.test(hay)) {
     return { ok: false, reason: 'source port of a game that was already a PC game' }
+  }
+  if (PC_ERA_PROJECT.test(hay) && !CONSOLE_ORIGIN.test(hay)) {
+    return { ok: false, reason: 'source port or remaster of a game that was already on PC' }
+  }
+  if (BROWSER_TARGET.test(hay) && !PC_TARGET.test(hay)) {
+    return { ok: false, reason: 'targets the browser rather than the PC' }
   }
   if (NON_PC_TARGET.test(hay) && !PC_TARGET.test(hay)) {
     return { ok: false, reason: 'targets a phone, watch or console rather than the PC' }

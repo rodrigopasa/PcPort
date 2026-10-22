@@ -167,6 +167,19 @@ test('rejects hardware and data utilities', () => {
   for (const c of cases) assert.equal(isCatalogable(c).ok, false, `${c.repo} should be rejected`)
 })
 
+test('keeps a port whose non-PC platform is the source, not the target', () => {
+  // `platforms` cannot settle this: detectPlatforms falls back to Windows when
+  // it finds nothing, so every row claims it. The words have to carry it.
+  const v = isCatalogable({
+    repo: 'MaryNCRT/Ultimate-Mortal-Kombat-3-iOS-Decompiled',
+    title: 'Ultimate Mortal Kombat 3 iOS Decompiled',
+    description:
+      'Ultimate Mortal Kombat 3 (iOS, EA Mobile 2011), fully decompiled. ' +
+      'Native port in progress. No game assets - bring your own copy.',
+  })
+  assert.equal(v.ok, true, (v as { reason?: string }).reason)
+})
+
 test('rejects a port whose target is another console or a phone', () => {
   const cases = [
     { repo: 'centollOS/SwitchWakerHD', description: 'Wind Waker HD (Wii U) static recompilation for Nintendo Switch, deko3d renderer' },

@@ -7,8 +7,10 @@
  * share of them were awesome-lists and emulator tooling rather than ports.
  * Ingestion now filters at the source; this removes what landed before it did.
  *
- * Entries with a `game` mapping are never touched: a person already judged
- * those, and a regex does not get to overrule a human.
+ * Curated entries are never touched: a person already judged those, and a
+ * regex does not get to overrule a human. The mark is `curated`, not a `game`
+ * mapping — an emulator is curated and maps to no game, so keying off `game`
+ * left exactly the long-tail entries unprotected.
  */
 import { readFileSync, writeFileSync } from 'node:fs'
 import { isCatalogable } from '../lib/quality'
@@ -20,6 +22,7 @@ type Row = {
   repo: string
   title: string
   game: string | null
+  curated?: boolean
   description: string | null
   version: string | null
   sizeBytes: number | null
@@ -31,7 +34,7 @@ const keep: Row[] = []
 const drop: { row: Row; why: string }[] = []
 
 for (const row of rows) {
-  if (row.game) {
+  if (row.curated || row.game) {
     keep.push(row)
     continue
   }
@@ -43,7 +46,7 @@ for (const row of rows) {
 console.log(`entradas      : ${rows.length}`)
 console.log(`mantidas      : ${keep.length}`)
 console.log(`removidas     : ${drop.length}`)
-console.log(`curadas (intocadas): ${rows.filter((r) => r.game).length}`)
+console.log(`curadas (intocadas): ${rows.filter((r) => r.curated || r.game).length}`)
 console.log('')
 console.log('--- o que sai ---')
 for (const d of drop.slice(0, 20)) {
