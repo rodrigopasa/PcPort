@@ -19,6 +19,10 @@ services:
       NODE_ENV: production
       # Lets the ingestion workflow regenerate only the pages that changed.
       REVALIDATE_TOKEN: ${REVALIDATE_TOKEN:?set REVALIDATE_TOKEN in .env}
+      # Optional. With it, each contribution also opens an issue on GitHub; without
+      # it, contributions are still stored and listed by deploy/submissions.sh.
+      # A fine-grained token limited to this one repository, Issues: read and write.
+      GITHUB_ISSUES_TOKEN: ${GITHUB_ISSUES_TOKEN:-}
 
     volumes:
       # The ISR cache lives on disk. Without this, every container restart
@@ -27,6 +31,8 @@ services:
       # The catalog, so ingestion can update content without a rebuild. Seeded
       # from the image on first creation.
       - catalog-data:/app/data
+      # Contributions. Private: names and emails live here and nowhere else.
+      - submissions:/app/submissions
 
     networks:
       - traefik-proxy
@@ -47,6 +53,7 @@ services:
 volumes:
   next-cache:
   catalog-data:
+  submissions:
 
 networks:
   traefik-proxy:

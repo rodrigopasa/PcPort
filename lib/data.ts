@@ -171,6 +171,37 @@ export async function getEntry(lang: Lang, slug: string): Promise<Entry | null> 
   return row ? toEntry(row, lang) : null
 }
 
+/**
+ * Every port of one game, best known first.
+ *
+ * Several projects often port the same game — four for Bloodborne, three for
+ * GoldenEye — and the search people type is the game, not the project. The
+ * comparison page built on this is where that search should land.
+ */
+export async function getGamePorts(lang: Lang, game: string): Promise<Entry[]> {
+  return rows()
+    .filter((r) => r.game === game)
+    .map((r) => toEntry(r, lang))
+    .sort((a, b) => b.stars - a.stars)
+}
+
+/** Games with two or more ports: the ones a side-by-side page is worth having for. */
+export function getHubGames(): { game: string; count: number }[] {
+  const n = new Map<string, number>()
+  for (const r of rows()) if (r.game) n.set(r.game, (n.get(r.game) ?? 0) + 1)
+  return [...n]
+    .filter(([, c]) => c > 1)
+    .map(([game, count]) => ({ game, count }))
+    .sort((a, b) => b.count - a.count || a.game.localeCompare(b.game))
+}
+
+/** For the contribution form, which names an entry by its repository. */
+export async function getEntryByRepo(lang: Lang, repo: string): Promise<Entry | null> {
+  const want = repo.trim().toLowerCase()
+  const row = rows().find((r) => r.repo.toLowerCase() === want)
+  return row ? toEntry(row, lang) : null
+}
+
 export async function getLatest(lang: Lang): Promise<Entry | null> {
   return (await getEntries(lang))[0] ?? null
 }

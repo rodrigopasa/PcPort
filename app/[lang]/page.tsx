@@ -1,13 +1,36 @@
+import type { Metadata } from 'next'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { getEntries, getLatest, getCounts, getConsoles } from '@/lib/data'
-import { isLang, SITE, SITE_NAME, DICT, entryPath } from '@/lib/i18n'
+import { isLang, SITE, SITE_NAME, DICT, entryPath, monthYear } from '@/lib/i18n'
 import { SiteHeader } from '@/components/SiteHeader'
 import { SiteFooter } from '@/components/SiteFooter'
 import { LeadBand } from '@/components/LeadBand'
 import { Matrix } from '@/components/Matrix'
 
 export const revalidate = 300
+
+/**
+ * The month in the title, revalidated with the page, so it turns over by
+ * itself. A dated result reads as maintained next to undated ones — the
+ * largest catalog in this niche does the same, and it is the cheapest
+ * click-through signal there is.
+ */
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ lang: string }>
+}): Promise<Metadata> {
+  const { lang } = await params
+  if (!isLang(lang)) return {}
+  const when = monthYear(lang)
+  return {
+    title:
+      lang === 'pt'
+        ? `Jogos de console no PC: todos os ports nativos (${when})`
+        : `Console Games on PC: Every Native Port (${when})`,
+  }
+}
 
 export default async function Home({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params

@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import { getByConsole, getConsoles, getCounts } from '@/lib/data'
-import { isLang, SITE, SITE_NAME, DICT, entryPath } from '@/lib/i18n'
+import { isLang, SITE, SITE_NAME, DICT, entryPath, monthYear } from '@/lib/i18n'
 import { SiteHeader } from '@/components/SiteHeader'
 import { SiteFooter } from '@/components/SiteFooter'
 import { Matrix } from '@/components/Matrix'
@@ -26,7 +26,7 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   const t = DICT[lang]
 
   return {
-    title: t.portsOn(name),
+    title: `${t.portsOn(name)} (${monthYear(lang)})`,
     description: t.consoleLead(name, rows.length),
     alternates: {
       canonical: `${SITE}/${lang}/console/${slug}`,

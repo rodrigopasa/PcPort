@@ -1,6 +1,7 @@
 import type { MetadataRoute } from 'next'
-import { getEntries, getConsoles } from '@/lib/data'
-import { SITE, entryPath } from '@/lib/i18n'
+import { getEntries, getConsoles, getHubGames } from '@/lib/data'
+import { SITE, entryPath, hubPath, guidePath, guidesPath, contributePath } from '@/lib/i18n'
+import { liveGuides } from '@/lib/guides'
 
 /**
  * Both languages in one sitemap, each URL declaring its alternates. The
@@ -49,6 +50,43 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         },
       })
     }
+  }
+
+  // Guides, each paired with its translation by key rather than by word.
+  const guides = liveGuides(pt)
+  for (const lang of ['pt', 'en'] as const) {
+    out.push({
+      url: `${SITE}${guidesPath(lang)}`,
+      changeFrequency: 'weekly',
+      priority: 0.6,
+      alternates: { languages: pair(guidesPath('pt'), guidesPath('en')) },
+    })
+    for (const { guide } of guides) {
+      out.push({
+        url: `${SITE}${guidePath(lang, guide.slug[lang])}`,
+        changeFrequency: guide.kind === 'list' ? 'daily' : 'monthly',
+        priority: 0.7,
+        alternates: {
+          languages: pair(guidePath('pt', guide.slug.pt), guidePath('en', guide.slug.en)),
+        },
+      })
+    }
+    // Comparison pages answer the head query for their game, so they rank
+    // with the entries themselves.
+    for (const { game } of getHubGames()) {
+      out.push({
+        url: `${SITE}${hubPath(lang, game)}`,
+        changeFrequency: 'daily',
+        priority: 0.85,
+        alternates: { languages: pair(hubPath('pt', game), hubPath('en', game)) },
+      })
+    }
+    out.push({
+      url: `${SITE}${contributePath(lang)}`,
+      changeFrequency: 'monthly',
+      priority: 0.3,
+      alternates: { languages: pair(contributePath('pt'), contributePath('en')) },
+    })
   }
 
   // Entries are paired by index: getEntries sorts both languages identically.

@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import type { Lang } from '@/lib/db/schema'
-import { DICT, SITE_NAME } from '@/lib/i18n'
+import { DICT, SITE_NAME, contributePath, guidesPath } from '@/lib/i18n'
 import { InstallApp } from './InstallApp'
 
 export function SiteFooter({ lang }: { lang: Lang }) {
@@ -11,6 +11,8 @@ export function SiteFooter({ lang }: { lang: Lang }) {
     { href: `/${lang}`, label: SITE_NAME },
     { href: `/${lang}/${lang === 'pt' ? 'consoles' : 'consoles'}`, label: t.consoles },
     { href: `/${lang}/radar`, label: t.radar },
+    { href: guidesPath(lang), label: t.guides },
+    { href: contributePath(lang), label: t.contribute },
   ]
 
   return (

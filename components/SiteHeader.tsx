@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import type { Lang } from '@/lib/db/schema'
-import { DICT } from '@/lib/i18n'
+import { DICT, contributePath, guidesPath } from '@/lib/i18n'
 
 export function SiteHeader({
   lang,
@@ -34,6 +34,15 @@ export function SiteHeader({
             className="text-[12px] text-muted no-underline hover:text-ink"
           >
             {t.radar}
+          </Link>
+          <Link href={guidesPath(lang)} className="text-[12px] text-muted no-underline hover:text-ink">
+            {t.guides}
+          </Link>
+          <Link
+            href={contributePath(lang)}
+            className="hidden text-[12px] text-native no-underline hover:text-ink sm:inline"
+          >
+            {t.contribute}
           </Link>
         </nav>
 

@@ -34,6 +34,13 @@ RUN mkdir -p .next/cache && chown -R nextjs:nodejs .next
 COPY --from=builder --chown=nextjs:nodejs /app/lib/catalog.json /app/lib/shots.json /app/lib/fandom.json /app/lib/covers.json /app/lib/libretro.json ./data/
 ENV DATA_DIR=/app/data
 
+# Contributions from the site's form. Its own volume, created here owned by the
+# app user: the catalog volume is written by the sync script as root, so the
+# app cannot be trusted to have write access there, and a submission must
+# never be lost to a permission error.
+RUN mkdir -p /app/submissions && chown nextjs:nodejs /app/submissions
+ENV SUBMISSIONS_DIR=/app/submissions
+
 USER nextjs
 EXPOSE 3000
 

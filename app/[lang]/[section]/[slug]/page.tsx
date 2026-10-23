@@ -6,13 +6,15 @@ import {
   getEntries,
   getCounts,
   getRelated,
+  getGamePorts,
   formatDate,
   formatSize,
   gameYear,
   consoleSlug,
 } from '@/lib/data'
 import { buildFaq, mechanismExplainer } from '@/lib/content'
-import { isLang, SITE, SITE_NAME, DICT, entryPath } from '@/lib/i18n'
+import { isLang, SITE, SITE_NAME, DICT, entryPath, hubPath } from '@/lib/i18n'
+import { MaintainerBox } from '@/components/MaintainerBox'
 import type { Lang } from '@/lib/db/schema'
 import { SiteHeader } from '@/components/SiteHeader'
 import { SiteFooter } from '@/components/SiteFooter'
@@ -86,7 +88,12 @@ export default async function EntryPage({ params }: { params: Params }) {
 
   const [entry, counts] = await Promise.all([getEntry(lang, slug), getCounts()])
   if (!entry) notFound()
-  const related = await getRelated(lang, entry)
+  const [related, siblings] = await Promise.all([
+    getRelated(lang, entry),
+    entry.game ? getGamePorts(lang, entry.game) : Promise.resolve([]),
+  ])
+  // Only worth a link when there is something to compare.
+  const hub = entry.game && siblings.length > 1 ? hubPath(lang, entry.game) : null
 
   const t = DICT[lang]
   const url = `${SITE}${entryPath(lang, entry.slug)}`
@@ -239,6 +246,17 @@ export default async function EntryPage({ params }: { params: Params }) {
               {entry.repo} · ★{entry.stars.toLocaleString(lang === 'pt' ? 'pt-BR' : 'en')}
             </p>
 
+            {hub ? (
+              <Link
+                href={hub}
+                className="mt-6 block border-t border-b border-hairline py-3 text-[14px] text-ink no-underline transition-colors hover:text-native"
+              >
+                {lang === 'pt'
+                  ? `Comparar os ${siblings.length} ports de ${entry.title} →`
+                  : `Compare all ${siblings.length} ${entry.title} ports →`}
+              </Link>
+            ) : null}
+
             <AdSlot className="mt-10" />
           </aside>
 
@@ -316,6 +334,8 @@ export default async function EntryPage({ params }: { params: Params }) {
                 </details>
               ))}
             </div>
+
+            <MaintainerBox lang={lang} repo={entry.repo} path={entryPath(lang, entry.slug)} />
           </div>
         </article>
 

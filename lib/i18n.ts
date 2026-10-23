@@ -10,6 +10,36 @@ export function entryPath(lang: Lang, slug: string) {
   return lang === 'pt' ? `/pt/jogo/${slug}` : `/en/game/${slug}`
 }
 
+/** Contribution form. A page for people, not a query, so the word is translated. */
+export function contributePath(lang: Lang) {
+  return lang === 'pt' ? '/pt/contribuir' : '/en/contribute'
+}
+
+/**
+ * Every port of one game, side by side. `ports` is the same word in both
+ * languages and is the word people search with, so the segment is shared.
+ */
+export function hubPath(lang: Lang, game: string) {
+  return `/${lang}/ports/${game}`
+}
+
+export function guidesPath(lang: Lang) {
+  return lang === 'pt' ? '/pt/guias' : '/en/guides'
+}
+
+export function guidePath(lang: Lang, slug: string) {
+  return `${guidesPath(lang)}/${slug}`
+}
+
+/** "outubro de 2026" / "October 2026" — the freshness people look for in a result. */
+export function monthYear(lang: Lang, d = new Date()) {
+  return d.toLocaleDateString(lang === 'pt' ? 'pt-BR' : 'en-US', {
+    month: 'long',
+    year: 'numeric',
+    timeZone: 'UTC',
+  })
+}
+
 export function isLang(v: string): v is Lang {
   return v === 'pt' || v === 'en'
 }
@@ -76,6 +106,8 @@ type Dict = {
   installAppLead: string
   donate: string
   donateLead: string
+  contribute: string
+  guides: string
   footerNote: string
   mechanisms: Record<Mechanism, string>
 }
@@ -145,6 +177,8 @@ export const DICT: Record<Lang, Dict> = {
     installAppLead: 'Adicione o PCPort à tela inicial e consulte o catálogo offline.',
     donate: 'Doar',
     donateLead: 'O site é grátis e continua grátis. Doação só se quiser.',
+    contribute: 'Contribuir',
+    guides: 'Guias',
     footerNote:
       'O PCPort cataloga apenas os projetos de port, que são de código aberto e públicos. Nenhum arquivo de jogo é hospedado ou distribuído aqui.',
     mechanisms: {
@@ -218,6 +252,8 @@ export const DICT: Record<Lang, Dict> = {
     installAppLead: 'Add PCPort to your home screen and browse the catalog offline.',
     donate: 'Donate',
     donateLead: 'The site is free and stays free. Donate only if you want to.',
+    contribute: 'Contribute',
+    guides: 'Guides',
     footerNote:
       'PCPort catalogs only the port projects themselves, which are open source and public. No game files are hosted or distributed here.',
     mechanisms: {

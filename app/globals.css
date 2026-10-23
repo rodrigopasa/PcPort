@@ -213,3 +213,23 @@ tr[data-open='true'] > .row-mark::before {
     animation: none !important;
   }
 }
+
+/* Contribution form: a section shows only for the kinds named in its data-for.
+   Pure CSS, so it works before the script loads and with scripts off. Wrapped
+   in @supports because a browser without :has() would otherwise hide every
+   section — there, everything stays visible, cluttered but complete. */
+@supports selector(:has(*)) {
+  .cf [data-for] {
+    display: none;
+  }
+  .cf:has(input[name='kind'][value='novo']:checked) [data-for~='novo'],
+  .cf:has(input[name='kind'][value='correcao']:checked) [data-for~='correcao'],
+  .cf:has(input[name='kind'][value='remocao']:checked) [data-for~='remocao'],
+  .cf:has(input[name='kind'][value='link']:checked) [data-for~='link'] {
+    display: revert;
+  }
+  /* The grids keep their layout when shown. */
+  .cf:has(input[name='kind'][value='novo']:checked) div.grid[data-for~='novo'] {
+    display: grid;
+  }
+}
