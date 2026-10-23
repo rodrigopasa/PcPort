@@ -18,6 +18,7 @@
 import { writeFile, readFile } from 'node:fs/promises'
 import { checkRelease } from '../lib/guard'
 import { isCatalogable, isEmulator } from '../lib/quality'
+import { deriveTitle } from '../lib/title'
 import { detectPlatforms } from '../lib/platforms'
 import type { Mechanism } from '../lib/db/schema'
 
@@ -199,19 +200,9 @@ function detectConsole(repo: Repo): string {
   return 'PC'
 }
 
-/** Strip the port's own branding to get at the game's name. */
+/** The name shown before curation. Lives in lib/title.ts, where it is tested. */
 function gameTitle(repo: Repo): string {
-  const m = repo.description?.match(
-    /(?:port of|recompilation of|decompilation of|version of)\s+([A-Z][^,.:(]{2,60})/i,
-  )
-  if (m) return m[1].trim()
-  return (
-    repo.name
-      .replace(/[-_]/g, ' ')
-      .replace(/\b(recomp|recompiled|port|pc|decomp|decompiled|project)\b/gi, '')
-      .replace(/\s+/g, ' ')
-      .trim() || repo.name
-  )
+  return deriveTitle(repo.name, repo.description)
 }
 
 function slugify(s: string) {
@@ -290,8 +281,10 @@ async function fetchRow(path: string, previous?: CatalogRow): Promise<CatalogRow
   return {
     id: previous?.id ?? slugify(repo.full_name),
     repo: repo.full_name,
-    // Hand-curated and unreachable from the API: keep whatever is there.
-    title: previous?.title ?? gameTitle(repo),
+    // A curated title is a person's and is kept. An uncurated one is derived
+    // again on every run: keeping it froze the old heuristic's output, so
+    // "the N64 Classic" stayed in the table however the derivation improved.
+    title: previous?.curated ? previous.title : gameTitle(repo),
     game: previous?.game ?? null,
     author: repo.owner.login,
     console: previous?.console ?? detectConsole(repo),

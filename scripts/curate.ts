@@ -617,6 +617,53 @@ const CURATED: Record<string, Curation> = {
   "theclub654/ProjectCane": { title: "Sly Cooper and the Thievius Raccoonus", console: "PlayStation 2" },
   "TheOnlyZac/sly1": { title: "Sly Cooper and the Thievius Raccoonus", console: "PlayStation 2" },
   "Matteo842/CrashBandicoot-Launcher": { title: "Crash Bandicoot", console: "PlayStation" },
+  // Tenth batch: names. These shipped to the catalog table as "the N64
+  // Classic", "both Golden Sun games for Gameboy Advance", "fifa09". Every
+  // name below comes from the repository's own description or README —
+  // WWE '12, '13 and 2K14 each say Xbox 360 in theirs; .hack//IMOQ is the
+  // PS2 quadrilogy; Trouble Makers is Mischief Makers under its Japanese
+  // title. None was guessed from the repository name alone.
+  "PascalPixel/alchemy": { title: "Golden Sun", console: "Game Boy Advance" },
+  "bryantmh/rush2recompiled": { title: "Rush 2: Extreme Racing USA", console: "Nintendo 64" },
+  "jorjbarbosa/naruto-rise-recomp": { title: "Naruto: Rise of a Ninja", console: "Xbox 360" },
+  "ChunchunQ/fifa09-recomp": { title: "FIFA 09", console: "Xbox 360" },
+  "doc-haz/infinite-undiscovery-recomp": { title: "Infinite Undiscovery", console: "Xbox 360" },
+  "thiagordsfx/urban-reign-recomp": { title: "Urban Reign", console: "PlayStation 2" },
+  "HossEz/fifa-world-cup-2014-recompiled": { title: "2014 FIFA World Cup Brazil", console: "Xbox 360" },
+  "Decryptu/pokerecomp": { title: "Pokémon Red, Blue, Gold e Silver", console: "Game Boy Color" },
+  "fliperama86/cvlod_recomp": { title: "Castlevania: Legacy of Darkness", console: "Nintendo 64" },
+  "masterspike52/reNut": { title: "Banjo-Kazooie: Nuts & Bolts", console: "Xbox 360" },
+  "nlwstein/skullburglar": { title: "50 Cent: Blood on the Sand", console: "Xbox 360" },
+  "iMrBurn/wwe12-pc": { title: "WWE '12", console: "Xbox 360" },
+  "soyjxck/dod3-recomp": { title: "Drakengard 3", console: "PlayStation 3" },
+  "saulob/crackdown-xbox360-recompiled": { title: "Crackdown", console: "Xbox 360" },
+  "chrissotraidis/paperpad": { title: "Paper Mario", console: "Nintendo 64" },
+  "guimaraf/plusalpha-recomp": { title: "Street Fighter EX Plus Alpha", console: "PlayStation" },
+  "0herculabs/hl360-Forza2": { title: "Forza Motorsport 2", console: "Xbox 360" },
+  "metroidret/mzm": { title: "Metroid: Zero Mission", console: "Game Boy Advance" },
+  "PromethenDev/wwe2k14-recomp": { title: "WWE 2K14", console: "Xbox 360" },
+  "saulob/ssf2t-hd-remix-recompiled": { title: "Super Street Fighter II Turbo HD Remix", console: "Xbox 360" },
+  "obaidr1/hercules-recompiled": { title: "Disney's Hercules", console: "PlayStation" },
+  "RussoPhone/tomodachi-ltd-recomp": { title: "Tomodachi Life: Living the Dream", console: "Nintendo Switch" },
+  "0herculabs/hl360-forza3": { title: "Forza Motorsport 3", console: "Xbox 360" },
+  "lfarroco/ogre-battle-64-recomp": { title: "Ogre Battle 64: Person of Lordly Caliber", console: "Nintendo 64" },
+  "PromethenDev/wwe13-recomp": { title: "WWE '13", console: "Xbox 360" },
+  "OverkillLabs3/gears-judgement-recomp": { title: "Gears of War: Judgment", console: "Xbox 360" },
+  "Sirhalo23/RidgeRacer6-Recompilation": { title: "Ridge Racer 6", console: "Xbox 360" },
+  "ThiagoLira/trouble-makers-pc-recomp": { title: "Mischief Makers", console: "Nintendo 64" },
+  "ihatecompvir/band3_recomp": { title: "Rock Band 3", console: "Xbox 360" },
+  "parappadev/parappa2": { title: "PaRappa the Rapper 2", console: "PlayStation 2" },
+  "danielgomesvieira2000/pilotwings-64-recomp": { title: "Pilotwings 64", console: "Nintendo 64" },
+  "danielgomesvieira2000/wave-race-64-recomp": { title: "Wave Race 64", console: "Nintendo 64" },
+  "dothacktranslate/dothack-recompilation": { title: ".hack//IMOQ", console: "PlayStation 2" },
+  "mkst/sssv": { title: "Space Station Silicon Valley", console: "Nintendo 64" },
+  "masterspike52/reDAHM": { title: "Destroy All Humans! Path of the Furon", console: "Xbox 360" },
+  "puckhead73/nhl-legacy-recomp": { title: "NHL Legacy", console: "Xbox 360" },
+  "kholdfuzion/GoldenRecomp": { game: "goldeneye-007", title: "GoldenEye 007", console: "Nintendo 64" },
+  "Fantaskink/SOTC": { title: "Shadow of the Colossus", console: "PlayStation 2" },
+  "open-ribbon/open-ribbon": { title: "Vib-Ribbon", console: "PlayStation" },
+  "bdragoncore/cor64": { title: "Cor64", console: "Nintendo 64", mechanism: "emulator" },
+  "BttrDrgn/f-zerox": { title: "F-Zero X", console: "Nintendo 64" },
 }
 
 type Row = {
