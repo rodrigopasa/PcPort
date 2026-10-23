@@ -18,9 +18,16 @@ type Row = { id: string; repo: string; title: string }
 const BRANCHES = ['main', 'master', 'dev', 'develop']
 const NAMES = ['README.md', 'readme.md', 'Readme.md', 'README.MD']
 
-/** Badges, logos and chrome are not screenshots. */
+/**
+ * Badges, logos and chrome are not screenshots.
+ *
+ * `powered` and the light/dark-mode suffix were added after Ship of Harkinian
+ * and Ghostship showed the libultraship logo as their first screenshot: the
+ * file is poweredbylus.lightmode.png, and none of the words above are in it.
+ * A theme-variant suffix is itself the tell — screenshots do not ship one.
+ */
 const SKIP =
-  /badge|shields\.io|licen[sc]e|discord|twitter|patreon|ko-?fi|paypal|\.svg($|\?)|logo|icon|banner|buy.?me|github-readme-stats|star-history/i
+  /badge|shields\.io|licen[sc]e|discord|twitter|patreon|ko-?fi|paypal|\.svg($|\?)|logo|icon|banner|buy.?me|github-readme-stats|star-history|powered|sponsor|[._-](light|dark)mode/i
 
 function absolute(src: string, repo: string, branch: string): string | null {
   const clean = src.trim().split(/\s+/)[0].replace(/^<|>$/g, '')
@@ -64,6 +71,23 @@ function extract(body: string, repo: string, branch: string): string[] {
 
 type Shot = { url: string; w: number; h: number }
 
+/**
+ * The two sizes of a share card: GitHub's social preview (1280x640) and Open
+ * Graph's (1200x630). A README that leads with one is showing a poster, not
+ * the game — three of the four promotional images found by looking at every
+ * screenshot were exactly these sizes, one of them named social-preview. A
+ * game frame is 16:9 or 4:3 and does not land on these numbers.
+ */
+const SHARE_CARD = new Set(['1280x640', '1200x630'])
+
+/**
+ * Images a person looked at and rejected, by a fragment of their URL. For what
+ * no rule can catch without also catching real screenshots: the Project Midas
+ * logo is 3:1, and so is Def Jam's legitimate side-by-side widescreen
+ * comparison.
+ */
+const REJECTED_SHOTS = ['PM%20thin%201%20-%20full.png']
+
 async function measure(url: string): Promise<Shot | null> {
   try {
     const res = await fetch(url)
@@ -72,6 +96,8 @@ async function measure(url: string): Promise<Shot | null> {
     const dim = imageSize(buf)
     // Anything under 480px wide is an icon or a badge that slipped the filter.
     if (!dim || dim.w < 480) return null
+    if (SHARE_CARD.has(`${dim.w}x${dim.h}`)) return null
+    if (REJECTED_SHOTS.some((r) => url.includes(r))) return null
     return { url, w: dim.w, h: dim.h }
   } catch {
     return null

@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from 'react'
 import type { Lang } from '@/lib/db/schema'
 import type { ErrorCode, Kind } from '@/lib/contribute'
+import { Chip } from './StatusChip'
 
 /**
  * The contribution form.
@@ -75,13 +76,15 @@ const COPY = {
     send: 'Enviar para revisão',
     sending: 'Enviando…',
     sent: {
-      novo: 'Recebido. Cada port indicado é revisado por uma pessoa antes de entrar no catálogo.',
-      correcao: 'Recebido. Vamos conferir e corrigir a página.',
+      novo: 'Cada port indicado é revisado por uma pessoa antes de entrar no catálogo.',
+      correcao: 'Vamos conferir e corrigir a página.',
       remocao:
-        'Recebido. Pedido de remoção feito por quem mantém o projeto é atendido — vamos confirmar pelo próprio repositório.',
-      link: 'Recebido. Vamos conferir o link.',
+        'Pedido de remoção feito por quem mantém o projeto é atendido — vamos confirmar pelo próprio repositório.',
+      link: 'Vamos conferir o link.',
     } as Record<Kind, string>,
     another: 'Enviar outra',
+    received: 'Recebido',
+    notSent: 'Não enviado',
     errors: {
       bot: 'Não foi possível enviar.',
       fast: 'O envio saiu rápido demais. Confira os campos e envie de novo.',
@@ -150,13 +153,15 @@ const COPY = {
     send: 'Send for review',
     sending: 'Sending…',
     sent: {
-      novo: 'Received. Every suggested port is reviewed by a person before it joins the catalog.',
-      correcao: 'Received. We will check and fix the page.',
+      novo: 'Every suggested port is reviewed by a person before it joins the catalog.',
+      correcao: 'We will check and fix the page.',
       remocao:
-        'Received. A removal requested by the project’s maintainer is honoured — we will confirm through the repository itself.',
-      link: 'Received. We will check the link.',
+        'A removal requested by the project’s maintainer is honoured — we will confirm through the repository itself.',
+      link: 'We will check the link.',
     } as Record<Kind, string>,
     another: 'Send another',
+    received: 'Received',
+    notSent: 'Not sent',
     errors: {
       bot: 'Could not send.',
       fast: 'That was sent too fast. Check the fields and send again.',
@@ -193,6 +198,7 @@ export function ContributeForm({
   initialError,
   sentKind,
   rendered,
+  initialGame = '',
 }: {
   lang: Lang
   consoles: string[]
@@ -201,6 +207,8 @@ export function ContributeForm({
   initialError: ErrorCode | null
   sentKind: Kind | null
   rendered: number
+  /** Carried over from a search that found nothing, so the visitor does not retype it. */
+  initialGame?: string
 }) {
   const t = COPY[lang]
   const [kind, setKind] = useState<Kind>(initialKind)
@@ -212,7 +220,7 @@ export function ContributeForm({
   // See the note at the top: `required` only once the page is interactive.
   const [live, setLive] = useState(false)
   useEffect(() => setLive(true), [])
-  const errorRef = useRef<HTMLParagraphElement>(null)
+  const errorRef = useRef<HTMLDivElement>(null)
 
   const systems = [...new Set([...consoles, ...SYSTEMS])]
 
@@ -242,11 +250,14 @@ export function ContributeForm({
 
   if (state === 'sent' && sent) {
     return (
-      <div role="status" className="settle border-l-2 border-native pl-5">
-        <p className="text-[17px] leading-relaxed text-ink">{t.sent[sent]}</p>
+      <div role="status" className="settle">
+        <Chip tone="native" size="lg">
+          {t.received}
+        </Chip>
+        <p className="mt-4 max-w-[60ch] text-[17px] leading-relaxed text-ink">{t.sent[sent]}</p>
         <a
           href={lang === 'pt' ? '/pt/contribuir' : '/en/contribute'}
-          className="mt-4 inline-block text-[13px] text-muted hover:text-ink"
+          className="mt-5 inline-block text-[13px] text-muted underline decoration-hairline-strong underline-offset-4 hover:text-ink"
         >
           {t.another}
         </a>
@@ -272,14 +283,10 @@ export function ContributeForm({
       </div>
 
       {state === 'error' && error ? (
-        <p
-          ref={errorRef}
-          tabIndex={-1}
-          role="alert"
-          className="mb-8 border-l-2 border-recompiled pl-4 text-[14px] leading-relaxed text-ink"
-        >
-          {t.errors[error]}
-        </p>
+        <div ref={errorRef} tabIndex={-1} role="alert" className="mb-10 outline-none">
+          <Chip tone="recompiled">{t.notSent}</Chip>
+          <p className="mt-3 max-w-[60ch] text-[14px] leading-relaxed text-ink">{t.errors[error]}</p>
+        </div>
       ) : null}
 
       <fieldset>
@@ -318,7 +325,14 @@ export function ContributeForm({
       <div data-for="novo" className="mt-8 grid gap-6 sm:grid-cols-2">
         <div>
           <label htmlFor="cf-game" className={label}>{t.game}</label>
-          <input id="cf-game" name="game" maxLength={120} required={live && kind === 'novo'} className={field} />
+          <input
+            id="cf-game"
+            name="game"
+            maxLength={120}
+            defaultValue={initialGame}
+            required={live && kind === 'novo'}
+            className={field}
+          />
           <p className={hint}>{t.gameHint}</p>
         </div>
         <div>

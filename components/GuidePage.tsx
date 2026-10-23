@@ -8,6 +8,7 @@ import type { Lang, Mechanism } from '@/lib/db/schema'
 import { SiteHeader } from './SiteHeader'
 import { SiteFooter } from './SiteFooter'
 import { Matrix } from './Matrix'
+import { ArrowRight } from './Icon'
 
 const h2 = 'text-[11px] tracking-[0.16em] uppercase text-faint'
 
@@ -89,14 +90,23 @@ export async function GuidePage({ lang, slug }: { lang: Lang; slug: string }) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }} />
       <SiteHeader lang={lang} counts={counts} />
 
+      <div className="mx-auto max-w-[1400px] px-5">
+        <nav
+          aria-label="Breadcrumb"
+          className="border-b border-hairline py-3 text-[11px] tracking-[0.14em] uppercase text-faint"
+        >
+          <Link href={`/${lang}`} className="no-underline hover:text-ink">
+            {SITE_NAME}
+          </Link>
+          <span className="mx-2 text-hairline-strong">/</span>
+          <Link href={guidesPath(lang)} className="no-underline hover:text-ink">
+            {DICT[lang].guides}
+          </Link>
+        </nav>
+      </div>
       <section className="border-b border-hairline">
         <div className="mx-auto max-w-[1400px] px-5 py-10">
-          <nav aria-label="Breadcrumb" className={h2}>
-            <Link href={guidesPath(lang)} className="no-underline hover:text-ink">
-              {DICT[lang].guides}
-            </Link>
-          </nav>
-          <h1 className="settle mt-3 max-w-[22ch] text-[clamp(1.9rem,4.4vw,3.25rem)] leading-[1] font-extrabold tracking-[-0.04em] text-balance">
+          <h1 className="settle max-w-[22ch] text-[clamp(1.9rem,4.4vw,3.25rem)] leading-[1] font-extrabold tracking-[-0.04em] text-balance">
             {guide.h1[lang]}
           </h1>
           <p className="mt-4 max-w-[68ch] text-[15px] leading-relaxed text-muted">
@@ -354,8 +364,12 @@ function DecompArticle({ lang, all }: { lang: Lang; all: Entry[] }) {
                   ))}
                 </ul>
                 {more ? (
-                  <Link href={more} className="mt-3 inline-block text-[13px] text-muted hover:text-ink">
-                    {a.seeAll} →
+                  <Link
+                    href={more}
+                    className="group mt-3 inline-flex items-center gap-1.5 text-[13px] text-muted no-underline hover:text-ink"
+                  >
+                    {a.seeAll}
+                    <ArrowRight size={13} className="transition-transform duration-200 group-hover:translate-x-0.5" />
                   </Link>
                 ) : null}
               </div>

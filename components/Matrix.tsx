@@ -5,7 +5,8 @@ import Link from 'next/link'
 import type { Lang, Mechanism } from '@/lib/db/schema'
 import type { Entry } from '@/lib/data'
 import { formatDate, gameYear } from '@/lib/format'
-import { DICT, entryPath } from '@/lib/i18n'
+import { DICT, contributePath, entryPath } from '@/lib/i18n'
+import { ArrowRight } from './Icon'
 import { StatusChip } from './StatusChip'
 
 type Sort = 'recent' | 'alpha' | 'stars'
@@ -139,7 +140,8 @@ export function Matrix({ entries, lang }: { entries: Entry[]; lang: Lang }) {
         </select>
       </div>
 
-      <table className="w-full border-collapse text-left">
+      {/* No rows, no table: a header row over nothing read as a broken page. */}
+      <table className={`w-full border-collapse text-left ${rows.length ? '' : 'hidden'}`}>
         <thead>
           <tr className="text-[10px] tracking-[0.16em] uppercase text-faint">
             <th scope="col" className={`${CELL} font-medium`}>{t.colGame}</th>
@@ -252,7 +254,23 @@ export function Matrix({ entries, lang }: { entries: Entry[]; lang: Lang }) {
       </table>
 
       {rows.length === 0 ? (
-        <p className="border-t border-hairline py-10 text-[14px] text-muted">{t.noResults}</p>
+        <div className="border-t border-hairline py-10">
+          <p className="text-[14px] text-muted">{t.noResults}</p>
+          {/* The moment a search finds nothing is the moment the visitor knows
+              something this catalog does not, so that is where it asks. The
+              typed name goes along, so nothing is retyped. */}
+          {q.trim() ? (
+            <Link
+              href={`${contributePath(lang)}?tipo=novo&jogo=${encodeURIComponent(q.trim().slice(0, 120))}`}
+              className="group mt-4 inline-flex items-center gap-2 text-[14px] text-ink no-underline hover:text-native"
+            >
+              {lang === 'pt'
+                ? `Conhece um port de “${q.trim()}” que falta aqui? Indique`
+                : `Know a port of “${q.trim()}” we are missing? Suggest it`}
+              <ArrowRight className="text-faint transition-[color,transform] duration-200 group-hover:translate-x-0.5 group-hover:text-native" />
+            </Link>
+          ) : null}
+        </div>
       ) : null}
 
       <p className="mt-8 border-t border-hairline pt-4 text-[12px] text-faint">{t.ownCopy}</p>

@@ -12,12 +12,13 @@ export type ContributeSearch = Promise<{
   porte?: string
   erro?: string
   enviado?: string
+  /** A game name carried over from a catalog search that found nothing. */
+  jogo?: string
 }>
 
 const COPY = {
   pt: {
     title: 'Contribuir',
-    eyebrow: 'Contribuir',
     h1: 'Conhece um port que falta aqui?',
     lead: 'Indique um projeto, corrija uma página ou peça a remoção do seu. Cada envio é lido por uma pessoa antes de qualquer mudança no site.',
     description:
@@ -39,7 +40,6 @@ const COPY = {
   },
   en: {
     title: 'Contribute',
-    eyebrow: 'Contribute',
     h1: 'Know a port we are missing?',
     lead: 'Suggest a project, correct a page or ask for your own to be removed. Every submission is read by a person before anything on the site changes.',
     description:
@@ -99,6 +99,7 @@ export async function ContributePage({ lang, search }: { lang: Lang; search: Con
   // what someone arriving from a port page almost always wants.
   const asked = (KINDS as readonly string[]).includes(q.tipo ?? '') ? (q.tipo as Kind) : null
   const initialKind: Kind = asked ?? (entry ? 'correcao' : 'novo')
+  // (?jogo= only ever comes from the catalog's empty search, with tipo=novo.)
   const sentKind = (KINDS as readonly string[]).includes(q.enviado ?? '') ? (q.enviado as Kind) : null
   const initialError = (ERRORS as string[]).includes(q.erro ?? '') ? (q.erro as ErrorCode) : null
 
@@ -110,8 +111,7 @@ export async function ContributePage({ lang, search }: { lang: Lang; search: Con
 
       <section className="border-b border-hairline">
         <div className="mx-auto max-w-[1400px] px-5 py-10">
-          <p className={h2}>{c.eyebrow}</p>
-          <h1 className="settle mt-3 text-[clamp(1.9rem,4.4vw,3.25rem)] leading-[1] font-extrabold tracking-[-0.04em] text-balance">
+          <h1 className="settle text-[clamp(1.9rem,4.4vw,3.25rem)] leading-[1] font-extrabold tracking-[-0.04em] text-balance">
             {c.h1}
           </h1>
           <p className="mt-4 max-w-[68ch] text-[15px] leading-relaxed text-muted">{c.lead}</p>
@@ -131,6 +131,7 @@ export async function ContributePage({ lang, search }: { lang: Lang; search: Con
             initialError={initialError}
             sentKind={sentKind}
             rendered={Date.now()}
+            initialGame={(q.jogo ?? '').slice(0, 120)}
           />
         </div>
 

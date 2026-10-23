@@ -15,6 +15,7 @@ import { SiteHeader } from '@/components/SiteHeader'
 import { SiteFooter } from '@/components/SiteFooter'
 import { StatusChip } from '@/components/StatusChip'
 import { Cover } from '@/components/Cover'
+import { ArrowRight } from '@/components/Icon'
 
 /**
  * Every port of one game, side by side.
@@ -58,6 +59,7 @@ const COPY = {
     unconfirmed: 'Não informado',
     noRelease: 'Sem release',
     open: 'Ver guia de instalação',
+    install: 'Como instalar',
     mostStarred: (p: string) => `Mais seguido no GitHub: ${p}.`,
     updated: (d: string) => `Atualizado em ${d}`,
     about: 'Sobre o jogo',
@@ -79,6 +81,7 @@ const COPY = {
     unconfirmed: 'Not stated',
     noRelease: 'No release',
     open: 'Open install guide',
+    install: 'Install guide',
     mostStarred: (p: string) => `Most followed on GitHub: ${p}.`,
     updated: (d: string) => `Updated ${d}`,
     about: 'About the game',
@@ -257,11 +260,14 @@ export default async function HubPage({ params }: { params: Params }) {
 
         <section>
           <h2 className={h2}>{c.sideBySide}</h2>
-          {/* A table, because this is tabular data and a screen reader should
-              announce it as such. It scrolls sideways on a phone rather than
-              collapsing into cards that lose the column labels. */}
-          <div className="mt-4 overflow-x-auto">
-            <table className="w-full min-w-[720px] border-t border-hairline text-[14px]">
+
+          {/* From 768px, a real table: this is tabular data and a screen reader
+              should announce it as such. Below that it used to scroll sideways
+              with nothing saying it could, and a phone showed two of seven
+              columns — so on a phone each port is its own block, every value
+              still beside its label. */}
+          <div className="mt-4 hidden md:block">
+            <table className="w-full border-t border-hairline text-[14px]">
               <thead>
                 <tr className="border-b border-hairline">
                   <th scope="col" className={th}>{c.project}</th>
@@ -270,47 +276,89 @@ export default async function HubPage({ params }: { params: Params }) {
                   <th scope="col" className={th}>{c.version}</th>
                   <th scope="col" className={th}>{c.date}</th>
                   <th scope="col" className={`${th} text-right`}>{c.stars}</th>
+                  <th scope="col" className={`${th} pr-0`}>
+                    <span className="sr-only">{c.open}</span>
+                  </th>
                 </tr>
               </thead>
               <tbody>
                 {ports.map((p) => (
-                  <tr key={p.id} className="border-b border-hairline align-baseline">
-                    <th scope="row" className="py-3 pr-6 text-left font-normal">
+                  <tr key={p.id} className="group border-b border-hairline align-baseline">
+                    <th scope="row" className="py-3.5 pr-6 text-left font-normal">
                       <Link href={entryPath(lang, p.slug)} className="text-ink no-underline hover:text-native">
                         {p.repo.split('/')[1]}
                       </Link>
                       <span className="block text-[12px] text-faint">{p.author}</span>
                     </th>
-                    <td className="py-3 pr-6">
+                    <td className="py-3.5 pr-6">
                       <StatusChip mechanism={p.mechanism} lang={lang} />
                     </td>
-                    <td className="py-3 pr-6 text-muted">
+                    <td className="py-3.5 pr-6 text-muted">
                       {p.platforms.length ? p.platforms.join(' · ') : <span className="text-faint">{c.unconfirmed}</span>}
                     </td>
-                    <td className="tabular py-3 pr-6 text-muted">
+                    <td className="tabular py-3.5 pr-6 text-muted">
                       {p.version ?? <span className="text-faint">{c.noRelease}</span>}
                     </td>
-                    <td className="tabular py-3 pr-6 text-muted">{formatDate(p.releasedAt, lang) ?? '—'}</td>
-                    <td className="tabular py-3 text-right text-muted">{p.stars.toLocaleString(locale)}</td>
+                    <td className="tabular py-3.5 pr-6 text-muted">{formatDate(p.releasedAt, lang) ?? '—'}</td>
+                    <td className="tabular py-3.5 pr-6 text-right text-muted">{p.stars.toLocaleString(locale)}</td>
+                    <td className="py-3.5 text-right">
+                      <Link
+                        href={entryPath(lang, p.slug)}
+                        className="inline-flex items-center gap-1.5 text-[13px] whitespace-nowrap text-muted no-underline transition-colors hover:text-native"
+                        aria-label={`${c.open}: ${p.repo.split('/')[1]}`}
+                      >
+                        {c.install}
+                        <ArrowRight size={13} />
+                      </Link>
+                    </td>
                   </tr>
                 ))}
               </tbody>
             </table>
           </div>
-          <p className="mt-4 text-[12px] text-faint">{t.ownCopy}</p>
-        </section>
 
-        <section className="mt-12 grid gap-x-10 sm:grid-cols-2 lg:grid-cols-3">
-          {ports.map((p) => (
-            <Link
-              key={p.id}
-              href={entryPath(lang, p.slug)}
-              className="group flex items-baseline justify-between gap-4 border-b border-hairline py-3 text-muted no-underline transition-colors hover:text-ink"
-            >
-              <span className="text-[14px]">{p.repo.split('/')[1]}</span>
-              <span className="text-[12px] text-faint group-hover:text-native">{c.open} →</span>
-            </Link>
-          ))}
+          <ul className="mt-4 border-t border-hairline md:hidden">
+            {ports.map((p) => (
+              <li key={p.id} className="border-b border-hairline py-4">
+                <Link
+                  href={entryPath(lang, p.slug)}
+                  className="group flex items-center justify-between gap-4 text-ink no-underline"
+                >
+                  <span className="min-w-0">
+                    <span className="block truncate text-[15px] font-medium">{p.repo.split('/')[1]}</span>
+                    <span className="block text-[12px] text-faint">{p.author}</span>
+                  </span>
+                  <ArrowRight className="text-faint transition-colors group-hover:text-native" />
+                </Link>
+                <dl className="mt-3 grid grid-cols-2 gap-x-6 gap-y-2.5">
+                  <div>
+                    <dt className="text-[10px] tracking-[0.14em] uppercase text-faint">{c.method}</dt>
+                    <dd className="mt-1">
+                      <StatusChip mechanism={p.mechanism} lang={lang} />
+                    </dd>
+                  </div>
+                  <div>
+                    <dt className="text-[10px] tracking-[0.14em] uppercase text-faint">{c.runsOn}</dt>
+                    <dd className="mt-1 text-[13px] text-muted">
+                      {p.platforms.length ? p.platforms.join(' · ') : <span className="text-faint">{c.unconfirmed}</span>}
+                    </dd>
+                  </div>
+                  <div>
+                    <dt className="text-[10px] tracking-[0.14em] uppercase text-faint">{c.version}</dt>
+                    <dd className="tabular mt-1 text-[13px] text-muted">
+                      {p.version ?? <span className="text-faint">{c.noRelease}</span>}
+                    </dd>
+                  </div>
+                  <div>
+                    <dt className="text-[10px] tracking-[0.14em] uppercase text-faint">{c.stars}</dt>
+                    <dd className="tabular mt-1 text-[13px] text-muted">{p.stars.toLocaleString(locale)}</dd>
+                  </div>
+                </dl>
+              </li>
+            ))}
+          </ul>
+
+          <p className="mt-4 text-[12px] text-faint">{t.ownCopy}</p>
         </section>
 
         {game ? (

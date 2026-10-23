@@ -15,6 +15,7 @@ import {
 import { buildFaq, mechanismExplainer } from '@/lib/content'
 import { isLang, SITE, SITE_NAME, DICT, entryPath, hubPath } from '@/lib/i18n'
 import { MaintainerBox } from '@/components/MaintainerBox'
+import { ArrowRight, ChevronRight } from '@/components/Icon'
 import type { Lang } from '@/lib/db/schema'
 import { SiteHeader } from '@/components/SiteHeader'
 import { SiteFooter } from '@/components/SiteFooter'
@@ -248,17 +249,21 @@ export default async function EntryPage({ params }: { params: Params }) {
               {t.openRelease}
             </a>
             <p className="tabular mt-3 text-[11px] text-faint">
-              {entry.repo} · ★{entry.stars.toLocaleString(lang === 'pt' ? 'pt-BR' : 'en')}
+              {entry.repo} · {entry.stars.toLocaleString(lang === 'pt' ? 'pt-BR' : 'en')}{' '}
+              {lang === 'pt' ? 'estrelas' : 'stars'}
             </p>
 
             {hub ? (
               <Link
                 href={hub}
-                className="mt-6 block border-t border-b border-hairline py-3 text-[14px] text-ink no-underline transition-colors hover:text-native"
+                className="group mt-6 flex items-center justify-between gap-4 border-t border-b border-hairline py-3 text-[14px] text-ink no-underline transition-colors hover:text-native"
               >
-                {lang === 'pt'
-                  ? `Comparar os ${siblings.length} ports de ${entry.title} →`
-                  : `Compare all ${siblings.length} ${entry.title} ports →`}
+                <span>
+                  {lang === 'pt'
+                    ? `Comparar os ${siblings.length} ports de ${entry.title}`
+                    : `Compare all ${siblings.length} ${entry.title} ports`}
+                </span>
+                <ArrowRight className="text-faint transition-[color,transform] duration-200 group-hover:translate-x-0.5 group-hover:text-native" />
               </Link>
             ) : null}
 
@@ -325,12 +330,7 @@ export default async function EntryPage({ params }: { params: Params }) {
               {faq.map((f) => (
                 <details key={f.q} className="group border-b border-hairline py-3">
                   <summary className="flex cursor-pointer list-none gap-2 text-[15px] font-medium marker:content-none">
-                    <span
-                      aria-hidden
-                      className="shrink-0 text-faint transition-transform duration-200 group-open:rotate-90"
-                    >
-                      &rsaquo;
-                    </span>
+                    <ChevronRight className="mt-1 text-faint transition-transform duration-200 group-open:rotate-90" />
                     {f.q}
                   </summary>
                   <p className="expand mt-2 max-w-[68ch] pl-5 text-[14px] leading-relaxed text-muted">

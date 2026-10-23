@@ -16,7 +16,7 @@ Ground is matte ink, never glossy, never glowing. Colour is reserved entirely fo
 | `--color-raise` | `#15171b` | Row hover, expanded row |
 | `--color-ink` | `#f2f3f5` | Primary text |
 | `--color-muted` | `#8b9099` | Body text, secondary data |
-| `--color-faint` | `#5d636c` | Labels, metadata |
+| `--color-faint` | `#7a8089` | Labels, metadata — raised from `#5d636c`, which measured 3.19:1 at 10–11px; now 4.85:1 |
 | `--color-hairline` | `rgba(255,255,255,.09)` | Every structural line |
 | `--color-hairline-strong` | `rgba(255,255,255,.16)` | Dividers, scrollbar |
 
@@ -27,7 +27,8 @@ Ground is matte ink, never glossy, never glowing. Colour is reserved entirely fo
 | Native | `--color-native` | `#35b37e` |
 | Recompiled | `--color-recompiled` | `#d99a2b` |
 | Translation layer | `--color-translation` | `#7b6cf6` |
-| In progress | `--color-progress` | `#6b7280` |
+| Emulator | `--color-emulator` | `#5b94d6` |
+| In progress | `--color-progress` | `#7a818a` (4.91:1; was `#6b7280`) |
 
 Dark was chosen from the use scene, not the category: someone at their gaming PC, often at night, with this open beside a GitHub page and a video.
 
@@ -52,9 +53,14 @@ Layout maximum is `1400px` with a `20px` gutter.
 
 ## Components
 
-- **StatusChip** — flat, bordered at 35% of its tone, background at 10%, uppercase with wide tracking. Two sizes.
+- **Chip / StatusChip** — flat, bordered at 35% of its tone, background at 10%, uppercase with wide tracking. Two sizes. `Chip` takes a tone and any label; `StatusChip` is the mechanism use of it. Anything else that carries a state uses `Chip` too — the contribution form's *Recebido* and *Não enviado* are chips, not a coloured rule down the side of a box.
+- **Icons** — drawn, never typed. `ArrowRight` and `ChevronRight` share one 16px grid, a 1.5 stroke and round caps, and inherit the text colour so they follow hover. Text glyphs (→, ›, ★) took their shape and baseline from whichever font rendered them and read as typed; stars are written as a word beside the figure.
 - **LeadBand** — the home's single focal move. Title at display scale beside a spec block whose figures sit above their labels, hairline between each. Type and figures only, no image: the LCP element is text the server already sent.
 - **Matrix** — the catalog. Real `<table>`, sortable headers, native inputs and selects, rows expand in place rather than navigating away. Columns drop progressively below `lg`, `md`, `sm`.
+- **Comparison** (`/ports/<game>`) — every port of one game. A real table from 768px, closing each row with the way into its install guide. Below that, each port is a block: name and author over a two-by-two of label and value. It used to scroll sideways with nothing saying so, showing two of seven columns on a phone.
+- **Contribution form** — four intents as selectable options (bordered, because they are controls, not containers), the sections for each shown by CSS `:has()` so it works before the script loads. States are chips; the error keeps everything typed.
+- **MaintainerBox** — the foot of every port page: request a correction, a removal or report a broken link, then the optional README badge with copyable Markdown and HTML.
+- **Empty search** — names the miss and asks for it: the typed game goes to the contribution form already filled in. A header row over no results is hidden rather than left standing.
 - **AdSlot** — fixed height reserved before anything loads, with `contain: layout size`. An ad that arrives and pushes content down is the largest single source of bad CLS.
 
 ## Browser surfaces
@@ -63,7 +69,9 @@ Themed from the palette rather than left to the browser: text selection, caret, 
 
 ## Motion
 
-One authored moment: the lead band's spec block settles once, from already-visible, on an exponential ease-out (`cubic-bezier(.16,1,.3,1)`, 520ms). Nothing else animates on entrance. Fully disabled under `prefers-reduced-motion`.
+One authored moment per page, all on the same curve so the motion reads as one hand: on the home, the lead band's spec block; elsewhere, the page's `h1`. Each settles once from already-visible — opacity 0.5, 3px — on an exponential ease-out (`cubic-bezier(.16,1,.3,1)`, 520ms). Catalog rows deal in, staggered and capped at the fourteenth so a long list is not a wait. Nothing animates from opacity 0, and all of it is disabled under `prefers-reduced-motion`.
+
+A heading caught mid-settle in a background tab can read as grey: browsers throttle animation in hidden tabs. It finishes at full opacity when the page is visible — measured, before anyone "fixes" it.
 
 ---
 
@@ -71,4 +79,6 @@ One authored moment: the lead band's spec block settles once, from already-visib
 
 The direction contract in [`.impeccable/surfaces/home.md`](.impeccable/surfaces/home.md) ends with the finish review. **That review did not run:** this installation of the skill ships documentation only, with no `scripts/` directory, so `concept-seed`, `serve-question`, `comp-spec`, `build-phase`, `comp-diff` and `detect` were all unavailable, and the shipped reviewer and documenter agents could not be spawned. The build ran code-led with the approved comp as a critique reference rather than a measured spec, and was verified by eye across desktop and mobile in the browser.
 
-What that means in practice: there is no numeric fidelity score against the comp, and no detector pass. Outstanding for a session that has the tooling — run the detector over the components, and run a finish review against [`.impeccable/mocks/home-02-faixa-destaque.jpg`](.impeccable/mocks/home-02-faixa-destaque.jpg).
+What that means in practice: there is no numeric fidelity score against the comp, and no detector pass.
+
+The October 2026 polish pass ran under the same limits — documentation only, no detector — and was verified by eye in one batched round at 1280px and 375px. It removed what the craft floor bans and the newer surfaces had picked up: a label set above the contribution heading, 2px coloured side rules on the form's messages, text glyphs standing in for icons. It also caught content no rule would: two port pages led their screenshots with the libultraship logo, and four more README images were share cards or a logo, so screenshots are now reviewed on contact sheets like covers. Outstanding for a session that has the tooling — run the detector over the components, and run a finish review against [`.impeccable/mocks/home-02-faixa-destaque.jpg`](.impeccable/mocks/home-02-faixa-destaque.jpg).
