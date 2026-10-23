@@ -130,10 +130,10 @@
     ],
     "stars": 47,
     "description": "Static recompilation of the Sega 32X game Knuckles' Chaotix into native C++ (Windows/Linux/macOS/Android), with true widescreen. Bring your own ROM; no game data included.",
-    "version": "v0.11.1",
+    "version": "v0.12.0",
     "releasedAt": "2026-10-23",
-    "sizeBytes": 31761104,
-    "releaseUrl": "https://github.com/YuutaTsubasa/ChaotixRecompiled/releases/tag/v0.11.1",
+    "sizeBytes": 31797520,
+    "releaseUrl": "https://github.com/YuutaTsubasa/ChaotixRecompiled/releases/tag/v0.12.0",
     "licenseId": "MIT",
     "licenseUrl": "https://api.github.com/licenses/mit",
     "curated": true
@@ -377,7 +377,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 204,
+    "stars": 205,
     "description": "Mega Man X recompiled for the Super Nintendo using snesrecomp · Part of the R.A.I.D. community",
     "version": "v2.3.3",
     "releasedAt": "2026-10-23",
@@ -441,7 +441,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 130,
+    "stars": 131,
     "description": "",
     "version": "v0.3.0-beta",
     "releasedAt": "2026-10-23",
@@ -522,7 +522,7 @@
       "Windows",
       "Android"
     ],
-    "stars": 55,
+    "stars": 56,
     "description": "Gears of War 2 native PC port: the Xbox 360 game statically recompiled to x64 (not an emulator). 1440p/4K, FSR, 4K texture packs, keyboard & mouse, Android in progress. Bring your own copy.",
     "version": "v0.3.1",
     "releasedAt": "2026-10-23",
@@ -562,7 +562,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 169,
+    "stars": 170,
     "description": "Native PC port of God of War (PS2) via static recompilation with PS2Recomp",
     "version": null,
     "releasedAt": "2026-10-23",
@@ -787,6 +787,92 @@
     "curated": true
   },
   {
+    "id": "saulob-dragons-crown-pro-pc",
+    "repo": "saulob/dragons-crown-pro-pc",
+    "title": "Dragon's Crown Pro",
+    "game": "dragons-crown",
+    "author": "saulob",
+    "console": "PlayStation 4",
+    "mechanism": "native",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 206,
+    "description": "Dragon's Crown Pro native PC port for Windows, with direct PS4 PKG installation, TRG launcher and modern graphics options",
+    "version": "v0.7.1",
+    "releasedAt": "2026-10-23",
+    "sizeBytes": 16833739,
+    "releaseUrl": "https://github.com/saulob/dragons-crown-pro-pc/releases/tag/v0.7.1",
+    "licenseId": "GPL-2.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-2.0",
+    "curated": true
+  },
+  {
+    "id": "nikolaygorb-perfectdarkzerorecomp",
+    "repo": "nikolaygorb/PerfectDarkZeroRecomp",
+    "title": "Perfect Dark Zero",
+    "game": null,
+    "author": "nikolaygorb",
+    "console": "Xbox 360",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows"
+    ],
+    "stars": 47,
+    "description": "Perfect Dark Zero [Xbox360] game static recompilation project based on RexGlue-SDK",
+    "version": "1.8",
+    "releasedAt": "2026-10-23",
+    "sizeBytes": 64183720,
+    "releaseUrl": "https://github.com/nikolaygorb/PerfectDarkZeroRecomp/releases/tag/1.8",
+    "licenseId": "MIT",
+    "licenseUrl": "https://api.github.com/licenses/mit",
+    "curated": true
+  },
+  {
+    "id": "saulob-ssf2t-hd-remix-recompiled",
+    "repo": "saulob/ssf2t-hd-remix-recompiled",
+    "title": "Super Street Fighter II Turbo HD Remix",
+    "game": null,
+    "author": "saulob",
+    "console": "Xbox 360",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 57,
+    "description": "Super Street Fighter II Turbo HD Remix native PC port via static recompilation, with TRG launcher, local achievements and experimental Linux support",
+    "version": "v0.2.0",
+    "releasedAt": "2026-10-23",
+    "sizeBytes": 17608043,
+    "releaseUrl": "https://github.com/saulob/ssf2t-hd-remix-recompiled/releases/tag/v0.2.0",
+    "licenseId": "GPL-2.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-2.0",
+    "curated": true
+  },
+  {
+    "id": "supermedo-uncharted-pc",
+    "repo": "Supermedo/uncharted_pc",
+    "title": "Uncharted: The Nathan Drake Collection",
+    "game": "uncharted-collection",
+    "author": "Supermedo",
+    "console": "PlayStation 4",
+    "mechanism": "native",
+    "platforms": [
+      "Windows"
+    ],
+    "stars": 1885,
+    "description": "Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo",
+    "version": "v0.3.8",
+    "releasedAt": "2026-10-23",
+    "sizeBytes": 123142006,
+    "releaseUrl": "https://github.com/Supermedo/uncharted_pc/releases/tag/v0.3.8",
+    "licenseId": "GPL-2.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-2.0",
+    "curated": true
+  },
+  {
     "id": "hayatog-tlg-pc",
     "repo": "HayatoG/tlg_pc",
     "title": "The Last Guardian",
@@ -798,7 +884,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 405,
+    "stars": 406,
     "description": "Native PC port (Linux/Windows) of The Last Guardian (PS4, CUSA03627) — runs your own game dump; no game or firmware files included. Mouse/keyboard, optional 60 FPS, SMAA/CAS filters. | Port nativo para PC de The Last Guardian — usa o seu próprio dump.",
     "version": "v2026.10.22-3232792",
     "releasedAt": "2026-10-22",
@@ -922,7 +1008,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 825,
+    "stars": 828,
     "description": "Native PC port (Linux/Windows) of inFAMOUS Second Son (PS4, CUSA00223) — in development, playable; runs your own game dump; no game or firmware files included. Motion sensor emulation. | Port nativo para PC de inFAMOUS Second Son (em desenvolvimento) — usa o seu próprio dump.",
     "version": "v1.0",
     "releasedAt": "2026-10-22",
@@ -1047,7 +1133,7 @@
       "macOS",
       "iOS"
     ],
-    "stars": 464,
+    "stars": 466,
     "description": "Unofficial static recompilation of the Xbox 360 version of Need for Speed: Most Wanted (2005): a native port for Steam Deck, Steam Machine, Steam Frame, Linux and Mac (iPhone/iPad: sideload the experimental IPA or build it yourself). Bring your own disc: no game files included. Not affiliated with EA or Valve.",
     "version": "v0.1.8",
     "releasedAt": "2026-10-22",
@@ -1114,7 +1200,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 151,
+    "stars": 152,
     "description": "Def Jam: Fight for NY PC port — static recompilation of the original Xbox game for native Windows and macOS (Direct3D 11 / Vulkan). Bring your own game dump.",
     "version": "v0.10.7",
     "releasedAt": "2026-10-22",
@@ -1202,7 +1288,7 @@
     "console": "Nintendo Switch",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 386,
+    "stars": 388,
     "description": "Unofficial static recompilation of Bayonetta 2 (Switch) for Windows. Builds the game on your PC from your own legally dumped copy. No game files, keys or SDK code included.",
     "version": "v0.3.3",
     "releasedAt": "2026-10-22",
@@ -1287,7 +1373,7 @@
     "console": "Xbox 360",
     "mechanism": "native",
     "platforms": [],
-    "stars": 347,
+    "stars": 349,
     "description": "Tekken 6 (Xbox 360) native on Windows with rollback netcode - build from your own ISO",
     "version": "v2.4.0",
     "releasedAt": "2026-10-22",
@@ -1370,7 +1456,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 148,
+    "stars": 149,
     "description": "Burnout Revenge recompilation based on RexGlue + standalone Plume render",
     "version": "v0.4.8",
     "releasedAt": "2026-10-22",
@@ -1429,7 +1515,7 @@
     "console": "Xbox 360",
     "mechanism": "native",
     "platforms": [],
-    "stars": 339,
+    "stars": 340,
     "description": "A native PC port of The Darkness (Xbox 360) for Windows, featuring DirectX 11 graphics, mouse and keyboard controls, and customizable settings.",
     "version": null,
     "releasedAt": "2026-10-22",
@@ -1448,7 +1534,7 @@
     "console": "PlayStation 3",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 126,
+    "stars": 127,
     "description": "Drakengard 3 (PS3) static recompilation using ps3recomp",
     "version": null,
     "releasedAt": "2026-10-22",
@@ -1503,26 +1589,22 @@
     "curated": true
   },
   {
-    "id": "saulob-dragons-crown-pro-pc",
-    "repo": "saulob/dragons-crown-pro-pc",
-    "title": "Dragon's Crown Pro",
-    "game": "dragons-crown",
-    "author": "saulob",
-    "console": "PlayStation 4",
-    "mechanism": "native",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 204,
-    "description": "Dragon's Crown Pro native PC port for Windows, with direct PS4 PKG installation, TRG launcher and modern graphics options",
-    "version": "v0.7.0",
-    "releasedAt": "2026-10-21",
-    "sizeBytes": 16824985,
-    "releaseUrl": "https://github.com/saulob/dragons-crown-pro-pc/releases/tag/v0.7.0",
-    "licenseId": "GPL-2.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-2.0",
-    "curated": true
+    "id": "jakeschincariol-console-skill",
+    "repo": "Jakeschincariol/console-skill",
+    "title": "Console Skill",
+    "game": null,
+    "author": "Jakeschincariol",
+    "console": "PlayStation 2",
+    "mechanism": "recompiled",
+    "platforms": [],
+    "stars": 40,
+    "description": "11 Claude skills that port PlayStation 2 games you own to PC: reverse engineer the code, rebuild the graphics and backend, any controller, play it anywhere, then mod it however you want.",
+    "version": null,
+    "releasedAt": "2026-10-22",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/Jakeschincariol/console-skill/releases",
+    "licenseId": "MIT",
+    "licenseUrl": "https://api.github.com/licenses/mit"
   },
   {
     "id": "blacklabelhq-recompone",
@@ -1574,7 +1656,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 87,
+    "stars": 88,
     "description": "Native PC port (Linux/Windows) of Gravity Rush 2 (PS4, CUSA03694) — runs your own game dump; no game or firmware files included. Bilingual launcher (English/Portuguese). | Port nativo para PC de Gravity Rush 2 — usa o seu próprio dump.",
     "version": "v2026.10.21-7d90fed",
     "releasedAt": "2026-10-21",
@@ -1677,7 +1759,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 4415,
+    "stars": 4417,
     "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
     "version": "windows-v1.9.4",
     "releasedAt": "2026-10-21",
@@ -1701,7 +1783,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 997,
+    "stars": 999,
     "description": "Zelda Wind Waker HD Recomp",
     "version": "v0.4.0",
     "releasedAt": "2026-10-21",
@@ -1753,27 +1835,6 @@
     "releaseUrl": "https://github.com/theclub654/ProjectCane/releases/tag/decompilation",
     "licenseId": null,
     "licenseUrl": null,
-    "curated": true
-  },
-  {
-    "id": "nikolaygorb-perfectdarkzerorecomp",
-    "repo": "nikolaygorb/PerfectDarkZeroRecomp",
-    "title": "Perfect Dark Zero",
-    "game": null,
-    "author": "nikolaygorb",
-    "console": "Xbox 360",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows"
-    ],
-    "stars": 47,
-    "description": "Perfect Dark Zero [Xbox360] game static recompilation project based on RexGlue-SDK",
-    "version": "1.7",
-    "releasedAt": "2026-10-21",
-    "sizeBytes": 53903209,
-    "releaseUrl": "https://github.com/nikolaygorb/PerfectDarkZeroRecomp/releases/tag/1.7",
-    "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit",
     "curated": true
   },
   {
@@ -1950,7 +2011,7 @@
     "console": "PlayStation 4",
     "mechanism": "native",
     "platforms": [],
-    "stars": 134,
+    "stars": 135,
     "description": "A decompilation of Bloodborne (CUSA03173 v1.09) with its own runtime: the game's code rewritten as readable C++, one verified function at a time. The game doesn't run on it yet; 21 functions verified. No game files included.",
     "version": null,
     "releasedAt": "2026-10-20",
@@ -2257,7 +2318,7 @@
     "platforms": [
       "Linux"
     ],
-    "stars": 3548,
+    "stars": 3550,
     "description": "",
     "version": "0.6",
     "releasedAt": "2026-10-19",
@@ -2382,7 +2443,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 5732,
+    "stars": 5733,
     "description": "Ship of Harkinian: a PC port of Ocarina of Time built from the decompilation, with widescreen, high framerate and mod support.",
     "version": "9.3.1",
     "releasedAt": "2026-10-18",
@@ -2401,7 +2462,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 336,
+    "stars": 337,
     "description": "An unofficial original Xbox version PC port of Splinter Cell: Double Agent via static recompilation.",
     "version": "V2",
     "releasedAt": "2026-10-18",
@@ -2467,7 +2528,7 @@
       "Linux",
       "Android"
     ],
-    "stars": 170,
+    "stars": 171,
     "description": "Native Windows port of Final Fantasy Tactics Advance with widescreen, video/audio options and a one-click installer.",
     "version": "v3.0",
     "releasedAt": "2026-10-18",
@@ -2486,7 +2547,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 688,
+    "stars": 690,
     "description": "An unofficial original Xbox version PC port of BLACK (2006) via static recompilation.",
     "version": "V2",
     "releasedAt": "2026-10-18",
@@ -2580,28 +2641,6 @@
     "curated": true
   },
   {
-    "id": "saulob-ssf2t-hd-remix-recompiled",
-    "repo": "saulob/ssf2t-hd-remix-recompiled",
-    "title": "Super Street Fighter II Turbo HD Remix",
-    "game": null,
-    "author": "saulob",
-    "console": "Xbox 360",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 57,
-    "description": "Super Street Fighter II Turbo HD Remix native PC port via static recompilation, with TRG launcher, local achievements and experimental Linux support",
-    "version": "v0.1.0",
-    "releasedAt": "2026-10-18",
-    "sizeBytes": 15960384,
-    "releaseUrl": "https://github.com/saulob/ssf2t-hd-remix-recompiled/releases/tag/v0.1.0",
-    "licenseId": "GPL-2.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-2.0",
-    "curated": true
-  },
-  {
     "id": "chrissotraidis-bluewake",
     "repo": "chrissotraidis/bluewake",
     "title": "The Legend of Zelda: The Wind Waker",
@@ -2613,7 +2652,7 @@
       "Windows",
       "iOS"
     ],
-    "stars": 462,
+    "stars": 463,
     "description": "The Legend of Zelda: The Wind Waker Recompiled. Native for MacOS, iOS, Windows, Linux, and Android.",
     "version": "v0.8.0",
     "releasedAt": "2026-10-18",
@@ -2696,7 +2735,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 140,
+    "stars": 141,
     "description": "Native Windows port of Tekken Tag Tournament 2 (Xbox 360) by static recompilation. Not an emulator. Ships no game data - the installer builds the game from your own disc image and Title Update 3.",
     "version": "v0.1.6",
     "releasedAt": "2026-10-18",
@@ -2780,7 +2819,7 @@
     "console": "Nintendo 64",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 94,
+    "stars": 95,
     "description": "Banjo-Tooie Scurvy Dog Port: a static PC recompilation of Banjo-Tooie. **Not affiliated with the Banjo: Recompiled team**",
     "version": null,
     "releasedAt": "2026-10-17",
@@ -2832,27 +2871,6 @@
     "releaseUrl": "https://github.com/shaneomac1337/WWE-AllStars-Recomp/releases/tag/v1.4.0",
     "licenseId": "BSD-3-Clause",
     "licenseUrl": "https://api.github.com/licenses/bsd-3-clause",
-    "curated": true
-  },
-  {
-    "id": "supermedo-uncharted-pc",
-    "repo": "Supermedo/uncharted_pc",
-    "title": "Uncharted: The Nathan Drake Collection",
-    "game": "uncharted-collection",
-    "author": "Supermedo",
-    "console": "PlayStation 4",
-    "mechanism": "native",
-    "platforms": [
-      "Windows"
-    ],
-    "stars": 1885,
-    "description": "Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo",
-    "version": "v0.3.6",
-    "releasedAt": "2026-10-17",
-    "sizeBytes": 123220020,
-    "releaseUrl": "https://github.com/Supermedo/uncharted_pc/releases/tag/v0.3.6",
-    "licenseId": "GPL-2.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-2.0",
     "curated": true
   },
   {
@@ -2986,7 +3004,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 44,
+    "stars": 45,
     "description": "Original open-source static recompilation of Tekken 6 (Xbox 360) for native execution on PC. This project provides the recompilation foundation used by downstream projects including Tekken6 Native Online.",
     "version": "Iterate",
     "releasedAt": "2026-10-16",
@@ -3095,7 +3113,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 33888,
+    "stars": 33889,
     "description": "PlayStation 4 emulator for Windows, Linux, macOS and FreeBSD written in C++",
     "version": "v.0.20.0",
     "releasedAt": "2026-10-14",
@@ -4043,7 +4061,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 6042,
+    "stars": 6043,
     "description": "Dusklight brings a classic adventure to PC and mobile platforms with a variety of fixes and improvements.",
     "version": "v2.0.3",
     "releasedAt": "2026-09-30",
@@ -4066,7 +4084,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 536,
+    "stars": 537,
     "description": "",
     "version": "v1.0.3",
     "releasedAt": "2026-09-30",
@@ -4234,7 +4252,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 41,
+    "stars": 42,
     "description": "Experimental Syphon Filter 2 static recompilation for Windows using PSXRecomp",
     "version": "v0.2.0",
     "releasedAt": "2026-09-23",
@@ -5062,7 +5080,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 1711,
+    "stars": 1712,
     "description": "A native recompilation of Skate 3 for Windows, Linux, and macOS.",
     "version": "v2.0.2",
     "releasedAt": "2026-07-24",
