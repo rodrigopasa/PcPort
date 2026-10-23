@@ -119,6 +119,18 @@ const WIKI: Record<string, string[]> = {
   'tony-hawk-project-8': ['tonyhawkgames', 'tonyhawk'],
   'wwe-all-stars': ['prowrestling'],
   'hard-corps-uprising': ['contra'],
+  'uncharted-collection': ['uncharted'],
+  pt: ['silenthill'],
+  'sotc-ps4': ['teamico'],
+  'skate-3': ['skate'],
+  'lost-odyssey': ['lostodyssey'],
+  'sonic-06': ['sonic'],
+  'dantes-inferno': ['dantesinferno'],
+  'ace-combat-6': ['acecombat'],
+  'simpsons-game': ['simpsons'],
+  'tekken-6': ['tekken'],
+  'links-awakening': ['zelda'],
+  'bayonetta-2': ['bayonetta'],
 }
 
 /**

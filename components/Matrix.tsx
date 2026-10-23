@@ -32,22 +32,47 @@ export function Matrix({ entries, lang }: { entries: Entry[]; lang: Lang }) {
 
   const consoles = useMemo(() => [...new Set(entries.map((e) => e.console))].sort(), [entries])
 
+  const needle = q.trim().toLowerCase()
+  const matchesText = (e: Entry) =>
+    !needle ||
+    e.title.toLowerCase().includes(needle) ||
+    e.console.toLowerCase().includes(needle) ||
+    e.author.toLowerCase().includes(needle)
+
+  /**
+   * Counts beside every option, as facets: each count honours the OTHER active
+   * filters and the search, so "Nintendo 64 (14)" means fourteen rows will be
+   * there after the click. A count that ignored them would promise rows the
+   * table then does not show.
+   */
+  const facets = useMemo(() => {
+    const byConsole = new Map<string, number>()
+    const byMech = new Map<Mechanism, number>()
+    const total = new Map<Mechanism, number>()
+    for (const e of entries) {
+      total.set(e.mechanism, (total.get(e.mechanism) ?? 0) + 1)
+      if (!matchesText(e)) continue
+      if (!mech || e.mechanism === mech) byConsole.set(e.console, (byConsole.get(e.console) ?? 0) + 1)
+      if (!consoleFilter || e.console === consoleFilter) {
+        byMech.set(e.mechanism, (byMech.get(e.mechanism) ?? 0) + 1)
+      }
+    }
+    return { byConsole, byMech, total }
+    // matchesText reads `needle`, which is derived from q.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [entries, needle, mech, consoleFilter])
+
   const rows = useMemo(() => {
-    const needle = q.trim().toLowerCase()
     const out = entries.filter((e) => {
       if (consoleFilter && e.console !== consoleFilter) return false
       if (mech && e.mechanism !== mech) return false
-      if (!needle) return true
-      return (
-        e.title.toLowerCase().includes(needle) ||
-        e.console.toLowerCase().includes(needle) ||
-        e.author.toLowerCase().includes(needle)
-      )
+      return matchesText(e)
     })
     if (sort === 'alpha') return [...out].sort((a, b) => a.title.localeCompare(b.title))
     if (sort === 'stars') return [...out].sort((a, b) => b.stars - a.stars)
     return out
-  }, [entries, q, consoleFilter, mech, sort])
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [entries, needle, consoleFilter, mech, sort])
 
   const control =
     'h-9 rounded-[2px] border border-hairline bg-transparent px-2.5 text-[13px] text-ink ' +
@@ -74,11 +99,14 @@ export function Matrix({ entries, lang }: { entries: Entry[]; lang: Lang }) {
           className={control}
         >
           <option value="">{`${t.filterConsole}: ${t.filterAll}`}</option>
-          {consoles.map((c) => (
-            <option key={c} value={c}>
-              {c}
-            </option>
-          ))}
+          {consoles.map((c) => {
+            const n = facets.byConsole.get(c) ?? 0
+            return (
+              <option key={c} value={c} disabled={n === 0 && c !== consoleFilter}>
+                {`${c} (${n})`}
+              </option>
+            )
+          })}
         </select>
         <select
           value={mech}
@@ -87,11 +115,17 @@ export function Matrix({ entries, lang }: { entries: Entry[]; lang: Lang }) {
           className={control}
         >
           <option value="">{`${t.filterMechanism}: ${t.filterAll}`}</option>
-          {(Object.keys(t.mechanisms) as Mechanism[]).map((m) => (
-            <option key={m} value={m}>
-              {t.mechanisms[m]}
-            </option>
-          ))}
+          {(Object.keys(t.mechanisms) as Mechanism[])
+            // A mechanism this list has none of is noise, not an option.
+            .filter((m) => (facets.total.get(m) ?? 0) > 0)
+            .map((m) => {
+              const n = facets.byMech.get(m) ?? 0
+              return (
+                <option key={m} value={m} disabled={n === 0 && m !== mech}>
+                  {`${t.mechanisms[m]} (${n})`}
+                </option>
+              )
+            })}
         </select>
         <select
           value={sort}
