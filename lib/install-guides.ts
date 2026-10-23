@@ -2489,4 +2489,221 @@ export const GUIDES: Record<string, Guide> = {
       'Before building, run git submodule init and git submodule update to fetch the dependencies. There are build routes for Windows (MinGW or Visual Studio), Linux and other Unix systems, macOS and iOS.',
     ],
   },
+
+  // Ninth batch, each written from the project's own README. bbport and
+  // Donkey Kong 64 Recompiled are left on the composed steps: their READMEs
+  // do not document an install sequence that could be restated without
+  // guessing at it.
+  "Supermedo/bloodborne_pc": {
+    pt: [
+      "Você precisa da sua própria cópia de Bloodborne para PS4, extraída como pasta (a que contém o eboot.bin). A edição Game of the Year (CUSA03173) já traz The Old Hunters; com o jogo base, extraia também os add-ons.",
+      "Confira o processador antes de tudo, porque é o erro mais comum: o jogo usa instruções do processador do PS4 (AVX, BMI1, MOVBE, LZCNT). Precisa de Intel de 4ª geração (Haswell, 2013) ou mais novo, ou AMD Ryzen. Processador sem AVX, como muitos Pentium e Celeron, não roda.",
+      "Windows 10 (versão 1903 ou mais nova) ou 11, 64 bits, e placa de vídeo com Vulkan 1.3 e driver atualizado. Deixe cerca de 6 GB de memória livre somando RAM e arquivo de paginação, ou 10 GB para 1440p e 4K. DLSS exige GeForce RTX série 20 ou mais nova.",
+      "Baixe o zip da release mais recente e descompacte em qualquer pasta. Tudo o que o jogo precisa vem nele — não há mais nada para instalar.",
+      "Abra o Bloodborne.exe. Na primeira vez, um assistente curto confere a pasta do jogo e o seu PC e ajusta a imagem para o seu hardware. Depois é só apertar PLAY.",
+      "Dentro do jogo, Insert (ou L3+R3 no controle) abre o menu de configurações. Os controles ficam no input.ini, que aceita os arquivos de configuração do shadPS4.",
+    ],
+    en: [
+      "You need your own copy of Bloodborne for PS4, dumped as a folder (the one holding eboot.bin). The Game of the Year edition (CUSA03173) already includes The Old Hunters; with the base game, dump your add-ons too.",
+      "Check the processor first, because it is the most common problem: the game uses instructions from the PS4’s processor (AVX, BMI1, MOVBE, LZCNT). It needs a 4th-generation Intel (Haswell, 2013) or newer, or an AMD Ryzen. A processor without AVX, as many Pentium and Celeron models are, cannot run it.",
+      "Windows 10 (version 1903 or later) or 11, 64-bit, and a graphics card with Vulkan 1.3 and a current driver. Leave about 6 GB of free memory across RAM and page file, or 10 GB for 1440p and 4K. DLSS needs a GeForce RTX 20 series or newer.",
+      "Download the zip from the latest release and unpack it anywhere. Everything the game needs is inside — there is nothing else to install.",
+      "Open Bloodborne.exe. The first time, a short guide checks the game folder and your PC and sets the picture for your hardware. Then press PLAY.",
+      "In the game, Insert (or L3+R3 on a controller) opens the settings menu. Controls live in input.ini, which accepts shadPS4’s configuration files.",
+    ],
+  },
+  "droogie/bbhost": {
+    pt: [
+      "Você precisa da sua própria cópia de Bloodborne para PS4 com a atualização 1.09 copiada por cima — ou guardada ao lado numa pasta CUSA00900-UPDATE, do jeito que o shadPS4 faz.",
+      "Além disso, o eboot.bin da versão 1.09 descriptografado para ELF. O projeto confere o arquivo por hash SHA-256, então uma versão diferente da 1.09 é recusada — é o erro mais comum aqui.",
+      "Baixe a release para Windows ou Linux.",
+      "Abra o bbhost. A janela de configuração pede os dois caminhos — a pasta do jogo e o ELF —, confere os dois e guarda. Depois é apertar Play.",
+      "Configuração, controles, saves, registros e solução de problemas estão na documentação de execução do próprio projeto.",
+    ],
+    en: [
+      "You need your own copy of Bloodborne for PS4 with the 1.09 update copied over it — or kept beside it in a CUSA00900-UPDATE folder, the way shadPS4 does.",
+      "On top of that, the 1.09 eboot.bin decrypted to an ELF. The project checks the file by its SHA-256 hash, so anything other than 1.09 is refused — the most common mistake here.",
+      "Download the release for Windows or Linux.",
+      "Start bbhost. The setup window asks for the two paths — the game folder and the ELF —, checks them and saves them. Then press Play.",
+      "Configuration, controls, saves, logs and troubleshooting are in the project’s own running documentation.",
+    ],
+  },
+  "TwilitRealm/dusklight": {
+    pt: [
+      "Você precisa extrair a sua própria cópia do disco de Twilight Princess. O guia de extração do Dolphin explica o processo; depois dá para converter o .iso em .rvz, pelo Dolphin ou pelo nodtool, para ocupar menos espaço.",
+      "Serve qualquer disco comercial, de GameCube ou de Wii, menos o lançamento coreano de Wii.",
+      "O Dusklight é construído sobre a descompilação de Twilight Princess, que hoje só bate byte a byte com a versão de GameCube. Por isso, mesmo usando um disco de Wii, você verá a interface da versão de GameCube.",
+      "O mínimo de vídeo é uma placa com Direct3D 12, Vulkan 1.1 ou Metal. Placas mais antigas têm suporte de melhor esforço por Direct3D 11, sem a mesma precisão nem desempenho.",
+      "Siga o guia oficial de instalação no site do projeto — ele é atualizado a cada versão, e a instalação muda conforme o sistema.",
+    ],
+    en: [
+      "You need to dump your own copy of the Twilight Princess disc. Dolphin’s ripping guide covers how; afterwards the .iso can be converted to .rvz, with Dolphin or nodtool, to save space.",
+      "Any commercial disc works, GameCube or Wii, except the Korean Wii release.",
+      "Dusklight is built on the Twilight Princess decompilation, which today only matches the GameCube version byte for byte. So even with a Wii disc you will see the GameCube version’s interface.",
+      "The minimum is a graphics card with Direct3D 12, Vulkan 1.1 or Metal. Older cards get best-effort support through Direct3D 11, without the same accuracy or performance.",
+      "Follow the official installation guide on the project’s site — it is updated with each release, and installation differs by system.",
+    ],
+  },
+  "snesrev/zelda3": {
+    pt: [
+      "Você precisa da sua própria ROM americana de A Link to the Past, com o nome zelda3.sfc. Outra região não serve para extrair os dados.",
+      "Por enquanto não há executável pronto: você compila o jogo. No Windows de 64 bits o caminho é curto e não exige Visual Studio.",
+      "Instale o Python marcando a opção de adicioná-lo ao PATH. Baixe o código do projeto como ZIP pelo botão Code e extraia. Coloque a ROM na pasta extraída.",
+      "Baixe o compilador TCC e o SDL2 nas versões indicadas no README e extraia cada um na subpasta third-party.",
+      "Rode, nesta ordem, get_python_libs.bat, extract_assets.bat (ele cria o zelda3_assets.dat a partir da sua ROM) e run_with_tcc.bat, que gera o zelda3.exe e abre o jogo.",
+      "Teclas e opções ficam no zelda3.ini. Para Linux, Mac e outros compiladores, siga o arquivo de build do próprio repositório.",
+    ],
+    en: [
+      "You need your own US ROM of A Link to the Past, named zelda3.sfc. Another region will not extract.",
+      "There is no prebuilt executable yet: you build the game. On 64-bit Windows the route is short and needs no Visual Studio.",
+      "Install Python with the option to add it to PATH. Download the project as a ZIP from the Code button and extract it. Put the ROM in the extracted folder.",
+      "Download the TCC compiler and SDL2 at the versions the README names, and extract each into the third-party subfolder.",
+      "Run, in this order, get_python_libs.bat, extract_assets.bat (it creates zelda3_assets.dat from your ROM) and run_with_tcc.bat, which produces zelda3.exe and starts the game.",
+      "Keys and options live in zelda3.ini. For Linux, Mac and other compilers, follow the repository’s own build file.",
+    ],
+  },
+  "HarbourMasters/SpaghettiKart": {
+    pt: [
+      "Você precisa da sua própria ROM americana de Mario Kart 64 — é a única versão suportada. Confira o SHA-1: 579C48E211AE952530FFC8738709F078D5DD215E.",
+      "A ROM tem de estar em .z64. Se a sua está em .n64, converta com um conversor de ordem de bytes antes; formato errado é o erro mais comum.",
+      "Baixe a release e extraia todos os arquivos numa pasta.",
+      "No Windows, abra o Spaghettify.exe e escolha a sua ROM: ele gera o arquivo de dados mk64.o2r. No Linux, rode o AppImage (pode precisar de chmod +x) com zenity ou kdialog instalado.",
+      "Se o jogo travar ao abrir, troque o renderizador para OpenGL no menu de configurações ou no spaghettify.cfg.json. F11 alterna a tela cheia e Esc abre as configurações.",
+    ],
+    en: [
+      "You need your own US ROM of Mario Kart 64 — the only supported version. Check its SHA-1: 579C48E211AE952530FFC8738709F078D5DD215E.",
+      "The ROM must be .z64. If yours is .n64, convert it with a byte-order converter first; the wrong format is the most common mistake.",
+      "Download the release and extract every file into a folder.",
+      "On Windows, open Spaghettify.exe and choose your ROM: it generates the mk64.o2r data file. On Linux, run the AppImage (it may need chmod +x) with zenity or kdialog installed.",
+      "If the game crashes on start, switch the renderer to OpenGL in the settings menu or in spaghettify.cfg.json. F11 toggles fullscreen and Esc opens settings.",
+    ],
+  },
+  "HarbourMasters/Starship": {
+    pt: [
+      "Você precisa da sua própria ROM americana de Star Fox 64, versão 1.0 ou 1.1 (Rev A). Os SHA-1 de cada uma estão no README do projeto.",
+      "As versões japonesa e europeia não servem para gerar os dados do jogo. Elas podem ser usadas depois, junto com a americana, só para trocar as vozes (uma língua de cada vez).",
+      "A ROM tem de estar em .z64; converta antes se a sua estiver em .n64.",
+      "Baixe a release, extraia tudo numa pasta e abra o starship.exe. Escolha a ROM: ele gera o arquivo de dados sf64.o2r. Há também versões para Linux (AppImage) e macOS.",
+      "F1 mostra a barra de menus, F11 alterna a tela cheia e Tab alterna os recursos alternativos.",
+    ],
+    en: [
+      "You need your own US ROM of Star Fox 64, version 1.0 or 1.1 (Rev A). The SHA-1 of each is in the project’s README.",
+      "The Japanese and European versions cannot generate the game data. They can be used afterwards, together with the US one, only to swap the voices (one language at a time).",
+      "The ROM must be .z64; convert it first if yours is .n64.",
+      "Download the release, extract everything into a folder and open starship.exe. Choose the ROM: it generates the sf64.o2r data file. There are Linux (AppImage) and macOS builds too.",
+      "F1 shows the menu bar, F11 toggles fullscreen and Tab switches alternate assets.",
+    ],
+  },
+  "BanjoRecomp/BanjoRecomp": {
+    pt: [
+      "Você precisa da sua própria cópia da versão norte-americana 1.0 de Banjo-Kazooie. Outra versão não é a que o projeto recompila.",
+      "É plug and play: baixe a release, abra e indique a sua cópia no menu principal. Os dados são carregados direto dela — não há etapa de extração nem compilação.",
+      "Placa de vídeo com Direct3D 12 (Shader Model 6), Vulkan 1.2 ou Metal. As mais antigas que devem funcionar são a GeForce GT 630, a Radeon HD 7750 e a Intel HD 510; no Mac, Apple Silicon ou Intel de 7ª geração com macOS 13.",
+      "Em PC x86-64, o processador precisa de SSE4.1 (Intel Core 2 Penryn ou AMD Bulldozer em diante).",
+      "Se travar ao abrir, atualize o driver de vídeo antes de qualquer outra coisa — é a causa mais comum. Tem taxa de quadros alta, widescreen, mods e suporte a Linux e Steam Deck.",
+    ],
+    en: [
+      "You need your own copy of the North American 1.0 version of Banjo-Kazooie. Any other version is not the one the project recompiles.",
+      "It is plug and play: download the release, open it and point the main menu at your copy. The assets load straight from it — no extraction or build step.",
+      "A graphics card with Direct3D 12 (Shader Model 6), Vulkan 1.2 or Metal. The oldest that should work are the GeForce GT 630, the Radeon HD 7750 and the Intel HD 510; on a Mac, Apple silicon or a 7th-generation Intel on macOS 13.",
+      "On an x86-64 PC the processor needs SSE4.1 (Intel Core 2 Penryn or AMD Bulldozer onwards).",
+      "If it crashes on start, update the graphics driver before anything else — the most common cause. It has high framerates, widescreen, mods and Linux and Steam Deck support.",
+    ],
+  },
+  "perfect-dark-pc-port/perfect_dark": {
+    pt: [
+      "Você precisa da sua própria ROM de Perfect Dark. O projeto aceita as três regiões, cada uma com nome de arquivo e executável próprios.",
+      "Baixe a build automática para o seu sistema (Windows ou Linux, 64 ou 32 bits) e extraia.",
+      "Crie uma pasta chamada data ao lado do executável e coloque nela a ROM americana com o nome exato pd.ntsc-final.z64. Nome errado é o erro mais comum: o jogo não acha a ROM.",
+      "Para a ROM europeia, use o nome pd.pal-final.z64 e abra o executável pd.pal; para a japonesa, pd.jpn-final.z64 e o executável pd.jpn.",
+      "Opcional: a ROM de Perfect Dark de Game Boy Color com o nome pd.gbc na mesma pasta emula o Transfer Pak e libera alguns cheats. A placa de vídeo precisa de OpenGL 3.0 ou mais novo.",
+    ],
+    en: [
+      "You need your own Perfect Dark ROM. The project accepts all three regions, each with its own file name and executable.",
+      "Download the automatic build for your system (Windows or Linux, 64- or 32-bit) and extract it.",
+      "Create a folder called data next to the executable and put the US ROM in it under the exact name pd.ntsc-final.z64. The wrong name is the most common mistake: the game does not find the ROM.",
+      "For the European ROM use the name pd.pal-final.z64 and open the pd.pal executable; for the Japanese one, pd.jpn-final.z64 and the pd.jpn executable.",
+      "Optional: the Game Boy Color Perfect Dark ROM named pd.gbc in the same folder emulates the Transfer Pak and unlocks some cheats. The graphics card needs OpenGL 3.0 or newer.",
+    ],
+  },
+  "chrissotraidis/bluewake": {
+    pt: [
+      "Você precisa da sua própria imagem de disco de The Wind Waker de GameCube, em .iso ou .gcm. Uma imagem .rvz do Dolphin precisa ser convertida antes: no Dolphin, clique com o botão direito no jogo e escolha Converter arquivo.",
+      "No Windows, baixe o ZIP windows-x64 da release mais recente, descompacte o ZIP inteiro e abra o BlueWake.exe. Na primeira vez ele pede a imagem do disco.",
+      "Precisa de processador com AVX2 (Intel Haswell, de 2013, AMD Ryzen ou mais novo) e placa de vídeo com Direct3D 12. A partir da versão 0.8, placas mais antigas recebem Direct3D 11 em vez de tela preta.",
+      "Quem vinha do Wind Waker Recomp: o projeto se mudou para cá, e os saves continuam na mesma pasta (%APPDATA%\\BlueWake). Faça uma cópia dela antes de trocar.",
+      "No Linux, por enquanto só há compilação a partir do código, sem AppImage pronto. O movimento suave fica desligado por padrão e liga com F10.",
+    ],
+    en: [
+      "You need your own disc image of The Wind Waker for GameCube, as .iso or .gcm. A Dolphin .rvz image must be converted first: in Dolphin, right-click the game and choose Convert File.",
+      "On Windows, download the windows-x64 ZIP from the latest release, unpack the whole ZIP and open BlueWake.exe. The first time, it asks for the disc image.",
+      "It needs a processor with AVX2 (Intel Haswell from 2013, AMD Ryzen or newer) and a Direct3D 12 graphics card. From version 0.8, older cards get Direct3D 11 instead of a black screen.",
+      "Coming from Wind Waker Recomp: the project moved here, and saves stay in the same folder (%APPDATA%\\BlueWake). Back it up before switching.",
+      "On Linux there is only a source build for now, with no ready AppImage. Smooth motion is off by default and turns on with F10.",
+    ],
+  },
+  "flyngmt/ACGC-PC-Port": {
+    pt: [
+      "Você precisa da sua própria imagem de disco de Animal Crossing de GameCube, versão americana, em ISO, GCM ou CISO.",
+      "Baixe o zip da release mais recente e extraia. Não é preciso compilar nada.",
+      "Coloque a imagem do disco dentro da pasta rom e abra o AnimalCrossing.exe.",
+      "O jogo lê os dados direto da imagem ao iniciar — não há etapa de extração nem de preparo.",
+      "As teclas podem ser trocadas no keybindings.ini, ao lado do executável, e aceitam também os botões do mouse.",
+    ],
+    en: [
+      "You need your own disc image of Animal Crossing for GameCube, the US version, as ISO, GCM or CISO.",
+      "Download the zip from the latest release and extract it. Nothing needs building.",
+      "Put the disc image inside the rom folder and open AnimalCrossing.exe.",
+      "The game reads its data straight from the image at start — there is no extraction or preparation step.",
+      "Keys can be changed in keybindings.ini, next to the executable, and accept mouse buttons too.",
+    ],
+  },
+  "Supermedo/uncharted_pc": {
+    pt: [
+      "Você precisa da sua própria cópia de Uncharted: The Nathan Drake Collection para PS4, extraída do console.",
+      "Windows 10 (1903 ou mais novo) ou 11, 64 bits, com processador Intel de 4ª geração (Haswell), AMD Ryzen ou AMD FX.",
+      "A placa de vídeo precisa de Vulkan 1.3 e de pelo menos 6 GB de memória de vídeo. Placas de 4 GB, como a GTX 1650 e a RX 570, ficam sem memória e fecham depois de um tempo; nelas, deixe antisserrilhamento e geração de quadros desligados. É o problema mais comum.",
+      "Deixe cerca de 8 GB de memória livre somando RAM e arquivo de paginação.",
+      "Baixe a release e siga a configuração descrita na página do projeto. Se o jogo travar no capítulo 2 de Uncharted 3 em taxas de quadros altas, limite a 60 na configuração de tela e mande o registro user\\last_run.log ao reportar.",
+    ],
+    en: [
+      "You need your own copy of Uncharted: The Nathan Drake Collection for PS4, dumped from the console.",
+      "Windows 10 (1903 or later) or 11, 64-bit, with a 4th-generation Intel (Haswell), AMD Ryzen or AMD FX processor.",
+      "The graphics card needs Vulkan 1.3 and at least 6 GB of video memory. 4 GB cards such as the GTX 1650 and RX 570 run out of memory and close after a while; on those, keep anti-aliasing and frame generation off. It is the most common problem.",
+      "Leave about 8 GB of free memory across RAM and page file.",
+      "Download the release and follow the setup on the project page. If Uncharted 3 freezes in chapter 2 at high frame rates, cap it at 60 in the display settings and send user\\last_run.log when reporting.",
+    ],
+  },
+  "AjncSystem/ShadowOfTheColossus-PC": {
+    pt: [
+      "Você precisa da sua própria cópia de Shadow of the Colossus para PS4 (CUSA08809), extraída do console — a versão europeia 1.01 é a recomendada. A pasta precisa ter o eboot.bin, o sce_module e o sce_sys.",
+      "Precisa também de dois módulos de som do PS4 descriptografados, libSceNgs2.sprx e libSceUlt.sprx, tirados do seu console ou da pasta de módulos de uma instalação do shadPS4. Sem eles o jogo roda mudo — é o erro mais comum.",
+      "Baixe o SotC-PC.zip da release, descompacte e abra o SotC.exe. Na primeira vez, o launcher procura nos seus discos a pasta do jogo, os módulos de som, um save do shadPS4 para importar e os DLCs.",
+      "Confira a página do jogo e dos saves no launcher e aperte PLAY.",
+      "Os modos de 60 quadros e de filtro 16x só funcionam na versão europeia 1.01; as outras rodam a 30. Requer Windows 10 ou 11 de 64 bits e placa com Vulkan 1.3.",
+    ],
+    en: [
+      "You need your own copy of Shadow of the Colossus for PS4 (CUSA08809), dumped from the console — the European 1.01 version is recommended. The folder must hold eboot.bin, sce_module and sce_sys.",
+      "You also need two decrypted PS4 sound modules, libSceNgs2.sprx and libSceUlt.sprx, taken from your console or from a shadPS4 install’s modules folder. Without them the game runs silent — the most common mistake.",
+      "Download SotC-PC.zip from the release, unpack it and open SotC.exe. The first time, the launcher searches your drives for the game folder, the sound modules, a shadPS4 save to import and the DLCs.",
+      "Check the game and saves page in the launcher and press PLAY.",
+      "The 60 FPS and 16x filtering modes only work on the European 1.01 version; the others run at 30. Requires 64-bit Windows 10 or 11 and a Vulkan 1.3 card.",
+    ],
+  },
+  "LoreanXavier/pt-pc": {
+    pt: [
+      "Você precisa da sua própria cópia de P.T. O port é feito e testado com a versão americana (CUSA01127), como pasta extraída do console ou um PKG falso feito a partir dela. A europeia (CUSA01114) também é aceita.",
+      "Um PKG comprado na loja não serve: ele é criptografado para o console que o comprou, e nada aqui descriptografa. É o erro mais comum.",
+      "Roda no Windows 10 ou 11, no Linux x86-64 com glibc 2.38 ou mais nova (Ubuntu 24.04, Debian 13, Fedora 39, Arch e SteamOS) e no macOS 14 ou mais novo. A placa precisa de Vulkan 1.3; no Mac, o próprio port traz a camada que roda Vulkan sobre Metal.",
+      "Baixe o instalador da release, aponte para a pasta extraída ou o PKG falso e para onde instalar. Ele copia só os três arquivos do jogo que o port usa e pode criar um atalho.",
+      "Uma parte do jogo pede microfone, como no PS4. Sem microfone, defina uma tecla para a palavra falada na seção de voz do pt.ini.",
+    ],
+    en: [
+      "You need your own copy of P.T. The port is made and tested with the US release (CUSA01127), as a folder dumped from the console or a fake PKG made from it. The European release (CUSA01114) is accepted too.",
+      "A store PKG will not do: it is encrypted for the console that bought it, and nothing here decrypts it. It is the most common mistake.",
+      "It runs on Windows 10 or 11, on x86-64 Linux with glibc 2.38 or newer (Ubuntu 24.04, Debian 13, Fedora 39, Arch and SteamOS) and on macOS 14 or newer. The card needs Vulkan 1.3; on a Mac the port ships the layer that runs Vulkan on Metal.",
+      "Download the installer from the release, point it at the dumped folder or fake PKG and at where to install. It copies only the three game archives the port uses and can make a shortcut.",
+      "One part of the game asks for a microphone, as on the PS4. Without one, set a key for the spoken word in the voice section of pt.ini.",
+    ],
+  },
 }
