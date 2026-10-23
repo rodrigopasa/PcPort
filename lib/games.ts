@@ -1021,6 +1021,256 @@ export const GAMES: Record<string, GameMeta> = {
       en: 'A Contra spin-off from the Guilty Gear studio, with hand-drawn art and a progression system that lets the player buy lives and abilities between stages. Run and gun to the right, as hard as the series demands.',
     },
   },
+  "twilight-princess": {
+    releasedAt: "2006-12-02",
+    developer: "Nintendo EAD",
+    publisher: "Nintendo",
+    genres: ["Ação", "Aventura"],
+    summary: {
+      pt: "Link vira lobo ao entrar no Crepúsculo que cobre Hyrule e conta com Midna para devolver a luz a cada região. O Zelda mais sombrio da sua geração, com combate a cavalo e masmorras longas.",
+      en: "Link turns into a wolf on entering the Twilight that covers Hyrule, and relies on Midna to restore the light to each region. The darkest Zelda of its generation, with mounted combat and long dungeons.",
+    },
+  },
+  "link-to-the-past": {
+    releasedAt: "1991-11-21",
+    developer: "Nintendo EAD",
+    publisher: "Nintendo",
+    genres: ["Ação", "Aventura"],
+    summary: {
+      pt: "Link alterna entre o Mundo da Luz e o Mundo das Trevas para salvar os descendentes dos sábios. Fixou a estrutura de masmorras, itens e mapa que a série segue até hoje.",
+      en: "Link moves between the Light World and the Dark World to rescue the descendants of the sages. It set the dungeon, item and map structure the series still follows.",
+    },
+  },
+  "mario-kart-64": {
+    releasedAt: "1996-12-14",
+    developer: "Nintendo EAD",
+    publisher: "Nintendo",
+    genres: ["Corrida"],
+    summary: {
+      pt: "Kart em pistas tridimensionais para até quatro jogadores em tela dividida, com o modo Batalha de balões. Foi aqui que estreou o casco azul, que persegue quem está na frente.",
+      en: "Kart racing on three-dimensional tracks for up to four players in split-screen, with balloon Battle mode. It is where the blue shell, which hunts the leader, first appeared.",
+    },
+  },
+  "star-fox-64": {
+    releasedAt: "1997-04-27",
+    developer: "Nintendo EAD",
+    publisher: "Nintendo",
+    genres: ["Tiro"],
+    summary: {
+      pt: "Tiro sobre trilhos na Arwing, com rotas que se dividem conforme o desempenho em cada fase. Foi o primeiro jogo a vibrar o controle, com o Rumble Pak.",
+      en: "On-rails shooting in the Arwing, with routes that branch on how well each stage goes. It was the first game to shake the controller, through the Rumble Pak.",
+    },
+  },
+  "banjo-kazooie": {
+    releasedAt: "1998-06-29",
+    developer: "Rare",
+    publisher: "Nintendo",
+    genres: ["Plataforma"],
+    summary: {
+      pt: "Plataforma 3D da Rare em que o urso Banjo e a ave Kazooie juntam peças de quebra-cabeça para resgatar a irmã de Banjo da bruxa Gruntilda.",
+      en: "A Rare 3D platformer in which Banjo the bear and Kazooie the bird collect jigsaw pieces to rescue Banjo’s sister from the witch Gruntilda.",
+    },
+  },
+  "perfect-dark": {
+    releasedAt: "2000-05-22",
+    developer: "Rare",
+    publisher: "Nintendo",
+    genres: ["Tiro em primeira pessoa"],
+    summary: {
+      pt: "Tiro em primeira pessoa da Rare, sucessor espiritual de GoldenEye, com a agente Joanna Dark, armas de função dupla e adversários controlados pelo computador no multijogador.",
+      en: "Rare’s first-person shooter and the spiritual successor to GoldenEye, with agent Joanna Dark, dual-function weapons and computer-controlled opponents in multiplayer.",
+    },
+  },
+  "dk64": {
+    releasedAt: "1999-11-22",
+    developer: "Rare",
+    publisher: "Nintendo",
+    genres: ["Plataforma"],
+    summary: {
+      pt: "Plataforma 3D com cinco Kongs jogáveis, cada um com habilidades e coletáveis próprios. Exigia o Expansion Pak para rodar.",
+      en: "A 3D platformer with five playable Kongs, each with abilities and collectables of its own. It needed the Expansion Pak to run.",
+    },
+  },
+  "wind-waker": {
+    releasedAt: "2002-12-13",
+    developer: "Nintendo EAD",
+    publisher: "Nintendo",
+    genres: ["Ação", "Aventura"],
+    summary: {
+      pt: "Zelda em cel-shading sobre um mar que cobre Hyrule, navegado com a Batuta do Vento. Dividiu opiniões no lançamento e hoje está entre os mais queridos da série.",
+      en: "Cel-shaded Zelda over a sea that covers Hyrule, sailed with the Wind Waker baton. Divisive at launch, it is now among the series’ best loved.",
+    },
+  },
+  "wind-waker-hd": {
+    releasedAt: "2013-09-20",
+    developer: "Nintendo EAD",
+    publisher: "Nintendo",
+    genres: ["Ação", "Aventura"],
+    summary: {
+      pt: "A versão em alta definição do Zelda de cel-shading, com iluminação refeita e uma vela mais rápida que encurta a navegação pelo Grande Mar.",
+      en: "The high-definition take on the cel-shaded Zelda, with reworked lighting and a faster sail that shortens the crossings of the Great Sea.",
+    },
+  },
+  "animal-crossing": {
+    releasedAt: "2002-09-16",
+    developer: "Nintendo EAD",
+    publisher: "Nintendo",
+    genres: ["Simulação"],
+    summary: {
+      pt: "Vida numa vila de animais que segue o relógio real: estações, feriados e vizinhos que mudam com o tempo. Guardava jogos de NES como prêmio.",
+      en: "Life in a village of animals that runs on the real clock: seasons, holidays and neighbours that change over time. It hid NES games as rewards.",
+    },
+  },
+  "mario-strikers": {
+    releasedAt: "2005-11-18",
+    developer: "Next Level Games",
+    publisher: "Nintendo",
+    genres: ["Esporte"],
+    summary: {
+      pt: "Futebol de cinco contra cinco sem regras nem árbitro, com itens, superchutes e trombadas contra a cerca elétrica.",
+      en: "Five-a-side football with no rules and no referee, with items, super strikes and tackles into the electric fence.",
+    },
+  },
+  "links-awakening": {
+    releasedAt: "2019-09-20",
+    developer: "Grezzo",
+    publisher: "Nintendo",
+    genres: ["Ação", "Aventura"],
+    summary: {
+      pt: "Refação do Zelda de Game Boy em visual de brinquedo, com Link preso na ilha Koholint tentando acordar o Peixe do Vento.",
+      en: "A remake of the Game Boy Zelda in a toy-like style, with Link stranded on Koholint Island trying to wake the Wind Fish.",
+    },
+  },
+  "bayonetta-2": {
+    releasedAt: "2018-02-16",
+    developer: "PlatinumGames",
+    publisher: "Nintendo",
+    genres: ["Ação"],
+    summary: {
+      pt: "Ação de combos em que a esquiva no tempo exato congela o mundo por instantes. A versão de Switch é a que o projeto recompila.",
+      en: "Combo-driven action in which a perfectly timed dodge freezes the world for a moment. The Switch release is the one the project recompiles.",
+    },
+  },
+  "pt": {
+    releasedAt: "2014-08-12",
+    developer: "7780s Studio",
+    publisher: "Konami",
+    genres: ["Terror"],
+    summary: {
+      pt: "Teaser jogável de terror em primeira pessoa: um único corredor que se repete e muda a cada volta. Saiu da loja em 2015 e só existe onde já estava instalado.",
+      en: "A playable first-person horror teaser: a single corridor that loops and changes on every pass. It was pulled from the store in 2015 and exists only where it was already installed.",
+    },
+  },
+  "uncharted-collection": {
+    releasedAt: "2015-10-07",
+    developer: "Bluepoint Games",
+    publisher: "Sony Computer Entertainment",
+    genres: ["Ação", "Aventura"],
+    summary: {
+      pt: "Os três primeiros Uncharted de PS3 remasterizados numa coleção, com 60 quadros e iluminação refeita. Nathan Drake atrás de tesouros em ruínas, trens e desertos.",
+      en: "The first three PS3 Uncharted games remastered as one collection, at 60 frames with reworked lighting. Nathan Drake chasing treasure through ruins, trains and deserts.",
+    },
+  },
+  "sotc-ps4": {
+    releasedAt: "2018-02-06",
+    developer: "Bluepoint Games",
+    publisher: "Sony Interactive Entertainment",
+    genres: ["Ação", "Aventura"],
+    summary: {
+      pt: "A refação para PS4 da jornada de Wander, que enfrenta dezesseis colossos para trazer uma garota de volta. O mesmo jogo, com motor e arte refeitos do zero.",
+      en: "The PS4 remake of Wander’s journey to fell sixteen colossi and bring a girl back. The same game, with its engine and art rebuilt from scratch.",
+    },
+  },
+  "dbz-bt3": {
+    releasedAt: "2007-10-04",
+    developer: "Spike",
+    publisher: "Namco Bandai Games",
+    genres: ["Luta"],
+    summary: {
+      pt: "Luta em arenas tridimensionais com mais de 160 personagens de Dragon Ball, o maior elenco da série. É o terceiro e último Tenkaichi de PS2.",
+      en: "Fighting in three-dimensional arenas with over 160 Dragon Ball characters, the largest roster in the series. The third and last Tenkaichi on PS2.",
+    },
+  },
+  "psx-doom": {
+    releasedAt: "1995-11-16",
+    developer: "Williams Entertainment",
+    publisher: "Williams Entertainment",
+    genres: ["Tiro em primeira pessoa"],
+    summary: {
+      pt: "A versão de PlayStation de Doom, com iluminação colorida, fases próprias e uma trilha ambiente que trocou o metal pelo terror. Um jogo diferente do Doom de PC, e é por isso que tem port próprio.",
+      en: "The PlayStation version of Doom, with coloured lighting, its own levels and an ambient score that traded metal for dread. A different game from PC Doom, which is why it has a port of its own.",
+    },
+  },
+  "skate-3": {
+    releasedAt: "2010-05-11",
+    developer: "EA Black Box",
+    publisher: "Electronic Arts",
+    genres: ["Esporte"],
+    summary: {
+      pt: "Skate em equipe na cidade de Port Carverton, com o controle pelos dois analógicos da série e um editor de pistas. Ficou famoso também pela física que dá errado.",
+      en: "Team skateboarding in Port Carverton, with the series’ twin-stick controls and a park editor. It is just as famous for its physics going wrong.",
+    },
+  },
+  "lost-odyssey": {
+    releasedAt: "2007-12-06",
+    developer: "Mistwalker",
+    publisher: "Microsoft Game Studios",
+    genres: ["RPG"],
+    summary: {
+      pt: "RPG de turnos de Hironobu Sakaguchi sobre Kaim, um imortal que recupera mil anos de memórias em contos escritos entre as batalhas.",
+      en: "A turn-based RPG from Hironobu Sakaguchi about Kaim, an immortal who recovers a thousand years of memories through short written tales.",
+    },
+  },
+  "sonic-06": {
+    releasedAt: "2006-11-14",
+    developer: "Sonic Team",
+    publisher: "Sega",
+    genres: ["Plataforma", "Ação"],
+    summary: {
+      pt: "O Sonic dos quinze anos da série, com três personagens jogáveis em Soleanna. Saiu com carregamentos longos e bugs que viraram lenda — exatamente o que um port nativo pode corrigir.",
+      en: "The series’ fifteenth-anniversary Sonic, with three playable characters in Soleanna. It shipped with long loads and legendary bugs — exactly what a native port can fix.",
+    },
+  },
+  "dantes-inferno": {
+    releasedAt: "2010-02-09",
+    developer: "Visceral Games",
+    publisher: "Electronic Arts",
+    genres: ["Ação"],
+    summary: {
+      pt: "Ação hack and slash pelos nove círculos do Inferno da Divina Comédia, com Dante empunhando a foice da Morte.",
+      en: "Hack-and-slash action through the nine circles of Hell from the Divine Comedy, with Dante wielding Death’s scythe.",
+    },
+  },
+  "ace-combat-6": {
+    releasedAt: "2007-10-23",
+    developer: "Project Aces",
+    publisher: "Namco Bandai Games",
+    genres: ["Simulação", "Ação"],
+    summary: {
+      pt: "Combate aéreo com dezenas de alvos ao mesmo tempo e operações em várias frentes, sobre uma cidade sitiada.",
+      en: "Aerial combat against dozens of targets at once, with operations on several fronts over a city under siege.",
+    },
+  },
+  "simpsons-game": {
+    releasedAt: "2007-10-30",
+    developer: "EA Redwood Shores",
+    publisher: "Electronic Arts",
+    genres: ["Ação", "Plataforma"],
+    summary: {
+      pt: "Os Simpsons descobrem que estão dentro de um videogame e atravessam fases que parodiam outros jogos, cada membro da família com um poder próprio.",
+      en: "The Simpsons find out they are inside a video game and cross levels that parody other games, each family member with a power of their own.",
+    },
+  },
+  "tekken-6": {
+    releasedAt: "2009-10-27",
+    developer: "Namco Bandai Games",
+    publisher: "Namco Bandai Games",
+    genres: ["Luta"],
+    summary: {
+      pt: "A sexta luta principal da série, com o Rage, que aumenta o dano quando a vida está baixa, e cenários de vários níveis.",
+      en: "The sixth main fighting game in the series, with Rage, which raises damage when health runs low, and multi-level stages.",
+    },
+  },
 }
 
 export function gameFor(key: string | null): GameMeta | null {

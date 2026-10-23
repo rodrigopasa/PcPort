@@ -46,6 +46,7 @@ const CDN = 'https://thumbnails.libretro.com'
  */
 const SYSTEM: Record<string, string> = {
   PlayStation: 'Sony - PlayStation',
+  SNES: 'Nintendo - Super Nintendo Entertainment System',
   'PlayStation 2': 'Sony - PlayStation 2',
   PSP: 'Sony - PlayStation Portable',
   'Nintendo 64': 'Nintendo - Nintendo 64',
@@ -105,6 +106,9 @@ const ALIAS: Record<string, string> = {
   'pokemon-diamond': 'Pokemon - Diamond Version',
   'pokemon-platinum': 'Pokemon - Platinum Version',
   'pokemon-heartgold': 'Pokemon - HeartGold Version',
+  // The catalog says "PlayStation Doom" to tell it from PC Doom; on the
+  // PlayStation shelf of the archive it is simply "Doom".
+  'psx-doom': 'Doom',
 }
 
 /** Builds and demos are not the retail box. */

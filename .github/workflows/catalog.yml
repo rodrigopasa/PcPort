@@ -51,6 +51,13 @@ jobs:
           REVALIDATE_TOKEN: ${{ secrets.REVALIDATE_TOKEN }}
         run: npx tsx scripts/build-catalog.ts
 
+      # Curation is applied on every run, so a repository seeded in
+      # build-catalog.ts and mapped in curate.ts goes live named, dated and
+      # indexed in the same hour. Without this step it arrived raw, and a raw
+      # entry stays noindex until someone runs the script by hand.
+      - name: Apply curation
+        run: npx tsx scripts/curate.ts
+
       # Images move far more slowly than releases, so they are a weekly job
       # rather than an hourly one.
       - name: Re-scan images
@@ -62,7 +69,11 @@ jobs:
           npx tsx scripts/shots.ts || true
           npx tsx scripts/shots-extra.ts || true
           npx tsx scripts/libretro.ts || true
-          npx tsx scripts/fandom.ts || true
+          # No Fandom here. All 94 Fandom covers were looked at by eye and a
+          # third were wrong, ten of them a different game; no check in that
+          # script can see it. It now runs by hand, with the result reviewed
+          # on a contact sheet before it is committed. libretro is exact-match
+          # against a box-scan archive and was right every time, so it stays.
           if [ -n "$IGDB_CLIENT_ID" ]; then npx tsx scripts/enrich.ts || true; fi
 
       # The guard is the one rule the catalog cannot drift on, so a run that

@@ -182,7 +182,21 @@ const BROWSER_TARGET = /\b(three\.js|in the browser|webassembly|wasm|webgl)\b/i
 
 export type Verdict = { ok: true } | { ok: false; reason: string }
 
-export function isCatalogable(c: Candidate): Verdict {
+/**
+ * `seeded` means a person put this repository on the seed list after looking
+ * at it, so the heuristics below do not get a vote: they exist to judge what
+ * discovery finds on its own. DENIED still applies, because a removal request
+ * outranks everything.
+ *
+ * The case that made this necessary: Bloodborne's Linux port ships no
+ * description at all, so nothing in its text says "port" and the filter
+ * refused it; and its Windows build lives in a fork, which ingestion refuses
+ * on sight. Both are real, distinct ports with releases — one AppImage, one
+ * Windows zip — and the most searched game in this catalog had neither.
+ *
+ * The game-data guard is not here and is never skipped, seeded or not.
+ */
+export function isCatalogable(c: Candidate, opts: { seeded?: boolean } = {}): Verdict {
 
   // The repository name counts as evidence: `gow2-recomp` says what it is even
   // when the description is just the game's name.
@@ -205,6 +219,7 @@ export function isCatalogable(c: Candidate): Verdict {
   if (denied) {
     return { ok: false, reason: denied }
   }
+  if (opts.seeded) return { ok: true }
   if (AWESOME_REPO.test(c.repo)) {
     return { ok: false, reason: `awesome-list repository: ${c.repo}` }
   }

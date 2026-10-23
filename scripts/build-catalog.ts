@@ -38,6 +38,40 @@ const SEED = [
   'shadps4-emu/shadPS4',
   'taisei-project/taisei',
   'EXOK/Celeste64',
+  // Found by comparing against the largest catalog in this niche and then
+  // located on GitHub by our own search, each accepted only when its star
+  // count agreed with the one listed for it. That check is what kept out a
+  // same-named Arduino stepper-motor library. Seeded, so the heuristics in
+  // quality.ts do not get a vote; the game-data guard still does.
+  'deadinside28/bloodborne_pc',
+  'Supermedo/bloodborne_pc',
+  'droogie/bbhost',
+  'TwilitRealm/dusklight',
+  'snesrev/zelda3',
+  'HarbourMasters/SpaghettiKart',
+  'HarbourMasters/Starship',
+  'BanjoRecomp/BanjoRecomp',
+  'perfect-dark-pc-port/perfect_dark',
+  'Rainchus/Donkey-Kong-64-Recompiled',
+  'chrissotraidis/bluewake',
+  'ZeldaWWHDRecomp/ZeldaWWHDRecomp',
+  'flyngmt/ACGC-PC-Port',
+  'new-coke/strikers',
+  'peiikai/LASRecomp',
+  'K0NL/B2recomp',
+  'LoreanXavier/pt-pc',
+  'Supermedo/uncharted_pc',
+  'AjncSystem/ShadowOfTheColossus-PC',
+  'z3xox/Tenkaichi3Decomp',
+  'BodbDearg/PsyDoom',
+  'mchughalex/skate3recomp',
+  'freefrank/LostOdysseyRecomp',
+  'sonicnext-dev/MarathonRecomp',
+  'florinp93/hells-gate-recomp',
+  'sal063/AC6_recomp',
+  'YesterMester/TheSimpsonsGameRecomp',
+  'Ekspym/Tekken6-native-online',
+  'djyt/cannonball',
 ]
 
 const TOPICS = [
@@ -48,7 +82,25 @@ const TOPICS = [
   'pc-port',
   'xbox360',
   'static-recompilation',
+  // Added after comparing against the largest catalog in this niche: it listed
+  // some 340 console games this one did not, Twilight Princess and Mario Kart
+  // 64 among them, and most were simply not under the seven topics above.
+  'n64recomp',
+  'xenonrecomp',
+  'rexglue',
+  'ps2recomp',
+  'recomp',
+  'decomp',
+  'native-port',
 ]
+
+/**
+ * The recompilers the scene builds with. A project that names one of these in
+ * its README is, nearly always, a console game being brought to the PC —
+ * a stronger signal than any topic, because a topic is whatever the owner
+ * typed and the toolchain is what the project actually depends on.
+ */
+const TOOLCHAINS = ['N64Recomp', 'ReXGlue', 'XenonRecomp', 'PS2Recomp', 'psxrecomp']
 
 type Repo = {
   full_name: string
@@ -173,10 +225,17 @@ function slugify(s: string) {
 
 async function discover(): Promise<string[]> {
   const found = new Set(SEED)
-  for (const topic of TOPICS) {
+  // 100 rather than 50: the second page of a topic held ports with several
+  // hundred stars. Every candidate still has to pass the guard and the
+  // quality filter, and an uncurated one stays out of the index.
+  const queries = [
+    ...TOPICS.map((t) => `topic:${t}`),
+    ...TOOLCHAINS.map((t) => `"${t}" in:readme stars:>=${MIN_STARS}`),
+  ]
+  for (const q of queries) {
     try {
       const res = await gh<{ items: Repo[] }>(
-        `/search/repositories?q=topic:${topic}&sort=stars&per_page=50`,
+        `/search/repositories?q=${encodeURIComponent(q)}&sort=stars&per_page=100`,
       )
       for (const r of res?.items ?? []) {
         if (r.stargazers_count >= MIN_STARS && !r.archived && !r.fork) found.add(r.full_name)
@@ -191,7 +250,11 @@ async function discover(): Promise<string[]> {
 
 async function fetchRow(path: string, previous?: CatalogRow): Promise<CatalogRow | 'rejected' | null> {
   const repo = await gh<Repo>(`/repos/${path}`)
-  if (!repo || repo.archived || repo.fork) return null
+  // A fork is refused because discovery would otherwise list every copy of a
+  // popular port. A seeded one was checked by a person, and a fork can be the
+  // distinct port: Bloodborne's Windows build exists only in one.
+  const seeded = SEED.includes(path)
+  if (!repo || repo.archived || (repo.fork && !seeded)) return null
 
   const release = await gh<Release>(`/repos/${path}/releases/latest`)
   const assets = (release?.assets ?? []).map((a) => ({
@@ -218,7 +281,7 @@ async function fetchRow(path: string, previous?: CatalogRow): Promise<CatalogRow
     version: release?.tag_name ?? null,
     sizeBytes: biggest?.size ?? null,
     stars: repo.stargazers_count,
-  })
+  }, { seeded })
   if (!quality.ok) {
     console.warn(`   skipped: ${quality.reason}`)
     return 'rejected'

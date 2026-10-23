@@ -55,6 +55,11 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   return {
     title,
     description: entry.seoDescription,
+    // Discovery now runs wide, and an entry it has just found has no game, no
+    // cover and no guide yet: a thin page, and enough thin pages drag the whole
+    // domain. It exists and is linked, but stays out of the index until a
+    // person has curated it.
+    ...(entry.curated ? {} : { robots: { index: false, follow: true } }),
     keywords: [
       entry.title,
       `${entry.title} PC`,

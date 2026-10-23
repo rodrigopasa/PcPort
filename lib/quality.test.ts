@@ -276,3 +276,15 @@ test('an empty platforms list rejects nothing', () => {
   })
   assert.equal(v.ok, true, (v as { reason?: string }).reason)
 })
+
+test('a seeded repository skips the heuristics, which judge what discovery finds alone', () => {
+  // Bloodborne's Linux port ships no description: nothing says "port".
+  const bare = { repo: 'deadinside28/bloodborne_pc', title: 'bloodborne pc', description: '' }
+  assert.equal(isCatalogable(bare).ok, false)
+  assert.equal(isCatalogable(bare, { seeded: true }).ok, true)
+})
+
+test('a removal request outranks the seed list', () => {
+  const denied = { repo: 'Ashnar2602/X360-Mobile---OFFICIAL', title: 'x', description: 'Xbox 360 port' }
+  assert.equal(isCatalogable(denied, { seeded: true }).ok, false)
+})

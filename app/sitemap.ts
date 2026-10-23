@@ -91,6 +91,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   // Entries are paired by index: getEntries sorts both languages identically.
   pt.forEach((e, i) => {
+    // Uncurated entries are noindex; listing them here would contradict that.
+    if (!e.curated) return
     const twin = en[i]
     const languages = pair(entryPath('pt', e.slug), entryPath('en', twin.slug))
     const lastModified = e.releasedAt ? new Date(e.releasedAt) : undefined

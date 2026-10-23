@@ -38,6 +38,8 @@ export type CatalogRow = {
   releaseUrl: string
   licenseId: string | null
   licenseUrl: string | null
+  /** Set by scripts/curate.ts once a person has judged and named the entry. */
+  curated?: boolean
 }
 
 /** A README image with its intrinsic size, so the page never crops it. */

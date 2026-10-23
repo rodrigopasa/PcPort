@@ -24,11 +24,16 @@ export async function generateMetadata({
   const { lang } = await params
   if (!isLang(lang)) return {}
   const when = monthYear(lang)
+  // `absolute` with the brand written out: the layout's "%s | PCPort" template
+  // reaches child segments only, never the page beside it, so the home was the
+  // one page shipping without the site's name in its title.
   return {
-    title:
-      lang === 'pt'
-        ? `Jogos de console no PC: todos os ports nativos (${when})`
-        : `Console Games on PC: Every Native Port (${when})`,
+    title: {
+      absolute:
+        lang === 'pt'
+          ? `Jogos de console no PC: todos os ports nativos (${when}) | ${SITE_NAME}`
+          : `Console Games on PC: Every Native Port (${when}) | ${SITE_NAME}`,
+    },
   }
 }
 
