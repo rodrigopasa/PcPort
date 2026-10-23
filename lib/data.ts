@@ -13,6 +13,7 @@ export { consoleSlug, formatDate, formatSize, gameYear, slugify }
 export type { Game, Shot }
 import { GAMES, type GameMeta } from './games'
 import { installSteps, portSummary } from './content'
+import { buildSlugs, movedFrom } from './slugs'
 import type { Lang, Mechanism } from './db/schema'
 
 /**
@@ -67,42 +68,17 @@ const libretro = () => libretroFile<Record<string, Shot & { source: string }>>()
 
 
 /**
- * "<game> pc" is the query, so it leads the slug. Two ports of the same game
- * exist (GoldenEye has two), so a collision falls back to the port's author.
- */
-function buildSlugs(lang: Lang): Map<string, string> {
-  const suffix = lang === 'pt' ? 'pc' : 'pc-port'
-  const seen = new Map<string, number>()
-  const out = new Map<string, string>()
-
-  // Curated entries claim the clean slug first. Two projects can port the same
-  // game — there are two Wipeouts and two GoldenEyes — and without this the
-  // uncurated one won the canonical URL by catalogue order, taking the title,
-  // the cover and the release date of the entry that actually has them.
-  const ordered = [...rows()].sort(
-    (a, b) => Number(Boolean(b.game)) - Number(Boolean(a.game)) || b.stars - a.stars,
-  )
-
-  for (const row of ordered) {
-    const base = `${slugify(row.title)}-${suffix}`
-    const n = seen.get(base) ?? 0
-    seen.set(base, n + 1)
-    out.set(row.id, n === 0 ? base : `${slugify(row.title)}-${slugify(row.author)}-${suffix}`)
-  }
-  return out
-}
-
-/**
  * Rebuilt whenever the catalog changes. Computing this once at module load
  * meant a reloaded catalog kept the old slugs, so new entries resolved to
- * nothing.
+ * nothing. Keyed on the rows themselves, not their count: a curated title
+ * changes a slug without changing how many entries there are.
  */
-let slugCache: { size: number; maps: Record<Lang, Map<string, string>> } | null = null
+let slugCache: { rows: CatalogRow[]; maps: Record<Lang, Map<string, string>> } | null = null
 
 function SLUGS_FOR(lang: Lang): Map<string, string> {
-  const size = rows().length
-  if (!slugCache || slugCache.size !== size) {
-    slugCache = { size, maps: { pt: buildSlugs('pt'), en: buildSlugs('en') } }
+  const all = rows()
+  if (!slugCache || slugCache.rows !== all) {
+    slugCache = { rows: all, maps: { pt: buildSlugs(all, 'pt'), en: buildSlugs(all, 'en') } }
   }
   return slugCache.maps[lang]
 }
@@ -167,8 +143,13 @@ export async function getEntries(lang: Lang): Promise<Entry[]> {
     .sort((a, b) => (b.releasedAt ?? '').localeCompare(a.releasedAt ?? ''))
 }
 
+/**
+ * The entry at an address, live or former. A former address returns the entry
+ * with its current slug, which differs from the one asked for: the page
+ * redirects on that difference.
+ */
 export async function getEntry(lang: Lang, slug: string): Promise<Entry | null> {
-  const id = [...SLUGS_FOR(lang).entries()].find(([, s]) => s === slug)?.[0]
+  const id = [...SLUGS_FOR(lang).entries()].find(([, s]) => s === slug)?.[0] ?? movedFrom(lang, slug)
   const row = id ? rows().find((r) => r.id === id) : undefined
   return row ? toEntry(row, lang) : null
 }

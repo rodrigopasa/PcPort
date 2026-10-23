@@ -16,6 +16,8 @@
  * and `title` is the game's real name, neither of which the API can infer.
  */
 import { writeFile, readFile } from 'node:fs/promises'
+import { readFileSync, writeFileSync } from 'node:fs'
+import { recordMoves, type SlugHistory, type SlugRow } from '../lib/slugs'
 import { checkRelease } from '../lib/guard'
 import { isCatalogable, isEmulator } from '../lib/quality'
 import { deriveTitle } from '../lib/title'
@@ -307,6 +309,15 @@ async function fetchRow(path: string, previous?: CatalogRow): Promise<CatalogRow
   }
 }
 
+/** A renamed entry keeps answering at its old address: see lib/slugs.ts. */
+function recordSlugMoves(before: SlugRow[], after: SlugRow[]) {
+  const file = 'lib/slug-history.json'
+  const history: SlugHistory = JSON.parse(readFileSync(file, 'utf8'))
+  const n = recordMoves(history, before, after)
+  writeFileSync(file, `${JSON.stringify(history, null, 2)}\n`)
+  if (n) console.log(`enderecos antigos  : ${n} redirecionados`)
+}
+
 async function main() {
   const existing: CatalogRow[] = await readFile(OUT, 'utf8')
     .then((r) => JSON.parse(r))
@@ -366,6 +377,8 @@ async function main() {
     (b.releasedAt ?? '').localeCompare(a.releasedAt ?? ''),
   )
   await writeFile(OUT, `${JSON.stringify(rows, null, 2)}\n`)
+  // An uncurated title is derived again each run, so its address can move.
+  recordSlugMoves(existing as unknown as SlugRow[], rows as unknown as SlugRow[])
 
   console.log(
     `\n${rows.length} entries · +${added} new · ${changed.length} updated · ${rejected} rejected` +

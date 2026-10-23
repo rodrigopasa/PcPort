@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import { notFound } from 'next/navigation'
+import { notFound, permanentRedirect } from 'next/navigation'
 import {
   getEntry,
   getEntries,
@@ -94,6 +94,9 @@ export default async function EntryPage({ params }: { params: Params }) {
 
   const [entry, counts] = await Promise.all([getEntry(lang, slug), getCounts()])
   if (!entry) notFound()
+  // A former address: the title was curated after this one was shared or
+  // indexed. 308 moves the link and what it earned to the current page.
+  if (entry.slug !== slug) permanentRedirect(entryPath(lang, entry.slug))
   const [related, siblings] = await Promise.all([
     getRelated(lang, entry),
     entry.game ? getGamePorts(lang, entry.game) : Promise.resolve([]),

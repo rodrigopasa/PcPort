@@ -16,6 +16,7 @@
  */
 import { readFileSync, writeFileSync } from 'node:fs'
 import { GAMES } from '../lib/games'
+import { recordMoves, type SlugHistory, type SlugRow } from '../lib/slugs'
 
 type Curation = { game?: string; title: string; console?: string; mechanism?: string }
 
@@ -734,6 +735,15 @@ const CURATED: Record<string, Curation> = {
   "Rainchus/Quest64-Recomp": { title: "Quest 64", console: "Nintendo 64" },
 }
 
+/** A renamed entry keeps answering at its old address: see lib/slugs.ts. */
+function recordSlugMoves(before: SlugRow[], after: SlugRow[]) {
+  const file = 'lib/slug-history.json'
+  const history: SlugHistory = JSON.parse(readFileSync(file, 'utf8'))
+  const n = recordMoves(history, before, after)
+  writeFileSync(file, `${JSON.stringify(history, null, 2)}\n`)
+  if (n) console.log(`enderecos antigos  : ${n} redirecionados`)
+}
+
 type Row = {
   repo: string
   title: string
@@ -746,6 +756,8 @@ type Row = {
 const FILE = 'lib/catalog.json'
 const rows: Row[] = JSON.parse(readFileSync(FILE, 'utf8'))
 const byRepo = new Map(rows.map((r) => [r.repo, r]))
+// Rows are edited in place below; the copy is what the addresses were.
+const before = structuredClone(rows) as unknown as SlugRow[]
 
 let applied = 0
 const unmatched: string[] = []
@@ -771,6 +783,7 @@ for (const [repo, c] of Object.entries(CURATED)) {
 }
 
 writeFileSync(FILE, `${JSON.stringify(rows, null, 2)}\n`)
+recordSlugMoves(before, rows as unknown as SlugRow[])
 
 console.log(`curadas aplicadas : ${applied}/${Object.keys(CURATED).length}`)
 console.log(`total com game    : ${rows.filter((r) => r.game).length}/${rows.length}`)
