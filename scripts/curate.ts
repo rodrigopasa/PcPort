@@ -594,6 +594,29 @@ const CURATED: Record<string, Curation> = {
   "YesterMester/TheSimpsonsGameRecomp": { game: "simpsons-game", title: "The Simpsons Game", console: "Xbox 360" },
   "Ekspym/Tekken6-native-online": { game: "tekken-6", title: "Tekken 6", console: "Xbox 360" },
   "djyt/cannonball": { title: "OutRun", console: "Arcade" },
+  // Tenth batch: legitimate ports from the widened discovery. Most are a
+  // second or third port of a game already in the catalog, which is what
+  // the comparison pages are for.
+  "SunJaycy/GoldenEye-Recomp": { game: "goldeneye-007", title: "GoldenEye 007", console: "Xbox 360" },
+  "Fable2Recomp/beanRecomp": { game: "goldeneye-007", title: "GoldenEye 007", console: "Xbox 360" },
+  "sonicdcer/Starfox64Recomp": { game: "star-fox-64", title: "Star Fox 64", console: "Nintendo 64" },
+  "birabittoh/NocturneRecomp": { game: "castlevania-sotn", title: "Castlevania: Symphony of the Night", console: "Xbox 360" },
+  "portingpete/The-Darkness-Recomp": { game: "the-darkness", title: "The Darkness", console: "Xbox 360" },
+  "sciaschi/CBFD-Recompiled": { game: "conkers-bad-fur-day", title: "Conker's Bad Fur Day", console: "Nintendo 64" },
+  "madelrandel-blip/NFSMW-Recompiled": { game: "nfs-most-wanted", title: "Need for Speed: Most Wanted", console: "Xbox 360" },
+  "0herculabs/hl360-forza4": { game: "forza-motorsport-4", title: "Forza Motorsport 4", console: "Xbox 360" },
+  "z3xox/BT3-Recomp": { game: "dbz-bt3", title: "Dragon Ball Z: Budokai Tenkaichi 3", console: "PlayStation 2" },
+  "YYOzcan/Tobiichi-Port": { game: "god-of-war", title: "God of War", console: "PlayStation 2" },
+  "mstan/ZeldaAlttPSNESRecomp": { game: "link-to-the-past", title: "The Legend of Zelda: A Link to the Past", console: "SNES" },
+  "goliathret/EdgeOfTimeRecomp": { game: "spider-man-edge-of-time", title: "Spider-Man: Edge of Time", console: "Xbox 360" },
+  "mahmoud-mess/tekken6-recomp": { game: "tekken-6", title: "Tekken 6", console: "Xbox 360" },
+  "cdlewis/snowboardkids2-decomp": { game: "snowboard-kids-2", title: "Snowboard Kids 2", console: "Nintendo 64" },
+  "zolaware/reblue": { game: "blue-dragon", title: "Blue Dragon", console: "Xbox 360" },
+  "himdo/Fable-2-Recomp": { game: "fable-2", title: "Fable II", console: "Xbox 360" },
+  "Fable2Recomp/Fable2Recomp": { game: "fable-2", title: "Fable II", console: "Xbox 360" },
+  "theclub654/ProjectCane": { title: "Sly Cooper and the Thievius Raccoonus", console: "PlayStation 2" },
+  "TheOnlyZac/sly1": { title: "Sly Cooper and the Thievius Raccoonus", console: "PlayStation 2" },
+  "Matteo842/CrashBandicoot-Launcher": { title: "Crash Bandicoot", console: "PlayStation" },
 }
 
 type Row = {

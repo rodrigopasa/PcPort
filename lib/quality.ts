@@ -49,6 +49,67 @@ export type Candidate = {
  * catches nothing.
  */
 const DENIED: Record<string, string> = {
+  // From the widened discovery of 2026-10-23, judged one by one. Tooling is
+  // the largest group: the README search for recompiler names finds the
+  // recompilers themselves as well as the ports built with them.
+  "rexglue/rexglue-sdk":
+    "not a game port: recompiler or decompilation tooling the ports are built with",
+  "sp00nznet/ps3recomp":
+    "not a game port: recompiler or decompilation tooling the ports are built with",
+  "RetroPortingToolKit/psxrecomp":
+    "not a game port: recompiler or decompilation tooling the ports are built with",
+  "RetroPortingToolKit/ndsrecomp":
+    "not a game port: recompiler or decompilation tooling the ports are built with",
+  "encounter/decomp-toolkit":
+    "not a game port: recompiler or decompilation tooling the ports are built with",
+  "sp00nznet/xboxrecomp":
+    "not a game port: recompiler or decompilation tooling the ports are built with",
+  "sp00nznet/360tools":
+    "not a game port: recompiler or decompilation tooling the ports are built with",
+  "N64Recomp/N64ModernRuntime":
+    "not a game port: recompiler or decompilation tooling the ports are built with",
+  "KaiserGranatapfel/GameCubeRecompiled":
+    "not a game port: recompiler or decompilation tooling the ports are built with",
+  "fearkov/3dsrecomp":
+    "not a game port: recompiler or decompilation tooling the ports are built with",
+  "hgarrereyn/STRIDE":
+    "not a game port: a type-recognition research tool for decompiled binaries",
+  "hkmodd/ps2-recomp-Agent-SKILL":
+    "not a game port: an AI agent skill file for reverse engineering",
+  "mahaloz/decompilation-wiki":
+    "not a game port: a wiki about decompilation",
+  "Carter54git/Greates-Games-Decompilations-List":
+    "not a game port: a list of decompilation projects",
+  "open-ead/sead":
+    "not a game: a decompilation of the standard library Nintendo games link against",
+  "koopthekoopa/wii-ipl":
+    "not a game: a decompilation of the Wii system menu",
+  "CrownParkComputing/Xbox360-Native-Ports":
+    "a bundle of launchers for many games, not a port of one",
+  "dashr9230/SA-MP":
+    "a PC mod (San Andreas Multiplayer) for a game that was already on PC",
+  "krystalgamer/spidey-decomp":
+    "decompiles the PC version of Spider-Man (2000), a game already on PC",
+  "CMR2Decomp/CMR2Decomp":
+    "decompiles the PC release of Colin McRae Rally 2.0, already on PC",
+  "nautilusbits/skynet-godot":
+    "a remake of two 1996 PC games, outside the console-to-PC focus",
+  "RecompRando/MMRecompRando":
+    "a randomizer mod for an existing port, not a port",
+  "DabDavis/perfect-dark-dabs-mod":
+    "a gameplay mod fork of a port already listed",
+  "SMCGames/Paper-Mario-ReCut-Deprecated":
+    "deprecated by its own author, as the repository name says",
+  "NJH-1001/Wipeout2K97XL":
+    "emulator setup kits (BIOS and configuration), not a port",
+  "bigmak94/GalaxyQuest":
+    "targets the Meta Quest 3 headset, not the PC",
+  "endercodezz/P3P3DS":
+    "a port to the New Nintendo 3DS, not to the PC",
+  "Dhaiwat10/cricket07-browser":
+    "runs in the browser, and Cricket 07 was already a PC game",
+  "DinosaurPlanetRecomp/dino-recomp":
+    "built from a leaked prototype of a game that was never released, so there is no copy a reader could own",
   'Ashnar2602/X360-Mobile---OFFICIAL':
     'an Xbox 360 emulator for Android, not for the PC: every release asset is ' +
     'an .apk and its README says so in the title. Nothing of that is in the ' +

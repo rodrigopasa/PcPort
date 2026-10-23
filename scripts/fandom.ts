@@ -131,6 +131,8 @@ const WIKI: Record<string, string[]> = {
   'tekken-6': ['tekken'],
   'links-awakening': ['zelda'],
   'bayonetta-2': ['bayonetta'],
+  'blue-dragon': ['bluedragon'],
+  'fable-2': ['fable'],
 }
 
 /**
@@ -159,6 +161,9 @@ const WIKI: Record<string, string[]> = {
  * file anyway and the list stops mattering.
  */
 const REJECTED: Record<string, string> = {
+  'links-awakening':
+    "Fandom served Breath of the Wild artwork of Link, not the Link’s Awakening box",
+  'ace-combat-6': 'Fandom served the cover of the official strategy guide, not the game',
   'naruto-storm-generations':
     'Fandom served the box of Ultimate Ninja Storm 2, a different game in the series',
   'monster-hunter-portable-3rd':

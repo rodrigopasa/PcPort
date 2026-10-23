@@ -1271,6 +1271,26 @@ export const GAMES: Record<string, GameMeta> = {
       en: "The sixth main fighting game in the series, with Rage, which raises damage when health runs low, and multi-level stages.",
     },
   },
+  "blue-dragon": {
+    releasedAt: "2006-12-07",
+    developer: "Mistwalker",
+    publisher: "Microsoft Game Studios",
+    genres: ["RPG"],
+    summary: {
+      pt: "RPG de turnos de Hironobu Sakaguchi, com arte de Akira Toriyama, em que cada personagem luta com uma sombra em forma de criatura. Foi o jogo que tentou levar o Xbox 360 ao público japonês.",
+      en: "A turn-based RPG from Hironobu Sakaguchi, with art by Akira Toriyama, in which each character fights alongside a shadow shaped like a creature. It was the game meant to win Japanese players over to the Xbox 360.",
+    },
+  },
+  "fable-2": {
+    releasedAt: "2008-10-21",
+    developer: "Lionhead Studios",
+    publisher: "Microsoft Game Studios",
+    genres: ["RPG", "Ação"],
+    summary: {
+      pt: "RPG de mundo aberto em Albion, com um cachorro que acompanha o herói por toda a vida e escolhas morais que mudam o corpo e a reputação do personagem.",
+      en: "An open-world RPG set in Albion, with a dog that follows the hero for life and moral choices that change the character’s body and reputation.",
+    },
+  },
 }
 
 export function gameFor(key: string | null): GameMeta | null {
