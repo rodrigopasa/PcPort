@@ -11,6 +11,11 @@ import { LeadShot } from './Shots'
  * The page's single focal move. The scale jump between the title and the
  * figures is the whole composition, and the LCP element is text the server
  * already sent.
+ *
+ * Its title is an h2. It used to be the home's only h1, so the page told a
+ * search engine it was about whichever game shipped last — "Halo 2 no PC" one
+ * hour, something else the next. The h1 is now the catalog's own name, set
+ * above this band at a smaller size so the focal move stays this one.
  */
 export function LeadBand({ entry, lang }: { entry: Entry; lang: Lang }) {
   const t = DICT[lang]
@@ -37,14 +42,14 @@ export function LeadBand({ entry, lang }: { entry: Entry; lang: Lang }) {
 
         <div className="min-w-0">
           <StatusChip mechanism={entry.mechanism} lang={lang} size="lg" />
-          <h1 className="mt-4 text-[clamp(2rem,4.8vw,4rem)] leading-[0.95] font-extrabold tracking-[-0.04em] text-balance">
+          <h2 className="mt-4 text-[clamp(2rem,4.8vw,4rem)] leading-[0.95] font-extrabold tracking-[-0.04em] text-balance">
             <Link
               href={entryPath(lang, entry.slug)}
               className="no-underline hover:underline decoration-hairline-strong"
             >
               {entry.gameMeta ? t.onPc(entry.title) : entry.title}
             </Link>
-          </h1>
+          </h2>
           <p className="mt-4 max-w-[62ch] text-[15px] leading-relaxed text-muted">
             {entry.gameMeta?.summary ?? entry.repoDescription}
           </p>

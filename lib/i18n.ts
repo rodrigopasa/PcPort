@@ -116,7 +116,7 @@ export const DICT: Record<Lang, Dict> = {
   pt: {
     tagline: 'Ports nativos de console para PC, conferidos e sempre atualizados.',
     ports: 'ports',
-    thisWeek: 'novos esta semana',
+    thisWeek: 'atualizados esta semana',
     search: 'Buscar jogo…',
     filterConsole: 'Console',
     filterMechanism: 'Mecanismo',
@@ -192,7 +192,7 @@ export const DICT: Record<Lang, Dict> = {
   en: {
     tagline: 'Native console-to-PC ports, verified and continuously updated.',
     ports: 'ports',
-    thisWeek: 'new this week',
+    thisWeek: 'updated this week',
     search: 'Search a game…',
     filterConsole: 'Console',
     filterMechanism: 'Mechanism',
