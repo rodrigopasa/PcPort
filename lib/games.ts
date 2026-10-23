@@ -1011,6 +1011,36 @@ export const GAMES: Record<string, GameMeta> = {
       en: 'Three-dimensional arena fighting with the largest roster in the series to that point, split between the Naruto and Shippuden eras. One-button combat with substitution and support characters.',
     },
   },
+  wet: {
+    releasedAt: '2009-09-15',
+    developer: 'Artificial Mind and Movement',
+    publisher: 'Bethesda Softworks',
+    genres: ['Ação', 'Tiro em terceira pessoa'],
+    summary: {
+      pt: 'Ação no estilo grindhouse: a mercenária Rubi Malone atira em câmera lenta enquanto desliza, salta e corre pelas paredes.',
+      en: 'Grindhouse-style action: the mercenary Rubi Malone shoots in slow motion while sliding, leaping and running along walls.',
+    },
+  },
+  'wave-race-64': {
+    releasedAt: '1996-09-27',
+    developer: 'Nintendo EAD',
+    publisher: 'Nintendo',
+    genres: ['Corrida'],
+    summary: {
+      pt: 'Corrida de jet ski em que a água é a pista: as ondas mudam a cada volta e decidem a linha de cada curva.',
+      en: 'Jet ski racing where the water is the track: the waves shift every lap and decide the line through each turn.',
+    },
+  },
+  'space-station-silicon-valley': {
+    releasedAt: '1998-10-22',
+    developer: 'DMA Design',
+    publisher: 'Take-Two Interactive',
+    genres: ['Plataforma'],
+    summary: {
+      pt: 'Um microchip que assume o corpo dos animais robóticos que derrota, e usa a habilidade de cada um para atravessar a estação.',
+      en: 'A microchip that takes over the robotic animals it defeats, using each one’s ability to cross the station.',
+    },
+  },
   'hard-corps-uprising': {
     releasedAt: '2011-02-16',
     developer: 'Arc System Works',
