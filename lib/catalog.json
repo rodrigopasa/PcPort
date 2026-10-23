@@ -28,7 +28,7 @@
     "mechanism": "in-progress",
     "platforms": [],
     "stars": 44,
-    "description": "Ultimate Mortal Kombat 3 (iOS, EA Mobile 2011), fully decompiled: all 2,572 game functions are readable C, checked against a static ARM-to-C recompiler. Native port in progress: menus, sound and saves run; fight data tables extracted from your copy and verified; not playable yet. No game assets - bring your own copy.",
+    "description": "Decompiled Ultimate Mortal Kombat 3 (iOS v1.2.59) with a playable native PC port featuring DirectX, Vulkan, OpenGL, widescreen support, HD textures, and multiplayer. Original game assets required.",
     "version": null,
     "releasedAt": "2026-10-23",
     "sizeBytes": null,
@@ -103,7 +103,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 2335,
+    "stars": 2339,
     "description": "Decompilation of The Legend of Zelda: Breath of the Wild (Switch 1.5.0)",
     "version": null,
     "releasedAt": "2026-10-23",
@@ -147,7 +147,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 132,
+    "stars": 133,
     "description": "Ninja Gaiden Black (Xbox, 2005) statically recompiled into native Linux and Windows builds, drawn by its own Vulkan renderer. A steady 60 fps, widescreen and ultrawide, keyboard and mouse, Steam Deck ready. Bring your own copy of the game.",
     "version": null,
     "releasedAt": "2026-10-23",
@@ -155,6 +155,28 @@
     "releaseUrl": "https://github.com/gamboozino/ngbrecomp/releases",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
+  },
+  {
+    "id": "dyotson-forzahorizon1-reimagined",
+    "repo": "Dyotson/ForzaHorizon1-ReImagined",
+    "title": "Forza Horizon",
+    "game": "forza-horizon",
+    "author": "Dyotson",
+    "console": "Xbox 360",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 263,
+    "description": "Forza Horizon (Xbox 360) natively on PC, rebuilt around the modern Horizon experience: shared online free roam, leaderboards and rivals, 120/144 fps, and a self-hostable online server.",
+    "version": "v0.1.30",
+    "releasedAt": "2026-10-23",
+    "sizeBytes": 93556494,
+    "releaseUrl": "https://github.com/Dyotson/ForzaHorizon1-ReImagined/releases/tag/v0.1.30",
+    "licenseId": "MIT",
+    "licenseUrl": "https://api.github.com/licenses/mit",
     "curated": true
   },
   {
@@ -241,7 +263,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 392,
+    "stars": 396,
     "description": "Native PC port (Linux/Windows) of The Last Guardian (PS4, CUSA03627) — runs your own game dump; no game or firmware files included. Mouse/keyboard, optional 60 FPS, SMAA/CAS filters. | Port nativo para PC de The Last Guardian — usa o seu próprio dump.",
     "version": "v2026.10.22-3232792",
     "releasedAt": "2026-10-22",
@@ -262,7 +284,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 56,
+    "stars": 57,
     "description": "WipEout Omega Collection (PS4) native PC port for Windows: original x86-64 code on the CPU, PS4 runtime, shadPS4 Vulkan video core. Early development. No game files included.",
     "version": "windows-v0.2.1",
     "releasedAt": "2026-10-22",
@@ -270,28 +292,6 @@
     "releaseUrl": "https://github.com/AbdelmoumenDeghbouche/wipeout_pc/releases/tag/windows-v0.2.1",
     "licenseId": "GPL-2.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-2.0",
-    "curated": true
-  },
-  {
-    "id": "dyotson-forzahorizon1-reimagined",
-    "repo": "Dyotson/ForzaHorizon1-ReImagined",
-    "title": "Forza Horizon",
-    "game": "forza-horizon",
-    "author": "Dyotson",
-    "console": "Xbox 360",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 262,
-    "description": "Forza Horizon (Xbox 360) natively on PC, rebuilt around the modern Horizon experience: shared online free roam, leaderboards and rivals, 120/144 fps, and a self-hostable online server.",
-    "version": "v0.1.29",
-    "releasedAt": "2026-10-22",
-    "sizeBytes": 93369997,
-    "releaseUrl": "https://github.com/Dyotson/ForzaHorizon1-ReImagined/releases/tag/v0.1.29",
-    "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit",
     "curated": true
   },
   {
@@ -387,7 +387,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 804,
+    "stars": 806,
     "description": "Native PC port (Linux/Windows) of inFAMOUS Second Son (PS4, CUSA00223) — in development, playable; runs your own game dump; no game or firmware files included. Motion sensor emulation. | Port nativo para PC de inFAMOUS Second Son (em desenvolvimento) — usa o seu próprio dump.",
     "version": "v1.0",
     "releasedAt": "2026-10-22",
@@ -468,7 +468,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 118,
+    "stars": 119,
     "description": "Conker's Bad Fur Day running natively on PC: an N64 recompilation with a Classic mode true to the N64 and a Modern mode (widescreen, smooth frame rate, free camera).",
     "version": "v1.4.4",
     "releasedAt": "2026-10-22",
@@ -511,7 +511,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 120,
+    "stars": 121,
     "description": "Call of Duty: Modern Warfare 2 (2009) for Xbox 360 recompiled for Windows & Linux",
     "version": "v0.7.0",
     "releasedAt": "2026-10-22",
@@ -575,7 +575,7 @@
     "console": "PC",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 72,
+    "stars": 76,
     "description": "EA Sports Cricket 07 (2006) running in the browser: every function statically recompiled from x86 to C, then WebAssembly, with Direct3D 8 rebuilt on WebGPU. Bring your own copy.",
     "version": null,
     "releasedAt": "2026-10-22",
@@ -638,7 +638,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 132,
+    "stars": 133,
     "description": "Def Jam: Fight for NY PC port — static recompilation of the original Xbox game for native Windows and macOS (Direct3D 11 / Vulkan). Bring your own game dump.",
     "version": "v0.10.7",
     "releasedAt": "2026-10-22",
@@ -766,7 +766,7 @@
     "console": "Nintendo 64",
     "mechanism": "native",
     "platforms": [],
-    "stars": 1758,
+    "stars": 1759,
     "description": "Decompilation of The Legend of Zelda: Majora's Mask",
     "version": null,
     "releasedAt": "2026-10-21",
@@ -870,7 +870,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 864,
+    "stars": 866,
     "description": "A playable preview of Forza Horizon static recompilation",
     "version": "v0.6.1",
     "releasedAt": "2026-10-21",
@@ -1155,7 +1155,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 71,
+    "stars": 73,
     "description": "Dead or Alive 3 PC Port ",
     "version": "v1.0.6",
     "releasedAt": "2026-10-19",
@@ -1301,7 +1301,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 663,
+    "stars": 669,
     "description": "An unofficial original Xbox version PC port of BLACK (2006) via static recompilation.",
     "version": "V2",
     "releasedAt": "2026-10-18",
@@ -1323,7 +1323,7 @@
       "Windows",
       "Android"
     ],
-    "stars": 74,
+    "stars": 75,
     "description": "Naruto Shippuden: Ultimate Ninja Storm Generations (Xbox 360) rodando nativamente no Android e no PC: recompilação estática, sem emulador de CPU.",
     "version": "v0.3.5",
     "releasedAt": "2026-10-18",
@@ -1580,7 +1580,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 33868,
+    "stars": 33869,
     "description": "PlayStation 4 emulator for Windows, Linux, macOS and FreeBSD written in C++",
     "version": "v.0.20.0",
     "releasedAt": "2026-10-14",
@@ -1908,7 +1908,7 @@
     "console": "Game Boy Advance",
     "mechanism": "native",
     "platforms": [],
-    "stars": 3628,
+    "stars": 3629,
     "description": "Decompilation of Pokémon Emerald",
     "version": null,
     "releasedAt": "2026-10-01",
@@ -1927,7 +1927,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 207,
+    "stars": 208,
     "description": "Native Windows port of Dead or Alive Xtreme Beach Volleyball (Xbox), built by static recompilation with a hand-written runtime. Requires your own copy of the game.",
     "version": "v0.5.3",
     "releasedAt": "2026-09-30",
@@ -2007,7 +2007,7 @@
     "platforms": [
       "Linux"
     ],
-    "stars": 75,
+    "stars": 76,
     "description": "PSX recompilation of Bloody Roar II (SLES-01722 EU / SCUS-94424 USA). Anti-copyright: bring your own disc. Dual-region builds, from-scratch widescreen + curated mods.",
     "version": "v0.7.1",
     "releasedAt": "2026-09-26",
@@ -2026,7 +2026,7 @@
     "console": "PlayStation",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 62,
+    "stars": 63,
     "description": "Tekken 3 hybrid recompilation preview with Jun Kazama, widescreen, custom skins and local asset import tools.",
     "version": null,
     "releasedAt": "2026-09-23",
@@ -2465,7 +2465,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5252,
+    "stars": 5253,
     "description": "An unofficial PC port of the Xbox 360 version of Sonic Unleashed created through the process of static recompilation.",
     "version": "v1.0.3",
     "releasedAt": "2025-04-03",
@@ -2571,7 +2571,7 @@
     "console": "Xbox",
     "mechanism": "in-progress",
     "platforms": [],
-    "stars": 457,
+    "stars": 458,
     "description": "Halo: Combat Evolved (for original Xbox) Decompilation Research Project",
     "version": null,
     "releasedAt": "2023-10-09",
@@ -2590,7 +2590,7 @@
     "console": "PlayStation",
     "mechanism": "native",
     "platforms": [],
-    "stars": 1167,
+    "stars": 1168,
     "description": "Decompilation of Castlevania: Symphony of the Night (PSX, PSP, Saturn)",
     "version": "cc1-psx-26",
     "releasedAt": "2023-04-05",
