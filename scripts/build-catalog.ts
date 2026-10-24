@@ -241,8 +241,31 @@ async function discover(): Promise<string[]> {
   return [...found]
 }
 
-async function fetchRow(path: string, previous?: CatalogRow): Promise<CatalogRow | 'rejected' | null> {
+/**
+ * True only when GitHub answers that the repository does not exist. Any other
+ * failure — a timeout, a 500 — says nothing about it, and an entry is never
+ * dropped on a guess.
+ */
+async function vanished(path: string): Promise<boolean> {
+  const res = await fetch(`${API}/repos/${path}`, {
+    headers: {
+      accept: 'application/vnd.github+json',
+      'user-agent': 'pcport-catalog',
+      ...(TOKEN ? { authorization: `Bearer ${TOKEN}` } : {}),
+    },
+  })
+  return res.status === 404
+}
+
+async function fetchRow(
+  path: string,
+  previous?: CatalogRow,
+): Promise<CatalogRow | 'rejected' | 'gone' | null> {
   const repo = await gh<Repo>(`/repos/${path}`)
+  // Deleted or made private. PrimeDecomp/prime went this way and its entry
+  // stayed for days, its links answering 404, because a missing repository
+  // was treated like any other failed request: keep what was there.
+  if (!repo && previous && (await vanished(path))) return 'gone'
   // A fork is refused because discovery would otherwise list every copy of a
   // popular port. A seeded one was checked by a person, and a fork can be the
   // distinct port: Bloodborne's Windows build exists only in one.
@@ -355,6 +378,12 @@ async function main() {
     try {
       const row = await fetchRow(path, previous)
       if (row === 'rejected') { rejected++; continue }
+      if (row === 'gone') {
+        // Its address is recorded on write and redirects to the closest page.
+        byRepo.delete(path)
+        console.log(`-  ${previous!.title} — ${path} no longer exists on GitHub`)
+        continue
+      }
       if (!row) continue
 
       if (!previous) {

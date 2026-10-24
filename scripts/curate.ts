@@ -63,7 +63,8 @@ const CURATED: Record<string, Curation> = {
     title: 'Metroid Prime',
     console: 'GameCube',
   },
-  'PrimeDecomp/prime': { game: 'metroid-prime', title: 'Metroid Prime', console: 'GameCube' },
+  // PrimeDecomp/prime was removed from GitHub in October 2026; the native
+  // port built on it stays, and the decompilation's address redirects there.
   'AliveTeam/alive_reversing': {
     game: 'oddworld-abes-exoddus',
     title: "Oddworld: Abe's Exoddus",
