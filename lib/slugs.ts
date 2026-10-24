@@ -1,6 +1,7 @@
 import { slugify } from './format'
 import type { Lang } from './db/schema'
 import HISTORY from './slug-history.json'
+import GONE from './slug-gone.json'
 
 /**
  * A port page's address is made from its title, so curating a title moves
@@ -11,10 +12,24 @@ import HISTORY from './slug-history.json'
  * Old addresses are kept in slug-history.json, old slug to entry id, and
  * answered with a permanent redirect to wherever the entry lives now. The
  * scripts that rename entries record the move as they write the catalog.
+ *
+ * An entry can also leave the catalog — SwitchRecomp did, being research and
+ * not a game. Its address keeps the game and console it had, in
+ * slug-gone.json, and sends the visitor to the closest page still standing:
+ * the game's other ports, then its console, then the catalog.
  */
 
-export type SlugRow = { id: string; title: string; author: string; game?: string | null; stars: number }
+export type SlugRow = {
+  id: string
+  title: string
+  author: string
+  game?: string | null
+  console?: string
+  stars: number
+}
 export type SlugHistory = Record<Lang, Record<string, string>>
+export type Gone = { game: string | null; console: string | null }
+export type GoneBook = Record<Lang, Record<string, Gone>>
 
 /**
  * "<game> pc" is the query, so it leads the slug. Two ports of the same game
@@ -42,6 +57,26 @@ export function buildSlugs(rows: SlugRow[], lang: Lang): Map<string, string> {
   return out
 }
 
+/** What a removed entry's address was about, if it was ever an entry's. */
+export function goneFrom(lang: Lang, slug: string): Gone | null {
+  return (GONE as GoneBook)[lang]?.[slug] ?? null
+}
+
+/** Every console a removed entry belonged to, by name. */
+export function goneConsoles(): string[] {
+  const out = new Set<string>()
+  for (const book of Object.values(GONE as GoneBook))
+    for (const g of Object.values(book)) if (g.console) out.add(g.console)
+  return [...out]
+}
+
+/** The console a game's removed ports were on, for a comparison page left empty. */
+export function goneConsoleOf(game: string): string | null {
+  for (const book of Object.values(GONE as GoneBook))
+    for (const g of Object.values(book)) if (g.game === game && g.console) return g.console
+  return null
+}
+
 /** The entry an old address belonged to, if it ever belonged to one. */
 export function movedFrom(lang: Lang, slug: string): string | null {
   return (HISTORY as SlugHistory)[lang]?.[slug] ?? null
@@ -67,6 +102,30 @@ export function recordMoves(history: SlugHistory, before: SlugRow[], after: Slug
       }
     }
     for (const slug of Object.keys(book)) if (live.has(slug)) delete book[slug]
+  }
+  return added
+}
+
+/**
+ * Records the addresses of entries `before` had and `after` does not. An
+ * address live again in `after` — the entry came back, or another took the
+ * name — leaves this book, since the live page always wins.
+ */
+export function recordGone(book: GoneBook, before: SlugRow[], after: SlugRow[]): number {
+  let added = 0
+  const kept = new Set(after.map((r) => r.id))
+  for (const lang of ['pt', 'en'] as Lang[]) {
+    const was = buildSlugs(before, lang)
+    const live = new Set(buildSlugs(after, lang).values())
+    const page = (book[lang] ??= {})
+    for (const row of before) {
+      if (kept.has(row.id)) continue
+      const slug = was.get(row.id)!
+      if (live.has(slug) || page[slug]) continue
+      page[slug] = { game: row.game ?? null, console: row.console ?? null }
+      added++
+    }
+    for (const slug of Object.keys(page)) if (live.has(slug)) delete page[slug]
   }
   return added
 }

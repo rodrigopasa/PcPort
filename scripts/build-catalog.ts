@@ -17,7 +17,7 @@
  */
 import { writeFile, readFile } from 'node:fs/promises'
 import { readFileSync, writeFileSync } from 'node:fs'
-import { recordMoves, type SlugHistory, type SlugRow } from '../lib/slugs'
+import { recordGone, recordMoves, type GoneBook, type SlugHistory, type SlugRow } from '../lib/slugs'
 import { checkRelease } from '../lib/guard'
 import { isCatalogable, isEmulator } from '../lib/quality'
 import { deriveTitle } from '../lib/title'
@@ -309,13 +309,21 @@ async function fetchRow(path: string, previous?: CatalogRow): Promise<CatalogRow
   }
 }
 
-/** A renamed entry keeps answering at its old address: see lib/slugs.ts. */
+/**
+ * A renamed or removed entry keeps answering at its old address: see
+ * lib/slugs.ts.
+ */
 function recordSlugMoves(before: SlugRow[], after: SlugRow[]) {
   const file = 'lib/slug-history.json'
   const history: SlugHistory = JSON.parse(readFileSync(file, 'utf8'))
   const n = recordMoves(history, before, after)
   writeFileSync(file, `${JSON.stringify(history, null, 2)}\n`)
   if (n) console.log(`enderecos antigos  : ${n} redirecionados`)
+  const goneFile = 'lib/slug-gone.json'
+  const gone: GoneBook = JSON.parse(readFileSync(goneFile, 'utf8'))
+  const g = recordGone(gone, before, after)
+  writeFileSync(goneFile, `${JSON.stringify(gone, null, 2)}\n`)
+  if (g) console.log(`entradas removidas : ${g} enderecos redirecionados`)
 }
 
 async function main() {

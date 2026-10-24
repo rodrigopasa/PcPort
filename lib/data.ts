@@ -13,7 +13,8 @@ export { consoleSlug, formatDate, formatSize, gameYear, slugify }
 export type { Game, Shot }
 import { GAMES, type GameMeta } from './games'
 import { installSteps, portSummary } from './content'
-import { buildSlugs, movedFrom } from './slugs'
+import { buildSlugs, movedFrom, goneFrom, goneConsoleOf, goneConsoles } from './slugs'
+import { entryPath, hubPath } from './i18n'
 import type { Lang, Mechanism } from './db/schema'
 
 /**
@@ -223,3 +224,59 @@ export async function getCounts() {
 
 
 
+
+/**
+ * The closest page still standing for something that left the catalog: the
+ * game's comparison, else its one remaining port, else its console, else
+ * the catalog itself. Resolved on each request, so it follows the catalog —
+ * a game that gains a second port starts sending its old visitors there.
+ */
+export function closestPage(lang: Lang, game: string | null, consoleName: string | null): string {
+  const all = rows()
+  if (game) {
+    const ports = all.filter((r) => r.game === game)
+    if (ports.length > 1) return hubPath(lang, game)
+    if (ports.length === 1) return entryPath(lang, SLUGS_FOR(lang).get(ports[0].id)!)
+  }
+  if (consoleName) {
+    const slug = consoleSlug(consoleName)
+    if (all.some((r) => consoleSlug(r.console) === slug)) return `/${lang}/console/${slug}`
+  }
+  return `/${lang}`
+}
+
+/** Where a removed entry's address now leads, or null if it never was one. */
+export function formerEntryPage(lang: Lang, slug: string): string | null {
+  const gone = goneFrom(lang, slug)
+  return gone ? closestPage(lang, gone.game, gone.console) : null
+}
+
+/**
+ * A comparison that lost its second port. Only a game the site has known —
+ * in games.ts or among removed entries — redirects; any other word is a 404.
+ */
+export function formerHubPage(lang: Lang, game: string): string | null {
+  const known = Boolean(GAMES[game]) || rows().some((r) => r.game === game) || goneConsoleOf(game) !== null
+  if (!known) return null
+  return closestPage(lang, game, goneConsoleOf(game))
+}
+
+/** A console page whose last entry left: the console list, if the console was ever ours. */
+export function formerConsolePage(lang: Lang, slug: string): string | null {
+  return goneConsoles().some((c) => consoleSlug(c) === slug) ? `/${lang}/consoles` : null
+}
+
+/**
+ * The address in `lang` for a slug from either language, live, renamed or
+ * removed. Null when no entry ever had it.
+ */
+export function entryAcrossLanguages(lang: Lang, slug: string): string | null {
+  for (const from of [lang, lang === 'pt' ? 'en' : 'pt'] as Lang[]) {
+    const id = [...SLUGS_FOR(from).entries()].find(([, s]) => s === slug)?.[0] ?? movedFrom(from, slug)
+    const here = id ? SLUGS_FOR(lang).get(id) : undefined
+    if (here) return entryPath(lang, here)
+    const gone = goneFrom(from, slug)
+    if (gone) return closestPage(lang, gone.game, gone.console)
+  }
+  return null
+}

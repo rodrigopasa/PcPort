@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
-import { notFound } from 'next/navigation'
-import { getByConsole, getConsoles, getCounts } from '@/lib/data'
+import { notFound, permanentRedirect } from 'next/navigation'
+import { getByConsole, getConsoles, getCounts, formerConsolePage } from '@/lib/data'
 import { isLang, SITE, SITE_NAME, DICT, entryPath, monthYear } from '@/lib/i18n'
 import { SiteHeader } from '@/components/SiteHeader'
 import { SiteFooter } from '@/components/SiteFooter'
@@ -52,7 +52,11 @@ export default async function ConsolePage({ params }: { params: Params }) {
   if (!isLang(lang)) notFound()
 
   const [{ rows, name }, counts] = await Promise.all([getByConsole(lang, slug), getCounts()])
-  if (!name) notFound()
+  if (!name) {
+    const moved = formerConsolePage(lang, slug)
+    if (moved) permanentRedirect(moved)
+    notFound()
+  }
   const t = DICT[lang]
 
   const ld = {

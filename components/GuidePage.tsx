@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import { notFound } from 'next/navigation'
+import { notFound, permanentRedirect } from 'next/navigation'
 import { getCounts, getEntries, type Entry } from '@/lib/data'
 import { DICT, SITE, SITE_NAME, entryPath, guidePath, guidesPath, monthYear } from '@/lib/i18n'
 import { guideBySlug, guideEntries, liveGuides, MIN_ENTRIES, type Guide } from '@/lib/guides'
@@ -55,7 +55,12 @@ export async function guideMetadata(lang: Lang, slug: string): Promise<Metadata>
 
 export async function GuidePage({ lang, slug }: { lang: Lang; slug: string }) {
   const hit = await resolve(lang, slug)
-  if (!hit) notFound()
+  if (!hit) {
+    // A list guide that fell under its minimum still has an address people
+    // may hold: it sends them to the guides it sits among.
+    if (guideBySlug(lang, slug)) permanentRedirect(guidesPath(lang))
+    notFound()
+  }
   const { guide, all, entries } = hit
   const counts = await getCounts()
   const others = liveGuides(all).filter((g) => g.guide.key !== guide.key)

@@ -10,15 +10,18 @@
  */
 import { execFileSync } from 'node:child_process'
 import { readFileSync, writeFileSync } from 'node:fs'
-import { recordMoves, type SlugHistory, type SlugRow } from '../lib/slugs'
+import { recordGone, recordMoves, type GoneBook, type SlugHistory, type SlugRow } from '../lib/slugs'
 
 const FILE = 'lib/slug-history.json'
+const GONE = 'lib/slug-gone.json'
 const history: SlugHistory = JSON.parse(readFileSync(FILE, 'utf8'))
+const gone: GoneBook = JSON.parse(readFileSync(GONE, 'utf8'))
 const current: SlugRow[] = JSON.parse(readFileSync('lib/catalog.json', 'utf8'))
 const git = (...a: string[]) => execFileSync('git', a, { encoding: 'utf8', maxBuffer: 1 << 28 })
 
 const shas = git('log', '--format=%H', '--', 'lib/catalog.json').trim().split('\n')
 let added = 0
+let removed = 0
 for (const sha of shas) {
   let rows: unknown
   try {
@@ -26,8 +29,12 @@ for (const sha of shas) {
   } catch {
     continue
   }
-  if (Array.isArray(rows)) added += recordMoves(history, rows as SlugRow[], current)
+  if (!Array.isArray(rows)) continue
+  added += recordMoves(history, rows as SlugRow[], current)
+  removed += recordGone(gone, rows as SlugRow[], current)
 }
 writeFileSync(FILE, `${JSON.stringify(history, null, 2)}\n`)
+writeFileSync(GONE, `${JSON.stringify(gone, null, 2)}\n`)
 console.log(`${shas.length} versoes lidas, ${added} enderecos antigos registrados`)
 console.log(`pt ${Object.keys(history.pt).length}, en ${Object.keys(history.en).length}`)
+console.log(`${removed} enderecos de entradas removidas: pt ${Object.keys(gone.pt).length}, en ${Object.keys(gone.en).length}`)

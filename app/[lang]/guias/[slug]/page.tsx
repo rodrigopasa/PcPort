@@ -1,7 +1,8 @@
 import type { Metadata } from 'next'
-import { notFound } from 'next/navigation'
+import { notFound, permanentRedirect } from 'next/navigation'
 import { GuidePage, guideMetadata } from '@/components/GuidePage'
-import { GUIDES } from '@/lib/guides'
+import { GUIDES, guideBySlug } from '@/lib/guides'
+import { guidePath, guidesPath } from '@/lib/i18n'
 
 type Params = Promise<{ lang: string; slug: string }>
 
@@ -18,6 +19,10 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
 
 export default async function Page({ params }: { params: Params }) {
   const { lang, slug } = await params
+  if (lang === 'en') {
+    const g = guideBySlug('pt', slug) ?? guideBySlug('en', slug)
+    permanentRedirect(g ? guidePath('en', g.slug.en) : guidesPath('en'))
+  }
   if (lang !== 'pt') notFound()
   return <GuidePage lang="pt" slug={slug} />
 }

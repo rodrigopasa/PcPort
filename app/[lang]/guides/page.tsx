@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { notFound } from 'next/navigation'
+import { notFound, permanentRedirect } from 'next/navigation'
 import { GuidesIndex } from '@/components/GuidePage'
 import { DICT, SITE, guidesPath } from '@/lib/i18n'
 
@@ -25,6 +25,7 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
 
 export default async function Page({ params }: { params: Params }) {
   const { lang } = await params
+  if (lang === 'pt') permanentRedirect('/pt/guias')
   if (lang !== 'en') notFound()
   return <GuidesIndex lang="en" />
 }

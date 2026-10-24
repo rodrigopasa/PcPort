@@ -1,9 +1,10 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import { notFound } from 'next/navigation'
+import { notFound, permanentRedirect } from 'next/navigation'
 import {
   getCounts,
   getGamePorts,
+  formerHubPage,
   getHubGames,
   consoleSlug,
   formatDate,
@@ -160,7 +161,12 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
 export default async function HubPage({ params }: { params: Params }) {
   const { lang: rawLang, slug } = await params
   const hit = await load(rawLang, slug)
-  if (!hit) notFound()
+  if (!hit) {
+    // Down to one port, or none: the comparison has nothing to compare.
+    const moved = isLang(rawLang) ? formerHubPage(rawLang, slug) : null
+    if (moved) permanentRedirect(moved)
+    notFound()
+  }
   const { lang, ports, lead } = hit
   const t = DICT[lang]
   const c = COPY[lang]

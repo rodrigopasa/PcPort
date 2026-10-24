@@ -3,6 +3,8 @@ import Link from 'next/link'
 import { notFound, permanentRedirect } from 'next/navigation'
 import {
   getEntry,
+  formerEntryPage,
+  entryAcrossLanguages,
   getEntries,
   getCounts,
   getRelated,
@@ -90,10 +92,24 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
 
 export default async function EntryPage({ params }: { params: Params }) {
   const { lang, section, slug } = await params
-  if (!isLang(lang) || section !== SECTION[lang]) notFound()
+  if (!isLang(lang)) notFound()
+  if (section !== SECTION[lang]) {
+    // /pt/game/… or /en/jogo/…: a language switched by hand. The slug may
+    // be either language's; the entry it names is sent to its own address.
+    const other: Lang = lang === 'pt' ? 'en' : 'pt'
+    const there = section === SECTION[other] ? entryAcrossLanguages(lang, slug) : null
+    if (there) permanentRedirect(there)
+    notFound()
+  }
 
   const [entry, counts] = await Promise.all([getEntry(lang, slug), getCounts()])
-  if (!entry) notFound()
+  if (!entry) {
+    // An entry that left the catalog: its visitors go to the closest page
+    // still standing rather than to a dead end.
+    const moved = formerEntryPage(lang, slug)
+    if (moved) permanentRedirect(moved)
+    notFound()
+  }
   // A former address: the title was curated after this one was shared or
   // indexed. 308 moves the link and what it earned to the current page.
   if (entry.slug !== slug) permanentRedirect(entryPath(lang, entry.slug))

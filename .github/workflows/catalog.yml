@@ -92,6 +92,6 @@ jobs:
           fi
           git config user.name  "pcport-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add lib/catalog.json lib/shots.json lib/fandom.json lib/covers.json lib/libretro.json lib/slug-history.json
+          git add lib/catalog.json lib/shots.json lib/fandom.json lib/covers.json lib/libretro.json lib/slug-history.json lib/slug-gone.json
           git commit -m "Atualiza catálogo ($(date -u +%Y-%m-%d\ %H:%M) UTC)"
           git push
