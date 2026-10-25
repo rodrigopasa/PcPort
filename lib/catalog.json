@@ -8,7 +8,7 @@
     "console": "Xbox",
     "mechanism": "native",
     "platforms": [],
-    "stars": 113,
+    "stars": 114,
     "description": "Halo 2 decompilation (decomp) for the original Xbox: a matching decompilation of the retail game into C/C++ source, rebuilt byte for byte, toward native PC, Linux and handheld ports. Contributors welcome. Source only; bring your own disc.",
     "version": null,
     "releasedAt": "2026-10-25",
@@ -105,7 +105,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 704,
+    "stars": 705,
     "description": "An unofficial PC port of the Xbox 360 version of Sonic the Hedgehog (2006) created through the process of static recompilation",
     "version": null,
     "releasedAt": "2026-10-25",
@@ -147,7 +147,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 129,
+    "stars": 137,
     "description": "Breath of the Wild (Wii U, v1.5.0) statically recompiled to a native Windows program with a Vulkan renderer. ",
     "version": "v0.1.0",
     "releasedAt": "2026-10-25",
@@ -251,7 +251,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 517,
+    "stars": 518,
     "description": "Native port of Metroid Prime (GameCube) for Linux, Windows and Android, built from the PrimeDecomp decompilation. No emulator, no game assets included: bring your own disc image.",
     "version": "v0.33.0",
     "releasedAt": "2026-10-25",
@@ -332,7 +332,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 186,
+    "stars": 187,
     "description": "Native PC port of God of War (PS2) via static recompilation with PS2Recomp",
     "version": null,
     "releasedAt": "2026-10-25",
@@ -403,10 +403,10 @@
     ],
     "stars": 42,
     "description": "Virtua Fighter 3 (Sega Model 3, 1996) for Mac, Windows and Steam Deck: the arcade's PowerPC program recompiled to native code, up to 6x, widescreen, smooth 120 fps. Bring your own vf3.zip.",
-    "version": "v0.1.8-alpha",
+    "version": "v0.1.9-alpha",
     "releasedAt": "2026-10-25",
-    "sizeBytes": 8089523,
-    "releaseUrl": "https://github.com/mr-finster/vf3-recomp/releases/tag/v0.1.8-alpha",
+    "sizeBytes": 8089630,
+    "releaseUrl": "https://github.com/mr-finster/vf3-recomp/releases/tag/v0.1.9-alpha",
     "licenseId": "NOASSERTION",
     "licenseUrl": null
   },
@@ -427,6 +427,50 @@
     "releaseUrl": "https://github.com/some-scurvy-dog/banjo-tooie-scurvy-dog-port/releases",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
+  },
+  {
+    "id": "peiikai-lasrecomp",
+    "repo": "peiikai/LASRecomp",
+    "title": "The Legend of Zelda: Link's Awakening",
+    "game": "links-awakening",
+    "author": "peiikai",
+    "console": "Nintendo Switch",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "stars": 1765,
+    "description": "Static recompilation of Link's Awakening (Switch) to native macOS, Windows and Linux",
+    "version": "beta_5.2",
+    "releasedAt": "2026-10-25",
+    "sizeBytes": 112183800,
+    "releaseUrl": "https://github.com/peiikai/LASRecomp/releases/tag/beta_5.2",
+    "licenseId": "NOASSERTION",
+    "licenseUrl": null,
+    "curated": true
+  },
+  {
+    "id": "mstan-tombarecomp",
+    "repo": "mstan/TombaRecomp",
+    "title": "Tomba!",
+    "game": null,
+    "author": "mstan",
+    "console": "PlayStation",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows"
+    ],
+    "stars": 76,
+    "description": "Tomba! (USA) recompiled for the Sony PlayStation using psxrecomp · Part of the R.A.I.D. community",
+    "version": "v0.23.0-alpha",
+    "releasedAt": "2026-10-25",
+    "sizeBytes": 82398069,
+    "releaseUrl": "https://github.com/mstan/TombaRecomp/releases/tag/v0.23.0-alpha",
+    "licenseId": "NOASSERTION",
+    "licenseUrl": null,
     "curated": true
   },
   {
@@ -541,7 +585,7 @@
     "platforms": [
       "Linux"
     ],
-    "stars": 208,
+    "stars": 209,
     "description": "Recompilacion estatica (ReXGlue) de Dragon Ball Z: Budokai 3 HD Collection (Xbox 360) para Windows con launcher, sistema de mods y herramientas. No incluye datos del juego.",
     "version": "v1.5.5.4",
     "releasedAt": "2026-10-24",
@@ -591,29 +635,6 @@
     "sizeBytes": null,
     "releaseUrl": "https://github.com/Kirby64Ret/kirby64/releases",
     "licenseId": null,
-    "licenseUrl": null,
-    "curated": true
-  },
-  {
-    "id": "peiikai-lasrecomp",
-    "repo": "peiikai/LASRecomp",
-    "title": "The Legend of Zelda: Link's Awakening",
-    "game": "links-awakening",
-    "author": "peiikai",
-    "console": "Nintendo Switch",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "macOS"
-    ],
-    "stars": 1764,
-    "description": "Static recompilation of Link's Awakening (Switch) to native macOS, Windows and Linux",
-    "version": "beta_5.1",
-    "releasedAt": "2026-10-24",
-    "sizeBytes": 112179704,
-    "releaseUrl": "https://github.com/peiikai/LASRecomp/releases/tag/beta_5.1",
-    "licenseId": "NOASSERTION",
     "licenseUrl": null,
     "curated": true
   },
@@ -799,7 +820,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 170,
+    "stars": 171,
     "description": "A static native recompilation of Need for Speed: Most Wanted (2005) Xbox 360",
     "version": "v1.0.1",
     "releasedAt": "2026-10-24",
@@ -818,7 +839,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 66,
+    "stars": 67,
     "description": "Crash of the Titans (Xbox 360) statically recompiled for Windows: DLSS/FSR, PC controls, PT-BR, subtitles, mods. Bring your own copy of the game.",
     "version": "v1.04",
     "releasedAt": "2026-10-24",
@@ -839,7 +860,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 131,
+    "stars": 132,
     "description": "Call of Duty: Modern Warfare 2 (2009) for Xbox 360 recompiled for Windows & Linux",
     "version": "v0.7.2",
     "releasedAt": "2026-10-24",
@@ -1033,7 +1054,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 67,
+    "stars": 68,
     "description": "An unofficial original Xbox version PC port of 007: From Russia With Love via static recompilation.",
     "version": "V1",
     "releasedAt": "2026-10-24",
@@ -1125,7 +1146,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 257,
+    "stars": 258,
     "description": "A static recompilation of Condemned 2: Bloodshot done with RexGlue.",
     "version": "0.4.0",
     "releasedAt": "2026-10-24",
@@ -1210,7 +1231,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 422,
+    "stars": 423,
     "description": "ReStreet: FIFA Street (2012) recompiled for Windows PC, with online play, a launcher with friends, chat and rooms. Bring your own game.",
     "version": "v2.1.1-online-beta",
     "releasedAt": "2026-10-24",
@@ -1232,7 +1253,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 680,
+    "stars": 681,
     "description": "Definitive Bloodborne PC Experience",
     "version": "v0.2.19",
     "releasedAt": "2026-10-24",
@@ -1272,7 +1293,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 83,
+    "stars": 84,
     "description": "WipEout Omega Collection (PS4) native PC port for Windows: original x86-64 code on the CPU, PS4 runtime, shadPS4 Vulkan video core. Early development. No game files included.",
     "version": "windows-v0.2.2",
     "releasedAt": "2026-10-24",
@@ -1295,7 +1316,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 154,
+    "stars": 155,
     "description": "Eternal Darkness: Sanity's Requiem static recompilation (DolRecomp + GXRuntime) for Mac, Windows and Linux / Steam Deck. Bring your own disc.",
     "version": "v0.9.6",
     "releasedAt": "2026-10-24",
@@ -1354,7 +1375,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 47,
+    "stars": 49,
     "description": "Native PC, Mac and Steam Deck port of 50 Cent: Blood on the Sand (Xbox 360), statically recompiled with ReXGlue. Download: https://skullburglar.stz.sh",
     "version": null,
     "releasedAt": "2026-10-24",
@@ -1373,7 +1394,7 @@
     "console": "Xbox",
     "mechanism": "native",
     "platforms": [],
-    "stars": 82,
+    "stars": 83,
     "description": "Unofficial native Windows port of Star Wars: Episode III - Revenge of the Sith (Xbox). Bring your own copy.",
     "version": null,
     "releasedAt": "2026-10-24",
@@ -1450,7 +1471,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 2365,
+    "stars": 2367,
     "description": "Decompilation of The Legend of Zelda: Breath of the Wild (Switch 1.5.0)",
     "version": null,
     "releasedAt": "2026-10-23",
@@ -1556,7 +1577,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 150,
+    "stars": 151,
     "description": "",
     "version": "v0.3.0-beta",
     "releasedAt": "2026-10-23",
@@ -1813,7 +1834,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 52,
+    "stars": 53,
     "description": "Perfect Dark Zero [Xbox360] game static recompilation project based on RexGlue-SDK",
     "version": "1.8",
     "releasedAt": "2026-10-23",
@@ -2005,7 +2026,7 @@
     "console": "PC",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 93,
+    "stars": 96,
     "description": "Unofficial native PC ports of God of War: Chains of Olympus and Ghost of Sparta (PSP) by static recompilation. Bring your own disc.",
     "version": "v1.2.1",
     "releasedAt": "2026-10-23",
@@ -2204,7 +2225,7 @@
     "console": "Nintendo Switch",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 430,
+    "stars": 432,
     "description": "Unofficial static recompilation of Bayonetta 2 (Switch) for Windows. Builds the game on your PC from your own legally dumped copy. No game files, keys or SDK code included.",
     "version": "v0.3.3",
     "releasedAt": "2026-10-22",
@@ -2369,33 +2390,12 @@
     "console": "PlayStation 3",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 149,
+    "stars": 150,
     "description": "Drakengard 3 (PS3) static recompilation using ps3recomp",
     "version": null,
     "releasedAt": "2026-10-22",
     "sizeBytes": null,
     "releaseUrl": "https://github.com/soyjxck/dod3-recomp/releases",
-    "licenseId": "NOASSERTION",
-    "licenseUrl": null,
-    "curated": true
-  },
-  {
-    "id": "mstan-tombarecomp",
-    "repo": "mstan/TombaRecomp",
-    "title": "Tomba!",
-    "game": null,
-    "author": "mstan",
-    "console": "PlayStation",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows"
-    ],
-    "stars": 76,
-    "description": "Tomba! (USA) recompiled for the Sony PlayStation using psxrecomp · Part of the R.A.I.D. community",
-    "version": "v0.22.0-alpha",
-    "releasedAt": "2026-10-22",
-    "sizeBytes": 81599032,
-    "releaseUrl": "https://github.com/mstan/TombaRecomp/releases/tag/v0.22.0-alpha",
     "licenseId": "NOASSERTION",
     "licenseUrl": null,
     "curated": true
@@ -2432,7 +2432,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 87,
+    "stars": 88,
     "description": "11 Claude skills that port PlayStation 2 games you own to PC: reverse engineer the code, rebuild the graphics and backend, any controller, play it anywhere, then mod it however you want.",
     "version": null,
     "releasedAt": "2026-10-22",
@@ -2550,7 +2550,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 4548,
+    "stars": 4551,
     "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
     "version": "windows-v1.9.4",
     "releasedAt": "2026-10-21",
@@ -2678,7 +2678,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 342,
+    "stars": 343,
     "description": "Call of Duty 3 (Xbox 360) static recompilation: host runtime, tools and notes",
     "version": null,
     "releasedAt": "2026-10-21",
@@ -2882,7 +2882,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 83,
+    "stars": 84,
     "description": "Experimental PC port of Resident Evil 3: Nemesis (PS1), built on the PSXRecomp static recompiler",
     "version": "v1.7.0",
     "releasedAt": "2026-10-20",
@@ -2959,7 +2959,7 @@
     "platforms": [
       "Linux"
     ],
-    "stars": 3590,
+    "stars": 3591,
     "description": "",
     "version": "0.6",
     "releasedAt": "2026-10-19",
@@ -3148,7 +3148,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 731,
+    "stars": 733,
     "description": "An unofficial original Xbox version PC port of BLACK (2006) via static recompilation.",
     "version": "V2",
     "releasedAt": "2026-10-18",
@@ -3375,7 +3375,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 210,
+    "stars": 211,
     "description": "A Recompilation of Project Gotham Racing 4",
     "version": "v1.2.2",
     "releasedAt": "2026-10-17",
@@ -3435,7 +3435,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 695,
+    "stars": 696,
     "description": "Xbox 360 to PC port of Dante's Inferno using ReXGlue (static recompilation)",
     "version": "v0.8.4-beta",
     "releasedAt": "2026-10-16",
@@ -3579,7 +3579,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 33909,
+    "stars": 33908,
     "description": "PlayStation 4 emulator for Windows, Linux, macOS and FreeBSD written in C++",
     "version": "v.0.20.0",
     "releasedAt": "2026-10-14",
@@ -3755,7 +3755,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 519,
+    "stars": 520,
     "description": "Static recompilation of a PSP game into a native executable. Vulkan and SDL3. Bring your own copy of the game.",
     "version": "v0.7.5",
     "releasedAt": "2026-10-13",
@@ -3858,7 +3858,7 @@
     "platforms": [
       "Android"
     ],
-    "stars": 98,
+    "stars": 99,
     "description": "Experimental static recompilation of Need for Speed Carbon for Xbox 360 using ReXGlue. Windows x64 prototype, analysis fixes and build instructions.",
     "version": "v0.3.3",
     "releasedAt": "2026-10-12",
@@ -3937,7 +3937,7 @@
     "platforms": [
       "PC"
     ],
-    "stars": 107,
+    "stars": 108,
     "description": "Gears of War Judgement Native on Windows",
     "version": "v0.2.1",
     "releasedAt": "2026-10-11",
@@ -3959,7 +3959,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 379,
+    "stars": 380,
     "description": "A work in progress recomp of the The Simpsons Game 2007 from the Xbox 360 using the RexXGlue recomping tool to get the game running",
     "version": "v0.0.6.5",
     "releasedAt": "2026-10-10",
@@ -4064,7 +4064,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 62,
+    "stars": 63,
     "description": "A native PC recompilation project for the Crash Titans era.",
     "version": "v1.1.0",
     "releasedAt": "2026-10-06",
@@ -4374,7 +4374,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 215,
+    "stars": 216,
     "description": "Native Windows port of Dead or Alive Xtreme Beach Volleyball (Xbox), built by static recompilation with a hand-written runtime. Requires your own copy of the game.",
     "version": "v0.5.3",
     "releasedAt": "2026-09-30",
@@ -4506,7 +4506,7 @@
     "platforms": [
       "Linux"
     ],
-    "stars": 78,
+    "stars": 79,
     "description": "PSX recompilation of Bloody Roar II (SLES-01722 EU / SCUS-94424 USA). Anti-copyright: bring your own disc. Dual-region builds, from-scratch widescreen + curated mods.",
     "version": "v0.7.1",
     "releasedAt": "2026-09-26",
@@ -4548,7 +4548,7 @@
     "console": "PlayStation",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 66,
+    "stars": 67,
     "description": "Tekken 3 hybrid recompilation preview with Jun Kazama, widescreen, custom skins and local asset import tools.",
     "version": null,
     "releasedAt": "2026-09-23",
@@ -4967,7 +4967,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 761,
+    "stars": 763,
     "description": "Multiplatform and Feature-rich Port based on PSX decompilation of Silent Hill 1 made with Claude and Psycross. Still in beta and is in active development.",
     "version": "crossplatform-beta",
     "releasedAt": "2026-09-04",
@@ -5049,7 +5049,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 332,
+    "stars": 333,
     "description": "Silent Hill: Downpour — native Windows PC port via static recompilation of the Xbox 360 binary. v1.0 stable: 60 FPS unlocked, ROV warm-cache, standalone launcher, DualSense adaptive triggers, portable saves. Tested on USA + Europe X360 dumps.",
     "version": "v1.1.8",
     "releasedAt": "2026-09-02",
@@ -5321,7 +5321,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2086,
+    "stars": 2087,
     "description": "PC Port of Banjo-Kazooie made using N64: Recompiled (Windows/Linux/Mac) ",
     "version": "v1.0.2",
     "releasedAt": "2026-07-31",
@@ -5382,7 +5382,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 1721,
+    "stars": 1722,
     "description": "A native recompilation of Skate 3 for Windows, Linux, and macOS.",
     "version": "v2.0.2",
     "releasedAt": "2026-07-24",
@@ -5603,7 +5603,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 43,
+    "stars": 44,
     "description": "Native recompilation of Guitar Hero: Warriors of Rock (Xbox 360) for PC",
     "version": "v1.1.0",
     "releasedAt": "2026-03-03",
@@ -5850,7 +5850,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5262,
+    "stars": 5263,
     "description": "An unofficial PC port of the Xbox 360 version of Sonic Unleashed created through the process of static recompilation.",
     "version": "v1.0.3",
     "releasedAt": "2025-04-03",
