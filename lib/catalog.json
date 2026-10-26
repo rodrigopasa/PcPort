@@ -8,7 +8,7 @@
     "console": "Xbox 360",
     "mechanism": "native",
     "platforms": [],
-    "stars": 78,
+    "stars": 79,
     "description": "",
     "version": "v1.3.0",
     "releasedAt": "2026-10-26",
@@ -93,7 +93,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 164,
+    "stars": 166,
     "description": "Ninja Gaiden Black (Xbox, 2005) statically recompiled into native Linux and Windows builds, drawn by its own Vulkan renderer. A steady 60 fps, widescreen and ultrawide, keyboard and mouse, Steam Deck ready. Bring your own copy of the game.",
     "version": null,
     "releasedAt": "2026-10-26",
@@ -136,7 +136,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 813,
+    "stars": 814,
     "description": "Experimental native PC port of Lost Odyssey using static recompilation. No game assets included.",
     "version": "v1.1.0",
     "releasedAt": "2026-10-26",
@@ -196,7 +196,7 @@
     "console": "PlayStation",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 146,
+    "stars": 147,
     "description": "RecompStore: the free homebrew app store for jailbroken PS5. Installs and updates recompiled game ports, emulators, apps and tools from the console. Bring your own disc.",
     "version": "v2.7.3",
     "releasedAt": "2026-10-26",
@@ -319,7 +319,7 @@
       "macOS",
       "iOS"
     ],
-    "stars": 493,
+    "stars": 494,
     "description": "Unofficial static recompilation of the Xbox 360 version of Need for Speed: Most Wanted (2005): a native port for Steam Deck, Steam Machine, Steam Frame, Linux and Mac (iPhone/iPad: sideload the experimental IPA or build it yourself). Bring your own disc: no game files included. Not affiliated with EA or Valve.",
     "version": "v0.2.0",
     "releasedAt": "2026-10-26",
@@ -376,7 +376,7 @@
     "console": "PlayStation",
     "mechanism": "native",
     "platforms": [],
-    "stars": 958,
+    "stars": 957,
     "description": "An in-progress decompilation of Silent Hill on the PlayStation 1.",
     "version": null,
     "releasedAt": "2026-10-26",
@@ -416,15 +416,13 @@
     "author": "AbdelmoumenDeghbouche",
     "console": "PlayStation 4",
     "mechanism": "in-progress",
-    "platforms": [
-      "Windows"
-    ],
+    "platforms": [],
     "stars": 117,
     "description": "WipEout Omega Collection (PS4) native PC port for Windows: the game's own x86-64 code on the CPU, a PS4 runtime and the shadPS4 Vulkan video core. Playable, in active development. No game files included. ⭐ Star it if you like it; bug reports and requests are welcome in Issues!",
-    "version": "windows-v0.2.16",
+    "version": "windows-v0.2.18",
     "releasedAt": "2026-10-26",
     "sizeBytes": 75541250,
-    "releaseUrl": "https://github.com/AbdelmoumenDeghbouche/wipeout_pc/releases/tag/windows-v0.2.16",
+    "releaseUrl": "https://github.com/AbdelmoumenDeghbouche/wipeout_pc/releases/tag/windows-v0.2.18",
     "licenseId": "GPL-2.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-2.0",
     "curated": true
@@ -438,7 +436,7 @@
     "console": "PC",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 117,
+    "stars": 118,
     "description": "Unofficial native PC ports of God of War: Chains of Olympus and Ghost of Sparta (PSP) by static recompilation. Bring your own disc.",
     "version": "v1.3.1",
     "releasedAt": "2026-10-26",
@@ -507,6 +505,26 @@
     "licenseId": null,
     "licenseUrl": null,
     "curated": true
+  },
+  {
+    "id": "petexy-tekken-tag-2-ultimate-edition",
+    "repo": "Petexy/Tekken-Tag-2-Ultimate-Edition",
+    "title": "Tekken Tag Tournament 2 Wii U Edition by static recompilation",
+    "game": null,
+    "author": "Petexy",
+    "console": "Wii",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Linux"
+    ],
+    "stars": 43,
+    "description": "Native Linux port of Tekken Tag Tournament 2 Wii U Edition by static recompilation. No game files included.",
+    "version": "v0.3.0",
+    "releasedAt": "2026-10-26",
+    "sizeBytes": 3025400,
+    "releaseUrl": "https://github.com/Petexy/Tekken-Tag-2-Ultimate-Edition/releases/tag/v0.3.0",
+    "licenseId": "MIT",
+    "licenseUrl": "https://api.github.com/licenses/mit"
   },
   {
     "id": "pret-pokeplatinum",
@@ -578,7 +596,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 225,
+    "stars": 227,
     "description": "Breath of the Wild (Wii U, v1.5.0) statically recompiled to a native Windows program with a Vulkan renderer. ",
     "version": "v0.1.1",
     "releasedAt": "2026-10-25",
@@ -813,7 +831,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 1817,
+    "stars": 1818,
     "description": "Static recompilation of Link's Awakening (Switch) to native macOS, Windows and Linux",
     "version": "beta_5.2",
     "releasedAt": "2026-10-25",
@@ -911,7 +929,7 @@
     "console": "Xbox 360",
     "mechanism": "native",
     "platforms": [],
-    "stars": 398,
+    "stars": 399,
     "description": "Tekken 6 (Xbox 360) native on Windows with rollback netcode - build from your own ISO",
     "version": "v2.4.3",
     "releasedAt": "2026-10-25",
@@ -932,7 +950,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 44,
+    "stars": 45,
     "description": "Unofficial Windows version of WWE All Stars (Xbox 360), recompiled with ReXGlue. Bring your own disc image.",
     "version": "v1.7.0",
     "releasedAt": "2026-10-25",
@@ -1059,7 +1077,7 @@
     "console": "PC",
     "mechanism": "native",
     "platforms": [],
-    "stars": 5628,
+    "stars": 5636,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -1357,7 +1375,7 @@
     "console": "PC",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 151,
+    "stars": 156,
     "description": "Unofficial native Windows port of Tears of the Kingdom 1.4.3 using static recompilation. Builds locally from the player's own extracted game dump; no game files included.",
     "version": null,
     "releasedAt": "2026-10-25",
@@ -1458,7 +1476,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 41,
+    "stars": 42,
     "description": "Unofficial Knack II (Knack 2) PC port for Windows. Experimental Vulkan alpha, launcher and local co-op; requires your own PS4 game dump.",
     "version": "knack2-Version-0.17.5",
     "releasedAt": "2026-10-25",
@@ -1478,7 +1496,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 58,
+    "stars": 61,
     "description": "",
     "version": "v2.0.0",
     "releasedAt": "2026-10-25",
@@ -1602,7 +1620,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 583,
+    "stars": 585,
     "description": "PC port of Dragon Ball Z: Budokai Tenkaichi 3, built on the BT3-Decompiled project.",
     "version": "v0.1.38.7",
     "releasedAt": "2026-10-24",
@@ -1709,7 +1727,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 443,
+    "stars": 444,
     "description": "Native PC port (Linux/Windows) of The Last Guardian (PS4, CUSA03627) — runs your own game dump; no game or firmware files included. Mouse/keyboard, optional 60 FPS, SMAA/CAS filters. | Port nativo para PC de The Last Guardian — usa o seu próprio dump.",
     "version": "v2026.10.24-1a130dd",
     "releasedAt": "2026-10-24",
@@ -1820,7 +1838,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 172,
+    "stars": 173,
     "description": "Static recompilation of Midnight Club: Los Angeles (Xbox 360) for PC and PS5. No game data included.",
     "version": "v1.0.7",
     "releasedAt": "2026-10-24",
@@ -1902,7 +1920,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 1986,
+    "stars": 1987,
     "description": "Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo",
     "version": "v0.3.9",
     "releasedAt": "2026-10-24",
@@ -2044,7 +2062,7 @@
     "platforms": [
       "Android"
     ],
-    "stars": 46,
+    "stars": 47,
     "description": "",
     "version": "0.1.1",
     "releasedAt": "2026-10-24",
@@ -2052,26 +2070,6 @@
     "releaseUrl": "https://github.com/dzakyraf/pes2017-recomp/releases/tag/0.1.1",
     "licenseId": "NOASSERTION",
     "licenseUrl": null
-  },
-  {
-    "id": "petexy-tekken-tag-2-ultimate-edition",
-    "repo": "Petexy/Tekken-Tag-2-Ultimate-Edition",
-    "title": "Tekken Tag Tournament 2 Wii U Edition by static recompilation",
-    "game": null,
-    "author": "Petexy",
-    "console": "Wii",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Linux"
-    ],
-    "stars": 43,
-    "description": "Native Linux port of Tekken Tag Tournament 2 Wii U Edition by static recompilation. No game files included.",
-    "version": "v0.2.0",
-    "releasedAt": "2026-10-24",
-    "sizeBytes": 2759160,
-    "releaseUrl": "https://github.com/Petexy/Tekken-Tag-2-Ultimate-Edition/releases/tag/v0.2.0",
-    "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit"
   },
   {
     "id": "hibikifukui22-dead-or-alive-xtreme-2-recompilation",
@@ -2478,7 +2476,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 187,
+    "stars": 189,
     "description": "Native Windows port of Tekken Tag Tournament 2 (Xbox 360) by static recompilation. Not an emulator. Ships no game data - the installer builds the game from your own disc image and Title Update 3.",
     "version": "v0.1.7",
     "releasedAt": "2026-10-23",
@@ -2625,7 +2623,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 910,
+    "stars": 911,
     "description": "Native PC port (Linux/Windows) of inFAMOUS Second Son (PS4, CUSA00223) — in development, playable; runs your own game dump; no game or firmware files included. Motion sensor emulation. | Port nativo para PC de inFAMOUS Second Son (em desenvolvimento) — usa o seu próprio dump.",
     "version": "v1.0",
     "releasedAt": "2026-10-22",
@@ -2746,7 +2744,7 @@
     "console": "Nintendo Switch",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 457,
+    "stars": 458,
     "description": "Unofficial static recompilation of Bayonetta 2 (Switch) for Windows. Builds the game on your PC from your own legally dumped copy. No game files, keys or SDK code included.",
     "version": "v0.3.3",
     "releasedAt": "2026-10-22",
@@ -2911,7 +2909,7 @@
     "console": "PlayStation 3",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 179,
+    "stars": 180,
     "description": "Drakengard 3 (PS3) static recompilation using ps3recomp",
     "version": null,
     "releasedAt": "2026-10-22",
@@ -3048,7 +3046,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 4655,
+    "stars": 4656,
     "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
     "version": "windows-v1.9.4",
     "releasedAt": "2026-10-21",
@@ -3072,7 +3070,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 1080,
+    "stars": 1083,
     "description": "Zelda Wind Waker HD Recomp",
     "version": "v0.4.0",
     "releasedAt": "2026-10-21",
@@ -3480,7 +3478,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 5762,
+    "stars": 5763,
     "description": "Ship of Harkinian: a PC port of Ocarina of Time built from the decompilation, with widescreen, high framerate and mod support.",
     "version": "9.3.1",
     "releasedAt": "2026-10-18",
@@ -3866,7 +3864,7 @@
     "console": "PlayStation 3",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 43,
+    "stars": 44,
     "description": "Unofficial native Windows port of ARMORED CORE 4 (PS3), built from your own copy of the game. Part of Project Glintburn.",
     "version": "v0.5.0",
     "releasedAt": "2026-10-16",
@@ -3909,7 +3907,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 126,
+    "stars": 128,
     "description": "Experimental static recompilation of Forza Motorsport 4 using ReXGlue. No game files included.",
     "version": "v0.1.0-alpha.2",
     "releasedAt": "2026-10-15",
@@ -3951,7 +3949,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 33919,
+    "stars": 33918,
     "description": "PlayStation 4 emulator for Windows, Linux, macOS and FreeBSD written in C++",
     "version": "v.0.20.0",
     "releasedAt": "2026-10-14",
@@ -4288,7 +4286,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 547,
+    "stars": 549,
     "description": "",
     "version": "1.5.0",
     "releasedAt": "2026-10-11",
@@ -4585,7 +4583,7 @@
     "console": "Xbox 360",
     "mechanism": "native",
     "platforms": [],
-    "stars": 624,
+    "stars": 625,
     "description": "11.217% - Decompilation of Minecraft: Legacy Console Edition",
     "version": null,
     "releasedAt": "2026-10-03",
@@ -4964,7 +4962,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 45,
+    "stars": 44,
     "description": "Experimental Syphon Filter 2 static recompilation for Windows using PSXRecomp",
     "version": "v0.2.0",
     "releasedAt": "2026-09-23",
@@ -5235,7 +5233,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 858,
+    "stars": 859,
     "description": "A PC port of Super Mario 64 with DirectX 11, OpenGL and Vulkan backends, fullscreen and controller support.",
     "version": "3.0.0",
     "releasedAt": "2026-09-07",
@@ -5301,7 +5299,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 772,
+    "stars": 771,
     "description": "Multiplatform and Feature-rich Port based on PSX decompilation of Silent Hill 1 made with Claude and Psycross. Still in beta and is in active development.",
     "version": "crossplatform-beta",
     "releasedAt": "2026-09-04",
@@ -5738,7 +5736,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 1728,
+    "stars": 1729,
     "description": "A native recompilation of Skate 3 for Windows, Linux, and macOS.",
     "version": "v2.0.2",
     "releasedAt": "2026-07-24",
@@ -6206,7 +6204,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5271,
+    "stars": 5272,
     "description": "An unofficial PC port of the Xbox 360 version of Sonic Unleashed created through the process of static recompilation.",
     "version": "v1.0.3",
     "releasedAt": "2025-04-03",
@@ -6392,7 +6390,7 @@
     "console": "SNES",
     "mechanism": "native",
     "platforms": [],
-    "stars": 4916,
+    "stars": 4918,
     "description": "",
     "version": "v0.3",
     "releasedAt": "2023-08-17",
