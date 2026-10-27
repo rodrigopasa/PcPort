@@ -79,6 +79,7 @@ export function contributeMetadata(lang: Lang): Metadata {
       url: lang === 'pt' ? pt : en,
       title: c.h1,
       description: c.description,
+      images: [`${SITE}/${lang}/opengraph-image`],
     },
   }
 }

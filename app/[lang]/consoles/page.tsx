@@ -14,13 +14,26 @@ export function generateStaticParams() {
   return [{ lang: 'pt' }, { lang: 'en' }]
 }
 
+const SEO = {
+  pt: {
+    title: 'Consoles: os jogos de cada console que rodam no PC',
+    description:
+      'Xbox 360, Nintendo 64, PlayStation e mais: escolha o console e veja cada jogo dele que já roda no PC, com versão, requisitos e passo a passo.',
+  },
+  en: {
+    title: 'Consoles: the games from each console that run on PC',
+    description:
+      'Xbox 360, Nintendo 64, PlayStation and more: pick a console and see every one of its games that runs on PC, with version, requirements and setup.',
+  },
+}
+
 export async function generateMetadata({ params }: { params: Params }): Promise<Metadata> {
   const { lang } = await params
   if (!isLang(lang)) return {}
   const t = DICT[lang]
   return {
-    title: t.consoles,
-    description: t.consolesLead,
+    title: SEO[lang].title,
+    description: SEO[lang].description,
     alternates: {
       canonical: `${SITE}/${lang}/consoles`,
       languages: {
@@ -31,8 +44,8 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
     },
     openGraph: {
       siteName: SITE_NAME,
-      title: t.consoles,
-      description: t.consolesLead,
+      title: SEO[lang].title,
+      description: SEO[lang].description,
       images: [`${SITE}/${lang}/opengraph-image`],
     },
   }

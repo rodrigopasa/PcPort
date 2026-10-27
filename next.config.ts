@@ -17,6 +17,16 @@ const config: NextConfig = {
       { protocol: 'https', hostname: 'static.wikia.nocookie.net' },
     ],
   },
+  // The contribution form under the other language's word. Done here rather
+  // than in the page: the page reads its query string, and the build
+  // prerendered these two addresses as a 404 cached for a year. A config
+  // redirect never renders, and carries the query (?tipo=novo&jogo=…) along.
+  async redirects() {
+    return [
+      { source: '/en/contribuir', destination: '/en/contribute', permanent: true },
+      { source: '/pt/contribute', destination: '/pt/contribuir', permanent: true },
+    ]
+  },
 }
 
 export default config

@@ -14,13 +14,26 @@ export function generateStaticParams() {
   return [{ lang: 'pt' }, { lang: 'en' }]
 }
 
+const SEO = {
+  pt: {
+    title: 'Radar: os últimos ports de console para PC',
+    description:
+      'Todo port de console para PC que a cena lançou, do mais recente ao mais antigo: versão, data, sistemas e o passo a passo de instalação de cada um.',
+  },
+  en: {
+    title: 'Radar: the latest console-to-PC ports',
+    description:
+      'Every console-to-PC port the scene has shipped, newest first: version, date, supported systems and the install steps for each one.',
+  },
+}
+
 export async function generateMetadata({ params }: { params: Params }): Promise<Metadata> {
   const { lang } = await params
   if (!isLang(lang)) return {}
   const t = DICT[lang]
   return {
-    title: t.radar,
-    description: t.radarLead,
+    title: SEO[lang].title,
+    description: SEO[lang].description,
     alternates: {
       canonical: `${SITE}/${lang}/radar`,
       languages: {
@@ -29,7 +42,12 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
         'x-default': `${SITE}/en/radar`,
       },
     },
-    openGraph: { siteName: SITE_NAME, title: t.radar, description: t.radarLead },
+    openGraph: {
+      siteName: SITE_NAME,
+      title: SEO[lang].title,
+      description: SEO[lang].description,
+      images: [`${SITE}/${lang}/opengraph-image`],
+    },
   }
 }
 
