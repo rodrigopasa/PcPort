@@ -111,9 +111,15 @@ export function recordMoves(history: SlugHistory, before: SlugRow[], after: Slug
  * address live again in `after` — the entry came back, or another took the
  * name — leaves this book, since the live page always wins.
  */
-export function recordGone(book: GoneBook, before: SlugRow[], after: SlugRow[]): number {
+export function recordGone(
+  book: GoneBook,
+  before: SlugRow[],
+  after: SlugRow[],
+  history?: SlugHistory,
+): number {
   let added = 0
   const kept = new Set(after.map((r) => r.id))
+  const facts = new Map(before.map((r) => [r.id, { game: r.game ?? null, console: r.console ?? null }]))
   for (const lang of ['pt', 'en'] as Lang[]) {
     const was = buildSlugs(before, lang)
     const live = new Set(buildSlugs(after, lang).values())
@@ -124,6 +130,18 @@ export function recordGone(book: GoneBook, before: SlugRow[], after: SlugRow[]):
       if (live.has(slug) || page[slug]) continue
       page[slug] = { game: row.game ?? null, console: row.console ?? null }
       added++
+    }
+    // A renamed entry's older addresses point at its id. When the entry
+    // leaves, they would point at nothing: they become removed addresses too.
+    const renamed = history?.[lang] ?? {}
+    for (const [slug, id] of Object.entries(renamed)) {
+      if (kept.has(id)) continue
+      delete renamed[slug]
+      const was = facts.get(id)
+      if (was && !live.has(slug) && !page[slug]) {
+        page[slug] = was
+        added++
+      }
     }
     for (const slug of Object.keys(page)) if (live.has(slug)) delete page[slug]
   }

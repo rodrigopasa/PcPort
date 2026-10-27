@@ -31,7 +31,7 @@ for (const sha of shas) {
   }
   if (!Array.isArray(rows)) continue
   added += recordMoves(history, rows as SlugRow[], current)
-  removed += recordGone(gone, rows as SlugRow[], current)
+  removed += recordGone(gone, rows as SlugRow[], current, history)
 }
 writeFileSync(FILE, `${JSON.stringify(history, null, 2)}\n`)
 writeFileSync(GONE, `${JSON.stringify(gone, null, 2)}\n`)

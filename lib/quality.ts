@@ -49,6 +49,25 @@ export type Candidate = {
  * catches nothing.
  */
 const DENIED: Record<string, string> = {
+  // Judged on 2026-10-27, from what discovery added that week.
+  "elripalda/RecompStore":
+    "not a game port: an app store for jailbroken PS5 consoles",
+  "TanookiStudios/decomp-buddy":
+    "not a game port: a launcher that sets up other projects",
+  "xsyetopz/OpenJoystickDriver":
+    "not a game port: a gamepad driver for macOS",
+  "Jakeschincariol/console-skill":
+    "not a game port: AI prompts for porting, no port of its own",
+  "Cor3Duo/kirikae":
+    "not a game port: recompiler or decompilation tooling the ports are built with",
+  "elripalda/gta4-ps5":
+    "runs on a jailbroken PS5, not on a PC",
+  "KoreanSeats1/Theft4":
+    "runs on iOS and iPadOS only, not on a PC",
+  "dzakyraf/pes2017-recomp":
+    "runs on Android only, not on a PC",
+  "TalhaMudo/NFSU2Recomp":
+    "a PC game moved to the Mac, not a console game brought to the PC",
   // From the widened discovery of 2026-10-23, judged one by one. Tooling is
   // the largest group: the README search for recompiler names finds the
   // recompilers themselves as well as the ports built with them.

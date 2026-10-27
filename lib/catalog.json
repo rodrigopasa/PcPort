@@ -40,7 +40,7 @@
   {
     "id": "wootbeer-snprecomp",
     "repo": "wootbeer/snprecomp",
-    "title": "Snprecomp",
+    "title": "Sin and Punishment",
     "game": null,
     "author": "wootbeer",
     "console": "Nintendo 64",
@@ -57,7 +57,8 @@
     "sizeBytes": 21405149,
     "releaseUrl": "https://github.com/wootbeer/snprecomp/releases/tag/0.2.5",
     "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
   },
   {
     "id": "mysteriousaeon-rayman3-hd-recompiled",
@@ -77,7 +78,8 @@
     "sizeBytes": 18606478,
     "releaseUrl": "https://github.com/MysteriousAeon/rayman3-hd-recompiled/releases/tag/v1.0.2",
     "licenseId": "NOASSERTION",
-    "licenseUrl": null
+    "licenseUrl": null,
+    "curated": true
   },
   {
     "id": "kirklandsig-halo2-decompiled",
@@ -139,10 +141,10 @@
   {
     "id": "zer0ducksgiven-forza-motorsport-2-regpu",
     "repo": "zer0ducksgiven/Forza-Motorsport-2-ReGPU",
-    "title": "Forza Motorsport 2: static recompilation of the CPU code and a native",
-    "game": null,
+    "title": "Forza Motorsport 2",
+    "game": "forza-motorsport-2",
     "author": "zer0ducksgiven",
-    "console": "PC",
+    "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [
       "Windows",
@@ -155,7 +157,8 @@
     "sizeBytes": 73988358,
     "releaseUrl": "https://github.com/zer0ducksgiven/Forza-Motorsport-2-ReGPU/releases/tag/v0.8.9",
     "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit"
+    "licenseUrl": "https://api.github.com/licenses/mit",
+    "curated": true
   },
   {
     "id": "pascalpixel-alchemy",
@@ -524,24 +527,6 @@
     "curated": true
   },
   {
-    "id": "elripalda-recompstore",
-    "repo": "elripalda/RecompStore",
-    "title": "Store",
-    "game": null,
-    "author": "elripalda",
-    "console": "PlayStation",
-    "mechanism": "recompiled",
-    "platforms": [],
-    "stars": 205,
-    "description": "RecompStore: the free homebrew app store for jailbroken PS5. Installs and updates recompiled game ports, emulators, apps and tools from the console. Bring your own disc.",
-    "version": "v2.7.3",
-    "releasedAt": "2026-10-26",
-    "sizeBytes": 26794760,
-    "releaseUrl": "https://github.com/elripalda/RecompStore/releases/tag/v2.7.3",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
-  },
-  {
     "id": "santiquiroz-gears-of-war-2-pc-port",
     "repo": "santiquiroz/gears-of-war-2-pc-port",
     "title": "Gears of War 2",
@@ -690,10 +675,10 @@
   {
     "id": "drummingbird1-gow-psp-recomp",
     "repo": "DrummingBird1/gow-psp-recomp",
-    "title": "Gow Psp",
+    "title": "God of War: Chains of Olympus & Ghost of Sparta",
     "game": null,
     "author": "DrummingBird1",
-    "console": "PC",
+    "console": "PSP",
     "mechanism": "recompiled",
     "platforms": [],
     "stars": 136,
@@ -703,7 +688,8 @@
     "sizeBytes": 51232415,
     "releaseUrl": "https://github.com/DrummingBird1/gow-psp-recomp/releases/tag/v1.3.1",
     "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
   },
   {
     "id": "crazyriddler-finesthourremastered",
@@ -769,10 +755,10 @@
   {
     "id": "petexy-tekken-tag-2-ultimate-edition",
     "repo": "Petexy/Tekken-Tag-2-Ultimate-Edition",
-    "title": "Tekken Tag Tournament 2 Wii U Edition by static recompilation",
-    "game": null,
+    "title": "Tekken Tag Tournament 2: Wii U Edition",
+    "game": "tekken-tag-tournament-2",
     "author": "Petexy",
-    "console": "Wii",
+    "console": "Wii U",
     "mechanism": "recompiled",
     "platforms": [
       "Linux"
@@ -784,31 +770,14 @@
     "sizeBytes": 3025400,
     "releaseUrl": "https://github.com/Petexy/Tekken-Tag-2-Ultimate-Edition/releases/tag/v0.3.1",
     "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit"
-  },
-  {
-    "id": "talhamudo-nfsu2recomp",
-    "repo": "TalhaMudo/NFSU2Recomp",
-    "title": "NFSU2",
-    "game": null,
-    "author": "TalhaMudo",
-    "console": "PC",
-    "mechanism": "recompiled",
-    "platforms": [],
-    "stars": 66,
-    "description": "Play Need for Speed: Underground 2 natively on Apple Silicon Macs (M1+). Static recompilation of the PC game (x86, Direct3D 9) to ARM64 + Metal: no Wine, CrossOver or emulator; 119 fps vs 10-15 fps under Wine. Bring your own copy; no game code or assets included.",
-    "version": "v2.1-2026.10.26",
-    "releasedAt": "2026-10-26",
-    "sizeBytes": 59465771,
-    "releaseUrl": "https://github.com/TalhaMudo/NFSU2Recomp/releases/tag/v2.1-2026.10.26",
-    "licenseId": "NOASSERTION",
-    "licenseUrl": null
+    "licenseUrl": "https://api.github.com/licenses/mit",
+    "curated": true
   },
   {
     "id": "henrykun55-celosia",
     "repo": "HenryKun55/celosia",
     "title": "Shadow of the Colossus",
-    "game": null,
+    "game": "shadow-of-the-colossus",
     "author": "HenryKun55",
     "console": "PlayStation 2",
     "mechanism": "recompiled",
@@ -820,35 +789,14 @@
     "sizeBytes": null,
     "releaseUrl": "https://github.com/HenryKun55/celosia/releases",
     "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
-  },
-  {
-    "id": "tanookistudios-decomp-buddy",
-    "repo": "TanookiStudios/decomp-buddy",
-    "title": "Buddy",
-    "game": null,
-    "author": "TanookiStudios",
-    "console": "Nintendo 64",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "macOS"
-    ],
-    "stars": 45,
-    "description": "Decomp Buddy: set up fan-made PC ports and decomps of your games from your own game files. Free, GPL-3.0. Downloads: https://decompbuddy.com",
-    "version": "v0.30.7",
-    "releasedAt": "2026-10-26",
-    "sizeBytes": 144826955,
-    "releaseUrl": "https://github.com/TanookiStudios/decomp-buddy/releases/tag/v0.30.7",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
   },
   {
     "id": "vitomiguelf-crashott-pc",
     "repo": "VitoMiguelF/crashott-pc",
-    "title": "Crashott",
-    "game": null,
+    "title": "Crash of the Titans",
+    "game": "crash-of-the-titans",
     "author": "VitoMiguelF",
     "console": "Xbox 360",
     "mechanism": "recompiled",
@@ -863,7 +811,8 @@
     "sizeBytes": 219052536,
     "releaseUrl": "https://github.com/VitoMiguelF/crashott-pc/releases/tag/v1.07",
     "licenseId": "NOASSERTION",
-    "licenseUrl": null
+    "licenseUrl": null,
+    "curated": true
   },
   {
     "id": "z3xox-tenkaichi3decomp",
@@ -953,7 +902,7 @@
   {
     "id": "n0madic-soulcalibur2hd-recomp",
     "repo": "n0madic/Soulcalibur2HD-recomp",
-    "title": "Soulcalibur 2HD",
+    "title": "Soulcalibur II HD Online",
     "game": null,
     "author": "n0madic",
     "console": "PlayStation 3",
@@ -970,12 +919,13 @@
     "sizeBytes": 13544633,
     "releaseUrl": "https://github.com/n0madic/Soulcalibur2HD-recomp/releases/tag/v0.3.0",
     "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
   },
   {
     "id": "saulob-marvel-ultimate-alliance-bundle-recompiled",
     "repo": "saulob/marvel-ultimate-alliance-bundle-recompiled",
-    "title": "Marvel Ultimate Alliance Bundle",
+    "title": "Marvel: Ultimate Alliance 1 & 2",
     "game": null,
     "author": "saulob",
     "console": "Xbox 360",
@@ -991,7 +941,8 @@
     "sizeBytes": 54741312,
     "releaseUrl": "https://github.com/saulob/marvel-ultimate-alliance-bundle-recompiled/releases/tag/v0.1.0",
     "licenseId": null,
-    "licenseUrl": null
+    "licenseUrl": null,
+    "curated": true
   },
   {
     "id": "peiikai-lasrecomp",
@@ -1019,10 +970,10 @@
   {
     "id": "hk21x-pgr1-recomp",
     "repo": "hk21x/pgr1-recomp",
-    "title": "Pgr 1",
+    "title": "Project Gotham Racing",
     "game": null,
     "author": "hk21x",
-    "console": "PC",
+    "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [
       "Windows"
@@ -1034,15 +985,16 @@
     "sizeBytes": 2140672,
     "releaseUrl": "https://github.com/hk21x/pgr1-recomp/releases/tag/v1.1",
     "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit"
+    "licenseUrl": "https://api.github.com/licenses/mit",
+    "curated": true
   },
   {
     "id": "hk21x-pgr2-recomp",
     "repo": "hk21x/pgr2-recomp",
-    "title": "Pgr 2",
+    "title": "Project Gotham Racing 2",
     "game": null,
     "author": "hk21x",
-    "console": "PC",
+    "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [
       "Windows"
@@ -1054,7 +1006,8 @@
     "sizeBytes": 2195456,
     "releaseUrl": "https://github.com/hk21x/pgr2-recomp/releases/tag/v1.1.0",
     "licenseId": null,
-    "licenseUrl": null
+    "licenseUrl": null,
+    "curated": true
   },
   {
     "id": "drakolordx7-killzonerecomp",
@@ -1078,8 +1031,8 @@
   {
     "id": "fh1-reimagined-forzahorizon1-reimagined",
     "repo": "FH1-ReImagined/ForzaHorizon1-ReImagined",
-    "title": "Forza Horizon 1 Imagined",
-    "game": null,
+    "title": "Forza Horizon",
+    "game": "forza-horizon",
     "author": "FH1-ReImagined",
     "console": "Xbox 360",
     "mechanism": "recompiled",
@@ -1094,15 +1047,16 @@
     "sizeBytes": 94955049,
     "releaseUrl": "https://github.com/FH1-ReImagined/ForzaHorizon1-ReImagined/releases/tag/v0.2.0",
     "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit"
+    "licenseUrl": "https://api.github.com/licenses/mit",
+    "curated": true
   },
   {
     "id": "mango77x-mhforever",
     "repo": "Mango77x/MHForever",
-    "title": "MHForever",
+    "title": "Monster Hunter Freedom Unite",
     "game": null,
     "author": "Mango77x",
-    "console": "PC",
+    "console": "PSP",
     "mechanism": "recompiled",
     "platforms": [
       "Windows",
@@ -1115,12 +1069,13 @@
     "sizeBytes": 72964909,
     "releaseUrl": "https://github.com/Mango77x/MHForever/releases/tag/0.5.0",
     "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
   },
   {
     "id": "smokedoggy044-cod2-bro-native-loader",
     "repo": "SmokeDoggy044/CoD2-BRO-Native-Loader",
-    "title": "Co D2 BRO Loader",
+    "title": "Call of Duty 2: Big Red One",
     "game": null,
     "author": "SmokeDoggy044",
     "console": "Xbox",
@@ -1133,7 +1088,8 @@
     "sizeBytes": null,
     "releaseUrl": "https://github.com/SmokeDoggy044/CoD2-BRO-Native-Loader/releases",
     "licenseId": "GPL-2.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-2.0"
+    "licenseUrl": "https://api.github.com/licenses/gpl-2.0",
+    "curated": true
   },
   {
     "id": "alondero-aerogauge-recomp",
@@ -1209,7 +1165,7 @@
   {
     "id": "giopixelgh-crash-twinsanity-windows",
     "repo": "GioPixelGH/Crash-Twinsanity-Windows",
-    "title": "HAB3X's Mac port of Smartkin's C++ decompilation",
+    "title": "Crash Twinsanity",
     "game": null,
     "author": "GioPixelGH",
     "console": "PlayStation 2",
@@ -1224,7 +1180,8 @@
     "sizeBytes": 14371309,
     "releaseUrl": "https://github.com/GioPixelGH/Crash-Twinsanity-Windows/releases/tag/v1.0.19",
     "licenseId": "NOASSERTION",
-    "licenseUrl": null
+    "licenseUrl": null,
+    "curated": true
   },
   {
     "id": "jedijosh920-swrots-pc",
@@ -1248,10 +1205,10 @@
   {
     "id": "slaveofido-blastcorps-recomp",
     "repo": "SlaveOfIDO/blastcorps-recomp",
-    "title": "Blastcorps",
+    "title": "Blast Corps",
     "game": null,
     "author": "SlaveOfIDO",
-    "console": "PC",
+    "console": "Nintendo 64",
     "mechanism": "native",
     "platforms": [
       "Windows",
@@ -1264,15 +1221,16 @@
     "sizeBytes": 34488694,
     "releaseUrl": "https://github.com/SlaveOfIDO/blastcorps-recomp/releases/tag/1.0.1",
     "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
   },
   {
     "id": "shaunsingh-pgr4-native",
     "repo": "shaunsingh/pgr4-native",
-    "title": "Pgr 4",
-    "game": null,
+    "title": "Project Gotham Racing 4",
+    "game": "project-gotham-racing-4",
     "author": "shaunsingh",
-    "console": "PC",
+    "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [
       "Windows"
@@ -1284,7 +1242,8 @@
     "sizeBytes": 37485231,
     "releaseUrl": "https://github.com/shaunsingh/pgr4-native/releases/tag/v0.2.1",
     "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit"
+    "licenseUrl": "https://api.github.com/licenses/mit",
+    "curated": true
   },
   {
     "id": "hyant4-knack-ii-pc-port",
@@ -1304,7 +1263,8 @@
     "sizeBytes": 272182484,
     "releaseUrl": "https://github.com/Hyant4/Knack-II-pc-port/releases/tag/knack2-Version-0.17.5",
     "licenseId": null,
-    "licenseUrl": null
+    "licenseUrl": null,
+    "curated": true
   },
   {
     "id": "pret-pokeplatinum",
@@ -1328,10 +1288,10 @@
   {
     "id": "ryderclanky-botw-native",
     "repo": "ryderclanky/BotW-Native",
-    "title": "Bot W",
-    "game": null,
+    "title": "The Legend of Zelda: Breath of the Wild",
+    "game": "breath-of-the-wild",
     "author": "ryderclanky",
-    "console": "Wii",
+    "console": "Wii U",
     "mechanism": "recompiled",
     "platforms": [
       "Windows"
@@ -1343,7 +1303,8 @@
     "sizeBytes": 150171476,
     "releaseUrl": "https://github.com/ryderclanky/BotW-Native/releases/tag/v0.1.1",
     "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit"
+    "licenseUrl": "https://api.github.com/licenses/mit",
+    "curated": true
   },
   {
     "id": "bryantmh-rush2recompiled",
@@ -1477,7 +1438,7 @@
   {
     "id": "mr-finster-vf3-recomp",
     "repo": "mr-finster/vf3-recomp",
-    "title": "Vf 3",
+    "title": "Virtua Fighter 3",
     "game": null,
     "author": "mr-finster",
     "console": "Arcade",
@@ -1494,7 +1455,8 @@
     "sizeBytes": 8093624,
     "releaseUrl": "https://github.com/mr-finster/vf3-recomp/releases/tag/v0.1.10-alpha",
     "licenseId": "NOASSERTION",
-    "licenseUrl": null
+    "licenseUrl": null,
+    "curated": true
   },
   {
     "id": "some-scurvy-dog-banjo-tooie-port",
@@ -1617,10 +1579,10 @@
   {
     "id": "thibautbus-top",
     "repo": "thibautbus/top",
-    "title": "Oracle of Ages and Oracle of Seasons",
+    "title": "The Legend of Zelda: Oracle of Ages & Oracle of Seasons",
     "game": null,
     "author": "thibautbus",
-    "console": "PC",
+    "console": "Game Boy Color",
     "mechanism": "native",
     "platforms": [
       "Windows",
@@ -1635,7 +1597,8 @@
     "sizeBytes": 12798320,
     "releaseUrl": "https://github.com/thibautbus/top/releases/tag/v1.3.0",
     "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit"
+    "licenseUrl": "https://api.github.com/licenses/mit",
+    "curated": true
   },
   {
     "id": "raulzrrs-letsgo-recomp",
@@ -1680,7 +1643,7 @@
   {
     "id": "vantageex-infamous-first-light-pc",
     "repo": "VantageEX/infamous-first-light-pc",
-    "title": "Infamous First Light",
+    "title": "inFAMOUS First Light",
     "game": null,
     "author": "VantageEX",
     "console": "PlayStation 4",
@@ -1695,15 +1658,16 @@
     "sizeBytes": 140533448,
     "releaseUrl": "https://github.com/VantageEX/infamous-first-light-pc/releases/tag/v0.3.8",
     "licenseId": "GPL-2.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-2.0"
+    "licenseUrl": "https://api.github.com/licenses/gpl-2.0",
+    "curated": true
   },
   {
     "id": "ly05010419-macnativegames",
     "repo": "ly05010419/MacNativeGames",
-    "title": "Mac Games",
+    "title": "Tears of the Kingdom & Breath of the Wild",
     "game": null,
     "author": "ly05010419",
-    "console": "PC",
+    "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
     "stars": 5938,
@@ -1713,7 +1677,8 @@
     "sizeBytes": null,
     "releaseUrl": "https://github.com/ly05010419/MacNativeGames/releases/tag/v2026.10.25",
     "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit"
+    "licenseUrl": "https://api.github.com/licenses/mit",
+    "curated": true
   },
   {
     "id": "pablocpas-opencmr2",
@@ -1806,7 +1771,7 @@
   {
     "id": "masterllgod-naruto-storm-3-full-burst-port-nativo",
     "repo": "Masterllgod/naruto-storm-3-full-burst-port-nativo",
-    "title": "Naruto Storm 3 Full Burst Nativo",
+    "title": "Naruto Shippuden: Ultimate Ninja Storm 3 Full Burst",
     "game": null,
     "author": "Masterllgod",
     "console": "Xbox 360",
@@ -1821,7 +1786,8 @@
     "sizeBytes": 21993152,
     "releaseUrl": "https://github.com/Masterllgod/naruto-storm-3-full-burst-port-nativo/releases/tag/v0.4.7",
     "licenseId": null,
-    "licenseUrl": null
+    "licenseUrl": null,
+    "curated": true
   },
   {
     "id": "saulob-crackdown-xbox360-recompiled",
@@ -1870,10 +1836,10 @@
   {
     "id": "kuraeow-ultratears",
     "repo": "kuraeow/ultratears",
-    "title": "Tears of the Kingdom 1",
+    "title": "The Legend of Zelda: Tears of the Kingdom",
     "game": null,
     "author": "kuraeow",
-    "console": "PC",
+    "console": "Nintendo Switch",
     "mechanism": "recompiled",
     "platforms": [],
     "stars": 275,
@@ -1883,7 +1849,8 @@
     "sizeBytes": null,
     "releaseUrl": "https://github.com/kuraeow/ultratears/releases",
     "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
   },
   {
     "id": "saulob-hard-corps-uprising-recompiled",
@@ -1908,30 +1875,12 @@
     "curated": true
   },
   {
-    "id": "elripalda-gta4-ps5",
-    "repo": "elripalda/gta4-ps5",
-    "title": "Gta 4 Ps 5",
-    "game": null,
-    "author": "elripalda",
-    "console": "Xbox 360",
-    "mechanism": "recompiled",
-    "platforms": [],
-    "stars": 63,
-    "description": "GTA IV, The Lost and Damned and The Ballad of Gay Tony running natively on a jailbroken PS5. Built on Liberty Recompiled by OZORDI.",
-    "version": "v1.0.2",
-    "releasedAt": "2026-10-25",
-    "sizeBytes": 118061782,
-    "releaseUrl": "https://github.com/elripalda/gta4-ps5/releases/tag/v1.0.2",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
-  },
-  {
     "id": "vnnc1-gow-native-pc",
     "repo": "Vnnc1/gow-native-pc",
-    "title": "Gow",
-    "game": null,
+    "title": "God of War",
+    "game": "god-of-war",
     "author": "Vnnc1",
-    "console": "PC",
+    "console": "PlayStation 2",
     "mechanism": "native",
     "platforms": [
       "Windows"
@@ -1943,12 +1892,13 @@
     "sizeBytes": 60958730,
     "releaseUrl": "https://github.com/Vnnc1/gow-native-pc/releases/tag/v2.0.0",
     "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
   },
   {
     "id": "openrac-openrac",
     "repo": "OpenRAC/OpenRAC",
-    "title": "Open RAC",
+    "title": "Ratchet & Clank",
     "game": null,
     "author": "OpenRAC",
     "console": "PlayStation 2",
@@ -1966,7 +1916,8 @@
     "sizeBytes": 137468408,
     "releaseUrl": "https://github.com/OpenRAC/OpenRAC/releases/tag/launcher-v0.9.0",
     "licenseId": "NOASSERTION",
-    "licenseUrl": null
+    "licenseUrl": null,
+    "curated": true
   },
   {
     "id": "jjmhalew-rampagere",
@@ -1987,7 +1938,8 @@
     "sizeBytes": 3259481,
     "releaseUrl": "https://github.com/jjmhalew/RampageRE/releases/tag/v1.1.1",
     "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
   },
   {
     "id": "novapowers0-dbz-budokai-3-hd-collection",
@@ -2188,7 +2140,7 @@
   {
     "id": "tgp482-007frwl-xberecomp",
     "repo": "TGP482/007FRWL-XBERecomp",
-    "title": "007: From Russia",
+    "title": "007: From Russia with Love",
     "game": null,
     "author": "TGP482",
     "console": "Xbox",
@@ -2201,7 +2153,8 @@
     "sizeBytes": 70921443,
     "releaseUrl": "https://github.com/TGP482/007FRWL-XBERecomp/releases/tag/V1",
     "licenseId": null,
-    "licenseUrl": null
+    "licenseUrl": null,
+    "curated": true
   },
   {
     "id": "supermedo-uncharted-pc",
@@ -2307,52 +2260,12 @@
     "curated": true
   },
   {
-    "id": "cor3duo-kirikae",
-    "repo": "Cor3Duo/kirikae",
-    "title": "Kirikae",
-    "game": null,
-    "author": "Cor3Duo",
-    "console": "Nintendo Switch",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows"
-    ],
-    "stars": 62,
-    "description": "Static recompiler that turns Nintendo Switch executables into native PC programs, written in Rust.",
-    "version": "v0.1.2",
-    "releasedAt": "2026-10-24",
-    "sizeBytes": 6285313,
-    "releaseUrl": "https://github.com/Cor3Duo/kirikae/releases/tag/v0.1.2",
-    "licenseId": "Apache-2.0",
-    "licenseUrl": "https://api.github.com/licenses/apache-2.0"
-  },
-  {
-    "id": "dzakyraf-pes2017-recomp",
-    "repo": "dzakyraf/pes2017-recomp",
-    "title": "Pes 2017",
-    "game": null,
-    "author": "dzakyraf",
-    "console": "PC",
-    "mechanism": "native",
-    "platforms": [
-      "Android"
-    ],
-    "stars": 55,
-    "description": "",
-    "version": "0.1.1",
-    "releasedAt": "2026-10-24",
-    "sizeBytes": 51829821,
-    "releaseUrl": "https://github.com/dzakyraf/pes2017-recomp/releases/tag/0.1.1",
-    "licenseId": "NOASSERTION",
-    "licenseUrl": null
-  },
-  {
     "id": "hibikifukui22-dead-or-alive-xtreme-2-recompilation",
     "repo": "hibikifukui22/Dead-or-Alive-Xtreme-2-Recompilation",
-    "title": "Dead Or Alive Xtreme 2",
+    "title": "Dead or Alive Xtreme 2",
     "game": null,
     "author": "hibikifukui22",
-    "console": "PC",
+    "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [
       "Windows"
@@ -2364,7 +2277,8 @@
     "sizeBytes": 132170204,
     "releaseUrl": "https://github.com/hibikifukui22/Dead-or-Alive-Xtreme-2-Recompilation/releases/tag/v1.1.4",
     "licenseId": "NOASSERTION",
-    "licenseUrl": null
+    "licenseUrl": null,
+    "curated": true
   },
   {
     "id": "norain211-doa2u-re",
@@ -2385,7 +2299,8 @@
     "sizeBytes": 6456283,
     "releaseUrl": "https://github.com/NoRain211/doa2u-re/releases/tag/v0.1.6",
     "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
   },
   {
     "id": "maryncrt-ultimate-mortal-kombat-3-ios-decompiled",
@@ -2613,7 +2528,7 @@
     "id": "james2doyle-ffta-recomp",
     "repo": "james2doyle/ffta-recomp",
     "title": "Final Fantasy Tactics Advance",
-    "game": null,
+    "game": "ffta",
     "author": "james2doyle",
     "console": "Game Boy Advance",
     "mechanism": "recompiled",
@@ -2629,7 +2544,8 @@
     "sizeBytes": 41531254,
     "releaseUrl": "https://github.com/james2doyle/ffta-recomp/releases/tag/v2.1",
     "licenseId": "NOASSERTION",
-    "licenseUrl": null
+    "licenseUrl": null,
+    "curated": true
   },
   {
     "id": "fliperama86-cvlod-recomp",
@@ -2764,7 +2680,7 @@
     "id": "shihabal3amri-tekken-tag-tournament-2-pc",
     "repo": "shihabal3amri/tekken-tag-tournament-2-pc",
     "title": "Tekken Tag Tournament 2",
-    "game": null,
+    "game": "tekken-tag-tournament-2",
     "author": "shihabal3amri",
     "console": "Xbox 360",
     "mechanism": "recompiled",
@@ -2869,24 +2785,6 @@
     "licenseId": null,
     "licenseUrl": null,
     "curated": true
-  },
-  {
-    "id": "xsyetopz-openjoystickdriver",
-    "repo": "xsyetopz/OpenJoystickDriver",
-    "title": "Open Joystick Driver",
-    "game": null,
-    "author": "xsyetopz",
-    "console": "Xbox 360",
-    "mechanism": "native",
-    "platforms": [],
-    "stars": 49,
-    "description": "A virtual gamepad driver and menu-bar app for macOS Monterey (v12) and above.",
-    "version": null,
-    "releasedAt": "2026-10-23",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/xsyetopz/OpenJoystickDriver/releases",
-    "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit"
   },
   {
     "id": "openportroid-armyoftworecompilation",
@@ -3153,24 +3051,6 @@
     "licenseId": "NOASSERTION",
     "licenseUrl": null,
     "curated": true
-  },
-  {
-    "id": "jakeschincariol-console-skill",
-    "repo": "Jakeschincariol/console-skill",
-    "title": "Console Skill",
-    "game": null,
-    "author": "Jakeschincariol",
-    "console": "PlayStation 2",
-    "mechanism": "recompiled",
-    "platforms": [],
-    "stars": 137,
-    "description": "11 Claude skills that port PlayStation 2 games you own to PC: reverse engineer the code, rebuild the graphics and backend, any controller, play it anywhere, then mod it however you want.",
-    "version": null,
-    "releasedAt": "2026-10-22",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/Jakeschincariol/console-skill/releases",
-    "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit"
   },
   {
     "id": "blacklabelhq-recompone",
@@ -3501,7 +3381,7 @@
     "id": "0herculabs-hl360-forza2",
     "repo": "0herculabs/hl360-Forza2",
     "title": "Forza Motorsport 2",
-    "game": null,
+    "game": "forza-motorsport-2",
     "author": "0herculabs",
     "console": "Xbox 360",
     "mechanism": "native",
@@ -3545,7 +3425,7 @@
     "title": "Splatterhouse",
     "game": null,
     "author": "0c0de",
-    "console": "PC",
+    "console": "Xbox 360",
     "mechanism": "native",
     "platforms": [],
     "stars": 74,
@@ -3555,15 +3435,16 @@
     "sizeBytes": 35648027,
     "releaseUrl": "https://github.com/0c0de/splatterhouse-decomp/releases/tag/v0.3",
     "licenseId": null,
-    "licenseUrl": null
+    "licenseUrl": null,
+    "curated": true
   },
   {
     "id": "jorjbarbosa-broken-bond-recomp",
     "repo": "jorjbarbosa/broken-bond-recomp",
-    "title": "Broken Bond",
+    "title": "Naruto: The Broken Bond",
     "game": null,
     "author": "jorjbarbosa",
-    "console": "PC",
+    "console": "Xbox 360",
     "mechanism": "native",
     "platforms": [
       "Windows"
@@ -3575,7 +3456,8 @@
     "sizeBytes": 69721490,
     "releaseUrl": "https://github.com/jorjbarbosa/broken-bond-recomp/releases/tag/v0.1.0-beta",
     "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
   },
   {
     "id": "blacklineinteractive-driveclub-port",
@@ -3851,7 +3733,7 @@
     "id": "waffle565-god-of-war-native-port",
     "repo": "Waffle565/God-Of-War-Native-Port",
     "title": "God of War",
-    "game": null,
+    "game": "god-of-war",
     "author": "Waffle565",
     "console": "PlayStation 2",
     "mechanism": "recompiled",
@@ -3863,7 +3745,8 @@
     "sizeBytes": null,
     "releaseUrl": "https://github.com/Waffle565/God-Of-War-Native-Port/releases",
     "licenseId": null,
-    "licenseUrl": null
+    "licenseUrl": null,
+    "curated": true
   },
   {
     "id": "cdlewis-snowboardkids2-recomp",
@@ -3911,7 +3794,7 @@
     "id": "beatrixzy-pgr4-recomp",
     "repo": "beatrixzy/PGR4-Recomp",
     "title": "Project Gotham Racing 4",
-    "game": null,
+    "game": "project-gotham-racing-4",
     "author": "beatrixzy",
     "console": "Xbox 360",
     "mechanism": "recompiled",
@@ -3948,8 +3831,8 @@
   {
     "id": "nakaionyt-shadowofthecolossus-pc-framegen",
     "repo": "nakaionyt/ShadowOfTheColossus-PC-FrameGen",
-    "title": "Shadow Of The Colossus Frame Gen",
-    "game": null,
+    "title": "Shadow of the Colossus",
+    "game": "shadow-of-the-colossus",
     "author": "nakaionyt",
     "console": "PlayStation 4",
     "mechanism": "native",
@@ -3963,7 +3846,8 @@
     "sizeBytes": 73720812,
     "releaseUrl": "https://github.com/nakaionyt/ShadowOfTheColossus-PC-FrameGen/releases/tag/v0.57-fg2",
     "licenseId": "GPL-2.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-2.0"
+    "licenseUrl": "https://api.github.com/licenses/gpl-2.0",
+    "curated": true
   },
   {
     "id": "florinp93-hells-gate-recomp",
@@ -4029,7 +3913,7 @@
   {
     "id": "sulphurs16-ac4-port",
     "repo": "SulphurS16/AC4-Port",
-    "title": "ARMORED CORE 4",
+    "title": "Armored Core 4",
     "game": null,
     "author": "SulphurS16",
     "console": "PlayStation 3",
@@ -4042,7 +3926,8 @@
     "sizeBytes": 1866678,
     "releaseUrl": "https://github.com/SulphurS16/AC4-Port/releases/tag/v0.5.0",
     "licenseId": "NOASSERTION",
-    "licenseUrl": null
+    "licenseUrl": null,
+    "curated": true
   },
   {
     "id": "open-goal-jak-project",
@@ -4242,26 +4127,6 @@
     "curated": true
   },
   {
-    "id": "koreanseats1-theft4",
-    "repo": "KoreanSeats1/Theft4",
-    "title": "GTA IV's Xbox 360 build for ARM64 iOS and iPadOS",
-    "game": null,
-    "author": "KoreanSeats1",
-    "console": "Xbox 360",
-    "mechanism": "recompiled",
-    "platforms": [
-      "iOS"
-    ],
-    "stars": 100,
-    "description": "Experimental static AOT recompilation of GTA IV's Xbox 360 build for ARM64 iOS and iPadOS. No game files included.",
-    "version": "v0.3.2",
-    "releasedAt": "2026-10-14",
-    "sizeBytes": 51642084,
-    "releaseUrl": "https://github.com/KoreanSeats1/Theft4/releases/tag/v0.3.2",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
-  },
-  {
     "id": "genrythefox0-project-2099",
     "repo": "GenryTheFox0/Project-2099",
     "title": "Spider-Man: Edge of Time",
@@ -4391,7 +4256,7 @@
   {
     "id": "codepdbh-nfs-carbon-360-android-recomp",
     "repo": "codepdbh/NFS-CARBON-360-ANDROID-RECOMP",
-    "title": "Need for Speed Carbon",
+    "title": "Need for Speed: Carbon",
     "game": null,
     "author": "codepdbh",
     "console": "Xbox 360",
@@ -4406,7 +4271,8 @@
     "sizeBytes": 38309457,
     "releaseUrl": "https://github.com/codepdbh/NFS-CARBON-360-ANDROID-RECOMP/releases/tag/v0.3.3",
     "licenseId": "NOASSERTION",
-    "licenseUrl": null
+    "licenseUrl": null,
+    "curated": true
   },
   {
     "id": "pret-pokediamond",
@@ -4598,7 +4464,7 @@
     "id": "oaleex-mojorecomp",
     "repo": "OAleex/MojoRecomp",
     "title": "Crash of the Titans",
-    "game": null,
+    "game": "crash-of-the-titans",
     "author": "OAleex",
     "console": "Xbox 360",
     "mechanism": "recompiled",
@@ -4765,7 +4631,7 @@
   {
     "id": "blacklabelhq-medievilrecomp",
     "repo": "BlackLabelHQ/MediEvilRecomp",
-    "title": "Medi Evil",
+    "title": "MediEvil",
     "game": null,
     "author": "BlackLabelHQ",
     "console": "PlayStation",
@@ -4782,7 +4648,8 @@
     "sizeBytes": 44678985,
     "releaseUrl": "https://github.com/BlackLabelHQ/MediEvilRecomp/releases/tag/v0.2b",
     "licenseId": null,
-    "licenseUrl": null
+    "licenseUrl": null,
+    "curated": true
   },
   {
     "id": "adonis-singh-re4",
@@ -4886,7 +4753,7 @@
   {
     "id": "technicallycomputers-klonoa-door-to-phantomile",
     "repo": "TechnicallyComputers/Klonoa-Door-to-Phantomile",
-    "title": "Klonoa Door To Phantomile",
+    "title": "Klonoa: Door to Phantomile",
     "game": null,
     "author": "TechnicallyComputers",
     "console": "PlayStation",
@@ -4903,7 +4770,8 @@
     "sizeBytes": 48763018,
     "releaseUrl": "https://github.com/TechnicallyComputers/Klonoa-Door-to-Phantomile/releases/tag/v0.1.4",
     "licenseId": null,
-    "licenseUrl": null
+    "licenseUrl": null,
+    "curated": true
   },
   {
     "id": "norain211-doaxvb-re",
@@ -5125,7 +4993,7 @@
     "title": "Syphon Filter 2",
     "game": null,
     "author": "alexbeavs-ps1-ports",
-    "console": "PC",
+    "console": "PlayStation",
     "mechanism": "recompiled",
     "platforms": [
       "Windows",
@@ -5139,7 +5007,8 @@
     "sizeBytes": 28663160,
     "releaseUrl": "https://github.com/alexbeavs-ps1-ports/syphon-filter-2-recomp/releases/tag/v0.2.0",
     "licenseId": "NOASSERTION",
-    "licenseUrl": null
+    "licenseUrl": null,
+    "curated": true
   },
   {
     "id": "new-coke-strikers",
@@ -5606,10 +5475,10 @@
   {
     "id": "strider973-strider-2-recompiled",
     "repo": "strider973/STRIDER-2-Recompiled",
-    "title": "STRIDER 2",
+    "title": "Strider 2",
     "game": null,
     "author": "strider973",
-    "console": "PC",
+    "console": "PlayStation",
     "mechanism": "native",
     "platforms": [
       "Windows",
@@ -5623,7 +5492,8 @@
     "sizeBytes": 30586725,
     "releaseUrl": "https://github.com/strider973/STRIDER-2-Recompiled/releases/tag/v0.1.2",
     "licenseId": null,
-    "licenseUrl": null
+    "licenseUrl": null,
+    "curated": true
   },
   {
     "id": "birabittoh-nocturnerecomp",
@@ -6141,7 +6011,7 @@
     "id": "fantaskink-sotc",
     "repo": "Fantaskink/SOTC",
     "title": "Shadow of the Colossus",
-    "game": null,
+    "game": "shadow-of-the-colossus",
     "author": "Fantaskink",
     "console": "PlayStation 2",
     "mechanism": "native",

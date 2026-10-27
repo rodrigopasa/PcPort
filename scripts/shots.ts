@@ -12,6 +12,7 @@
  */
 import { writeFile, readFile } from 'node:fs/promises'
 import { imageSize } from '../lib/imagesize'
+import { isUsableShot } from '../lib/shot-filter'
 
 type Row = { id: string; repo: string; title: string }
 
@@ -71,22 +72,7 @@ function extract(body: string, repo: string, branch: string): string[] {
 
 type Shot = { url: string; w: number; h: number }
 
-/**
- * The two sizes of a share card: GitHub's social preview (1280x640) and Open
- * Graph's (1200x630). A README that leads with one is showing a poster, not
- * the game — three of the four promotional images found by looking at every
- * screenshot were exactly these sizes, one of them named social-preview. A
- * game frame is 16:9 or 4:3 and does not land on these numbers.
- */
-const SHARE_CARD = new Set(['1280x640', '1200x630'])
-
-/**
- * Images a person looked at and rejected, by a fragment of their URL. For what
- * no rule can catch without also catching real screenshots: the Project Midas
- * logo is 3:1, and so is Def Jam's legitimate side-by-side widescreen
- * comparison.
- */
-const REJECTED_SHOTS = ['PM%20thin%201%20-%20full.png']
+// The share-card and by-eye rules live in lib/shot-filter.ts, shared.
 
 async function measure(url: string): Promise<Shot | null> {
   try {
@@ -96,9 +82,8 @@ async function measure(url: string): Promise<Shot | null> {
     const dim = imageSize(buf)
     // Anything under 480px wide is an icon or a badge that slipped the filter.
     if (!dim || dim.w < 480) return null
-    if (SHARE_CARD.has(`${dim.w}x${dim.h}`)) return null
-    if (REJECTED_SHOTS.some((r) => url.includes(r))) return null
-    return { url, w: dim.w, h: dim.h }
+    const shot = { url, w: dim.w, h: dim.h }
+    return isUsableShot(shot) ? shot : null
   } catch {
     return null
   }

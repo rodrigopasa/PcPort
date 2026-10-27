@@ -1011,6 +1011,56 @@ export const GAMES: Record<string, GameMeta> = {
       en: 'Three-dimensional arena fighting with the largest roster in the series to that point, split between the Naruto and Shippuden eras. One-button combat with substitution and support characters.',
     },
   },
+  'shadow-of-the-colossus': {
+    releasedAt: '2005-10-18',
+    developer: 'Sony Computer Entertainment Japan',
+    publisher: 'Sony Computer Entertainment',
+    genres: ['Ação e aventura'],
+    summary: {
+      pt: "Um jovem atravessa uma terra proibida para derrotar dezesseis colossos, escalando cada um até o ponto fraco.",
+      en: "A young man crosses a forbidden land to defeat sixteen colossi, climbing each one to its weak point.",
+    },
+  },
+  'crash-of-the-titans': {
+    releasedAt: '2007-10-02',
+    developer: 'Radical Entertainment',
+    publisher: 'Vivendi Games',
+    genres: ['Plataforma', 'Briga'],
+    summary: {
+      pt: "Crash domina os mutantes de Cortex e luta montado neles, num beat ’em up de plataforma.",
+      en: "Crash takes control of Cortex’s mutants and fights riding them, in a platforming beat ’em up.",
+    },
+  },
+  'tekken-tag-tournament-2': {
+    releasedAt: '2011-09-14',
+    developer: 'Namco Bandai Games',
+    publisher: 'Namco Bandai Games',
+    genres: ['Luta'],
+    summary: {
+      pt: "Luta em duplas com troca de personagem no meio do combo, com quase todo o elenco da série.",
+      en: "Tag-team fighting with character swaps mid-combo, featuring nearly the whole series roster.",
+    },
+  },
+  'forza-motorsport-2': {
+    releasedAt: '2007-05-29',
+    developer: 'Turn 10 Studios',
+    publisher: 'Microsoft Game Studios',
+    genres: ['Corrida'],
+    summary: {
+      pt: "Simulador de corrida com mais de 300 carros, ajuste mecânico detalhado e pintura personalizada.",
+      en: "A racing simulator with over 300 cars, detailed tuning and custom liveries.",
+    },
+  },
+  'project-gotham-racing-4': {
+    releasedAt: '2007-10-02',
+    developer: 'Bizarre Creations',
+    publisher: 'Microsoft Game Studios',
+    genres: ['Corrida'],
+    summary: {
+      pt: "Corrida urbana que premia estilo além da velocidade, com motos, clima dinâmico e o sistema de Kudos.",
+      en: "Street racing that rewards style as well as speed, with motorbikes, dynamic weather and the Kudos system.",
+    },
+  },
   wet: {
     releasedAt: '2009-09-15',
     developer: 'Artificial Mind and Movement',

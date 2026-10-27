@@ -37,11 +37,7 @@ const CURATED: Record<string, Curation> = {
     title: 'Forza Horizon',
     console: 'Xbox 360',
   },
-  'Dyotson/ForzaHorizon1-ReImagined': {
-    game: 'forza-horizon',
-    title: 'Forza Horizon',
-    console: 'Xbox 360',
-  },
+  // Dyotson/ForzaHorizon1-ReImagined moved to FH1-ReImagined/…, below.
   'shdecompilations/silent-hill-decomp': {
     game: 'silent-hill',
     title: 'Silent Hill',
@@ -641,7 +637,7 @@ const CURATED: Record<string, Curation> = {
   "saulob/crackdown-xbox360-recompiled": { title: "Crackdown", console: "Xbox 360" },
   "chrissotraidis/paperpad": { title: "Paper Mario", console: "Nintendo 64" },
   "guimaraf/plusalpha-recomp": { title: "Street Fighter EX Plus Alpha", console: "PlayStation" },
-  "0herculabs/hl360-Forza2": { title: "Forza Motorsport 2", console: "Xbox 360" },
+  "0herculabs/hl360-Forza2": { game: "forza-motorsport-2", title: "Forza Motorsport 2", console: "Xbox 360" },
   "metroidret/mzm": { title: "Metroid: Zero Mission", console: "Game Boy Advance" },
   "PromethenDev/wwe2k14-recomp": { title: "WWE 2K14", console: "Xbox 360" },
   "saulob/ssf2t-hd-remix-recompiled": { title: "Super Street Fighter II Turbo HD Remix", console: "Xbox 360" },
@@ -662,7 +658,7 @@ const CURATED: Record<string, Curation> = {
   "masterspike52/reDAHM": { title: "Destroy All Humans! Path of the Furon", console: "Xbox 360" },
   "puckhead73/nhl-legacy-recomp": { title: "NHL Legacy", console: "Xbox 360" },
   "kholdfuzion/GoldenRecomp": { game: "goldeneye-007", title: "GoldenEye 007", console: "Nintendo 64" },
-  "Fantaskink/SOTC": { title: "Shadow of the Colossus", console: "PlayStation 2" },
+  "Fantaskink/SOTC": { game: "shadow-of-the-colossus", title: "Shadow of the Colossus", console: "PlayStation 2" },
   "open-ribbon/open-ribbon": { title: "Vib-Ribbon", console: "PlayStation" },
   "bdragoncore/cor64": { title: "Cor64", console: "Nintendo 64", mechanism: "emulator" },
   "BttrDrgn/f-zerox": { title: "F-Zero X", console: "Nintendo 64" },
@@ -685,7 +681,7 @@ const CURATED: Record<string, Curation> = {
   "nikolaygorb/PerfectDarkZeroRecomp": { title: "Perfect Dark Zero", console: "Xbox 360" },
   "novapowers0/DBZ-Budokai-3-HD-Collection": { title: "Dragon Ball Z: Budokai 3 HD", console: "Xbox 360" },
   "birabittoh/EternalSonataReprise": { title: "Eternal Sonata", console: "Xbox 360" },
-  "toowasmir/WebOfShadowsRecomp": { title: "Spider-Man: Web of Shadows", console: "Xbox 360" },
+  // toowasmir/WebOfShadowsRecomp was removed from GitHub in October 2026.
   "FrankHUN88453/CoD3Recomp": { title: "Call of Duty 3", console: "Xbox 360" },
   "OpokXeno/xenogears-recomp": { title: "Xenogears", console: "PlayStation" },
   "jessetbh/WCWvsNWOWorldTourRecomp": { title: "WCW vs. nWo World Tour", console: "Nintendo 64" },
@@ -696,15 +692,15 @@ const CURATED: Record<string, Curation> = {
   "holdmysocks/mcla-recomp": { title: "Midnight Club: Los Angeles", console: "Xbox 360" },
   "TekRantGaming/earthworm-jim-hd-recompiled": { title: "Earthworm Jim HD", console: "Xbox 360" },
   "davidptrssvea/Table-Tennis-Rockstar-PC": { title: "Rockstar Games Presents Table Tennis", console: "Xbox 360" },
-  "shihabal3amri/tekken-tag-tournament-2-pc": { title: "Tekken Tag Tournament 2", console: "Xbox 360" },
+  "shihabal3amri/tekken-tag-tournament-2-pc": { game: "tekken-tag-tournament-2", title: "Tekken Tag Tournament 2", console: "Xbox 360" },
   "alondero/automobililamborghini-recomp": { title: "Automobili Lamborghini", console: "Nintendo 64" },
-  "beatrixzy/PGR4-Recomp": { title: "Project Gotham Racing 4", console: "Xbox 360" },
+  "beatrixzy/PGR4-Recomp": { game: "project-gotham-racing-4", title: "Project Gotham Racing 4", console: "Xbox 360" },
   "pret/pmd-red": { title: "Pokémon Mystery Dungeon: Red Rescue Team", console: "Game Boy Advance" },
   "danisandoval/fukami": { title: "Ridge Racer V", console: "PlayStation 2" },
   "pret/pokepinballrs": { title: "Pokémon Pinball: Ruby & Sapphire", console: "Game Boy Advance" },
   "Sinan-Karakaya/DQ8-Recompiled": { title: "Dragon Quest VIII: Journey of the Cursed King", console: "PlayStation 2" },
   "mstan/ApeEscapeRecomp": { title: "Ape Escape", console: "PlayStation" },
-  "OAleex/MojoRecomp": { title: "Crash of the Titans", console: "Xbox 360" },
+  "OAleex/MojoRecomp": { game: "crash-of-the-titans", title: "Crash of the Titans", console: "Xbox 360" },
   "Supermedo/wet-recomp": { game: "wet", title: "WET", console: "Xbox 360" },
   "alondero/aerogauge-recomp": { title: "AeroGauge", console: "Nintendo 64" },
   "mstan/MegaManX6Recomp": { title: "Mega Man X6", console: "PlayStation" },
@@ -734,6 +730,53 @@ const CURATED: Record<string, Curation> = {
   "WistfulHopes/DBZ1": { title: "Dragon Ball Z: Budokai HD", console: "Xbox 360" },
   "WistfulHopes/RB2": { title: "Dragon Ball: Raging Blast 2", console: "Xbox 360" },
   "Rainchus/Quest64-Recomp": { title: "Quest 64", console: "Nintendo 64" },
+
+  // Twelfth batch: what discovery added from 23 to 27 October. Names and
+  // consoles from each README. Shadow of the Colossus, Crash of the Titans,
+  // Tekken Tag Tournament 2, Forza Motorsport 2 and Project Gotham Racing 4
+  // now have two or more ports, so the earlier ones join their key.
+  "wootbeer/snprecomp": { title: "Sin and Punishment", console: "Nintendo 64" },
+  "MysteriousAeon/rayman3-hd-recompiled": { title: "Rayman 3 HD", console: "Xbox 360" },
+  "zer0ducksgiven/Forza-Motorsport-2-ReGPU": { game: "forza-motorsport-2", title: "Forza Motorsport 2", console: "Xbox 360" },
+  "DrummingBird1/gow-psp-recomp": { title: "God of War: Chains of Olympus & Ghost of Sparta", console: "PSP" },
+  "Petexy/Tekken-Tag-2-Ultimate-Edition": { game: "tekken-tag-tournament-2", title: "Tekken Tag Tournament 2: Wii U Edition", console: "Wii U" },
+  "HenryKun55/celosia": { game: "shadow-of-the-colossus", title: "Shadow of the Colossus", console: "PlayStation 2" },
+  "VitoMiguelF/crashott-pc": { game: "crash-of-the-titans", title: "Crash of the Titans", console: "Xbox 360" },
+  "n0madic/Soulcalibur2HD-recomp": { title: "Soulcalibur II HD Online", console: "PlayStation 3" },
+  "saulob/marvel-ultimate-alliance-bundle-recompiled": { title: "Marvel: Ultimate Alliance 1 & 2", console: "Xbox 360" },
+  "hk21x/pgr1-recomp": { title: "Project Gotham Racing", console: "Xbox" },
+  "hk21x/pgr2-recomp": { title: "Project Gotham Racing 2", console: "Xbox" },
+  "FH1-ReImagined/ForzaHorizon1-ReImagined": { game: "forza-horizon", title: "Forza Horizon", console: "Xbox 360" },
+  "Mango77x/MHForever": { title: "Monster Hunter Freedom Unite", console: "PSP" },
+  "SmokeDoggy044/CoD2-BRO-Native-Loader": { title: "Call of Duty 2: Big Red One", console: "Xbox" },
+  "GioPixelGH/Crash-Twinsanity-Windows": { title: "Crash Twinsanity", console: "PlayStation 2" },
+  "SlaveOfIDO/blastcorps-recomp": { title: "Blast Corps", console: "Nintendo 64" },
+  "shaunsingh/pgr4-native": { game: "project-gotham-racing-4", title: "Project Gotham Racing 4", console: "Xbox 360" },
+  "Hyant4/Knack-II-pc-port": { title: "Knack II", console: "PlayStation 4" },
+  "ryderclanky/BotW-Native": { game: "breath-of-the-wild", title: "The Legend of Zelda: Breath of the Wild", console: "Wii U" },
+  "mr-finster/vf3-recomp": { title: "Virtua Fighter 3", console: "Arcade" },
+  "thibautbus/top": { title: "The Legend of Zelda: Oracle of Ages & Oracle of Seasons", console: "Game Boy Color" },
+  "VantageEX/infamous-first-light-pc": { title: "inFAMOUS First Light", console: "PlayStation 4" },
+  "ly05010419/MacNativeGames": { title: "Tears of the Kingdom & Breath of the Wild", console: "Nintendo Switch" },
+  "Masterllgod/naruto-storm-3-full-burst-port-nativo": { title: "Naruto Shippuden: Ultimate Ninja Storm 3 Full Burst", console: "Xbox 360" },
+  "kuraeow/ultratears": { title: "The Legend of Zelda: Tears of the Kingdom", console: "Nintendo Switch" },
+  "Vnnc1/gow-native-pc": { game: "god-of-war", title: "God of War", console: "PlayStation 2" },
+  "OpenRAC/OpenRAC": { title: "Ratchet & Clank", console: "PlayStation 2" },
+  "jjmhalew/RampageRE": { title: "Rampage: Total Destruction", console: "PlayStation 2" },
+  "TGP482/007FRWL-XBERecomp": { title: "007: From Russia with Love", console: "Xbox" },
+  "hibikifukui22/Dead-or-Alive-Xtreme-2-Recompilation": { title: "Dead or Alive Xtreme 2", console: "Xbox 360" },
+  "NoRain211/doa2u-re": { title: "Dead or Alive 2 Ultimate", console: "Xbox" },
+  "james2doyle/ffta-recomp": { game: "ffta", title: "Final Fantasy Tactics Advance", console: "Game Boy Advance" },
+  "0c0de/splatterhouse-decomp": { title: "Splatterhouse", console: "Xbox 360" },
+  "jorjbarbosa/broken-bond-recomp": { title: "Naruto: The Broken Bond", console: "Xbox 360" },
+  "Waffle565/God-Of-War-Native-Port": { game: "god-of-war", title: "God of War", console: "PlayStation 2" },
+  "nakaionyt/ShadowOfTheColossus-PC-FrameGen": { game: "shadow-of-the-colossus", title: "Shadow of the Colossus", console: "PlayStation 4" },
+  "SulphurS16/AC4-Port": { title: "Armored Core 4", console: "PlayStation 3" },
+  "codepdbh/NFS-CARBON-360-ANDROID-RECOMP": { title: "Need for Speed: Carbon", console: "Xbox 360" },
+  "BlackLabelHQ/MediEvilRecomp": { title: "MediEvil", console: "PlayStation" },
+  "TechnicallyComputers/Klonoa-Door-to-Phantomile": { title: "Klonoa: Door to Phantomile", console: "PlayStation" },
+  "alexbeavs-ps1-ports/syphon-filter-2-recomp": { title: "Syphon Filter 2", console: "PlayStation" },
+  "strider973/STRIDER-2-Recompiled": { title: "Strider 2", console: "PlayStation" },
 }
 
 /**
@@ -748,7 +791,7 @@ function recordSlugMoves(before: SlugRow[], after: SlugRow[]) {
   if (n) console.log(`enderecos antigos  : ${n} redirecionados`)
   const goneFile = 'lib/slug-gone.json'
   const gone: GoneBook = JSON.parse(readFileSync(goneFile, 'utf8'))
-  const g = recordGone(gone, before, after)
+  const g = recordGone(gone, before, after, history)
   writeFileSync(goneFile, `${JSON.stringify(gone, null, 2)}\n`)
   if (g) console.log(`entradas removidas : ${g} enderecos redirecionados`)
 }

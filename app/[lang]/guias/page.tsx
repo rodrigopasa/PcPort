@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import { notFound, permanentRedirect } from 'next/navigation'
 import { GuidesIndex } from '@/components/GuidePage'
-import { DICT, SITE, guidesPath } from '@/lib/i18n'
+import { SITE, guidesPath } from '@/lib/i18n'
 
 /** Only `/pt/guias` — the other language has its own word for this page. */
 type Params = Promise<{ lang: string }>
@@ -18,7 +18,9 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   const pt = `${SITE}${guidesPath('pt')}`
   const en = `${SITE}${guidesPath('en')}`
   return {
-    title: DICT.pt.guides,
+    title: 'Guias: ports nativos, recompilações e como instalar',
+    description:
+      'O que é descompilação e recompilação estática, quais ports são nativos, quais rodam no Linux e no Mac, e quais ainda estão em desenvolvimento.',
     alternates: { canonical: `${SITE}${guidesPath('pt')}`, languages: { 'pt-BR': pt, en, 'x-default': en } },
   }
 }

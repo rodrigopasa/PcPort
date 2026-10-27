@@ -11,9 +11,18 @@ export type QA = { q: string; a: string }
  * on record; a free one does not — which is exactly the line between a port
  * that needs your own copy and one that ships complete.
  */
+/**
+ * Whether playing needs the player's own copy of the game. Only a game known
+ * to be free — in games.ts with no publisher: Taisei, Celeste 64 — does not.
+ *
+ * This used to answer the other way round: anything without a games.ts entry
+ * counted as free, so FIFA 09 and some 150 others told readers, in their FAQ
+ * and search snippet, to download and play with no copy of the game at all.
+ * Every one of them needs it, and the catalog's whole footing is saying so.
+ */
 export function needsOwnCopy(row: CatalogRow): boolean {
-  if (!row.game) return false
-  return Boolean(GAMES[row.game]?.publisher)
+  const meta = row.game ? GAMES[row.game] : undefined
+  return !(meta && !meta.publisher)
 }
 
 const MECHANISM_PT: Record<Mechanism, string> = {
@@ -46,19 +55,68 @@ export function mechanismExplainer(row: CatalogRow, lang: Lang): string {
   return (lang === 'pt' ? MECHANISM_PT : MECHANISM_EN)[row.mechanism]
 }
 
-/** ~155 characters, composed to length rather than generated long and cut. */
+const KIND: Record<Lang, Record<Mechanism, string>> = {
+  pt: {
+    native: 'port nativo',
+    recompiled: 'recompilação estática',
+    'translation-layer': 'camada de tradução',
+    emulator: 'emulador',
+    'in-progress': 'projeto em andamento',
+  },
+  en: {
+    native: 'native port',
+    recompiled: 'static recompilation',
+    'translation-layer': 'translation layer',
+    emulator: 'emulator',
+    'in-progress': 'work-in-progress project',
+  },
+}
+
+/**
+ * The search snippet, ~155 characters, composed to length rather than cut.
+ *
+ * It used to read "Xbox 360 FIFA 09 running on PC through native": the
+ * mechanism's chip label dropped into a sentence that needed a noun. It also
+ * carried no author, so the four Bloodborne ports had the same snippet.
+ */
 export function portSummary(row: CatalogRow, lang: Lang): string {
-  const mech = DICT[lang].mechanisms[row.mechanism].toLowerCase()
+  const kind = KIND[lang][row.mechanism]
   const own = needsOwnCopy(row)
+  const systems = row.platforms.length ? row.platforms.join(', ') : null
+  const fit = (parts: string[]) => {
+    let out = ''
+    for (const p of parts) if ((out + p).length <= 158) out += p
+    return out.trim()
+  }
 
   if (lang === 'pt') {
-    const base = `${row.title} de ${row.console} rodando no PC por ${mech}.`
-    const tail = own ? ' Use sua própria cópia do jogo.' : ' Gratuito e completo.'
-    return (base + tail).slice(0, 158)
+    if (row.mechanism === 'emulator')
+      return fit([
+        `${row.title}: emulador de ${row.console} para PC, de ${row.author}.`,
+        systems ? ` Builds para ${systems}.` : '',
+        ' Roda os jogos que você já tem, sem distribuir nenhum.',
+      ])
+    return fit([
+      `${row.title} (${row.console}) no PC: ${kind} de ${row.author}`,
+      row.version ? `, versão ${row.version}.` : '.',
+      systems ? ` Para ${systems}.` : '',
+      own ? ' Requer sua própria cópia do jogo.' : ' Gratuito e completo.',
+      ' Requisitos e passo a passo.',
+    ])
   }
-  const base = `${row.console} ${row.title} running on PC through ${mech}.`
-  const tail = own ? ' Supply your own copy of the game.' : ' Free and complete.'
-  return (base + tail).slice(0, 158)
+  if (row.mechanism === 'emulator')
+    return fit([
+      `${row.title}: a ${row.console} emulator for PC by ${row.author}.`,
+      systems ? ` Builds for ${systems}.` : '',
+      ' Runs the games you already own and ships none.',
+    ])
+  return fit([
+    `${row.title} (${row.console}) on PC: a ${kind} by ${row.author}`,
+    row.version ? `, version ${row.version}.` : '.',
+    systems ? ` For ${systems}.` : '',
+    own ? ' Requires your own copy of the game.' : ' Free and complete.',
+    ' Requirements and install steps.',
+  ])
 }
 
 export function installSteps(row: CatalogRow, lang: Lang): string[] {

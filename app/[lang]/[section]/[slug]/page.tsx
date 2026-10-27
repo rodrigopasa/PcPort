@@ -10,6 +10,7 @@ import {
   getRelated,
   getGamePorts,
   formatDate,
+  slugify,
   formatSize,
   gameYear,
   consoleSlug,
@@ -50,7 +51,10 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   const t = DICT[lang]
   const mech = t.mechanisms[entry.mechanism]
   // The query is "<game> pc port", never "<game> v1.0".
-  const title = entry.gameMeta ? t.seoTitle(entry.title, mech) : `${entry.title} — ${mech}`
+  const base = t.seoTitle(entry.title, mech)
+  // Four Bloodborne ports had one title between them. A port that lost the
+  // clean slug to a better-known one of the same game is named by its author.
+  const title = entry.slug.includes(slugify(entry.author)) ? `${base} (${entry.author})` : base
 
   const ptUrl = `${SITE}${entryPath('pt', lang === 'pt' ? entry.slug : entry.slugAlt)}`
   const enUrl = `${SITE}${entryPath('en', lang === 'en' ? entry.slug : entry.slugAlt)}`

@@ -28,3 +28,13 @@ test('a removed entry keeps its game and console for the redirect', () => {
   recordGone(book, [row('Golden Sun')], [sw, row('Golden Sun')])
   assert.equal(book.pt['switchrecomp-pc'], undefined)
 })
+
+test('a removed entry takes its older, renamed addresses with it', () => {
+  const book = { pt: {}, en: {} } as import('./slugs').GoneBook
+  const history: SlugHistory = { pt: { 'fifa09-pc': 'chunchunq-fifa09' }, en: {} }
+  const fifa = { id: 'chunchunq-fifa09', title: 'FIFA 09', author: 'ChunchunQ', game: null, console: 'Xbox 360', stars: 1 }
+  recordGone(book, [fifa], [], history)
+  assert.equal(history.pt['fifa09-pc'], undefined)
+  assert.deepEqual(book.pt['fifa09-pc'], { game: null, console: 'Xbox 360' })
+  assert.ok(book.pt['fifa-09-pc'])
+})

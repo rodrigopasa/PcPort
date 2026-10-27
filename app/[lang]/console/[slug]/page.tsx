@@ -41,6 +41,7 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
       siteName: SITE_NAME,
       locale: lang === 'pt' ? 'pt_BR' : 'en_US',
       url: `${SITE}/${lang}/console/${slug}`,
+      images: [`${SITE}/${lang}/opengraph-image`],
       title: t.portsOn(name),
       description: t.consoleLead(name, rows.length),
     },

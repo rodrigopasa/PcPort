@@ -29,7 +29,12 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
         'x-default': `${SITE}/en/consoles`,
       },
     },
-    openGraph: { siteName: SITE_NAME, title: t.consoles, description: t.consolesLead },
+    openGraph: {
+      siteName: SITE_NAME,
+      title: t.consoles,
+      description: t.consolesLead,
+      images: [`${SITE}/${lang}/opengraph-image`],
+    },
   }
 }
 

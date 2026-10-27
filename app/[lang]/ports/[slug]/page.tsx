@@ -152,6 +152,7 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
       siteName: SITE_NAME,
       locale: hit.lang === 'pt' ? 'pt_BR' : 'en_US',
       url: hit.lang === 'pt' ? pt : en,
+      images: [`${SITE}/${hit.lang}/opengraph-image`],
       title,
       description,
     },

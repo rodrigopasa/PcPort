@@ -17,6 +17,7 @@
  */
 import { readFile, writeFile } from 'node:fs/promises'
 import { imageSize } from '../lib/imagesize'
+import { isUsableShot } from '../lib/shot-filter'
 
 type Row = { id: string; repo: string; title: string }
 type Shot = { url: string; w: number; h: number }
@@ -31,7 +32,8 @@ async function measure(url: string): Promise<Shot | null> {
     if (!res.ok || !(res.headers.get('content-type') ?? '').startsWith('image/')) return null
     const dim = imageSize(Buffer.from(await res.arrayBuffer()))
     if (!dim || dim.w < 480) return null
-    return { url, w: dim.w, h: dim.h }
+    const shot = { url, w: dim.w, h: dim.h }
+    return isUsableShot(shot) ? shot : null
   } catch {
     return null
   }

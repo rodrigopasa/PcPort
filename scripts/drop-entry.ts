@@ -22,7 +22,7 @@ if (dropped !== want.size) throw new Error(`asked for ${want.size}, found ${drop
 const history: SlugHistory = JSON.parse(readFileSync('lib/slug-history.json', 'utf8'))
 const gone: GoneBook = JSON.parse(readFileSync('lib/slug-gone.json', 'utf8'))
 recordMoves(history, before, after)
-const n = recordGone(gone, before, after)
+const n = recordGone(gone, before, after, history)
 writeFileSync(FILE, `${JSON.stringify(after, null, 2)}\n`)
 writeFileSync('lib/slug-history.json', `${JSON.stringify(history, null, 2)}\n`)
 writeFileSync('lib/slug-gone.json', `${JSON.stringify(gone, null, 2)}\n`)

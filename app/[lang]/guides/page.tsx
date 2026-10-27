@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import { notFound, permanentRedirect } from 'next/navigation'
 import { GuidesIndex } from '@/components/GuidePage'
-import { DICT, SITE, guidesPath } from '@/lib/i18n'
+import { SITE, guidesPath } from '@/lib/i18n'
 
 /** Only `/en/guides` — the other language has its own word for this page. */
 type Params = Promise<{ lang: string }>
@@ -18,7 +18,9 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   const pt = `${SITE}${guidesPath('pt')}`
   const en = `${SITE}${guidesPath('en')}`
   return {
-    title: DICT.en.guides,
+    title: 'Guides: native ports, recompilations and how to install them',
+    description:
+      'What a decompilation and a static recompilation are, which ports are native, which run on Linux and Mac, and which are still in development.',
     alternates: { canonical: `${SITE}${guidesPath('en')}`, languages: { 'pt-BR': pt, en, 'x-default': en } },
   }
 }

@@ -13,6 +13,7 @@ export { consoleSlug, formatDate, formatSize, gameYear, slugify }
 export type { Game, Shot }
 import { GAMES, type GameMeta } from './games'
 import { installSteps, portSummary } from './content'
+import { isUsableShot } from './shot-filter'
 import { buildSlugs, movedFrom, goneFrom, goneConsoleOf, goneConsoles } from './slugs'
 import { entryPath, hubPath } from './i18n'
 import type { Lang, Mechanism } from './db/schema'
@@ -134,7 +135,7 @@ function toEntry(row: CatalogRow, lang: Lang): Entry {
     seoDescription: portSummary(row, lang),
     installSteps: installSteps(row, lang),
     gameMeta: gameOf(row.game, lang),
-    screenshots: shots()[row.id]?.images ?? [],
+    screenshots: (shots()[row.id]?.images ?? []).filter(isUsableShot),
   }
 }
 

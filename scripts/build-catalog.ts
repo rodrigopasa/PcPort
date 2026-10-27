@@ -344,7 +344,7 @@ function recordSlugMoves(before: SlugRow[], after: SlugRow[]) {
   if (n) console.log(`enderecos antigos  : ${n} redirecionados`)
   const goneFile = 'lib/slug-gone.json'
   const gone: GoneBook = JSON.parse(readFileSync(goneFile, 'utf8'))
-  const g = recordGone(gone, before, after)
+  const g = recordGone(gone, before, after, history)
   writeFileSync(goneFile, `${JSON.stringify(gone, null, 2)}\n`)
   if (g) console.log(`entradas removidas : ${g} enderecos redirecionados`)
 }
@@ -377,7 +377,17 @@ async function main() {
     const previous = byRepo.get(path)
     try {
       const row = await fetchRow(path, previous)
-      if (row === 'rejected') { rejected++; continue }
+      if (row === 'rejected') {
+        rejected++
+        // An uncurated entry that no longer passes — a new DENIED line, a
+        // release that now fails the guard — leaves; keeping the old row
+        // kept it listed for good. A curated one is a person's call.
+        if (previous && !previous.curated) {
+          byRepo.delete(path)
+          console.log(`-  ${previous.title} — ${path} no longer passes`)
+        }
+        continue
+      }
       if (row === 'gone') {
         // Its address is recorded on write and redirects to the closest page.
         byRepo.delete(path)
@@ -385,6 +395,19 @@ async function main() {
         continue
       }
       if (!row) continue
+
+      // A repository that moved — Dyotson/ForzaHorizon1-ReImagined became
+      // FH1-ReImagined/… — answers at its old path with its new name. Keyed by
+      // the old path, the entry was found again under the new one as a new
+      // project; the next run's map by repository kept only one of the two,
+      // and the curated one, with its id and addresses, was the one lost.
+      if (row.repo !== path) {
+        byRepo.delete(path)
+        const there = byRepo.get(row.repo)
+        byRepo.set(row.repo, there && !previous ? there : row)
+        console.log(`>  ${row.title} — ${path} moved to ${row.repo}`)
+        continue
+      }
 
       if (!previous) {
         // A discovered project needs a `game` mapping before its page can carry

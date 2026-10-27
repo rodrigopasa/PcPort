@@ -44,10 +44,11 @@ export async function guideMetadata(lang: Lang, slug: string): Promise<Metadata>
       siteName: SITE_NAME,
       locale: lang === 'pt' ? 'pt_BR' : 'en_US',
       url: lang === 'pt' ? pt : en,
+      images: [`${SITE}/${lang}/opengraph-image`],
       title,
       description:
         guide.kind === 'list'
-          ? `${entries.length} — ${guide.description[lang]}`
+          ? `${entries.length} ports. ${guide.description[lang]}`
           : guide.description[lang],
     },
   }
