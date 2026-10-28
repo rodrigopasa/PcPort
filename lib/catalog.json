@@ -139,7 +139,7 @@
     "console": "Nintendo DS",
     "mechanism": "native",
     "platforms": [],
-    "stars": 229,
+    "stars": 230,
     "description": "From-scratch, byte-matching decompilation of Super Mario 64 DS into C/C++, with a live progress atlas and matching tools.",
     "version": null,
     "releasedAt": "2026-10-28",
@@ -240,7 +240,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 187,
+    "stars": 188,
     "description": "Ninja Gaiden Black (Xbox, 2005) statically recompiled into native Linux and Windows builds, drawn by its own Vulkan renderer. A steady 60 fps, widescreen and ultrawide, keyboard and mouse, Steam Deck ready. Bring your own copy of the game.",
     "version": null,
     "releasedAt": "2026-10-28",
@@ -494,7 +494,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 89,
+    "stars": 90,
     "description": "CPS-2 Recomp: unofficial native PC ports of Capcom CPS-2 arcade games (Street Fighter Alpha 2, Super Puzzle Fighter II Turbo, Vampire Savior) via static recompilation, with training modes, in one launcher: macOS, Linux, Steam Deck, Windows. Requires your own ROM sets. Beta.",
     "version": "v0.4.0-beta.8",
     "releasedAt": "2026-10-28",
@@ -545,6 +545,46 @@
     "curated": true
   },
   {
+    "id": "abdelmoumendeghbouche-wipeout-pc",
+    "repo": "AbdelmoumenDeghbouche/wipeout_pc",
+    "title": "WipEout Omega Collection",
+    "game": "wipeout-omega-collection",
+    "author": "AbdelmoumenDeghbouche",
+    "console": "PlayStation 4",
+    "mechanism": "in-progress",
+    "platforms": [
+      "Windows"
+    ],
+    "stars": 139,
+    "description": "WipEout Omega Collection (PS4) native PC port for Windows: the game's own x86-64 code on the CPU, a PS4 runtime and the shadPS4 Vulkan video core. Playable, in active development. No game files included. ⭐ Star it if you like it; bug reports and requests are welcome in Issues!",
+    "version": "windows-v0.2.41",
+    "releasedAt": "2026-10-28",
+    "sizeBytes": 75740474,
+    "releaseUrl": "https://github.com/AbdelmoumenDeghbouche/wipeout_pc/releases/tag/windows-v0.2.41",
+    "licenseId": "GPL-2.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-2.0",
+    "curated": true
+  },
+  {
+    "id": "kuraeow-ultratears",
+    "repo": "kuraeow/ultratears",
+    "title": "The Legend of Zelda: Tears of the Kingdom",
+    "game": null,
+    "author": "kuraeow",
+    "console": "Nintendo Switch",
+    "mechanism": "recompiled",
+    "platforms": [],
+    "stars": 342,
+    "description": "Unofficial native Windows port of Tears of the Kingdom 1.4.3 using static recompilation. Builds locally from the player's own extracted game dump; no game files included.",
+    "version": null,
+    "releasedAt": "2026-10-28",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/kuraeow/ultratears/releases",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
+  },
+  {
     "id": "holdmysocks-mcla-recomp",
     "repo": "holdmysocks/mcla-recomp",
     "title": "Midnight Club: Los Angeles",
@@ -576,7 +616,7 @@
       "Linux",
       "Android"
     ],
-    "stars": 70,
+    "stars": 71,
     "description": "Sin and Punishment N64 Recomp",
     "version": "0.2.7",
     "releasedAt": "2026-10-27",
@@ -712,27 +752,6 @@
     "curated": true
   },
   {
-    "id": "abdelmoumendeghbouche-wipeout-pc",
-    "repo": "AbdelmoumenDeghbouche/wipeout_pc",
-    "title": "WipEout Omega Collection",
-    "game": "wipeout-omega-collection",
-    "author": "AbdelmoumenDeghbouche",
-    "console": "PlayStation 4",
-    "mechanism": "in-progress",
-    "platforms": [
-      "Windows"
-    ],
-    "stars": 139,
-    "description": "WipEout Omega Collection (PS4) native PC port for Windows: the game's own x86-64 code on the CPU, a PS4 runtime and the shadPS4 Vulkan video core. Playable, in active development. No game files included. ⭐ Star it if you like it; bug reports and requests are welcome in Issues!",
-    "version": "windows-v0.2.40",
-    "releasedAt": "2026-10-27",
-    "sizeBytes": 75736488,
-    "releaseUrl": "https://github.com/AbdelmoumenDeghbouche/wipeout_pc/releases/tag/windows-v0.2.40",
-    "licenseId": "GPL-2.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-2.0",
-    "curated": true
-  },
-  {
     "id": "psxrestore-condemned2recomp",
     "repo": "psxrestore/Condemned2Recomp",
     "title": "Condemned 2: Bloodshot",
@@ -785,7 +804,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 93,
+    "stars": 95,
     "description": "Army of Two (Army of 2) 2008 [Xbox360] game static recompilation project based on RexGlue-SDK",
     "version": "1.4",
     "releasedAt": "2026-10-27",
@@ -869,7 +888,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 2391,
+    "stars": 2393,
     "description": "Decompilation of The Legend of Zelda: Breath of the Wild (Switch 1.5.0)",
     "version": null,
     "releasedAt": "2026-10-27",
@@ -1124,7 +1143,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 837,
+    "stars": 838,
     "description": "Experimental native PC port of Lost Odyssey using static recompilation. No game assets included.",
     "version": "v1.1.0",
     "releasedAt": "2026-10-26",
@@ -1332,7 +1351,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 101,
+    "stars": 102,
     "description": "Crash of the Titans (Xbox 360) statically recompiled for Windows: DLSS/FSR, PC controls, PT-BR, subtitles, mods. Bring your own copy of the game.",
     "version": "v1.07",
     "releasedAt": "2026-10-26",
@@ -1440,7 +1459,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 1901,
+    "stars": 1902,
     "description": "Static recompilation of Link's Awakening (Switch) to native macOS, Windows and Linux",
     "version": "beta_5.3",
     "releasedAt": "2026-10-26",
@@ -1593,7 +1612,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 67,
+    "stars": 68,
     "description": "Crash Twinsanity (PS2, PAL) running natively on Windows, played through to the credits: a Windows port of HAB3X's Mac port of Smartkin's C++ decompilation. No game data included: bring your own disc image.",
     "version": "v1.0.19",
     "releasedAt": "2026-10-26",
@@ -1948,7 +1967,7 @@
     "platforms": [
       "Linux"
     ],
-    "stars": 99,
+    "stars": 100,
     "description": "Unofficial native PC port of inFAMOUS First Light (PS4). Bring your own game dump - no game files included.",
     "version": "v0.3.8",
     "releasedAt": "2026-10-25",
@@ -1967,7 +1986,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 6110,
+    "stars": 6122,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -2083,25 +2102,6 @@
     "releaseUrl": "https://github.com/saulob/geometry-wars-retro-evolved-2-recompiled/releases/tag/v0.6.1",
     "licenseId": "GPL-2.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-2.0",
-    "curated": true
-  },
-  {
-    "id": "kuraeow-ultratears",
-    "repo": "kuraeow/ultratears",
-    "title": "The Legend of Zelda: Tears of the Kingdom",
-    "game": null,
-    "author": "kuraeow",
-    "console": "Nintendo Switch",
-    "mechanism": "recompiled",
-    "platforms": [],
-    "stars": 337,
-    "description": "Unofficial native Windows port of Tears of the Kingdom 1.4.3 using static recompilation. Builds locally from the player's own extracted game dump; no game files included.",
-    "version": null,
-    "releasedAt": "2026-10-25",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/kuraeow/ultratears/releases",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
   },
   {
@@ -2376,7 +2376,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 2049,
+    "stars": 2050,
     "description": "Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo",
     "version": "v0.3.9",
     "releasedAt": "2026-10-24",
@@ -2418,7 +2418,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 175,
+    "stars": 176,
     "description": "Eternal Darkness: Sanity's Requiem static recompilation (DolRecomp + GXRuntime) for Mac, Windows and Linux / Steam Deck. Bring your own disc.",
     "version": "v0.9.6",
     "releasedAt": "2026-10-24",
@@ -2791,7 +2791,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 245,
+    "stars": 246,
     "description": "Dragon's Crown Pro native PC port for Windows, with direct PS4 PKG installation, TRG launcher and modern graphics options",
     "version": "v0.7.1",
     "releasedAt": "2026-10-23",
@@ -2880,7 +2880,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 106,
+    "stars": 107,
     "description": "Native PC port of the 1997 PlayStation game Disney's Hercules (SCES-00893) plus its decompilation. No game data included.",
     "version": "v0.5.6",
     "releasedAt": "2026-10-23",
@@ -3042,7 +3042,7 @@
     "console": "Nintendo Switch",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 422,
+    "stars": 423,
     "description": "Experimental Windows x64 native porting toolkit for Super Smash Bros. Ultimate: static AArch64 recompilation, a D3D11 runtime, and Local Wireless relay netplay.",
     "version": null,
     "releasedAt": "2026-10-22",
@@ -3106,7 +3106,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2246,
+    "stars": 2248,
     "description": "Native PC port of P.T. (runs from your own PS4 game files)",
     "version": "v1.0.8",
     "releasedAt": "2026-10-22",
@@ -3149,7 +3149,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 192,
+    "stars": 194,
     "description": "Burnout Revenge recompilation based on RexGlue + standalone Plume render",
     "version": "v0.4.8",
     "releasedAt": "2026-10-22",
@@ -3286,7 +3286,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 4799,
+    "stars": 4801,
     "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
     "version": "windows-v1.9.4",
     "releasedAt": "2026-10-21",
@@ -3553,7 +3553,7 @@
     "console": "Xbox 360",
     "mechanism": "native",
     "platforms": [],
-    "stars": 77,
+    "stars": 78,
     "description": "",
     "version": "v0.3",
     "releasedAt": "2026-10-20",
@@ -3614,7 +3614,7 @@
     "platforms": [
       "Linux"
     ],
-    "stars": 3685,
+    "stars": 3686,
     "description": "",
     "version": "0.6",
     "releasedAt": "2026-10-19",
@@ -3696,7 +3696,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 380,
+    "stars": 381,
     "description": "An unofficial original Xbox version PC port of Splinter Cell: Double Agent via static recompilation.",
     "version": "V2",
     "releasedAt": "2026-10-18",
@@ -4149,7 +4149,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 123,
+    "stars": 124,
     "description": "OpenTricky is an unofficial PC port of SSX Tricky, made by static recompilation. Bring your own disc.",
     "version": null,
     "releasedAt": "2026-10-14",
@@ -4448,7 +4448,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 559,
+    "stars": 560,
     "description": "",
     "version": "1.5.0",
     "releasedAt": "2026-10-11",
@@ -4801,7 +4801,7 @@
     "console": "Game Boy Advance",
     "mechanism": "native",
     "platforms": [],
-    "stars": 3648,
+    "stars": 3649,
     "description": "Decompilation of Pokémon Emerald",
     "version": null,
     "releasedAt": "2026-10-01",
@@ -5273,7 +5273,7 @@
     "console": "PlayStation 2",
     "mechanism": "native",
     "platforms": [],
-    "stars": 50,
+    "stars": 51,
     "description": "",
     "version": null,
     "releasedAt": "2026-09-14",
@@ -5422,7 +5422,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 780,
+    "stars": 781,
     "description": "Multiplatform and Feature-rich Port based on PSX decompilation of Silent Hill 1 made with Claude and Psycross. Still in beta and is in active development.",
     "version": "crossplatform-beta",
     "releasedAt": "2026-09-04",
@@ -5504,7 +5504,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 346,
+    "stars": 347,
     "description": "Silent Hill: Downpour — native Windows PC port via static recompilation of the Xbox 360 binary. v1.0 stable: 60 FPS unlocked, ROV warm-cache, standalone launcher, DualSense adaptive triggers, portable saves. Tested on USA + Europe X360 dumps.",
     "version": "v1.1.8",
     "releasedAt": "2026-09-02",
@@ -6039,7 +6039,7 @@
     "console": "Xbox 360",
     "mechanism": "native",
     "platforms": [],
-    "stars": 158,
+    "stars": 157,
     "description": "Using rexglue. Programs runs",
     "version": "v1.0",
     "releasedAt": "2026-04-24",
@@ -6265,7 +6265,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 401,
+    "stars": 402,
     "description": "Starfox 64 for PC (Windows/Linux/MacOS)",
     "version": "1.0.3",
     "releasedAt": "2025-12-30",
@@ -6433,7 +6433,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2089,
+    "stars": 2090,
     "description": "work in progress port of n64decomp/perfect_dark to modern platforms",
     "version": "ci-dev-build",
     "releasedAt": "2024-05-14",
@@ -6532,7 +6532,7 @@
     "console": "SNES",
     "mechanism": "native",
     "platforms": [],
-    "stars": 4929,
+    "stars": 4930,
     "description": "",
     "version": "v0.3",
     "releasedAt": "2023-08-17",
