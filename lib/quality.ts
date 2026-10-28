@@ -50,6 +50,8 @@ export type Candidate = {
  */
 const DENIED: Record<string, string> = {
   // Judged on 2026-10-27, from what discovery added that week.
+  "kanapitsas/portal2-recomp":
+    "a PC game moved to the Mac and iPhone, not a console game brought to the PC",
   "elripalda/RecompStore":
     "not a game port: an app store for jailbroken PS5 consoles",
   "TanookiStudios/decomp-buddy":

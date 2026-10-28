@@ -538,11 +538,7 @@ const CURATED: Record<string, Curation> = {
     title: 'Army of Two',
     console: 'Xbox 360',
   },
-  'umarzubair392/ambient-ocarina-toolkit': {
-    game: 'ocarina-of-time',
-    title: 'The Legend of Zelda: Ocarina of Time',
-    console: 'Nintendo 64',
-  },
+  // umarzubair392/ambient-ocarina-toolkit was removed from GitHub on 2026-10-28.
 
   // The rest get a readable title and no game, because they map to no single
   // one: an emulator, the recompiler toolkits that the ports in this catalog
@@ -777,6 +773,14 @@ const CURATED: Record<string, Curation> = {
   "TechnicallyComputers/Klonoa-Door-to-Phantomile": { title: "Klonoa: Door to Phantomile", console: "PlayStation" },
   "alexbeavs-ps1-ports/syphon-filter-2-recomp": { title: "Syphon Filter 2", console: "PlayStation" },
   "strider973/STRIDER-2-Recompiled": { title: "Strider 2", console: "PlayStation" },
+
+  // Thirteenth batch, 28 October. Names and consoles from each README.
+  "skuza-oss/downhill-revived": { title: "Downhill Domination", console: "PlayStation 2" },
+  "saulob/odin-sphere-leifthrasir-pc": { title: "Odin Sphere Leifthrasir", console: "PlayStation 4" },
+  "hk21x/007eon-recomp": { title: "007: Everything or Nothing", console: "Xbox" },
+  "Masterllgod/naruto-storm-2-port-nativo": { title: "Naruto Shippuden: Ultimate Ninja Storm 2", console: "Xbox 360" },
+  "GTTeancum/Timesplitters": { title: "TimeSplitters", console: "PlayStation 2" },
+  "OZORDI/SanRecomp": { title: "Grand Theft Auto V", console: "Xbox 360" },
 }
 
 /**
