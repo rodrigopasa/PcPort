@@ -30,7 +30,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 607,
+    "stars": 608,
     "description": "PC port of Dragon Ball Z: Budokai Tenkaichi 3, built on the BT3-Decompiled project.",
     "version": "v0.1.39",
     "releasedAt": "2026-10-28",
@@ -120,7 +120,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 73,
+    "stars": 74,
     "description": "Native Windows port of Dead or Alive 2 Ultimate (Xbox), built by static recompilation with a hand-written runtime. Requires your own copy of the game.",
     "version": "v0.1.7",
     "releasedAt": "2026-10-28",
@@ -240,7 +240,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 188,
+    "stars": 187,
     "description": "Ninja Gaiden Black (Xbox, 2005) statically recompiled into native Linux and Windows builds, drawn by its own Vulkan renderer. A steady 60 fps, widescreen and ultrawide, keyboard and mouse, Steam Deck ready. Bring your own copy of the game.",
     "version": null,
     "releasedAt": "2026-10-28",
@@ -437,6 +437,51 @@
     "curated": true
   },
   {
+    "id": "skuza-oss-downhill-revived",
+    "repo": "skuza-oss/downhill-revived",
+    "title": "Downhill Domination",
+    "game": null,
+    "author": "skuza-oss",
+    "console": "PlayStation 2",
+    "mechanism": "native",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "stars": 76,
+    "description": "A PC port of Downhill Domination (PS2), built on a matching decompilation. Bring your own disc.",
+    "version": "v0.7.0",
+    "releasedAt": "2026-10-28",
+    "sizeBytes": 22380821,
+    "releaseUrl": "https://github.com/skuza-oss/downhill-revived/releases/tag/v0.7.0",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
+  },
+  {
+    "id": "mr-finster-vf2-recomp",
+    "repo": "mr-finster/vf2-recomp",
+    "title": "Virtua Fighter 2",
+    "game": "virtua-fighter-2",
+    "author": "mr-finster",
+    "console": "Arcade",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "stars": 69,
+    "description": "Virtua Fighter 2 (Sega Model 2, 1994) for Mac, Windows and Steam Deck: the arcade's i960 program recompiled to native code, up to 6x, widescreen, smooth 120 fps. Bring your own vf2.zip.",
+    "version": "v0.1.16",
+    "releasedAt": "2026-10-28",
+    "sizeBytes": 9355837,
+    "releaseUrl": "https://github.com/mr-finster/vf2-recomp/releases/tag/v0.1.16",
+    "licenseId": "NOASSERTION",
+    "licenseUrl": null,
+    "curated": true
+  },
+  {
     "id": "holdmysocks-mcla-recomp",
     "repo": "holdmysocks/mcla-recomp",
     "title": "Midnight Club: Los Angeles",
@@ -468,7 +513,7 @@
       "Linux",
       "Android"
     ],
-    "stars": 69,
+    "stars": 70,
     "description": "Sin and Punishment N64 Recomp",
     "version": "0.2.7",
     "releasedAt": "2026-10-27",
@@ -568,7 +613,7 @@
     "console": "Game Boy Advance",
     "mechanism": "native",
     "platforms": [],
-    "stars": 175,
+    "stars": 176,
     "description": "🌋 Alchemy is a decompilation of both ☀️ Golden Sun games for Gameboy Advance",
     "version": null,
     "releasedAt": "2026-10-27",
@@ -614,7 +659,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 138,
+    "stars": 139,
     "description": "WipEout Omega Collection (PS4) native PC port for Windows: the game's own x86-64 code on the CPU, a PS4 runtime and the shadPS4 Vulkan video core. Playable, in active development. No game files included. ⭐ Star it if you like it; bug reports and requests are welcome in Issues!",
     "version": "windows-v0.2.40",
     "releasedAt": "2026-10-27",
@@ -813,26 +858,6 @@
     "licenseId": null,
     "licenseUrl": null,
     "curated": true
-  },
-  {
-    "id": "skuza-oss-downhill-revived",
-    "repo": "skuza-oss/downhill-revived",
-    "title": "Downhill Domination",
-    "game": null,
-    "author": "skuza-oss",
-    "console": "PlayStation 2",
-    "mechanism": "native",
-    "platforms": [
-      "Windows"
-    ],
-    "stars": 75,
-    "description": "A PC port of Downhill Domination (PS2), built on a matching decompilation. Bring your own disc.",
-    "version": "v0.6.4",
-    "releasedAt": "2026-10-27",
-    "sizeBytes": 20889136,
-    "releaseUrl": "https://github.com/skuza-oss/downhill-revived/releases/tag/v0.6.4",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
   },
   {
     "id": "some-scurvy-dog-banjo-tooie-port",
@@ -1054,7 +1079,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 150,
+    "stars": 151,
     "description": "Call of Duty: Modern Warfare 2 (2009) for Xbox 360 recompiled for Windows & Linux",
     "version": "v0.8.1",
     "releasedAt": "2026-10-26",
@@ -1122,7 +1147,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 450,
+    "stars": 451,
     "description": "ReStreet: FIFA Street (2012) recompiled for Windows PC, with online play, a launcher with friends, chat and rooms. Bring your own game.",
     "version": "v2.1.3-online-beta",
     "releasedAt": "2026-10-26",
@@ -1164,7 +1189,7 @@
       "macOS",
       "iOS"
     ],
-    "stars": 521,
+    "stars": 523,
     "description": "Unofficial static recompilation of the Xbox 360 version of Need for Speed: Most Wanted (2005): a native port for Steam Deck, Steam Machine, Steam Frame, Linux and Mac (iPhone/iPad: sideload the experimental IPA or build it yourself). Bring your own disc: no game files included. Not affiliated with EA or Valve.",
     "version": "v0.2.0",
     "releasedAt": "2026-10-26",
@@ -1480,7 +1505,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 45,
+    "stars": 46,
     "description": "Unofficial native PC ports of the classic Monster Hunter games via static recompilation, starting with Freedom Unite. No emulator. Bring your own copy",
     "version": "0.5.0",
     "releasedAt": "2026-10-26",
@@ -1630,7 +1655,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 43,
+    "stars": 44,
     "description": "007 Everything or Nothing recompilation for a native PC port.",
     "version": "v1.0.0",
     "releasedAt": "2026-10-26",
@@ -1765,29 +1790,6 @@
     "curated": true
   },
   {
-    "id": "mr-finster-vf2-recomp",
-    "repo": "mr-finster/vf2-recomp",
-    "title": "Virtua Fighter 2",
-    "game": "virtua-fighter-2",
-    "author": "mr-finster",
-    "console": "Arcade",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "macOS"
-    ],
-    "stars": 69,
-    "description": "Virtua Fighter 2 (Sega Model 2, 1994) for Mac, Windows and Steam Deck: the arcade's i960 program recompiled to native code, up to 6x, widescreen, smooth 120 fps. Bring your own vf2.zip.",
-    "version": "v0.1.15",
-    "releasedAt": "2026-10-25",
-    "sizeBytes": 8413198,
-    "releaseUrl": "https://github.com/mr-finster/vf2-recomp/releases/tag/v0.1.15",
-    "licenseId": "NOASSERTION",
-    "licenseUrl": null,
-    "curated": true
-  },
-  {
     "id": "mr-finster-vf1-recomp",
     "repo": "mr-finster/vf1-recomp",
     "title": "Virtua Fighter",
@@ -1859,7 +1861,7 @@
     "console": "Xbox 360",
     "mechanism": "native",
     "platforms": [],
-    "stars": 424,
+    "stars": 425,
     "description": "Tekken 6 (Xbox 360) native on Windows with rollback netcode - build from your own ISO",
     "version": "v2.4.3",
     "releasedAt": "2026-10-25",
@@ -1965,7 +1967,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 6088,
+    "stars": 6102,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -2092,7 +2094,7 @@
     "console": "Nintendo Switch",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 330,
+    "stars": 333,
     "description": "Unofficial native Windows port of Tears of the Kingdom 1.4.3 using static recompilation. Builds locally from the player's own extracted game dump; no game files included.",
     "version": null,
     "releasedAt": "2026-10-25",
@@ -2288,7 +2290,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 183,
+    "stars": 184,
     "description": "A static native recompilation of Need for Speed: Most Wanted (2005) Xbox 360",
     "version": "v1.0.1",
     "releasedAt": "2026-10-24",
@@ -2353,7 +2355,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 107,
+    "stars": 108,
     "description": "An unofficial original Xbox version PC port of 007: From Russia With Love via static recompilation.",
     "version": "V1",
     "releasedAt": "2026-10-24",
@@ -2374,7 +2376,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 2048,
+    "stars": 2049,
     "description": "Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo",
     "version": "v0.3.9",
     "releasedAt": "2026-10-24",
@@ -2789,7 +2791,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 243,
+    "stars": 245,
     "description": "Dragon's Crown Pro native PC port for Windows, with direct PS4 PKG installation, TRG launcher and modern graphics options",
     "version": "v0.7.1",
     "releasedAt": "2026-10-23",
@@ -2832,7 +2834,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 209,
+    "stars": 210,
     "description": "Native Windows port of Tekken Tag Tournament 2 (Xbox 360) by static recompilation. Not an emulator. Ships no game data - the installer builds the game from your own disc image and Title Update 3.",
     "version": "v0.1.7",
     "releasedAt": "2026-10-23",
@@ -2878,7 +2880,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 105,
+    "stars": 106,
     "description": "Native PC port of the 1997 PlayStation game Disney's Hercules (SCES-00893) plus its decompilation. No game data included.",
     "version": "v0.5.6",
     "releasedAt": "2026-10-23",
@@ -2901,7 +2903,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 92,
+    "stars": 93,
     "description": "Recompilation of Dragon Quest VIII (PS2) to run natively on PC and Mac.",
     "version": "f6dfd96",
     "releasedAt": "2026-10-23",
@@ -3002,7 +3004,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 964,
+    "stars": 969,
     "description": "Native PC port (Linux/Windows) of inFAMOUS Second Son (PS4, CUSA00223) — in development, playable; runs your own game dump; no game or firmware files included. Motion sensor emulation. | Port nativo para PC de inFAMOUS Second Son (em desenvolvimento) — usa o seu próprio dump.",
     "version": "v1.0",
     "releasedAt": "2026-10-22",
@@ -3104,7 +3106,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2243,
+    "stars": 2244,
     "description": "Native PC port of P.T. (runs from your own PS4 game files)",
     "version": "v1.0.8",
     "releasedAt": "2026-10-22",
@@ -3284,7 +3286,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 4797,
+    "stars": 4798,
     "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
     "version": "windows-v1.9.4",
     "releasedAt": "2026-10-21",
@@ -3612,7 +3614,7 @@
     "platforms": [
       "Linux"
     ],
-    "stars": 3683,
+    "stars": 3685,
     "description": "",
     "version": "0.6",
     "releasedAt": "2026-10-19",
@@ -3675,7 +3677,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 5777,
+    "stars": 5775,
     "description": "Ship of Harkinian: a PC port of Ocarina of Time built from the decompilation, with widescreen, high framerate and mod support.",
     "version": "9.3.1",
     "releasedAt": "2026-10-18",
@@ -3983,7 +3985,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 734,
+    "stars": 735,
     "description": "Xbox 360 to PC port of Dante's Inferno using ReXGlue (static recompilation)",
     "version": "v0.8.4-beta",
     "releasedAt": "2026-10-16",
@@ -4023,7 +4025,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 68,
+    "stars": 70,
     "description": "Original open-source static recompilation of Tekken 6 (Xbox 360) for native execution on PC. This project provides the recompilation foundation used by downstream projects including Tekken6 Native Online.",
     "version": "Iterate",
     "releasedAt": "2026-10-16",
@@ -4658,7 +4660,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 454,
+    "stars": 455,
     "description": "An unofficial PC port of the Xbox 360 version of Spider-Man: Edge of Time created through the process of static recompilation.",
     "version": "v1.0.0",
     "releasedAt": "2026-10-04",
@@ -5589,7 +5591,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 391,
+    "stars": 393,
     "description": "Static recompilation of Castlevania: Symphony of the Night (XBLA) for Windows and Linux, built on the ReXGlue SDK.",
     "version": "v1.4.5",
     "releasedAt": "2026-08-27",
@@ -5797,7 +5799,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2101,
+    "stars": 2102,
     "description": "PC Port of Banjo-Kazooie made using N64: Recompiled (Windows/Linux/Mac) ",
     "version": "v1.0.2",
     "releasedAt": "2026-07-31",
@@ -6344,7 +6346,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5289,
+    "stars": 5290,
     "description": "An unofficial PC port of the Xbox 360 version of Sonic Unleashed created through the process of static recompilation.",
     "version": "v1.0.3",
     "releasedAt": "2025-04-03",
@@ -6530,7 +6532,7 @@
     "console": "SNES",
     "mechanism": "native",
     "platforms": [],
-    "stars": 4928,
+    "stars": 4929,
     "description": "",
     "version": "v0.3",
     "releasedAt": "2023-08-17",
