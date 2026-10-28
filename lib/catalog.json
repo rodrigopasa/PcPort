@@ -8,7 +8,7 @@
     "console": "Xbox",
     "mechanism": "native",
     "platforms": [],
-    "stars": 114,
+    "stars": 115,
     "description": "Halo 2 decompilation (decomp) for the original Xbox: a matching decompilation of the retail game into C/C++ source, rebuilt byte for byte, toward native PC, Linux and handheld ports. Contributors welcome. Source only; bring your own disc.",
     "version": null,
     "releasedAt": "2026-10-28",
@@ -73,12 +73,59 @@
       "Linux",
       "macOS"
     ],
-    "stars": 221,
+    "stars": 222,
     "description": "Native Windows port of Dead or Alive Xtreme Beach Volleyball (Xbox), built by static recompilation with a hand-written runtime. Requires your own copy of the game.",
     "version": "v0.6.0",
     "releasedAt": "2026-10-28",
     "sizeBytes": 107439189,
     "releaseUrl": "https://github.com/NoRain211/doaxvb-re/releases/tag/v0.6.0",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
+  },
+  {
+    "id": "yuutatsubasa-chaotixrecompiled",
+    "repo": "YuutaTsubasa/ChaotixRecompiled",
+    "title": "Knuckles' Chaotix",
+    "game": "knuckles-chaotix",
+    "author": "YuutaTsubasa",
+    "console": "Sega 32X",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Android",
+      "iOS"
+    ],
+    "stars": 53,
+    "description": "Static recompilation of the Sega 32X game Knuckles' Chaotix into native C++ (Windows/Linux/macOS/Android), with true widescreen. Bring your own ROM; no game data included.",
+    "version": "v0.15.6",
+    "releasedAt": "2026-10-28",
+    "sizeBytes": 32455268,
+    "releaseUrl": "https://github.com/YuutaTsubasa/ChaotixRecompiled/releases/tag/v0.15.6",
+    "licenseId": "MIT",
+    "licenseUrl": "https://api.github.com/licenses/mit",
+    "curated": true
+  },
+  {
+    "id": "norain211-doa2u-re",
+    "repo": "NoRain211/doa2u-re",
+    "title": "Dead or Alive 2 Ultimate",
+    "game": null,
+    "author": "NoRain211",
+    "console": "Xbox",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Linux",
+      "macOS"
+    ],
+    "stars": 73,
+    "description": "Native Windows port of Dead or Alive 2 Ultimate (Xbox), built by static recompilation with a hand-written runtime. Requires your own copy of the game.",
+    "version": "v0.1.7",
+    "releasedAt": "2026-10-28",
+    "sizeBytes": 6478017,
+    "releaseUrl": "https://github.com/NoRain211/doa2u-re/releases/tag/v0.1.7",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
@@ -134,7 +181,7 @@
       "Linux",
       "Android"
     ],
-    "stars": 68,
+    "stars": 69,
     "description": "Sin and Punishment N64 Recomp",
     "version": "0.2.7",
     "releasedAt": "2026-10-27",
@@ -155,7 +202,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 48,
+    "stars": 49,
     "description": "A native Windows port of Rayman 3 HD (Xbox 360) using static recompilation, with HD+ enhancements and Turkish localization.",
     "version": "v1.0.2",
     "releasedAt": "2026-10-27",
@@ -330,31 +377,6 @@
     "curated": true
   },
   {
-    "id": "yuutatsubasa-chaotixrecompiled",
-    "repo": "YuutaTsubasa/ChaotixRecompiled",
-    "title": "Knuckles' Chaotix",
-    "game": "knuckles-chaotix",
-    "author": "YuutaTsubasa",
-    "console": "Sega 32X",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "macOS",
-      "Android",
-      "iOS"
-    ],
-    "stars": 53,
-    "description": "Static recompilation of the Sega 32X game Knuckles' Chaotix into native C++ (Windows/Linux/macOS/Android), with true widescreen. Bring your own ROM; no game data included.",
-    "version": "v0.15.5",
-    "releasedAt": "2026-10-27",
-    "sizeBytes": 32445204,
-    "releaseUrl": "https://github.com/YuutaTsubasa/ChaotixRecompiled/releases/tag/v0.15.5",
-    "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit",
-    "curated": true
-  },
-  {
     "id": "abdelmoumendeghbouche-wipeout-pc",
     "repo": "AbdelmoumenDeghbouche/wipeout_pc",
     "title": "WipEout Omega Collection",
@@ -407,7 +429,7 @@
     "platforms": [
       "PC"
     ],
-    "stars": 1558,
+    "stars": 1559,
     "description": "Native Windows port of Shadow of the Colossus (PS4, CUSA08809) - bring your own game dump. Port nativo para PC.",
     "version": "v0.60.6-C3",
     "releasedAt": "2026-10-27",
@@ -720,7 +742,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 190,
+    "stars": 191,
     "description": "Def Jam: Fight for NY PC port — static recompilation of the original Xbox game for native Windows and macOS (Direct3D 11 / Vulkan). Bring your own game dump.",
     "version": "v0.12.2",
     "releasedAt": "2026-10-27",
@@ -864,7 +886,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 928,
+    "stars": 930,
     "description": "A playable preview of Forza Horizon static recompilation",
     "version": "v0.7.0",
     "releasedAt": "2026-10-27",
@@ -949,7 +971,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 149,
+    "stars": 150,
     "description": "Call of Duty: Modern Warfare 2 (2009) for Xbox 360 recompiled for Windows & Linux",
     "version": "v0.8.1",
     "releasedAt": "2026-10-26",
@@ -1017,7 +1039,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 446,
+    "stars": 447,
     "description": "ReStreet: FIFA Street (2012) recompiled for Windows PC, with online play, a launcher with friends, chat and rooms. Bring your own game.",
     "version": "v2.1.3-online-beta",
     "releasedAt": "2026-10-26",
@@ -1119,7 +1141,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 696,
+    "stars": 697,
     "description": "Definitive Bloodborne PC Experience",
     "version": "v0.2.21",
     "releasedAt": "2026-10-26",
@@ -1221,7 +1243,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 72,
+    "stars": 73,
     "description": "2014 FIFA World Cup Brazil (Xbox 360) running natively on Windows. An unofficial recompilation, played from your own copy of the game.",
     "version": "v0.1.10",
     "releasedAt": "2026-10-26",
@@ -1308,7 +1330,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 1894,
+    "stars": 1895,
     "description": "Static recompilation of Link's Awakening (Switch) to native macOS, Windows and Linux",
     "version": "beta_5.3",
     "releasedAt": "2026-10-26",
@@ -1502,7 +1524,7 @@
       "Windows",
       "macOS"
     ],
-    "stars": 47,
+    "stars": 48,
     "description": "BlastCorps for PC (Windows/Linux/MacOS)",
     "version": "1.0.1",
     "releasedAt": "2026-10-26",
@@ -1796,7 +1818,7 @@
     "console": "Xbox 360",
     "mechanism": "native",
     "platforms": [],
-    "stars": 422,
+    "stars": 423,
     "description": "Tekken 6 (Xbox 360) native on Windows with rollback netcode - build from your own ISO",
     "version": "v2.4.3",
     "releasedAt": "2026-10-25",
@@ -1902,7 +1924,7 @@
     "platforms": [
       "Linux"
     ],
-    "stars": 96,
+    "stars": 97,
     "description": "Unofficial native PC port of inFAMOUS First Light (PS4). Bring your own game dump - no game files included.",
     "version": "v0.3.8",
     "releasedAt": "2026-10-25",
@@ -1921,7 +1943,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 6034,
+    "stars": 6041,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -2051,7 +2073,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 60,
+    "stars": 61,
     "description": "Geometry Wars: Retro Evolved 2 native PC port via static recompilation, with TRG launcher, high frame rates, local achievements and offline leaderboards",
     "version": "v0.6.1",
     "releasedAt": "2026-10-25",
@@ -2070,7 +2092,7 @@
     "console": "Nintendo Switch",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 304,
+    "stars": 305,
     "description": "Unofficial native Windows port of Tears of the Kingdom 1.4.3 using static recompilation. Builds locally from the player's own extracted game dump; no game files included.",
     "version": null,
     "releasedAt": "2026-10-25",
@@ -2113,7 +2135,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 89,
+    "stars": 90,
     "description": "",
     "version": "v2.0.0",
     "releasedAt": "2026-10-25",
@@ -2266,7 +2288,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 184,
+    "stars": 183,
     "description": "A static native recompilation of Need for Speed: Most Wanted (2005) Xbox 360",
     "version": "v1.0.1",
     "releasedAt": "2026-10-24",
@@ -2352,7 +2374,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 2045,
+    "stars": 2047,
     "description": "Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo",
     "version": "v0.3.9",
     "releasedAt": "2026-10-24",
@@ -2394,7 +2416,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 174,
+    "stars": 175,
     "description": "Eternal Darkness: Sanity's Requiem static recompilation (DolRecomp + GXRuntime) for Mac, Windows and Linux / Steam Deck. Bring your own disc.",
     "version": "v0.9.6",
     "releasedAt": "2026-10-24",
@@ -2455,7 +2477,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 51,
+    "stars": 52,
     "description": "DOAX 2 Recompilation with RexGlue",
     "version": "v1.1.4",
     "releasedAt": "2026-10-24",
@@ -2463,28 +2485,6 @@
     "releaseUrl": "https://github.com/hibikifukui22/Dead-or-Alive-Xtreme-2-Recompilation/releases/tag/v1.1.4",
     "licenseId": "NOASSERTION",
     "licenseUrl": null,
-    "curated": true
-  },
-  {
-    "id": "norain211-doa2u-re",
-    "repo": "NoRain211/doa2u-re",
-    "title": "Dead or Alive 2 Ultimate",
-    "game": null,
-    "author": "NoRain211",
-    "console": "Xbox",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Linux",
-      "macOS"
-    ],
-    "stars": 71,
-    "description": "Native Windows port of Dead or Alive 2 Ultimate (Xbox), built by static recompilation with a hand-written runtime. Requires your own copy of the game.",
-    "version": "v0.1.6",
-    "releasedAt": "2026-10-24",
-    "sizeBytes": 6456283,
-    "releaseUrl": "https://github.com/NoRain211/doa2u-re/releases/tag/v0.1.6",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
   },
   {
@@ -2537,7 +2537,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 137,
+    "stars": 138,
     "description": "Conker's Bad Fur Day running natively on PC: an N64 recompilation with a Classic mode true to the N64 and a Modern mode (widescreen, smooth frame rate, free camera).",
     "version": "v1.4.6",
     "releasedAt": "2026-10-23",
@@ -2599,7 +2599,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 200,
+    "stars": 201,
     "description": "",
     "version": "v0.3.0-beta",
     "releasedAt": "2026-10-23",
@@ -2878,7 +2878,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 106,
+    "stars": 105,
     "description": "Native PC port of the 1997 PlayStation game Disney's Hercules (SCES-00893) plus its decompilation. No game data included.",
     "version": "v0.5.6",
     "releasedAt": "2026-10-23",
@@ -2951,6 +2951,27 @@
     "licenseUrl": null
   },
   {
+    "id": "gtteancum-timesplitters",
+    "repo": "GTTeancum/Timesplitters",
+    "title": "Timesplitters",
+    "game": null,
+    "author": "GTTeancum",
+    "console": "PlayStation 2",
+    "mechanism": "native",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 40,
+    "description": "A recomp of the PS2 game Timesplitters",
+    "version": "v1.0",
+    "releasedAt": "2026-10-23",
+    "sizeBytes": 24513794,
+    "releaseUrl": "https://github.com/GTTeancum/Timesplitters/releases/tag/v1.0",
+    "licenseId": null,
+    "licenseUrl": null
+  },
+  {
     "id": "openportroid-armyoftworecompilation",
     "repo": "OpenPortroid/ArmyOfTwoRecompilation",
     "title": "Army of Two",
@@ -2959,7 +2980,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 130,
+    "stars": 131,
     "description": "Unofficial PC port of the Xbox 360 version of Army of Two (2008). Online co-op supported.",
     "version": "v1.3.5",
     "releasedAt": "2026-10-22",
@@ -2981,7 +3002,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 959,
+    "stars": 960,
     "description": "Native PC port (Linux/Windows) of inFAMOUS Second Son (PS4, CUSA00223) — in development, playable; runs your own game dump; no game or firmware files included. Motion sensor emulation. | Port nativo para PC de inFAMOUS Second Son (em desenvolvimento) — usa o seu próprio dump.",
     "version": "v1.0",
     "releasedAt": "2026-10-22",
@@ -3083,7 +3104,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2235,
+    "stars": 2236,
     "description": "Native PC port of P.T. (runs from your own PS4 game files)",
     "version": "v1.0.8",
     "releasedAt": "2026-10-22",
@@ -3126,7 +3147,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 188,
+    "stars": 189,
     "description": "Burnout Revenge recompilation based on RexGlue + standalone Plume render",
     "version": "v0.4.8",
     "releasedAt": "2026-10-22",
@@ -3263,7 +3284,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 4778,
+    "stars": 4780,
     "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
     "version": "windows-v1.9.4",
     "releasedAt": "2026-10-21",
@@ -3287,7 +3308,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 1119,
+    "stars": 1120,
     "description": "Zelda Wind Waker HD Recomp",
     "version": "v0.4.0",
     "releasedAt": "2026-10-21",
@@ -3309,7 +3330,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 331,
+    "stars": 332,
     "description": "A playable PC port of Sly Cooper and the Thievius Raccoonus, rebuilt through reverse engineering.",
     "version": "decompilation",
     "releasedAt": "2026-10-21",
@@ -3469,7 +3490,7 @@
       "Linux",
       "Android"
     ],
-    "stars": 64,
+    "stars": 65,
     "description": "Native C++ recompilation of The Binding of Isaac (Flash) — 60 fps, 1080p, Windows/Linux/Switch. Requires the original game from Steam",
     "version": "v1.4.0",
     "releasedAt": "2026-10-20",
@@ -3530,7 +3551,7 @@
     "console": "Xbox 360",
     "mechanism": "native",
     "platforms": [],
-    "stars": 74,
+    "stars": 77,
     "description": "",
     "version": "v0.3",
     "releasedAt": "2026-10-20",
@@ -3551,7 +3572,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 43,
+    "stars": 44,
     "description": "",
     "version": "v0.1.0-beta",
     "releasedAt": "2026-10-20",
@@ -3591,7 +3612,7 @@
     "platforms": [
       "Linux"
     ],
-    "stars": 3676,
+    "stars": 3679,
     "description": "",
     "version": "0.6",
     "releasedAt": "2026-10-19",
@@ -3631,7 +3652,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 129,
+    "stars": 130,
     "description": "Forza Motorsport 4 native on PC",
     "version": "v0.3.9",
     "releasedAt": "2026-10-19",
@@ -3759,7 +3780,7 @@
       "Windows",
       "Android"
     ],
-    "stars": 80,
+    "stars": 81,
     "description": "Naruto Shippuden: Ultimate Ninja Storm Generations (Xbox 360) rodando nativamente no Android e no PC: recompilação estática, sem emulador de CPU.",
     "version": "v0.3.5",
     "releasedAt": "2026-10-18",
@@ -4889,7 +4910,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 6106,
+    "stars": 6107,
     "description": "Dusklight brings a classic adventure to PC and mobile platforms with a variety of fixes and improvements.",
     "version": "v2.0.3",
     "releasedAt": "2026-09-30",
@@ -5038,7 +5059,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 49,
+    "stars": 50,
     "description": "An unofficial port of Mortal Kombat vs. DC Universe to PC (More platforms coming)",
     "version": "v0.2.1",
     "releasedAt": "2026-09-23",
@@ -5269,7 +5290,7 @@
     "console": "Xbox 360",
     "mechanism": "native",
     "platforms": [],
-    "stars": 404,
+    "stars": 405,
     "description": "A Fable 2 Recomp",
     "version": null,
     "releasedAt": "2026-09-12",
@@ -5654,7 +5675,7 @@
     "console": "Xbox 360",
     "mechanism": "native",
     "platforms": [],
-    "stars": 566,
+    "stars": 567,
     "description": "static Recomp of AC6 with Rexglue",
     "version": null,
     "releasedAt": "2026-08-22",
@@ -5837,7 +5858,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 1746,
+    "stars": 1745,
     "description": "A native recompilation of Skate 3 for Windows, Linux, and macOS.",
     "version": "v2.0.2",
     "releasedAt": "2026-07-24",
