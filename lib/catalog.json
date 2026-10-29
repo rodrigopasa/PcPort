@@ -88,7 +88,7 @@
     "console": "Nintendo Switch",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 388,
+    "stars": 390,
     "description": "Unofficial native Windows port of Tears of the Kingdom 1.4.3 using static recompilation. Builds locally from the player's own extracted game dump; no game files included.",
     "version": null,
     "releasedAt": "2026-10-29",
@@ -154,7 +154,7 @@
     "description": "Banjo-Kazooie: Nuts and Bolts Recompilation with Rexglue",
     "version": "beta14.1",
     "releasedAt": "2026-10-29",
-    "sizeBytes": 59898360,
+    "sizeBytes": 59927032,
     "releaseUrl": "https://github.com/masterspike52/reNut/releases/tag/beta14.1",
     "licenseId": null,
     "licenseUrl": null,
@@ -199,7 +199,7 @@
     "description": "Virtua Fighter (Sega Model 1, 1993) statically recompiled for Mac, Windows and Steam Deck: up to 6x, widescreen, smooth 120 fps. Bring your own vf.zip.",
     "version": "v1.5.0",
     "releasedAt": "2026-10-29",
-    "sizeBytes": 8581730,
+    "sizeBytes": 8582182,
     "releaseUrl": "https://github.com/mr-finster/vf1-recomp/releases/tag/v1.5.0",
     "licenseId": "NOASSERTION",
     "licenseUrl": null,
@@ -335,6 +335,53 @@
     "curated": true
   },
   {
+    "id": "yuutatsubasa-chaotixrecompiled",
+    "repo": "YuutaTsubasa/ChaotixRecompiled",
+    "title": "Knuckles' Chaotix",
+    "game": "knuckles-chaotix",
+    "author": "YuutaTsubasa",
+    "console": "Sega 32X",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Android",
+      "iOS"
+    ],
+    "stars": 53,
+    "description": "Static recompilation of the Sega 32X game Knuckles' Chaotix into native C++ (Windows/Linux/macOS/Android), with true widescreen. Bring your own ROM; no game data included.",
+    "version": "v0.15.9",
+    "releasedAt": "2026-10-29",
+    "sizeBytes": 32552756,
+    "releaseUrl": "https://github.com/YuutaTsubasa/ChaotixRecompiled/releases/tag/v0.15.9",
+    "licenseId": "MIT",
+    "licenseUrl": "https://api.github.com/licenses/mit",
+    "curated": true
+  },
+  {
+    "id": "petexy-tekken-tag-2-ultimate-edition",
+    "repo": "Petexy/Tekken-Tag-2-Ultimate-Edition",
+    "title": "Tekken Tag Tournament 2: Wii U Edition",
+    "game": "tekken-tag-tournament-2",
+    "author": "Petexy",
+    "console": "Wii U",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 70,
+    "description": "Native Linux port of Tekken Tag Tournament 2 Wii U Edition by static recompilation. No game files included.",
+    "version": "v0.4.0",
+    "releasedAt": "2026-10-29",
+    "sizeBytes": 6974464,
+    "releaseUrl": "https://github.com/Petexy/Tekken-Tag-2-Ultimate-Edition/releases/tag/v0.4.0",
+    "licenseId": "MIT",
+    "licenseUrl": "https://api.github.com/licenses/mit",
+    "curated": true
+  },
+  {
     "id": "z3xox-tenkaichi3decomp",
     "repo": "z3xox/Tenkaichi3Decomp",
     "title": "Dragon Ball Z: Budokai Tenkaichi 3",
@@ -346,7 +393,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 620,
+    "stars": 621,
     "description": "PC port of Dragon Ball Z: Budokai Tenkaichi 3, built on the BT3-Decompiled project.",
     "version": "v0.1.39.1",
     "releasedAt": "2026-10-28",
@@ -400,31 +447,6 @@
     "curated": true
   },
   {
-    "id": "yuutatsubasa-chaotixrecompiled",
-    "repo": "YuutaTsubasa/ChaotixRecompiled",
-    "title": "Knuckles' Chaotix",
-    "game": "knuckles-chaotix",
-    "author": "YuutaTsubasa",
-    "console": "Sega 32X",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "macOS",
-      "Android",
-      "iOS"
-    ],
-    "stars": 53,
-    "description": "Static recompilation of the Sega 32X game Knuckles' Chaotix into native C++ (Windows/Linux/macOS/Android), with true widescreen. Bring your own ROM; no game data included.",
-    "version": "v0.15.8",
-    "releasedAt": "2026-10-28",
-    "sizeBytes": 32530532,
-    "releaseUrl": "https://github.com/YuutaTsubasa/ChaotixRecompiled/releases/tag/v0.15.8",
-    "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit",
-    "curated": true
-  },
-  {
     "id": "portingpete-the-darkness-recomp",
     "repo": "portingpete/The-Darkness-Recomp",
     "title": "The Darkness",
@@ -455,7 +477,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 945,
+    "stars": 946,
     "description": "A playable preview of Forza Horizon static recompilation",
     "version": "v0.7.1",
     "releasedAt": "2026-10-28",
@@ -689,7 +711,7 @@
     "description": "Virtua Fighter 2 (Sega Model 2, 1994) for Mac, Windows and Steam Deck: the arcade's i960 program recompiled to native code, up to 6x, widescreen, smooth 120 fps. Bring your own vf2.zip.",
     "version": "v0.1.16",
     "releasedAt": "2026-10-28",
-    "sizeBytes": 9355960,
+    "sizeBytes": 9355971,
     "releaseUrl": "https://github.com/mr-finster/vf2-recomp/releases/tag/v0.1.16",
     "licenseId": "NOASSERTION",
     "licenseUrl": null,
@@ -746,7 +768,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 154,
+    "stars": 153,
     "description": "WipEout Omega Collection (PS4) native PC port for Windows: the game's own x86-64 code on the CPU, a PS4 runtime and the shadPS4 Vulkan video core. Playable, in active development. No game files included. ⭐ Star it if you like it; bug reports and requests are welcome in Issues!",
     "version": "windows-v0.2.43",
     "releasedAt": "2026-10-28",
@@ -1011,7 +1033,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 41,
+    "stars": 42,
     "description": "Dragon Age: Origins (Xbox 360) static recompilation - bring your own disc image",
     "version": null,
     "releasedAt": "2026-10-28",
@@ -1032,7 +1054,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 47,
+    "stars": 48,
     "description": "Unofficial native PC ports of the classic Monster Hunter games via static recompilation, starting with Freedom Unite. No emulator. Bring your own copy",
     "version": "v0.6.1",
     "releasedAt": "2026-10-28",
@@ -1154,7 +1176,7 @@
     "console": "PlayStation 3",
     "mechanism": "in-progress",
     "platforms": [],
-    "stars": 46,
+    "stars": 48,
     "description": "Killzone 3 // Unofficial PC Port (static recompilation). Work in progress, partly playable. Builds on your PC from your own game.",
     "version": null,
     "releasedAt": "2026-10-28",
@@ -1216,7 +1238,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 561,
+    "stars": 564,
     "description": "Native port of Metroid Prime (GameCube) for Linux, Windows and Android, built from the PrimeDecomp decompilation. No emulator, no game assets included: bring your own disc image.",
     "version": "v0.35.1",
     "releasedAt": "2026-10-28",
@@ -1258,7 +1280,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 4850,
+    "stars": 4851,
     "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
     "version": "windows-v1.9.5",
     "releasedAt": "2026-10-28",
@@ -1280,7 +1302,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 3710,
+    "stars": 3712,
     "description": "",
     "version": "0.7",
     "releasedAt": "2026-10-28",
@@ -1448,7 +1470,7 @@
     "platforms": [
       "PC"
     ],
-    "stars": 1583,
+    "stars": 1584,
     "description": "Native Windows port of Shadow of the Colossus (PS4, CUSA08809) - bring your own game dump. Port nativo para PC.",
     "version": "v0.60.6-C3",
     "releasedAt": "2026-10-27",
@@ -1556,7 +1578,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 491,
+    "stars": 492,
     "description": "Native PC port (Linux/Windows) of The Last Guardian (PS4, CUSA03627) — runs your own game dump; no game or firmware files included. Mouse/keyboard, optional 60 FPS, SMAA/CAS filters. | Port nativo para PC de The Last Guardian — usa o seu próprio dump.",
     "version": "v2026.10.27-4825a99",
     "releasedAt": "2026-10-27",
@@ -1683,7 +1705,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 849,
+    "stars": 851,
     "description": "Experimental native PC port of Lost Odyssey using static recompilation. No game assets included.",
     "version": "v1.1.0",
     "releasedAt": "2026-10-26",
@@ -1837,27 +1859,6 @@
     "curated": true
   },
   {
-    "id": "petexy-tekken-tag-2-ultimate-edition",
-    "repo": "Petexy/Tekken-Tag-2-Ultimate-Edition",
-    "title": "Tekken Tag Tournament 2: Wii U Edition",
-    "game": "tekken-tag-tournament-2",
-    "author": "Petexy",
-    "console": "Wii U",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Linux"
-    ],
-    "stars": 70,
-    "description": "Native Linux port of Tekken Tag Tournament 2 Wii U Edition by static recompilation. No game files included.",
-    "version": "v0.3.1",
-    "releasedAt": "2026-10-26",
-    "sizeBytes": 3025400,
-    "releaseUrl": "https://github.com/Petexy/Tekken-Tag-2-Ultimate-Edition/releases/tag/v0.3.1",
-    "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit",
-    "curated": true
-  },
-  {
     "id": "vitomiguelf-crashott-pc",
     "repo": "VitoMiguelF/crashott-pc",
     "title": "Crash of the Titans",
@@ -1869,7 +1870,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 104,
+    "stars": 105,
     "description": "Crash of the Titans (Xbox 360) statically recompiled for Windows: DLSS/FSR, PC controls, PT-BR, subtitles, mods. Bring your own copy of the game.",
     "version": "v1.07",
     "releasedAt": "2026-10-26",
@@ -1977,7 +1978,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 1928,
+    "stars": 1929,
     "description": "Static recompilation of Link's Awakening (Switch) to native macOS, Windows and Linux",
     "version": "beta_5.3",
     "releasedAt": "2026-10-26",
@@ -2041,7 +2042,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 356,
+    "stars": 357,
     "description": "Forza Horizon (Xbox 360) natively on PC, rebuilt around the modern Horizon experience: shared online free roam, leaderboards and rivals, 120/144 fps, and a self-hostable online server.",
     "version": "v0.2.0",
     "releasedAt": "2026-10-26",
@@ -2085,7 +2086,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 77,
+    "stars": 78,
     "description": "Crash Twinsanity (PS2, PAL) running natively on Windows, played through to the credits: a Windows port of HAB3X's Mac port of Smartkin's C++ decompilation. No game data included: bring your own disc image.",
     "version": "v1.0.19",
     "releasedAt": "2026-10-26",
@@ -2212,7 +2213,7 @@
       "Windows",
       "iOS"
     ],
-    "stars": 510,
+    "stars": 511,
     "description": "The Legend of Zelda: The Wind Waker Recompiled. Native for MacOS, iOS, Windows, Linux, and Android.",
     "version": "v0.9.0",
     "releasedAt": "2026-10-25",
@@ -2379,7 +2380,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 6281,
+    "stars": 6300,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -2746,7 +2747,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 57,
+    "stars": 58,
     "description": "DOAX 2 Recompilation with RexGlue",
     "version": "v1.1.4",
     "releasedAt": "2026-10-24",
@@ -3036,7 +3037,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 274,
+    "stars": 281,
     "description": "Dragon's Crown Pro native PC port for Windows, with direct PS4 PKG installation, TRG launcher and modern graphics options",
     "version": "v0.7.1",
     "releasedAt": "2026-10-23",
@@ -3079,7 +3080,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 216,
+    "stars": 217,
     "description": "Native Windows port of Tekken Tag Tournament 2 (Xbox 360) by static recompilation. Not an emulator. Ships no game data - the installer builds the game from your own disc image and Title Update 3.",
     "version": "v0.1.7",
     "releasedAt": "2026-10-23",
@@ -3230,7 +3231,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 988,
+    "stars": 990,
     "description": "Native PC port (Linux/Windows) of inFAMOUS Second Son (PS4, CUSA00223) — in development, playable; runs your own game dump; no game or firmware files included. Motion sensor emulation. | Port nativo para PC de inFAMOUS Second Son (em desenvolvimento) — usa o seu próprio dump.",
     "version": "v1.0",
     "releasedAt": "2026-10-22",
@@ -3290,7 +3291,7 @@
       "PC",
       "Android"
     ],
-    "stars": 141,
+    "stars": 142,
     "description": "Unofficial native PC port of WWE SmackDown vs. Raw 2011 (Xbox 360). Bring your own disc.",
     "version": "v2.1.5",
     "releasedAt": "2026-10-22",
@@ -3332,7 +3333,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2268,
+    "stars": 2267,
     "description": "Native PC port of P.T. (runs from your own PS4 game files)",
     "version": "v1.0.8",
     "releasedAt": "2026-10-22",
@@ -3356,7 +3357,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 240,
+    "stars": 242,
     "description": "Burnout Revenge recompilation based on RexGlue + standalone Plume render",
     "version": "v0.4.8",
     "releasedAt": "2026-10-22",
@@ -3477,7 +3478,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 1139,
+    "stars": 1141,
     "description": "Zelda Wind Waker HD Recomp",
     "version": "v0.4.0",
     "releasedAt": "2026-10-21",
@@ -3821,7 +3822,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 385,
+    "stars": 386,
     "description": "An unofficial original Xbox version PC port of Splinter Cell: Double Agent via static recompilation.",
     "version": "V2",
     "releasedAt": "2026-10-18",
@@ -5015,7 +5016,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 6115,
+    "stars": 6116,
     "description": "Dusklight brings a classic adventure to PC and mobile platforms with a variety of fixes and improvements.",
     "version": "v2.0.3",
     "releasedAt": "2026-09-30",
@@ -5525,7 +5526,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 787,
+    "stars": 788,
     "description": "Multiplatform and Feature-rich Port based on PSX decompilation of Silent Hill 1 made with Claude and Psycross. Still in beta and is in active development.",
     "version": "crossplatform-beta",
     "releasedAt": "2026-09-04",
