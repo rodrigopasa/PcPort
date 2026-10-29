@@ -88,7 +88,7 @@
     "console": "Nintendo Switch",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 397,
+    "stars": 400,
     "description": "Unofficial native Windows port of Tears of the Kingdom 1.4.3 using static recompilation. Builds locally from the player's own extracted game dump; no game files included.",
     "version": null,
     "releasedAt": "2026-10-29",
@@ -217,7 +217,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 81,
+    "stars": 82,
     "description": "Native Windows port of Dead or Alive 2 Ultimate (Xbox), built by static recompilation with a hand-written runtime. Requires your own copy of the game.",
     "version": "v0.1.8",
     "releasedAt": "2026-10-29",
@@ -371,7 +371,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 71,
+    "stars": 72,
     "description": "Native Linux port of Tekken Tag Tournament 2 Wii U Edition by static recompilation. No game files included.",
     "version": "v0.4.0",
     "releasedAt": "2026-10-29",
@@ -491,7 +491,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 287,
+    "stars": 288,
     "description": "Dragon's Crown Pro native PC port for Windows, with direct PS4 PKG installation, TRG launcher and modern graphics options",
     "version": "v0.8.0",
     "releasedAt": "2026-10-29",
@@ -509,13 +509,15 @@
     "author": "AbdelmoumenDeghbouche",
     "console": "PlayStation 4",
     "mechanism": "in-progress",
-    "platforms": [],
+    "platforms": [
+      "Windows"
+    ],
     "stars": 159,
     "description": "WipEout Omega Collection (PS4) native PC port for Windows: the game's own x86-64 code on the CPU, a PS4 runtime and the shadPS4 Vulkan video core. Playable, in active development. No game files included. ⭐ Star it if you like it; bug reports and requests are welcome in Issues!",
-    "version": "windows-v0.2.44",
+    "version": "windows-v0.2.45",
     "releasedAt": "2026-10-29",
-    "sizeBytes": 75756291,
-    "releaseUrl": "https://github.com/AbdelmoumenDeghbouche/wipeout_pc/releases/tag/windows-v0.2.44",
+    "sizeBytes": 75767125,
+    "releaseUrl": "https://github.com/AbdelmoumenDeghbouche/wipeout_pc/releases/tag/windows-v0.2.45",
     "licenseId": "GPL-2.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-2.0",
     "curated": true
@@ -543,6 +545,28 @@
     "releaseUrl": "https://github.com/nathanialf/ico-pc/releases/tag/v0.9.4",
     "licenseId": "NOASSERTION",
     "licenseUrl": null,
+    "curated": true
+  },
+  {
+    "id": "mango77x-mhforever",
+    "repo": "Mango77x/MHForever",
+    "title": "Monster Hunter Freedom Unite",
+    "game": null,
+    "author": "Mango77x",
+    "console": "PSP",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 50,
+    "description": "Unofficial native PC ports of the classic Monster Hunter games via static recompilation, starting with Freedom Unite. No emulator. Bring your own copy",
+    "version": "v0.6.2",
+    "releasedAt": "2026-10-29",
+    "sizeBytes": 73092900,
+    "releaseUrl": "https://github.com/Mango77x/MHForever/releases/tag/v0.6.2",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
   },
   {
@@ -619,7 +643,7 @@
     "console": "Xbox 360",
     "mechanism": "native",
     "platforms": [],
-    "stars": 357,
+    "stars": 356,
     "description": "A native PC port of The Darkness (Xbox 360) for Windows, featuring DirectX 11 graphics, mouse and keyboard controls, and customizable settings.",
     "version": null,
     "releasedAt": "2026-10-28",
@@ -660,7 +684,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 202,
+    "stars": 203,
     "description": "Ninja Gaiden Black (Xbox, 2005) statically recompiled into native Linux and Windows builds, drawn by its own Vulkan renderer. A steady 60 fps, widescreen and ultrawide, keyboard and mouse, Steam Deck ready. Bring your own copy of the game.",
     "version": null,
     "releasedAt": "2026-10-28",
@@ -810,7 +834,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 85,
+    "stars": 86,
     "description": "A PC port of Downhill Domination (PS2), built on a matching decompilation. Bring your own disc.",
     "version": "v0.7.1",
     "releasedAt": "2026-10-28",
@@ -916,7 +940,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 55,
+    "stars": 56,
     "description": "A native PC / Android / Linux / Switch / Steam Deck port of Rampage: Total Destruction (PS2)",
     "version": "v1.2.1",
     "releasedAt": "2026-10-28",
@@ -1020,7 +1044,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 149,
+    "stars": 150,
     "description": "A native PC port of Call of Duty: Finest Hour (original Xbox) with a remastered renderer",
     "version": "update",
     "releasedAt": "2026-10-28",
@@ -1101,7 +1125,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 45,
+    "stars": 46,
     "description": "007 Everything or Nothing recompilation for a native PC port.",
     "version": "v1.0.1",
     "releasedAt": "2026-10-28",
@@ -1146,28 +1170,6 @@
     "releaseUrl": "https://github.com/96dot/Dragon-Age-Origins-Recomp/releases",
     "licenseId": "MIT",
     "licenseUrl": "https://api.github.com/licenses/mit"
-  },
-  {
-    "id": "mango77x-mhforever",
-    "repo": "Mango77x/MHForever",
-    "title": "Monster Hunter Freedom Unite",
-    "game": null,
-    "author": "Mango77x",
-    "console": "PSP",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 50,
-    "description": "Unofficial native PC ports of the classic Monster Hunter games via static recompilation, starting with Freedom Unite. No emulator. Bring your own copy",
-    "version": "v0.6.1",
-    "releasedAt": "2026-10-28",
-    "sizeBytes": 73089520,
-    "releaseUrl": "https://github.com/Mango77x/MHForever/releases/tag/v0.6.1",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
-    "curated": true
   },
   {
     "id": "masterllgod-naruto-storm-2-port-nativo",
@@ -1222,7 +1224,7 @@
     "console": "Xbox 360",
     "mechanism": "native",
     "platforms": [],
-    "stars": 426,
+    "stars": 427,
     "description": "Tekken 6 (Xbox 360) native on Windows with rollback netcode - build from your own ISO",
     "version": "v2.5.0",
     "releasedAt": "2026-10-28",
@@ -1343,7 +1345,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 568,
+    "stars": 569,
     "description": "Native port of Metroid Prime (GameCube) for Linux, Windows and Android, built from the PrimeDecomp decompilation. No emulator, no game assets included: bring your own disc image.",
     "version": "v0.35.1",
     "releasedAt": "2026-10-28",
@@ -1385,7 +1387,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 4863,
+    "stars": 4865,
     "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
     "version": "windows-v1.9.5",
     "releasedAt": "2026-10-28",
@@ -1407,7 +1409,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 3720,
+    "stars": 3724,
     "description": "Bloodborne (v1.09) running natively on Linux and Windows: the game's x86-64 code runs as is, GPU side translated to Vulkan; FSR 4 / DLSS, co-op (BBSC). Bring your own dump.",
     "version": "0.7",
     "releasedAt": "2026-10-28",
@@ -1550,7 +1552,7 @@
     "platforms": [
       "PC"
     ],
-    "stars": 1586,
+    "stars": 1587,
     "description": "Native Windows port of Shadow of the Colossus (PS4, CUSA08809) - bring your own game dump. Port nativo para PC.",
     "version": "v0.60.6-C3",
     "releasedAt": "2026-10-27",
@@ -1766,7 +1768,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 856,
+    "stars": 857,
     "description": "Experimental native PC port of Lost Odyssey using static recompilation. No game assets included.",
     "version": "v1.1.0",
     "releasedAt": "2026-10-26",
@@ -1788,7 +1790,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 459,
+    "stars": 458,
     "description": "ReStreet: FIFA Street (2012) recompiled for Windows PC, with online play, a launcher with friends, chat and rooms. Bring your own game.",
     "version": "v2.1.3-online-beta",
     "releasedAt": "2026-10-26",
@@ -1807,7 +1809,7 @@
     "console": "PC",
     "mechanism": "native",
     "platforms": [],
-    "stars": 621,
+    "stars": 620,
     "description": "Decompilation of 東方紅魔郷　～ the Embodiment of Scarlet Devil (1.02h)",
     "version": null,
     "releasedAt": "2026-10-26",
@@ -2081,7 +2083,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 358,
+    "stars": 359,
     "description": "Forza Horizon (Xbox 360) natively on PC, rebuilt around the modern Horizon experience: shared online free roam, leaderboards and rivals, 120/144 fps, and a self-hostable online server.",
     "version": "v0.2.0",
     "releasedAt": "2026-10-26",
@@ -2209,7 +2211,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 55,
+    "stars": 56,
     "description": "Unofficial Knack II (Knack 2) PC port for Windows. Experimental Vulkan alpha, launcher and local co-op; requires your own PS4 game dump.",
     "version": "knack2-Version-0.17.5",
     "releasedAt": "2026-10-25",
@@ -2358,7 +2360,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 106,
+    "stars": 107,
     "description": "The Oracles Project - A faithful, moddable port of Oracle of Ages and Oracle of Seasons for Windows, macOS, Linux and Android: your own ROM runs unmodified in SameBoy or mGBA, with a widescreen Enhanced mode, European languages, item hotkeys, Lua mods and fan games.",
     "version": "v1.3.0",
     "releasedAt": "2026-10-25",
@@ -2419,7 +2421,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 6354,
+    "stars": 6365,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -2575,7 +2577,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 97,
+    "stars": 96,
     "description": "Dead or Alive 3 PC Port ",
     "version": "v1.0.7",
     "releasedAt": "2026-10-24",
@@ -2683,7 +2685,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 2076,
+    "stars": 2078,
     "description": "Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo",
     "version": "v0.3.9",
     "releasedAt": "2026-10-24",
@@ -2744,7 +2746,7 @@
     "console": "PlayStation 3",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 61,
+    "stars": 62,
     "description": "Unofficial native Windows port of ARMORED CORE for Answer (PS3), built from your own copy of the game. Part of Project Glintburn.",
     "version": "v0.7.3",
     "releasedAt": "2026-10-24",
@@ -3078,7 +3080,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 217,
+    "stars": 218,
     "description": "Native Windows port of Tekken Tag Tournament 2 (Xbox 360) by static recompilation. Not an emulator. Ships no game data - the installer builds the game from your own disc image and Title Update 3.",
     "version": "v0.1.7",
     "releasedAt": "2026-10-23",
@@ -3267,7 +3269,7 @@
     "console": "Nintendo Switch",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 429,
+    "stars": 431,
     "description": "Experimental Windows x64 native porting toolkit for Super Smash Bros. Ultimate: static AArch64 recompilation, a D3D11 runtime, and Local Wireless relay netplay.",
     "version": null,
     "releasedAt": "2026-10-22",
@@ -3331,7 +3333,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2273,
+    "stars": 2274,
     "description": "Native PC port of P.T. (runs from your own PS4 game files)",
     "version": "v1.0.8",
     "releasedAt": "2026-10-22",
@@ -3597,7 +3599,7 @@
     "console": "Game Boy Advance",
     "mechanism": "native",
     "platforms": [],
-    "stars": 1690,
+    "stars": 1691,
     "description": "Decompilation of Pokémon FireRed/LeafGreen",
     "version": null,
     "releasedAt": "2026-10-20",
@@ -3778,7 +3780,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 139,
+    "stars": 140,
     "description": "Forza Motorsport 4 native on PC",
     "version": "v0.3.9",
     "releasedAt": "2026-10-19",
@@ -3820,7 +3822,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 386,
+    "stars": 387,
     "description": "An unofficial original Xbox version PC port of Splinter Cell: Double Agent via static recompilation.",
     "version": "V2",
     "releasedAt": "2026-10-18",
@@ -3884,7 +3886,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 795,
+    "stars": 797,
     "description": "An unofficial original Xbox version PC port of BLACK (2006) via static recompilation.",
     "version": "V2",
     "releasedAt": "2026-10-18",
@@ -4127,7 +4129,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 75,
+    "stars": 76,
     "description": "Original open-source static recompilation of Tekken 6 (Xbox 360) for native execution on PC. This project provides the recompilation foundation used by downstream projects including Tekken6 Native Online.",
     "version": "Iterate",
     "releasedAt": "2026-10-16",
@@ -4470,7 +4472,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 76,
+    "stars": 77,
     "description": "Community Windows PC port of Skate 2, built with ReXGlue. Controller support, adjustable rendering quality, and unlocked FPS. Original game files required.",
     "version": "v0.1.1",
     "releasedAt": "2026-10-12",
@@ -4550,7 +4552,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 567,
+    "stars": 568,
     "description": "",
     "version": "1.5.0",
     "releasedAt": "2026-10-11",
@@ -4989,7 +4991,7 @@
     "platforms": [
       "macOS"
     ],
-    "stars": 80,
+    "stars": 81,
     "description": "God of War II HD static recompilation — curated work artifacts (lift boundaries, SPU lift sources, scripts, findings). Game data & build artifacts excluded.",
     "version": "kit-macos-20260930",
     "releasedAt": "2026-09-30",
@@ -5014,7 +5016,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 6122,
+    "stars": 6123,
     "description": "Dusklight brings a classic adventure to PC and mobile platforms with a variety of fixes and improvements.",
     "version": "v2.0.3",
     "releasedAt": "2026-09-30",
@@ -5056,7 +5058,7 @@
     "console": "Game Boy Advance",
     "mechanism": "native",
     "platforms": [],
-    "stars": 1008,
+    "stars": 1009,
     "description": "Decompilation of Pokémon Ruby/Sapphire",
     "version": null,
     "releasedAt": "2026-09-29",
@@ -5840,7 +5842,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 1666,
+    "stars": 1665,
     "description": "A free and open-source Touhou Project fangame",
     "version": "v1.4.6",
     "releasedAt": "2026-08-02",
@@ -6322,7 +6324,7 @@
     "console": "Xbox 360",
     "mechanism": "emulator",
     "platforms": [],
-    "stars": 9777,
+    "stars": 9778,
     "description": "Xbox 360 Emulator Research Project",
     "version": null,
     "releasedAt": "2026-02-18",
@@ -6734,7 +6736,7 @@
     "console": "PlayStation",
     "mechanism": "native",
     "platforms": [],
-    "stars": 1195,
+    "stars": 1196,
     "description": "Decompilation of Castlevania: Symphony of the Night (PSX, PSP, Saturn)",
     "version": "cc1-psx-26",
     "releasedAt": "2023-04-05",
