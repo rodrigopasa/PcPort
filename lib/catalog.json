@@ -168,7 +168,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 312,
+    "stars": 314,
     "description": "Dragon's Crown Pro native PC port for Windows, with direct PS4 PKG installation, TRG launcher and modern graphics options",
     "version": "v0.9.0",
     "releasedAt": "2026-10-30",
@@ -232,7 +232,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 58,
+    "stars": 59,
     "description": "Static recompilation of the Sega 32X game Knuckles' Chaotix into native C++ (Windows/Linux/macOS/Android), with true widescreen. Bring your own ROM; no game data included.",
     "version": "v0.15.12",
     "releasedAt": "2026-10-30",
@@ -313,7 +313,7 @@
     "description": "A native PC port of Call of Duty: Finest Hour (original Xbox) with a remastered renderer",
     "version": "update",
     "releasedAt": "2026-10-30",
-    "sizeBytes": 143531115,
+    "sizeBytes": 143544062,
     "releaseUrl": "https://github.com/crazyriddler/FinestHourRemastered/releases/tag/update",
     "licenseId": null,
     "licenseUrl": null,
@@ -603,16 +603,57 @@
     "platforms": [
       "Windows",
       "Linux",
-      "macOS"
+      "macOS",
+      "Android"
     ],
     "stars": 126,
     "description": "CPS-2 Recomp: unofficial native PC ports of Capcom CPS-2 arcade games (Street Fighter Alpha 2, Super Puzzle Fighter II Turbo, Vampire Savior) via static recompilation, with training modes, in one launcher: macOS, Linux, Steam Deck, Windows. Requires your own ROM sets. Beta.",
-    "version": "v1.0.0",
-    "releasedAt": "2026-10-29",
-    "sizeBytes": 170548188,
-    "releaseUrl": "https://github.com/tmcleroy/cps2recomp/releases/tag/v1.0.0",
+    "version": "v1.1.0",
+    "releasedAt": "2026-10-30",
+    "sizeBytes": 180976303,
+    "releaseUrl": "https://github.com/tmcleroy/cps2recomp/releases/tag/v1.1.0",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
+  },
+  {
+    "id": "abdelmoumendeghbouche-wipeout-pc",
+    "repo": "AbdelmoumenDeghbouche/wipeout_pc",
+    "title": "WipEout Omega Collection",
+    "game": "wipeout-omega-collection",
+    "author": "AbdelmoumenDeghbouche",
+    "console": "PlayStation 4",
+    "mechanism": "in-progress",
+    "platforms": [
+      "Windows"
+    ],
+    "stars": 180,
+    "description": "WipEout Omega Collection (PS4) native PC port for Windows: the game's own x86-64 code on the CPU, a PS4 runtime and the shadPS4 Vulkan video core. Playable, in active development. No game files included. ⭐ Star it if you like it; bug reports and requests are welcome in Issues!",
+    "version": "windows-v0.2.48",
+    "releasedAt": "2026-10-30",
+    "sizeBytes": 75771677,
+    "releaseUrl": "https://github.com/AbdelmoumenDeghbouche/wipeout_pc/releases/tag/windows-v0.2.48",
+    "licenseId": "GPL-2.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-2.0",
+    "curated": true
+  },
+  {
+    "id": "pret-pokeheartgold",
+    "repo": "pret/pokeheartgold",
+    "title": "Pokémon HeartGold",
+    "game": "pokemon-heartgold",
+    "author": "pret",
+    "console": "Nintendo DS",
+    "mechanism": "native",
+    "platforms": [],
+    "stars": 748,
+    "description": "Decompilation of Pokemon HeartGold/SoulSilver",
+    "version": null,
+    "releasedAt": "2026-10-30",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/pret/pokeheartgold/releases",
+    "licenseId": null,
+    "licenseUrl": null,
     "curated": true
   },
   {
@@ -785,27 +826,6 @@
     "curated": true
   },
   {
-    "id": "abdelmoumendeghbouche-wipeout-pc",
-    "repo": "AbdelmoumenDeghbouche/wipeout_pc",
-    "title": "WipEout Omega Collection",
-    "game": "wipeout-omega-collection",
-    "author": "AbdelmoumenDeghbouche",
-    "console": "PlayStation 4",
-    "mechanism": "in-progress",
-    "platforms": [
-      "Windows"
-    ],
-    "stars": 180,
-    "description": "WipEout Omega Collection (PS4) native PC port for Windows: the game's own x86-64 code on the CPU, a PS4 runtime and the shadPS4 Vulkan video core. Playable, in active development. No game files included. ⭐ Star it if you like it; bug reports and requests are welcome in Issues!",
-    "version": "windows-v0.2.47",
-    "releasedAt": "2026-10-29",
-    "sizeBytes": 75769201,
-    "releaseUrl": "https://github.com/AbdelmoumenDeghbouche/wipeout_pc/releases/tag/windows-v0.2.47",
-    "licenseId": "GPL-2.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-2.0",
-    "curated": true
-  },
-  {
     "id": "mango77x-mhforever",
     "repo": "Mango77x/MHForever",
     "title": "Monster Hunter Freedom Unite",
@@ -868,25 +888,6 @@
     "curated": true
   },
   {
-    "id": "pret-pokeheartgold",
-    "repo": "pret/pokeheartgold",
-    "title": "Pokémon HeartGold",
-    "game": "pokemon-heartgold",
-    "author": "pret",
-    "console": "Nintendo DS",
-    "mechanism": "native",
-    "platforms": [],
-    "stars": 748,
-    "description": "Decompilation of Pokemon HeartGold/SoulSilver",
-    "version": null,
-    "releasedAt": "2026-10-29",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/pret/pokeheartgold/releases",
-    "licenseId": null,
-    "licenseUrl": null,
-    "curated": true
-  },
-  {
     "id": "supermedo-bloodborne-pc",
     "repo": "Supermedo/bloodborne_pc",
     "title": "Bloodborne",
@@ -897,7 +898,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 4904,
+    "stars": 4905,
     "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
     "version": "windows-v1.9.6",
     "releasedAt": "2026-10-29",
@@ -1007,7 +1008,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 1174,
+    "stars": 1175,
     "description": "Zelda Wind Waker HD Recomp",
     "version": "v0.5.0",
     "releasedAt": "2026-10-29",
@@ -1070,7 +1071,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 130,
+    "stars": 131,
     "description": "Native port of Metroid Prime 2: Echoes (GameCube) for Linux and Android, built from the PrimeDecomp decompilation. No emulator, no game assets included: bring your own disc image.",
     "version": "v0.6.4",
     "releasedAt": "2026-10-29",
@@ -1314,7 +1315,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 257,
+    "stars": 258,
     "description": "Burnout Revenge recompilation based on RexGlue + standalone Plume render",
     "version": "v0.4.9",
     "releasedAt": "2026-10-29",
@@ -1402,7 +1403,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 587,
+    "stars": 588,
     "description": "Native port of Metroid Prime (GameCube) for Linux, Windows and Android, built from the PrimeDecomp decompilation. No emulator, no game assets included: bring your own disc image.",
     "version": "v0.36.0",
     "releasedAt": "2026-10-29",
@@ -1608,7 +1609,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 952,
+    "stars": 953,
     "description": "A playable preview of Forza Horizon static recompilation",
     "version": "v0.7.1",
     "releasedAt": "2026-10-28",
@@ -1897,7 +1898,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 223,
+    "stars": 224,
     "description": "This is an open source, all-in-one, static recompilation project that I built from the ground up for the Xbox 360 Gears of War series.",
     "version": "0.2.2",
     "releasedAt": "2026-10-28",
@@ -2063,7 +2064,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 58,
+    "stars": 61,
     "description": "Forza Motorsport 4 recompilation based on ShiftGlue",
     "version": "v0.3.0",
     "releasedAt": "2026-10-28",
@@ -2276,7 +2277,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 73,
+    "stars": 74,
     "description": "Odin Sphere Leifthrasir native PC port for Windows, with direct PS4 PKG installation, TRG launcher and modern graphics options",
     "version": "v0.1.0",
     "releasedAt": "2026-10-27",
@@ -2867,7 +2868,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 6482,
+    "stars": 6493,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -3149,7 +3150,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 122,
+    "stars": 123,
     "description": "A Static recompilation of Ace Combat 5 with native rendering",
     "version": "V3.0",
     "releasedAt": "2026-10-24",
@@ -3225,26 +3226,6 @@
     "curated": true
   },
   {
-    "id": "luisxl15-metal-gear-solid-2-sons-of-liberty-for-android",
-    "repo": "luisxl15/METAL-GEAR-SOLID-2-Sons-of-Liberty-for-Android",
-    "title": "METAL GEAR SOLID 2 Sons Of Liberty For Android",
-    "game": null,
-    "author": "luisxl15",
-    "console": "PC",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Android"
-    ],
-    "stars": 41,
-    "description": "Metal Gear Solid 2 HD (NVIDIA SHIELD) para Android ARM64 — recompilação estática ARM32→ARM64, Adreno e Mali, LSFG, menus em 7 idiomas. Traga sua própria cópia do jogo. / Static recompilation port, bring your own game files.",
-    "version": "beta3",
-    "releasedAt": "2026-10-24",
-    "sizeBytes": 32556488,
-    "releaseUrl": "https://github.com/luisxl15/METAL-GEAR-SOLID-2-Sons-of-Liberty-for-Android/releases/tag/beta3",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
-  },
-  {
     "id": "ran-j-ps2recomp",
     "repo": "ran-j/PS2Recomp",
     "title": "PS2Recomp",
@@ -3291,7 +3272,7 @@
     "console": "Xbox 360",
     "mechanism": "native",
     "platforms": [],
-    "stars": 80,
+    "stars": 81,
     "description": "FIFA 09 PC Port based on Xbox 360 Version.",
     "version": "v1.4.0",
     "releasedAt": "2026-10-23",
@@ -3670,7 +3651,7 @@
     "console": "Nintendo Switch",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 502,
+    "stars": 503,
     "description": "Unofficial static recompilation of Bayonetta 2 (Switch) for Windows. Builds the game on your PC from your own legally dumped copy. No game files, keys or SDK code included.",
     "version": "v0.3.3",
     "releasedAt": "2026-10-22",
@@ -3693,7 +3674,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2291,
+    "stars": 2292,
     "description": "Native PC port of P.T. (runs from your own PS4 game files)",
     "version": "v1.0.8",
     "releasedAt": "2026-10-22",
@@ -3816,7 +3797,7 @@
       "Linux",
       "Android"
     ],
-    "stars": 312,
+    "stars": 313,
     "description": "CrashBandicoot native pc port",
     "version": "2.3.1",
     "releasedAt": "2026-10-21",
@@ -3892,7 +3873,7 @@
     "console": "Game Boy Advance",
     "mechanism": "native",
     "platforms": [],
-    "stars": 1693,
+    "stars": 1694,
     "description": "Decompilation of Pokémon FireRed/LeafGreen",
     "version": null,
     "releasedAt": "2026-10-20",
@@ -5361,7 +5342,7 @@
     "console": "PlayStation",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 76,
+    "stars": 77,
     "description": "Tekken 3 hybrid recompilation preview with Jun Kazama, widescreen, custom skins and local asset import tools.",
     "version": null,
     "releasedAt": "2026-09-23",
