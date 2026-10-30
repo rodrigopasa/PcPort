@@ -105,12 +105,12 @@
       "Linux",
       "macOS"
     ],
-    "stars": 84,
+    "stars": 85,
     "description": "Native Windows port of Dead or Alive 2 Ultimate (Xbox), built by static recompilation with a hand-written runtime. Requires your own copy of the game.",
-    "version": "v0.1.11",
+    "version": "v0.1.12",
     "releasedAt": "2026-10-30",
-    "sizeBytes": 5564845,
-    "releaseUrl": "https://github.com/NoRain211/doa2u-re/releases/tag/v0.1.11",
+    "sizeBytes": 5568516,
+    "releaseUrl": "https://github.com/NoRain211/doa2u-re/releases/tag/v0.1.12",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
@@ -187,7 +187,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 42,
+    "stars": 43,
     "description": "Static recompilation of Rogue Galaxy (PS2) to a native PC executable, on PS2Recomp",
     "version": null,
     "releasedAt": "2026-10-30",
@@ -270,7 +270,7 @@
     "console": "PlayStation 3",
     "mechanism": "in-progress",
     "platforms": [],
-    "stars": 62,
+    "stars": 63,
     "description": "Killzone 2 // Unofficial PC Port (static recompilation). Work in progress, partly playable. Builds on your PC from your own game.",
     "version": null,
     "releasedAt": "2026-10-30",
@@ -499,10 +499,96 @@
     "stars": 68,
     "description": "Native PC, Mac and Steam Deck port of 50 Cent: Blood on the Sand (Xbox 360), statically recompiled with ReXGlue. Download: https://skullburglar.stz.sh",
     "version": null,
-    "releasedAt": "2026-10-29",
+    "releasedAt": "2026-10-30",
     "sizeBytes": null,
     "releaseUrl": "https://github.com/nlwstein/skullburglar/releases",
     "licenseId": "NOASSERTION",
+    "licenseUrl": null,
+    "curated": true
+  },
+  {
+    "id": "mstan-megamanxsnesrecomp",
+    "repo": "mstan/MegaManXSNESRecomp",
+    "title": "Mega Man X",
+    "game": null,
+    "author": "mstan",
+    "console": "SNES",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows"
+    ],
+    "stars": 220,
+    "description": "Mega Man X recompiled for the Super Nintendo using snesrecomp · Part of the R.A.I.D. community",
+    "version": "v2.3.10",
+    "releasedAt": "2026-10-30",
+    "sizeBytes": 16354221,
+    "releaseUrl": "https://github.com/mstan/MegaManXSNESRecomp/releases/tag/v2.3.10",
+    "licenseId": "NOASSERTION",
+    "licenseUrl": null,
+    "curated": true
+  },
+  {
+    "id": "mooncellar-team-glassline",
+    "repo": "MoonCellar-Team/Glassline",
+    "title": "Mirror's Edge",
+    "game": null,
+    "author": "MoonCellar-Team",
+    "console": "PC",
+    "mechanism": "native",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "Android"
+    ],
+    "stars": 44,
+    "description": "Unofficial port of Mirror's Edge (iPad, 2010) to Linux, Windows, Steam Deck and Android",
+    "version": "v1.4.2",
+    "releasedAt": "2026-10-30",
+    "sizeBytes": 50791177,
+    "releaseUrl": "https://github.com/MoonCellar-Team/Glassline/releases/tag/v1.4.2",
+    "licenseId": "NOASSERTION",
+    "licenseUrl": null
+  },
+  {
+    "id": "mstan-supermarioworldrecomp",
+    "repo": "mstan/SuperMarioWorldRecomp",
+    "title": "Super Mario World",
+    "game": null,
+    "author": "mstan",
+    "console": "SNES",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows"
+    ],
+    "stars": 145,
+    "description": "Super Mario World recompiled for the Super Nintendo using snesrecomp · Part of the R.A.I.D. community",
+    "version": "v0.15.4",
+    "releasedAt": "2026-10-30",
+    "sizeBytes": 33039488,
+    "releaseUrl": "https://github.com/mstan/SuperMarioWorldRecomp/releases/tag/v0.15.4",
+    "licenseId": "NOASSERTION",
+    "licenseUrl": null,
+    "curated": true
+  },
+  {
+    "id": "hyant4-knack-ii-pc-port",
+    "repo": "Hyant4/Knack-II-pc-port",
+    "title": "Knack II",
+    "game": null,
+    "author": "Hyant4",
+    "console": "PlayStation 4",
+    "mechanism": "native",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 61,
+    "description": "Unofficial Knack II (Knack 2) PC port for Windows. Experimental Vulkan alpha, launcher and local co-op; requires your own PS4 game dump.",
+    "version": "knack2-Version-0.18.2",
+    "releasedAt": "2026-10-30",
+    "sizeBytes": 302075106,
+    "releaseUrl": "https://github.com/Hyant4/Knack-II-pc-port/releases/tag/knack2-Version-0.18.2",
+    "licenseId": null,
     "licenseUrl": null,
     "curated": true
   },
@@ -634,27 +720,6 @@
     "curated": true
   },
   {
-    "id": "mstan-megamanxsnesrecomp",
-    "repo": "mstan/MegaManXSNESRecomp",
-    "title": "Mega Man X",
-    "game": null,
-    "author": "mstan",
-    "console": "SNES",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows"
-    ],
-    "stars": 220,
-    "description": "Mega Man X recompiled for the Super Nintendo using snesrecomp · Part of the R.A.I.D. community",
-    "version": "v2.3.9",
-    "releasedAt": "2026-10-29",
-    "sizeBytes": 16350049,
-    "releaseUrl": "https://github.com/mstan/MegaManXSNESRecomp/releases/tag/v2.3.9",
-    "licenseId": "NOASSERTION",
-    "licenseUrl": null,
-    "curated": true
-  },
-  {
     "id": "birabittoh-eternalsonatareprise",
     "repo": "birabittoh/EternalSonataReprise",
     "title": "Eternal Sonata",
@@ -771,7 +836,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 2407,
+    "stars": 2406,
     "description": "Decompilation of The Legend of Zelda: Breath of the Wild (Switch 1.5.0)",
     "version": null,
     "releasedAt": "2026-10-29",
@@ -832,7 +897,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 4903,
+    "stars": 4904,
     "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
     "version": "windows-v1.9.6",
     "releasedAt": "2026-10-29",
@@ -840,50 +905,6 @@
     "releaseUrl": "https://github.com/Supermedo/bloodborne_pc/releases/tag/windows-v1.9.6",
     "licenseId": "GPL-2.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-2.0",
-    "curated": true
-  },
-  {
-    "id": "mooncellar-team-glassline",
-    "repo": "MoonCellar-Team/Glassline",
-    "title": "Mirror's Edge",
-    "game": null,
-    "author": "MoonCellar-Team",
-    "console": "PC",
-    "mechanism": "native",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "Android"
-    ],
-    "stars": 44,
-    "description": "Unofficial port of Mirror's Edge (iPad, 2010) to Linux, Windows, Steam Deck and Android",
-    "version": "v1.4.1",
-    "releasedAt": "2026-10-29",
-    "sizeBytes": 50791173,
-    "releaseUrl": "https://github.com/MoonCellar-Team/Glassline/releases/tag/v1.4.1",
-    "licenseId": "NOASSERTION",
-    "licenseUrl": null
-  },
-  {
-    "id": "mstan-supermarioworldrecomp",
-    "repo": "mstan/SuperMarioWorldRecomp",
-    "title": "Super Mario World",
-    "game": null,
-    "author": "mstan",
-    "console": "SNES",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 145,
-    "description": "Super Mario World recompiled for the Super Nintendo using snesrecomp · Part of the R.A.I.D. community",
-    "version": "v0.15.3",
-    "releasedAt": "2026-10-29",
-    "sizeBytes": 33023720,
-    "releaseUrl": "https://github.com/mstan/SuperMarioWorldRecomp/releases/tag/v0.15.3",
-    "licenseId": "NOASSERTION",
-    "licenseUrl": null,
     "curated": true
   },
   {
@@ -986,7 +1007,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 1173,
+    "stars": 1174,
     "description": "Zelda Wind Waker HD Recomp",
     "version": "v0.5.0",
     "releasedAt": "2026-10-29",
@@ -1024,7 +1045,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 811,
+    "stars": 812,
     "description": "An unofficial original Xbox version PC port of BLACK (2006) via static recompilation.",
     "version": "V3",
     "releasedAt": "2026-10-29",
@@ -1049,7 +1070,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 128,
+    "stars": 130,
     "description": "Native port of Metroid Prime 2: Echoes (GameCube) for Linux and Android, built from the PrimeDecomp decompilation. No emulator, no game assets included: bring your own disc image.",
     "version": "v0.6.4",
     "releasedAt": "2026-10-29",
@@ -1209,7 +1230,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 1959,
+    "stars": 1960,
     "description": "Static recompilation of Link's Awakening (Switch) to native macOS, Windows and Linux",
     "version": "beta_5.4",
     "releasedAt": "2026-10-29",
@@ -1247,7 +1268,7 @@
     "console": "Xbox 360",
     "mechanism": "native",
     "platforms": [],
-    "stars": 83,
+    "stars": 84,
     "description": "",
     "version": "v1.4.3",
     "releasedAt": "2026-10-29",
@@ -1277,28 +1298,6 @@
     "releaseUrl": "https://github.com/SlaveOfIDO/blastcorps-recomp/releases/tag/1.1.1",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
-    "curated": true
-  },
-  {
-    "id": "hyant4-knack-ii-pc-port",
-    "repo": "Hyant4/Knack-II-pc-port",
-    "title": "Knack II",
-    "game": null,
-    "author": "Hyant4",
-    "console": "PlayStation 4",
-    "mechanism": "native",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 61,
-    "description": "Unofficial Knack II (Knack 2) PC port for Windows. Experimental Vulkan alpha, launcher and local co-op; requires your own PS4 game dump.",
-    "version": "knack2-Version-0.18",
-    "releasedAt": "2026-10-29",
-    "sizeBytes": 302055738,
-    "releaseUrl": "https://github.com/Hyant4/Knack-II-pc-port/releases/tag/knack2-Version-0.18",
-    "licenseId": null,
-    "licenseUrl": null,
     "curated": true
   },
   {
@@ -1446,7 +1445,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 636,
+    "stars": 637,
     "description": "PC port of Dragon Ball Z: Budokai Tenkaichi 3, built on the BT3-Decompiled project.",
     "version": "v0.1.39.2",
     "releasedAt": "2026-10-29",
@@ -1507,7 +1506,7 @@
     "console": "PlayStation 2",
     "mechanism": "in-progress",
     "platforms": [],
-    "stars": 44,
+    "stars": 45,
     "description": "Turns a PS2 disc image into a native PC program by static recompilation; builds on ps2-web-recomp (MIT). Work in progress. Bring your own disc.",
     "version": null,
     "releasedAt": "2026-10-29",
@@ -1535,6 +1534,24 @@
     "releaseUrl": "https://github.com/zenit2893-cmyk/Call-of-Duty-3-PC-Editon/releases/tag/2.1",
     "licenseId": "BSD-3-Clause",
     "licenseUrl": "https://api.github.com/licenses/bsd-3-clause"
+  },
+  {
+    "id": "jessetbh-wwfnomercyrecomp",
+    "repo": "jessetbh/WWFNoMercyRecomp",
+    "title": "WWF No Mercy",
+    "game": null,
+    "author": "jessetbh",
+    "console": "Nintendo 64",
+    "mechanism": "recompiled",
+    "platforms": [],
+    "stars": 40,
+    "description": "Native PC port of WWF No Mercy (N64) via static recompilation. No game assets included — bring your own ROM.",
+    "version": null,
+    "releasedAt": "2026-10-29",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/jessetbh/WWFNoMercyRecomp/releases",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
   },
   {
     "id": "novapowers0-dbz-budokai-3-hd-collection",
@@ -2025,7 +2042,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 3759,
+    "stars": 3760,
     "description": "Bloodborne (v1.09) running natively on Linux and Windows: the game's x86-64 code runs as is, GPU side translated to Vulkan; FSR 4 / DLSS, co-op (BBSC). Bring your own dump.",
     "version": "0.7",
     "releasedAt": "2026-10-28",
@@ -2046,7 +2063,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 56,
+    "stars": 58,
     "description": "Forza Motorsport 4 recompilation based on ShiftGlue",
     "version": "v0.3.0",
     "releasedAt": "2026-10-28",
@@ -2429,7 +2446,7 @@
     "console": "PSP",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 153,
+    "stars": 155,
     "description": "Unofficial native PC ports of God of War: Chains of Olympus and Ghost of Sparta (PSP) by static recompilation. Bring your own disc.",
     "version": "v1.3.1",
     "releasedAt": "2026-10-26",
@@ -2470,7 +2487,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 108,
+    "stars": 109,
     "description": "Crash of the Titans (Xbox 360) statically recompiled for Windows: DLSS/FSR, PC controls, PT-BR, subtitles, mods. Bring your own copy of the game.",
     "version": "v1.07",
     "releasedAt": "2026-10-26",
@@ -2850,7 +2867,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 6470,
+    "stars": 6482,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -3024,7 +3041,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 96,
+    "stars": 97,
     "description": "Dead or Alive 3 PC Port ",
     "version": "v1.0.7",
     "releasedAt": "2026-10-24",
@@ -3113,7 +3130,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 2085,
+    "stars": 2086,
     "description": "Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo",
     "version": "v0.3.9",
     "releasedAt": "2026-10-24",
@@ -3206,6 +3223,26 @@
     "licenseId": "NOASSERTION",
     "licenseUrl": null,
     "curated": true
+  },
+  {
+    "id": "luisxl15-metal-gear-solid-2-sons-of-liberty-for-android",
+    "repo": "luisxl15/METAL-GEAR-SOLID-2-Sons-of-Liberty-for-Android",
+    "title": "METAL GEAR SOLID 2 Sons Of Liberty For Android",
+    "game": null,
+    "author": "luisxl15",
+    "console": "PC",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Android"
+    ],
+    "stars": 41,
+    "description": "Metal Gear Solid 2 HD (NVIDIA SHIELD) para Android ARM64 — recompilação estática ARM32→ARM64, Adreno e Mali, LSFG, menus em 7 idiomas. Traga sua própria cópia do jogo. / Static recompilation port, bring your own game files.",
+    "version": "beta3",
+    "releasedAt": "2026-10-24",
+    "sizeBytes": 32556488,
+    "releaseUrl": "https://github.com/luisxl15/METAL-GEAR-SOLID-2-Sons-of-Liberty-for-Android/releases/tag/beta3",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
   },
   {
     "id": "ran-j-ps2recomp",
@@ -3535,7 +3572,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 45,
+    "stars": 46,
     "description": "A recomp of the PS2 game Timesplitters",
     "version": "v1.0",
     "releasedAt": "2026-10-23",
@@ -3576,7 +3613,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 1001,
+    "stars": 1002,
     "description": "Native PC port (Linux/Windows) of inFAMOUS Second Son (PS4, CUSA00223) — in development, playable; runs your own game dump; no game or firmware files included. Motion sensor emulation. | Port nativo para PC de inFAMOUS Second Son (em desenvolvimento) — usa o seu próprio dump.",
     "version": "v1.0",
     "releasedAt": "2026-10-22",
@@ -3614,7 +3651,7 @@
     "console": "Nintendo Switch",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 436,
+    "stars": 437,
     "description": "Experimental Windows x64 native porting toolkit for Super Smash Bros. Ultimate: static AArch64 recompilation, a D3D11 runtime, and Local Wireless relay netplay.",
     "version": null,
     "releasedAt": "2026-10-22",
@@ -4410,7 +4447,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 54,
+    "stars": 55,
     "description": "God of War PS2 → PC static recompilation port",
     "version": null,
     "releasedAt": "2026-10-15",
@@ -4433,7 +4470,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 33963,
+    "stars": 33964,
     "description": "PlayStation 4 emulator for Windows, Linux, macOS and FreeBSD written in C++",
     "version": "v.0.20.0",
     "releasedAt": "2026-10-14",
@@ -5171,7 +5208,7 @@
     "platforms": [
       "macOS"
     ],
-    "stars": 85,
+    "stars": 86,
     "description": "God of War II HD static recompilation — curated work artifacts (lift boundaries, SPU lift sources, scripts, findings). Game data & build artifacts excluded.",
     "version": "kit-macos-20260930",
     "releasedAt": "2026-09-30",
@@ -5196,7 +5233,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 6143,
+    "stars": 6144,
     "description": "Dusklight brings a classic adventure to PC and mobile platforms with a variety of fixes and improvements.",
     "version": "v2.0.3",
     "releasedAt": "2026-09-30",
@@ -5640,7 +5677,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 876,
+    "stars": 877,
     "description": "A PC port of Super Mario 64 with DirectX 11, OpenGL and Vulkan backends, fullscreen and controller support.",
     "version": "3.0.0",
     "releasedAt": "2026-09-07",
@@ -6855,7 +6892,7 @@
     "console": "SNES",
     "mechanism": "native",
     "platforms": [],
-    "stars": 4945,
+    "stars": 4946,
     "description": "",
     "version": "v0.3",
     "releasedAt": "2023-08-17",
