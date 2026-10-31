@@ -214,7 +214,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 105,
+    "stars": 106,
     "description": "A PC port of Downhill Domination (PS2), built on a matching decompilation. Bring your own disc.",
     "version": "v0.7.5",
     "releasedAt": "2026-10-31",
@@ -303,10 +303,10 @@
     ],
     "stars": 130,
     "description": "Native Windows PC port of God of War (PS2), built by statically recompiling MIPS R5900 code to C++ with PS2Recomp. Includes an installer launcher, one-click build, fan-translation support and a 60 fps target. No game files included: you need your own copy.",
-    "version": "v3.0.1",
+    "version": "v0.3.1",
     "releasedAt": "2026-10-31",
     "sizeBytes": 30298862,
-    "releaseUrl": "https://github.com/Vnnc1/gow-native-pc/releases/tag/v3.0.1",
+    "releaseUrl": "https://github.com/Vnnc1/gow-native-pc/releases/tag/v0.3.1",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
@@ -382,7 +382,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 300,
+    "stars": 303,
     "description": "This is an open source, all-in-one, static recompilation project that I built from the ground up for the Xbox 360 Gears of War series.",
     "version": "0.3.0",
     "releasedAt": "2026-10-31",
@@ -479,12 +479,12 @@
       "Windows",
       "Linux"
     ],
-    "stars": 91,
+    "stars": 97,
     "description": "Odin Sphere Leifthrasir native PC port for Windows, with direct PS4 PKG installation, TRG launcher and modern graphics options",
-    "version": "v0.2.0",
+    "version": "v0.2.1",
     "releasedAt": "2026-10-31",
-    "sizeBytes": 16013242,
-    "releaseUrl": "https://github.com/saulob/odin-sphere-leifthrasir-pc/releases/tag/v0.2.0",
+    "sizeBytes": 16035315,
+    "releaseUrl": "https://github.com/saulob/odin-sphere-leifthrasir-pc/releases/tag/v0.2.1",
     "licenseId": "GPL-2.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-2.0",
     "curated": true
@@ -694,7 +694,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 297,
+    "stars": 304,
     "description": "A native Windows and Linux port of Grand Theft Auto: Vice City Stories (PS2, USA, SLUS-21590), made by recompiling the game's PS2 executable into C++",
     "version": "v0.0.3",
     "releasedAt": "2026-10-31",
@@ -714,7 +714,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 173,
+    "stars": 176,
     "description": "Forza Motorsport 4 native on PC",
     "version": "v0.3.10",
     "releasedAt": "2026-10-31",
@@ -799,7 +799,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 302,
+    "stars": 303,
     "description": "Breath of the Wild (Wii U, v1.5.0) statically recompiled to a native Windows program with a Vulkan renderer. ",
     "version": "v0.1.2",
     "releasedAt": "2026-10-31",
@@ -944,7 +944,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 60,
+    "stars": 61,
     "description": "Unofficial native PC port of God of War (2005, PS2) for Windows, with experimental Linux support. Statically recompiled to C++, not an emulator. OpenGL renderer, launcher, cheat menu, widescreen, 60 FPS. Bring your own game dump: no game files included.",
     "version": "launcher-v0.1.0",
     "releasedAt": "2026-10-31",
@@ -1062,7 +1062,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 65,
+    "stars": 67,
     "description": "An unofficial original Xbox version PC port of 007: Nightfire via static recompilation.",
     "version": "V1",
     "releasedAt": "2026-10-31",
@@ -1252,7 +1252,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 226,
+    "stars": 228,
     "description": "Static Recomp of PSX USA MediEvil, By BlackLabelHQ",
     "version": "v1.0",
     "releasedAt": "2026-10-31",
@@ -1261,6 +1261,69 @@
     "licenseId": null,
     "licenseUrl": null,
     "curated": true
+  },
+  {
+    "id": "masterllgod-naruto-storm-2-port-nativo",
+    "repo": "Masterllgod/naruto-storm-2-port-nativo",
+    "title": "Naruto Shippuden: Ultimate Ninja Storm 2",
+    "game": null,
+    "author": "Masterllgod",
+    "console": "Xbox 360",
+    "mechanism": "native",
+    "platforms": [
+      "Android"
+    ],
+    "stars": 44,
+    "description": "Naruto Shippuden: Ultimate Ninja Storm 2 - port nativo para Android (ARM64) e PC (documentação; sem arquivos do jogo)",
+    "version": "v0.5.41",
+    "releasedAt": "2026-10-31",
+    "sizeBytes": 27797368,
+    "releaseUrl": "https://github.com/Masterllgod/naruto-storm-2-port-nativo/releases/tag/v0.5.41",
+    "licenseId": null,
+    "licenseUrl": null,
+    "curated": true
+  },
+  {
+    "id": "mysteriousaeon-rayman3-hd-recompiled",
+    "repo": "MysteriousAeon/rayman3-hd-recompiled",
+    "title": "Rayman 3 HD",
+    "game": null,
+    "author": "MysteriousAeon",
+    "console": "Xbox 360",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows"
+    ],
+    "stars": 59,
+    "description": "A native Windows port of Rayman 3 HD (Xbox 360) using static recompilation, with HD+ enhancements and Turkish localization.",
+    "version": "v1.1.0",
+    "releasedAt": "2026-10-31",
+    "sizeBytes": 41128530,
+    "releaseUrl": "https://github.com/MysteriousAeon/rayman3-hd-recompiled/releases/tag/v1.1.0",
+    "licenseId": "NOASSERTION",
+    "licenseUrl": null,
+    "curated": true
+  },
+  {
+    "id": "fearkov-zakuro",
+    "repo": "fearkov/zakuro",
+    "title": "Zakuro",
+    "game": null,
+    "author": "fearkov",
+    "console": "PC",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 44,
+    "description": "A Nintendo 3DS emulator in Rust, using AOT recompilation",
+    "version": "v0.2.31",
+    "releasedAt": "2026-10-31",
+    "sizeBytes": 39929538,
+    "releaseUrl": "https://github.com/fearkov/zakuro/releases/tag/v0.2.31",
+    "licenseId": "MIT",
+    "licenseUrl": "https://api.github.com/licenses/mit"
   },
   {
     "id": "kirby64ret-kirby64",
@@ -1397,7 +1460,7 @@
       "Windows",
       "Android"
     ],
-    "stars": 132,
+    "stars": 134,
     "description": "Gears of War 2 native PC port: the Xbox 360 game statically recompiled to x64 (not an emulator). 1440p/4K, FSR, 4K texture packs, keyboard & mouse, Android in progress. Bring your own copy.",
     "version": "v0.3.12",
     "releasedAt": "2026-10-30",
@@ -1435,7 +1498,7 @@
     "console": "Xbox 360",
     "mechanism": "native",
     "platforms": [],
-    "stars": 366,
+    "stars": 367,
     "description": "A native PC port of The Darkness (Xbox 360) for Windows, featuring DirectX 11 graphics, mouse and keyboard controls, and customizable settings.",
     "version": null,
     "releasedAt": "2026-10-30",
@@ -1565,7 +1628,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 197,
+    "stars": 198,
     "description": "WipEout Omega Collection (PS4) native PC port for Windows: the game's own x86-64 code on the CPU, a PS4 runtime and the shadPS4 Vulkan video core. Playable, in active development. No game files included. ⭐ Star it if you like it; bug reports and requests are welcome in Issues!",
     "version": "windows-v0.2.49",
     "releasedAt": "2026-10-30",
@@ -1658,27 +1721,6 @@
     "releasedAt": "2026-10-30",
     "sizeBytes": 15278198,
     "releaseUrl": "https://github.com/Masterllgod/naruto-storm-generations-port-nativo/releases/tag/v0.4.11",
-    "licenseId": null,
-    "licenseUrl": null,
-    "curated": true
-  },
-  {
-    "id": "masterllgod-naruto-storm-2-port-nativo",
-    "repo": "Masterllgod/naruto-storm-2-port-nativo",
-    "title": "Naruto Shippuden: Ultimate Ninja Storm 2",
-    "game": null,
-    "author": "Masterllgod",
-    "console": "Xbox 360",
-    "mechanism": "native",
-    "platforms": [
-      "Android"
-    ],
-    "stars": 44,
-    "description": "Naruto Shippuden: Ultimate Ninja Storm 2 - port nativo para Android (ARM64) e PC (documentação; sem arquivos do jogo)",
-    "version": "v0.5.8",
-    "releasedAt": "2026-10-30",
-    "sizeBytes": 27168236,
-    "releaseUrl": "https://github.com/Masterllgod/naruto-storm-2-port-nativo/releases/tag/v0.5.8",
     "licenseId": null,
     "licenseUrl": null,
     "curated": true
@@ -1890,7 +1932,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 4975,
+    "stars": 4979,
     "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
     "version": "windows-v1.9.7",
     "releasedAt": "2026-10-30",
@@ -2056,27 +2098,6 @@
     "curated": true
   },
   {
-    "id": "mysteriousaeon-rayman3-hd-recompiled",
-    "repo": "MysteriousAeon/rayman3-hd-recompiled",
-    "title": "Rayman 3 HD",
-    "game": null,
-    "author": "MysteriousAeon",
-    "console": "Xbox 360",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows"
-    ],
-    "stars": 59,
-    "description": "A native Windows port of Rayman 3 HD (Xbox 360) using static recompilation, with HD+ enhancements and Turkish localization.",
-    "version": "v1.0.3",
-    "releasedAt": "2026-10-29",
-    "sizeBytes": 41019284,
-    "releaseUrl": "https://github.com/MysteriousAeon/rayman3-hd-recompiled/releases/tag/v1.0.3",
-    "licenseId": "NOASSERTION",
-    "licenseUrl": null,
-    "curated": true
-  },
-  {
     "id": "jorjbarbosa-naruto-rise-recomp",
     "repo": "jorjbarbosa/naruto-rise-recomp",
     "title": "Naruto: Rise of a Ninja",
@@ -2107,7 +2128,7 @@
     "console": "PlayStation 3",
     "mechanism": "in-progress",
     "platforms": [],
-    "stars": 86,
+    "stars": 87,
     "description": "Killzone 3 // Unofficial PC Port (static recompilation). Work in progress, partly playable. Builds on your PC from your own game.",
     "version": null,
     "releasedAt": "2026-10-29",
@@ -2189,7 +2210,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 831,
+    "stars": 834,
     "description": "An unofficial original Xbox version PC port of BLACK (2006) via static recompilation.",
     "version": "V3",
     "releasedAt": "2026-10-29",
@@ -2437,7 +2458,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 58,
+    "stars": 59,
     "description": "007 Everything or Nothing recompilation for a native PC port.",
     "version": "v1.0.2",
     "releasedAt": "2026-10-29",
@@ -2667,7 +2688,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 155,
+    "stars": 156,
     "description": "Conker's Bad Fur Day running natively on PC: an N64 recompilation with a Classic mode true to the N64 and a Modern mode (widescreen, smooth frame rate, free camera).",
     "version": "v1.4.7",
     "releasedAt": "2026-10-28",
@@ -2830,7 +2851,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 3800,
+    "stars": 3804,
     "description": "Bloodborne (v1.09) running natively on Linux and Windows: the game's x86-64 code runs as is, GPU side translated to Vulkan; FSR 4 / DLSS, co-op (BBSC). Bring your own dump.",
     "version": "0.7",
     "releasedAt": "2026-10-28",
@@ -2891,7 +2912,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 277,
+    "stars": 278,
     "description": "A static recompilation of Condemned 2: Bloodshot done with RexGlue.",
     "version": "0.5.1",
     "releasedAt": "2026-10-27",
@@ -2980,7 +3001,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 512,
+    "stars": 513,
     "description": "Native PC port (Linux/Windows) of The Last Guardian (PS4, CUSA03627) — runs your own game dump; no game or firmware files included. Mouse/keyboard, optional 60 FPS, SMAA/CAS filters. | Port nativo para PC de The Last Guardian — usa o seu próprio dump.",
     "version": "v2026.10.27-4825a99",
     "releasedAt": "2026-10-27",
@@ -3045,7 +3066,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 883,
+    "stars": 885,
     "description": "Experimental native PC port of Lost Odyssey using static recompilation. No game assets included.",
     "version": "v1.1.0",
     "releasedAt": "2026-10-26",
@@ -3087,7 +3108,7 @@
       "macOS",
       "iOS"
     ],
-    "stars": 560,
+    "stars": 564,
     "description": "Unofficial static recompilation of the Xbox 360 version of Need for Speed: Most Wanted (2005): a native port for Steam Deck, Steam Machine, Steam Frame, Linux and Mac (iPhone/iPad: sideload the experimental IPA or build it yourself). Bring your own disc: no game files included. Not affiliated with EA or Valve.",
     "version": "v0.2.0",
     "releasedAt": "2026-10-26",
@@ -3147,7 +3168,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 122,
+    "stars": 123,
     "description": "Crash of the Titans (Xbox 360) statically recompiled for Windows: DLSS/FSR, PC controls, PT-BR, subtitles, mods. Bring your own copy of the game.",
     "version": "v1.07",
     "releasedAt": "2026-10-26",
@@ -3403,7 +3424,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 242,
+    "stars": 243,
     "description": "Native Windows port of Pokémon: Let's Go, Eevee! (Switch v1.0.0) by static recompilation, built on LAS Recomp. No game files included.",
     "version": "v0.7.5",
     "releasedAt": "2026-10-25",
@@ -3443,7 +3464,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 6680,
+    "stars": 6681,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -3560,27 +3581,6 @@
     "releaseUrl": "https://github.com/kittycache9/OpenSA2/releases",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
-  },
-  {
-    "id": "fearkov-zakuro",
-    "repo": "fearkov/zakuro",
-    "title": "Zakuro",
-    "game": null,
-    "author": "fearkov",
-    "console": "PC",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 43,
-    "description": "A Nintendo 3DS emulator in Rust, using AOT recompilation",
-    "version": "v0.2.30",
-    "releasedAt": "2026-10-25",
-    "sizeBytes": 39700429,
-    "releaseUrl": "https://github.com/fearkov/zakuro/releases/tag/v0.2.30",
-    "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit"
   },
   {
     "id": "parkerallan-doa3-recomp",
@@ -3770,26 +3770,6 @@
     "licenseUrl": null
   },
   {
-    "id": "luisxl15-metal-gear-solid-2-sons-of-liberty-for-android",
-    "repo": "luisxl15/METAL-GEAR-SOLID-2-Sons-of-Liberty-for-Android",
-    "title": "METAL GEAR SOLID 2 Sons Of Liberty For Android",
-    "game": null,
-    "author": "luisxl15",
-    "console": "PC",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Android"
-    ],
-    "stars": 43,
-    "description": "Metal Gear Solid 2 HD (NVIDIA SHIELD) para Android ARM64 — recompilação estática ARM32→ARM64, Adreno e Mali, LSFG, menus em 7 idiomas. Traga sua própria cópia do jogo. / Static recompilation port, bring your own game files.",
-    "version": "beta3",
-    "releasedAt": "2026-10-24",
-    "sizeBytes": 32556488,
-    "releaseUrl": "https://github.com/luisxl15/METAL-GEAR-SOLID-2-Sons-of-Liberty-for-Android/releases/tag/beta3",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
-  },
-  {
     "id": "ran-j-ps2recomp",
     "repo": "ran-j/PS2Recomp",
     "title": "PS2Recomp",
@@ -3798,7 +3778,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 3750,
+    "stars": 3751,
     "description": "Playstation 2 Static Recompiler & Runtime Tool to make native PC ports",
     "version": null,
     "releasedAt": "2026-10-23",
@@ -4154,7 +4134,7 @@
     "console": "Nintendo Switch",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 522,
+    "stars": 523,
     "description": "Unofficial static recompilation of Bayonetta 2 (Switch) for Windows. Builds the game on your PC from your own legally dumped copy. No game files, keys or SDK code included.",
     "version": "v0.3.3",
     "releasedAt": "2026-10-22",
@@ -4177,7 +4157,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2320,
+    "stars": 2321,
     "description": "Native PC port of P.T. (runs from your own PS4 game files)",
     "version": "v1.0.8",
     "releasedAt": "2026-10-22",
@@ -4580,7 +4560,7 @@
     "platforms": [
       "Linux"
     ],
-    "stars": 112,
+    "stars": 113,
     "description": "A fully playable, work-in-progress native Sonic Adventure port for Windows, Linux and Steam Deck. Powered by KatanaRecomp.",
     "version": "v0.52.1",
     "releasedAt": "2026-10-18",
@@ -5004,7 +4984,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 323,
+    "stars": 324,
     "description": "Conker's Bad Fur Day Recompiled",
     "version": "V0.1.6",
     "releasedAt": "2026-10-13",
@@ -5023,7 +5003,7 @@
     "console": "Xbox 360",
     "mechanism": "native",
     "platforms": [],
-    "stars": 116,
+    "stars": 117,
     "description": "",
     "version": "v1.5",
     "releasedAt": "2026-10-13",
@@ -5042,7 +5022,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 119,
+    "stars": 121,
     "description": "Estacado: a native PC recompilation of The Darkness (Xbox 360). Unofficial fan port; bring your own copy of the game.",
     "version": null,
     "releasedAt": "2026-10-12",
@@ -5143,7 +5123,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 589,
+    "stars": 590,
     "description": "",
     "version": "1.5.0",
     "releasedAt": "2026-10-11",
@@ -5561,7 +5541,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 6172,
+    "stars": 6173,
     "description": "Dusklight brings a classic adventure to PC and mobile platforms with a variety of fixes and improvements.",
     "version": "v2.0.3",
     "releasedAt": "2026-09-30",
@@ -5982,7 +5962,7 @@
     "console": "PlayStation 3",
     "mechanism": "in-progress",
     "platforms": [],
-    "stars": 83,
+    "stars": 84,
     "description": "Recomp of Asura's Wrath using RexGlue for PC (wip)",
     "version": null,
     "releasedAt": "2026-09-11",
@@ -6222,7 +6202,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2409,
+    "stars": 2410,
     "description": "2 Ship 2 Harkinian: a PC port of Majora's Mask built from the decompilation, with widescreen, high resolution and mod support.",
     "version": "5.0.1",
     "releasedAt": "2026-08-25",
@@ -6626,7 +6606,7 @@
       "macOS",
       "iOS"
     ],
-    "stars": 332,
+    "stars": 333,
     "description": "The iOS and MacOS port of Xenia, the Xbox 360 Emulator Research project.",
     "version": "release-v2.0.1-build-9730",
     "releasedAt": "2026-06-08",
