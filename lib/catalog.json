@@ -89,7 +89,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 132,
+    "stars": 133,
     "description": "CPS-2 Recomp: unofficial native PC ports of Capcom CPS-2 arcade games (Street Fighter Alpha 2, Super Puzzle Fighter II Turbo, Vampire Savior) via static recompilation, with training modes, in one launcher: macOS, Linux, Steam Deck, Windows. Requires your own ROM sets. Beta.",
     "version": "v1.2.0",
     "releasedAt": "2026-10-31",
@@ -232,13 +232,16 @@
     "author": "SmokeDoggy044",
     "console": "Xbox",
     "mechanism": "native",
-    "platforms": [],
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
     "stars": 53,
     "description": "Native loader that runs the original Xbox Call of Duty 2: Big Red One on Linux and Windows PCs (bring your own game). Proof of concept for a full native build.",
-    "version": null,
+    "version": "v0.2.0",
     "releasedAt": "2026-10-31",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/SmokeDoggy044/CoD2-BRO-Native-Loader/releases",
+    "sizeBytes": 11256766,
+    "releaseUrl": "https://github.com/SmokeDoggy044/CoD2-BRO-Native-Loader/releases/tag/v0.2.0",
     "licenseId": "GPL-2.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-2.0",
     "curated": true
@@ -278,10 +281,10 @@
     ],
     "stars": 238,
     "description": "Native PC port of Peter Jackson's King Kong (Xbox 360) via static recompilation",
-    "version": "v2.0.1",
+    "version": "v2.0.3",
     "releasedAt": "2026-10-31",
-    "sizeBytes": 420240361,
-    "releaseUrl": "https://github.com/TekRantGaming/king-kong-recompiled/releases/tag/v2.0.1",
+    "sizeBytes": 420244151,
+    "releaseUrl": "https://github.com/TekRantGaming/king-kong-recompiled/releases/tag/v2.0.3",
     "licenseId": "NOASSERTION",
     "licenseUrl": null,
     "curated": true
@@ -343,10 +346,10 @@
     ],
     "stars": 75,
     "description": "Static recompilation of Kameo: Elements of Power (Xbox 360) for Windows and Linux, built on the ReXGlue SDK.",
-    "version": "v0.3.1",
+    "version": "v0.3.2",
     "releasedAt": "2026-10-31",
-    "sizeBytes": 52836827,
-    "releaseUrl": "https://github.com/MaxDeadBear/KameoRePowered/releases/tag/v0.3.1",
+    "sizeBytes": 52860152,
+    "releaseUrl": "https://github.com/MaxDeadBear/KameoRePowered/releases/tag/v0.3.2",
     "licenseId": null,
     "licenseUrl": null,
     "curated": true
@@ -463,7 +466,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 322,
+    "stars": 324,
     "description": "Dragon's Crown Pro native PC port for Windows, with direct PS4 PKG installation, TRG launcher and modern graphics options",
     "version": "v0.9.0",
     "releasedAt": "2026-10-30",
@@ -820,7 +823,7 @@
     "console": "Nintendo DS",
     "mechanism": "native",
     "platforms": [],
-    "stars": 748,
+    "stars": 749,
     "description": "Decompilation of Pokemon HeartGold/SoulSilver",
     "version": null,
     "releasedAt": "2026-10-30",
@@ -860,7 +863,7 @@
     "console": "Nintendo Switch",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 468,
+    "stars": 470,
     "description": "Unofficial native Windows port of Tears of the Kingdom 1.4.3 using static recompilation. Builds locally from the player's own extracted game dump; no game files included.",
     "version": null,
     "releasedAt": "2026-10-30",
@@ -945,7 +948,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 176,
+    "stars": 177,
     "description": "Native port of Metroid Prime 2: Echoes (GameCube) for Linux and Android, built from the PrimeDecomp decompilation. No emulator, no game assets included: bring your own disc image.",
     "version": "v0.6.6",
     "releasedAt": "2026-10-30",
@@ -1005,7 +1008,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 240,
+    "stars": 241,
     "description": "This is an open source, all-in-one, static recompilation project that I built from the ground up for the Xbox 360 Gears of War series.",
     "version": "0.2.5",
     "releasedAt": "2026-10-30",
@@ -1108,7 +1111,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 33983,
+    "stars": 33985,
     "description": "PlayStation 4 emulator for Windows, Linux, macOS and FreeBSD written in C++",
     "version": "v.0.21.0",
     "releasedAt": "2026-10-30",
@@ -1238,7 +1241,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 766,
+    "stars": 767,
     "description": "Xbox 360 to PC port of Dante's Inferno using ReXGlue (static recompilation)",
     "version": "v0.8.5-beta",
     "releasedAt": "2026-10-30",
@@ -1321,7 +1324,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 148,
+    "stars": 154,
     "description": "A native Windows and Linux port of Grand Theft Auto: Vice City Stories (PS2, USA, SLUS-21590), made by recompiling the game's PS2 executable into C++",
     "version": "v0.0.2",
     "releasedAt": "2026-10-30",
@@ -1456,7 +1459,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 465,
+    "stars": 466,
     "description": "ReStreet: FIFA Street (2012) recompiled for Windows PC, with online play, a launcher with friends, chat and rooms. Bring your own game.",
     "version": "v2.1.4-online-beta",
     "releasedAt": "2026-10-30",
@@ -1475,7 +1478,7 @@
     "console": "GameCube",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 71,
+    "stars": 73,
     "description": "Play Mario Kart: Double Dash!! online on Windows. Project Tandem is a native PC recompilation with 2-8 player solo/shared-kart multiplayer, widescreen, and mouse/keyboard controls. Requires your own compatible USA disc image.",
     "version": null,
     "releasedAt": "2026-10-30",
@@ -1502,6 +1505,26 @@
     "licenseId": "NOASSERTION",
     "licenseUrl": null,
     "curated": true
+  },
+  {
+    "id": "yaz-myst-zoe-recompiled",
+    "repo": "Yaz-Myst/ZOE-Recompiled",
+    "title": "ZOE",
+    "game": null,
+    "author": "Yaz-Myst",
+    "console": "PC",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows"
+    ],
+    "stars": 42,
+    "description": "Zone of the Enders - Static Recompilation Project for PC",
+    "version": "release",
+    "releasedAt": "2026-10-30",
+    "sizeBytes": 43487176,
+    "releaseUrl": "https://github.com/Yaz-Myst/ZOE-Recompiled/releases/tag/release",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
   },
   {
     "id": "mr-finster-vf1-recomp",
@@ -1687,7 +1710,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 1187,
+    "stars": 1191,
     "description": "Zelda Wind Waker HD Recomp",
     "version": "v0.5.0",
     "releasedAt": "2026-10-29",
@@ -1863,7 +1886,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 1990,
+    "stars": 1991,
     "description": "Static recompilation of Link's Awakening (Switch) to native macOS, Windows and Linux",
     "version": "beta_5.4",
     "releasedAt": "2026-10-29",
@@ -2059,7 +2082,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 640,
+    "stars": 641,
     "description": "PC port of Dragon Ball Z: Budokai Tenkaichi 3, built on the BT3-Decompiled project.",
     "version": "v0.1.39.2",
     "releasedAt": "2026-10-29",
@@ -2160,7 +2183,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 232,
+    "stars": 233,
     "description": "Native Windows port of Dead or Alive Xtreme Beach Volleyball (Xbox), built by static recompilation with a hand-written runtime. Requires your own copy of the game.",
     "version": "v0.6.0",
     "releasedAt": "2026-10-28",
@@ -2473,7 +2496,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 200,
+    "stars": 201,
     "description": "A static native recompilation of Need for Speed: Most Wanted (2005) Xbox 360",
     "version": "v1.0.2",
     "releasedAt": "2026-10-28",
@@ -2495,7 +2518,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 3781,
+    "stars": 3780,
     "description": "Bloodborne (v1.09) running natively on Linux and Windows: the game's x86-64 code runs as is, GPU side translated to Vulkan; FSR 4 / DLSS, co-op (BBSC). Bring your own dump.",
     "version": "0.7",
     "releasedAt": "2026-10-28",
@@ -2707,7 +2730,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 165,
+    "stars": 166,
     "description": "Call of Duty: Modern Warfare 2 (2009) for Xbox 360 recompiled for Windows & Linux",
     "version": "v0.8.2",
     "releasedAt": "2026-10-27",
@@ -2896,7 +2919,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 47,
+    "stars": 48,
     "description": "Soulcalibur II HD native recompilation",
     "version": "v0.3.0",
     "releasedAt": "2026-10-26",
@@ -3024,7 +3047,7 @@
       "Windows",
       "iOS"
     ],
-    "stars": 526,
+    "stars": 527,
     "description": "The Legend of Zelda: The Wind Waker Recompiled. Native for MacOS, iOS, Windows, Linux, and Android.",
     "version": "v0.9.0",
     "releasedAt": "2026-10-25",
@@ -3151,7 +3174,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 237,
+    "stars": 238,
     "description": "Native Windows port of Pokémon: Let's Go, Eevee! (Switch v1.0.0) by static recompilation, built on LAS Recomp. No game files included.",
     "version": "v0.7.5",
     "releasedAt": "2026-10-25",
@@ -3191,7 +3214,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 6598,
+    "stars": 6603,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -3500,6 +3523,26 @@
     "licenseUrl": "https://api.github.com/licenses/unlicense"
   },
   {
+    "id": "luisxl15-metal-gear-solid-2-sons-of-liberty-for-android",
+    "repo": "luisxl15/METAL-GEAR-SOLID-2-Sons-of-Liberty-for-Android",
+    "title": "METAL GEAR SOLID 2 Sons Of Liberty For Android",
+    "game": null,
+    "author": "luisxl15",
+    "console": "PC",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Android"
+    ],
+    "stars": 42,
+    "description": "Metal Gear Solid 2 HD (NVIDIA SHIELD) para Android ARM64 — recompilação estática ARM32→ARM64, Adreno e Mali, LSFG, menus em 7 idiomas. Traga sua própria cópia do jogo. / Static recompilation port, bring your own game files.",
+    "version": "beta3",
+    "releasedAt": "2026-10-24",
+    "sizeBytes": 32556488,
+    "releaseUrl": "https://github.com/luisxl15/METAL-GEAR-SOLID-2-Sons-of-Liberty-for-Android/releases/tag/beta3",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
+  },
+  {
     "id": "ran-j-ps2recomp",
     "repo": "ran-j/PS2Recomp",
     "title": "PS2Recomp",
@@ -3765,7 +3808,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 105,
+    "stars": 106,
     "description": "Recompilation of Dragon Quest VIII (PS2) to run natively on PC and Mac.",
     "version": "f6dfd96",
     "releasedAt": "2026-10-23",
@@ -3828,7 +3871,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 1009,
+    "stars": 1010,
     "description": "Native PC port (Linux/Windows) of inFAMOUS Second Son (PS4, CUSA00223) — in development, playable; runs your own game dump; no game or firmware files included. Motion sensor emulation. | Port nativo para PC de inFAMOUS Second Son (em desenvolvimento) — usa o seu próprio dump.",
     "version": "v1.0",
     "releasedAt": "2026-10-22",
@@ -3908,7 +3951,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2303,
+    "stars": 2304,
     "description": "Native PC port of P.T. (runs from your own PS4 game files)",
     "version": "v1.0.8",
     "releasedAt": "2026-10-22",
@@ -4183,7 +4226,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 54,
+    "stars": 55,
     "description": "",
     "version": "v0.1.0-beta",
     "releasedAt": "2026-10-20",
@@ -4894,7 +4937,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 582,
+    "stars": 583,
     "description": "",
     "version": "1.5.0",
     "releasedAt": "2026-10-11",
@@ -5868,7 +5911,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 125,
+    "stars": 126,
     "description": "Native PC recompilation of Valkyrie Profile (PS1) powered by PSXRecomp.",
     "version": "v1.0.1",
     "releasedAt": "2026-09-04",
@@ -6621,7 +6664,7 @@
     "console": "Xbox 360",
     "mechanism": "emulator",
     "platforms": [],
-    "stars": 9787,
+    "stars": 9786,
     "description": "Xbox 360 Emulator Research Project",
     "version": null,
     "releasedAt": "2026-02-18",
@@ -6743,7 +6786,7 @@
     "console": "PlayStation",
     "mechanism": "native",
     "platforms": [],
-    "stars": 195,
+    "stars": 196,
     "description": "vib-ribbon decompilation (PAL version)",
     "version": null,
     "releasedAt": "2025-08-26",
