@@ -142,7 +142,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 2416,
+    "stars": 2417,
     "description": "Decompilation of The Legend of Zelda: Breath of the Wild (Switch 1.5.0)",
     "version": null,
     "releasedAt": "2026-11-01",
@@ -343,7 +343,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 141,
+    "stars": 142,
     "description": "Native Windows PC port of God of War (PS2), built by statically recompiling MIPS R5900 code to C++ with PS2Recomp. Includes an installer launcher, one-click build, fan-translation support and a 60 fps target. No game files included: you need your own copy.",
     "version": "v0.4.0",
     "releasedAt": "2026-11-01",
@@ -362,7 +362,7 @@
     "console": "PlayStation 3",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 223,
+    "stars": 224,
     "description": "Drakengard 3 (PS3) static recompilation using ps3recomp",
     "version": null,
     "releasedAt": "2026-11-01",
@@ -425,7 +425,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 81,
+    "stars": 82,
     "description": "Native port of Tekken Tag Tournament 2 Wii U Edition by static recompilation with the possibility to add new characters and mod the game easily. No files included.",
     "version": "v0.5.0",
     "releasedAt": "2026-11-01",
@@ -488,7 +488,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 328,
+    "stars": 332,
     "description": "A native Windows and Linux port of Grand Theft Auto: Vice City Stories (PS2, USA, SLUS-21590), made by recompiling the game's PS2 executable into C++",
     "version": "v0.1.0",
     "releasedAt": "2026-11-01",
@@ -629,6 +629,46 @@
     "releaseUrl": "https://github.com/Juansolo457/fear360-recomp/releases/tag/v1.5.1",
     "licenseId": "MIT",
     "licenseUrl": "https://api.github.com/licenses/mit"
+  },
+  {
+    "id": "exoteric33-ps2-native-recomp",
+    "repo": "exoteric33/ps2-native-recomp",
+    "title": "Ps 2",
+    "game": null,
+    "author": "exoteric33",
+    "console": "PlayStation 2",
+    "mechanism": "in-progress",
+    "platforms": [],
+    "stars": 63,
+    "description": "Turns a PS2 disc image into a native PC program by static recompilation; builds on ps2-web-recomp (MIT). Work in progress. Bring your own disc.",
+    "version": null,
+    "releasedAt": "2026-11-01",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/exoteric33/ps2-native-recomp/releases",
+    "licenseId": "MIT",
+    "licenseUrl": "https://api.github.com/licenses/mit"
+  },
+  {
+    "id": "saulob-dragons-crown-pro-pc",
+    "repo": "saulob/dragons-crown-pro-pc",
+    "title": "Dragon's Crown Pro",
+    "game": "dragons-crown",
+    "author": "saulob",
+    "console": "PlayStation 4",
+    "mechanism": "native",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 336,
+    "description": "Dragon's Crown Pro native PC port for Windows, with direct PS4 PKG installation, TRG launcher and modern graphics options",
+    "version": "v0.9.1",
+    "releasedAt": "2026-11-01",
+    "sizeBytes": 17236475,
+    "releaseUrl": "https://github.com/saulob/dragons-crown-pro-pc/releases/tag/v0.9.1",
+    "licenseId": "GPL-2.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-2.0",
+    "curated": true
   },
   {
     "id": "henrykun55-celosia",
@@ -896,7 +936,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 310,
+    "stars": 311,
     "description": "This is an open source, all-in-one, static recompilation project that I built from the ground up for the Xbox 360 Gears of War series.",
     "version": "0.3.5",
     "releasedAt": "2026-10-31",
@@ -956,7 +996,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 113,
+    "stars": 115,
     "description": "Odin Sphere Leifthrasir native PC port for Windows, with direct PS4 PKG installation, TRG launcher and modern graphics options",
     "version": "v0.2.1",
     "releasedAt": "2026-10-31",
@@ -1102,7 +1142,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 181,
+    "stars": 183,
     "description": "Forza Motorsport 4 native on PC",
     "version": "v0.3.10",
     "releasedAt": "2026-10-31",
@@ -1211,7 +1251,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 400,
+    "stars": 401,
     "description": "Static recompilation of Castlevania: Symphony of the Night (XBLA) for Windows and Linux, built on the ReXGlue SDK.",
     "version": "v1.5.0",
     "releasedAt": "2026-10-31",
@@ -1241,24 +1281,6 @@
     "licenseId": null,
     "licenseUrl": null,
     "curated": true
-  },
-  {
-    "id": "exoteric33-ps2-native-recomp",
-    "repo": "exoteric33/ps2-native-recomp",
-    "title": "Ps 2",
-    "game": null,
-    "author": "exoteric33",
-    "console": "PlayStation 2",
-    "mechanism": "in-progress",
-    "platforms": [],
-    "stars": 63,
-    "description": "Turns a PS2 disc image into a native PC program by static recompilation; builds on ps2-web-recomp (MIT). Work in progress. Bring your own disc.",
-    "version": null,
-    "releasedAt": "2026-10-31",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/exoteric33/ps2-native-recomp/releases",
-    "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit"
   },
   {
     "id": "zer0ducksgiven-forza-motorsport-2-regpu",
@@ -1291,7 +1313,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 139,
+    "stars": 141,
     "description": "Unofficial PC port of the Xbox 360 version of Army of Two (2008). Online co-op supported.",
     "version": "v1.4.1",
     "releasedAt": "2026-10-31",
@@ -1310,7 +1332,7 @@
     "console": "PC",
     "mechanism": "native",
     "platforms": [],
-    "stars": 246,
+    "stars": 247,
     "description": "Unofficial working port of Command & Conquer: Red Alert running natively on iOS, Android, Linux and macOS. SDL2 video/audio/input. No game assets included.",
     "version": null,
     "releasedAt": "2026-10-31",
@@ -1419,7 +1441,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 656,
+    "stars": 657,
     "description": "PC port of Dragon Ball Z: Budokai Tenkaichi 3, built on the BT3-Decompiled project.",
     "version": "v0.1.39.3",
     "releasedAt": "2026-10-31",
@@ -1654,7 +1676,7 @@
       "macOS",
       "iOS"
     ],
-    "stars": 569,
+    "stars": 572,
     "description": "Unofficial static recompilation of the Xbox 360 version of Need for Speed: Most Wanted (2005): a native port for Steam Deck, Steam Machine, Steam Frame, Linux and Mac (iPhone/iPad: sideload the experimental IPA or build it yourself). Bring your own disc: no game files included. Not affiliated with EA or Valve.",
     "version": "v0.2.1",
     "releasedAt": "2026-10-31",
@@ -1681,28 +1703,6 @@
     "releaseUrl": "https://github.com/Kirby64Ret/kirby64/releases",
     "licenseId": null,
     "licenseUrl": null,
-    "curated": true
-  },
-  {
-    "id": "saulob-dragons-crown-pro-pc",
-    "repo": "saulob/dragons-crown-pro-pc",
-    "title": "Dragon's Crown Pro",
-    "game": "dragons-crown",
-    "author": "saulob",
-    "console": "PlayStation 4",
-    "mechanism": "native",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 335,
-    "description": "Dragon's Crown Pro native PC port for Windows, with direct PS4 PKG installation, TRG launcher and modern graphics options",
-    "version": "v0.9.0",
-    "releasedAt": "2026-10-30",
-    "sizeBytes": 17067309,
-    "releaseUrl": "https://github.com/saulob/dragons-crown-pro-pc/releases/tag/v0.9.0",
-    "licenseId": "GPL-2.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-2.0",
     "curated": true
   },
   {
@@ -1735,7 +1735,7 @@
     "console": "PlayStation 3",
     "mechanism": "in-progress",
     "platforms": [],
-    "stars": 82,
+    "stars": 83,
     "description": "Killzone 2 // Unofficial PC Port (static recompilation). Work in progress, partly playable. Builds on your PC from your own game.",
     "version": null,
     "releasedAt": "2026-10-30",
@@ -1968,7 +1968,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 34002,
+    "stars": 34001,
     "description": "PlayStation 4 emulator for Windows, Linux, macOS and FreeBSD written in C++",
     "version": "v.0.21.0",
     "releasedAt": "2026-10-30",
@@ -2099,7 +2099,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 2114,
+    "stars": 2115,
     "description": "Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo",
     "version": "v0.3.11",
     "releasedAt": "2026-10-30",
@@ -2143,7 +2143,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 4992,
+    "stars": 4994,
     "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
     "version": "windows-v1.9.7",
     "releasedAt": "2026-10-30",
@@ -2166,7 +2166,7 @@
       "Linux",
       "Android"
     ],
-    "stars": 315,
+    "stars": 316,
     "description": "CrashBandicoot native pc port",
     "version": "2.4",
     "releasedAt": "2026-10-30",
@@ -2340,7 +2340,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 1205,
+    "stars": 1206,
     "description": "Zelda Wind Waker HD Recomp",
     "version": "v0.5.0",
     "releasedAt": "2026-10-29",
@@ -2378,7 +2378,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 835,
+    "stars": 836,
     "description": "An unofficial original Xbox version PC port of BLACK (2006) via static recompilation.",
     "version": "V3",
     "releasedAt": "2026-10-29",
@@ -2563,7 +2563,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 275,
+    "stars": 276,
     "description": "Burnout Revenge recompilation based on RexGlue + standalone Plume render",
     "version": "v0.4.9",
     "releasedAt": "2026-10-29",
@@ -2584,7 +2584,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 130,
+    "stars": 131,
     "description": "OpenTricky is an unofficial PC port of SSX Tricky, made by static recompilation. Bring your own disc.",
     "version": "v0.1.4",
     "releasedAt": "2026-10-29",
@@ -2832,7 +2832,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 169,
+    "stars": 170,
     "description": "Native PC port of Killzone (PS2) via static recompilation. Mouse and keyboard, 120+ fps, upscaling. Bring your own disc.",
     "version": null,
     "releasedAt": "2026-10-28",
@@ -2851,7 +2851,7 @@
     "console": "Xbox",
     "mechanism": "native",
     "platforms": [],
-    "stars": 99,
+    "stars": 100,
     "description": "Unofficial native Windows port of Star Wars: Episode III - Revenge of the Sith (Xbox). Bring your own copy.",
     "version": null,
     "releasedAt": "2026-10-28",
@@ -2957,7 +2957,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 3812,
+    "stars": 3813,
     "description": "Bloodborne (v1.09) running natively on Linux and Windows: the game's x86-64 code runs as is, GPU side translated to Vulkan; FSR 4 / DLSS, co-op (BBSC). Bring your own dump.",
     "version": "0.7",
     "releasedAt": "2026-10-28",
@@ -2978,7 +2978,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 96,
+    "stars": 97,
     "description": "Forza Motorsport 4 recompilation based on ShiftGlue",
     "version": "v0.3.0",
     "releasedAt": "2026-10-28",
@@ -3018,7 +3018,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 280,
+    "stars": 281,
     "description": "A static recompilation of Condemned 2: Bloodshot done with RexGlue.",
     "version": "0.5.1",
     "releasedAt": "2026-10-27",
@@ -3039,7 +3039,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 100,
+    "stars": 102,
     "description": "Army of Two (Army of 2) 2008 [Xbox360] game static recompilation project based on RexGlue-SDK",
     "version": "1.4",
     "releasedAt": "2026-10-27",
@@ -3190,7 +3190,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 888,
+    "stars": 889,
     "description": "Experimental native PC port of Lost Odyssey using static recompilation. No game assets included.",
     "version": "v1.1.0",
     "releasedAt": "2026-10-26",
@@ -3543,7 +3543,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 6711,
+    "stars": 6714,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -3633,7 +3633,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 61,
+    "stars": 62,
     "description": "Hard Corps: Uprising native PC port via static recompilation, the Xbox 360 XBLA Contra spin-off, with TRG launcher",
     "version": "v0.7.1",
     "releasedAt": "2026-10-25",
@@ -3672,7 +3672,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 97,
+    "stars": 98,
     "description": "Dead or Alive 3 PC Port ",
     "version": "v1.0.7",
     "releasedAt": "2026-10-24",
@@ -3849,26 +3849,6 @@
     "licenseUrl": null
   },
   {
-    "id": "luisxl15-metal-gear-solid-2-sons-of-liberty-for-android",
-    "repo": "luisxl15/METAL-GEAR-SOLID-2-Sons-of-Liberty-for-Android",
-    "title": "METAL GEAR SOLID 2 Sons Of Liberty For Android",
-    "game": null,
-    "author": "luisxl15",
-    "console": "PC",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Android"
-    ],
-    "stars": 43,
-    "description": "Metal Gear Solid 2 HD (NVIDIA SHIELD) para Android ARM64 — recompilação estática ARM32→ARM64, Adreno e Mali, LSFG, menus em 7 idiomas. Traga sua própria cópia do jogo. / Static recompilation port, bring your own game files.",
-    "version": "beta3",
-    "releasedAt": "2026-10-24",
-    "sizeBytes": 32556488,
-    "releaseUrl": "https://github.com/luisxl15/METAL-GEAR-SOLID-2-Sons-of-Liberty-for-Android/releases/tag/beta3",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
-  },
-  {
     "id": "ran-j-ps2recomp",
     "repo": "ran-j/PS2Recomp",
     "title": "PS2Recomp",
@@ -3877,7 +3857,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 3754,
+    "stars": 3755,
     "description": "Playstation 2 Static Recompiler & Runtime Tool to make native PC ports",
     "version": null,
     "releasedAt": "2026-10-23",
@@ -4090,7 +4070,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 113,
+    "stars": 114,
     "description": "Native PC port of the 1997 PlayStation game Disney's Hercules (SCES-00893) plus its decompilation. No game data included.",
     "version": "v0.5.6",
     "releasedAt": "2026-10-23",
@@ -4176,7 +4156,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 1020,
+    "stars": 1021,
     "description": "Native PC port (Linux/Windows) of inFAMOUS Second Son (PS4, CUSA00223) — in development, playable; runs your own game dump; no game or firmware files included. Motion sensor emulation. | Port nativo para PC de inFAMOUS Second Son (em desenvolvimento) — usa o seu próprio dump.",
     "version": "v1.0",
     "releasedAt": "2026-10-22",
@@ -4256,7 +4236,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2329,
+    "stars": 2330,
     "description": "Native PC port of P.T. (runs from your own PS4 game files)",
     "version": "v1.0.8",
     "releasedAt": "2026-10-22",
@@ -5246,7 +5226,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 399,
+    "stars": 400,
     "description": "A work in progress recomp of the The Simpsons Game 2007 from the Xbox 360 using the RexXGlue recomping tool to get the game running",
     "version": "v0.0.6.5",
     "releasedAt": "2026-10-10",
@@ -5644,7 +5624,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 564,
+    "stars": 565,
     "description": "",
     "version": "v1.0.3",
     "releasedAt": "2026-09-30",
@@ -7217,7 +7197,7 @@
     "console": "SNES",
     "mechanism": "native",
     "platforms": [],
-    "stars": 4965,
+    "stars": 4966,
     "description": "",
     "version": "v0.3",
     "releasedAt": "2023-08-17",
