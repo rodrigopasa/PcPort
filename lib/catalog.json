@@ -239,7 +239,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 238,
+    "stars": 239,
     "description": "Static Recomp of PSX USA MediEvil, By BlackLabelHQ",
     "version": "v1.0.1",
     "releasedAt": "2026-11-01",
@@ -425,7 +425,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 86,
+    "stars": 87,
     "description": "Native port of Tekken Tag Tournament 2 Wii U Edition by static recompilation with the possibility to add new characters and mod the game easily. No files included.",
     "version": "v0.5.0",
     "releasedAt": "2026-11-01",
@@ -488,7 +488,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 382,
+    "stars": 384,
     "description": "A native Windows and Linux port of Grand Theft Auto: Vice City Stories (PS2, USA, SLUS-21590), made by recompiling the game's PS2 executable into C++",
     "version": "v0.1.1",
     "releasedAt": "2026-11-01",
@@ -509,7 +509,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 83,
+    "stars": 84,
     "description": "Unofficial native PC port of God of War (2005, PS2) for Windows, with experimental Linux support. Statically recompiled to C++, not an emulator. OpenGL renderer, launcher, cheat menu, widescreen, 60 FPS. Bring your own game dump: no game files included.",
     "version": "launcher-v0.2.0",
     "releasedAt": "2026-11-01",
@@ -558,7 +558,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 486,
+    "stars": 487,
     "description": "PC, Android, iOS and macOS port of the ICO (PS2) decompilation (nathanialf/ico): Windows, Linux, Steam Deck, Android, iPhone via LiveContainer and Apple-silicon Mac (contributed). Contains no game data.",
     "version": "v0.9.7",
     "releasedAt": "2026-11-01",
@@ -746,7 +746,7 @@
     "console": "Nintendo Switch",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 492,
+    "stars": 491,
     "description": "Unofficial native Windows port of Tears of the Kingdom 1.4.3 using static recompilation. Builds locally from the player's own extracted game dump; no game files included.",
     "version": null,
     "releasedAt": "2026-11-01",
@@ -983,10 +983,10 @@
     ],
     "stars": 103,
     "description": "Native SDL3 port of Colin McRae Rally 2.0 built from the CMR2Decomp decompilation. No game data included.",
-    "version": "v1.7.3",
+    "version": "v1.7.5",
     "releasedAt": "2026-11-01",
-    "sizeBytes": 15233740,
-    "releaseUrl": "https://github.com/pablocpas/OpenCMR2/releases/tag/v1.7.3",
+    "sizeBytes": 15238588,
+    "releaseUrl": "https://github.com/pablocpas/OpenCMR2/releases/tag/v1.7.5",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
@@ -1011,6 +1011,70 @@
     "releaseUrl": "https://github.com/SmokeDoggy044/CoD2-BRO-Native-Loader/releases/tag/v0.2.2",
     "licenseId": "GPL-2.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-2.0",
+    "curated": true
+  },
+  {
+    "id": "mstan-megamanx4recomp",
+    "repo": "mstan/MegaManX4Recomp",
+    "title": "Mega Man X4",
+    "game": null,
+    "author": "mstan",
+    "console": "PlayStation",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 120,
+    "description": "Mega Man X4 (USA, SLUS-00561) statically recompiled to a native PC executable with PSXRecomp",
+    "version": "v1.0.25",
+    "releasedAt": "2026-11-01",
+    "sizeBytes": 45431288,
+    "releaseUrl": "https://github.com/mstan/MegaManX4Recomp/releases/tag/v1.0.25",
+    "licenseId": "MIT",
+    "licenseUrl": "https://api.github.com/licenses/mit",
+    "curated": true
+  },
+  {
+    "id": "pret-pokeheartgold",
+    "repo": "pret/pokeheartgold",
+    "title": "Pokémon HeartGold",
+    "game": "pokemon-heartgold",
+    "author": "pret",
+    "console": "Nintendo DS",
+    "mechanism": "native",
+    "platforms": [],
+    "stars": 750,
+    "description": "Decompilation of Pokemon HeartGold/SoulSilver",
+    "version": null,
+    "releasedAt": "2026-11-01",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/pret/pokeheartgold/releases",
+    "licenseId": null,
+    "licenseUrl": null,
+    "curated": true
+  },
+  {
+    "id": "jorge262007-fftarecomp",
+    "repo": "Jorge262007/FFTARecomp",
+    "title": "Final Fantasy Tactics Advance",
+    "game": "ffta",
+    "author": "Jorge262007",
+    "console": "Game Boy Advance",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "Android"
+    ],
+    "stars": 185,
+    "description": "Native Windows port of Final Fantasy Tactics Advance with widescreen, video/audio options and a one-click installer.",
+    "version": "3.1",
+    "releasedAt": "2026-11-01",
+    "sizeBytes": 15828991,
+    "releaseUrl": "https://github.com/Jorge262007/FFTARecomp/releases/tag/3.1",
+    "licenseId": null,
+    "licenseUrl": null,
     "curated": true
   },
   {
@@ -1153,7 +1217,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 115,
+    "stars": 116,
     "description": "A PC port of Downhill Domination (PS2), built on a matching decompilation. Bring your own disc.",
     "version": "v0.7.6",
     "releasedAt": "2026-10-31",
@@ -1161,28 +1225,6 @@
     "releaseUrl": "https://github.com/skuza-oss/downhill-revived/releases/tag/v0.7.6",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
-    "curated": true
-  },
-  {
-    "id": "mstan-megamanx4recomp",
-    "repo": "mstan/MegaManX4Recomp",
-    "title": "Mega Man X4",
-    "game": null,
-    "author": "mstan",
-    "console": "PlayStation",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 120,
-    "description": "Mega Man X4 (USA, SLUS-00561) statically recompiled to a native PC executable with PSXRecomp",
-    "version": "v1.0.24",
-    "releasedAt": "2026-10-31",
-    "sizeBytes": 45431288,
-    "releaseUrl": "https://github.com/mstan/MegaManX4Recomp/releases/tag/v1.0.24",
-    "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit",
     "curated": true
   },
   {
@@ -1246,25 +1288,6 @@
     "licenseUrl": null
   },
   {
-    "id": "pret-pokeheartgold",
-    "repo": "pret/pokeheartgold",
-    "title": "Pokémon HeartGold",
-    "game": "pokemon-heartgold",
-    "author": "pret",
-    "console": "Nintendo DS",
-    "mechanism": "native",
-    "platforms": [],
-    "stars": 750,
-    "description": "Decompilation of Pokemon HeartGold/SoulSilver",
-    "version": null,
-    "releasedAt": "2026-10-31",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/pret/pokeheartgold/releases",
-    "licenseId": null,
-    "licenseUrl": null,
-    "curated": true
-  },
-  {
     "id": "saulob-odin-sphere-leifthrasir-pc",
     "repo": "saulob/odin-sphere-leifthrasir-pc",
     "title": "Odin Sphere Leifthrasir",
@@ -1276,7 +1299,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 130,
+    "stars": 131,
     "description": "Odin Sphere Leifthrasir native PC port for Windows, with direct PS4 PKG installation, TRG launcher and modern graphics options",
     "version": "v0.2.1",
     "releasedAt": "2026-10-31",
@@ -1336,7 +1359,7 @@
     "console": "Game Boy Advance",
     "mechanism": "native",
     "platforms": [],
-    "stars": 176,
+    "stars": 177,
     "description": "🌋 Alchemy is a decompilation of both ☀️ Golden Sun games for Gameboy Advance",
     "version": null,
     "releasedAt": "2026-10-31",
@@ -1378,7 +1401,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 186,
+    "stars": 185,
     "description": "Forza Motorsport 4 native on PC",
     "version": "v0.3.10",
     "releasedAt": "2026-10-31",
@@ -1440,7 +1463,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 310,
+    "stars": 312,
     "description": "Breath of the Wild (Wii U, v1.5.0) statically recompiled to a native Windows program with a Vulkan renderer. ",
     "version": "v0.1.2",
     "releasedAt": "2026-10-31",
@@ -1567,7 +1590,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 90,
+    "stars": 91,
     "description": "An unofficial original Xbox version PC port of 007: Nightfire via static recompilation.",
     "version": "V1",
     "releasedAt": "2026-10-31",
@@ -1591,7 +1614,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 617,
+    "stars": 616,
     "description": "Native port of Metroid Prime (GameCube) for Linux, Windows and Android, built from the PrimeDecomp decompilation. No emulator, no game assets included: bring your own disc image.",
     "version": "v0.37.0",
     "releasedAt": "2026-10-31",
@@ -1804,7 +1827,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 65,
+    "stars": 66,
     "description": "007 Everything or Nothing recompilation for a native PC port.",
     "version": "v1.0.3",
     "releasedAt": "2026-10-31",
@@ -1848,7 +1871,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 64,
+    "stars": 84,
     "description": "Zelda: Tears of the Kingdom (TotK) 1.0.0 recompiled to native Windows and Vulkan. Frame cap up to 240, DLSS option, mouse and keyboard. Open source, mostly written by AI agents. You build it from your own dump; no game files included. Measured on one PC so far.",
     "version": "v0.1.5",
     "releasedAt": "2026-10-31",
@@ -1927,7 +1950,7 @@
       "Windows",
       "Android"
     ],
-    "stars": 140,
+    "stars": 141,
     "description": "Gears of War 2 native PC port: the Xbox 360 game statically recompiled to x64 (not an emulator). 1440p/4K, FSR, 4K texture packs, keyboard & mouse, Android in progress. Bring your own copy.",
     "version": "v0.3.12",
     "releasedAt": "2026-10-30",
@@ -2118,7 +2141,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 34007,
+    "stars": 34010,
     "description": "PlayStation 4 emulator for Windows, Linux, macOS and FreeBSD written in C++",
     "version": "v.0.21.0",
     "releasedAt": "2026-10-30",
@@ -2249,7 +2272,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 2129,
+    "stars": 2131,
     "description": "Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo",
     "version": "v0.3.11",
     "releasedAt": "2026-10-30",
@@ -2293,7 +2316,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5015,
+    "stars": 5018,
     "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
     "version": "windows-v1.9.7",
     "releasedAt": "2026-10-30",
@@ -2338,7 +2361,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 471,
+    "stars": 472,
     "description": "ReStreet: FIFA Street (2012) recompiled for Windows PC, with online play, a launcher with friends, chat and rooms. Bring your own game.",
     "version": "v2.1.4-online-beta",
     "releasedAt": "2026-10-30",
@@ -2381,7 +2404,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 49,
+    "stars": 50,
     "description": "The installer for a sp00nznet recomp: here's my game, Build, here's my recomp. One per game, built from its launcher.json; Windows, Linux, macOS.",
     "version": "v0.6.0",
     "releasedAt": "2026-10-30",
@@ -2609,7 +2632,7 @@
     "platforms": [
       "PC"
     ],
-    "stars": 1660,
+    "stars": 1661,
     "description": "Native Windows port of Shadow of the Colossus (PS4, CUSA08809) - bring your own game dump. Port nativo para PC.",
     "version": "v0.70",
     "releasedAt": "2026-10-29",
@@ -2670,7 +2693,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2042,
+    "stars": 2043,
     "description": "Static recompilation of Link's Awakening (Switch) to native macOS, Windows and Linux",
     "version": "beta_5.4",
     "releasedAt": "2026-10-29",
@@ -2834,7 +2857,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 234,
+    "stars": 235,
     "description": "Native Windows port of Dead or Alive Xtreme Beach Volleyball (Xbox), built by static recompilation with a hand-written runtime. Requires your own copy of the game.",
     "version": "v0.6.0",
     "releasedAt": "2026-10-28",
@@ -2856,7 +2879,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 972,
+    "stars": 973,
     "description": "A playable preview of Forza Horizon static recompilation",
     "version": "v0.7.1",
     "releasedAt": "2026-10-28",
@@ -2961,7 +2984,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 159,
+    "stars": 160,
     "description": "Conker's Bad Fur Day running natively on PC: an N64 recompilation with a Classic mode true to the N64 and a Modern mode (widescreen, smooth frame rate, free camera).",
     "version": "v1.4.7",
     "releasedAt": "2026-10-28",
@@ -3082,7 +3105,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 3821,
+    "stars": 3825,
     "description": "Bloodborne (v1.09) running natively on Linux and Windows: the game's x86-64 code runs as is, GPU side translated to Vulkan; FSR 4 / DLSS, co-op (BBSC). Bring your own dump.",
     "version": "0.7",
     "releasedAt": "2026-10-28",
@@ -3436,7 +3459,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 49,
+    "stars": 50,
     "description": "Soulcalibur II HD native recompilation",
     "version": "v0.3.0",
     "releasedAt": "2026-10-26",
@@ -3647,7 +3670,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 6759,
+    "stars": 6762,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -3901,7 +3924,7 @@
     "console": "Wii",
     "mechanism": "native",
     "platforms": [],
-    "stars": 44,
+    "stars": 45,
     "description": "Super Mario Galaxy, running natively on PS Vita. Rear touch Star Bit aiming, touch and tilt controls. Bring your own Wii disc.",
     "version": "v1.0",
     "releasedAt": "2026-10-24",
@@ -3927,26 +3950,6 @@
     "releaseUrl": "https://github.com/Antriksh1984/TheWarriors-XBERecomp/releases/tag/v0.2.0-alpha",
     "licenseId": null,
     "licenseUrl": null
-  },
-  {
-    "id": "luisxl15-metal-gear-solid-2-sons-of-liberty-for-android",
-    "repo": "luisxl15/METAL-GEAR-SOLID-2-Sons-of-Liberty-for-Android",
-    "title": "METAL GEAR SOLID 2 Sons Of Liberty For Android",
-    "game": null,
-    "author": "luisxl15",
-    "console": "PC",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Android"
-    ],
-    "stars": 43,
-    "description": "Metal Gear Solid 2 HD (NVIDIA SHIELD) para Android ARM64 — recompilação estática ARM32→ARM64, Adreno e Mali, LSFG, menus em 7 idiomas. Traga sua própria cópia do jogo. / Static recompilation port, bring your own game files.",
-    "version": "beta3",
-    "releasedAt": "2026-10-24",
-    "sizeBytes": 32556488,
-    "releaseUrl": "https://github.com/luisxl15/METAL-GEAR-SOLID-2-Sons-of-Liberty-for-Android/releases/tag/beta3",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
   },
   {
     "id": "ran-j-ps2recomp",
@@ -4336,7 +4339,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2339,
+    "stars": 2340,
     "description": "Native PC port of P.T. (runs from your own PS4 game files)",
     "version": "v1.0.8",
     "releasedAt": "2026-10-22",
@@ -4396,7 +4399,7 @@
     "console": "Nintendo 64",
     "mechanism": "native",
     "platforms": [],
-    "stars": 1768,
+    "stars": 1767,
     "description": "Decompilation of The Legend of Zelda: Majora's Mask",
     "version": null,
     "releasedAt": "2026-10-21",
@@ -4676,7 +4679,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 5816,
+    "stars": 5817,
     "description": "Ship of Harkinian: a PC port of Ocarina of Time built from the decompilation, with widescreen, high framerate and mod support.",
     "version": "9.3.1",
     "releasedAt": "2026-10-18",
@@ -4705,29 +4708,6 @@
     "sizeBytes": 4778822,
     "releaseUrl": "https://github.com/murkantor/Project-Midas/releases/tag/v1.0.1",
     "licenseId": "NOASSERTION",
-    "licenseUrl": null,
-    "curated": true
-  },
-  {
-    "id": "jorge262007-fftarecomp",
-    "repo": "Jorge262007/FFTARecomp",
-    "title": "Final Fantasy Tactics Advance",
-    "game": "ffta",
-    "author": "Jorge262007",
-    "console": "Game Boy Advance",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "Android"
-    ],
-    "stars": 185,
-    "description": "Native Windows port of Final Fantasy Tactics Advance with widescreen, video/audio options and a one-click installer.",
-    "version": "v3.0",
-    "releasedAt": "2026-10-18",
-    "sizeBytes": 16118236,
-    "releaseUrl": "https://github.com/Jorge262007/FFTARecomp/releases/tag/v3.0",
-    "licenseId": null,
     "licenseUrl": null,
     "curated": true
   },
@@ -5329,7 +5309,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 402,
+    "stars": 403,
     "description": "A work in progress recomp of the The Simpsons Game 2007 from the Xbox 360 using the RexXGlue recomping tool to get the game running",
     "version": "v0.0.6.5",
     "releasedAt": "2026-10-10",
@@ -5704,7 +5684,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 6191,
+    "stars": 6194,
     "description": "Dusklight brings a classic adventure to PC and mobile platforms with a variety of fixes and improvements.",
     "version": "v2.0.3",
     "releasedAt": "2026-09-30",
@@ -5853,7 +5833,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 53,
+    "stars": 54,
     "description": "An unofficial port of Mortal Kombat vs. DC Universe to PC (More platforms coming)",
     "version": "v0.2.1",
     "releasedAt": "2026-09-23",
@@ -6046,7 +6026,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 98,
+    "stars": 99,
     "description": "An AI-coded PC port of the Nintendo 64 game 'Wave Race 64'.",
     "version": "v1.0.2",
     "releasedAt": "2026-09-14",
@@ -6106,7 +6086,7 @@
     "console": "Xbox 360",
     "mechanism": "native",
     "platforms": [],
-    "stars": 417,
+    "stars": 418,
     "description": "A Fable 2 Recomp",
     "version": null,
     "releasedAt": "2026-09-12",
@@ -6214,7 +6194,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 800,
+    "stars": 801,
     "description": "Multiplatform and Feature-rich Port based on PSX decompilation of Silent Hill 1 made with Claude and Psycross. Still in beta and is in active development.",
     "version": "crossplatform-beta",
     "releasedAt": "2026-09-04",
@@ -6365,7 +6345,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2413,
+    "stars": 2414,
     "description": "2 Ship 2 Harkinian: a PC port of Majora's Mask built from the decompilation, with widescreen, high resolution and mod support.",
     "version": "5.0.1",
     "releasedAt": "2026-08-25",
@@ -6409,7 +6389,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 47,
+    "stars": 48,
     "description": "Destroy all humans Path of the Furon Recompiled with Rexglue-SDK",
     "version": "new",
     "releasedAt": "2026-08-24",
@@ -7095,7 +7075,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5321,
+    "stars": 5322,
     "description": "An unofficial PC port of the Xbox 360 version of Sonic Unleashed created through the process of static recompilation.",
     "version": "v1.0.3",
     "releasedAt": "2025-04-03",
