@@ -27,7 +27,7 @@
     "console": "GameCube",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 101,
+    "stars": 103,
     "description": "Play Mario Kart: Double Dash!! online on Windows. Project Tandem is a native PC recompilation with 2-8 player solo/shared-kart multiplayer, widescreen, and mouse/keyboard controls. Requires your own compatible USA disc image.",
     "version": null,
     "releasedAt": "2026-11-01",
@@ -45,7 +45,7 @@
     "console": "PlayStation 2",
     "mechanism": "native",
     "platforms": [],
-    "stars": 166,
+    "stars": 167,
     "description": "In-progress matching decompilation of Silent Hill 3",
     "version": null,
     "releasedAt": "2026-11-01",
@@ -343,7 +343,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 145,
+    "stars": 147,
     "description": "Native Windows PC port of God of War (PS2), built by statically recompiling MIPS R5900 code to C++ with PS2Recomp. Includes an installer launcher, one-click build, fan-translation support and a 60 fps target. No game files included: you need your own copy.",
     "version": "v0.4.0",
     "releasedAt": "2026-11-01",
@@ -384,7 +384,7 @@
       "PC",
       "Android"
     ],
-    "stars": 156,
+    "stars": 157,
     "description": "Unofficial native PC port of WWE SmackDown vs. Raw 2011 (Xbox 360). Bring your own disc.",
     "version": "v2.1.8",
     "releasedAt": "2026-11-01",
@@ -488,7 +488,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 347,
+    "stars": 349,
     "description": "A native Windows and Linux port of Grand Theft Auto: Vice City Stories (PS2, USA, SLUS-21590), made by recompiling the game's PS2 executable into C++",
     "version": "v0.1.0",
     "releasedAt": "2026-11-01",
@@ -509,7 +509,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 77,
+    "stars": 78,
     "description": "Unofficial native PC port of God of War (2005, PS2) for Windows, with experimental Linux support. Statically recompiled to C++, not an emulator. OpenGL renderer, launcher, cheat menu, widescreen, 60 FPS. Bring your own game dump: no game files included.",
     "version": "launcher-v0.2.0",
     "releasedAt": "2026-11-01",
@@ -599,7 +599,7 @@
     "console": "Xbox 360",
     "mechanism": "native",
     "platforms": [],
-    "stars": 445,
+    "stars": 444,
     "description": "Tekken 6 (Xbox 360) native on Windows with rollback netcode - build from your own ISO",
     "version": "v2.6.1",
     "releasedAt": "2026-11-01",
@@ -773,6 +773,48 @@
     "releaseUrl": "https://github.com/OpenPortroid/ArmyOfTwoRecompilation/releases/tag/v1.4.2",
     "licenseId": "MIT",
     "licenseUrl": "https://api.github.com/licenses/mit",
+    "curated": true
+  },
+  {
+    "id": "hk21x-pgr1-recomp",
+    "repo": "hk21x/pgr1-recomp",
+    "title": "Project Gotham Racing",
+    "game": null,
+    "author": "hk21x",
+    "console": "Xbox",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows"
+    ],
+    "stars": 50,
+    "description": "Project Gotham Racing recompilation for a native PC port.",
+    "version": "v1.3",
+    "releasedAt": "2026-11-01",
+    "sizeBytes": 2346496,
+    "releaseUrl": "https://github.com/hk21x/pgr1-recomp/releases/tag/v1.3",
+    "licenseId": "MIT",
+    "licenseUrl": "https://api.github.com/licenses/mit",
+    "curated": true
+  },
+  {
+    "id": "crazyriddler-finesthourremastered",
+    "repo": "crazyriddler/FinestHourRemastered",
+    "title": "Call of Duty: Finest Hour",
+    "game": null,
+    "author": "crazyriddler",
+    "console": "Xbox",
+    "mechanism": "native",
+    "platforms": [
+      "Windows"
+    ],
+    "stars": 160,
+    "description": "A native PC port of Call of Duty: Finest Hour (original Xbox) with a remastered renderer",
+    "version": "update",
+    "releasedAt": "2026-11-01",
+    "sizeBytes": 144957010,
+    "releaseUrl": "https://github.com/crazyriddler/FinestHourRemastered/releases/tag/update",
+    "licenseId": null,
+    "licenseUrl": null,
     "curated": true
   },
   {
@@ -1041,7 +1083,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 313,
+    "stars": 315,
     "description": "This is an open source, all-in-one, static recompilation project that I built from the ground up for the Xbox 360 Gears of War series.",
     "version": "0.3.5",
     "releasedAt": "2026-10-31",
@@ -1061,7 +1103,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 41,
+    "stars": 42,
     "description": "Play Midtown Madness 3 natively on Windows 10/11: your resolution, widescreen, 60 fps, controller or keyboard, and optional mods. Get MM3-Setup.exe from Releases; you need your own copy of the Xbox game.",
     "version": "v2.2",
     "releasedAt": "2026-10-31",
@@ -1101,7 +1143,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 123,
+    "stars": 125,
     "description": "Odin Sphere Leifthrasir native PC port for Windows, with direct PS4 PKG installation, TRG launcher and modern graphics options",
     "version": "v0.2.1",
     "releasedAt": "2026-10-31",
@@ -1120,7 +1162,7 @@
     "console": "PlayStation 4",
     "mechanism": "native",
     "platforms": [],
-    "stars": 153,
+    "stars": 152,
     "description": "A decompilation of Bloodborne (CUSA03173 v1.09) with its own runtime: the game's code rewritten as readable C++, one verified function at a time. The game doesn't run on it yet; 21 functions verified. No game files included.",
     "version": null,
     "releasedAt": "2026-10-31",
@@ -1182,7 +1224,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 67,
+    "stars": 68,
     "description": "Project Gotham Racing 2 recompilation for a native PC port.",
     "version": "v1.4.0",
     "releasedAt": "2026-10-31",
@@ -1384,27 +1426,6 @@
     "curated": true
   },
   {
-    "id": "hk21x-pgr1-recomp",
-    "repo": "hk21x/pgr1-recomp",
-    "title": "Project Gotham Racing",
-    "game": null,
-    "author": "hk21x",
-    "console": "Xbox",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows"
-    ],
-    "stars": 49,
-    "description": "Project Gotham Racing recompilation for a native PC port.",
-    "version": "v1.2",
-    "releasedAt": "2026-10-31",
-    "sizeBytes": 2344960,
-    "releaseUrl": "https://github.com/hk21x/pgr1-recomp/releases/tag/v1.2",
-    "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit",
-    "curated": true
-  },
-  {
     "id": "tgp482-007nightfire-xberecomp",
     "repo": "TGP482/007Nightfire-XBERecomp",
     "title": "007: Nightfire",
@@ -1413,7 +1434,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 81,
+    "stars": 84,
     "description": "An unofficial original Xbox version PC port of 007: Nightfire via static recompilation.",
     "version": "V1",
     "releasedAt": "2026-10-31",
@@ -1460,7 +1481,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 659,
+    "stars": 660,
     "description": "PC port of Dragon Ball Z: Budokai Tenkaichi 3, built on the BT3-Decompiled project.",
     "version": "v0.1.39.3",
     "releasedAt": "2026-10-31",
@@ -1695,7 +1716,7 @@
       "macOS",
       "iOS"
     ],
-    "stars": 572,
+    "stars": 574,
     "description": "Unofficial static recompilation of the Xbox 360 version of Need for Speed: Most Wanted (2005): a native port for Steam Deck, Steam Machine, Steam Frame, Linux and Mac (iPhone/iPad: sideload the experimental IPA or build it yourself). Bring your own disc: no game files included. Not affiliated with EA or Valve.",
     "version": "v0.2.1",
     "releasedAt": "2026-10-31",
@@ -1754,7 +1775,7 @@
     "console": "PlayStation 3",
     "mechanism": "in-progress",
     "platforms": [],
-    "stars": 83,
+    "stars": 84,
     "description": "Killzone 2 // Unofficial PC Port (static recompilation). Work in progress, partly playable. Builds on your PC from your own game.",
     "version": null,
     "releasedAt": "2026-10-30",
@@ -1762,27 +1783,6 @@
     "releaseUrl": "https://github.com/undecuple/project-pyrrhus/releases",
     "licenseId": "MIT",
     "licenseUrl": "https://api.github.com/licenses/mit"
-  },
-  {
-    "id": "crazyriddler-finesthourremastered",
-    "repo": "crazyriddler/FinestHourRemastered",
-    "title": "Call of Duty: Finest Hour",
-    "game": null,
-    "author": "crazyriddler",
-    "console": "Xbox",
-    "mechanism": "native",
-    "platforms": [
-      "Windows"
-    ],
-    "stars": 159,
-    "description": "A native PC port of Call of Duty: Finest Hour (original Xbox) with a remastered renderer",
-    "version": "update",
-    "releasedAt": "2026-10-30",
-    "sizeBytes": 143544062,
-    "releaseUrl": "https://github.com/crazyriddler/FinestHourRemastered/releases/tag/update",
-    "licenseId": null,
-    "licenseUrl": null,
-    "curated": true
   },
   {
     "id": "santiquiroz-gears-of-war-2-pc-port",
@@ -1987,7 +1987,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 34003,
+    "stars": 34004,
     "description": "PlayStation 4 emulator for Windows, Linux, macOS and FreeBSD written in C++",
     "version": "v.0.21.0",
     "releasedAt": "2026-10-30",
@@ -2030,7 +2030,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 56,
+    "stars": 59,
     "description": "Gears of War 3 (Xbox 360) statically recompiled to native Windows x64 with the ReXGlue SDK. Bring your own copy of the game; no game files are included.",
     "version": "v0.3.1",
     "releasedAt": "2026-10-30",
@@ -2141,7 +2141,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 476,
+    "stars": 477,
     "description": "An unofficial PC port of the Xbox 360 version of Spider-Man: Edge of Time created through the process of static recompilation.",
     "version": "v1.1",
     "releasedAt": "2026-10-30",
@@ -2162,7 +2162,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5002,
+    "stars": 5004,
     "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
     "version": "windows-v1.9.7",
     "releasedAt": "2026-10-30",
@@ -2185,7 +2185,7 @@
       "Linux",
       "Android"
     ],
-    "stars": 316,
+    "stars": 315,
     "description": "CrashBandicoot native pc port",
     "version": "2.4",
     "releasedAt": "2026-10-30",
@@ -2359,7 +2359,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 1211,
+    "stars": 1212,
     "description": "Zelda Wind Waker HD Recomp",
     "version": "v0.5.0",
     "releasedAt": "2026-10-29",
@@ -2378,7 +2378,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 412,
+    "stars": 413,
     "description": "An unofficial original Xbox version PC port of Splinter Cell: Double Agent via static recompilation.",
     "version": "V3",
     "releasedAt": "2026-10-29",
@@ -2397,7 +2397,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 839,
+    "stars": 842,
     "description": "An unofficial original Xbox version PC port of BLACK (2006) via static recompilation.",
     "version": "V3",
     "releasedAt": "2026-10-29",
@@ -2416,7 +2416,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 227,
+    "stars": 228,
     "description": "Static recompilation of Midnight Club: Los Angeles (Xbox 360) for PC and PS5. No game data included.",
     "version": "v1.0.14",
     "releasedAt": "2026-10-29",
@@ -2435,7 +2435,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 139,
+    "stars": 140,
     "description": "An unofficial original Xbox version PC port of 007: From Russia With Love via static recompilation.",
     "version": "V2",
     "releasedAt": "2026-10-29",
@@ -2456,7 +2456,7 @@
     "platforms": [
       "PC"
     ],
-    "stars": 1652,
+    "stars": 1654,
     "description": "Native Windows port of Shadow of the Colossus (PS4, CUSA08809) - bring your own game dump. Port nativo para PC.",
     "version": "v0.70",
     "releasedAt": "2026-10-29",
@@ -2475,7 +2475,7 @@
     "console": "PlayStation 3",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 51,
+    "stars": 52,
     "description": "Unofficial native Windows port of ARMORED CORE 4 (PS3), built from your own copy of the game. Part of Project Glintburn.",
     "version": "v0.6.0",
     "releasedAt": "2026-10-29",
@@ -2558,7 +2558,7 @@
       "Windows",
       "macOS"
     ],
-    "stars": 56,
+    "stars": 57,
     "description": "BlastCorps for PC (Windows/Linux/MacOS)",
     "version": "1.1.1",
     "releasedAt": "2026-10-29",
@@ -2582,7 +2582,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 277,
+    "stars": 278,
     "description": "Burnout Revenge recompilation based on RexGlue + standalone Plume render",
     "version": "v0.4.9",
     "releasedAt": "2026-10-29",
@@ -2832,7 +2832,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 157,
+    "stars": 158,
     "description": "Conker's Bad Fur Day running natively on PC: an N64 recompilation with a Classic mode true to the N64 and a Modern mode (widescreen, smooth frame rate, free camera).",
     "version": "v1.4.7",
     "releasedAt": "2026-10-28",
@@ -2851,7 +2851,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 170,
+    "stars": 171,
     "description": "Native PC port of Killzone (PS2) via static recompilation. Mouse and keyboard, 120+ fps, upscaling. Bring your own disc.",
     "version": null,
     "releasedAt": "2026-10-28",
@@ -2870,7 +2870,7 @@
     "console": "Xbox",
     "mechanism": "native",
     "platforms": [],
-    "stars": 100,
+    "stars": 101,
     "description": "Unofficial native Windows port of Star Wars: Episode III - Revenge of the Sith (Xbox). Bring your own copy.",
     "version": null,
     "releasedAt": "2026-10-28",
@@ -2976,7 +2976,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 3814,
+    "stars": 3813,
     "description": "Bloodborne (v1.09) running natively on Linux and Windows: the game's x86-64 code runs as is, GPU side translated to Vulkan; FSR 4 / DLSS, co-op (BBSC). Bring your own dump.",
     "version": "0.7",
     "releasedAt": "2026-10-28",
@@ -2997,7 +2997,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 98,
+    "stars": 97,
     "description": "Forza Motorsport 4 recompilation based on ShiftGlue",
     "version": "v0.3.0",
     "releasedAt": "2026-10-28",
@@ -3126,7 +3126,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 517,
+    "stars": 518,
     "description": "Native PC port (Linux/Windows) of The Last Guardian (PS4, CUSA03627) — runs your own game dump; no game or firmware files included. Mouse/keyboard, optional 60 FPS, SMAA/CAS filters. | Port nativo para PC de The Last Guardian — usa o seu próprio dump.",
     "version": "v2026.10.27-4825a99",
     "releasedAt": "2026-10-27",
@@ -3477,7 +3477,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 50,
+    "stars": 51,
     "description": "Unofficial Windows version of WWE All Stars (Xbox 360), recompiled with ReXGlue. Bring your own disc image.",
     "version": "v1.7.0",
     "releasedAt": "2026-10-25",
@@ -3562,7 +3562,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 6731,
+    "stars": 6734,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -3586,7 +3586,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 100,
+    "stars": 102,
     "description": "Native SDL3 port of Colin McRae Rally 2.0 built from the CMR2Decomp decompilation. No game data included.",
     "version": "v1.7.0",
     "releasedAt": "2026-10-25",
@@ -3756,7 +3756,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 126,
+    "stars": 127,
     "description": "A Static recompilation of Ace Combat 5 with native rendering",
     "version": "V3.0",
     "releasedAt": "2026-10-24",
@@ -3866,6 +3866,26 @@
     "releaseUrl": "https://github.com/Antriksh1984/TheWarriors-XBERecomp/releases/tag/v0.2.0-alpha",
     "licenseId": null,
     "licenseUrl": null
+  },
+  {
+    "id": "luisxl15-metal-gear-solid-2-sons-of-liberty-for-android",
+    "repo": "luisxl15/METAL-GEAR-SOLID-2-Sons-of-Liberty-for-Android",
+    "title": "METAL GEAR SOLID 2 Sons Of Liberty For Android",
+    "game": null,
+    "author": "luisxl15",
+    "console": "PC",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Android"
+    ],
+    "stars": 43,
+    "description": "Metal Gear Solid 2 HD (NVIDIA SHIELD) para Android ARM64 — recompilação estática ARM32→ARM64, Adreno e Mali, LSFG, menus em 7 idiomas. Traga sua própria cópia do jogo. / Static recompilation port, bring your own game files.",
+    "version": "beta3",
+    "releasedAt": "2026-10-24",
+    "sizeBytes": 32556488,
+    "releaseUrl": "https://github.com/luisxl15/METAL-GEAR-SOLID-2-Sons-of-Liberty-for-Android/releases/tag/beta3",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
   },
   {
     "id": "ran-j-ps2recomp",
@@ -4175,7 +4195,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 1023,
+    "stars": 1024,
     "description": "Native PC port (Linux/Windows) of inFAMOUS Second Son (PS4, CUSA00223) — in development, playable; runs your own game dump; no game or firmware files included. Motion sensor emulation. | Port nativo para PC de inFAMOUS Second Son (em desenvolvimento) — usa o seu próprio dump.",
     "version": "v1.0",
     "releasedAt": "2026-10-22",
@@ -4394,7 +4414,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 381,
+    "stars": 383,
     "description": "Call of Duty 3 (Xbox 360) static recompilation: host runtime, tools and notes",
     "version": null,
     "releasedAt": "2026-10-21",
@@ -4741,7 +4761,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 233,
+    "stars": 232,
     "description": "A Recompilation of Project Gotham Racing 4",
     "version": "v1.2.2",
     "releasedAt": "2026-10-17",
@@ -4865,7 +4885,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 138,
+    "stars": 139,
     "description": "Experimental static recompilation of Forza Motorsport 4 using ReXGlue. No game files included.",
     "version": "v0.1.0-alpha.2",
     "releasedAt": "2026-10-15",
@@ -6003,7 +6023,7 @@
     "console": "Xbox 360",
     "mechanism": "native",
     "platforms": [],
-    "stars": 415,
+    "stars": 416,
     "description": "A Fable 2 Recomp",
     "version": null,
     "releasedAt": "2026-09-12",
@@ -6666,7 +6686,7 @@
       "macOS",
       "iOS"
     ],
-    "stars": 333,
+    "stars": 334,
     "description": "The iOS and MacOS port of Xenia, the Xbox 360 Emulator Research project.",
     "version": "release-v2.0.1-build-9730",
     "releasedAt": "2026-06-08",
@@ -6787,7 +6807,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2474,
+    "stars": 2475,
     "description": "I have spaghetti, now i just need a kart",
     "version": "1.0.0",
     "releasedAt": "2026-02-25",
@@ -7075,7 +7095,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 1415,
+    "stars": 1416,
     "description": "HLE 3DS emulator",
     "version": "v0.9",
     "releasedAt": "2024-12-25",
