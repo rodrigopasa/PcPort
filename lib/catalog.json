@@ -68,7 +68,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 2426,
+    "stars": 2427,
     "description": "Decompilation of The Legend of Zelda: Breath of the Wild (Switch 1.5.0)",
     "version": null,
     "releasedAt": "2026-11-02",
@@ -208,7 +208,7 @@
     "console": "Game Boy Advance",
     "mechanism": "native",
     "platforms": [],
-    "stars": 177,
+    "stars": 178,
     "description": "🌋 Alchemy is a decompilation of both ☀️ Golden Sun games for Gameboy Advance",
     "version": null,
     "releasedAt": "2026-11-02",
@@ -323,7 +323,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 242,
+    "stars": 243,
     "description": "Ninja Gaiden Black (Xbox, 2005) statically recompiled into native Linux and Windows builds, with an experimental Android port, drawn by its own Vulkan renderer. A steady 60 fps, widescreen and ultrawide, keyboard and mouse, touch controls on Android, Steam Deck ready. Bring your own copy of the game.",
     "version": null,
     "releasedAt": "2026-11-02",
@@ -454,7 +454,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 62,
+    "stars": 63,
     "description": "",
     "version": "v0.2.0-beta",
     "releasedAt": "2026-11-02",
@@ -495,7 +495,7 @@
     "console": "PlayStation 2",
     "mechanism": "in-progress",
     "platforms": [],
-    "stars": 66,
+    "stars": 67,
     "description": "Turns a PS2 disc image into a native PC program by static recompilation; builds on ps2-web-recomp (MIT). Work in progress. Bring your own disc.",
     "version": null,
     "releasedAt": "2026-11-02",
@@ -550,6 +550,44 @@
     "curated": true
   },
   {
+    "id": "gothamor-gta-vcs-recomp",
+    "repo": "gothamor/gta-vcs-recomp",
+    "title": "Grand Theft Auto: Vice City Stories",
+    "game": null,
+    "author": "gothamor",
+    "console": "PlayStation 2",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows"
+    ],
+    "stars": 414,
+    "description": "A native Windows and Linux port of Grand Theft Auto: Vice City Stories (PS2, USA, SLUS-21590), made by recompiling the game's PS2 executable into C++",
+    "version": "v0.1.2",
+    "releasedAt": "2026-11-02",
+    "sizeBytes": 84282269,
+    "releaseUrl": "https://github.com/gothamor/gta-vcs-recomp/releases/tag/v0.1.2",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
+  },
+  {
+    "id": "shagg88-cogbox",
+    "repo": "Shagg88/COGBox",
+    "title": "COGBox",
+    "game": null,
+    "author": "Shagg88",
+    "console": "Xbox 360",
+    "mechanism": "recompiled",
+    "platforms": [],
+    "stars": 335,
+    "description": "This is an open source, all-in-one, static recompilation project that I built from the ground up for the Xbox 360 Gears of War series.",
+    "version": "0.4.0",
+    "releasedAt": "2026-11-02",
+    "sizeBytes": 384852934,
+    "releaseUrl": "https://github.com/Shagg88/COGBox/releases/tag/0.4.0",
+    "licenseId": "MIT",
+    "licenseUrl": "https://api.github.com/licenses/mit"
+  },
+  {
     "id": "badcompany94-rcmp-project-tandem",
     "repo": "badcompany94-rcmp/project-tandem",
     "title": "Tandem",
@@ -558,7 +596,7 @@
     "console": "GameCube",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 112,
+    "stars": 113,
     "description": "Play Mario Kart: Double Dash!! online on Windows. Project Tandem is a native PC recompilation with 2-8 player solo/shared-kart multiplayer, widescreen, and mouse/keyboard controls. Requires your own compatible USA disc image.",
     "version": null,
     "releasedAt": "2026-11-01",
@@ -820,7 +858,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 88,
+    "stars": 89,
     "description": "Native port of Tekken Tag Tournament 2 Wii U Edition by static recompilation with the possibility to add new characters and mod the game easily. No files included.",
     "version": "v0.5.0",
     "releasedAt": "2026-11-01",
@@ -850,26 +888,6 @@
     "licenseId": "NOASSERTION",
     "licenseUrl": null,
     "curated": true
-  },
-  {
-    "id": "gothamor-gta-vcs-recomp",
-    "repo": "gothamor/gta-vcs-recomp",
-    "title": "Grand Theft Auto: Vice City Stories",
-    "game": null,
-    "author": "gothamor",
-    "console": "PlayStation 2",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows"
-    ],
-    "stars": 410,
-    "description": "A native Windows and Linux port of Grand Theft Auto: Vice City Stories (PS2, USA, SLUS-21590), made by recompiling the game's PS2 executable into C++",
-    "version": "v0.1.1",
-    "releasedAt": "2026-11-01",
-    "sizeBytes": 84256215,
-    "releaseUrl": "https://github.com/gothamor/gta-vcs-recomp/releases/tag/v0.1.1",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
   },
   {
     "id": "yuutatsubasa-chaotixrecompiled",
@@ -911,7 +929,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 490,
+    "stars": 491,
     "description": "PC, Android, iOS and macOS port of the ICO (PS2) decompilation (nathanialf/ico): Windows, Linux, Steam Deck, Android, iPhone via LiveContainer and Apple-silicon Mac (contributed). Contains no game data.",
     "version": "v0.9.7",
     "releasedAt": "2026-11-01",
@@ -1061,7 +1079,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 575,
+    "stars": 582,
     "description": "Unofficial native Windows port of Tears of the Kingdom 1.4.3 using static recompilation. Builds locally from the player's own extracted game dump; no game files included.",
     "version": "v0.2.0",
     "releasedAt": "2026-11-01",
@@ -1297,7 +1315,7 @@
     "console": "Nintendo DS",
     "mechanism": "native",
     "platforms": [],
-    "stars": 752,
+    "stars": 753,
     "description": "Decompilation of Pokemon HeartGold/SoulSilver",
     "version": null,
     "releasedAt": "2026-11-01",
@@ -1320,7 +1338,7 @@
       "Linux",
       "Android"
     ],
-    "stars": 200,
+    "stars": 203,
     "description": "Native Windows port of Final Fantasy Tactics Advance with widescreen, video/audio options and a one-click installer.",
     "version": "3.1",
     "releasedAt": "2026-11-01",
@@ -1383,30 +1401,12 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 152,
+    "stars": 153,
     "description": "Zelda: Tears of the Kingdom (TotK) 1.0.0 recompiled to native Windows and Vulkan. Frame cap up to 240, DLSS option, mouse and keyboard. Open source, mostly written by AI agents. You build it from your own dump; no game files included. Measured on one PC so far.",
     "version": "v0.1.6.1",
     "releasedAt": "2026-11-01",
     "sizeBytes": 93967360,
     "releaseUrl": "https://github.com/daniel-madrid-07/weeping-of-the-empire/releases/tag/v0.1.6.1",
-    "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit"
-  },
-  {
-    "id": "shagg88-cogbox",
-    "repo": "Shagg88/COGBox",
-    "title": "COGBox",
-    "game": null,
-    "author": "Shagg88",
-    "console": "Xbox 360",
-    "mechanism": "recompiled",
-    "platforms": [],
-    "stars": 333,
-    "description": "This is an open source, all-in-one, static recompilation project that I built from the ground up for the Xbox 360 Gears of War series.",
-    "version": "0.3.7",
-    "releasedAt": "2026-11-01",
-    "sizeBytes": 512089124,
-    "releaseUrl": "https://github.com/Shagg88/COGBox/releases/tag/0.3.7",
     "licenseId": "MIT",
     "licenseUrl": "https://api.github.com/licenses/mit"
   },
@@ -1489,7 +1489,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 207,
+    "stars": 208,
     "description": "WipEout Omega Collection (PS4) native PC port for Windows: the game's own x86-64 code on the CPU, a PS4 runtime and the shadPS4 Vulkan video core. Playable, in active development. No game files included. ⭐ Star it if you like it; bug reports and requests are welcome in Issues!",
     "version": "windows-v0.2.50",
     "releasedAt": "2026-11-01",
@@ -1510,7 +1510,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 52,
+    "stars": 56,
     "description": "Native Windows PC port of The Last of Us Remastered (PS4, CUSA00552). Runs the game’s own x86-64 code on a custom runtime, with PS4 system libraries reimplemented and a Vulkan renderer based on shadPS4. Includes a launcher. No game files included: you need your own copy.",
     "version": "v0.1.1",
     "releasedAt": "2026-11-01",
@@ -1571,7 +1571,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 140,
+    "stars": 141,
     "description": "CPS-2 Recomp: unofficial native PC ports of Capcom CPS-2 arcade games (Street Fighter Alpha 2, Super Puzzle Fighter II Turbo, Vampire Savior) via static recompilation, with training modes, in one launcher: macOS, Linux, Steam Deck, Windows. Requires your own ROM sets. Beta.",
     "version": "v1.2.0",
     "releasedAt": "2026-10-31",
@@ -1680,7 +1680,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 138,
+    "stars": 139,
     "description": "Odin Sphere Leifthrasir native PC port for Windows, with direct PS4 PKG installation, TRG launcher and modern graphics options",
     "version": "v0.2.1",
     "releasedAt": "2026-10-31",
@@ -1849,7 +1849,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 62,
+    "stars": 63,
     "description": "Native PC port of Forza Motorsport 2: static recompilation of the CPU code and a native D3D12 renderer",
     "version": "v0.10.5",
     "releasedAt": "2026-10-31",
@@ -1909,7 +1909,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 102,
+    "stars": 103,
     "description": "An unofficial original Xbox version PC port of 007: Nightfire via static recompilation.",
     "version": "V1",
     "releasedAt": "2026-10-31",
@@ -2012,7 +2012,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 46,
+    "stars": 45,
     "description": "A Nintendo 3DS emulator in Rust, using AOT recompilation",
     "version": "v0.2.31",
     "releasedAt": "2026-10-31",
@@ -2242,7 +2242,7 @@
     "platforms": [
       "Android"
     ],
-    "stars": 83,
+    "stars": 84,
     "description": "Naruto Shippuden: Ultimate Ninja Storm 3 Full Burst (Xbox 360) rodando nativamente no Android e no PC: recompilação estática, sem emulador de CPU.",
     "version": "v0.6.11",
     "releasedAt": "2026-10-30",
@@ -2305,7 +2305,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 34019,
+    "stars": 34020,
     "description": "PlayStation 4 emulator for Windows, Linux, macOS and FreeBSD written in C++",
     "version": "v.0.21.0",
     "releasedAt": "2026-10-30",
@@ -2392,7 +2392,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 820,
+    "stars": 821,
     "description": "Xbox 360 to PC port of Dante's Inferno using ReXGlue (static recompilation)",
     "version": "v0.8.5-beta",
     "releasedAt": "2026-10-30",
@@ -2436,7 +2436,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 2138,
+    "stars": 2139,
     "description": "Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo",
     "version": "v0.3.11",
     "releasedAt": "2026-10-30",
@@ -2503,7 +2503,7 @@
       "Linux",
       "Android"
     ],
-    "stars": 315,
+    "stars": 316,
     "description": "CrashBandicoot native pc port",
     "version": "2.4",
     "releasedAt": "2026-10-30",
@@ -2568,7 +2568,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 64,
+    "stars": 66,
     "description": "The installer for a sp00nznet recomp: here's my game, Build, here's my recomp. One per game, built from its launcher.json; Windows, Linux, macOS.",
     "version": "v0.6.0",
     "releasedAt": "2026-10-30",
@@ -2636,7 +2636,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 88,
+    "stars": 89,
     "description": "Marvel Ultimate Alliance 1, Gold Edition and 2 native PC ports via static recompilation, in one bundle with high frame rates, 4K rendering, ultrawide, HD Text, TRG launcher, and experimental Linux/Steam Deck support",
     "version": "v0.2.0",
     "releasedAt": "2026-10-29",
@@ -2699,7 +2699,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 1227,
+    "stars": 1228,
     "description": "Zelda Wind Waker HD Recomp",
     "version": "v0.5.0",
     "releasedAt": "2026-10-29",
@@ -2796,7 +2796,7 @@
     "platforms": [
       "PC"
     ],
-    "stars": 1672,
+    "stars": 1673,
     "description": "Native Windows port of Shadow of the Colossus (PS4, CUSA08809) - bring your own game dump. Port nativo para PC.",
     "version": "v0.70",
     "releasedAt": "2026-10-29",
@@ -2919,7 +2919,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 131,
+    "stars": 132,
     "description": "OpenTricky is an unofficial PC port of SSX Tricky, made by static recompilation. Bring your own disc.",
     "version": "v0.1.4",
     "releasedAt": "2026-10-29",
@@ -3830,7 +3830,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 6809,
+    "stars": 6822,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -4092,6 +4092,26 @@
     "releaseUrl": "https://github.com/Antriksh1984/TheWarriors-XBERecomp/releases/tag/v0.2.0-alpha",
     "licenseId": null,
     "licenseUrl": null
+  },
+  {
+    "id": "luisxl15-metal-gear-solid-2-sons-of-liberty-for-android",
+    "repo": "luisxl15/METAL-GEAR-SOLID-2-Sons-of-Liberty-for-Android",
+    "title": "METAL GEAR SOLID 2 Sons Of Liberty For Android",
+    "game": null,
+    "author": "luisxl15",
+    "console": "PC",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Android"
+    ],
+    "stars": 44,
+    "description": "Metal Gear Solid 2 HD (NVIDIA SHIELD) para Android ARM64 — recompilação estática ARM32→ARM64, Adreno e Mali, LSFG, menus em 7 idiomas. Traga sua própria cópia do jogo. / Static recompilation port, bring your own game files.",
+    "version": "beta3",
+    "releasedAt": "2026-10-24",
+    "sizeBytes": 32556488,
+    "releaseUrl": "https://github.com/luisxl15/METAL-GEAR-SOLID-2-Sons-of-Liberty-for-Android/releases/tag/beta3",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
   },
   {
     "id": "ran-j-ps2recomp",
@@ -4401,7 +4421,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 1039,
+    "stars": 1040,
     "description": "Native PC port (Linux/Windows) of inFAMOUS Second Son (PS4, CUSA00223) — in development, playable; runs your own game dump; no game or firmware files included. Motion sensor emulation. | Port nativo para PC de inFAMOUS Second Son (em desenvolvimento) — usa o seu próprio dump.",
     "version": "v1.0",
     "releasedAt": "2026-10-22",
@@ -4481,7 +4501,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2353,
+    "stars": 2352,
     "description": "Native PC port of P.T. (runs from your own PS4 game files)",
     "version": "v1.0.8",
     "releasedAt": "2026-10-22",
@@ -5111,7 +5131,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 109,
+    "stars": 110,
     "description": "Native PC port of the Xbox 360 XBLA game Dead Rising 2: Case Zero, by static recompilation. Windows and Linux, Vulkan, keyboard/mouse and controller. You supply your own copy of the game.",
     "version": "v1.1.3",
     "releasedAt": "2026-10-14",
@@ -6447,7 +6467,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2416,
+    "stars": 2417,
     "description": "2 Ship 2 Harkinian: a PC port of Majora's Mask built from the decompilation, with widescreen, high resolution and mod support.",
     "version": "5.0.1",
     "releasedAt": "2026-08-25",
