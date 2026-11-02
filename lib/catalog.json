@@ -49,7 +49,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 254,
+    "stars": 255,
     "description": "Native PC port of Peter Jackson's King Kong (Xbox 360) via static recompilation",
     "version": "v2.0.11",
     "releasedAt": "2026-11-02",
@@ -112,7 +112,7 @@
     "description": "A native PC port of Call of Duty: Finest Hour (original Xbox) with a remastered renderer",
     "version": "update",
     "releasedAt": "2026-11-02",
-    "sizeBytes": 229441153,
+    "sizeBytes": 261245589,
     "releaseUrl": "https://github.com/crazyriddler/FinestHourRemastered/releases/tag/update",
     "licenseId": null,
     "licenseUrl": null,
@@ -465,6 +465,91 @@
     "curated": true
   },
   {
+    "id": "mstan-supermarioworldrecomp",
+    "repo": "mstan/SuperMarioWorldRecomp",
+    "title": "Super Mario World",
+    "game": null,
+    "author": "mstan",
+    "console": "SNES",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 150,
+    "description": "Super Mario World recompiled for the Super Nintendo using snesrecomp · Part of the R.A.I.D. community",
+    "version": "v0.15.6",
+    "releasedAt": "2026-11-02",
+    "sizeBytes": 26626844,
+    "releaseUrl": "https://github.com/mstan/SuperMarioWorldRecomp/releases/tag/v0.15.6",
+    "licenseId": "NOASSERTION",
+    "licenseUrl": null,
+    "curated": true
+  },
+  {
+    "id": "exoteric33-ps2-native-recomp",
+    "repo": "exoteric33/ps2-native-recomp",
+    "title": "Ps 2",
+    "game": null,
+    "author": "exoteric33",
+    "console": "PlayStation 2",
+    "mechanism": "in-progress",
+    "platforms": [],
+    "stars": 66,
+    "description": "Turns a PS2 disc image into a native PC program by static recompilation; builds on ps2-web-recomp (MIT). Work in progress. Bring your own disc.",
+    "version": null,
+    "releasedAt": "2026-11-02",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/exoteric33/ps2-native-recomp/releases",
+    "licenseId": "MIT",
+    "licenseUrl": "https://api.github.com/licenses/mit"
+  },
+  {
+    "id": "odrannnn-metroidprime2port",
+    "repo": "Odrannnn/MetroidPrime2Port",
+    "title": "Metroid Prime 2: Echoes",
+    "game": null,
+    "author": "Odrannnn",
+    "console": "GameCube",
+    "mechanism": "native",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Android",
+      "iOS"
+    ],
+    "stars": 211,
+    "description": "Native port of Metroid Prime 2: Echoes (GameCube) for Linux and Android, built from the PrimeDecomp decompilation. No emulator, no game assets included: bring your own disc image.",
+    "version": "v0.8.1",
+    "releasedAt": "2026-11-02",
+    "sizeBytes": 123630640,
+    "releaseUrl": "https://github.com/Odrannnn/MetroidPrime2Port/releases/tag/v0.8.1",
+    "licenseId": "NOASSERTION",
+    "licenseUrl": null
+  },
+  {
+    "id": "caiuscodes-goldeneye-007-xbla-pc-recomp",
+    "repo": "CaiusCodes/GoldenEye-007-XBLA-PC-Recomp",
+    "title": "GoldenEye 007",
+    "game": "goldeneye-007",
+    "author": "CaiusCodes",
+    "console": "Xbox 360",
+    "mechanism": "recompiled",
+    "platforms": [
+      "PC"
+    ],
+    "stars": 72,
+    "description": "Native Windows PC recompilation of the unreleased GoldenEye 007 Xbox 360/XBLA remaster using ReXGlue. Requires your own copy.",
+    "version": "v0.9.7",
+    "releasedAt": "2026-11-02",
+    "sizeBytes": 25859172,
+    "releaseUrl": "https://github.com/CaiusCodes/GoldenEye-007-XBLA-PC-Recomp/releases/tag/v0.9.7",
+    "licenseId": "NOASSERTION",
+    "licenseUrl": null,
+    "curated": true
+  },
+  {
     "id": "badcompany94-rcmp-project-tandem",
     "repo": "badcompany94-rcmp/project-tandem",
     "title": "Tandem",
@@ -767,27 +852,6 @@
     "curated": true
   },
   {
-    "id": "mstan-supermarioworldrecomp",
-    "repo": "mstan/SuperMarioWorldRecomp",
-    "title": "Super Mario World",
-    "game": null,
-    "author": "mstan",
-    "console": "SNES",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows"
-    ],
-    "stars": 150,
-    "description": "Super Mario World recompiled for the Super Nintendo using snesrecomp · Part of the R.A.I.D. community",
-    "version": "v0.15.5",
-    "releasedAt": "2026-11-01",
-    "sizeBytes": 33038702,
-    "releaseUrl": "https://github.com/mstan/SuperMarioWorldRecomp/releases/tag/v0.15.5",
-    "licenseId": "NOASSERTION",
-    "licenseUrl": null,
-    "curated": true
-  },
-  {
     "id": "gothamor-gta-vcs-recomp",
     "repo": "gothamor/gta-vcs-recomp",
     "title": "Grand Theft Auto: Vice City Stories",
@@ -798,7 +862,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 408,
+    "stars": 410,
     "description": "A native Windows and Linux port of Grand Theft Auto: Vice City Stories (PS2, USA, SLUS-21590), made by recompiling the game's PS2 executable into C++",
     "version": "v0.1.1",
     "releasedAt": "2026-11-01",
@@ -920,24 +984,6 @@
     "licenseUrl": "https://api.github.com/licenses/mit"
   },
   {
-    "id": "exoteric33-ps2-native-recomp",
-    "repo": "exoteric33/ps2-native-recomp",
-    "title": "Ps 2",
-    "game": null,
-    "author": "exoteric33",
-    "console": "PlayStation 2",
-    "mechanism": "in-progress",
-    "platforms": [],
-    "stars": 65,
-    "description": "Turns a PS2 disc image into a native PC program by static recompilation; builds on ps2-web-recomp (MIT). Work in progress. Bring your own disc.",
-    "version": null,
-    "releasedAt": "2026-11-01",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/exoteric33/ps2-native-recomp/releases",
-    "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit"
-  },
-  {
     "id": "saulob-dragons-crown-pro-pc",
     "repo": "saulob/dragons-crown-pro-pc",
     "title": "Dragon's Crown Pro",
@@ -1015,7 +1061,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 574,
+    "stars": 575,
     "description": "Unofficial native Windows port of Tears of the Kingdom 1.4.3 using static recompilation. Builds locally from the player's own extracted game dump; no game files included.",
     "version": "v0.2.0",
     "releasedAt": "2026-11-01",
@@ -1055,7 +1101,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 55,
+    "stars": 56,
     "description": "Project Gotham Racing recompilation for a native PC port.",
     "version": "v1.3",
     "releasedAt": "2026-11-01",
@@ -1079,7 +1125,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 281,
+    "stars": 282,
     "description": "Burnout Revenge recompilation based on RexGlue + standalone Plume render",
     "version": "v0.4.10",
     "releasedAt": "2026-11-01",
@@ -1337,7 +1383,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 151,
+    "stars": 152,
     "description": "Zelda: Tears of the Kingdom (TotK) 1.0.0 recompiled to native Windows and Vulkan. Frame cap up to 240, DLSS option, mouse and keyboard. Open source, mostly written by AI agents. You build it from your own dump; no game files included. Measured on one PC so far.",
     "version": "v0.1.6.1",
     "releasedAt": "2026-11-01",
@@ -1355,7 +1401,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 332,
+    "stars": 333,
     "description": "This is an open source, all-in-one, static recompilation project that I built from the ground up for the Xbox 360 Gears of War series.",
     "version": "0.3.7",
     "releasedAt": "2026-11-01",
@@ -1388,30 +1434,6 @@
     "licenseId": "NOASSERTION",
     "licenseUrl": null,
     "curated": true
-  },
-  {
-    "id": "odrannnn-metroidprime2port",
-    "repo": "Odrannnn/MetroidPrime2Port",
-    "title": "Metroid Prime 2: Echoes",
-    "game": null,
-    "author": "Odrannnn",
-    "console": "GameCube",
-    "mechanism": "native",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "macOS",
-      "Android",
-      "iOS"
-    ],
-    "stars": 211,
-    "description": "Native port of Metroid Prime 2: Echoes (GameCube) for Linux and Android, built from the PrimeDecomp decompilation. No emulator, no game assets included: bring your own disc image.",
-    "version": "v0.8.0",
-    "releasedAt": "2026-11-01",
-    "sizeBytes": 123630496,
-    "releaseUrl": "https://github.com/Odrannnn/MetroidPrime2Port/releases/tag/v0.8.0",
-    "licenseId": "NOASSERTION",
-    "licenseUrl": null
   },
   {
     "id": "giopixelgh-crash-twinsanity-windows",
@@ -1488,7 +1510,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 50,
+    "stars": 52,
     "description": "Native Windows PC port of The Last of Us Remastered (PS4, CUSA00552). Runs the game’s own x86-64 code on a custom runtime, with PS4 system libraries reimplemented and a Vulkan renderer based on shadPS4. Includes a launcher. No game files included: you need your own copy.",
     "version": "v0.1.1",
     "releasedAt": "2026-11-01",
@@ -1658,7 +1680,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 137,
+    "stars": 138,
     "description": "Odin Sphere Leifthrasir native PC port for Windows, with direct PS4 PKG installation, TRG launcher and modern graphics options",
     "version": "v0.2.1",
     "releasedAt": "2026-10-31",
@@ -1719,7 +1741,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 72,
+    "stars": 73,
     "description": "Perfect Dark Zero [Xbox360] game static recompilation project based on RexGlue-SDK",
     "version": "1.9",
     "releasedAt": "2026-10-31",
@@ -1887,7 +1909,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 101,
+    "stars": 102,
     "description": "An unofficial original Xbox version PC port of 007: Nightfire via static recompilation.",
     "version": "V1",
     "releasedAt": "2026-10-31",
@@ -2092,7 +2114,7 @@
     "console": "PlayStation 3",
     "mechanism": "in-progress",
     "platforms": [],
-    "stars": 90,
+    "stars": 91,
     "description": "Killzone 2 // Unofficial PC Port (static recompilation). Work in progress, partly playable. Builds on your PC from your own game.",
     "version": null,
     "releasedAt": "2026-10-30",
@@ -2326,7 +2348,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 66,
+    "stars": 67,
     "description": "Gears of War 3 (Xbox 360) statically recompiled to native Windows x64 with the ReXGlue SDK. Bring your own copy of the game; no game files are included.",
     "version": "v0.3.1",
     "releasedAt": "2026-10-30",
@@ -2370,7 +2392,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 819,
+    "stars": 820,
     "description": "Xbox 360 to PC port of Dante's Inferno using ReXGlue (static recompilation)",
     "version": "v0.8.5-beta",
     "releasedAt": "2026-10-30",
@@ -2458,7 +2480,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5042,
+    "stars": 5043,
     "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
     "version": "windows-v1.9.7",
     "releasedAt": "2026-10-30",
@@ -2546,7 +2568,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 63,
+    "stars": 64,
     "description": "The installer for a sp00nznet recomp: here's my game, Build, here's my recomp. One per game, built from its launcher.json; Windows, Linux, macOS.",
     "version": "v0.6.0",
     "releasedAt": "2026-10-30",
@@ -2633,7 +2655,7 @@
     "console": "PlayStation 3",
     "mechanism": "in-progress",
     "platforms": [],
-    "stars": 95,
+    "stars": 96,
     "description": "Killzone 3 // Unofficial PC Port (static recompilation). Work in progress, partly playable. Builds on your PC from your own game.",
     "version": null,
     "releasedAt": "2026-10-29",
@@ -2677,7 +2699,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 1225,
+    "stars": 1227,
     "description": "Zelda Wind Waker HD Recomp",
     "version": "v0.5.0",
     "releasedAt": "2026-10-29",
@@ -2715,7 +2737,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 853,
+    "stars": 852,
     "description": "An unofficial original Xbox version PC port of BLACK (2006) via static recompilation.",
     "version": "V3",
     "releasedAt": "2026-10-29",
@@ -2774,7 +2796,7 @@
     "platforms": [
       "PC"
     ],
-    "stars": 1671,
+    "stars": 1672,
     "description": "Native Windows port of Shadow of the Colossus (PS4, CUSA08809) - bring your own game dump. Port nativo para PC.",
     "version": "v0.70",
     "releasedAt": "2026-10-29",
@@ -2939,7 +2961,7 @@
     "platforms": [
       "PC"
     ],
-    "stars": 41,
+    "stars": 42,
     "description": "Unofficial native Windows PC port of Call of Duty 3 (Xbox 360) via static recompilation. Bring your own game. EN · RU · UK.",
     "version": "2.1",
     "releasedAt": "2026-10-29",
@@ -3226,7 +3248,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 3846,
+    "stars": 3848,
     "description": "Bloodborne (v1.09) running natively on Linux and Windows: the game's x86-64 code runs as is, GPU side translated to Vulkan; FSR 4 / DLSS, co-op (BBSC). Bring your own dump.",
     "version": "0.7",
     "releasedAt": "2026-10-28",
@@ -3694,27 +3716,6 @@
     "licenseUrl": "https://api.github.com/licenses/gpl-2.0"
   },
   {
-    "id": "caiuscodes-goldeneye-007-xbla-pc-recomp",
-    "repo": "CaiusCodes/GoldenEye-007-XBLA-PC-Recomp",
-    "title": "GoldenEye 007",
-    "game": "goldeneye-007",
-    "author": "CaiusCodes",
-    "console": "Xbox 360",
-    "mechanism": "recompiled",
-    "platforms": [
-      "PC"
-    ],
-    "stars": 72,
-    "description": "Native Windows PC recompilation of the unreleased GoldenEye 007 Xbox 360/XBLA remaster using ReXGlue. Requires your own copy.",
-    "version": "v0.9.6c",
-    "releasedAt": "2026-10-25",
-    "sizeBytes": 16705852,
-    "releaseUrl": "https://github.com/CaiusCodes/GoldenEye-007-XBLA-PC-Recomp/releases/tag/v0.9.6c",
-    "licenseId": "NOASSERTION",
-    "licenseUrl": null,
-    "curated": true
-  },
-  {
     "id": "klexster-god-of-war-recomp",
     "repo": "KIexster/god-of-war-recomp",
     "title": "God of War",
@@ -3829,7 +3830,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 6806,
+    "stars": 6809,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -4025,7 +4026,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 67,
+    "stars": 68,
     "description": "The Legend of Zelda: A Link to the Past recompiled for the Super Nintendo using snesrecomp · Part of the R.A.I.D. community",
     "version": "v0.6.6",
     "releasedAt": "2026-10-24",
@@ -4091,26 +4092,6 @@
     "releaseUrl": "https://github.com/Antriksh1984/TheWarriors-XBERecomp/releases/tag/v0.2.0-alpha",
     "licenseId": null,
     "licenseUrl": null
-  },
-  {
-    "id": "luisxl15-metal-gear-solid-2-sons-of-liberty-for-android",
-    "repo": "luisxl15/METAL-GEAR-SOLID-2-Sons-of-Liberty-for-Android",
-    "title": "METAL GEAR SOLID 2 Sons Of Liberty For Android",
-    "game": null,
-    "author": "luisxl15",
-    "console": "PC",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Android"
-    ],
-    "stars": 43,
-    "description": "Metal Gear Solid 2 HD (NVIDIA SHIELD) para Android ARM64 — recompilação estática ARM32→ARM64, Adreno e Mali, LSFG, menus em 7 idiomas. Traga sua própria cópia do jogo. / Static recompilation port, bring your own game files.",
-    "version": "beta3",
-    "releasedAt": "2026-10-24",
-    "sizeBytes": 32556488,
-    "releaseUrl": "https://github.com/luisxl15/METAL-GEAR-SOLID-2-Sons-of-Liberty-for-Android/releases/tag/beta3",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
   },
   {
     "id": "ran-j-ps2recomp",
@@ -4500,7 +4481,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2352,
+    "stars": 2353,
     "description": "Native PC port of P.T. (runs from your own PS4 game files)",
     "version": "v1.0.8",
     "releasedAt": "2026-10-22",
@@ -5023,7 +5004,7 @@
     "console": "Game Boy Advance",
     "mechanism": "native",
     "platforms": [],
-    "stars": 294,
+    "stars": 295,
     "description": "Decompilation of Pokémon Mystery Dungeon: Red Rescue Team",
     "version": null,
     "releasedAt": "2026-10-16",
@@ -5067,7 +5048,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 3625,
+    "stars": 3626,
     "description": "Reviving the language that brought us the Jak & Daxter Series",
     "version": "v0.3.9",
     "releasedAt": "2026-10-15",
@@ -5713,7 +5694,7 @@
     "console": "Game Boy Advance",
     "mechanism": "native",
     "platforms": [],
-    "stars": 3661,
+    "stars": 3662,
     "description": "Decompilation of Pokémon Emerald",
     "version": null,
     "releasedAt": "2026-10-01",
@@ -5824,7 +5805,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 6201,
+    "stars": 6200,
     "description": "Dusklight brings a classic adventure to PC and mobile platforms with a variety of fixes and improvements.",
     "version": "v2.0.3",
     "releasedAt": "2026-09-30",
@@ -6466,7 +6447,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2415,
+    "stars": 2416,
     "description": "2 Ship 2 Harkinian: a PC port of Majora's Mask built from the decompilation, with widescreen, high resolution and mod support.",
     "version": "5.0.1",
     "releasedAt": "2026-08-25",
@@ -6808,7 +6789,7 @@
     "console": "Wii",
     "mechanism": "native",
     "platforms": [],
-    "stars": 150,
+    "stars": 151,
     "description": "Decompilation of Xenoblade (JP)",
     "version": null,
     "releasedAt": "2026-06-28",
@@ -6972,7 +6953,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2478,
+    "stars": 2477,
     "description": "I have spaghetti, now i just need a kart",
     "version": "1.0.0",
     "releasedAt": "2026-02-25",
