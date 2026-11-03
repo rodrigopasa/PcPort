@@ -50,6 +50,8 @@ export type Candidate = {
  */
 const DENIED: Record<string, string> = {
   // Judged on 2026-11-03.
+  "luisxl15/METAL-GEAR-SOLID-2-Sons-of-Liberty-for-Android":
+    "runs on Android only, not on a PC",
   "HalmyLyseas/VandalHearts-PcPort":
     "its release ships an HD pack of the game's own backgrounds and movies, which is game data",
   "xFractals/pokopia-native":
