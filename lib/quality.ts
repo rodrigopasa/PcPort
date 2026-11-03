@@ -49,6 +49,29 @@ export type Candidate = {
  * catches nothing.
  */
 const DENIED: Record<string, string> = {
+  // Judged on 2026-11-03.
+  "xFractals/pokopia-native":
+    "runs on Mac and iPhone only, not on a PC",
+  "Awis13/liberty-pro-max":
+    "a PC game moved to the Mac, not a console game brought to the PC",
+  "exoteric33/ps2-native-recomp":
+    "not a game port: recompiler or decompilation tooling the ports are built with",
+  "maxevans60/cm0102-bosman-edition":
+    "a PC game, not a console game brought to the PC",
+  "kirklandsig/halo-ce-anbernic-rg35xx":
+    "runs on a handheld Linux device, not on a PC",
+  "MoonCellar-Team/Glassline":
+    "an iPad game, not a console game",
+  "sp00nznet/recomp-launcher":
+    "not a game port: a launcher that sets up other projects",
+  "SandstoneDev/universal-ps2-recompiler":
+    "not a game port: recompiler or decompilation tooling the ports are built with",
+  "CBOC-Vita-Lab/galaxy-vita":
+    "runs on a PS Vita, not on a PC",
+  "spacefarergames/EcstaticaRecompiled":
+    "a PC game, not a console game brought to the PC",
+  "kittycache9/OpenSA2":
+    "a port of the game's 2012 PC release, not of a console version",
   // Judged on 2026-10-27, from what discovery added that week.
   "kanapitsas/portal2-recomp":
     "a PC game moved to the Mac and iPhone, not a console game brought to the PC",

@@ -1061,6 +1061,76 @@ export const GAMES: Record<string, GameMeta> = {
       en: "Street racing that rewards style as well as speed, with motorbikes, dynamic weather and the Kudos system.",
     },
   },
+  'tears-of-the-kingdom': {
+    releasedAt: '2023-05-12',
+    developer: 'Nintendo EPD',
+    publisher: 'Nintendo',
+    genres: ['Ação e aventura'],
+    summary: {
+      pt: "A continuação de Breath of the Wild: Link explora Hyrule, ilhas no céu e as profundezas, e constrói veículos com o poder Ultrahand.",
+      en: "The sequel to Breath of the Wild: Link explores Hyrule, sky islands and the depths, building vehicles with the Ultrahand power.",
+    },
+  },
+  'gta-v': {
+    releasedAt: '2013-09-17',
+    developer: 'Rockstar North',
+    publisher: 'Rockstar Games',
+    genres: ['Ação e aventura', 'Mundo aberto'],
+    summary: {
+      pt: "Três criminosos em Los Santos, alternando entre eles no meio de assaltos planejados em mundo aberto.",
+      en: "Three criminals in Los Santos, switching between them in the middle of planned heists in an open world.",
+    },
+  },
+  'nightfire': {
+    releasedAt: '2002-11-19',
+    developer: 'Eurocom',
+    publisher: 'Electronic Arts',
+    genres: ['Tiro em primeira pessoa'],
+    summary: {
+      pt: "James Bond investiga um industrial que planeja controlar armas em órbita, entre tiroteios, infiltração e perseguições.",
+      en: "James Bond investigates an industrialist who plans to seize orbital weapons, across gunfights, infiltration and chases.",
+    },
+  },
+  'naruto-broken-bond': {
+    releasedAt: '2008-11-18',
+    developer: 'Ubisoft Montreal',
+    publisher: 'Ubisoft',
+    genres: ['Luta', 'Ação e aventura'],
+    summary: {
+      pt: "Aventura em Konoha que segue a busca por Sasuke, com exploração, equipes de ninjas e combates.",
+      en: "An adventure around Konoha following the search for Sasuke, with exploration, ninja teams and fights.",
+    },
+  },
+  'call-of-duty-3': {
+    releasedAt: '2006-11-07',
+    developer: 'Treyarch',
+    publisher: 'Activision',
+    genres: ['Tiro em primeira pessoa'],
+    summary: {
+      pt: "A campanha da Normandia em 1944, contada por soldados americanos, britânicos, canadenses e poloneses.",
+      en: "The 1944 Normandy campaign, told through American, British, Canadian and Polish soldiers.",
+    },
+  },
+  'nfs-carbon': {
+    releasedAt: '2006-10-31',
+    developer: 'EA Black Box',
+    publisher: 'Electronic Arts',
+    genres: ['Corrida'],
+    summary: {
+      pt: "Corridas de rua noturnas em Palmont City, com disputas nos cânions e uma equipe que corre ao seu lado.",
+      en: "Night street racing in Palmont City, with canyon duels and a crew that races alongside you.",
+    },
+  },
+  'pilotwings-64': {
+    releasedAt: '1996-06-23',
+    developer: 'Nintendo EAD',
+    publisher: 'Nintendo',
+    genres: ['Simulação de voo'],
+    summary: {
+      pt: "Voo livre com asa-delta, mochila a jato e girocóptero sobre ilhas, em provas de precisão e pouso.",
+      en: "Free flight with a hang glider, rocket belt and gyrocopter over islands, in precision and landing trials.",
+    },
+  },
   wet: {
     releasedAt: '2009-09-15',
     developer: 'Artificial Mind and Movement',
