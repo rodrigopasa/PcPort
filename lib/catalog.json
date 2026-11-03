@@ -70,7 +70,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 49,
+    "stars": 51,
     "description": "Project Gotham Racing 4 PC port on ReGPU (XenonRecomp)",
     "version": "v0.1.5",
     "releasedAt": "2026-11-03",
@@ -108,7 +108,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 177,
+    "stars": 181,
     "description": "Native Windows PC port of The Last of Us Remastered (PS4, CUSA00552). Runs the game’s own x86-64 code on a custom runtime, with PS4 system libraries reimplemented and a Vulkan renderer based on shadPS4. Includes a launcher. No game files included: you need your own copy.",
     "version": "v0.1.4",
     "releasedAt": "2026-11-03",
@@ -201,7 +201,7 @@
     "console": "Nintendo Switch",
     "mechanism": "in-progress",
     "platforms": [],
-    "stars": 93,
+    "stars": 96,
     "description": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows with Vulkan. The 3D tutorial renders; not playable yet. No game files included.",
     "version": null,
     "releasedAt": "2026-11-03",
@@ -241,12 +241,12 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 114,
+    "stars": 118,
     "description": "Build Pokémon Pokopia (Switch 2) into a native Mac app and iPhone app from your own dump. Tools only; no game content.",
-    "version": null,
+    "version": "v1.0.0",
     "releasedAt": "2026-11-03",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/xFractals/pokopia-native/releases",
+    "sizeBytes": 12896222,
+    "releaseUrl": "https://github.com/xFractals/pokopia-native/releases/tag/v1.0.0",
     "licenseId": "MIT",
     "licenseUrl": "https://api.github.com/licenses/mit"
   },
@@ -318,7 +318,7 @@
     "console": "Nintendo DS",
     "mechanism": "native",
     "platforms": [],
-    "stars": 235,
+    "stars": 236,
     "description": "From-scratch, byte-matching decompilation of Super Mario 64 DS into C/C++, with a live progress atlas and matching tools.",
     "version": null,
     "releasedAt": "2026-11-03",
@@ -437,7 +437,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 209,
+    "stars": 211,
     "description": "Zelda: Tears of the Kingdom (TotK) 1.0.0 recompiled to native Windows and Vulkan. Frame cap up to 240, DLSS option, mouse and keyboard. Open source, mostly written by AI agents. You build it from your own dump; no game files included. Measured on one PC so far.",
     "version": "v0.1.8.2",
     "releasedAt": "2026-11-03",
@@ -568,12 +568,55 @@
       "Windows",
       "Linux"
     ],
-    "stars": 655,
+    "stars": 658,
     "description": "Unofficial native Windows port of Tears of the Kingdom 1.4.3 using static recompilation. Builds locally from the player's own extracted game dump; no game files included.",
     "version": "v0.3.1",
     "releasedAt": "2026-11-03",
     "sizeBytes": 210500088,
     "releaseUrl": "https://github.com/kuraeow/ultratears/releases/tag/v0.3.1",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
+  },
+  {
+    "id": "mabec-games-conker-recomped-and-reloaded",
+    "repo": "Mabec-games/Conker-Recomped-and-Reloaded",
+    "title": "Conker Recomped And Reloaded",
+    "game": null,
+    "author": "Mabec-games",
+    "console": "Xbox",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 115,
+    "description": "Conker: Live & Reloaded (Xbox) on Windows & Linux: a native recompilation with a launcher that builds it from your own disc, widescreen up to 240 FPS, enhancements, and online play with room codes.",
+    "version": "v1.4",
+    "releasedAt": "2026-11-03",
+    "sizeBytes": 133249528,
+    "releaseUrl": "https://github.com/Mabec-games/Conker-Recomped-and-Reloaded/releases/tag/v1.4",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
+  },
+  {
+    "id": "imrburn-wwe12-pc",
+    "repo": "iMrBurn/wwe12-pc",
+    "title": "WWE '12",
+    "game": null,
+    "author": "iMrBurn",
+    "console": "Xbox 360",
+    "mechanism": "native",
+    "platforms": [
+      "PC",
+      "Android"
+    ],
+    "stars": 58,
+    "description": "WWE '12 on PC ! Native render (Still W.I.P)",
+    "version": "v1.0.0",
+    "releasedAt": "2026-11-03",
+    "sizeBytes": 104058353,
+    "releaseUrl": "https://github.com/iMrBurn/wwe12-pc/releases/tag/v1.0.0",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
@@ -611,7 +654,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 168,
+    "stars": 167,
     "description": "A native PC port of Call of Duty: Finest Hour (original Xbox) with a remastered renderer",
     "version": "update",
     "releasedAt": "2026-11-02",
@@ -758,7 +801,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 742,
+    "stars": 741,
     "description": "Definitive Bloodborne PC Experience",
     "version": "v0.2.24",
     "releasedAt": "2026-11-02",
@@ -887,7 +930,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 443,
+    "stars": 444,
     "description": "A native Windows and Linux port of Grand Theft Auto: Vice City Stories (PS2, USA, SLUS-21590), made by recompiling the game's PS2 executable into C++",
     "version": "v0.2.0",
     "releasedAt": "2026-11-02",
@@ -965,27 +1008,6 @@
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
-  },
-  {
-    "id": "mabec-games-conker-recomped-and-reloaded",
-    "repo": "Mabec-games/Conker-Recomped-and-Reloaded",
-    "title": "Conker Recomped And Reloaded",
-    "game": null,
-    "author": "Mabec-games",
-    "console": "Xbox",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 115,
-    "description": "Conker: Live & Reloaded (Xbox) on Windows & Linux: a native recompilation with a launcher that builds it from your own disc, widescreen up to 240 FPS, enhancements, and online play with room codes.",
-    "version": "v1.3",
-    "releasedAt": "2026-11-02",
-    "sizeBytes": 133245432,
-    "releaseUrl": "https://github.com/Mabec-games/Conker-Recomped-and-Reloaded/releases/tag/v1.3",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
   },
   {
     "id": "blacklabelhq-recompone",
@@ -1122,7 +1144,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 4191,
+    "stars": 4215,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.3.4",
     "releasedAt": "2026-11-02",
@@ -1325,7 +1347,7 @@
     "console": "PC",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 57,
+    "stars": 58,
     "description": "Amateur Pokémon Legends: Arceus recompilation project. Requires your own game files. More optimizations and size reductions are coming in future updates!",
     "version": "v1.0.5",
     "releasedAt": "2026-11-02",
@@ -1455,7 +1477,7 @@
     "console": "PC",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 71,
+    "stars": 73,
     "description": "GTA IV (PC 1.0.8.0) statically recompiled for Apple silicon Macs: Metal renderer, TAA, Game Mode, ~100 FusionFix/ZolikaPatch fixes. Build it from your own copy; no game data included.",
     "version": null,
     "releasedAt": "2026-11-02",
@@ -1475,7 +1497,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 129,
+    "stars": 134,
     "description": "Pokémon Pokopia (Switch 2) recompiled to run natively on Windows.",
     "version": "v0.1.1",
     "releasedAt": "2026-11-02",
@@ -1497,7 +1519,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 93,
+    "stars": 96,
     "description": "GTA V (Xbox 360, TU27) static recompilation with ReXGlue",
     "version": "v0.3.0",
     "releasedAt": "2026-11-02",
@@ -1517,7 +1539,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 50,
+    "stars": 52,
     "description": "Ratchet & Clank: Tools of Destruction native PC port (PS3 static recompilation) – 4K, 60 fps, DualSense, Windows",
     "version": "v1.0",
     "releasedAt": "2026-11-02",
@@ -2527,7 +2549,7 @@
       "Windows",
       "Android"
     ],
-    "stars": 146,
+    "stars": 147,
     "description": "Gears of War 2 native PC port: the Xbox 360 game statically recompiled to x64 (not an emulator). 1440p/4K, FSR, 4K texture packs, keyboard & mouse, Android in progress. Bring your own copy.",
     "version": "v0.3.12",
     "releasedAt": "2026-10-30",
@@ -3087,7 +3109,7 @@
     "platforms": [
       "Linux"
     ],
-    "stars": 73,
+    "stars": 74,
     "description": "Urban Reign (PS2) static recompilation: native PC port with 60 FPS, high resolution, HD textures and up to 8 players",
     "version": "v1.4.1",
     "releasedAt": "2026-10-29",
@@ -3554,7 +3576,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 3874,
+    "stars": 3875,
     "description": "Bloodborne (v1.09) running natively on Linux and Windows: the game's x86-64 code runs as is, GPU side translated to Vulkan; FSR 4 / DLSS, co-op (BBSC). Bring your own dump.",
     "version": "0.7",
     "releasedAt": "2026-10-28",
@@ -3762,7 +3784,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 171,
+    "stars": 172,
     "description": "Call of Duty: Modern Warfare 2 (2009) for Xbox 360 recompiled for Windows & Linux",
     "version": "v0.8.2",
     "releasedAt": "2026-10-27",
@@ -4096,7 +4118,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 6916,
+    "stars": 6926,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -4758,27 +4780,6 @@
     "curated": true
   },
   {
-    "id": "imrburn-wwe12-pc",
-    "repo": "iMrBurn/wwe12-pc",
-    "title": "WWE '12",
-    "game": null,
-    "author": "iMrBurn",
-    "console": "Xbox 360",
-    "mechanism": "native",
-    "platforms": [
-      "PC"
-    ],
-    "stars": 58,
-    "description": "WWE '12 on PC ! Native render (Still W.I.P)",
-    "version": "v0.9.0-beta",
-    "releasedAt": "2026-10-22",
-    "sizeBytes": 35224404,
-    "releaseUrl": "https://github.com/iMrBurn/wwe12-pc/releases/tag/v0.9.0-beta",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
-    "curated": true
-  },
-  {
     "id": "fractalengineer-medal-of-honor-psx-recomp",
     "repo": "FractalEngineer/Medal-Of-Honor-PSX-Recomp",
     "title": "Medal Of Honor PSX",
@@ -4946,7 +4947,7 @@
     "console": "Game Boy Advance",
     "mechanism": "native",
     "platforms": [],
-    "stars": 1695,
+    "stars": 1696,
     "description": "Decompilation of Pokémon FireRed/LeafGreen",
     "version": null,
     "releasedAt": "2026-10-20",
@@ -5802,7 +5803,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 891,
+    "stars": 892,
     "description": "Recompilation of Blue Dragon",
     "version": "v1.3.1",
     "releasedAt": "2026-10-05",
@@ -6052,7 +6053,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 6209,
+    "stars": 6210,
     "description": "Dusklight brings a classic adventure to PC and mobile platforms with a variety of fixes and improvements.",
     "version": "v2.0.3",
     "releasedAt": "2026-09-30",
@@ -7079,7 +7080,7 @@
       "macOS",
       "iOS"
     ],
-    "stars": 335,
+    "stars": 336,
     "description": "The iOS and MacOS port of Xenia, the Xbox 360 Emulator Research project.",
     "version": "release-v2.0.1-build-9730",
     "releasedAt": "2026-06-08",
@@ -7320,7 +7321,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 43,
+    "stars": 44,
     "description": "An unofficial PC port of the Xbox 360 version of Grand Theft Auto V created through the process of static recompilation. Based on LibertyRecomp",
     "version": null,
     "releasedAt": "2026-01-05",
