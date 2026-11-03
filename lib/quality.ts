@@ -50,6 +50,8 @@ export type Candidate = {
  */
 const DENIED: Record<string, string> = {
   // Judged on 2026-11-03.
+  "HalmyLyseas/VandalHearts-PcPort":
+    "its release ships an HD pack of the game's own backgrounds and movies, which is game data",
   "xFractals/pokopia-native":
     "runs on Mac and iPhone only, not on a PC",
   "Awis13/liberty-pro-max":

@@ -75,6 +75,23 @@ const SEED = [
   'YesterMester/TheSimpsonsGameRecomp',
   'Ekspym/Tekken6-native-online',
   'djyt/cannonball',
+  // Seeded 3 November: real ports that discovery finds every hour and the
+  // heuristics turn away, because their repositories carry no description
+  // or topics to recognise them by. Each was read and judged by a person.
+  'whompay/SaintsReborn',
+  'whompay/FNCReborn',
+  'Wrexxial/HarmonyRecomp',
+  'MaxDeadBear/NaughtyBear_ReStuff',
+  'nikolaygorb/PerfectDarkRemasterRecomp',
+  'mzzvxm/LARecomp',
+  'RevoSucks/BM64Recomp',
+  'RevoSucks/BMHeroRecomp',
+  'Zumbo06/Crash2Recomp',
+  'Rotmill/Dino-Crisis-Modern-Edition',
+  'bromurok/BloodyRoarExtremeRecomp',
+  'LightVelox/sotc-vibe-pc',
+  'rages4calm/earthbound-companion',
+  'yaz0r/Azel',
 ]
 
 const TOPICS = [

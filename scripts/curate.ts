@@ -685,7 +685,7 @@ const CURATED: Record<string, Curation> = {
   "eandis/SDOJ-Recomp": { title: "DoDonPachi SaiDaiOuJou", console: "Xbox 360" },
   "BrazilianHobbyist/Project-RE-Visited-RE3": { title: "Resident Evil 3: Nemesis", console: "PlayStation" },
   "NeverCookFirst/DimensionsRecomp": { title: "LEGO Dimensions", console: "Xbox 360" },
-  "holdmysocks/mcla-recomp": { title: "Midnight Club: Los Angeles", console: "Xbox 360" },
+  "holdmysocks/mcla-recomp": { game: "midnight-club-la", title: "Midnight Club: Los Angeles", console: "Xbox 360" },
   "TekRantGaming/earthworm-jim-hd-recompiled": { title: "Earthworm Jim HD", console: "Xbox 360" },
   "davidptrssvea/Table-Tennis-Rockstar-PC": { title: "Rockstar Games Presents Table Tennis", console: "Xbox 360" },
   "shihabal3amri/tekken-tag-tournament-2-pc": { game: "tekken-tag-tournament-2", title: "Tekken Tag Tournament 2", console: "Xbox 360" },
@@ -830,6 +830,23 @@ const CURATED: Record<string, Curation> = {
   "FractalEngineer/Medal-Of-Honor-PSX-Recomp": { title: "Medal of Honor", console: "PlayStation" },
   "NoahVl/Birdman64": { game: "pilotwings-64", title: "Pilotwings 64", console: "Nintendo 64" },
   "Boron853/Souls-of-the-Reaper": { title: "Diablo III", console: "Xbox 360" },
+
+  // Fifteenth batch, 3 November: seeded by hand (see SEED in build-catalog.ts).
+  // Midnight Club: Los Angeles now has two ports.
+  "whompay/SaintsReborn": { title: "Saints Row", console: "Xbox 360", mechanism: "recompiled" },
+  "whompay/FNCReborn": { title: "Fight Night Champion", console: "Xbox 360", mechanism: "recompiled" },
+  "Wrexxial/HarmonyRecomp": { title: "Castlevania: Harmony of Despair", console: "Xbox 360", mechanism: "recompiled" },
+  "MaxDeadBear/NaughtyBear_ReStuff": { title: "Naughty Bear: Gold Edition", console: "Xbox 360", mechanism: "recompiled" },
+  "nikolaygorb/PerfectDarkRemasterRecomp": { title: "Perfect Dark Remaster", console: "Xbox 360", mechanism: "recompiled" },
+  "mzzvxm/LARecomp": { game: "midnight-club-la", title: "Midnight Club: Los Angeles", console: "Xbox 360", mechanism: "recompiled" },
+  "RevoSucks/BM64Recomp": { title: "Bomberman 64", console: "Nintendo 64", mechanism: "recompiled" },
+  "RevoSucks/BMHeroRecomp": { title: "Bomberman Hero", console: "Nintendo 64", mechanism: "recompiled" },
+  "Zumbo06/Crash2Recomp": { title: "Crash Bandicoot 2: Cortex Strikes Back", console: "PlayStation", mechanism: "recompiled" },
+  "Rotmill/Dino-Crisis-Modern-Edition": { title: "Dino Crisis", console: "PlayStation", mechanism: "recompiled" },
+  "bromurok/BloodyRoarExtremeRecomp": { title: "Bloody Roar Extreme", console: "Xbox", mechanism: "recompiled" },
+  "LightVelox/sotc-vibe-pc": { game: "shadow-of-the-colossus", title: "Shadow of the Colossus", console: "PlayStation 2", mechanism: "recompiled" },
+  "rages4calm/earthbound-companion": { title: "EarthBound", console: "SNES", mechanism: "native" },
+  "yaz0r/Azel": { title: "Panzer Dragoon Saga", console: "Sega Saturn", mechanism: "in-progress" },
 }
 
 /**

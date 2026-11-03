@@ -1131,6 +1131,16 @@ export const GAMES: Record<string, GameMeta> = {
       en: "Free flight with a hang glider, rocket belt and gyrocopter over islands, in precision and landing trials.",
     },
   },
+  'midnight-club-la': {
+    releasedAt: '2008-10-20',
+    developer: 'Rockstar San Diego',
+    publisher: 'Rockstar Games',
+    genres: ['Corrida', 'Mundo aberto'],
+    summary: {
+      pt: 'Corridas de rua em uma Los Angeles aberta, com dia e noite, carros licenciados e tunagem.',
+      en: 'Street racing across an open Los Angeles, with a day-night cycle, licensed cars and tuning.',
+    },
+  },
   wet: {
     releasedAt: '2009-09-15',
     developer: 'Artificial Mind and Movement',
