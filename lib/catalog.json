@@ -27,7 +27,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 2436,
+    "stars": 2437,
     "description": "Decompilation of The Legend of Zelda: Breath of the Wild (Switch 1.5.0)",
     "version": null,
     "releasedAt": "2026-11-04",
@@ -146,10 +146,10 @@
     ],
     "stars": 225,
     "description": "WipEout Omega Collection (PS4) native PC port for Windows: the game's own x86-64 code on the CPU, a PS4 runtime and the shadPS4 Vulkan video core. Playable, in active development. No game files included. ⭐ Star it if you like it; bug reports and requests are welcome in Issues!",
-    "version": "windows-v0.2.56",
+    "version": "windows-v0.2.58",
     "releasedAt": "2026-11-04",
-    "sizeBytes": 136174072,
-    "releaseUrl": "https://github.com/AbdelmoumenDeghbouche/wipeout_pc/releases/tag/windows-v0.2.56",
+    "sizeBytes": 136481272,
+    "releaseUrl": "https://github.com/AbdelmoumenDeghbouche/wipeout_pc/releases/tag/windows-v0.2.58",
     "licenseId": "GPL-2.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-2.0",
     "curated": true
@@ -187,7 +187,7 @@
     "platforms": [
       "PC"
     ],
-    "stars": 1717,
+    "stars": 1719,
     "description": "Native Windows port of Shadow of the Colossus (PS4, CUSA08809) - bring your own game dump. Port nativo para PC.",
     "version": "v0.72.1",
     "releasedAt": "2026-11-04",
@@ -226,16 +226,13 @@
     "author": "AbdelmoumenDeghbouche",
     "console": "PlayStation 4",
     "mechanism": "native",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
+    "platforms": [],
     "stars": 40,
     "description": "Native PC port of Knack (PS4): the game's own x86-64 code runs on the PC, with a PS4 runtime and the shadPS4 Vulkan video core. No emulator.",
-    "version": "v0.1.8",
+    "version": "v0.1.9",
     "releasedAt": "2026-11-04",
     "sizeBytes": 137128440,
-    "releaseUrl": "https://github.com/AbdelmoumenDeghbouche/knack_pc/releases/tag/v0.1.8",
+    "releaseUrl": "https://github.com/AbdelmoumenDeghbouche/knack_pc/releases/tag/v0.1.9",
     "licenseId": "GPL-2.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-2.0",
     "curated": true
@@ -306,7 +303,7 @@
     "console": "PlayStation 4",
     "mechanism": "native",
     "platforms": [],
-    "stars": 156,
+    "stars": 157,
     "description": "A decompilation of Bloodborne (CUSA03173 v1.09) with its own runtime: the game's code rewritten as readable C++, one verified function at a time. The game doesn't run on it yet; 21 functions verified. No game files included.",
     "version": null,
     "releasedAt": "2026-11-04",
@@ -454,7 +451,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 264,
+    "stars": 265,
     "description": "Ninja Gaiden Black (Xbox, 2005) statically recompiled into native Linux and Windows builds, with an experimental Android port, drawn by its own Vulkan renderer. A steady 60 fps, widescreen and ultrawide, keyboard and mouse, touch controls on Android, Steam Deck ready. Bring your own copy of the game.",
     "version": null,
     "releasedAt": "2026-11-04",
@@ -463,6 +460,113 @@
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
+  },
+  {
+    "id": "danielalves96-gow-pc-port",
+    "repo": "danielalves96/gow-pc-port",
+    "title": "God of War",
+    "game": "god-of-war",
+    "author": "danielalves96",
+    "console": "PlayStation 2",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 124,
+    "description": "Unofficial native PC port of God of War (2005, PS2) for Windows, with experimental Linux support. Statically recompiled to C++, not an emulator. OpenGL renderer, launcher, cheat menu, widescreen, 60 FPS. Bring your own game dump: no game files included.",
+    "version": "launcher-v0.3.0",
+    "releasedAt": "2026-11-04",
+    "sizeBytes": 229345469,
+    "releaseUrl": "https://github.com/danielalves96/gow-pc-port/releases/tag/launcher-v0.3.0",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
+  },
+  {
+    "id": "bryantmh-rush2recompiled",
+    "repo": "bryantmh/rush2recompiled",
+    "title": "Rush 2: Extreme Racing USA",
+    "game": null,
+    "author": "bryantmh",
+    "console": "Nintendo 64",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Linux"
+    ],
+    "stars": 69,
+    "description": "A recompilation of the N64 Classic: Rush 2",
+    "version": "v1.0.40",
+    "releasedAt": "2026-11-04",
+    "sizeBytes": 24832504,
+    "releaseUrl": "https://github.com/bryantmh/rush2recompiled/releases/tag/v1.0.40",
+    "licenseId": null,
+    "licenseUrl": null,
+    "curated": true
+  },
+  {
+    "id": "gensokyoclub-th06",
+    "repo": "GensokyoClub/th06",
+    "title": "Touhou 6: The Embodiment of Scarlet Devil",
+    "game": null,
+    "author": "GensokyoClub",
+    "console": "PC",
+    "mechanism": "native",
+    "platforms": [],
+    "stars": 627,
+    "description": "Decompilation of 東方紅魔郷　～ the Embodiment of Scarlet Devil (1.02h)",
+    "version": null,
+    "releasedAt": "2026-11-04",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/GensokyoClub/th06/releases",
+    "licenseId": "CC0-1.0",
+    "licenseUrl": "https://api.github.com/licenses/cc0-1.0",
+    "curated": true
+  },
+  {
+    "id": "kaikoclanworth1-wwe-svr2011-pc",
+    "repo": "KaikoClanworth1/wwe-svr2011-pc",
+    "title": "WWE SmackDown vs. Raw 2011",
+    "game": "wwe-svr-2011",
+    "author": "KaikoClanworth1",
+    "console": "Xbox 360",
+    "mechanism": "recompiled",
+    "platforms": [
+      "PC",
+      "Android"
+    ],
+    "stars": 163,
+    "description": "Unofficial native PC port of WWE SmackDown vs. Raw 2011 (Xbox 360). Bring your own disc.",
+    "version": "v2.1.9",
+    "releasedAt": "2026-11-04",
+    "sizeBytes": 522338401,
+    "releaseUrl": "https://github.com/KaikoClanworth1/wwe-svr2011-pc/releases/tag/v2.1.9",
+    "licenseId": "NOASSERTION",
+    "licenseUrl": null,
+    "curated": true
+  },
+  {
+    "id": "dyzz-srw64-recomp",
+    "repo": "dyzz/srw64-recomp",
+    "title": "Super Robot Wars 64",
+    "game": null,
+    "author": "dyzz",
+    "console": "Nintendo 64",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Android"
+    ],
+    "stars": 40,
+    "description": "Unofficial native recompilation of Super Robot Wars 64 for Windows, macOS, Linux/Steam Deck, Android and Switch: Japanese, English, Simplified and Traditional Chinese, widescreen, optional HD art, mods and bug fixes. Requires your own ROM.",
+    "version": "v0.5.3",
+    "releasedAt": "2026-11-04",
+    "sizeBytes": 72835571,
+    "releaseUrl": "https://github.com/dyzz/srw64-recomp/releases/tag/v0.5.3",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
   },
   {
     "id": "jiangzhengwenjz-katam",
@@ -516,7 +620,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 61,
+    "stars": 62,
     "description": "Project Gotham Racing 4 PC port on ReGPU (XenonRecomp)",
     "version": "v0.1.7",
     "releasedAt": "2026-11-03",
@@ -537,7 +641,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 211,
+    "stars": 212,
     "description": "Native Windows PC port of The Last of Us Remastered (PS4, CUSA00552). Runs the game’s own x86-64 code on a custom runtime, with PS4 system libraries reimplemented and a Vulkan renderer based on shadPS4. Includes a launcher. No game files included: you need your own copy.",
     "version": "v0.1.5",
     "releasedAt": "2026-11-03",
@@ -619,7 +723,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 94,
+    "stars": 95,
     "description": "Native port of Tekken Tag Tournament 2 Wii U Edition by static recompilation with the possibility to add new characters and mod the game easily. No files included.",
     "version": "v0.5.1",
     "releasedAt": "2026-11-03",
@@ -627,49 +731,6 @@
     "releaseUrl": "https://github.com/Petexy/Tekken-Tag-2-Ultimate-Edition/releases/tag/v0.5.1",
     "licenseId": "MIT",
     "licenseUrl": "https://api.github.com/licenses/mit",
-    "curated": true
-  },
-  {
-    "id": "danielalves96-gow-pc-port",
-    "repo": "danielalves96/gow-pc-port",
-    "title": "God of War",
-    "game": "god-of-war",
-    "author": "danielalves96",
-    "console": "PlayStation 2",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 124,
-    "description": "Unofficial native PC port of God of War (2005, PS2) for Windows, with experimental Linux support. Statically recompiled to C++, not an emulator. OpenGL renderer, launcher, cheat menu, widescreen, 60 FPS. Bring your own game dump: no game files included.",
-    "version": "launcher-v0.2.9",
-    "releasedAt": "2026-11-03",
-    "sizeBytes": 229202188,
-    "releaseUrl": "https://github.com/danielalves96/gow-pc-port/releases/tag/launcher-v0.2.9",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
-    "curated": true
-  },
-  {
-    "id": "bryantmh-rush2recompiled",
-    "repo": "bryantmh/rush2recompiled",
-    "title": "Rush 2: Extreme Racing USA",
-    "game": null,
-    "author": "bryantmh",
-    "console": "Nintendo 64",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Linux"
-    ],
-    "stars": 69,
-    "description": "A recompilation of the N64 Classic: Rush 2",
-    "version": "v1.0.39",
-    "releasedAt": "2026-11-03",
-    "sizeBytes": 24795640,
-    "releaseUrl": "https://github.com/bryantmh/rush2recompiled/releases/tag/v1.0.39",
-    "licenseId": null,
-    "licenseUrl": null,
     "curated": true
   },
   {
@@ -681,7 +742,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 370,
+    "stars": 371,
     "description": "This is an open source, all-in-one, static recompilation project that I built from the ground up for the Xbox 360 Gears of War series. All 4 games have been personally recompiled for use with a fully native renderer by me.",
     "version": "0.4.4",
     "releasedAt": "2026-11-03",
@@ -702,7 +763,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 250,
+    "stars": 251,
     "description": "Zelda: Tears of the Kingdom (TotK) 1.0.0 recompiled to native Windows and Vulkan. Frame cap up to 240, DLSS option, mouse and keyboard. Open source, mostly written by AI agents. You build it from your own dump; no game files included. Measured on one PC so far.",
     "version": "v0.1.9",
     "releasedAt": "2026-11-03",
@@ -836,7 +897,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 715,
+    "stars": 717,
     "description": "Unofficial native Windows port of Tears of the Kingdom 1.4.3 using static recompilation. Builds locally from the player's own extracted game dump; no game files included.",
     "version": "v0.3.1",
     "releasedAt": "2026-11-03",
@@ -904,7 +965,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 143,
+    "stars": 144,
     "description": "A PC port of Downhill Domination (PS2), built on a matching decompilation. Bring your own disc.",
     "version": "v0.7.9",
     "releasedAt": "2026-11-03",
@@ -963,7 +1024,7 @@
     "console": "PlayStation 3",
     "mechanism": "in-progress",
     "platforms": [],
-    "stars": 106,
+    "stars": 108,
     "description": "Killzone 3 // Unofficial PC Port (static recompilation). Work in progress, partly playable. Builds on your PC from your own game.",
     "version": null,
     "releasedAt": "2026-11-03",
@@ -1132,7 +1193,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 122,
+    "stars": 121,
     "description": "Forza Motorsport 4 recompilation based on ShiftGlue",
     "version": "v0.3.1",
     "releasedAt": "2026-11-03",
@@ -1170,7 +1231,7 @@
     "console": "Xbox 360",
     "mechanism": "native",
     "platforms": [],
-    "stars": 456,
+    "stars": 457,
     "description": "Tekken 6 (Xbox 360) native on Windows with rollback netcode - build from your own ISO",
     "version": "v2.7.1",
     "releasedAt": "2026-11-03",
@@ -1375,7 +1436,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 4581,
+    "stars": 4597,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.3.7",
     "releasedAt": "2026-11-03",
@@ -1940,7 +2001,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 135,
+    "stars": 136,
     "description": "OpenTricky is an unofficial PC port of SSX Tricky, made by static recompilation. Bring your own disc.",
     "version": "v0.1.5",
     "releasedAt": "2026-11-02",
@@ -2021,25 +2082,6 @@
     "curated": true
   },
   {
-    "id": "gensokyoclub-th06",
-    "repo": "GensokyoClub/th06",
-    "title": "Touhou 6: The Embodiment of Scarlet Devil",
-    "game": null,
-    "author": "GensokyoClub",
-    "console": "PC",
-    "mechanism": "native",
-    "platforms": [],
-    "stars": 627,
-    "description": "Decompilation of 東方紅魔郷　～ the Embodiment of Scarlet Devil (1.02h)",
-    "version": null,
-    "releasedAt": "2026-11-02",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/GensokyoClub/th06/releases",
-    "licenseId": "CC0-1.0",
-    "licenseUrl": "https://api.github.com/licenses/cc0-1.0",
-    "curated": true
-  },
-  {
     "id": "davidptrssvea-table-tennis-rockstar-pc",
     "repo": "davidptrssvea/Table-Tennis-Rockstar-PC",
     "title": "Rockstar Games Presents Table Tennis",
@@ -2116,7 +2158,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 308,
+    "stars": 314,
     "description": "Pokémon Pokopia (Switch 2) recompiled to run natively on Windows.",
     "version": "v0.1.1",
     "releasedAt": "2026-11-02",
@@ -2139,7 +2181,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 132,
+    "stars": 135,
     "description": "GTA V (Xbox 360, TU27) static recompilation with ReXGlue",
     "version": "v0.3.0",
     "releasedAt": "2026-11-02",
@@ -2237,28 +2279,6 @@
     "curated": true
   },
   {
-    "id": "kaikoclanworth1-wwe-svr2011-pc",
-    "repo": "KaikoClanworth1/wwe-svr2011-pc",
-    "title": "WWE SmackDown vs. Raw 2011",
-    "game": "wwe-svr-2011",
-    "author": "KaikoClanworth1",
-    "console": "Xbox 360",
-    "mechanism": "recompiled",
-    "platforms": [
-      "PC",
-      "Android"
-    ],
-    "stars": 163,
-    "description": "Unofficial native PC port of WWE SmackDown vs. Raw 2011 (Xbox 360). Bring your own disc.",
-    "version": "v2.1.8",
-    "releasedAt": "2026-11-01",
-    "sizeBytes": 521925768,
-    "releaseUrl": "https://github.com/KaikoClanworth1/wwe-svr2011-pc/releases/tag/v2.1.8",
-    "licenseId": "NOASSERTION",
-    "licenseUrl": null,
-    "curated": true
-  },
-  {
     "id": "mstan-megamanxsnesrecomp",
     "repo": "mstan/MegaManXSNESRecomp",
     "title": "Mega Man X",
@@ -2316,7 +2336,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 353,
+    "stars": 352,
     "description": "Dragon's Crown Pro native PC port for Windows, with direct PS4 PKG installation, TRG launcher and modern graphics options",
     "version": "v0.9.1",
     "releasedAt": "2026-11-01",
@@ -2359,7 +2379,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 300,
+    "stars": 301,
     "description": "Burnout Revenge recompilation based on RexGlue + standalone Plume render",
     "version": "v0.4.10",
     "releasedAt": "2026-11-01",
@@ -2425,7 +2445,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 62,
+    "stars": 63,
     "description": "Native loader that runs the original Xbox Call of Duty 2: Big Red One on Linux and Windows PCs (bring your own game). Proof of concept for a full native build.",
     "version": "v0.2.2",
     "releasedAt": "2026-11-01",
@@ -2777,7 +2797,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 67,
+    "stars": 69,
     "description": "A native Windows port of Rayman 3 HD (Xbox 360) using static recompilation, with HD+ enhancements and Turkish localization.",
     "version": "v1.1.0",
     "releasedAt": "2026-10-31",
@@ -2843,7 +2863,7 @@
       "macOS",
       "iOS"
     ],
-    "stars": 603,
+    "stars": 604,
     "description": "Unofficial static recompilation of the Xbox 360 version of Need for Speed: Most Wanted (2005): a native port for Steam Deck, Steam Machine, Steam Frame, Linux and Mac (iPhone/iPad: sideload the experimental IPA or build it yourself). Bring your own disc: no game files included. Not affiliated with EA or Valve.",
     "version": "v0.2.1",
     "releasedAt": "2026-10-31",
@@ -3033,7 +3053,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 70,
+    "stars": 71,
     "description": "Gears of War 3 (Xbox 360) statically recompiled to native Windows x64 with the ReXGlue SDK. Bring your own copy of the game; no game files are included.",
     "version": "v0.3.1",
     "releasedAt": "2026-10-30",
@@ -3057,7 +3077,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 116,
+    "stars": 117,
     "description": "A matching decompilation and PC port for the Ratchet & Clank series",
     "version": "launcher-v0.10.0",
     "releasedAt": "2026-10-30",
@@ -3124,7 +3144,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 481,
+    "stars": 482,
     "description": "An unofficial PC port of the Xbox 360 version of Spider-Man: Edge of Time created through the process of static recompilation.",
     "version": "v1.1",
     "releasedAt": "2026-10-30",
@@ -3145,7 +3165,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5106,
+    "stars": 5107,
     "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
     "version": "windows-v1.9.7",
     "releasedAt": "2026-10-30",
@@ -3190,7 +3210,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 483,
+    "stars": 485,
     "description": "ReStreet: FIFA Street (2012) recompiled for Windows PC, with online play, a launcher with friends, chat and rooms. Bring your own game.",
     "version": "v2.1.4-online-beta",
     "releasedAt": "2026-10-30",
@@ -3277,7 +3297,7 @@
     "platforms": [
       "Linux"
     ],
-    "stars": 75,
+    "stars": 76,
     "description": "Urban Reign (PS2) static recompilation: native PC port with 60 FPS, high resolution, HD textures and up to 8 players",
     "version": "v1.4.1",
     "releasedAt": "2026-10-29",
@@ -3339,7 +3359,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 875,
+    "stars": 876,
     "description": "An unofficial original Xbox version PC port of BLACK (2006) via static recompilation.",
     "version": "V3",
     "releasedAt": "2026-10-29",
@@ -3377,7 +3397,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 152,
+    "stars": 153,
     "description": "An unofficial original Xbox version PC port of 007: From Russia With Love via static recompilation.",
     "version": "V2",
     "releasedAt": "2026-10-29",
@@ -3419,7 +3439,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2113,
+    "stars": 2114,
     "description": "Static recompilation of Link's Awakening (Switch) to native macOS, Windows and Linux",
     "version": "beta_5.4",
     "releasedAt": "2026-10-29",
@@ -3759,29 +3779,6 @@
     "curated": true
   },
   {
-    "id": "dyzz-srw64-recomp",
-    "repo": "dyzz/srw64-recomp",
-    "title": "Super Robot Wars 64",
-    "game": null,
-    "author": "dyzz",
-    "console": "Nintendo 64",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "macOS",
-      "Android"
-    ],
-    "stars": 40,
-    "description": "Unofficial native recompilation of Super Robot Wars 64 for Windows, macOS, Linux/Steam Deck, Android and Switch: Japanese, English, Simplified and Traditional Chinese, widescreen, optional HD art, mods and bug fixes. Requires your own ROM.",
-    "version": "v0.5.2",
-    "releasedAt": "2026-10-28",
-    "sizeBytes": 65348813,
-    "releaseUrl": "https://github.com/dyzz/srw64-recomp/releases/tag/v0.5.2",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
-  },
-  {
     "id": "nikolaygorb-armyoftworecomp",
     "repo": "nikolaygorb/ArmyOfTwoRecomp",
     "title": "Army of Two",
@@ -3901,7 +3898,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 172,
+    "stars": 173,
     "description": "Call of Duty: Modern Warfare 2 (2009) for Xbox 360 recompiled for Windows & Linux",
     "version": "v0.8.2",
     "releasedAt": "2026-10-27",
@@ -3949,7 +3946,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 910,
+    "stars": 911,
     "description": "Experimental native PC port of Lost Odyssey using static recompilation. No game assets included.",
     "version": "v1.1.0",
     "releasedAt": "2026-10-26",
@@ -4115,7 +4112,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 222,
+    "stars": 223,
     "description": "Native PC port of God of War (PS2) via static recompilation with PS2Recomp",
     "version": null,
     "releasedAt": "2026-10-25",
@@ -4221,7 +4218,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 6981,
+    "stars": 6982,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -4438,7 +4435,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 71,
+    "stars": 72,
     "description": "DOAX 2 Recompilation with RexGlue",
     "version": "v1.1.4",
     "releasedAt": "2026-10-24",
@@ -4643,7 +4640,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 248,
+    "stars": 250,
     "description": "Native Windows port of Tekken Tag Tournament 2 (Xbox 360) by static recompilation. Not an emulator. Ships no game data - the installer builds the game from your own disc image and Title Update 3.",
     "version": "v0.1.7",
     "releasedAt": "2026-10-23",
@@ -4834,7 +4831,7 @@
     "console": "Nintendo Switch",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 546,
+    "stars": 548,
     "description": "Unofficial static recompilation of Bayonetta 2 (Switch) for Windows. Builds the game on your PC from your own legally dumped copy. No game files, keys or SDK code included.",
     "version": "v0.3.3",
     "releasedAt": "2026-10-22",
@@ -4857,7 +4854,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2385,
+    "stars": 2386,
     "description": "Native PC port of P.T. (runs from your own PS4 game files)",
     "version": "v1.0.8",
     "releasedAt": "2026-10-22",
@@ -6222,7 +6219,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 6221,
+    "stars": 6222,
     "description": "Dusklight brings a classic adventure to PC and mobile platforms with a variety of fixes and improvements.",
     "version": "v2.0.3",
     "releasedAt": "2026-09-30",
@@ -7512,7 +7509,7 @@
     "console": "Xbox 360",
     "mechanism": "emulator",
     "platforms": [],
-    "stars": 9799,
+    "stars": 9801,
     "description": "Xbox 360 Emulator Research Project",
     "version": null,
     "releasedAt": "2026-02-18",
@@ -7764,7 +7761,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2100,
+    "stars": 2101,
     "description": "work in progress port of n64decomp/perfect_dark to modern platforms",
     "version": "ci-dev-build",
     "releasedAt": "2024-05-14",
