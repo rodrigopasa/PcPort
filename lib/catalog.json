@@ -65,7 +65,7 @@
     "console": "GameCube",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 123,
+    "stars": 124,
     "description": "Play Mario Kart: Double Dash!! online on Windows. Project Tandem is a native PC recompilation with 2-8 player solo/shared-kart multiplayer, widescreen, and mouse/keyboard controls. Requires your own compatible USA disc image.",
     "version": null,
     "releasedAt": "2026-11-04",
@@ -84,7 +84,7 @@
     "console": "PlayStation 3",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 76,
+    "stars": 80,
     "description": "Native Windows port of Demon's Souls (PS3, BLUS-30443) via ps3recomp static recompilation. Bring your own disc image; no game files included.",
     "version": "v2026.11.03.10",
     "releasedAt": "2026-11-04",
@@ -144,7 +144,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 225,
+    "stars": 226,
     "description": "WipEout Omega Collection (PS4) native PC port for Windows: the game's own x86-64 code on the CPU, a PS4 runtime and the shadPS4 Vulkan video core. Playable, in active development. No game files included. ⭐ Star it if you like it; bug reports and requests are welcome in Issues!",
     "version": "windows-v0.2.59",
     "releasedAt": "2026-11-04",
@@ -476,7 +476,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 124,
+    "stars": 125,
     "description": "Unofficial native PC port of God of War (2005, PS2) for Windows, with experimental Linux support. Statically recompiled to C++, not an emulator. OpenGL renderer, launcher, cheat menu, widescreen, 60 FPS. Bring your own game dump: no game files included.",
     "version": "launcher-v0.3.0",
     "releasedAt": "2026-11-04",
@@ -659,6 +659,25 @@
     "curated": true
   },
   {
+    "id": "shdecompilations-silent-hill-decomp",
+    "repo": "shdecompilations/silent-hill-decomp",
+    "title": "Silent Hill",
+    "game": "silent-hill",
+    "author": "shdecompilations",
+    "console": "PlayStation",
+    "mechanism": "native",
+    "platforms": [],
+    "stars": 963,
+    "description": "An in-progress decompilation of Silent Hill on the PlayStation 1.",
+    "version": null,
+    "releasedAt": "2026-11-04",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/shdecompilations/silent-hill-decomp/releases",
+    "licenseId": "NOASSERTION",
+    "licenseUrl": null,
+    "curated": true
+  },
+  {
     "id": "jiangzhengwenjz-katam",
     "repo": "jiangzhengwenjz/katam",
     "title": "Kirby & The Amazing Mirror",
@@ -689,7 +708,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 191,
+    "stars": 192,
     "description": "Native Windows PC port of God of War (PS2), built by statically recompiling MIPS R5900 code to C++ with PS2Recomp. Includes an installer launcher, one-click build, fan-translation support and a 60 fps target. No game files included: you need your own copy.",
     "version": "v0.5.0",
     "releasedAt": "2026-11-03",
@@ -710,7 +729,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 63,
+    "stars": 64,
     "description": "Project Gotham Racing 4 PC port on ReGPU (XenonRecomp)",
     "version": "v0.1.7",
     "releasedAt": "2026-11-03",
@@ -731,7 +750,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 218,
+    "stars": 220,
     "description": "Native Windows PC port of The Last of Us Remastered (PS4, CUSA00552). Runs the game’s own x86-64 code on a custom runtime, with PS4 system libraries reimplemented and a Vulkan renderer based on shadPS4. Includes a launcher. No game files included: you need your own copy.",
     "version": "v0.1.5",
     "releasedAt": "2026-11-03",
@@ -758,25 +777,6 @@
     "releaseUrl": "https://github.com/RussoPhone/tomodachi-ltd-recomp/releases",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
-    "curated": true
-  },
-  {
-    "id": "shdecompilations-silent-hill-decomp",
-    "repo": "shdecompilations/silent-hill-decomp",
-    "title": "Silent Hill",
-    "game": "silent-hill",
-    "author": "shdecompilations",
-    "console": "PlayStation",
-    "mechanism": "native",
-    "platforms": [],
-    "stars": 963,
-    "description": "An in-progress decompilation of Silent Hill on the PlayStation 1.",
-    "version": null,
-    "releasedAt": "2026-11-03",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/shdecompilations/silent-hill-decomp/releases",
-    "licenseId": "NOASSERTION",
-    "licenseUrl": null,
     "curated": true
   },
   {
@@ -813,7 +813,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 95,
+    "stars": 96,
     "description": "Native port of Tekken Tag Tournament 2 Wii U Edition by static recompilation with the possibility to add new characters and mod the game easily. No files included.",
     "version": "v0.5.1",
     "releasedAt": "2026-11-03",
@@ -853,7 +853,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 251,
+    "stars": 253,
     "description": "Zelda: Tears of the Kingdom (TotK) 1.0.0 recompiled to native Windows and Vulkan. Frame cap up to 240, DLSS option, mouse and keyboard. Open source, mostly written by AI agents. You build it from your own dump; no game files included. Measured on one PC so far.",
     "version": "v0.1.9",
     "releasedAt": "2026-11-03",
@@ -987,7 +987,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 723,
+    "stars": 724,
     "description": "Unofficial native PC and Steam Deck port of Tears of the Kingdom 1.4.3 using static recompilation. Builds locally from the player's own extracted game dump; no game files included.",
     "version": "v0.3.1",
     "releasedAt": "2026-11-03",
@@ -1501,7 +1501,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 4660,
+    "stars": 4668,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.3.7",
     "releasedAt": "2026-11-03",
@@ -1682,7 +1682,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 261,
+    "stars": 262,
     "description": "Native PC port of Peter Jackson's King Kong (Xbox 360) via static recompilation",
     "version": "v2.0.11",
     "releasedAt": "2026-11-02",
@@ -2201,7 +2201,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 325,
+    "stars": 326,
     "description": "Pokémon Pokopia (Switch 2) recompiled to run natively on Windows.",
     "version": "v0.1.1",
     "releasedAt": "2026-11-02",
@@ -2224,7 +2224,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 136,
+    "stars": 138,
     "description": "GTA V (Xbox 360, TU27) static recompilation with ReXGlue",
     "version": "v0.3.0",
     "releasedAt": "2026-11-02",
@@ -2840,7 +2840,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 70,
+    "stars": 71,
     "description": "A native Windows port of Rayman 3 HD (Xbox 360) using static recompilation, with HD+ enhancements and Turkish localization.",
     "version": "v1.1.0",
     "releasedAt": "2026-10-31",
@@ -3033,7 +3033,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 67,
+    "stars": 68,
     "description": "Unofficial Knack II (Knack 2) PC port for Windows. Experimental Vulkan alpha, launcher and local co-op; requires your own PS4 game dump.",
     "version": "knack2-Version-0.18.2",
     "releasedAt": "2026-10-30",
@@ -3482,7 +3482,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2118,
+    "stars": 2119,
     "description": "Static recompilation of Link's Awakening (Switch) to native macOS, Windows and Linux",
     "version": "beta_5.4",
     "releasedAt": "2026-10-29",
@@ -3752,7 +3752,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 3891,
+    "stars": 3893,
     "description": "Bloodborne (v1.09) running natively on Linux and Windows: the game's x86-64 code runs as is, GPU side translated to Vulkan; FSR 4 / DLSS, co-op (BBSC). Bring your own dump.",
     "version": "0.7",
     "releasedAt": "2026-10-28",
@@ -4242,7 +4242,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 6993,
+    "stars": 6997,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -4857,7 +4857,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2388,
+    "stars": 2389,
     "description": "Native PC port of P.T. (runs from your own PS4 game files)",
     "version": "v1.0.8",
     "releasedAt": "2026-10-22",
@@ -4938,7 +4938,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 358,
+    "stars": 359,
     "description": "A playable PC port of Sly Cooper and the Thievius Raccoonus, rebuilt through reverse engineering.",
     "version": "decompilation",
     "releasedAt": "2026-10-21",
@@ -5260,7 +5260,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 106,
+    "stars": 107,
     "description": "Native PC port of Earthworm Jim HD (Xbox Live Arcade) via static recompilation, with the TRG launcher",
     "version": "v0.9.6",
     "releasedAt": "2026-10-18",
@@ -5950,7 +5950,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 896,
+    "stars": 897,
     "description": "Recompilation of Blue Dragon",
     "version": "v1.3.1",
     "releasedAt": "2026-10-05",
@@ -7512,7 +7512,7 @@
     "console": "Xbox 360",
     "mechanism": "emulator",
     "platforms": [],
-    "stars": 9799,
+    "stars": 9800,
     "description": "Xbox 360 Emulator Research Project",
     "version": null,
     "releasedAt": "2026-02-18",
@@ -7677,7 +7677,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5337,
+    "stars": 5338,
     "description": "An unofficial PC port of the Xbox 360 version of Sonic Unleashed created through the process of static recompilation.",
     "version": "v1.0.3",
     "releasedAt": "2025-04-03",
@@ -7924,7 +7924,7 @@
     "console": "PlayStation",
     "mechanism": "native",
     "platforms": [],
-    "stars": 1222,
+    "stars": 1223,
     "description": "Decompilation of Castlevania: Symphony of the Night (PSX, PSP, Saturn)",
     "version": "cc1-psx-26",
     "releasedAt": "2023-04-05",
