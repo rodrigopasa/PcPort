@@ -46,7 +46,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 50,
+    "stars": 51,
     "description": "Native port of Shadow of the Colossus (PS2) to macOS and PS Vita: static recompilation with PS2Recomp, a native Metal/OpenGL renderer, and a decompilation in progress",
     "version": null,
     "releasedAt": "2026-11-05",
@@ -415,7 +415,7 @@
     "console": "PlayStation 3",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 159,
+    "stars": 160,
     "description": "Native Windows port of Demon's Souls (PS3, BLUS-30443) via ps3recomp static recompilation. Bring your own disc image; no game files included.",
     "version": "v2026.11.04",
     "releasedAt": "2026-11-05",
@@ -480,7 +480,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 108,
+    "stars": 109,
     "description": "Unofficial static recompilation of Sonic Free Riders for Windows, Linux and Android, with controller/keyboard support, custom VRM avatars, and Kinect v1, Kinect v2 (experimental) and webcam motion controls on Windows.",
     "version": "v0.10.46",
     "releasedAt": "2026-11-05",
@@ -523,7 +523,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 160,
+    "stars": 161,
     "description": "A PC port of Downhill Domination (PS2), built on a matching decompilation. Bring your own disc.",
     "version": "v0.7.10",
     "releasedAt": "2026-11-05",
@@ -680,7 +680,7 @@
     "platforms": [
       "macOS"
     ],
-    "stars": 113,
+    "stars": 114,
     "description": "A Mac app that turns your own Nintendo Switch 2 game dumps into native Apple silicon games. It picks the best build for your Mac. Mario Kart World, Donkey Kong Bananza, Pokopia and more. Not an emulator, no keys.",
     "version": "v0.2.0",
     "releasedAt": "2026-11-05",
@@ -697,12 +697,14 @@
     "author": "adrbn",
     "console": "PC",
     "mechanism": "recompiled",
-    "platforms": [],
+    "platforms": [
+      "macOS"
+    ],
     "stars": 55,
     "description": "Call of Duty: Black Ops II statically recompiled from 32-bit x86 Windows to native ARM64 macOS: Remill → LLVM IR, a hand-written Win32 runtime, Direct3D 11 drawn by Metal. No Wine, no game files.",
     "version": "v0.1.0-beta",
     "releasedAt": "2026-11-05",
-    "sizeBytes": null,
+    "sizeBytes": 37771849,
     "releaseUrl": "https://github.com/adrbn/bo2-mac/releases/tag/v0.1.0-beta",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
@@ -1024,7 +1026,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 402,
+    "stars": 403,
     "description": "The 2012 Forza Horizon, native on Windows and Linux, and online again: Horizon World, leaderboards and Rivals on a public server you can also self-host. Bring your own copy.",
     "version": "v0.2.6",
     "releasedAt": "2026-11-04",
@@ -1046,7 +1048,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 155,
+    "stars": 156,
     "description": "Odin Sphere Leifthrasir native PC port for Windows, with direct PS4 PKG installation, TRG launcher and modern graphics options",
     "version": "v0.2.3",
     "releasedAt": "2026-11-04",
@@ -1234,7 +1236,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 2192,
+    "stars": 2193,
     "description": "Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo",
     "version": "v0.3.13",
     "releasedAt": "2026-11-04",
@@ -1278,7 +1280,7 @@
       "Windows",
       "Android"
     ],
-    "stars": 152,
+    "stars": 153,
     "description": "Gears of War 2 native PC port: the Xbox 360 game statically recompiled to x64 (not an emulator). 1440p/4K, FSR, 4K texture packs, keyboard & mouse, Android in progress. Bring your own copy.",
     "version": "v0.3.13",
     "releasedAt": "2026-11-04",
@@ -1423,7 +1425,7 @@
       "macOS",
       "iOS"
     ],
-    "stars": 341,
+    "stars": 342,
     "description": "The iOS and MacOS port of Xenia, the Xbox 360 Emulator Research project.",
     "version": "release-v2.2-build-11445",
     "releasedAt": "2026-11-04",
@@ -1484,7 +1486,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 386,
+    "stars": 387,
     "description": "This is an open source, all-in-one, static recompilation project that I built from the ground up for the Xbox 360 Gears of War series. All 4 games have been personally recompiled for use with a fully native renderer by me.",
     "version": "0.4.5",
     "releasedAt": "2026-11-04",
@@ -1544,7 +1546,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 4985,
+    "stars": 5001,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.3.10",
     "releasedAt": "2026-11-04",
@@ -1617,7 +1619,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 651,
+    "stars": 652,
     "description": "Native port of Metroid Prime (GameCube) for Linux, Windows and Android, built from the PrimeDecomp decompilation. No emulator, no game assets included: bring your own disc image.",
     "version": "v0.41.0",
     "releasedAt": "2026-11-04",
@@ -1698,7 +1700,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 405,
+    "stars": 406,
     "description": "Nintendo Switch 2 games recompiled to run natively on PC. Pokémon Pokopia is playable now.",
     "version": "v0.2.0",
     "releasedAt": "2026-11-04",
@@ -1788,7 +1790,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 150,
+    "stars": 151,
     "description": "CPS-2 Recomp: unofficial native PC ports of Capcom CPS-2 arcade games (Street Fighter Alpha 2, Super Puzzle Fighter II Turbo, Vampire Savior) via static recompilation, with training modes, in one launcher: macOS, Linux, Steam Deck, Windows. Requires your own ROM sets. Beta.",
     "version": "v1.3.0",
     "releasedAt": "2026-11-03",
@@ -1898,7 +1900,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 756,
+    "stars": 760,
     "description": "Unofficial native PC and Steam Deck port of Tears of the Kingdom 1.4.3 using static recompilation. Builds locally from the player's own extracted game dump; no game files included.",
     "version": "v0.3.1",
     "releasedAt": "2026-11-03",
@@ -2168,7 +2170,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 90,
+    "stars": 91,
     "description": "",
     "version": "v0.5.1",
     "releasedAt": "2026-11-03",
@@ -2273,7 +2275,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 85,
+    "stars": 86,
     "description": "Ratchet & Clank: Tools of Destruction native PC port (PS3 static recompilation) – 4K, 60 fps, DualSense, Windows",
     "version": "v1.1",
     "releasedAt": "2026-11-03",
@@ -2533,7 +2535,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 245,
+    "stars": 246,
     "description": "Native Windows port of Dead or Alive Xtreme Beach Volleyball (Xbox), built by static recompilation with a hand-written runtime. Requires your own copy of the game.",
     "version": "v0.6.2",
     "releasedAt": "2026-11-02",
@@ -3113,7 +3115,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 60,
+    "stars": 61,
     "description": "Zone of the Enders - Static Recompilation Project for PC",
     "version": "v1.0.1",
     "releasedAt": "2026-10-31",
@@ -3280,7 +3282,7 @@
     "console": "PSP",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 180,
+    "stars": 181,
     "description": "Unofficial native PC ports of God of War: Chains of Olympus and Ghost of Sparta (PSP) by static recompilation. Bring your own disc.",
     "version": "v1.4.0",
     "releasedAt": "2026-10-30",
@@ -3412,7 +3414,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5137,
+    "stars": 5138,
     "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
     "version": "windows-v1.9.7",
     "releasedAt": "2026-10-30",
@@ -3457,7 +3459,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 486,
+    "stars": 488,
     "description": "ReStreet: FIFA Street (2012) recompiled for Windows PC, with online play, a launcher with friends, chat and rooms. Bring your own game.",
     "version": "v2.1.4-online-beta",
     "releasedAt": "2026-10-30",
@@ -3545,7 +3547,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 1287,
+    "stars": 1288,
     "description": "Zelda Wind Waker HD Recomp",
     "version": "v0.5.0",
     "releasedAt": "2026-10-29",
@@ -3663,7 +3665,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2137,
+    "stars": 2139,
     "description": "Static recompilation of Link's Awakening (Switch) to native macOS, Windows and Linux",
     "version": "beta_5.4",
     "releasedAt": "2026-10-29",
@@ -4380,7 +4382,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 7071,
+    "stars": 7075,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -4614,7 +4616,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 3786,
+    "stars": 3787,
     "description": "Playstation 2 Static Recompiler & Runtime Tool to make native PC ports",
     "version": null,
     "releasedAt": "2026-10-23",
@@ -4934,7 +4936,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 1086,
+    "stars": 1087,
     "description": "Native PC port (Linux/Windows) of inFAMOUS Second Son (PS4, CUSA00223) — in development, playable; runs your own game dump; no game or firmware files included. Motion sensor emulation. | Port nativo para PC de inFAMOUS Second Son (em desenvolvimento) — usa o seu próprio dump.",
     "version": "v1.0",
     "releasedAt": "2026-10-22",
@@ -6341,7 +6343,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 6234,
+    "stars": 6235,
     "description": "Dusklight brings a classic adventure to PC and mobile platforms with a variety of fixes and improvements.",
     "version": "v2.0.3",
     "releasedAt": "2026-09-30",
@@ -6977,7 +6979,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 93,
+    "stars": 94,
     "description": "Simple Recomp of EINHANDER",
     "version": "v0.1.3",
     "releasedAt": "2026-08-29",
@@ -7266,7 +7268,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 62,
+    "stars": 63,
     "description": "A port of Diablo 3 based on RexGlue using AI",
     "version": "beta-1.3",
     "releasedAt": "2026-07-25",
@@ -7774,7 +7776,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5340,
+    "stars": 5341,
     "description": "An unofficial PC port of the Xbox 360 version of Sonic Unleashed created through the process of static recompilation.",
     "version": "v1.0.3",
     "releasedAt": "2025-04-03",
