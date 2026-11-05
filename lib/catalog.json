@@ -220,7 +220,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 265,
+    "stars": 267,
     "description": "Zelda: Tears of the Kingdom (TotK) 1.0.0 recompiled to native Windows and Vulkan. Frame cap up to 240, DLSS option, mouse and keyboard. Open source, mostly written by AI agents. You build it from your own dump; no game files included. Measured on one PC so far.",
     "version": "v0.1.9.3",
     "releasedAt": "2026-11-05",
@@ -247,6 +247,117 @@
     "releaseUrl": "https://github.com/badcompany94-rcmp/project-tandem/releases",
     "licenseId": "MIT",
     "licenseUrl": "https://api.github.com/licenses/mit",
+    "curated": true
+  },
+  {
+    "id": "dreamingmoths-memory-of-alessa",
+    "repo": "dreamingmoths/memory-of-alessa",
+    "title": "Silent Hill 3",
+    "game": null,
+    "author": "dreamingmoths",
+    "console": "PlayStation 2",
+    "mechanism": "native",
+    "platforms": [],
+    "stars": 166,
+    "description": "In-progress matching decompilation of Silent Hill 3",
+    "version": null,
+    "releasedAt": "2026-11-05",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/dreamingmoths/memory-of-alessa/releases",
+    "licenseId": "MIT",
+    "licenseUrl": "https://api.github.com/licenses/mit",
+    "curated": true
+  },
+  {
+    "id": "gamboozino-ngbrecomp",
+    "repo": "gamboozino/ngbrecomp",
+    "title": "Ninja Gaiden Black",
+    "game": "ninja-gaiden-black",
+    "author": "gamboozino",
+    "console": "Xbox",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "Android"
+    ],
+    "stars": 271,
+    "description": "Ninja Gaiden Black (Xbox, 2005) statically recompiled into native Linux and Windows builds, with an experimental Android port, drawn by its own Vulkan renderer. A steady 60 fps, widescreen and ultrawide, keyboard and mouse, touch controls on Android, Steam Deck ready. Bring your own copy of the game.",
+    "version": "v0.9.57",
+    "releasedAt": "2026-11-05",
+    "sizeBytes": 41986552,
+    "releaseUrl": "https://github.com/gamboozino/ngbrecomp/releases/tag/v0.9.57",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
+  },
+  {
+    "id": "openrac-openrac",
+    "repo": "OpenRAC/OpenRAC",
+    "title": "Ratchet & Clank",
+    "game": null,
+    "author": "OpenRAC",
+    "console": "PlayStation 2",
+    "mechanism": "native",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Android"
+    ],
+    "stars": 121,
+    "description": "A matching decompilation and PC port for the Ratchet & Clank series",
+    "version": "launcher-v1.0.1",
+    "releasedAt": "2026-11-05",
+    "sizeBytes": 145410552,
+    "releaseUrl": "https://github.com/OpenRAC/OpenRAC/releases/tag/launcher-v1.0.1",
+    "licenseId": "NOASSERTION",
+    "licenseUrl": null,
+    "curated": true
+  },
+  {
+    "id": "arcanite24-pinyon-shift",
+    "repo": "arcanite24/pinyon-shift",
+    "title": "Forza Horizon",
+    "game": "forza-horizon",
+    "author": "arcanite24",
+    "console": "Xbox 360",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "stars": 1000,
+    "description": "A playable preview of Forza Horizon static recompilation",
+    "version": "v0.8.1",
+    "releasedAt": "2026-11-05",
+    "sizeBytes": 178763328,
+    "releaseUrl": "https://github.com/arcanite24/pinyon-shift/releases/tag/v0.8.1",
+    "licenseId": "BSD-3-Clause",
+    "licenseUrl": "https://api.github.com/licenses/bsd-3-clause",
+    "curated": true
+  },
+  {
+    "id": "tekrantgaming-king-kong-recompiled",
+    "repo": "TekRantGaming/king-kong-recompiled",
+    "title": "Peter Jackson's King Kong",
+    "game": null,
+    "author": "TekRantGaming",
+    "console": "Xbox 360",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 264,
+    "description": "Native PC port of Peter Jackson's King Kong (Xbox 360) via static recompilation",
+    "version": "v2.1.0",
+    "releasedAt": "2026-11-05",
+    "sizeBytes": 421240317,
+    "releaseUrl": "https://github.com/TekRantGaming/king-kong-recompiled/releases/tag/v2.1.0",
+    "licenseId": "NOASSERTION",
+    "licenseUrl": null,
     "curated": true
   },
   {
@@ -296,7 +407,7 @@
     "console": "PlayStation 3",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 139,
+    "stars": 142,
     "description": "Native Windows port of Demon's Souls (PS3, BLUS-30443) via ps3recomp static recompilation. Bring your own disc image; no game files included.",
     "version": "v2026.11.03.10",
     "releasedAt": "2026-11-04",
@@ -315,7 +426,7 @@
     "console": "Nintendo Switch 2",
     "mechanism": "in-progress",
     "platforms": [],
-    "stars": 185,
+    "stars": 186,
     "description": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows with Vulkan. The 3D tutorial renders; not playable yet. No game files included.",
     "version": null,
     "releasedAt": "2026-11-04",
@@ -461,7 +572,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 730,
+    "stars": 731,
     "description": "An unofficial PC port of the Xbox 360 version of Sonic the Hedgehog (2006) created through the process of static recompilation",
     "version": null,
     "releasedAt": "2026-11-04",
@@ -557,25 +668,6 @@
     "curated": true
   },
   {
-    "id": "dreamingmoths-memory-of-alessa",
-    "repo": "dreamingmoths/memory-of-alessa",
-    "title": "Silent Hill 3",
-    "game": null,
-    "author": "dreamingmoths",
-    "console": "PlayStation 2",
-    "mechanism": "native",
-    "platforms": [],
-    "stars": 166,
-    "description": "In-progress matching decompilation of Silent Hill 3",
-    "version": null,
-    "releasedAt": "2026-11-04",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/dreamingmoths/memory-of-alessa/releases",
-    "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit",
-    "curated": true
-  },
-  {
     "id": "yuutatsubasa-free-riders-recompiled",
     "repo": "YuutaTsubasa/Free-Riders-Recompiled",
     "title": "Sonic Free Riders",
@@ -601,29 +693,6 @@
     "curated": true
   },
   {
-    "id": "gamboozino-ngbrecomp",
-    "repo": "gamboozino/ngbrecomp",
-    "title": "Ninja Gaiden Black",
-    "game": "ninja-gaiden-black",
-    "author": "gamboozino",
-    "console": "Xbox",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "Android"
-    ],
-    "stars": 271,
-    "description": "Ninja Gaiden Black (Xbox, 2005) statically recompiled into native Linux and Windows builds, with an experimental Android port, drawn by its own Vulkan renderer. A steady 60 fps, widescreen and ultrawide, keyboard and mouse, touch controls on Android, Steam Deck ready. Bring your own copy of the game.",
-    "version": "v0.9.56",
-    "releasedAt": "2026-11-04",
-    "sizeBytes": 44161528,
-    "releaseUrl": "https://github.com/gamboozino/ngbrecomp/releases/tag/v0.9.56",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
-    "curated": true
-  },
-  {
     "id": "danielalves96-gow-pc-port",
     "repo": "danielalves96/gow-pc-port",
     "title": "God of War",
@@ -635,7 +704,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 130,
+    "stars": 131,
     "description": "Unofficial native PC port of God of War (2005, PS2) for Windows, with experimental Linux support. Statically recompiled to C++, not an emulator. OpenGL renderer, launcher, cheat menu, widescreen, 60 FPS. Bring your own game dump: no game files included.",
     "version": "launcher-v0.3.1",
     "releasedAt": "2026-11-04",
@@ -1191,7 +1260,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 4881,
+    "stars": 4896,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.3.10",
     "releasedAt": "2026-11-04",
@@ -1296,30 +1365,6 @@
     "curated": true
   },
   {
-    "id": "openrac-openrac",
-    "repo": "OpenRAC/OpenRAC",
-    "title": "Ratchet & Clank",
-    "game": null,
-    "author": "OpenRAC",
-    "console": "PlayStation 2",
-    "mechanism": "native",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "macOS",
-      "Android"
-    ],
-    "stars": 121,
-    "description": "A matching decompilation and PC port for the Ratchet & Clank series",
-    "version": "launcher-v1.0.0",
-    "releasedAt": "2026-11-04",
-    "sizeBytes": 145357304,
-    "releaseUrl": "https://github.com/OpenRAC/OpenRAC/releases/tag/launcher-v1.0.0",
-    "licenseId": "NOASSERTION",
-    "licenseUrl": null,
-    "curated": true
-  },
-  {
     "id": "russophone-tomodachi-ltd-recomp",
     "repo": "RussoPhone/tomodachi-ltd-recomp",
     "title": "Tomodachi Life: Living the Dream",
@@ -1377,29 +1422,6 @@
     "curated": true
   },
   {
-    "id": "arcanite24-pinyon-shift",
-    "repo": "arcanite24/pinyon-shift",
-    "title": "Forza Horizon",
-    "game": "forza-horizon",
-    "author": "arcanite24",
-    "console": "Xbox 360",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "macOS"
-    ],
-    "stars": 1000,
-    "description": "A playable preview of Forza Horizon static recompilation",
-    "version": "v0.8.0",
-    "releasedAt": "2026-11-04",
-    "sizeBytes": 178763328,
-    "releaseUrl": "https://github.com/arcanite24/pinyon-shift/releases/tag/v0.8.0",
-    "licenseId": "BSD-3-Clause",
-    "licenseUrl": "https://api.github.com/licenses/bsd-3-clause",
-    "curated": true
-  },
-  {
     "id": "norain211-doa3-re",
     "repo": "NoRain211/doa3-re",
     "title": "Dead or Alive 3",
@@ -1451,7 +1473,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 394,
+    "stars": 396,
     "description": "Nintendo Switch 2 games recompiled to run natively on PC. Pokémon Pokopia is playable now.",
     "version": "v0.2.0",
     "releasedAt": "2026-11-04",
@@ -1581,7 +1603,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 63,
+    "stars": 64,
     "description": "Play Midtown Madness 3 natively on Windows 10/11: your resolution, widescreen, 60 fps, controller or keyboard, and optional mods. Get MM3-Setup.exe from Releases; you need your own copy of the Xbox game.",
     "version": "v2.5",
     "releasedAt": "2026-11-03",
@@ -1670,7 +1692,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 749,
+    "stars": 750,
     "description": "Unofficial native PC and Steam Deck port of Tears of the Kingdom 1.4.3 using static recompilation. Builds locally from the player's own extracted game dump; no game files included.",
     "version": "v0.3.1",
     "releasedAt": "2026-11-03",
@@ -2097,28 +2119,6 @@
     "releasedAt": "2026-11-03",
     "sizeBytes": 78877173,
     "releaseUrl": "https://github.com/Re-TeRo17/ratchet-tod-recomp/releases/tag/v1.1",
-    "licenseId": "NOASSERTION",
-    "licenseUrl": null,
-    "curated": true
-  },
-  {
-    "id": "tekrantgaming-king-kong-recompiled",
-    "repo": "TekRantGaming/king-kong-recompiled",
-    "title": "Peter Jackson's King Kong",
-    "game": null,
-    "author": "TekRantGaming",
-    "console": "Xbox 360",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 264,
-    "description": "Native PC port of Peter Jackson's King Kong (Xbox 360) via static recompilation",
-    "version": "v2.0.11",
-    "releasedAt": "2026-11-02",
-    "sizeBytes": 421160570,
-    "releaseUrl": "https://github.com/TekRantGaming/king-kong-recompiled/releases/tag/v2.0.11",
     "licenseId": "NOASSERTION",
     "licenseUrl": null,
     "curated": true
@@ -2771,7 +2771,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 88,
+    "stars": 89,
     "description": "2014 FIFA World Cup Brazil (Xbox 360) running natively on Windows. An unofficial recompilation, played from your own copy of the game.",
     "version": "v0.2.1",
     "releasedAt": "2026-11-01",
@@ -2813,7 +2813,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 148,
+    "stars": 149,
     "description": "Fan mod of Dino Crisis (PS1). It brings a modern Resident evil Remakes like over-the-shoulder camera, updated controls, visual/gameplay improvements, and plenty of Quality of Life settings to customize the experience to your liking.",
     "version": "v1.07",
     "releasedAt": "2026-11-01",
@@ -3082,7 +3082,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 84,
+    "stars": 85,
     "description": "007 Everything or Nothing recompilation for a native PC port.",
     "version": "v1.0.3",
     "releasedAt": "2026-10-31",
@@ -3338,7 +3338,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5128,
+    "stars": 5131,
     "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
     "version": "windows-v1.9.7",
     "releasedAt": "2026-10-30",
@@ -3471,7 +3471,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 1284,
+    "stars": 1285,
     "description": "Zelda Wind Waker HD Recomp",
     "version": "v0.5.0",
     "releasedAt": "2026-10-29",
@@ -3589,7 +3589,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2129,
+    "stars": 2131,
     "description": "Static recompilation of Link's Awakening (Switch) to native macOS, Windows and Linux",
     "version": "beta_5.4",
     "releasedAt": "2026-10-29",
@@ -3837,7 +3837,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 3903,
+    "stars": 3904,
     "description": "Bloodborne (v1.09) running natively on Linux and Windows: the game's x86-64 code runs as is, GPU side translated to Vulkan; FSR 4 / DLSS, co-op (BBSC). Bring your own dump.",
     "version": "0.7",
     "releasedAt": "2026-10-28",
@@ -4034,7 +4034,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 917,
+    "stars": 918,
     "description": "Experimental native PC port of Lost Odyssey using static recompilation. No game assets included.",
     "version": "v1.1.0",
     "releasedAt": "2026-10-26",
@@ -4306,7 +4306,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 7035,
+    "stars": 7040,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -4860,7 +4860,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 1084,
+    "stars": 1085,
     "description": "Native PC port (Linux/Windows) of inFAMOUS Second Son (PS4, CUSA00223) — in development, playable; runs your own game dump; no game or firmware files included. Motion sensor emulation. | Port nativo para PC de inFAMOUS Second Son (em desenvolvimento) — usa o seu próprio dump.",
     "version": "v1.0",
     "releasedAt": "2026-10-22",
@@ -4983,7 +4983,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 360,
+    "stars": 361,
     "description": "A playable PC port of Sly Cooper and the Thievius Raccoonus, rebuilt through reverse engineering.",
     "version": "decompilation",
     "releasedAt": "2026-10-21",
@@ -5240,7 +5240,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 5844,
+    "stars": 5845,
     "description": "Ship of Harkinian: a PC port of Ocarina of Time built from the decompilation, with widescreen, high framerate and mod support.",
     "version": "9.3.1",
     "releasedAt": "2026-10-18",
@@ -5509,7 +5509,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 59,
+    "stars": 60,
     "description": "God of War PS2 → PC static recompilation port",
     "version": null,
     "releasedAt": "2026-10-15",
@@ -5953,7 +5953,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 78,
+    "stars": 79,
     "description": "A native PC recompilation project for the Crash Titans era.",
     "version": "v1.1.0",
     "releasedAt": "2026-10-06",
@@ -5995,7 +5995,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 898,
+    "stars": 900,
     "description": "Recompilation of Blue Dragon",
     "version": "v1.3.1",
     "releasedAt": "2026-10-05",
@@ -6267,7 +6267,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 6232,
+    "stars": 6233,
     "description": "Dusklight brings a classic adventure to PC and mobile platforms with a variety of fixes and improvements.",
     "version": "v2.0.3",
     "releasedAt": "2026-09-30",
@@ -6439,7 +6439,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 46,
+    "stars": 47,
     "description": "Experimental Syphon Filter 2 static recompilation for Windows using PSXRecomp",
     "version": "v0.2.0",
     "releasedAt": "2026-09-23",
@@ -6861,7 +6861,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 118,
+    "stars": 119,
     "description": "Unofficial noncommercial PlayStation recompilation releases",
     "version": "v0.3.4",
     "releasedAt": "2026-09-02",
