@@ -27,7 +27,7 @@
     "console": "Game Boy Advance",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 304,
+    "stars": 305,
     "description": "Static ARM64 to x86 recompiler (GPLv3)",
     "version": null,
     "releasedAt": "2026-11-07",
@@ -185,7 +185,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 69,
+    "stars": 70,
     "description": "Paper Cut: A native port of Paper Mario: The Thousand-Year Door to Windows, macOS, Linux, iOS and Android",
     "version": "v0.4.1",
     "releasedAt": "2026-11-07",
@@ -203,7 +203,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 68,
+    "stars": 69,
     "description": "Rogue Galaxy (PS2) as a native Windows game: a static recompilation on PS2Recomp, built from your own disc.",
     "version": null,
     "releasedAt": "2026-11-07",
@@ -263,7 +263,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 130,
+    "stars": 132,
     "description": "Ninja Gaiden II (Xbox 360, 2008) statically recompiled into native Linux and Windows builds, drawn by its own Vulkan renderer. A steady 60 fps, up to 8x render scale, widescreen and ultrawide, keyboard and mouse, mods, Steam Deck ready. Bring your own copy of the game.",
     "version": "v0.5.55",
     "releasedAt": "2026-11-07",
@@ -362,7 +362,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 406,
+    "stars": 407,
     "description": "This is an open source, all-in-one, static recompilation project that I built from the ground up for the Xbox 360 Gears of War series. All 4 games have been personally recompiled for use with a fully native renderer by me.",
     "version": "0.4.7",
     "releasedAt": "2026-11-07",
@@ -531,6 +531,47 @@
     "curated": true
   },
   {
+    "id": "xenios-jp-xenios",
+    "repo": "xenios-jp/XeniOS",
+    "title": "XeniOS",
+    "game": null,
+    "author": "xenios-jp",
+    "console": "Xbox 360",
+    "mechanism": "emulator",
+    "platforms": [
+      "macOS",
+      "iOS"
+    ],
+    "stars": 347,
+    "description": "The iOS and MacOS port of Xenia, the Xbox 360 Emulator Research project.",
+    "version": "release-v2.2.5-build-11501",
+    "releasedAt": "2026-11-07",
+    "sizeBytes": 48372158,
+    "releaseUrl": "https://github.com/xenios-jp/XeniOS/releases/tag/release-v2.2.5-build-11501",
+    "licenseId": "BSD-3-Clause",
+    "licenseUrl": "https://api.github.com/licenses/bsd-3-clause",
+    "curated": true
+  },
+  {
+    "id": "drummingbird1-gow-psp-recomp",
+    "repo": "DrummingBird1/gow-psp-recomp",
+    "title": "God of War: Chains of Olympus & Ghost of Sparta",
+    "game": null,
+    "author": "DrummingBird1",
+    "console": "PSP",
+    "mechanism": "recompiled",
+    "platforms": [],
+    "stars": 188,
+    "description": "Unofficial native PC ports of God of War: Chains of Olympus and Ghost of Sparta (PSP) by static recompilation. Bring your own disc.",
+    "version": "v1.5.0",
+    "releasedAt": "2026-11-07",
+    "sizeBytes": 51210748,
+    "releaseUrl": "https://github.com/DrummingBird1/gow-psp-recomp/releases/tag/v1.5.0",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
+  },
+  {
     "id": "fh1-reimagined-forzahorizon1-reimagined",
     "repo": "FH1-ReImagined/ForzaHorizon1-ReImagined",
     "title": "Forza Horizon",
@@ -542,7 +583,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 412,
+    "stars": 413,
     "description": "The 2012 Forza Horizon, native on Windows and Linux, and online again: Horizon World, leaderboards and Rivals on a public server you can also self-host. Bring your own copy.",
     "version": "v0.2.8",
     "releasedAt": "2026-11-06",
@@ -598,28 +639,6 @@
     "releaseUrl": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.49",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
-    "curated": true
-  },
-  {
-    "id": "xenios-jp-xenios",
-    "repo": "xenios-jp/XeniOS",
-    "title": "XeniOS",
-    "game": null,
-    "author": "xenios-jp",
-    "console": "Xbox 360",
-    "mechanism": "emulator",
-    "platforms": [
-      "macOS",
-      "iOS"
-    ],
-    "stars": 347,
-    "description": "The iOS and MacOS port of Xenia, the Xbox 360 Emulator Research project.",
-    "version": "release-v2.2.4-build-11500",
-    "releasedAt": "2026-11-06",
-    "sizeBytes": 48372344,
-    "releaseUrl": "https://github.com/xenios-jp/XeniOS/releases/tag/release-v2.2.4-build-11500",
-    "licenseId": "BSD-3-Clause",
-    "licenseUrl": "https://api.github.com/licenses/bsd-3-clause",
     "curated": true
   },
   {
@@ -737,7 +756,7 @@
       "macOS",
       "iOS"
     ],
-    "stars": 638,
+    "stars": 639,
     "description": "Unofficial static recompilation of the Xbox 360 version of Need for Speed: Most Wanted (2005): a native port for Steam Deck, Steam Machine, Steam Frame, Linux and Mac (iPhone/iPad: sideload the experimental IPA or build it yourself). Bring your own disc: no game files included. Not affiliated with EA or Valve.",
     "version": "v0.2.3",
     "releasedAt": "2026-11-06",
@@ -950,7 +969,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 508,
+    "stars": 509,
     "description": "A native Windows and Linux port of Grand Theft Auto: Vice City Stories (PS2, USA, SLUS-21590), made by recompiling the game's PS2 executable into C++",
     "version": "v0.2.3",
     "releasedAt": "2026-11-06",
@@ -1173,7 +1192,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 56,
+    "stars": 57,
     "description": "F.E.A.R. and F.E.A.R. Files (Xbox 360) statically recompiled to run natively on PC: 4K, 120 fps, Linux at 60fps+ Xbox 360 native resolution, controller-first. No game data included; bring your own discs.",
     "version": "v1.7.0",
     "releasedAt": "2026-11-06",
@@ -1195,7 +1214,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 5480,
+    "stars": 5492,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.3.12",
     "releasedAt": "2026-11-06",
@@ -1324,7 +1343,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5193,
+    "stars": 5194,
     "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
     "version": "windows-v1.9.8.1",
     "releasedAt": "2026-11-06",
@@ -1384,7 +1403,7 @@
     "console": "Xbox 360",
     "mechanism": "native",
     "platforms": [],
-    "stars": 459,
+    "stars": 460,
     "description": "Tekken 6 (Xbox 360) native on Windows with rollback netcode - build from your own ISO",
     "version": "v3.0.0",
     "releasedAt": "2026-11-06",
@@ -1536,7 +1555,7 @@
       "Linux",
       "Android"
     ],
-    "stars": 297,
+    "stars": 298,
     "description": "Ninja Gaiden Black (Xbox, 2005) statically recompiled into native Linux and Windows builds, with an experimental Android port, drawn by its own Vulkan renderer. A steady 60 fps, widescreen and ultrawide, keyboard and mouse, touch controls on Android, Steam Deck ready. Bring your own copy of the game.",
     "version": "v0.9.58",
     "releasedAt": "2026-11-05",
@@ -1711,7 +1730,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 89,
+    "stars": 90,
     "description": "007 Everything or Nothing recompilation for a native PC port.",
     "version": "v1.1.0",
     "releasedAt": "2026-11-05",
@@ -1926,7 +1945,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 124,
+    "stars": 125,
     "description": "An unofficial original Xbox version PC port of 007: Nightfire via static recompilation.",
     "version": "V2",
     "releasedAt": "2026-11-05",
@@ -2029,7 +2048,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 177,
+    "stars": 178,
     "description": "A native PC port of Call of Duty: Finest Hour (original Xbox) with a remastered renderer",
     "version": "update",
     "releasedAt": "2026-11-04",
@@ -2498,7 +2517,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 799,
+    "stars": 800,
     "description": "Unofficial native PC and Steam Deck port of Tears of the Kingdom 1.4.3 using static recompilation. Builds locally from the player's own extracted game dump; no game files included.",
     "version": "v0.3.1",
     "releasedAt": "2026-11-03",
@@ -3265,7 +3284,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 68,
+    "stars": 69,
     "description": "Native loader that runs the original Xbox Call of Duty 2: Big Red One on Linux and Windows PCs (bring your own game). Proof of concept for a full native build.",
     "version": "v0.2.2",
     "releasedAt": "2026-11-01",
@@ -3629,25 +3648,6 @@
     "releaseUrl": "https://github.com/Hyant4/Knack-II-pc-port/releases/tag/knack2-Version-0.18.2",
     "licenseId": null,
     "licenseUrl": null,
-    "curated": true
-  },
-  {
-    "id": "drummingbird1-gow-psp-recomp",
-    "repo": "DrummingBird1/gow-psp-recomp",
-    "title": "God of War: Chains of Olympus & Ghost of Sparta",
-    "game": null,
-    "author": "DrummingBird1",
-    "console": "PSP",
-    "mechanism": "recompiled",
-    "platforms": [],
-    "stars": 188,
-    "description": "Unofficial native PC ports of God of War: Chains of Olympus and Ghost of Sparta (PSP) by static recompilation. Bring your own disc.",
-    "version": "v1.4.0",
-    "releasedAt": "2026-10-30",
-    "sizeBytes": 51265067,
-    "releaseUrl": "https://github.com/DrummingBird1/gow-psp-recomp/releases/tag/v1.4.0",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
   },
   {
@@ -4185,7 +4185,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 3944,
+    "stars": 3948,
     "description": "Bloodborne (v1.09) running natively on Linux and Windows: the game's x86-64 code runs as is, GPU side translated to Vulkan; FSR 4 / DLSS, co-op (BBSC). Bring your own dump.",
     "version": "0.7",
     "releasedAt": "2026-10-28",
@@ -4438,7 +4438,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 51,
+    "stars": 52,
     "description": "Soulcalibur II HD native recompilation",
     "version": "v0.3.0",
     "releasedAt": "2026-10-26",
@@ -4565,7 +4565,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 7211,
+    "stars": 7213,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -4717,7 +4717,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 134,
+    "stars": 135,
     "description": "A Static recompilation of Ace Combat 5 with native rendering",
     "version": "V3.0",
     "releasedAt": "2026-10-24",
@@ -4879,7 +4879,7 @@
       "Linux",
       "Android"
     ],
-    "stars": 47,
+    "stars": 48,
     "description": "Native recompilation of Final Fantasy Tactics Advance with shaders, post-processing, haptics/rumble, and native Android support",
     "version": "v2.1",
     "releasedAt": "2026-10-23",
@@ -5217,7 +5217,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 403,
+    "stars": 404,
     "description": "Call of Duty 3 (Xbox 360) static recompilation: host runtime, tools and notes",
     "version": null,
     "releasedAt": "2026-10-21",
@@ -5417,7 +5417,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 5881,
+    "stars": 5882,
     "description": "Ship of Harkinian: a PC port of Ocarina of Time built from the decompilation, with widescreen, high framerate and mod support.",
     "version": "9.3.1",
     "releasedAt": "2026-10-18",
@@ -5501,7 +5501,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 58,
+    "stars": 59,
     "description": "A native PC port of God of War (PS2, NTSC-U SCUS-97399): the game's code is statically recompiled to C++, and the PS2 hardware it talked to is replaced by native code, not emulated.",
     "version": null,
     "releasedAt": "2026-10-18",
@@ -5863,7 +5863,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 82,
+    "stars": 83,
     "description": "Community Windows PC port of Skate 2, built with ReXGlue. Controller support, adjustable rendering quality, and unlocked FPS. Original game files required.",
     "version": "v0.1.1",
     "releasedAt": "2026-10-12",
@@ -5903,7 +5903,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 40,
+    "stars": 41,
     "description": "Native PC port of Halo: Reach (Xbox 360) via static recompilation with ReXGlue. No game code or assets included - bring your own copy.",
     "version": null,
     "releasedAt": "2026-10-12",
@@ -6332,7 +6332,7 @@
     "console": "Game Boy Advance",
     "mechanism": "native",
     "platforms": [],
-    "stars": 3667,
+    "stars": 3668,
     "description": "Decompilation of Pokémon Emerald",
     "version": null,
     "releasedAt": "2026-10-01",
@@ -6615,7 +6615,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 47,
+    "stars": 48,
     "description": "Experimental Syphon Filter 2 static recompilation for Windows using PSXRecomp",
     "version": "v0.2.0",
     "releasedAt": "2026-09-23",
@@ -7148,7 +7148,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 53,
+    "stars": 54,
     "description": "Native PC port of Tony Hawk's Project 8 (Xbox 360) by static recompilation.",
     "version": "v0.3.0",
     "releasedAt": "2026-08-24",
@@ -7328,7 +7328,7 @@
     "console": "Xbox 360",
     "mechanism": "in-progress",
     "platforms": [],
-    "stars": 250,
+    "stars": 251,
     "description": "WIP 1:1 Decompilation of multiple versions of NFS:MW",
     "version": "extension_0.1.0",
     "releasedAt": "2026-07-29",
@@ -7507,7 +7507,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 930,
+    "stars": 931,
     "description": "",
     "version": "Goldeneye1.2.4",
     "releasedAt": "2026-06-18",
