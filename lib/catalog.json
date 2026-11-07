@@ -45,7 +45,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 745,
+    "stars": 746,
     "description": "An unofficial PC port of the Xbox 360 version of Sonic the Hedgehog (2006) created through the process of static recompilation",
     "version": null,
     "releasedAt": "2026-11-07",
@@ -121,7 +121,7 @@
     "platforms": [
       "macOS"
     ],
-    "stars": 136,
+    "stars": 137,
     "description": "A Mac app that turns your own Nintendo Switch 2 game dumps into native Apple silicon games. It picks the best build for your Mac. Mario Kart World, Donkey Kong Bananza, Pokopia and more. Not an emulator, no keys.",
     "version": "v0.3.4",
     "releasedAt": "2026-11-07",
@@ -185,7 +185,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 95,
+    "stars": 96,
     "description": "Paper Cut: A native port of Paper Mario: The Thousand-Year Door to Windows, macOS, Linux, iOS and Android",
     "version": "v0.4.1",
     "releasedAt": "2026-11-07",
@@ -241,7 +241,7 @@
     "console": "Nintendo Switch 2",
     "mechanism": "in-progress",
     "platforms": [],
-    "stars": 295,
+    "stars": 296,
     "description": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows with Vulkan. The 3D tutorial renders; not playable yet. No game files included.",
     "version": null,
     "releasedAt": "2026-11-07",
@@ -263,7 +263,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 157,
+    "stars": 159,
     "description": "Ninja Gaiden II (Xbox 360, 2008) statically recompiled into native Linux and Windows builds, drawn by its own Vulkan renderer. A steady 60 fps, up to 8x render scale, widescreen and ultrawide, keyboard and mouse, mods, Steam Deck ready. Bring your own copy of the game.",
     "version": "v0.5.56",
     "releasedAt": "2026-11-07",
@@ -499,7 +499,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 295,
+    "stars": 298,
     "description": "Zelda: Tears of the Kingdom (TotK) 1.0.0 recompiled to native Windows and Vulkan. Frame cap up to 240, DLSS option, mouse and keyboard. Open source, mostly written by AI agents. You build it from your own dump; no game files included. Measured on one PC so far.",
     "version": "v0.1.10",
     "releasedAt": "2026-11-07",
@@ -727,7 +727,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5209,
+    "stars": 5210,
     "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
     "version": "windows-v1.9.8.2",
     "releasedAt": "2026-11-07",
@@ -758,6 +758,49 @@
     "releaseUrl": "https://github.com/wootbeer/snprecomp/releases/tag/0.2.11",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
+  },
+  {
+    "id": "droogie-bbhost",
+    "repo": "droogie/bbhost",
+    "title": "Bloodborne",
+    "game": "bloodborne",
+    "author": "droogie",
+    "console": "PlayStation 4",
+    "mechanism": "native",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 803,
+    "description": "Definitive Bloodborne PC Experience",
+    "version": "v0.2.27",
+    "releasedAt": "2026-11-07",
+    "sizeBytes": 195777024,
+    "releaseUrl": "https://github.com/droogie/bbhost/releases/tag/v0.2.27",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
+  },
+  {
+    "id": "supermedo-uncharted-pc",
+    "repo": "Supermedo/uncharted_pc",
+    "title": "Uncharted: The Nathan Drake Collection",
+    "game": "uncharted-collection",
+    "author": "Supermedo",
+    "console": "PlayStation 4",
+    "mechanism": "native",
+    "platforms": [
+      "Windows"
+    ],
+    "stars": 2228,
+    "description": "Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo",
+    "version": "v0.3.14",
+    "releasedAt": "2026-11-07",
+    "sizeBytes": 122966090,
+    "releaseUrl": "https://github.com/Supermedo/uncharted_pc/releases/tag/v0.3.14",
+    "licenseId": "GPL-2.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-2.0",
     "curated": true
   },
   {
@@ -1144,7 +1187,7 @@
     "platforms": [
       "PC"
     ],
-    "stars": 79,
+    "stars": 80,
     "description": "Native Windows PC recompilation of the unreleased GoldenEye 007 Xbox 360/XBLA remaster using ReXGlue. Requires your own copy.",
     "version": "v0.9.7a",
     "releasedAt": "2026-11-06",
@@ -1346,7 +1389,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 5610,
+    "stars": 5616,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.3.12",
     "releasedAt": "2026-11-06",
@@ -1368,7 +1411,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 155,
+    "stars": 156,
     "description": "Conker: Live & Reloaded (Xbox) on Windows & Linux: a native recompilation with a launcher that builds it from your own disc, widescreen up to 240 FPS, enhancements, and online play with room codes.",
     "version": "v1.4.2",
     "releasedAt": "2026-11-06",
@@ -2166,28 +2209,6 @@
     "curated": true
   },
   {
-    "id": "droogie-bbhost",
-    "repo": "droogie/bbhost",
-    "title": "Bloodborne",
-    "game": "bloodborne",
-    "author": "droogie",
-    "console": "PlayStation 4",
-    "mechanism": "native",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 800,
-    "description": "Definitive Bloodborne PC Experience",
-    "version": "v0.2.26",
-    "releasedAt": "2026-11-04",
-    "sizeBytes": 183174656,
-    "releaseUrl": "https://github.com/droogie/bbhost/releases/tag/v0.2.26",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
-    "curated": true
-  },
-  {
     "id": "saulob-odin-sphere-leifthrasir-pc",
     "repo": "saulob/odin-sphere-leifthrasir-pc",
     "title": "Odin Sphere Leifthrasir",
@@ -2292,27 +2313,6 @@
     "curated": true
   },
   {
-    "id": "supermedo-uncharted-pc",
-    "repo": "Supermedo/uncharted_pc",
-    "title": "Uncharted: The Nathan Drake Collection",
-    "game": "uncharted-collection",
-    "author": "Supermedo",
-    "console": "PlayStation 4",
-    "mechanism": "native",
-    "platforms": [
-      "Windows"
-    ],
-    "stars": 2224,
-    "description": "Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo",
-    "version": "v0.3.13",
-    "releasedAt": "2026-11-04",
-    "sizeBytes": 122902582,
-    "releaseUrl": "https://github.com/Supermedo/uncharted_pc/releases/tag/v0.3.13",
-    "licenseId": "GPL-2.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-2.0",
-    "curated": true
-  },
-  {
     "id": "hk21x-nightfire-recomp",
     "repo": "hk21x/nightfire-recomp",
     "title": "007: Nightfire",
@@ -2365,7 +2365,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 287,
+    "stars": 288,
     "description": "Native Windows PC port of The Last of Us Remastered (PS4, CUSA00552). Runs the game’s own x86-64 code on a custom runtime, with PS4 system libraries reimplemented and a Vulkan renderer based on shadPS4. Includes a launcher. No game files included: you need your own copy.",
     "version": "v0.1.6",
     "releasedAt": "2026-11-04",
@@ -2512,7 +2512,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 104,
+    "stars": 105,
     "description": "Native port of Tekken Tag Tournament 2 Wii U Edition by static recompilation with the possibility to add new characters and mod the game easily. No files included.",
     "version": "v0.5.1",
     "releasedAt": "2026-11-03",
@@ -2624,7 +2624,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 818,
+    "stars": 819,
     "description": "Unofficial native PC and Steam Deck port of Tears of the Kingdom 1.4.3 using static recompilation. Builds locally from the player's own extracted game dump; no game files included.",
     "version": "v0.3.1",
     "releasedAt": "2026-11-03",
@@ -2643,7 +2643,7 @@
     "console": "Nintendo Switch",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 455,
+    "stars": 456,
     "description": "Experimental Windows x64 native porting toolkit for Super Smash Bros. Ultimate: static AArch64 recompilation, a D3D11 runtime, and Local Wireless relay netplay.",
     "version": null,
     "releasedAt": "2026-11-03",
@@ -2958,7 +2958,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 72,
+    "stars": 73,
     "description": "",
     "version": "v0.2.0-beta",
     "releasedAt": "2026-11-02",
@@ -3218,7 +3218,7 @@
       "Linux",
       "iOS"
     ],
-    "stars": 571,
+    "stars": 572,
     "description": "The Legend of Zelda: The Wind Waker Recompiled. Native for MacOS, iOS, Windows, Linux, and Android.",
     "version": "v0.10.0",
     "releasedAt": "2026-11-01",
@@ -3451,7 +3451,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 200,
+    "stars": 201,
     "description": "Forza Motorsport 4 native on PC",
     "version": "v0.3.10",
     "releasedAt": "2026-10-31",
@@ -4224,7 +4224,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 227,
+    "stars": 228,
     "description": "A static native recompilation of Need for Speed: Most Wanted (2005) Xbox 360",
     "version": "v1.0.2",
     "releasedAt": "2026-10-28",
@@ -4349,7 +4349,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 181,
+    "stars": 182,
     "description": "Call of Duty: Modern Warfare 2 (2009) for Xbox 360 recompiled for Windows & Linux",
     "version": "v0.8.2",
     "releasedAt": "2026-10-27",
@@ -4457,7 +4457,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 146,
+    "stars": 147,
     "description": "Crash of the Titans (Xbox 360) statically recompiled for Windows: DLSS/FSR, PC controls, PT-BR, subtitles, mods. Bring your own copy of the game.",
     "version": "v1.07",
     "releasedAt": "2026-10-26",
@@ -4476,7 +4476,7 @@
     "console": "PlayStation 2",
     "mechanism": "native",
     "platforms": [],
-    "stars": 287,
+    "stars": 288,
     "description": "Decompilation of Sly Cooper and the Thievius Raccoonus for PS2",
     "version": null,
     "releasedAt": "2026-10-26",
@@ -4605,7 +4605,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 7254,
+    "stars": 7255,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -4839,7 +4839,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 3806,
+    "stars": 3807,
     "description": "Playstation 2 Static Recompiler & Runtime Tool to make native PC ports",
     "version": null,
     "releasedAt": "2026-10-23",
@@ -4964,7 +4964,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 262,
+    "stars": 263,
     "description": "Native Windows port of Tekken Tag Tournament 2 (Xbox 360) by static recompilation. Not an emulator. Ships no game data - the installer builds the game from your own disc image and Title Update 3.",
     "version": "v0.1.7",
     "releasedAt": "2026-10-23",
@@ -5457,7 +5457,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 5893,
+    "stars": 5894,
     "description": "Ship of Harkinian: a PC port of Ocarina of Time built from the decompilation, with widescreen, high framerate and mod support.",
     "version": "9.3.1",
     "releasedAt": "2026-10-18",
@@ -6169,7 +6169,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 80,
+    "stars": 81,
     "description": "A native PC recompilation project for the Crash Titans era.",
     "version": "v1.1.0",
     "releasedAt": "2026-10-06",
@@ -7247,7 +7247,7 @@
     "console": "PlayStation",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 47,
+    "stars": 48,
     "description": "Matching decompilation of Ridge Racer (PlayStation, Namco, 1994, SLPS-00001), and a static recompilation that boots and plays natively on Linux and Windows. No game data here — bring your own disc.",
     "version": "v0.1.0",
     "releasedAt": "2026-08-17",
@@ -7431,7 +7431,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 1804,
+    "stars": 1805,
     "description": "A native recompilation of Skate 3 for Windows, Linux, and macOS.",
     "version": "v2.0.2",
     "releasedAt": "2026-07-24",
@@ -7751,7 +7751,7 @@
     "console": "Xbox 360",
     "mechanism": "emulator",
     "platforms": [],
-    "stars": 9802,
+    "stars": 9803,
     "description": "Xbox 360 Emulator Research Project",
     "version": null,
     "releasedAt": "2026-02-18",
@@ -8163,7 +8163,7 @@
     "console": "PlayStation",
     "mechanism": "native",
     "platforms": [],
-    "stars": 1234,
+    "stars": 1235,
     "description": "Decompilation of Castlevania: Symphony of the Night (PSX, PSP, Saturn)",
     "version": "cc1-psx-26",
     "releasedAt": "2023-04-05",
