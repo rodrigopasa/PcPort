@@ -87,7 +87,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 376,
+    "stars": 384,
     "description": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows with Vulkan. Plays from the title screen through the first stage on an RTX 5060 Ti; still early, can crash. No game files included.",
     "version": "v0.1.0",
     "releasedAt": "2026-11-08",
@@ -372,7 +372,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5238,
+    "stars": 5241,
     "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
     "version": "windows-v1.9.8.4",
     "releasedAt": "2026-11-08",
@@ -553,7 +553,7 @@
     "platforms": [
       "Linux"
     ],
-    "stars": 73,
+    "stars": 74,
     "description": "A recompilation of the N64 Classic: Rush 2",
     "version": "v1.0.48",
     "releasedAt": "2026-11-08",
@@ -658,7 +658,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 169,
+    "stars": 170,
     "description": "Ninja Gaiden II (Xbox 360, 2008) statically recompiled into native Linux and Windows builds, drawn by its own Vulkan renderer. A steady 60 fps, up to 8x render scale, widescreen and ultrawide, keyboard and mouse, mods, Steam Deck ready. Bring your own copy of the game.",
     "version": "v0.5.58",
     "releasedAt": "2026-11-08",
@@ -683,6 +683,29 @@
     "sizeBytes": null,
     "releaseUrl": "https://github.com/Waffle565/God-Of-War-Native-Port/releases",
     "licenseId": null,
+    "licenseUrl": null,
+    "curated": true
+  },
+  {
+    "id": "vyanhursky-defjamffny-recomp",
+    "repo": "vyanhursky/DefJamFFNY-recomp",
+    "title": "Def Jam: Fight for NY",
+    "game": "def-jam-ffny",
+    "author": "vyanhursky",
+    "console": "Xbox",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "stars": 244,
+    "description": "Def Jam: Fight for NY PC port — static recompilation of the original Xbox game for native Windows and macOS (Direct3D 11 / Vulkan). Bring your own game dump.",
+    "version": "v1.1.0",
+    "releasedAt": "2026-11-08",
+    "sizeBytes": 204474872,
+    "releaseUrl": "https://github.com/vyanhursky/DefJamFFNY-recomp/releases/tag/v1.1.0",
+    "licenseId": "NOASSERTION",
     "licenseUrl": null,
     "curated": true
   },
@@ -1089,7 +1112,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 185,
+    "stars": 186,
     "description": "A PC port of Downhill Domination (PS2), built on a matching decompilation. Bring your own disc.",
     "version": "v0.7.13",
     "releasedAt": "2026-11-07",
@@ -1111,7 +1134,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 5791,
+    "stars": 5808,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.3.13",
     "releasedAt": "2026-11-07",
@@ -1324,7 +1347,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 628,
+    "stars": 629,
     "description": "",
     "version": "1.5.1_tag",
     "releasedAt": "2026-11-07",
@@ -1343,7 +1366,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 64,
+    "stars": 65,
     "description": "An unofficial original Xbox version PC port of Red Dead Revolver via static recompilation.",
     "version": "V1",
     "releasedAt": "2026-11-07",
@@ -1429,7 +1452,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 249,
+    "stars": 250,
     "description": "WipEout Omega Collection (PS4) native PC port for Windows: the game's own x86-64 code on the CPU, a PS4 runtime and the shadPS4 Vulkan video core. Playable, in active development. No game files included. ⭐ Star it if you like it; bug reports and requests are welcome in Issues!",
     "version": "windows-v0.2.67",
     "releasedAt": "2026-11-06",
@@ -1712,7 +1735,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 1376,
+    "stars": 1377,
     "description": "Zelda Wind Waker HD Recomp",
     "version": "v0.5.1",
     "releasedAt": "2026-11-06",
@@ -1858,29 +1881,6 @@
     "curated": true
   },
   {
-    "id": "vyanhursky-defjamffny-recomp",
-    "repo": "vyanhursky/DefJamFFNY-recomp",
-    "title": "Def Jam: Fight for NY",
-    "game": "def-jam-ffny",
-    "author": "vyanhursky",
-    "console": "Xbox",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "macOS"
-    ],
-    "stars": 244,
-    "description": "Def Jam: Fight for NY PC port — static recompilation of the original Xbox game for native Windows and macOS (Direct3D 11 / Vulkan). Bring your own game dump.",
-    "version": "v1.0.1",
-    "releasedAt": "2026-11-06",
-    "sizeBytes": 203983352,
-    "releaseUrl": "https://github.com/vyanhursky/DefJamFFNY-recomp/releases/tag/v1.0.1",
-    "licenseId": "NOASSERTION",
-    "licenseUrl": null,
-    "curated": true
-  },
-  {
     "id": "opokxeno-xenogears-recomp",
     "repo": "OpokXeno/xenogears-recomp",
     "title": "Xenogears",
@@ -1949,7 +1949,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 41,
+    "stars": 42,
     "description": "TMNT: Turtles in Time Re-Shelled native PC port via static recompilation, with 4K rendering, 4-player online co-op, Português Brasil, TRG launcher, and experimental Linux/Steam Deck support",
     "version": "v0.1.0",
     "releasedAt": "2026-11-06",
@@ -2603,7 +2603,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 295,
+    "stars": 296,
     "description": "Native Windows PC port of The Last of Us Remastered (PS4, CUSA00552). Runs the game’s own x86-64 code on a custom runtime, with PS4 system libraries reimplemented and a Vulkan renderer based on shadPS4. Includes a launcher. No game files included: you need your own copy.",
     "version": "v0.1.6",
     "releasedAt": "2026-11-04",
@@ -2750,7 +2750,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 106,
+    "stars": 107,
     "description": "Native port of Tekken Tag Tournament 2 Wii U Edition by static recompilation with the possibility to add new characters and mod the game easily. No files included.",
     "version": "v0.5.1",
     "releasedAt": "2026-11-03",
@@ -2795,7 +2795,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 834,
+    "stars": 835,
     "description": "Unofficial native PC and Steam Deck port of Tears of the Kingdom 1.4.3 using static recompilation. Builds locally from the player's own extracted game dump; no game files included.",
     "version": "v0.3.1",
     "releasedAt": "2026-11-03",
@@ -3283,7 +3283,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 174,
+    "stars": 175,
     "description": "GTA V (Xbox 360, TU27) static recompilation with ReXGlue",
     "version": "v0.3.0",
     "releasedAt": "2026-11-02",
@@ -3346,7 +3346,7 @@
       "Linux",
       "iOS"
     ],
-    "stars": 576,
+    "stars": 577,
     "description": "The Legend of Zelda: The Wind Waker Recompiled. Native for MacOS, iOS, Windows, Linux, and Android.",
     "version": "v0.10.0",
     "releasedAt": "2026-11-01",
@@ -3579,7 +3579,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 203,
+    "stars": 204,
     "description": "Forza Motorsport 4 native on PC",
     "version": "v0.3.10",
     "releasedAt": "2026-10-31",
@@ -4043,7 +4043,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 907,
+    "stars": 908,
     "description": "An unofficial original Xbox version PC port of BLACK (2006) via static recompilation.",
     "version": "V3",
     "releasedAt": "2026-10-29",
@@ -4123,7 +4123,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2224,
+    "stars": 2225,
     "description": "Static recompilation of Link's Awakening (Switch) to native macOS, Windows and Linux",
     "version": "beta_5.4",
     "releasedAt": "2026-10-29",
@@ -4289,7 +4289,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 231,
+    "stars": 232,
     "description": "A static native recompilation of Need for Speed: Most Wanted (2005) Xbox 360",
     "version": "v1.0.2",
     "releasedAt": "2026-10-28",
@@ -4311,7 +4311,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 3962,
+    "stars": 3963,
     "description": "Bloodborne (v1.09) running natively on Linux and Windows: the game's x86-64 code runs as is, GPU side translated to Vulkan; FSR 4 / DLSS, co-op (BBSC). Bring your own dump.",
     "version": "0.7",
     "releasedAt": "2026-10-28",
@@ -4670,7 +4670,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 7299,
+    "stars": 7301,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -4692,7 +4692,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 119,
+    "stars": 120,
     "description": "Crackdown native PC port via static recompilation, with high frame rates, 4K rendering, ultrawide support, offline achievements, language selection, TRG launcher, and experimental Linux/Steam Deck support",
     "version": "v0.6.2",
     "releasedAt": "2026-10-25",
@@ -5161,7 +5161,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 1126,
+    "stars": 1127,
     "description": "Native PC port (Linux/Windows) of inFAMOUS Second Son (PS4, CUSA00223) — in development, playable; runs your own game dump; no game or firmware files included. Motion sensor emulation. | Port nativo para PC de inFAMOUS Second Son (em desenvolvimento) — usa o seu próprio dump.",
     "version": "v1.0",
     "releasedAt": "2026-10-22",
@@ -5503,7 +5503,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 5913,
+    "stars": 5914,
     "description": "Ship of Harkinian: a PC port of Ocarina of Time built from the decompilation, with widescreen, high framerate and mod support.",
     "version": "9.3.1",
     "releasedAt": "2026-10-18",
@@ -6891,7 +6891,7 @@
     "console": "PlayStation 3",
     "mechanism": "in-progress",
     "platforms": [],
-    "stars": 99,
+    "stars": 100,
     "description": "Recomp of Asura's Wrath using RexGlue for PC (wip)",
     "version": null,
     "releasedAt": "2026-09-11",
@@ -6954,7 +6954,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 900,
+    "stars": 901,
     "description": "A PC port of Super Mario 64 with DirectX 11, OpenGL and Vulkan backends, fullscreen and controller support.",
     "version": "3.0.0",
     "releasedAt": "2026-09-07",
