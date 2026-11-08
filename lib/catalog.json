@@ -27,7 +27,7 @@
     "console": "Game Boy Advance",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 311,
+    "stars": 312,
     "description": "Static ARM64 to x86 recompiler (GPLv3)",
     "version": null,
     "releasedAt": "2026-11-08",
@@ -87,11 +87,11 @@
       "Linux",
       "macOS"
     ],
-    "stars": 346,
+    "stars": 350,
     "description": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows with Vulkan. The 3D tutorial renders; not playable yet. No game files included.",
     "version": "v0.1.0",
     "releasedAt": "2026-11-08",
-    "sizeBytes": 129064589,
+    "sizeBytes": 129064592,
     "releaseUrl": "https://github.com/Lucas-blip-png/dkb-pc-recomp/releases/tag/v0.1.0",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
@@ -108,7 +108,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 859,
+    "stars": 860,
     "description": "Xbox 360 to PC port of Dante's Inferno using ReXGlue (static recompilation)",
     "version": "v0.8.6-beta-hotfix",
     "releasedAt": "2026-11-08",
@@ -210,7 +210,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 417,
+    "stars": 418,
     "description": "The 2012 Forza Horizon, native on Windows and Linux, and online again: Horizon World, leaderboards and Rivals on a public server you can also self-host. Bring your own copy.",
     "version": "v0.2.9",
     "releasedAt": "2026-11-08",
@@ -329,7 +329,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 304,
+    "stars": 303,
     "description": "Zelda: Tears of the Kingdom (TotK) 1.0.0 recompiled to native Windows and Vulkan. Frame cap up to 240, DLSS option, mouse and keyboard. Open source, mostly written by AI agents. You build it from your own dump; no game files included. Measured on one PC so far.",
     "version": "v0.1.10.1",
     "releasedAt": "2026-11-08",
@@ -430,6 +430,94 @@
     "curated": true
   },
   {
+    "id": "dreamingmoths-memory-of-alessa",
+    "repo": "dreamingmoths/memory-of-alessa",
+    "title": "Silent Hill 3",
+    "game": null,
+    "author": "dreamingmoths",
+    "console": "PlayStation 2",
+    "mechanism": "native",
+    "platforms": [],
+    "stars": 169,
+    "description": "In-progress matching decompilation of Silent Hill 3",
+    "version": null,
+    "releasedAt": "2026-11-08",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/dreamingmoths/memory-of-alessa/releases",
+    "licenseId": "MIT",
+    "licenseUrl": "https://api.github.com/licenses/mit",
+    "curated": true
+  },
+  {
+    "id": "mr-finster-vf3-recomp",
+    "repo": "mr-finster/vf3-recomp",
+    "title": "Virtua Fighter 3",
+    "game": null,
+    "author": "mr-finster",
+    "console": "Arcade",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "stars": 87,
+    "description": "Virtua Fighter 3 (Sega Model 3, 1996) for Mac, Windows and Steam Deck: the arcade's PowerPC program recompiled to native code, up to 6x, widescreen, smooth 120 fps. Bring your own vf3.zip.",
+    "version": "v0.1.18-alpha",
+    "releasedAt": "2026-11-08",
+    "sizeBytes": 10237649,
+    "releaseUrl": "https://github.com/mr-finster/vf3-recomp/releases/tag/v0.1.18-alpha",
+    "licenseId": "NOASSERTION",
+    "licenseUrl": null,
+    "curated": true
+  },
+  {
+    "id": "mr-finster-vf2-recomp",
+    "repo": "mr-finster/vf2-recomp",
+    "title": "Virtua Fighter 2",
+    "game": "virtua-fighter-2",
+    "author": "mr-finster",
+    "console": "Arcade",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "stars": 95,
+    "description": "Virtua Fighter 2 (Sega Model 2, 1994) for Mac, Windows and Steam Deck: the arcade's i960 program recompiled to native code, up to 6x, widescreen, smooth 120 fps. Bring your own vf2.zip.",
+    "version": "v0.1.19",
+    "releasedAt": "2026-11-08",
+    "sizeBytes": 11343621,
+    "releaseUrl": "https://github.com/mr-finster/vf2-recomp/releases/tag/v0.1.19",
+    "licenseId": "NOASSERTION",
+    "licenseUrl": null,
+    "curated": true
+  },
+  {
+    "id": "mr-finster-vf1-recomp",
+    "repo": "mr-finster/vf1-recomp",
+    "title": "Virtua Fighter",
+    "game": "virtua-fighter",
+    "author": "mr-finster",
+    "console": "Arcade",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "stars": 84,
+    "description": "Virtua Fighter (Sega Model 1, 1993) statically recompiled for Mac, Windows and Steam Deck: up to 6x, widescreen, smooth 120 fps. Bring your own vf.zip.",
+    "version": "v1.6.0",
+    "releasedAt": "2026-11-08",
+    "sizeBytes": 10365260,
+    "releaseUrl": "https://github.com/mr-finster/vf1-recomp/releases/tag/v1.6.0",
+    "licenseId": "NOASSERTION",
+    "licenseUrl": null,
+    "curated": true
+  },
+  {
     "id": "llcoolt-paper-cut",
     "repo": "LLCOOLT/paper-cut",
     "title": "Paper Mario: The Thousand-Year Door",
@@ -484,7 +572,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 165,
+    "stars": 168,
     "description": "Ninja Gaiden II (Xbox 360, 2008) statically recompiled into native Linux and Windows builds, drawn by its own Vulkan renderer. A steady 60 fps, up to 8x render scale, widescreen and ultrawide, keyboard and mouse, mods, Steam Deck ready. Bring your own copy of the game.",
     "version": "v0.5.57",
     "releasedAt": "2026-11-07",
@@ -516,25 +604,6 @@
     "releaseUrl": "https://github.com/nathanialf/ico-pc/releases/tag/v0.10.5",
     "licenseId": "NOASSERTION",
     "licenseUrl": null,
-    "curated": true
-  },
-  {
-    "id": "dreamingmoths-memory-of-alessa",
-    "repo": "dreamingmoths/memory-of-alessa",
-    "title": "Silent Hill 3",
-    "game": null,
-    "author": "dreamingmoths",
-    "console": "PlayStation 2",
-    "mechanism": "native",
-    "platforms": [],
-    "stars": 169,
-    "description": "In-progress matching decompilation of Silent Hill 3",
-    "version": null,
-    "releasedAt": "2026-11-07",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/dreamingmoths/memory-of-alessa/releases",
-    "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit",
     "curated": true
   },
   {
@@ -640,7 +709,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 49,
+    "stars": 50,
     "description": "",
     "version": "v.1.0.5",
     "releasedAt": "2026-11-07",
@@ -977,7 +1046,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 5730,
+    "stars": 5737,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.3.13",
     "releasedAt": "2026-11-07",
@@ -1209,7 +1278,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 50,
+    "stars": 53,
     "description": "An unofficial original Xbox version PC port of Red Dead Revolver via static recompilation.",
     "version": "V1",
     "releasedAt": "2026-11-07",
@@ -1736,7 +1805,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 243,
+    "stars": 244,
     "description": "Def Jam: Fight for NY PC port — static recompilation of the original Xbox game for native Windows and macOS (Direct3D 11 / Vulkan). Bring your own game dump.",
     "version": "v1.0.1",
     "releasedAt": "2026-11-06",
@@ -1844,75 +1913,6 @@
     "sizeBytes": 89284637,
     "releaseUrl": "https://github.com/MaxDeadBear/KameoRePowered/releases/tag/v0.3.4",
     "licenseId": null,
-    "licenseUrl": null,
-    "curated": true
-  },
-  {
-    "id": "mr-finster-vf3-recomp",
-    "repo": "mr-finster/vf3-recomp",
-    "title": "Virtua Fighter 3",
-    "game": null,
-    "author": "mr-finster",
-    "console": "Arcade",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "macOS"
-    ],
-    "stars": 86,
-    "description": "Virtua Fighter 3 (Sega Model 3, 1996) for Mac, Windows and Steam Deck: the arcade's PowerPC program recompiled to native code, up to 6x, widescreen, smooth 120 fps. Bring your own vf3.zip.",
-    "version": "v0.1.17-alpha",
-    "releasedAt": "2026-11-05",
-    "sizeBytes": 8619349,
-    "releaseUrl": "https://github.com/mr-finster/vf3-recomp/releases/tag/v0.1.17-alpha",
-    "licenseId": "NOASSERTION",
-    "licenseUrl": null,
-    "curated": true
-  },
-  {
-    "id": "mr-finster-vf2-recomp",
-    "repo": "mr-finster/vf2-recomp",
-    "title": "Virtua Fighter 2",
-    "game": "virtua-fighter-2",
-    "author": "mr-finster",
-    "console": "Arcade",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "macOS"
-    ],
-    "stars": 95,
-    "description": "Virtua Fighter 2 (Sega Model 2, 1994) for Mac, Windows and Steam Deck: the arcade's i960 program recompiled to native code, up to 6x, widescreen, smooth 120 fps. Bring your own vf2.zip.",
-    "version": "v0.1.18",
-    "releasedAt": "2026-11-05",
-    "sizeBytes": 9723837,
-    "releaseUrl": "https://github.com/mr-finster/vf2-recomp/releases/tag/v0.1.18",
-    "licenseId": "NOASSERTION",
-    "licenseUrl": null,
-    "curated": true
-  },
-  {
-    "id": "mr-finster-vf1-recomp",
-    "repo": "mr-finster/vf1-recomp",
-    "title": "Virtua Fighter",
-    "game": "virtua-fighter",
-    "author": "mr-finster",
-    "console": "Arcade",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "macOS"
-    ],
-    "stars": 84,
-    "description": "Virtua Fighter (Sega Model 1, 1993) statically recompiled for Mac, Windows and Steam Deck: up to 6x, widescreen, smooth 120 fps. Bring your own vf.zip.",
-    "version": "v1.5.1",
-    "releasedAt": "2026-11-05",
-    "sizeBytes": 8754151,
-    "releaseUrl": "https://github.com/mr-finster/vf1-recomp/releases/tag/v1.5.1",
-    "licenseId": "NOASSERTION",
     "licenseUrl": null,
     "curated": true
   },
@@ -2163,7 +2163,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 74,
+    "stars": 75,
     "description": "Native PC, Mac and Steam Deck port of 50 Cent: Blood on the Sand (Xbox 360), statically recompiled with ReXGlue. Download: https://skullburglar.stz.sh",
     "version": null,
     "releasedAt": "2026-11-05",
@@ -2519,7 +2519,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 292,
+    "stars": 293,
     "description": "Native Windows PC port of The Last of Us Remastered (PS4, CUSA00552). Runs the game’s own x86-64 code on a custom runtime, with PS4 system libraries reimplemented and a Vulkan renderer based on shadPS4. Includes a launcher. No game files included: you need your own copy.",
     "version": "v0.1.6",
     "releasedAt": "2026-11-04",
@@ -2600,7 +2600,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 493,
+    "stars": 495,
     "description": "Nintendo Switch 2 games recompiled to run natively on PC.",
     "version": "v0.2.0",
     "releasedAt": "2026-11-04",
@@ -2622,7 +2622,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 220,
+    "stars": 221,
     "description": "Native Windows PC port of God of War (PS2), built by statically recompiling MIPS R5900 code to C++ with PS2Recomp. Includes an installer launcher, one-click build, fan-translation support and a 60 fps target. No game files included: you need your own copy.",
     "version": "v0.5.0",
     "releasedAt": "2026-11-03",
@@ -2644,7 +2644,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 126,
+    "stars": 127,
     "description": "Mega Man X4 (USA, SLUS-00561) statically recompiled to a native PC executable with PSXRecomp",
     "version": "v1.0.29",
     "releasedAt": "2026-11-03",
@@ -2735,7 +2735,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 828,
+    "stars": 829,
     "description": "Unofficial native PC and Steam Deck port of Tears of the Kingdom 1.4.3 using static recompilation. Builds locally from the player's own extracted game dump; no game files included.",
     "version": "v0.3.1",
     "releasedAt": "2026-11-03",
@@ -2798,7 +2798,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 134,
+    "stars": 136,
     "description": "Forza Motorsport 4 recompilation based on ShiftGlue",
     "version": "v0.3.1",
     "releasedAt": "2026-11-03",
@@ -3071,7 +3071,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 264,
+    "stars": 265,
     "description": "Static Recomp of PSX USA MediEvil, By BlackLabelHQ",
     "version": "v1.0.3",
     "releasedAt": "2026-11-02",
@@ -3090,7 +3090,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 162,
+    "stars": 163,
     "description": "Unofficial PC port of the Xbox 360 version of Army of Two (2008). Online co-op supported.",
     "version": "v1.4.3",
     "releasedAt": "2026-11-02",
@@ -3371,7 +3371,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 275,
+    "stars": 276,
     "description": "Native Windows port of Pokémon: Let's Go, Eevee! (Switch v1.0.0) by static recompilation, built on LAS Recomp. No game files included.",
     "version": "v0.7.6",
     "releasedAt": "2026-11-01",
@@ -3498,7 +3498,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 155,
+    "stars": 156,
     "description": "Fan mod of Dino Crisis (PS1). It brings a modern Resident evil Remakes like over-the-shoulder camera, updated controls, visual/gameplay improvements, and plenty of Quality of Life settings to customize the experience to your liking.",
     "version": "v1.07",
     "releasedAt": "2026-11-01",
@@ -3561,7 +3561,7 @@
     "platforms": [
       "Linux"
     ],
-    "stars": 233,
+    "stars": 234,
     "description": "Banjo-Kazooie: Nuts and Bolts Recompilation with Rexglue",
     "version": "renut",
     "releasedAt": "2026-10-31",
@@ -3772,7 +3772,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 34086,
+    "stars": 34088,
     "description": "PlayStation 4 emulator for Windows, Linux, macOS and FreeBSD written in C++",
     "version": "v.0.21.0",
     "releasedAt": "2026-10-30",
@@ -4002,7 +4002,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 237,
+    "stars": 236,
     "description": "Static recompilation of Midnight Club: Los Angeles (Xbox 360) for PC and PS5. No game data included.",
     "version": "v1.0.14",
     "releasedAt": "2026-10-29",
@@ -4063,7 +4063,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2218,
+    "stars": 2219,
     "description": "Static recompilation of Link's Awakening (Switch) to native macOS, Windows and Linux",
     "version": "beta_5.4",
     "releasedAt": "2026-10-29",
@@ -4610,7 +4610,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 7277,
+    "stars": 7281,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -4697,7 +4697,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 106,
+    "stars": 107,
     "description": "Dead or Alive 3 PC Port ",
     "version": "v1.0.7",
     "releasedAt": "2026-10-24",
@@ -4969,7 +4969,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 265,
+    "stars": 266,
     "description": "Native Windows port of Tekken Tag Tournament 2 (Xbox 360) by static recompilation. Not an emulator. Ships no game data - the installer builds the game from your own disc image and Title Update 3.",
     "version": "v0.1.7",
     "releasedAt": "2026-10-23",
@@ -5443,7 +5443,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 5905,
+    "stars": 5907,
     "description": "Ship of Harkinian: a PC port of Ocarina of Time built from the decompilation, with widescreen, high framerate and mod support.",
     "version": "9.3.1",
     "releasedAt": "2026-10-18",
@@ -6176,7 +6176,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 909,
+    "stars": 910,
     "description": "Recompilation of Blue Dragon",
     "version": "v1.3.1",
     "releasedAt": "2026-10-05",
@@ -6318,7 +6318,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 218,
+    "stars": 219,
     "description": "",
     "version": "V1.2.2",
     "releasedAt": "2026-10-02",
@@ -6890,7 +6890,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 72,
+    "stars": 73,
     "description": "",
     "version": "release_v1.5.1",
     "releasedAt": "2026-09-10",
@@ -6979,7 +6979,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 832,
+    "stars": 833,
     "description": "Multiplatform and Feature-rich Port based on PSX decompilation of Silent Hill 1 made with Claude and Psycross. Still in beta and is in active development.",
     "version": "crossplatform-beta",
     "releasedAt": "2026-09-04",
@@ -7021,7 +7021,7 @@
     "console": "Arcade",
     "mechanism": "in-progress",
     "platforms": [],
-    "stars": 170,
+    "stars": 171,
     "description": "Native SH-4 AOT recompilation of Initial D Arcade Stage 3 (NAOMI 2) — BIOS-free Vulkan public early demo (WIP).",
     "version": "v2489-verified-vulkan-checkpoint",
     "releasedAt": "2026-09-03",
@@ -7373,7 +7373,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 69,
+    "stars": 70,
     "description": "A port of Diablo 3 based on RexGlue using AI",
     "version": "beta-1.3",
     "releasedAt": "2026-07-25",
