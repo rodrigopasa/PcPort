@@ -83,7 +83,7 @@
     "console": "Nintendo Switch 2",
     "mechanism": "in-progress",
     "platforms": [],
-    "stars": 314,
+    "stars": 319,
     "description": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows with Vulkan. The 3D tutorial renders; not playable yet. No game files included.",
     "version": null,
     "releasedAt": "2026-11-08",
@@ -104,7 +104,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 858,
+    "stars": 859,
     "description": "Xbox 360 to PC port of Dante's Inferno using ReXGlue (static recompilation)",
     "version": "v0.8.6-beta-hotfix",
     "releasedAt": "2026-11-08",
@@ -137,6 +137,86 @@
     "curated": true
   },
   {
+    "id": "nekomancer01-darksoulsps2",
+    "repo": "nekomancer01/DarkSoulsPS2",
+    "title": "Dark Souls Remastered: C/VU1 engine plus exporters that read your own",
+    "game": null,
+    "author": "nekomancer01",
+    "console": "PlayStation 2",
+    "mechanism": "recompiled",
+    "platforms": [],
+    "stars": 78,
+    "description": "Homebrew PS2 port of Dark Souls Remastered: C/VU1 engine plus exporters that read your own copy of the game (no game data included)",
+    "version": null,
+    "releasedAt": "2026-11-08",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/nekomancer01/DarkSoulsPS2/releases",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
+  },
+  {
+    "id": "zer0ducksgiven-pgr4-regpu",
+    "repo": "zer0ducksgiven/PGR4-ReGPU",
+    "title": "Project Gotham Racing 4",
+    "game": "project-gotham-racing-4",
+    "author": "zer0ducksgiven",
+    "console": "Xbox 360",
+    "mechanism": "native",
+    "platforms": [
+      "Windows"
+    ],
+    "stars": 75,
+    "description": "Project Gotham Racing 4 PC port on ReGPU (XenonRecomp)",
+    "version": "v0.2.7",
+    "releasedAt": "2026-11-08",
+    "sizeBytes": 61908551,
+    "releaseUrl": "https://github.com/zer0ducksgiven/PGR4-ReGPU/releases/tag/v0.2.7",
+    "licenseId": "MIT",
+    "licenseUrl": "https://api.github.com/licenses/mit",
+    "curated": true
+  },
+  {
+    "id": "victor-takai-rogue-galaxy-recomp",
+    "repo": "victor-takai/rogue-galaxy-recomp",
+    "title": "Rogue Galaxy",
+    "game": null,
+    "author": "victor-takai",
+    "console": "PlayStation 2",
+    "mechanism": "recompiled",
+    "platforms": [],
+    "stars": 70,
+    "description": "Rogue Galaxy (PS2) as a native Windows game: a static recompilation on PS2Recomp, built from your own disc.",
+    "version": null,
+    "releasedAt": "2026-11-08",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/victor-takai/rogue-galaxy-recomp/releases",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
+  },
+  {
+    "id": "fh1-reimagined-forzahorizon1-reimagined",
+    "repo": "FH1-ReImagined/ForzaHorizon1-ReImagined",
+    "title": "Forza Horizon",
+    "game": "forza-horizon",
+    "author": "FH1-ReImagined",
+    "console": "Xbox 360",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 416,
+    "description": "The 2012 Forza Horizon, native on Windows and Linux, and online again: Horizon World, leaderboards and Rivals on a public server you can also self-host. Bring your own copy.",
+    "version": "v0.2.9",
+    "releasedAt": "2026-11-08",
+    "sizeBytes": 96424681,
+    "releaseUrl": "https://github.com/FH1-ReImagined/ForzaHorizon1-ReImagined/releases/tag/v0.2.9",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
+  },
+  {
     "id": "sonicnext-dev-marathonrecomp",
     "repo": "sonicnext-dev/MarathonRecomp",
     "title": "Sonic the Hedgehog (2006)",
@@ -154,24 +234,6 @@
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
-  },
-  {
-    "id": "nekomancer01-darksoulsps2",
-    "repo": "nekomancer01/DarkSoulsPS2",
-    "title": "Dark Souls Remastered: C/VU1 engine plus exporters that read your own",
-    "game": null,
-    "author": "nekomancer01",
-    "console": "PlayStation 2",
-    "mechanism": "recompiled",
-    "platforms": [],
-    "stars": 78,
-    "description": "Homebrew PS2 port of Dark Souls Remastered: C/VU1 engine plus exporters that read your own copy of the game (no game data included)",
-    "version": null,
-    "releasedAt": "2026-11-07",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/nekomancer01/DarkSoulsPS2/releases",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
   },
   {
     "id": "theitsnschool-bloodborne-windows-native-loader",
@@ -212,27 +274,6 @@
     "licenseUrl": null
   },
   {
-    "id": "zer0ducksgiven-pgr4-regpu",
-    "repo": "zer0ducksgiven/PGR4-ReGPU",
-    "title": "Project Gotham Racing 4",
-    "game": "project-gotham-racing-4",
-    "author": "zer0ducksgiven",
-    "console": "Xbox 360",
-    "mechanism": "native",
-    "platforms": [
-      "Windows"
-    ],
-    "stars": 75,
-    "description": "Project Gotham Racing 4 PC port on ReGPU (XenonRecomp)",
-    "version": "v0.2.6",
-    "releasedAt": "2026-11-07",
-    "sizeBytes": 61907311,
-    "releaseUrl": "https://github.com/zer0ducksgiven/PGR4-ReGPU/releases/tag/v0.2.6",
-    "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit",
-    "curated": true
-  },
-  {
     "id": "llcoolt-paper-cut",
     "repo": "LLCOOLT/paper-cut",
     "title": "Paper Mario: The Thousand-Year Door",
@@ -257,25 +298,6 @@
     "licenseUrl": "https://api.github.com/licenses/mit"
   },
   {
-    "id": "victor-takai-rogue-galaxy-recomp",
-    "repo": "victor-takai/rogue-galaxy-recomp",
-    "title": "Rogue Galaxy",
-    "game": null,
-    "author": "victor-takai",
-    "console": "PlayStation 2",
-    "mechanism": "recompiled",
-    "platforms": [],
-    "stars": 70,
-    "description": "Rogue Galaxy (PS2) as a native Windows game: a static recompilation on PS2Recomp, built from your own disc.",
-    "version": null,
-    "releasedAt": "2026-11-07",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/victor-takai/rogue-galaxy-recomp/releases",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
-    "curated": true
-  },
-  {
     "id": "mzzvxm-larecomp",
     "repo": "mzzvxm/LARecomp",
     "title": "Midnight Club: Los Angeles",
@@ -284,7 +306,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 320,
+    "stars": 321,
     "description": "",
     "version": null,
     "releasedAt": "2026-11-07",
@@ -395,25 +417,6 @@
     "releaseUrl": "https://github.com/dennisabalo18-bot/red-dead-revolver-pc/releases/tag/v1.4",
     "licenseId": null,
     "licenseUrl": null
-  },
-  {
-    "id": "shagg88-cogbox",
-    "repo": "Shagg88/COGBox",
-    "title": "Gears of War 2, 3 & Judgment",
-    "game": null,
-    "author": "Shagg88",
-    "console": "Xbox 360",
-    "mechanism": "recompiled",
-    "platforms": [],
-    "stars": 424,
-    "description": "This is an open source, all-in-one, static recompilation project that I built from the ground up for the Xbox 360 Gears of War series. All 4 games have been personally recompiled for use with a fully native renderer by me.",
-    "version": "0.4.8",
-    "releasedAt": "2026-11-07",
-    "sizeBytes": 474564549,
-    "releaseUrl": "https://github.com/Shagg88/COGBox/releases/tag/0.4.8",
-    "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit",
-    "curated": true
   },
   {
     "id": "russophone-tomodachi-ltd-recomp",
@@ -604,7 +607,7 @@
     "console": "PSP",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 190,
+    "stars": 191,
     "description": "Unofficial native PC ports of God of War: Chains of Olympus and Ghost of Sparta (PSP) by static recompilation. Bring your own disc.",
     "version": "v1.5.0",
     "releasedAt": "2026-11-07",
@@ -883,7 +886,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 5685,
+    "stars": 5689,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.3.13",
     "releasedAt": "2026-11-07",
@@ -1052,7 +1055,7 @@
       "macOS",
       "iOS"
     ],
-    "stars": 646,
+    "stars": 647,
     "description": "Unofficial static recompilation of the Xbox 360 version of Need for Speed: Most Wanted (2005): a native port for Steam Deck, Steam Machine, Steam Frame, Linux and Mac (iPhone/iPad: sideload the experimental IPA or build it yourself). Bring your own disc: no game files included. Not affiliated with EA or Valve.",
     "version": "v0.2.4",
     "releasedAt": "2026-11-07",
@@ -1096,7 +1099,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 625,
+    "stars": 626,
     "description": "",
     "version": "1.5.1_tag",
     "releasedAt": "2026-11-07",
@@ -1104,28 +1107,6 @@
     "releaseUrl": "https://github.com/himdo/Fable-2-Recomp/releases/tag/1.5.1_tag",
     "licenseId": "MIT",
     "licenseUrl": "https://api.github.com/licenses/mit",
-    "curated": true
-  },
-  {
-    "id": "fh1-reimagined-forzahorizon1-reimagined",
-    "repo": "FH1-ReImagined/ForzaHorizon1-ReImagined",
-    "title": "Forza Horizon",
-    "game": "forza-horizon",
-    "author": "FH1-ReImagined",
-    "console": "Xbox 360",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 416,
-    "description": "The 2012 Forza Horizon, native on Windows and Linux, and online again: Horizon World, leaderboards and Rivals on a public server you can also self-host. Bring your own copy.",
-    "version": "v0.2.8",
-    "releasedAt": "2026-11-06",
-    "sizeBytes": 95834769,
-    "releaseUrl": "https://github.com/FH1-ReImagined/ForzaHorizon1-ReImagined/releases/tag/v0.2.8",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
   },
   {
@@ -1187,7 +1168,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 236,
+    "stars": 237,
     "description": "Experimental native PC runtime for Kingdom Hearts 358/2 Days, developed alongside the matching Nintendo DS decompilation. No copyrighted game data included.",
     "version": "v0.1.5",
     "releasedAt": "2026-11-06",
@@ -1208,7 +1189,7 @@
     "platforms": [
       "PC"
     ],
-    "stars": 1777,
+    "stars": 1779,
     "description": "Native Windows port of Shadow of the Colossus (PS4, CUSA08809) - bring your own game dump. Port nativo para PC.",
     "version": "v0.72.2",
     "releasedAt": "2026-11-06",
@@ -1467,7 +1448,7 @@
     "platforms": [
       "PC"
     ],
-    "stars": 80,
+    "stars": 81,
     "description": "Native Windows PC recompilation of the unreleased GoldenEye 007 Xbox 360/XBLA remaster using ReXGlue. Requires your own copy.",
     "version": "v0.9.7a",
     "releasedAt": "2026-11-06",
@@ -1731,7 +1712,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 386,
+    "stars": 387,
     "description": "Dragon's Crown Pro native PC port for Windows, with direct PS4 PKG installation, TRG launcher and modern graphics options",
     "version": "v1.0.0",
     "releasedAt": "2026-11-06",
@@ -1926,7 +1907,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 165,
+    "stars": 166,
     "description": "A matching decompilation and PC port for the Ratchet & Clank series",
     "version": "launcher-v1.0.2",
     "releasedAt": "2026-11-05",
@@ -4081,7 +4062,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2211,
+    "stars": 2213,
     "description": "Static recompilation of Link's Awakening (Switch) to native macOS, Windows and Linux",
     "version": "beta_5.4",
     "releasedAt": "2026-10-29",
@@ -4269,7 +4250,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 3955,
+    "stars": 3954,
     "description": "Bloodborne (v1.09) running natively on Linux and Windows: the game's x86-64 code runs as is, GPU side translated to Vulkan; FSR 4 / DLSS, co-op (BBSC). Bring your own dump.",
     "version": "0.7",
     "releasedAt": "2026-10-28",
@@ -5212,25 +5193,6 @@
     "curated": true
   },
   {
-    "id": "shagg88-athelas",
-    "repo": "Shagg88/Athelas",
-    "title": "The Lord of the Rings: The Return of the King",
-    "game": "lotr-return-of-the-king",
-    "author": "Shagg88",
-    "console": "Xbox",
-    "mechanism": "recompiled",
-    "platforms": [],
-    "stars": 96,
-    "description": "Play The Return of the King (PC and Xbox) and The Two Towers (Xbox) on a modern PC",
-    "version": "1.4",
-    "releasedAt": "2026-10-21",
-    "sizeBytes": 39645242,
-    "releaseUrl": "https://github.com/Shagg88/Athelas/releases/tag/1.4",
-    "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit",
-    "curated": true
-  },
-  {
     "id": "theclub654-projectcane",
     "repo": "theclub654/ProjectCane",
     "title": "Sly Cooper and the Thievius Raccoonus",
@@ -5400,7 +5362,7 @@
     "console": "Xbox 360",
     "mechanism": "native",
     "platforms": [],
-    "stars": 102,
+    "stars": 103,
     "description": "",
     "version": "v0.3",
     "releasedAt": "2026-10-20",
@@ -5480,7 +5442,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 5901,
+    "stars": 5902,
     "description": "Ship of Harkinian: a PC port of Ocarina of Time built from the decompilation, with widescreen, high framerate and mod support.",
     "version": "9.3.1",
     "releasedAt": "2026-10-18",
@@ -7167,7 +7129,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2430,
+    "stars": 2431,
     "description": "2 Ship 2 Harkinian: a PC port of Majora's Mask built from the decompilation, with widescreen, high resolution and mod support.",
     "version": "5.0.1",
     "releasedAt": "2026-08-25",
@@ -7549,7 +7511,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 934,
+    "stars": 935,
     "description": "",
     "version": "Goldeneye1.2.4",
     "releasedAt": "2026-06-18",
@@ -8165,7 +8127,7 @@
     "console": "PlayStation",
     "mechanism": "native",
     "platforms": [],
-    "stars": 1234,
+    "stars": 1235,
     "description": "Decompilation of Castlevania: Symphony of the Night (PSX, PSP, Saturn)",
     "version": "cc1-psx-26",
     "releasedAt": "2023-04-05",
