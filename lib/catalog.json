@@ -66,7 +66,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 184,
+    "stars": 192,
     "description": "Native Windows PC port of Fire Emblem: Fortune's Weave by static recompilation. Bring your own dump; no game files included.",
     "version": "v0.1.4",
     "releasedAt": "2026-11-09",
@@ -123,7 +123,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 2455,
+    "stars": 2456,
     "description": "Decompilation of The Legend of Zelda: Breath of the Wild (Switch 1.5.0)",
     "version": null,
     "releasedAt": "2026-11-09",
@@ -245,7 +245,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 511,
+    "stars": 513,
     "description": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows with Vulkan. Plays from the title screen through the first stage on an RTX 5060 Ti; still early, can crash. No game files included.",
     "version": "v0.2.0",
     "releasedAt": "2026-11-09",
@@ -513,7 +513,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 815,
+    "stars": 816,
     "description": "Definitive Bloodborne PC Experience",
     "version": "v0.2.28",
     "releasedAt": "2026-11-09",
@@ -534,6 +534,7 @@
     "platforms": [
       "Windows",
       "Linux",
+      "macOS",
       "Android",
       "iOS"
     ],
@@ -559,7 +560,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 324,
+    "stars": 325,
     "description": "Pokémon Pokopia (Switch 2) recompiled to run natively on Windows. With multiplayer support, modding, feature enhancements and more! Join the discord community as well",
     "version": "v0.8.1",
     "releasedAt": "2026-11-09",
@@ -585,6 +586,48 @@
     "releasedAt": "2026-11-09",
     "sizeBytes": 76050620,
     "releaseUrl": "https://github.com/hk21x/007eon-recomp/releases/tag/v1.2.0",
+    "licenseId": "MIT",
+    "licenseUrl": "https://api.github.com/licenses/mit",
+    "curated": true
+  },
+  {
+    "id": "shdecompilations-silent-hill-decomp",
+    "repo": "shdecompilations/silent-hill-decomp",
+    "title": "Silent Hill",
+    "game": "silent-hill",
+    "author": "shdecompilations",
+    "console": "PlayStation",
+    "mechanism": "native",
+    "platforms": [],
+    "stars": 965,
+    "description": "An in-progress decompilation of Silent Hill on the PlayStation 1.",
+    "version": null,
+    "releasedAt": "2026-11-09",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/shdecompilations/silent-hill-decomp/releases",
+    "licenseId": "NOASSERTION",
+    "licenseUrl": null,
+    "curated": true
+  },
+  {
+    "id": "matteo842-crashbandicoot-launcher",
+    "repo": "Matteo842/CrashBandicoot-Launcher",
+    "title": "Crash Bandicoot",
+    "game": null,
+    "author": "Matteo842",
+    "console": "PlayStation",
+    "mechanism": "native",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "Android"
+    ],
+    "stars": 332,
+    "description": "CrashBandicoot native pc port",
+    "version": "2.5",
+    "releasedAt": "2026-11-09",
+    "sizeBytes": 74028247,
+    "releaseUrl": "https://github.com/Matteo842/CrashBandicoot-Launcher/releases/tag/2.5",
     "licenseId": "MIT",
     "licenseUrl": "https://api.github.com/licenses/mit",
     "curated": true
@@ -695,25 +738,6 @@
     "curated": true
   },
   {
-    "id": "shdecompilations-silent-hill-decomp",
-    "repo": "shdecompilations/silent-hill-decomp",
-    "title": "Silent Hill",
-    "game": "silent-hill",
-    "author": "shdecompilations",
-    "console": "PlayStation",
-    "mechanism": "native",
-    "platforms": [],
-    "stars": 965,
-    "description": "An in-progress decompilation of Silent Hill on the PlayStation 1.",
-    "version": null,
-    "releasedAt": "2026-11-08",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/shdecompilations/silent-hill-decomp/releases",
-    "licenseId": "NOASSERTION",
-    "licenseUrl": null,
-    "curated": true
-  },
-  {
     "id": "arcanite24-pinyon-shift",
     "repo": "arcanite24/pinyon-shift",
     "title": "Forza Horizon",
@@ -790,7 +814,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5269,
+    "stars": 5273,
     "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
     "version": "windows-v1.9.8.4",
     "releasedAt": "2026-11-08",
@@ -898,7 +922,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 395,
+    "stars": 396,
     "description": "Dragon's Crown Pro native PC port for Windows, with direct PS4 PKG installation, TRG launcher and modern graphics options",
     "version": "v1.1.1",
     "releasedAt": "2026-11-08",
@@ -922,7 +946,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 171,
+    "stars": 172,
     "description": "CPS-2 Recomp: unofficial native PC ports of Capcom CPS-2 arcade games (Street Fighter Alpha 2, Super Puzzle Fighter II Turbo, Vampire Savior) via static recompilation, with training modes, in one launcher: macOS, Linux, Steam Deck, Windows. Requires your own ROM sets. Beta.",
     "version": "v1.4.0",
     "releasedAt": "2026-11-08",
@@ -964,7 +988,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 245,
+    "stars": 246,
     "description": "Def Jam: Fight for NY PC port — static recompilation of the original Xbox game for native Windows and macOS (Direct3D 11 / Vulkan). Bring your own game dump.",
     "version": "v1.1.1",
     "releasedAt": "2026-11-08",
@@ -1394,6 +1418,27 @@
     "curated": true
   },
   {
+    "id": "giacomozama-live-and-recompiled",
+    "repo": "giacomozama/live-and-recompiled",
+    "title": "OG Xbox Conker: Live & Reloaded",
+    "game": null,
+    "author": "giacomozama",
+    "console": "Xbox",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 40,
+    "description": "An unofficial native PC port of the OG Xbox Conker: Live & Reloaded.",
+    "version": "v3.1.0",
+    "releasedAt": "2026-11-08",
+    "sizeBytes": 99590175,
+    "releaseUrl": "https://github.com/giacomozama/live-and-recompiled/releases/tag/v3.1.0",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
+  },
+  {
     "id": "llcoolt-paper-cut",
     "repo": "LLCOOLT/paper-cut",
     "title": "Paper Mario: The Thousand-Year Door",
@@ -1585,7 +1630,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 131,
+    "stars": 132,
     "description": "Native SDL3 port of Colin McRae Rally 2.0 built from the CMR2Decomp decompilation. No game data included.",
     "version": "v1.8.7",
     "releasedAt": "2026-11-07",
@@ -1756,7 +1801,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 6017,
+    "stars": 6024,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.3.13",
     "releasedAt": "2026-11-07",
@@ -1864,7 +1909,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 634,
+    "stars": 635,
     "description": "",
     "version": "1.5.1_tag",
     "releasedAt": "2026-11-07",
@@ -1883,7 +1928,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 92,
+    "stars": 94,
     "description": "An unofficial original Xbox version PC port of Red Dead Revolver via static recompilation.",
     "version": "V1",
     "releasedAt": "2026-11-07",
@@ -3006,7 +3051,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 507,
+    "stars": 510,
     "description": "Nintendo Switch 2 games recompiled to run natively on PC.",
     "version": "v0.2.0",
     "releasedAt": "2026-11-04",
@@ -3542,7 +3587,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 188,
+    "stars": 189,
     "description": "GTA V (Xbox 360, TU27) static recompilation with ReXGlue",
     "version": "v0.3.0",
     "releasedAt": "2026-11-02",
@@ -4083,29 +4128,6 @@
     "curated": true
   },
   {
-    "id": "matteo842-crashbandicoot-launcher",
-    "repo": "Matteo842/CrashBandicoot-Launcher",
-    "title": "Crash Bandicoot",
-    "game": null,
-    "author": "Matteo842",
-    "console": "PlayStation",
-    "mechanism": "native",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "Android"
-    ],
-    "stars": 332,
-    "description": "CrashBandicoot native pc port",
-    "version": "2.4",
-    "releasedAt": "2026-10-30",
-    "sizeBytes": 73315543,
-    "releaseUrl": "https://github.com/Matteo842/CrashBandicoot-Launcher/releases/tag/2.4",
-    "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit",
-    "curated": true
-  },
-  {
     "id": "samuelit0davila-fifa-street-pc-port",
     "repo": "samuelit0davila/fifa-street-pc-port",
     "title": "FIFA Street",
@@ -4319,7 +4341,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2251,
+    "stars": 2252,
     "description": "Static recompilation of Link's Awakening (Switch) to native macOS, Windows and Linux",
     "version": "beta_5.4",
     "releasedAt": "2026-10-29",
@@ -4866,7 +4888,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 7345,
+    "stars": 7347,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -6576,7 +6598,7 @@
     "console": "Game Boy Advance",
     "mechanism": "native",
     "platforms": [],
-    "stars": 3671,
+    "stars": 3672,
     "description": "Decompilation of Pokémon Emerald",
     "version": null,
     "releasedAt": "2026-10-01",
