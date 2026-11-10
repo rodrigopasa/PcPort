@@ -8,7 +8,7 @@
     "console": "Game Boy Advance",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 324,
+    "stars": 325,
     "description": "Static ARM64 to x86 recompiler (GPLv3)",
     "version": null,
     "releasedAt": "2026-11-10",
@@ -209,7 +209,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 515,
+    "stars": 516,
     "description": "PC, Android, iOS and macOS port of the ICO (PS2) decompilation (nathanialf/ico): Windows, Linux, Steam Deck, Android, iPhone via LiveContainer and Apple-silicon Mac (contributed). Contains no game data.",
     "version": "v0.11.2",
     "releasedAt": "2026-11-10",
@@ -230,7 +230,7 @@
     "platforms": [
       "PC"
     ],
-    "stars": 1822,
+    "stars": 1824,
     "description": "Native Windows port of Shadow of the Colossus (PS4, CUSA08809) - bring your own game dump. Port nativo para PC.",
     "version": "v0.74",
     "releasedAt": "2026-11-10",
@@ -412,6 +412,114 @@
     "curated": true
   },
   {
+    "id": "goldoire-fefw-recomp",
+    "repo": "Goldoire/fefw-recomp",
+    "title": "Fire Emblem: Fortune's Weave by static recompilation",
+    "game": null,
+    "author": "Goldoire",
+    "console": "Nintendo Switch",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows"
+    ],
+    "stars": 406,
+    "description": "Native Windows PC port of Fire Emblem: Fortune's Weave by static recompilation. Bring your own dump; no game files included.",
+    "version": "v0.1.6",
+    "releasedAt": "2026-11-10",
+    "sizeBytes": 163946410,
+    "releaseUrl": "https://github.com/Goldoire/fefw-recomp/releases/tag/v0.1.6",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
+  },
+  {
+    "id": "mr-finster-vf3-recomp",
+    "repo": "mr-finster/vf3-recomp",
+    "title": "Virtua Fighter 3",
+    "game": null,
+    "author": "mr-finster",
+    "console": "Arcade",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "stars": 89,
+    "description": "Virtua Fighter 3 (Sega Model 3, 1996) for Mac, Windows and Steam Deck: the arcade's PowerPC program recompiled to native code, up to 6x, widescreen, smooth 120 fps. Bring your own vf3.zip.",
+    "version": "v0.1.21-alpha",
+    "releasedAt": "2026-11-10",
+    "sizeBytes": 10432572,
+    "releaseUrl": "https://github.com/mr-finster/vf3-recomp/releases/tag/v0.1.21-alpha",
+    "licenseId": "NOASSERTION",
+    "licenseUrl": null,
+    "curated": true
+  },
+  {
+    "id": "mr-finster-vf2-recomp",
+    "repo": "mr-finster/vf2-recomp",
+    "title": "Virtua Fighter 2",
+    "game": "virtua-fighter-2",
+    "author": "mr-finster",
+    "console": "Arcade",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "stars": 96,
+    "description": "Virtua Fighter 2 (Sega Model 2, 1994) for Mac, Windows and Steam Deck: the arcade's i960 program recompiled to native code, up to 6x, widescreen, smooth 120 fps. Bring your own vf2.zip.",
+    "version": "v0.1.22",
+    "releasedAt": "2026-11-10",
+    "sizeBytes": 11517862,
+    "releaseUrl": "https://github.com/mr-finster/vf2-recomp/releases/tag/v0.1.22",
+    "licenseId": "NOASSERTION",
+    "licenseUrl": null,
+    "curated": true
+  },
+  {
+    "id": "mr-finster-vf1-recomp",
+    "repo": "mr-finster/vf1-recomp",
+    "title": "Virtua Fighter",
+    "game": "virtua-fighter",
+    "author": "mr-finster",
+    "console": "Arcade",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "stars": 83,
+    "description": "Virtua Fighter (Sega Model 1, 1993) statically recompiled for Mac, Windows and Steam Deck: up to 6x, widescreen, smooth 120 fps. Bring your own vf.zip.",
+    "version": "v1.7.0",
+    "releasedAt": "2026-11-10",
+    "sizeBytes": 10549828,
+    "releaseUrl": "https://github.com/mr-finster/vf1-recomp/releases/tag/v1.7.0",
+    "licenseId": "NOASSERTION",
+    "licenseUrl": null,
+    "curated": true
+  },
+  {
+    "id": "mkst-sssv",
+    "repo": "mkst/sssv",
+    "title": "Space Station Silicon Valley",
+    "game": "space-station-silicon-valley",
+    "author": "mkst",
+    "console": "Nintendo 64",
+    "mechanism": "in-progress",
+    "platforms": [],
+    "stars": 66,
+    "description": "WIP Space Station Silicon Valley N64 Decomp",
+    "version": null,
+    "releasedAt": "2026-11-10",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/mkst/sssv/releases",
+    "licenseId": "CC0-1.0",
+    "licenseUrl": "https://api.github.com/licenses/cc0-1.0",
+    "curated": true
+  },
+  {
     "id": "pascalpixel-alchemy",
     "repo": "PascalPixel/alchemy",
     "title": "Golden Sun",
@@ -429,26 +537,6 @@
     "licenseId": null,
     "licenseUrl": null,
     "curated": true
-  },
-  {
-    "id": "goldoire-fefw-recomp",
-    "repo": "Goldoire/fefw-recomp",
-    "title": "Fire Emblem: Fortune's Weave by static recompilation",
-    "game": null,
-    "author": "Goldoire",
-    "console": "Nintendo Switch",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows"
-    ],
-    "stars": 401,
-    "description": "Native Windows PC port of Fire Emblem: Fortune's Weave by static recompilation. Bring your own dump; no game files included.",
-    "version": "v0.1.5",
-    "releasedAt": "2026-11-09",
-    "sizeBytes": 163861813,
-    "releaseUrl": "https://github.com/Goldoire/fefw-recomp/releases/tag/v0.1.5",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
   },
   {
     "id": "fractalengineer-medal-of-honor-psx-recomp",
@@ -564,7 +652,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 647,
+    "stars": 649,
     "description": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows with Vulkan. Plays from the title screen through the first stage on an RTX 5060 Ti; still early, can crash. No game files included.",
     "version": "v0.2.0",
     "releasedAt": "2026-11-09",
@@ -591,75 +679,6 @@
     "releaseUrl": "https://github.com/sonicnext-dev/MarathonRecomp/releases",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
-    "curated": true
-  },
-  {
-    "id": "mr-finster-vf3-recomp",
-    "repo": "mr-finster/vf3-recomp",
-    "title": "Virtua Fighter 3",
-    "game": null,
-    "author": "mr-finster",
-    "console": "Arcade",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "macOS"
-    ],
-    "stars": 89,
-    "description": "Virtua Fighter 3 (Sega Model 3, 1996) for Mac, Windows and Steam Deck: the arcade's PowerPC program recompiled to native code, up to 6x, widescreen, smooth 120 fps. Bring your own vf3.zip.",
-    "version": "v0.1.20-alpha",
-    "releasedAt": "2026-11-09",
-    "sizeBytes": 10322389,
-    "releaseUrl": "https://github.com/mr-finster/vf3-recomp/releases/tag/v0.1.20-alpha",
-    "licenseId": "NOASSERTION",
-    "licenseUrl": null,
-    "curated": true
-  },
-  {
-    "id": "mr-finster-vf2-recomp",
-    "repo": "mr-finster/vf2-recomp",
-    "title": "Virtua Fighter 2",
-    "game": "virtua-fighter-2",
-    "author": "mr-finster",
-    "console": "Arcade",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "macOS"
-    ],
-    "stars": 96,
-    "description": "Virtua Fighter 2 (Sega Model 2, 1994) for Mac, Windows and Steam Deck: the arcade's i960 program recompiled to native code, up to 6x, widescreen, smooth 120 fps. Bring your own vf2.zip.",
-    "version": "v0.1.21",
-    "releasedAt": "2026-11-09",
-    "sizeBytes": 11435817,
-    "releaseUrl": "https://github.com/mr-finster/vf2-recomp/releases/tag/v0.1.21",
-    "licenseId": "NOASSERTION",
-    "licenseUrl": null,
-    "curated": true
-  },
-  {
-    "id": "mr-finster-vf1-recomp",
-    "repo": "mr-finster/vf1-recomp",
-    "title": "Virtua Fighter",
-    "game": "virtua-fighter",
-    "author": "mr-finster",
-    "console": "Arcade",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "macOS"
-    ],
-    "stars": 83,
-    "description": "Virtua Fighter (Sega Model 1, 1993) statically recompiled for Mac, Windows and Steam Deck: up to 6x, widescreen, smooth 120 fps. Bring your own vf.zip.",
-    "version": "v1.6.2",
-    "releasedAt": "2026-11-09",
-    "sizeBytes": 10459287,
-    "releaseUrl": "https://github.com/mr-finster/vf1-recomp/releases/tag/v1.6.2",
-    "licenseId": "NOASSERTION",
-    "licenseUrl": null,
     "curated": true
   },
   {
@@ -773,7 +792,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 497,
+    "stars": 500,
     "description": "Pokémon Pokopia (Switch 2) recompiled to run natively on Windows. With multiplayer support, modding, feature enhancements and more! Join the discord community as well",
     "version": "v0.9.0",
     "releasedAt": "2026-11-09",
@@ -899,7 +918,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 562,
+    "stars": 563,
     "description": "A native Windows and Linux port of Grand Theft Auto: Vice City Stories (PS2, USA, SLUS-21590), made by recompiling the game's PS2 executable into C++",
     "version": "v0.2.4",
     "releasedAt": "2026-11-09",
@@ -1227,25 +1246,6 @@
     "licenseUrl": "https://api.github.com/licenses/mit"
   },
   {
-    "id": "mkst-sssv",
-    "repo": "mkst/sssv",
-    "title": "Space Station Silicon Valley",
-    "game": "space-station-silicon-valley",
-    "author": "mkst",
-    "console": "Nintendo 64",
-    "mechanism": "in-progress",
-    "platforms": [],
-    "stars": 66,
-    "description": "WIP Space Station Silicon Valley N64 Decomp",
-    "version": null,
-    "releasedAt": "2026-11-09",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/mkst/sssv/releases",
-    "licenseId": "CC0-1.0",
-    "licenseUrl": "https://api.github.com/licenses/cc0-1.0",
-    "curated": true
-  },
-  {
     "id": "undecuple-project-pyrrhus",
     "repo": "undecuple/project-pyrrhus",
     "title": "Killzone 2",
@@ -1533,7 +1533,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5296,
+    "stars": 5298,
     "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
     "version": "windows-v1.9.8.4",
     "releasedAt": "2026-11-08",
@@ -1552,7 +1552,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 61,
+    "stars": 62,
     "description": "Red Dead Revolver (Xbox, PAL/Europe version) running natively on PC — static recompilation port",
     "version": "v1.5",
     "releasedAt": "2026-11-08",
@@ -1683,7 +1683,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 317,
+    "stars": 318,
     "description": "Native Windows PC port of The Last of Us Remastered (PS4, CUSA00552). Runs the game’s own x86-64 code on a custom runtime, with PS4 system libraries reimplemented and a Vulkan renderer based on shadPS4. Includes a launcher. No game files included: you need your own copy.",
     "version": "v0.1.7",
     "releasedAt": "2026-11-08",
@@ -1705,7 +1705,7 @@
       "PC",
       "Android"
     ],
-    "stars": 175,
+    "stars": 176,
     "description": "Unofficial native PC port of WWE SmackDown vs. Raw 2011 (Xbox 360). Bring your own disc.",
     "version": "v2.2.1",
     "releasedAt": "2026-11-08",
@@ -2013,7 +2013,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 127,
+    "stars": 128,
     "description": "Paper Cut: A native port of Paper Mario: The Thousand-Year Door to Windows, macOS, Linux, iOS and Android",
     "version": "v0.4.1",
     "releasedAt": "2026-11-07",
@@ -2299,7 +2299,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 6258,
+    "stars": 6268,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.3.13",
     "releasedAt": "2026-11-07",
@@ -2426,7 +2426,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 112,
+    "stars": 116,
     "description": "An unofficial original Xbox version PC port of Red Dead Revolver via static recompilation.",
     "version": "V1",
     "releasedAt": "2026-11-07",
@@ -2878,7 +2878,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 172,
+    "stars": 173,
     "description": "A matching decompilation and PC port for the Ratchet & Clank series",
     "version": "launcher-v1.0.2",
     "releasedAt": "2026-11-05",
@@ -3474,7 +3474,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 138,
+    "stars": 139,
     "description": "Forza Motorsport 4 recompilation based on ShiftGlue",
     "version": "v0.3.1",
     "releasedAt": "2026-11-03",
@@ -4202,7 +4202,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 34104,
+    "stars": 34103,
     "description": "PlayStation 4 emulator for Windows, Linux, macOS and FreeBSD written in C++",
     "version": "v.0.21.0",
     "releasedAt": "2026-10-30",
@@ -4392,7 +4392,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 463,
+    "stars": 464,
     "description": "An unofficial original Xbox version PC port of Splinter Cell: Double Agent via static recompilation.",
     "version": "V3",
     "releasedAt": "2026-10-29",
@@ -4411,7 +4411,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 918,
+    "stars": 920,
     "description": "An unofficial original Xbox version PC port of BLACK (2006) via static recompilation.",
     "version": "V3",
     "releasedAt": "2026-10-29",
@@ -4596,7 +4596,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 180,
+    "stars": 181,
     "description": "Conker's Bad Fur Day running natively on PC: an N64 recompilation with a Classic mode true to the N64 and a Modern mode (widescreen, smooth frame rate, free camera).",
     "version": "v1.4.7",
     "releasedAt": "2026-10-28",
@@ -4830,7 +4830,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 953,
+    "stars": 954,
     "description": "Experimental native PC port of Lost Odyssey using static recompilation. No game assets included.",
     "version": "v1.1.0",
     "releasedAt": "2026-10-26",
@@ -5016,7 +5016,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 7430,
+    "stars": 7436,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -5226,7 +5226,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 3826,
+    "stars": 3827,
     "description": "Playstation 2 Static Recompiler & Runtime Tool to make native PC ports",
     "version": null,
     "releasedAt": "2026-10-23",
@@ -5522,7 +5522,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2449,
+    "stars": 2450,
     "description": "Native PC port of P.T. (runs from your own PS4 game files)",
     "version": "v1.0.8",
     "releasedAt": "2026-10-22",
@@ -5825,7 +5825,7 @@
     "platforms": [
       "Linux"
     ],
-    "stars": 123,
+    "stars": 124,
     "description": "A fully playable, work-in-progress native Sonic Adventure port for Windows, Linux and Steam Deck. Powered by KatanaRecomp.",
     "version": "v0.52.1",
     "releasedAt": "2026-10-18",
@@ -6540,7 +6540,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 116,
+    "stars": 115,
     "description": "Fan PC port of WET (Xbox 360) using ReXGlue. Does not include game files.",
     "version": "v0.6.0",
     "releasedAt": "2026-10-05",
@@ -6680,7 +6680,7 @@
     "console": "Game Boy Advance",
     "mechanism": "native",
     "platforms": [],
-    "stars": 3675,
+    "stars": 3676,
     "description": "Decompilation of Pokémon Emerald",
     "version": null,
     "releasedAt": "2026-10-01",
@@ -7615,7 +7615,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2126,
+    "stars": 2127,
     "description": "PC Port of Banjo-Kazooie made using N64: Recompiled (Windows/Linux/Mac) ",
     "version": "v1.0.2",
     "releasedAt": "2026-07-31",
@@ -8269,7 +8269,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2112,
+    "stars": 2111,
     "description": "work in progress port of n64decomp/perfect_dark to modern platforms",
     "version": "ci-dev-build",
     "releasedAt": "2024-05-14",
