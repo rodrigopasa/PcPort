@@ -8,7 +8,7 @@
     "console": "Game Boy Advance",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 322,
+    "stars": 323,
     "description": "Static ARM64 to x86 recompiler (GPLv3)",
     "version": null,
     "releasedAt": "2026-11-10",
@@ -169,11 +169,96 @@
     "stars": 55,
     "description": "Native port of Shadow of the Colossus (PS2) to macOS and PS Vita: static recompilation with PS2Recomp, a native Metal/OpenGL renderer, and a decompilation in progress",
     "version": null,
-    "releasedAt": "2026-11-09",
+    "releasedAt": "2026-11-10",
     "sizeBytes": null,
     "releaseUrl": "https://github.com/HenryKun55/celosia/releases",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
+  },
+  {
+    "id": "theitsnschool-bloodborne-windows-native-loader",
+    "repo": "theitsnschool/bloodborne-windows-native-loader",
+    "title": "Bloodborne Windows Loader",
+    "game": null,
+    "author": "theitsnschool",
+    "console": "PC",
+    "mechanism": "native",
+    "platforms": [],
+    "stars": 33,
+    "description": "Bloodborne PC Windows Port: Native x86-64 Loader with Vulkan Rendering for Modders",
+    "version": null,
+    "releasedAt": "2026-11-10",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/theitsnschool/bloodborne-windows-native-loader/releases",
+    "licenseId": null,
+    "licenseUrl": null
+  },
+  {
+    "id": "nathanialf-ico-pc",
+    "repo": "nathanialf/ico-pc",
+    "title": "ICO",
+    "game": "ico",
+    "author": "nathanialf",
+    "console": "PlayStation 2",
+    "mechanism": "native",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Android",
+      "iOS"
+    ],
+    "stars": 516,
+    "description": "PC, Android, iOS and macOS port of the ICO (PS2) decompilation (nathanialf/ico): Windows, Linux, Steam Deck, Android, iPhone via LiveContainer and Apple-silicon Mac (contributed). Contains no game data.",
+    "version": "v0.11.2",
+    "releasedAt": "2026-11-10",
+    "sizeBytes": 30772959,
+    "releaseUrl": "https://github.com/nathanialf/ico-pc/releases/tag/v0.11.2",
+    "licenseId": "NOASSERTION",
+    "licenseUrl": null,
+    "curated": true
+  },
+  {
+    "id": "ajncsystem-shadowofthecolossus-pc",
+    "repo": "AjncSystem/ShadowOfTheColossus-PC",
+    "title": "Shadow of the Colossus",
+    "game": "sotc-ps4",
+    "author": "AjncSystem",
+    "console": "PlayStation 4",
+    "mechanism": "native",
+    "platforms": [
+      "PC"
+    ],
+    "stars": 1821,
+    "description": "Native Windows port of Shadow of the Colossus (PS4, CUSA08809) - bring your own game dump. Port nativo para PC.",
+    "version": "v0.74",
+    "releasedAt": "2026-11-10",
+    "sizeBytes": 155008690,
+    "releaseUrl": "https://github.com/AjncSystem/ShadowOfTheColossus-PC/releases/tag/v0.74",
+    "licenseId": "GPL-2.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-2.0",
+    "curated": true
+  },
+  {
+    "id": "solarcookies-tip-recomp",
+    "repo": "SolarCookies/TiP-Recomp",
+    "title": "Viva Piñata: Trouble in Paradise",
+    "game": null,
+    "author": "SolarCookies",
+    "console": "Xbox 360",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows"
+    ],
+    "stars": 248,
+    "description": "A Recompilation of Viva Pinata: Trouble In Paradise",
+    "version": "1.15.0",
+    "releasedAt": "2026-11-10",
+    "sizeBytes": 69928442,
+    "releaseUrl": "https://github.com/SolarCookies/TiP-Recomp/releases/tag/1.15.0",
+    "licenseId": null,
+    "licenseUrl": null,
     "curated": true
   },
   {
@@ -206,7 +291,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 375,
+    "stars": 381,
     "description": "Native Windows PC port of Fire Emblem: Fortune's Weave by static recompilation. Bring your own dump; no game files included.",
     "version": "v0.1.5",
     "releasedAt": "2026-11-09",
@@ -348,7 +433,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 634,
+    "stars": 638,
     "description": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows with Vulkan. Plays from the title screen through the first stage on an RTX 5060 Ti; still early, can crash. No game files included.",
     "version": "v0.2.0",
     "releasedAt": "2026-11-09",
@@ -357,24 +442,6 @@
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
-  },
-  {
-    "id": "theitsnschool-bloodborne-windows-native-loader",
-    "repo": "theitsnschool/bloodborne-windows-native-loader",
-    "title": "Bloodborne Windows Loader",
-    "game": null,
-    "author": "theitsnschool",
-    "console": "PC",
-    "mechanism": "native",
-    "platforms": [],
-    "stars": 33,
-    "description": "Bloodborne PC Windows Port: Native x86-64 Loader with Vulkan Rendering for Modders",
-    "version": null,
-    "releasedAt": "2026-11-09",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/theitsnschool/bloodborne-windows-native-loader/releases",
-    "licenseId": null,
-    "licenseUrl": null
   },
   {
     "id": "sonicnext-dev-marathonrecomp",
@@ -531,7 +598,7 @@
     "console": "Nintendo DS",
     "mechanism": "native",
     "platforms": [],
-    "stars": 759,
+    "stars": 760,
     "description": "Decompilation of Pokemon HeartGold/SoulSilver",
     "version": null,
     "releasedAt": "2026-11-09",
@@ -586,31 +653,6 @@
     "curated": true
   },
   {
-    "id": "nathanialf-ico-pc",
-    "repo": "nathanialf/ico-pc",
-    "title": "ICO",
-    "game": "ico",
-    "author": "nathanialf",
-    "console": "PlayStation 2",
-    "mechanism": "native",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "macOS",
-      "Android",
-      "iOS"
-    ],
-    "stars": 516,
-    "description": "PC, Android, iOS and macOS port of the ICO (PS2) decompilation (nathanialf/ico): Windows, Linux, Steam Deck, Android, iPhone via LiveContainer and Apple-silicon Mac (contributed). Contains no game data.",
-    "version": "v0.11.1",
-    "releasedAt": "2026-11-09",
-    "sizeBytes": 30333792,
-    "releaseUrl": "https://github.com/nathanialf/ico-pc/releases/tag/v0.11.1",
-    "licenseId": "NOASSERTION",
-    "licenseUrl": null,
-    "curated": true
-  },
-  {
     "id": "featurejosh-recompia",
     "repo": "Dittobyte/Recompia",
     "title": "Recompia",
@@ -622,7 +664,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 471,
+    "stars": 478,
     "description": "Pokémon Pokopia (Switch 2) recompiled to run natively on Windows. With multiplayer support, modding, feature enhancements and more! Join the discord community as well",
     "version": "v0.9.0",
     "releasedAt": "2026-11-09",
@@ -684,7 +726,7 @@
       "Linux",
       "Android"
     ],
-    "stars": 333,
+    "stars": 334,
     "description": "CrashBandicoot native pc port",
     "version": "2.5",
     "releasedAt": "2026-11-09",
@@ -709,7 +751,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 113,
+    "stars": 114,
     "description": "Unofficial static recompilation of Sonic Free Riders for Windows, Linux and Android, with controller/keyboard support, custom VRM avatars, and Kinect v1, Kinect v2 (experimental) and webcam motion controls on Windows.",
     "version": "v0.10.51",
     "releasedAt": "2026-11-09",
@@ -813,7 +855,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 560,
+    "stars": 562,
     "description": "A native Windows and Linux port of Grand Theft Auto: Vice City Stories (PS2, USA, SLUS-21590), made by recompiling the game's PS2 executable into C++",
     "version": "v0.2.4",
     "releasedAt": "2026-11-09",
@@ -964,7 +1006,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 195,
+    "stars": 196,
     "description": "A PC port of Downhill Domination (PS2), built on a matching decompilation. Bring your own disc.",
     "version": "v0.7.14",
     "releasedAt": "2026-11-09",
@@ -986,7 +1028,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 73,
+    "stars": 74,
     "description": "Native PC port of Forza Motorsport 2: static recompilation of the CPU code and a native D3D12 renderer",
     "version": "v0.10.15",
     "releasedAt": "2026-11-09",
@@ -1239,27 +1281,6 @@
     "curated": true
   },
   {
-    "id": "ajncsystem-shadowofthecolossus-pc",
-    "repo": "AjncSystem/ShadowOfTheColossus-PC",
-    "title": "Shadow of the Colossus",
-    "game": "sotc-ps4",
-    "author": "AjncSystem",
-    "console": "PlayStation 4",
-    "mechanism": "native",
-    "platforms": [
-      "PC"
-    ],
-    "stars": 1821,
-    "description": "Native Windows port of Shadow of the Colossus (PS4, CUSA08809) - bring your own game dump. Port nativo para PC.",
-    "version": "v0.73",
-    "releasedAt": "2026-11-09",
-    "sizeBytes": 154908951,
-    "releaseUrl": "https://github.com/AjncSystem/ShadowOfTheColossus-PC/releases/tag/v0.73",
-    "licenseId": "GPL-2.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-2.0",
-    "curated": true
-  },
-  {
     "id": "birabittoh-eternalsonatareprise",
     "repo": "birabittoh/EternalSonataReprise",
     "title": "Eternal Sonata",
@@ -1296,7 +1317,7 @@
       "macOS",
       "iOS"
     ],
-    "stars": 55,
+    "stars": 56,
     "description": "Unofficial static recompilation of the Xbox 360 version of Need for Speed: Carbon (2006): a native port for Steam Deck, Steam Machine, Steam Frame, Linux and Mac, plus a Windows beta (iPhone/iPad: sideload the experimental IPA or build it yourself). Bring your own disc: no game files included. Not affiliated with EA or Valve.",
     "version": "v0.1.3",
     "releasedAt": "2026-11-09",
@@ -1447,7 +1468,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5293,
+    "stars": 5296,
     "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
     "version": "windows-v1.9.8.4",
     "releasedAt": "2026-11-08",
@@ -1597,7 +1618,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 316,
+    "stars": 317,
     "description": "Native Windows PC port of The Last of Us Remastered (PS4, CUSA00552). Runs the game’s own x86-64 code on a custom runtime, with PS4 system libraries reimplemented and a Vulkan renderer based on shadPS4. Includes a launcher. No game files included: you need your own copy.",
     "version": "v0.1.7",
     "releasedAt": "2026-11-08",
@@ -1682,7 +1703,7 @@
     "console": "PlayStation 3",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 209,
+    "stars": 210,
     "description": "Native Windows port of Demon's Souls (PS3, BLUS-30443) via ps3recomp static recompilation. Bring your own disc image; no game files included.",
     "version": "v2026.11.08",
     "releasedAt": "2026-11-08",
@@ -1701,7 +1722,7 @@
     "console": "Nintendo Switch",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 92,
+    "stars": 93,
     "description": "Amateur Pokémon Legends: Arceus recompilation project. Requires your own game files. More optimizations and size reductions are coming in future updates!",
     "version": "v1.1.0",
     "releasedAt": "2026-11-08",
@@ -1842,7 +1863,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 121,
+    "stars": 122,
     "description": "Crash Twinsanity (PS2, PAL) running natively on Windows, played through to the credits: a Windows port of HAB3X's Mac port of Smartkin's C++ decompilation. No game data included: bring your own disc image.",
     "version": "v1.2.0",
     "releasedAt": "2026-11-08",
@@ -2023,7 +2044,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 102,
+    "stars": 105,
     "description": "Ape Escape (USA) recompiled for the Sony PlayStation using psxrecomp · Part of the R.A.I.D. community",
     "version": "v0.5.7",
     "releasedAt": "2026-11-07",
@@ -2213,7 +2234,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 6222,
+    "stars": 6227,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.3.13",
     "releasedAt": "2026-11-07",
@@ -2484,7 +2505,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 233,
+    "stars": 234,
     "description": "Native PC port of God of War (PS2) via static recompilation with PS2Recomp",
     "version": null,
     "releasedAt": "2026-11-06",
@@ -2619,7 +2640,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 1407,
+    "stars": 1409,
     "description": "Zelda Wind Waker HD Recomp",
     "version": "v0.5.1",
     "releasedAt": "2026-11-06",
@@ -2836,7 +2857,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 68,
+    "stars": 69,
     "description": "Static recompilation of the Sega 32X game Knuckles' Chaotix into native C++ (Windows/Linux/macOS/Android), with true widescreen. Bring your own ROM; no game data included.",
     "version": "v0.15.19",
     "releasedAt": "2026-11-05",
@@ -3347,7 +3368,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 728,
+    "stars": 729,
     "description": "PC port of Dragon Ball Z: Budokai Tenkaichi 3, built on the BT3-Decompiled project.",
     "version": "v0.1.39.6",
     "releasedAt": "2026-11-03",
@@ -3388,7 +3409,7 @@
     "console": "Nintendo Switch",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 460,
+    "stars": 461,
     "description": "Experimental Windows x64 native porting toolkit for Super Smash Bros. Ultimate: static AArch64 recompilation, a D3D11 runtime, and Local Wireless relay netplay.",
     "version": null,
     "releasedAt": "2026-11-03",
@@ -3735,7 +3756,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 227,
+    "stars": 228,
     "description": "Mega Man X recompiled for the Super Nintendo using snesrecomp · Part of the R.A.I.D. community",
     "version": "v2.3.12",
     "releasedAt": "2026-11-01",
@@ -4011,7 +4032,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 63,
+    "stars": 64,
     "description": "Zone of the Enders - Static Recompilation Project for PC",
     "version": "v1.0.1",
     "releasedAt": "2026-10-31",
@@ -4449,7 +4470,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2276,
+    "stars": 2279,
     "description": "Static recompilation of Link's Awakening (Switch) to native macOS, Windows and Linux",
     "version": "beta_5.4",
     "releasedAt": "2026-10-29",
@@ -4637,7 +4658,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 3979,
+    "stars": 3980,
     "description": "Bloodborne (v1.09) running natively on Linux and Windows: the game's x86-64 code runs as is, GPU side translated to Vulkan; FSR 4 / DLSS, co-op (BBSC). Bring your own dump.",
     "version": "0.7",
     "releasedAt": "2026-10-28",
@@ -4656,7 +4677,7 @@
     "console": "Nintendo Switch",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 80,
+    "stars": 81,
     "description": "Static recompilation of Super Mario Odyssey (Switch, 1.4.1) to native Windows x64. No game data included; bring your own dump.",
     "version": null,
     "releasedAt": "2026-10-28",
@@ -4974,7 +4995,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 7406,
+    "stars": 7413,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -5094,30 +5115,6 @@
     "curated": true
   },
   {
-    "id": "solarcookies-tip-recomp",
-    "repo": "SolarCookies/TiP-Recomp",
-    "title": "Viva Piñata: Trouble in Paradise",
-    "game": null,
-    "author": "SolarCookies",
-    "console": "Xbox 360",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "macOS",
-      "iOS"
-    ],
-    "stars": 248,
-    "description": "A Recompilation of Viva Pinata: Trouble In Paradise",
-    "version": "1.14.0",
-    "releasedAt": "2026-10-24",
-    "sizeBytes": 140086683,
-    "releaseUrl": "https://github.com/SolarCookies/TiP-Recomp/releases/tag/1.14.0",
-    "licenseId": null,
-    "licenseUrl": null,
-    "curated": true
-  },
-  {
     "id": "sal063-ace-combat-5-static-recompilation",
     "repo": "sal063/Ace-Combat-5-Static-recompilation",
     "title": "Ace Combat 5: The Unsung War",
@@ -5208,7 +5205,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 3823,
+    "stars": 3825,
     "description": "Playstation 2 Static Recompiler & Runtime Tool to make native PC ports",
     "version": null,
     "releasedAt": "2026-10-23",
@@ -5764,7 +5761,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 5956,
+    "stars": 5957,
     "description": "Ship of Harkinian: a PC port of Ocarina of Time built from the decompilation, with widescreen, high framerate and mod support.",
     "version": "9.3.1",
     "releasedAt": "2026-10-18",
@@ -6773,7 +6770,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 6309,
+    "stars": 6311,
     "description": "Dusklight brings a classic adventure to PC and mobile platforms with a variety of fixes and improvements.",
     "version": "v2.0.3",
     "releasedAt": "2026-09-30",
@@ -7476,7 +7473,7 @@
     "console": "Xbox 360",
     "mechanism": "native",
     "platforms": [],
-    "stars": 597,
+    "stars": 598,
     "description": "static Recomp of AC6 with Rexglue",
     "version": null,
     "releasedAt": "2026-08-22",
@@ -7597,7 +7594,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2125,
+    "stars": 2126,
     "description": "PC Port of Banjo-Kazooie made using N64: Recompiled (Windows/Linux/Mac) ",
     "version": "v1.0.2",
     "releasedAt": "2026-07-31",
@@ -8251,7 +8248,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2111,
+    "stars": 2112,
     "description": "work in progress port of n64decomp/perfect_dark to modern platforms",
     "version": "ci-dev-build",
     "releasedAt": "2024-05-14",
@@ -8350,7 +8347,7 @@
     "console": "SNES",
     "mechanism": "native",
     "platforms": [],
-    "stars": 4995,
+    "stars": 4996,
     "description": "",
     "version": "v0.3",
     "releasedAt": "2023-08-17",
