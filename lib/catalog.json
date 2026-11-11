@@ -180,7 +180,7 @@
     "console": "PlayStation 3",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 46,
+    "stars": 49,
     "description": "A native Windows port of God of War: Ascension (PS3) by static recompilation on ps3recomp. No game files included; the launcher builds the game's code from your own copy.",
     "version": null,
     "releasedAt": "2026-11-11",
@@ -257,10 +257,10 @@
     ],
     "stars": 39,
     "description": "Transformers (PS2, 2004) as a native PC game: static recompilation from your own disc, native Direct3D 12 renderer, up to 4K / 240 fps / ultrawide. Bring your own disc.",
-    "version": "setup-v0.4.9",
+    "version": "setup-v0.5.1",
     "releasedAt": "2026-11-11",
     "sizeBytes": 5179904,
-    "releaseUrl": "https://github.com/kayliox/transformers-armada-recomp/releases/tag/setup-v0.4.9",
+    "releaseUrl": "https://github.com/kayliox/transformers-armada-recomp/releases/tag/setup-v0.5.1",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
   },
@@ -335,7 +335,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 834,
+    "stars": 835,
     "description": "Definitive Bloodborne PC Experience",
     "version": "v0.2.31",
     "releasedAt": "2026-11-11",
@@ -357,7 +357,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 570,
+    "stars": 576,
     "description": "Pokémon Pokopia (Switch 2) recompiled to run natively on Windows with Linux/Handheld support. Multiplayer included, modding, feature enhancements and more! Join the discord community as well",
     "version": "v0.10.3",
     "releasedAt": "2026-11-11",
@@ -499,7 +499,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 40,
+    "stars": 41,
     "description": "AI-written static recompilation of Mario Party (N64, USA) for PC and the web. Bring your own ROM.",
     "version": "v0.2.11",
     "releasedAt": "2026-11-11",
@@ -507,6 +507,27 @@
     "releaseUrl": "https://github.com/n64hub/mario-party-recomp/releases/tag/v0.2.11",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
+  },
+  {
+    "id": "mstan-supermarioworldrecomp",
+    "repo": "mstan/SuperMarioWorldRecomp",
+    "title": "Super Mario World",
+    "game": null,
+    "author": "mstan",
+    "console": "SNES",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows"
+    ],
+    "stars": 169,
+    "description": "Super Mario World recompiled for the Super Nintendo using snesrecomp · Part of the R.A.I.D. community",
+    "version": "v0.15.9",
+    "releasedAt": "2026-11-11",
+    "sizeBytes": 26746609,
+    "releaseUrl": "https://github.com/mstan/SuperMarioWorldRecomp/releases/tag/v0.15.9",
+    "licenseId": "NOASSERTION",
+    "licenseUrl": null,
+    "curated": true
   },
   {
     "id": "santiquiroz-gears-of-war-2-pc-port",
@@ -606,7 +627,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 519,
+    "stars": 520,
     "description": "PC, Android, iOS and macOS port of the ICO (PS2) decompilation (nathanialf/ico): Windows, Linux, Steam Deck, Android, iPhone via LiveContainer and Apple-silicon Mac (contributed). Contains no game data.",
     "version": "v0.11.3",
     "releasedAt": "2026-11-10",
@@ -740,7 +761,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 512,
+    "stars": 518,
     "description": "Native Windows PC port of Fire Emblem: Fortune's Weave by static recompilation. Bring your own dump; no game files included.",
     "version": "v0.1.6",
     "releasedAt": "2026-11-10",
@@ -1033,7 +1054,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 6493,
+    "stars": 6504,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.4.0",
     "releasedAt": "2026-11-10",
@@ -1271,7 +1292,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 2465,
+    "stars": 2466,
     "description": "Decompilation of The Legend of Zelda: Breath of the Wild (Switch 1.5.0)",
     "version": null,
     "releasedAt": "2026-11-09",
@@ -1294,7 +1315,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 732,
+    "stars": 733,
     "description": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows with Vulkan. Plays from the title screen through the first stage on an RTX 5060 Ti; still early, can crash. No game files included.",
     "version": "v0.2.0",
     "releasedAt": "2026-11-09",
@@ -1502,7 +1523,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 600,
+    "stars": 602,
     "description": "A native Windows and Linux port of Grand Theft Auto: Vice City Stories (PS2, USA, SLUS-21590), made by recompiling the game's PS2 executable into C++",
     "version": "v0.2.4",
     "releasedAt": "2026-11-09",
@@ -1667,7 +1688,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 174,
+    "stars": 175,
     "description": "Unofficial PC port of the Xbox 360 version of Army of Two (2008). Online co-op supported.",
     "version": "v1.5.0",
     "releasedAt": "2026-11-09",
@@ -1675,28 +1696,6 @@
     "releaseUrl": "https://github.com/OpenPortroid/ArmyOfTwoRecompilation/releases/tag/v1.5.0",
     "licenseId": "MIT",
     "licenseUrl": "https://api.github.com/licenses/mit",
-    "curated": true
-  },
-  {
-    "id": "mstan-supermarioworldrecomp",
-    "repo": "mstan/SuperMarioWorldRecomp",
-    "title": "Super Mario World",
-    "game": null,
-    "author": "mstan",
-    "console": "SNES",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 169,
-    "description": "Super Mario World recompiled for the Super Nintendo using snesrecomp · Part of the R.A.I.D. community",
-    "version": "v0.15.8",
-    "releasedAt": "2026-11-09",
-    "sizeBytes": 26629229,
-    "releaseUrl": "https://github.com/mstan/SuperMarioWorldRecomp/releases/tag/v0.15.8",
-    "licenseId": "NOASSERTION",
-    "licenseUrl": null,
     "curated": true
   },
   {
@@ -1887,7 +1886,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5315,
+    "stars": 5316,
     "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
     "version": "windows-v1.9.8.4",
     "releasedAt": "2026-11-08",
@@ -2163,7 +2162,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 105,
+    "stars": 106,
     "description": "",
     "version": "v0.6.0",
     "releasedAt": "2026-11-08",
@@ -2627,7 +2626,7 @@
       "macOS",
       "iOS"
     ],
-    "stars": 669,
+    "stars": 670,
     "description": "Unofficial static recompilation of the Xbox 360 version of Need for Speed: Most Wanted (2005): a native port for Steam Deck, Steam Machine, Steam Frame, Linux and Mac (iPhone/iPad: sideload the experimental IPA or build it yourself). Bring your own disc: no game files included. Not affiliated with EA or Valve.",
     "version": "v0.2.4",
     "releasedAt": "2026-11-07",
@@ -2817,7 +2816,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 50,
+    "stars": 51,
     "description": "Def Jam Vendetta (PS2) recompiled for PC with PS2Recomp — source only, build from your own disc",
     "version": "v0.6.2",
     "releasedAt": "2026-11-06",
@@ -3143,7 +3142,7 @@
     "platforms": [
       "macOS"
     ],
-    "stars": 89,
+    "stars": 90,
     "description": "Call of Duty: Black Ops II statically recompiled from 32-bit x86 Windows to native ARM64 macOS: Remill → LLVM IR, a hand-written Win32 runtime, Direct3D 11 drawn by Metal. No Wine, no game files.",
     "version": "v0.1.0-beta",
     "releasedAt": "2026-11-05",
@@ -3398,7 +3397,7 @@
     "console": "PlayStation 3",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 81,
+    "stars": 82,
     "description": "Unofficial native Windows port of ARMORED CORE for Answer (PS3), built from your own copy of the game. Part of Project Glintburn.",
     "version": "v0.7.5",
     "releasedAt": "2026-11-04",
@@ -4001,7 +4000,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 288,
+    "stars": 289,
     "description": "Native Windows port of Pokémon: Let's Go, Eevee! (Switch v1.0.0) by static recompilation, built on LAS Recomp. No game files included.",
     "version": "v0.7.6",
     "releasedAt": "2026-11-01",
@@ -4088,7 +4087,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 161,
+    "stars": 162,
     "description": "Fan mod of Dino Crisis (PS1). It brings a modern Resident evil Remakes like over-the-shoulder camera, updated controls, visual/gameplay improvements, and plenty of Quality of Life settings to customize the experience to your liking.",
     "version": "v1.07",
     "releasedAt": "2026-11-01",
@@ -4543,7 +4542,7 @@
     "console": "PlayStation 3",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 64,
+    "stars": 65,
     "description": "Unofficial native Windows port of ARMORED CORE 4 (PS3), built from your own copy of the game. Part of Project Glintburn.",
     "version": "v0.6.0",
     "releasedAt": "2026-10-29",
@@ -4566,7 +4565,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2312,
+    "stars": 2313,
     "description": "Static recompilation of Link's Awakening (Switch) to native macOS, Windows and Linux",
     "version": "beta_5.4",
     "releasedAt": "2026-10-29",
@@ -4732,7 +4731,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 235,
+    "stars": 236,
     "description": "A static native recompilation of Need for Speed: Most Wanted (2005) Xbox 360",
     "version": "v1.0.2",
     "releasedAt": "2026-10-28",
@@ -4754,7 +4753,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 3995,
+    "stars": 3994,
     "description": "Bloodborne (v1.09) running natively on Linux and Windows: the game's x86-64 code runs as is, GPU side translated to Vulkan; FSR 4 / DLSS, co-op (BBSC). Bring your own dump.",
     "version": "0.7",
     "releasedAt": "2026-10-28",
@@ -4773,7 +4772,7 @@
     "console": "Nintendo Switch",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 82,
+    "stars": 83,
     "description": "Static recompilation of Super Mario Odyssey (Switch, 1.4.1) to native Windows x64. No game data included; bring your own dump.",
     "version": null,
     "releasedAt": "2026-10-28",
@@ -4905,7 +4904,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 956,
+    "stars": 958,
     "description": "Experimental native PC port of Lost Odyssey using static recompilation. No game assets included.",
     "version": "v1.1.0",
     "releasedAt": "2026-10-26",
@@ -5072,7 +5071,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 7494,
+    "stars": 7495,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -5517,7 +5516,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 1155,
+    "stars": 1157,
     "description": "Native PC port (Linux/Windows) of inFAMOUS Second Son (PS4, CUSA00223) — in development, playable; runs your own game dump; no game or firmware files included. Motion sensor emulation. | Port nativo para PC de inFAMOUS Second Son (em desenvolvimento) — usa o seu próprio dump.",
     "version": "v1.0",
     "releasedAt": "2026-10-22",
@@ -6865,7 +6864,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 6325,
+    "stars": 6326,
     "description": "Dusklight brings a classic adventure to PC and mobile platforms with a variety of fixes and improvements.",
     "version": "v2.0.3",
     "releasedAt": "2026-09-30",
@@ -7225,7 +7224,7 @@
     "console": "Xbox 360",
     "mechanism": "native",
     "platforms": [],
-    "stars": 422,
+    "stars": 423,
     "description": "A Fable 2 Recomp",
     "version": null,
     "releasedAt": "2026-09-12",
@@ -7666,7 +7665,7 @@
     "console": "Game Boy Advance",
     "mechanism": "native",
     "platforms": [],
-    "stars": 695,
+    "stars": 696,
     "description": "A decompilation and port of Sonic Advance 1 & 2 - GameBoy Advance game's written in C",
     "version": null,
     "releasedAt": "2026-08-01",
@@ -8091,7 +8090,7 @@
     "console": "Xbox 360",
     "mechanism": "emulator",
     "platforms": [],
-    "stars": 9813,
+    "stars": 9814,
     "description": "Xbox 360 Emulator Research Project",
     "version": null,
     "releasedAt": "2026-02-18",
