@@ -180,7 +180,7 @@
     "console": "PlayStation 3",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 57,
+    "stars": 58,
     "description": "A native Windows port of God of War: Ascension (PS3) by static recompilation on ps3recomp. No game files included.",
     "version": null,
     "releasedAt": "2026-11-11",
@@ -255,7 +255,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 42,
+    "stars": 43,
     "description": "Transformers (PS2, 2004) as a native PC game: static recompilation from your own disc, native Direct3D 12 renderer, up to 4K / 240 fps / ultrawide. Bring your own disc.",
     "version": "setup-v0.6.1",
     "releasedAt": "2026-11-11",
@@ -276,7 +276,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 216,
+    "stars": 217,
     "description": "Ninja Gaiden II (Xbox 360, 2008) statically recompiled into native Linux and Windows builds, drawn by its own Vulkan renderer. A steady 60 fps, up to 8x render scale, widescreen and ultrawide, keyboard and mouse, mods, Steam Deck ready. Bring your own copy of the game.",
     "version": "v0.5.66",
     "releasedAt": "2026-11-11",
@@ -357,7 +357,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 620,
+    "stars": 622,
     "description": "Pokémon Pokopia (Switch 2) recompiled to run natively on Windows with Linux/Handheld support. Multiplayer included, modding, feature enhancements and more! Join the discord community as well",
     "version": "v0.10.3",
     "releasedAt": "2026-11-11",
@@ -416,7 +416,7 @@
       "Windows",
       "Android"
     ],
-    "stars": 50,
+    "stars": 51,
     "description": "AI Driven Project to Port Monster Hunter Freedom Unite Natively on Windows and Android, Multiplayer Supports across Platform and Regions.",
     "version": "v0.4.6",
     "releasedAt": "2026-11-11",
@@ -818,7 +818,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 51,
+    "stars": 52,
     "description": "TMNT: Turtles in Time Re-Shelled native PC port via static recompilation, with 4K rendering, 4-player online co-op, Português Brasil, TRG launcher, and experimental Linux/Steam Deck support",
     "version": "v0.2.0",
     "releasedAt": "2026-11-11",
@@ -968,6 +968,48 @@
     "curated": true
   },
   {
+    "id": "goldoire-fefw-recomp",
+    "repo": "Goldoire/fefw-recomp",
+    "title": "Fire Emblem: Fortune's Weave by static recompilation",
+    "game": null,
+    "author": "Goldoire",
+    "console": "Nintendo Switch",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 564,
+    "description": "Native Windows PC port of Fire Emblem: Fortune's Weave by static recompilation. Bring your own dump; no game files included.",
+    "version": "v0.1.7",
+    "releasedAt": "2026-11-11",
+    "sizeBytes": 298000755,
+    "releaseUrl": "https://github.com/Goldoire/fefw-recomp/releases/tag/v0.1.7",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
+  },
+  {
+    "id": "ravencaio-tlou-remastered-pc",
+    "repo": "ravencaio/tlou-remastered-pc",
+    "title": "The Last of Us Remastered",
+    "game": null,
+    "author": "ravencaio",
+    "console": "PlayStation 4",
+    "mechanism": "native",
+    "platforms": [
+      "Windows"
+    ],
+    "stars": 328,
+    "description": "Unnoficial Native Windows PC port of The Last of Us Remastered (PS4, CUSA00552). Runs the game’s own x86-64 code on a custom runtime, with PS4 system libraries reimplemented and a Vulkan renderer based on shadPS4. Includes a launcher. No game files included: you need your own copy.",
+    "version": "v0.1.8",
+    "releasedAt": "2026-11-11",
+    "sizeBytes": 77820118,
+    "releaseUrl": "https://github.com/ravencaio/tlou-remastered-pc/releases/tag/v0.1.8",
+    "licenseId": "GPL-2.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-2.0",
+    "curated": true
+  },
+  {
     "id": "santiquiroz-gears-of-war-2-pc-port",
     "repo": "santiquiroz/gears-of-war-2-pc-port",
     "title": "Gears of War 2",
@@ -1082,7 +1124,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 255,
+    "stars": 256,
     "description": "A Recompilation of Viva Pinata: Trouble In Paradise",
     "version": "1.15.0",
     "releasedAt": "2026-11-10",
@@ -1116,26 +1158,6 @@
     "licenseId": "MIT",
     "licenseUrl": "https://api.github.com/licenses/mit",
     "curated": true
-  },
-  {
-    "id": "goldoire-fefw-recomp",
-    "repo": "Goldoire/fefw-recomp",
-    "title": "Fire Emblem: Fortune's Weave by static recompilation",
-    "game": null,
-    "author": "Goldoire",
-    "console": "Nintendo Switch",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows"
-    ],
-    "stars": 557,
-    "description": "Native Windows PC port of Fire Emblem: Fortune's Weave by static recompilation. Bring your own dump; no game files included.",
-    "version": "v0.1.6",
-    "releasedAt": "2026-11-10",
-    "sizeBytes": 163946410,
-    "releaseUrl": "https://github.com/Goldoire/fefw-recomp/releases/tag/v0.1.6",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
   },
   {
     "id": "mr-finster-vf3-recomp",
@@ -1360,7 +1382,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 6649,
+    "stars": 6669,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.4.0",
     "releasedAt": "2026-11-10",
@@ -1381,7 +1403,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 212,
+    "stars": 213,
     "description": "Forza Motorsport 4 native on PC",
     "version": "v0.3.11",
     "releasedAt": "2026-11-10",
@@ -1561,7 +1583,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 45,
+    "stars": 47,
     "description": "StarFox Remake [recompiled]: static recompilation of Star Fox (Nintendo Switch 2) into a native Windows app, built on your PC from your own copy. No game files included.",
     "version": "v1.0.2",
     "releasedAt": "2026-11-10",
@@ -1604,7 +1626,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 779,
+    "stars": 782,
     "description": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows with Vulkan. Plays from the title screen through the first stage on an RTX 5060 Ti; still early, can crash. No game files included.",
     "version": "v0.2.0",
     "releasedAt": "2026-11-09",
@@ -1644,7 +1666,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 336,
+    "stars": 337,
     "description": "",
     "version": null,
     "releasedAt": "2026-11-09",
@@ -1833,7 +1855,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 448,
+    "stars": 449,
     "description": "The 2012 Forza Horizon, native on Windows and Linux, and online again: Horizon World, leaderboards and Rivals on a public server you can also self-host. Bring your own copy.",
     "version": "v0.3.2",
     "releasedAt": "2026-11-09",
@@ -2072,7 +2094,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5330,
+    "stars": 5334,
     "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
     "version": "windows-v1.9.8.4",
     "releasedAt": "2026-11-08",
@@ -2201,7 +2223,7 @@
       "Linux",
       "iOS"
     ],
-    "stars": 601,
+    "stars": 602,
     "description": "The Legend of Zelda: The Wind Waker Recompiled. Native for MacOS, iOS, Windows, Linux, and Android.",
     "version": "v0.11.0",
     "releasedAt": "2026-11-08",
@@ -2209,27 +2231,6 @@
     "releaseUrl": "https://github.com/chrissotraidis/bluewake/releases/tag/v0.11.0",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
-    "curated": true
-  },
-  {
-    "id": "ravencaio-tlou-remastered-pc",
-    "repo": "ravencaio/tlou-remastered-pc",
-    "title": "The Last of Us Remastered",
-    "game": null,
-    "author": "ravencaio",
-    "console": "PlayStation 4",
-    "mechanism": "native",
-    "platforms": [
-      "Windows"
-    ],
-    "stars": 328,
-    "description": "Unnoficial Native Windows PC port of The Last of Us Remastered (PS4, CUSA00552). Runs the game’s own x86-64 code on a custom runtime, with PS4 system libraries reimplemented and a Vulkan renderer based on shadPS4. Includes a launcher. No game files included: you need your own copy.",
-    "version": "v0.1.7",
-    "releasedAt": "2026-11-08",
-    "sizeBytes": 77796540,
-    "releaseUrl": "https://github.com/ravencaio/tlou-remastered-pc/releases/tag/v0.1.7",
-    "licenseId": "GPL-2.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-2.0",
     "curated": true
   },
   {
@@ -2877,7 +2878,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 280,
+    "stars": 281,
     "description": "WipEout Omega Collection (PS4) native PC port for Windows: the game's own x86-64 code on the CPU, a PS4 runtime and the shadPS4 Vulkan video core. Playable, in active development. No game files included. ⭐ Star it if you like it; bug reports and requests are welcome in Issues!",
     "version": "windows-v0.2.67",
     "releasedAt": "2026-11-06",
@@ -3224,7 +3225,7 @@
     "platforms": [
       "macOS"
     ],
-    "stars": 163,
+    "stars": 171,
     "description": "Call of Duty: Black Ops II statically recompiled from 32-bit x86 Windows to native ARM64 macOS: Remill → LLVM IR, a hand-written Win32 runtime, Direct3D 11 drawn by Metal. No Wine, no game files.",
     "version": "v0.1.0-beta",
     "releasedAt": "2026-11-05",
@@ -3673,7 +3674,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 861,
+    "stars": 860,
     "description": "Unofficial native PC and Steam Deck port of Tears of the Kingdom 1.4.3 using static recompilation. Builds locally from the player's own extracted game dump; no game files included.",
     "version": "v0.3.1",
     "releasedAt": "2026-11-03",
@@ -4040,7 +4041,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 334,
+    "stars": 335,
     "description": "Burnout Revenge recompilation based on RexGlue + standalone Plume render",
     "version": "v0.4.10",
     "releasedAt": "2026-11-01",
@@ -4169,7 +4170,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 51,
+    "stars": 52,
     "description": "Native Windows port of Metroid Prime 3: Corruption (Wii, USA) built with static recompilation, no emulator. Play with keyboard and mouse or a gamepad, with PC visual upgrades and RetroAchievements (casual mode). Requires your own disc.",
     "version": "v0.1.6",
     "releasedAt": "2026-11-01",
@@ -4315,7 +4316,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 60,
+    "stars": 59,
     "description": "This project aims to create a Natively running Windows & Linux port of Haunting Ground (PS2) by static recompilation: it will support up to 4K resolution with HD textures i upscaled myself and 60 fps . Requires an US ISO of Haunting Ground",
     "version": "v0.2",
     "releasedAt": "2026-10-31",
@@ -4646,7 +4647,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2327,
+    "stars": 2328,
     "description": "Static recompilation of Link's Awakening (Switch) to native macOS, Windows and Linux",
     "version": "beta_5.4",
     "releasedAt": "2026-10-29",
@@ -4834,7 +4835,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 3997,
+    "stars": 3999,
     "description": "Bloodborne (v1.09) running natively on Linux and Windows: the game's x86-64 code runs as is, GPU side translated to Vulkan; FSR 4 / DLSS, co-op (BBSC). Bring your own dump.",
     "version": "0.7",
     "releasedAt": "2026-10-28",
@@ -4937,7 +4938,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 194,
+    "stars": 195,
     "description": "Call of Duty: Modern Warfare 2 (2009) for Xbox 360 recompiled for Windows & Linux",
     "version": "v0.8.2",
     "releasedAt": "2026-10-27",
@@ -5152,7 +5153,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 7533,
+    "stars": 7538,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -5936,7 +5937,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 5989,
+    "stars": 5991,
     "description": "Ship of Harkinian: a PC port of Ocarina of Time built from the decompilation, with widescreen, high framerate and mod support.",
     "version": "9.3.1",
     "releasedAt": "2026-10-18",
@@ -6342,7 +6343,7 @@
     "console": "Xbox 360",
     "mechanism": "native",
     "platforms": [],
-    "stars": 124,
+    "stars": 123,
     "description": "",
     "version": "v1.5",
     "releasedAt": "2026-10-13",
@@ -6945,7 +6946,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 6332,
+    "stars": 6333,
     "description": "Dusklight brings a classic adventure to PC and mobile platforms with a variety of fixes and improvements.",
     "version": "v2.0.3",
     "releasedAt": "2026-09-30",
@@ -8089,7 +8090,7 @@
     "console": "PlayStation 2",
     "mechanism": "native",
     "platforms": [],
-    "stars": 150,
+    "stars": 151,
     "description": "An  in-progress decompilation of the preview version of Shadow of the Colossus on the PlayStation 2",
     "version": null,
     "releasedAt": "2026-03-02",
@@ -8171,7 +8172,7 @@
     "console": "Xbox 360",
     "mechanism": "emulator",
     "platforms": [],
-    "stars": 9817,
+    "stars": 9818,
     "description": "Xbox 360 Emulator Research Project",
     "version": null,
     "releasedAt": "2026-02-18",
