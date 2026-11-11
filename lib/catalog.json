@@ -44,7 +44,7 @@
     "console": "Xbox",
     "mechanism": "native",
     "platforms": [],
-    "stars": 147,
+    "stars": 148,
     "description": "Halo 2 decompilation (decomp) for the original Xbox: a matching decompilation of the retail game into C/C++ source, rebuilt byte for byte, toward native PC, Linux and handheld ports. Contributors welcome. Source only; bring your own disc.",
     "version": null,
     "releasedAt": "2026-11-11",
@@ -276,7 +276,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 219,
+    "stars": 220,
     "description": "Ninja Gaiden II (Xbox 360, 2008) statically recompiled into native Linux and Windows builds, drawn by its own Vulkan renderer. A steady 60 fps, up to 8x render scale, widescreen and ultrawide, keyboard and mouse, mods, Steam Deck ready. Bring your own copy of the game.",
     "version": "v0.5.67",
     "releasedAt": "2026-11-11",
@@ -357,7 +357,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 638,
+    "stars": 641,
     "description": "Pokémon Pokopia (Switch 2) recompiled to run natively on Windows with Linux/Handheld support. Multiplayer included, modding, feature enhancements and more! Join the discord community as well",
     "version": "v0.10.3",
     "releasedAt": "2026-11-11",
@@ -416,7 +416,7 @@
       "Windows",
       "Android"
     ],
-    "stars": 51,
+    "stars": 52,
     "description": "AI Driven Project to Port Monster Hunter Freedom Unite Natively on Windows and Android, Multiplayer Supports across Platform and Regions.",
     "version": "v0.4.6",
     "releasedAt": "2026-11-11",
@@ -818,7 +818,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 52,
+    "stars": 53,
     "description": "TMNT: Turtles in Time Re-Shelled native PC port via static recompilation, with 4K rendering, 4-player online co-op, Português Brasil, TRG launcher, and experimental Linux/Steam Deck support",
     "version": "v0.2.0",
     "releasedAt": "2026-11-11",
@@ -838,7 +838,7 @@
     "platforms": [
       "Linux"
     ],
-    "stars": 99,
+    "stars": 100,
     "description": "",
     "version": "v1.5.4",
     "releasedAt": "2026-11-11",
@@ -897,7 +897,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 138,
+    "stars": 139,
     "description": "An unofficial original Xbox version PC port of Red Dead Revolver via static recompilation.",
     "version": "V2",
     "releasedAt": "2026-11-11",
@@ -979,7 +979,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 571,
+    "stars": 573,
     "description": "Native Windows PC port of Fire Emblem: Fortune's Weave by static recompilation. Bring your own dump; no game files included.",
     "version": "v0.1.7",
     "releasedAt": "2026-11-11",
@@ -999,7 +999,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 329,
+    "stars": 330,
     "description": "Unnoficial Native Windows PC port of The Last of Us Remastered (PS4, CUSA00552). Runs the game’s own x86-64 code on a custom runtime, with PS4 system libraries reimplemented and a Vulkan renderer based on shadPS4. Includes a launcher. No game files included: you need your own copy.",
     "version": "v0.1.8",
     "releasedAt": "2026-11-11",
@@ -1111,6 +1111,47 @@
     "licenseUrl": null
   },
   {
+    "id": "timboat-demons-souls-recomp",
+    "repo": "timboat/demons-souls-recomp",
+    "title": "Demon's Souls",
+    "game": null,
+    "author": "timboat",
+    "console": "PlayStation 3",
+    "mechanism": "recompiled",
+    "platforms": [],
+    "stars": 213,
+    "description": "Native Windows port of Demon's Souls (PS3, BLUS-30443) via ps3recomp static recompilation. Bring your own disc image; no game files included.",
+    "version": "v2026.11.11",
+    "releasedAt": "2026-11-11",
+    "sizeBytes": 2196676,
+    "releaseUrl": "https://github.com/timboat/demons-souls-recomp/releases/tag/v2026.11.11",
+    "licenseId": "NOASSERTION",
+    "licenseUrl": null,
+    "curated": true
+  },
+  {
+    "id": "kuraeow-ultratears",
+    "repo": "kuraeow/ultratears",
+    "title": "The Legend of Zelda: Tears of the Kingdom",
+    "game": "tears-of-the-kingdom",
+    "author": "kuraeow",
+    "console": "Nintendo Switch",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 865,
+    "description": "Unofficial native PC and Steam Deck port of Tears of the Kingdom 1.4.3 using static recompilation. Builds locally from the player's own extracted game dump; no game files included.",
+    "version": "v0.4.0",
+    "releasedAt": "2026-11-11",
+    "sizeBytes": 214469112,
+    "releaseUrl": "https://github.com/kuraeow/ultratears/releases/tag/v0.4.0",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
+  },
+  {
     "id": "santiquiroz-gears-of-war-2-pc-port",
     "repo": "santiquiroz/gears-of-war-2-pc-port",
     "title": "Gears of War 2",
@@ -1185,7 +1226,7 @@
     "platforms": [
       "PC"
     ],
-    "stars": 1851,
+    "stars": 1849,
     "description": "Native Windows port of Shadow of the Colossus (PS4, CUSA08809) - bring your own game dump. Port nativo para PC.",
     "version": "v0.74.1",
     "releasedAt": "2026-11-10",
@@ -1424,7 +1465,7 @@
       "Windows",
       "macOS"
     ],
-    "stars": 145,
+    "stars": 146,
     "description": "Forza Motorsport 4 recompilation based on ShiftGlue",
     "version": "v0.3.2",
     "releasedAt": "2026-11-10",
@@ -1464,7 +1505,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 6716,
+    "stars": 6721,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.4.0",
     "releasedAt": "2026-11-10",
@@ -1685,7 +1726,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 52,
+    "stars": 53,
     "description": "",
     "version": "v0.1.7",
     "releasedAt": "2026-11-09",
@@ -1708,7 +1749,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 793,
+    "stars": 797,
     "description": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows with Vulkan. Plays from the title screen through the first stage on an RTX 5060 Ti; still early, can crash. No game files included.",
     "version": "v0.2.0",
     "releasedAt": "2026-11-09",
@@ -1873,7 +1914,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 615,
+    "stars": 616,
     "description": "A native Windows and Linux port of Grand Theft Auto: Vice City Stories (PS2, USA, SLUS-21590), made by recompiling the game's PS2 executable into C++",
     "version": "v0.2.4",
     "releasedAt": "2026-11-09",
@@ -2112,7 +2153,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 1037,
+    "stars": 1038,
     "description": "A playable preview of Forza Horizon static recompilation",
     "version": "v0.8.2",
     "releasedAt": "2026-11-08",
@@ -2357,25 +2398,6 @@
     "releaseUrl": "https://github.com/novapowers0/DBZ-Budokai-3-HD-Collection/releases/tag/v1.5.6.2",
     "licenseId": "MIT",
     "licenseUrl": "https://api.github.com/licenses/mit",
-    "curated": true
-  },
-  {
-    "id": "timboat-demons-souls-recomp",
-    "repo": "timboat/demons-souls-recomp",
-    "title": "Demon's Souls",
-    "game": null,
-    "author": "timboat",
-    "console": "PlayStation 3",
-    "mechanism": "recompiled",
-    "platforms": [],
-    "stars": 213,
-    "description": "Native Windows port of Demon's Souls (PS3, BLUS-30443) via ps3recomp static recompilation. Bring your own disc image; no game files included.",
-    "version": "v2026.11.08",
-    "releasedAt": "2026-11-08",
-    "sizeBytes": 1999440,
-    "releaseUrl": "https://github.com/timboat/demons-souls-recomp/releases/tag/v2026.11.08",
-    "licenseId": "NOASSERTION",
-    "licenseUrl": null,
     "curated": true
   },
   {
@@ -2789,7 +2811,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 2269,
+    "stars": 2268,
     "description": "Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo",
     "version": "v0.3.14",
     "releasedAt": "2026-11-07",
@@ -2899,7 +2921,7 @@
       "macOS"
     ],
     "stars": 50,
-    "description": "A Nintendo 3DS emulator in Rust, using AOT recompilation",
+    "description": "Runtime for ports or recompilations of 3DS games.",
     "version": "v0.2.32",
     "releasedAt": "2026-11-06",
     "sizeBytes": 40296526,
@@ -3201,7 +3223,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 181,
+    "stars": 182,
     "description": "A matching decompilation and PC port for the Ratchet & Clank series",
     "version": "launcher-v1.0.2",
     "releasedAt": "2026-11-05",
@@ -3243,7 +3265,7 @@
     "platforms": [
       "macOS"
     ],
-    "stars": 185,
+    "stars": 188,
     "description": "Call of Duty: Black Ops II statically recompiled from 32-bit x86 Windows to native ARM64 macOS: Remill → LLVM IR, a hand-written Win32 runtime, Direct3D 11 drawn by Metal. No Wine, no game files.",
     "version": "v0.1.0-beta",
     "releasedAt": "2026-11-05",
@@ -3670,7 +3692,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 740,
+    "stars": 739,
     "description": "PC port of Dragon Ball Z: Budokai Tenkaichi 3, built on the BT3-Decompiled project.",
     "version": "v0.1.39.6",
     "releasedAt": "2026-11-03",
@@ -3678,28 +3700,6 @@
     "releaseUrl": "https://github.com/z3xox/Tenkaichi3Decomp/releases/tag/v0.1.39.6",
     "licenseId": "AGPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/agpl-3.0",
-    "curated": true
-  },
-  {
-    "id": "kuraeow-ultratears",
-    "repo": "kuraeow/ultratears",
-    "title": "The Legend of Zelda: Tears of the Kingdom",
-    "game": "tears-of-the-kingdom",
-    "author": "kuraeow",
-    "console": "Nintendo Switch",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 864,
-    "description": "Unofficial native PC and Steam Deck port of Tears of the Kingdom 1.4.3 using static recompilation. Builds locally from the player's own extracted game dump; no game files included.",
-    "version": "v0.3.1",
-    "releasedAt": "2026-11-03",
-    "sizeBytes": 210500088,
-    "releaseUrl": "https://github.com/kuraeow/ultratears/releases/tag/v0.3.1",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
   },
   {
@@ -3950,7 +3950,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 1564,
+    "stars": 1565,
     "description": "Unofficial Windows/Linux/macOS/Android/iOS Port of Animal Crossing Gamecube",
     "version": "v1.0.0",
     "releasedAt": "2026-11-02",
@@ -4585,7 +4585,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 934,
+    "stars": 935,
     "description": "An unofficial original Xbox version PC port of BLACK (2006) via static recompilation.",
     "version": "V3",
     "releasedAt": "2026-10-29",
@@ -4934,7 +4934,7 @@
     "console": "Nintendo 64",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 110,
+    "stars": 111,
     "description": "Banjo-Tooie Scurvy Dog Port: a static PC recompilation of Banjo-Tooie. **Not affiliated with the Banjo: Recompiled team**",
     "version": null,
     "releasedAt": "2026-10-27",
@@ -5171,7 +5171,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 7545,
+    "stars": 7549,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -5381,7 +5381,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 3833,
+    "stars": 3834,
     "description": "Playstation 2 Static Recompiler & Runtime Tool to make native PC ports",
     "version": null,
     "releasedAt": "2026-10-23",
@@ -5616,7 +5616,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 1163,
+    "stars": 1164,
     "description": "Native PC port (Linux/Windows) of inFAMOUS Second Son (PS4, CUSA00223) — in development, playable; runs your own game dump; no game or firmware files included. Motion sensor emulation. | Port nativo para PC de inFAMOUS Second Son (em desenvolvimento) — usa o seu próprio dump.",
     "version": "v1.0",
     "releasedAt": "2026-10-22",
@@ -5955,7 +5955,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 5998,
+    "stars": 6001,
     "description": "Ship of Harkinian: a PC port of Ocarina of Time built from the decompilation, with widescreen, high framerate and mod support.",
     "version": "9.3.1",
     "releasedAt": "2026-10-18",
@@ -6589,7 +6589,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 312,
+    "stars": 313,
     "description": "GoldenEye 007 (N64, 1997) as a native PC game for Windows, Linux, Steam Deck and macOS. Built from the open decompilation, with widescreen, mouse and keyboard or controller, and split-screen. Not an emulator.",
     "version": "v0.5.0",
     "releasedAt": "2026-10-07",
@@ -6692,7 +6692,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 917,
+    "stars": 918,
     "description": "Recompilation of Blue Dragon",
     "version": "v1.3.1",
     "releasedAt": "2026-10-05",
@@ -7788,7 +7788,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2128,
+    "stars": 2130,
     "description": "PC Port of Banjo-Kazooie made using N64: Recompiled (Windows/Linux/Mac) ",
     "version": "v1.0.2",
     "releasedAt": "2026-07-31",
@@ -7870,7 +7870,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 1820,
+    "stars": 1819,
     "description": "A native recompilation of Skate 3 for Windows, Linux, and macOS.",
     "version": "v2.0.2",
     "releasedAt": "2026-07-24",
@@ -8355,7 +8355,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5368,
+    "stars": 5369,
     "description": "An unofficial PC port of the Xbox 360 version of Sonic Unleashed created through the process of static recompilation.",
     "version": "v1.0.3",
     "releasedAt": "2025-04-03",
