@@ -82,7 +82,7 @@
     "console": "Nintendo DS",
     "mechanism": "native",
     "platforms": [],
-    "stars": 245,
+    "stars": 246,
     "description": "From-scratch, byte-matching decompilation of Super Mario 64 DS into C/C++, with a live progress atlas and matching tools.",
     "version": null,
     "releasedAt": "2026-11-11",
@@ -198,7 +198,7 @@
     "console": "PlayStation 2",
     "mechanism": "native",
     "platforms": [],
-    "stars": 40,
+    "stars": 41,
     "description": "Matching decompilation of Shadow of the Colossus (PS2, NTSC-U) aiming for a native PC port",
     "version": null,
     "releasedAt": "2026-11-11",
@@ -206,6 +206,43 @@
     "releaseUrl": "https://github.com/TheRealestNwah/sotc-decomp/releases",
     "licenseId": "CC0-1.0",
     "licenseUrl": "https://api.github.com/licenses/cc0-1.0"
+  },
+  {
+    "id": "theitsnschool-bloodborne-windows-native-loader",
+    "repo": "theitsnschool/bloodborne-windows-native-loader",
+    "title": "Bloodborne Windows Loader",
+    "game": null,
+    "author": "theitsnschool",
+    "console": "PC",
+    "mechanism": "native",
+    "platforms": [],
+    "stars": 33,
+    "description": "Bloodborne PC Windows Port: Native x86-64 Loader with Vulkan Rendering for Modders",
+    "version": null,
+    "releasedAt": "2026-11-11",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/theitsnschool/bloodborne-windows-native-loader/releases",
+    "licenseId": null,
+    "licenseUrl": null
+  },
+  {
+    "id": "portingpete-the-darkness-recomp",
+    "repo": "portingpete/The-Darkness-Recomp",
+    "title": "The Darkness",
+    "game": "the-darkness",
+    "author": "portingpete",
+    "console": "Xbox 360",
+    "mechanism": "native",
+    "platforms": [],
+    "stars": 411,
+    "description": "A native PC port of The Darkness (Xbox 360) for Windows, featuring DirectX 11 graphics, mouse and keyboard controls, and customizable settings.",
+    "version": null,
+    "releasedAt": "2026-11-11",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/portingpete/The-Darkness-Recomp/releases",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
   },
   {
     "id": "santiquiroz-gears-of-war-2-pc-port",
@@ -310,24 +347,6 @@
     "curated": true
   },
   {
-    "id": "theitsnschool-bloodborne-windows-native-loader",
-    "repo": "theitsnschool/bloodborne-windows-native-loader",
-    "title": "Bloodborne Windows Loader",
-    "game": null,
-    "author": "theitsnschool",
-    "console": "PC",
-    "mechanism": "native",
-    "platforms": [],
-    "stars": 33,
-    "description": "Bloodborne PC Windows Port: Native x86-64 Loader with Vulkan Rendering for Modders",
-    "version": null,
-    "releasedAt": "2026-11-10",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/theitsnschool/bloodborne-windows-native-loader/releases",
-    "licenseId": null,
-    "licenseUrl": null
-  },
-  {
     "id": "nathanialf-ico-pc",
     "repo": "nathanialf/ico-pc",
     "title": "ICO",
@@ -363,7 +382,7 @@
     "platforms": [
       "PC"
     ],
-    "stars": 1838,
+    "stars": 1839,
     "description": "Native Windows port of Shadow of the Colossus (PS4, CUSA08809) - bring your own game dump. Port nativo para PC.",
     "version": "v0.74.1",
     "releasedAt": "2026-11-10",
@@ -517,7 +536,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 491,
+    "stars": 497,
     "description": "Native Windows PC port of Fire Emblem: Fortune's Weave by static recompilation. Bring your own dump; no game files included.",
     "version": "v0.1.6",
     "releasedAt": "2026-11-10",
@@ -809,7 +828,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 564,
+    "stars": 565,
     "description": "Pokémon Pokopia (Switch 2) recompiled to run natively on Windows with Linux/Handheld support. Multiplayer included, modding, feature enhancements and more! Join the discord community as well",
     "version": "v0.10.2",
     "releasedAt": "2026-11-10",
@@ -852,7 +871,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 6450,
+    "stars": 6455,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.4.0",
     "releasedAt": "2026-11-10",
@@ -1178,7 +1197,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 724,
+    "stars": 725,
     "description": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows with Vulkan. Plays from the title screen through the first stage on an RTX 5060 Ti; still early, can crash. No game files included.",
     "version": "v0.2.0",
     "releasedAt": "2026-11-09",
@@ -1386,7 +1405,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 597,
+    "stars": 598,
     "description": "A native Windows and Linux port of Grand Theft Auto: Vice City Stories (PS2, USA, SLUS-21590), made by recompiling the game's PS2 executable into C++",
     "version": "v0.2.4",
     "releasedAt": "2026-11-09",
@@ -1847,7 +1866,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5308,
+    "stars": 5309,
     "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
     "version": "windows-v1.9.8.4",
     "releasedAt": "2026-11-08",
@@ -2501,7 +2520,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 58,
+    "stars": 59,
     "description": "Unofficial Windows version of WWE All Stars (Xbox 360), recompiled with ReXGlue. Bring your own disc image.",
     "version": "v2.0.0",
     "releasedAt": "2026-11-07",
@@ -2545,7 +2564,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 2258,
+    "stars": 2259,
     "description": "Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo",
     "version": "v0.3.14",
     "releasedAt": "2026-11-07",
@@ -2610,7 +2629,7 @@
       "Linux",
       "Android"
     ],
-    "stars": 83,
+    "stars": 84,
     "description": "Native C++ recompilation of The Binding of Isaac (Flash) — 60 fps, 1080p, Windows/Linux/Switch. Requires the original game from Steam",
     "version": "v1.6.0",
     "releasedAt": "2026-11-07",
@@ -2890,7 +2909,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 1426,
+    "stars": 1427,
     "description": "Zelda Wind Waker HD Recomp",
     "version": "v0.5.1",
     "releasedAt": "2026-11-06",
@@ -2934,7 +2953,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 161,
+    "stars": 162,
     "description": "Conker: Live & Reloaded (Xbox) on Windows & Linux: a native recompilation with a launcher that builds it from your own disc, widescreen up to 240 FPS, enhancements, and online play with room codes.",
     "version": "v1.4.2",
     "releasedAt": "2026-11-06",
@@ -3082,7 +3101,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 177,
+    "stars": 178,
     "description": "A matching decompilation and PC port for the Ratchet & Clank series",
     "version": "launcher-v1.0.2",
     "releasedAt": "2026-11-05",
@@ -3103,7 +3122,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 73,
+    "stars": 74,
     "description": "Windows x64 recompilation with up to 4K output, graphics filters, gamepad intro skip and offline menu fixes. Builds locally from your own Xbox 360 ISO. 60 FPS recommended; higher-FPS motion is not unlocked.",
     "version": "v1.5.3",
     "releasedAt": "2026-11-05",
@@ -3484,7 +3503,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 236,
+    "stars": 237,
     "description": "Native Windows PC port of God of War (PS2), built by statically recompiling MIPS R5900 code to C++ with PS2Recomp. Includes an installer launcher, one-click build, fan-translation support and a 60 fps target. No game files included: you need your own copy.",
     "version": "v0.5.0",
     "releasedAt": "2026-11-03",
@@ -3573,7 +3592,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 854,
+    "stars": 855,
     "description": "Unofficial native PC and Steam Deck port of Tears of the Kingdom 1.4.3 using static recompilation. Builds locally from the player's own extracted game dump; no game files included.",
     "version": "v0.3.1",
     "releasedAt": "2026-11-03",
@@ -3875,7 +3894,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 214,
+    "stars": 215,
     "description": "GTA V (Xbox 360, TU27) static recompilation with ReXGlue",
     "version": "v0.3.0",
     "releasedAt": "2026-11-02",
@@ -4246,25 +4265,6 @@
     "curated": true
   },
   {
-    "id": "portingpete-the-darkness-recomp",
-    "repo": "portingpete/The-Darkness-Recomp",
-    "title": "The Darkness",
-    "game": "the-darkness",
-    "author": "portingpete",
-    "console": "Xbox 360",
-    "mechanism": "native",
-    "platforms": [],
-    "stars": 411,
-    "description": "A native PC port of The Darkness (Xbox 360) for Windows, featuring DirectX 11 graphics, mouse and keyboard controls, and customizable settings.",
-    "version": null,
-    "releasedAt": "2026-10-30",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/portingpete/The-Darkness-Recomp/releases",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
-    "curated": true
-  },
-  {
     "id": "shadps4-emu-shadps4",
     "repo": "shadps4-emu/shadPS4",
     "title": "shadPS4",
@@ -4277,7 +4277,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 34116,
+    "stars": 34118,
     "description": "PlayStation 4 emulator for Windows, Linux, macOS and FreeBSD written in C++",
     "version": "v.0.21.0",
     "releasedAt": "2026-10-30",
@@ -4343,7 +4343,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 506,
+    "stars": 507,
     "description": "ReStreet: FIFA Street (2012) recompiled for Windows PC, with online play, a launcher with friends, chat and rooms. Bring your own game.",
     "version": "v2.1.4-online-beta",
     "releasedAt": "2026-10-30",
@@ -4732,7 +4732,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 235,
+    "stars": 236,
     "description": "A static native recompilation of Need for Speed: Most Wanted (2005) Xbox 360",
     "version": "v1.0.2",
     "releasedAt": "2026-10-28",
@@ -5072,7 +5072,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 7478,
+    "stars": 7481,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -5263,7 +5263,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 57,
+    "stars": 58,
     "description": "An unofficial original Xbox version PC port of The Warriors via static recompilation.",
     "version": "v0.2.0-alpha",
     "releasedAt": "2026-10-24",
@@ -5282,7 +5282,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 3830,
+    "stars": 3831,
     "description": "Playstation 2 Static Recompiler & Runtime Tool to make native PC ports",
     "version": null,
     "releasedAt": "2026-10-23",
@@ -5517,7 +5517,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 1150,
+    "stars": 1151,
     "description": "Native PC port (Linux/Windows) of inFAMOUS Second Son (PS4, CUSA00223) — in development, playable; runs your own game dump; no game or firmware files included. Motion sensor emulation. | Port nativo para PC de inFAMOUS Second Son (em desenvolvimento) — usa o seu próprio dump.",
     "version": "v1.0",
     "releasedAt": "2026-10-22",
@@ -5638,7 +5638,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 415,
+    "stars": 416,
     "description": "Call of Duty 3 (Xbox 360) static recompilation: host runtime, tools and notes",
     "version": null,
     "releasedAt": "2026-10-21",
@@ -5856,7 +5856,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 5975,
+    "stars": 5976,
     "description": "Ship of Harkinian: a PC port of Ocarina of Time built from the decompilation, with widescreen, high framerate and mod support.",
     "version": "9.3.1",
     "releasedAt": "2026-10-18",
@@ -6262,7 +6262,7 @@
     "console": "Xbox 360",
     "mechanism": "native",
     "platforms": [],
-    "stars": 122,
+    "stars": 123,
     "description": "",
     "version": "v1.5",
     "releasedAt": "2026-10-13",
@@ -6735,7 +6735,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 223,
+    "stars": 224,
     "description": "",
     "version": "V1.2.2",
     "releasedAt": "2026-10-02",
@@ -7790,7 +7790,7 @@
     "console": "Xbox 360",
     "mechanism": "native",
     "platforms": [],
-    "stars": 65,
+    "stars": 66,
     "description": "",
     "version": "v0.6.0",
     "releasedAt": "2026-07-22",
@@ -8256,7 +8256,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5363,
+    "stars": 5364,
     "description": "An unofficial PC port of the Xbox 360 version of Sonic Unleashed created through the process of static recompilation.",
     "version": "v1.0.3",
     "releasedAt": "2025-04-03",
