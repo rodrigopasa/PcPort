@@ -88,10 +88,10 @@
     ],
     "stars": 45,
     "description": "Transformers (PS2, 2004) as a native PC game: static recompilation from your own disc, native Direct3D 12 renderer, up to 4K / 240 fps / ultrawide. Bring your own disc.",
-    "version": "setup-v0.6.8",
+    "version": "setup-v0.6.9",
     "releasedAt": "2026-11-12",
     "sizeBytes": 5200384,
-    "releaseUrl": "https://github.com/kayliox/transformers-armada-recomp/releases/tag/setup-v0.6.8",
+    "releaseUrl": "https://github.com/kayliox/transformers-armada-recomp/releases/tag/setup-v0.6.9",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
@@ -250,7 +250,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 682,
+    "stars": 687,
     "description": "Pokémon Pokopia (Switch 2) recompiled to run natively on Windows with Linux/Handheld support. Multiplayer included, modding, feature enhancements and more! Join the discord community as well",
     "version": "v0.11.1",
     "releasedAt": "2026-11-12",
@@ -312,7 +312,7 @@
     "console": "PlayStation 4",
     "mechanism": "native",
     "platforms": [],
-    "stars": 197,
+    "stars": 201,
     "description": "A decompilation of Bloodborne (CUSA03173 v1.09) with its own runtime: the game's code rewritten as readable C++, one verified function at a time. The game doesn't run on it yet; 21 functions verified. No game files included.",
     "version": null,
     "releasedAt": "2026-11-12",
@@ -663,7 +663,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 867,
+    "stars": 869,
     "description": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows with Vulkan. Plays from the title screen through the first stage on an RTX 5060 Ti; still early, can crash. No game files included.",
     "version": "v0.3.0",
     "releasedAt": "2026-11-12",
@@ -684,12 +684,12 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 76,
+    "stars": 78,
     "description": "inFamous 2 (PS3) statically recompiled to a native Windows PC port, with a launcher that builds it from your own game files. No game files included.",
-    "version": "v0.1.24",
+    "version": "v0.1.25",
     "releasedAt": "2026-11-12",
-    "sizeBytes": 5020469,
-    "releaseUrl": "https://github.com/bhuiyah/infamous2-recomp/releases/tag/v0.1.24",
+    "sizeBytes": 5019519,
+    "releaseUrl": "https://github.com/bhuiyah/infamous2-recomp/releases/tag/v0.1.25",
     "licenseId": "NOASSERTION",
     "licenseUrl": null,
     "curated": true
@@ -948,7 +948,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 82,
+    "stars": 83,
     "description": "Battlefield 1943 Reborn: the Xbox 360 game running natively on PC, with its online multiplayer restored. Releases and server packages.",
     "version": "v0.3.0",
     "releasedAt": "2026-11-12",
@@ -989,7 +989,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 79,
+    "stars": 80,
     "description": "Mario Kart 8 Deluxe recompiled to run natively on your PC: no JIT, FSR 3.1 + frame generation, experimental DLSS, 720p to 4K output, HDR10. Bring your own game files.",
     "version": "v0.2.4",
     "releasedAt": "2026-11-12",
@@ -1018,6 +1018,99 @@
     "releaseUrl": "https://github.com/AjncSystem/ShadowOfTheColossus-PC/releases/tag/v0.75",
     "licenseId": "GPL-2.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-2.0",
+    "curated": true
+  },
+  {
+    "id": "bassobr-far-cry-instincts-recomp",
+    "repo": "bassobr/Far-Cry-Instincts-Recomp",
+    "title": "Far Cry Instincts",
+    "game": null,
+    "author": "bassobr",
+    "console": "Xbox",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows"
+    ],
+    "stars": 50,
+    "description": "Static recompilation of the original Xbox Far Cry Instincts into a native Windows x64 executable (Direct3D 11). Bring your own copy of the game; no game files included.",
+    "version": "v0.1.11",
+    "releasedAt": "2026-11-12",
+    "sizeBytes": 65950727,
+    "releaseUrl": "https://github.com/bassobr/Far-Cry-Instincts-Recomp/releases/tag/v0.1.11",
+    "licenseId": "MIT",
+    "licenseUrl": "https://api.github.com/licenses/mit",
+    "curated": true
+  },
+  {
+    "id": "odrannnn-metroidprimeport",
+    "repo": "Odrannnn/MetroidPrimePort",
+    "title": "Metroid Prime",
+    "game": "metroid-prime",
+    "author": "Odrannnn",
+    "console": "GameCube",
+    "mechanism": "native",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Android",
+      "iOS"
+    ],
+    "stars": 683,
+    "description": "Native port of Metroid Prime (GameCube) for Linux, Windows and Android, built from the PrimeDecomp decompilation. No emulator, no game assets included: bring your own disc image.",
+    "version": "v0.46.0",
+    "releasedAt": "2026-11-12",
+    "sizeBytes": 158294696,
+    "releaseUrl": "https://github.com/Odrannnn/MetroidPrimePort/releases/tag/v0.46.0",
+    "licenseId": "NOASSERTION",
+    "licenseUrl": null,
+    "curated": true
+  },
+  {
+    "id": "odrannnn-metroidprime2port",
+    "repo": "Odrannnn/MetroidPrime2Port",
+    "title": "Metroid Prime 2: Echoes",
+    "game": null,
+    "author": "Odrannnn",
+    "console": "GameCube",
+    "mechanism": "native",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Android",
+      "iOS"
+    ],
+    "stars": 270,
+    "description": "Native port of Metroid Prime 2: Echoes (GameCube) for Linux and Android, built from the PrimeDecomp decompilation. No emulator, no game assets included: bring your own disc image.",
+    "version": "v0.16.0",
+    "releasedAt": "2026-11-12",
+    "sizeBytes": 134740264,
+    "releaseUrl": "https://github.com/Odrannnn/MetroidPrime2Port/releases/tag/v0.16.0",
+    "licenseId": "NOASSERTION",
+    "licenseUrl": null,
+    "curated": true
+  },
+  {
+    "id": "masterspike52-renut",
+    "repo": "masterspike52/reNut",
+    "title": "Banjo-Kazooie: Nuts & Bolts",
+    "game": null,
+    "author": "masterspike52",
+    "console": "Xbox 360",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 237,
+    "description": "Banjo-Kazooie: Nuts and Bolts Recompilation with Rexglue",
+    "version": "big-lua-energy",
+    "releasedAt": "2026-11-12",
+    "sizeBytes": 60824056,
+    "releaseUrl": "https://github.com/masterspike52/reNut/releases/tag/big-lua-energy",
+    "licenseId": null,
+    "licenseUrl": null,
     "curated": true
   },
   {
@@ -1208,27 +1301,6 @@
     "curated": true
   },
   {
-    "id": "bassobr-far-cry-instincts-recomp",
-    "repo": "bassobr/Far-Cry-Instincts-Recomp",
-    "title": "Far Cry Instincts",
-    "game": null,
-    "author": "bassobr",
-    "console": "Xbox",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows"
-    ],
-    "stars": 50,
-    "description": "Static recompilation of the original Xbox Far Cry Instincts into a native Windows x64 executable (Direct3D 11). Bring your own copy of the game; no game files included.",
-    "version": "v0.1.10",
-    "releasedAt": "2026-11-11",
-    "sizeBytes": 65949113,
-    "releaseUrl": "https://github.com/bassobr/Far-Cry-Instincts-Recomp/releases/tag/v0.1.10",
-    "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit",
-    "curated": true
-  },
-  {
     "id": "ekspym-tekken6-native-online",
     "repo": "Ekspym/Tekken6-native-online",
     "title": "Tekken 6",
@@ -1363,7 +1435,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 147,
+    "stars": 148,
     "description": "An unofficial original Xbox version PC port of Red Dead Revolver via static recompilation.",
     "version": "V2",
     "releasedAt": "2026-11-11",
@@ -1446,7 +1518,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 639,
+    "stars": 640,
     "description": "Native Windows PC port of Fire Emblem: Fortune's Weave by static recompilation. Bring your own dump; no game files included.",
     "version": "v0.1.7",
     "releasedAt": "2026-11-11",
@@ -1529,7 +1601,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 885,
+    "stars": 887,
     "description": "Unofficial native PC and Steam Deck port of Tears of the Kingdom 1.4.3 using static recompilation. Builds locally from the player's own extracted game dump; no game files included.",
     "version": "v0.4.0",
     "releasedAt": "2026-11-11",
@@ -1772,7 +1844,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 6887,
+    "stars": 6893,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.4.0",
     "releasedAt": "2026-11-10",
@@ -1800,56 +1872,6 @@
     "sizeBytes": 82360472,
     "releaseUrl": "https://github.com/0herculabs/hl360-forza4/releases/tag/v0.3.11",
     "licenseId": null,
-    "licenseUrl": null,
-    "curated": true
-  },
-  {
-    "id": "odrannnn-metroidprimeport",
-    "repo": "Odrannnn/MetroidPrimePort",
-    "title": "Metroid Prime",
-    "game": "metroid-prime",
-    "author": "Odrannnn",
-    "console": "GameCube",
-    "mechanism": "native",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "macOS",
-      "Android",
-      "iOS"
-    ],
-    "stars": 683,
-    "description": "Native port of Metroid Prime (GameCube) for Linux, Windows and Android, built from the PrimeDecomp decompilation. No emulator, no game assets included: bring your own disc image.",
-    "version": "v0.45.0",
-    "releasedAt": "2026-11-10",
-    "sizeBytes": 158283672,
-    "releaseUrl": "https://github.com/Odrannnn/MetroidPrimePort/releases/tag/v0.45.0",
-    "licenseId": "NOASSERTION",
-    "licenseUrl": null,
-    "curated": true
-  },
-  {
-    "id": "odrannnn-metroidprime2port",
-    "repo": "Odrannnn/MetroidPrime2Port",
-    "title": "Metroid Prime 2: Echoes",
-    "game": null,
-    "author": "Odrannnn",
-    "console": "GameCube",
-    "mechanism": "native",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "macOS",
-      "Android",
-      "iOS"
-    ],
-    "stars": 270,
-    "description": "Native port of Metroid Prime 2: Echoes (GameCube) for Linux and Android, built from the PrimeDecomp decompilation. No emulator, no game assets included: bring your own disc image.",
-    "version": "v0.15.0",
-    "releasedAt": "2026-11-10",
-    "sizeBytes": 133930704,
-    "releaseUrl": "https://github.com/Odrannnn/MetroidPrime2Port/releases/tag/v0.15.0",
-    "licenseId": "NOASSERTION",
     "licenseUrl": null,
     "curated": true
   },
@@ -1891,7 +1913,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 138,
+    "stars": 139,
     "description": "Paper Cut: A native port of Paper Mario: The Thousand-Year Door to Windows, macOS, Linux, iOS and Android (AI-assisted)",
     "version": "v0.5.0",
     "releasedAt": "2026-11-10",
@@ -2192,7 +2214,7 @@
       "macOS",
       "iOS"
     ],
-    "stars": 57,
+    "stars": 56,
     "description": "Unofficial static recompilation of the Xbox 360 version of Need for Speed: Carbon (2006): a native port for Steam Deck, Steam Machine, Steam Frame, Linux and Mac, plus a Windows beta (iPhone/iPad: sideload the experimental IPA or build it yourself). Bring your own disc: no game files included. Not affiliated with EA or Valve.",
     "version": "v0.1.3",
     "releasedAt": "2026-11-09",
@@ -2235,7 +2257,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 114,
+    "stars": 115,
     "description": "Super Street Fighter II Turbo HD Remix native PC port via static recompilation, with TRG launcher, local achievements and experimental Linux support",
     "version": "v0.4.0",
     "releasedAt": "2026-11-08",
@@ -2321,7 +2343,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5360,
+    "stars": 5361,
     "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
     "version": "windows-v1.9.8.4",
     "releasedAt": "2026-11-08",
@@ -2386,7 +2408,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 182,
+    "stars": 183,
     "description": "CPS-2 Recomp: unofficial native PC ports of Capcom CPS-2 arcade games (Street Fighter Alpha 2, Super Puzzle Fighter II Turbo, Vampire Savior) via static recompilation, with training modes, in one launcher: macOS, Linux, Steam Deck, Windows. Requires your own ROM sets. Beta.",
     "version": "v1.4.0",
     "releasedAt": "2026-11-08",
@@ -2779,7 +2801,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 157,
+    "stars": 158,
     "description": "Native SDL3 port of Colin McRae Rally 2.0 built from the CMR2Decomp decompilation. No game data included.",
     "version": "v1.8.7",
     "releasedAt": "2026-11-07",
@@ -3739,7 +3761,7 @@
     "console": "PlayStation 3",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 295,
+    "stars": 299,
     "description": "Drakengard 3 (PS3) static recompilation using ps3recomp",
     "version": null,
     "releasedAt": "2026-11-03",
@@ -4002,7 +4024,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 250,
+    "stars": 251,
     "description": "",
     "version": "v0.4.2-beta",
     "releasedAt": "2026-11-01",
@@ -4045,7 +4067,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 336,
+    "stars": 337,
     "description": "Burnout Revenge recompilation based on RexGlue + standalone Plume render",
     "version": "v0.4.10",
     "releasedAt": "2026-11-01",
@@ -4174,7 +4196,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 374,
+    "stars": 375,
     "description": "Breath of the Wild (Wii U, v1.5.0) statically recompiled to a native Windows program with a Vulkan renderer. ",
     "version": "v0.1.2",
     "releasedAt": "2026-10-31",
@@ -4182,27 +4204,6 @@
     "releaseUrl": "https://github.com/ryderclanky/BotW-Native/releases/tag/v0.1.2",
     "licenseId": "MIT",
     "licenseUrl": "https://api.github.com/licenses/mit",
-    "curated": true
-  },
-  {
-    "id": "masterspike52-renut",
-    "repo": "masterspike52/reNut",
-    "title": "Banjo-Kazooie: Nuts & Bolts",
-    "game": null,
-    "author": "masterspike52",
-    "console": "Xbox 360",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Linux"
-    ],
-    "stars": 237,
-    "description": "Banjo-Kazooie: Nuts and Bolts Recompilation with Rexglue",
-    "version": "renut",
-    "releasedAt": "2026-10-31",
-    "sizeBytes": 77560312,
-    "releaseUrl": "https://github.com/masterspike52/reNut/releases/tag/renut",
-    "licenseId": null,
-    "licenseUrl": null,
     "curated": true
   },
   {
@@ -4821,7 +4822,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 4020,
+    "stars": 4023,
     "description": "Bloodborne (v1.09) running natively on Linux and Windows: the game's x86-64 code runs as is, GPU side translated to Vulkan; FSR 4 / DLSS, co-op (BBSC). Bring your own dump.",
     "version": "0.7",
     "releasedAt": "2026-10-28",
@@ -4840,7 +4841,7 @@
     "console": "Nintendo Switch",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 87,
+    "stars": 88,
     "description": "Static recompilation of Super Mario Odyssey (Switch, 1.4.1) to native Windows x64. No game data included; bring your own dump.",
     "version": null,
     "releasedAt": "2026-10-28",
@@ -5349,7 +5350,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 3838,
+    "stars": 3839,
     "description": "Playstation 2 Static Recompiler & Runtime Tool to make native PC ports",
     "version": null,
     "releasedAt": "2026-10-23",
@@ -5667,7 +5668,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 382,
+    "stars": 383,
     "description": "A playable PC port of Sly Cooper and the Thievius Raccoonus, rebuilt through reverse engineering.",
     "version": "decompilation",
     "releasedAt": "2026-10-21",
@@ -5924,7 +5925,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 6023,
+    "stars": 6024,
     "description": "Ship of Harkinian: a PC port of Ocarina of Time built from the decompilation, with widescreen, high framerate and mod support.",
     "version": "9.3.1",
     "releasedAt": "2026-10-18",
@@ -5989,7 +5990,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 119,
+    "stars": 120,
     "description": "Native PC port of Earthworm Jim HD (Xbox Live Arcade) via static recompilation, with the TRG launcher",
     "version": "v0.9.6",
     "releasedAt": "2026-10-18",
@@ -7548,7 +7549,7 @@
     "console": "Nintendo 64",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 40,
+    "stars": 41,
     "description": "Native PC port of Conker's Bad Fur Day (N64) via Static MIPS Recompilation. SDL2 engine with 3D UV texturing, N64 audio, EEPROM save system, and ROM drag-and-drop launcher. No copyrighted assets included.",
     "version": null,
     "releasedAt": "2026-09-02",
