@@ -64,7 +64,7 @@
     "console": "PlayStation 3",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 62,
+    "stars": 65,
     "description": "A native Windows port of God of War: Ascension (PS3) by static recompilation on ps3recomp. No game files included.",
     "version": null,
     "releasedAt": "2026-11-12",
@@ -253,6 +253,89 @@
     "curated": true
   },
   {
+    "id": "kirklandsig-halo2-decompiled",
+    "repo": "kirklandsig/halo2-decompiled",
+    "title": "Halo 2",
+    "game": "halo-2",
+    "author": "kirklandsig",
+    "console": "Xbox",
+    "mechanism": "native",
+    "platforms": [],
+    "stars": 148,
+    "description": "Halo 2 decompilation (decomp) for the original Xbox: a matching decompilation of the retail game into C/C++ source, rebuilt byte for byte, toward native PC, Linux and handheld ports. Contributors welcome. Source only; bring your own disc.",
+    "version": null,
+    "releasedAt": "2026-11-12",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/kirklandsig/halo2-decompiled/releases",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
+  },
+  {
+    "id": "featurejosh-recompia",
+    "repo": "Dittobyte/Recompia",
+    "title": "Recompia",
+    "game": null,
+    "author": "Dittobyte",
+    "console": "Nintendo Switch",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 642,
+    "description": "Pokémon Pokopia (Switch 2) recompiled to run natively on Windows with Linux/Handheld support. Multiplayer included, modding, feature enhancements and more! Join the discord community as well",
+    "version": "v0.11.0",
+    "releasedAt": "2026-11-12",
+    "sizeBytes": 180037330,
+    "releaseUrl": "https://github.com/Dittobyte/Recompia/releases/tag/v0.11.0",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
+  },
+  {
+    "id": "brazilianhobbyist-project-re-visited-re3",
+    "repo": "BrazilianHobbyist/Project-RE-Visited-RE3",
+    "title": "Resident Evil 3: Nemesis",
+    "game": null,
+    "author": "BrazilianHobbyist",
+    "console": "PlayStation",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows"
+    ],
+    "stars": 94,
+    "description": "Experimental PC port of Resident Evil 3: Nemesis (PS1), built on the PSXRecomp static recompiler",
+    "version": "v2.3.1",
+    "releasedAt": "2026-11-12",
+    "sizeBytes": 42254974,
+    "releaseUrl": "https://github.com/BrazilianHobbyist/Project-RE-Visited-RE3/releases/tag/v2.3.1",
+    "licenseId": null,
+    "licenseUrl": null,
+    "curated": true
+  },
+  {
+    "id": "petexy-tekken-tag-2-ultimate-edition",
+    "repo": "Petexy/Tekken-Tag-2-Ultimate-Edition",
+    "title": "Tekken Tag Tournament 2: Wii U Edition",
+    "game": "tekken-tag-tournament-2",
+    "author": "Petexy",
+    "console": "Wii U",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 120,
+    "description": "Native port of Tekken Tag Tournament 2 Wii U Edition by static recompilation with the possibility to add new characters and mod the game easily. No files included.",
+    "version": "v0.6.0",
+    "releasedAt": "2026-11-12",
+    "sizeBytes": 9013760,
+    "releaseUrl": "https://github.com/Petexy/Tekken-Tag-2-Ultimate-Edition/releases/tag/v0.6.0",
+    "licenseId": "MIT",
+    "licenseUrl": "https://api.github.com/licenses/mit",
+    "curated": true
+  },
+  {
     "id": "nekomancer01-darksoulsps2",
     "repo": "nekomancer01/DarkSoulsPS2",
     "title": "Dark Souls Remastered: C/VU1 engine plus exporters that read your own",
@@ -269,25 +352,6 @@
     "releaseUrl": "https://github.com/nekomancer01/DarkSoulsPS2/releases",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
-  },
-  {
-    "id": "kirklandsig-halo2-decompiled",
-    "repo": "kirklandsig/halo2-decompiled",
-    "title": "Halo 2",
-    "game": "halo-2",
-    "author": "kirklandsig",
-    "console": "Xbox",
-    "mechanism": "native",
-    "platforms": [],
-    "stars": 148,
-    "description": "Halo 2 decompilation (decomp) for the original Xbox: a matching decompilation of the retail game into C/C++ source, rebuilt byte for byte, toward native PC, Linux and handheld ports. Contributors welcome. Source only; bring your own disc.",
-    "version": null,
-    "releasedAt": "2026-11-11",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/kirklandsig/halo2-decompiled/releases",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
-    "curated": true
   },
   {
     "id": "henrykun55-celosia",
@@ -317,7 +381,7 @@
     "console": "PlayStation 4",
     "mechanism": "native",
     "platforms": [],
-    "stars": 178,
+    "stars": 179,
     "description": "A decompilation of Bloodborne (CUSA03173 v1.09) with its own runtime: the game's code rewritten as readable C++, one verified function at a time. The game doesn't run on it yet; 21 functions verified. No game files included.",
     "version": null,
     "releasedAt": "2026-11-11",
@@ -444,27 +508,6 @@
     "licenseId": "NOASSERTION",
     "licenseUrl": null,
     "curated": true
-  },
-  {
-    "id": "featurejosh-recompia",
-    "repo": "Dittobyte/Recompia",
-    "title": "Recompia",
-    "game": null,
-    "author": "Dittobyte",
-    "console": "Nintendo Switch",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 642,
-    "description": "Pokémon Pokopia (Switch 2) recompiled to run natively on Windows with Linux/Handheld support. Multiplayer included, modding, feature enhancements and more! Join the discord community as well",
-    "version": "v0.10.3",
-    "releasedAt": "2026-11-11",
-    "sizeBytes": 179348247,
-    "releaseUrl": "https://github.com/Dittobyte/Recompia/releases/tag/v0.10.3",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
   },
   {
     "id": "dreamingmoths-memory-of-alessa",
@@ -644,7 +687,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 524,
+    "stars": 525,
     "description": "PC, Android, iOS and macOS port of the ICO (PS2) decompilation (nathanialf/ico): Windows, Linux, Steam Deck, Android, iPhone via LiveContainer and Apple-silicon Mac (contributed). Contains no game data.",
     "version": "v0.11.4",
     "releasedAt": "2026-11-11",
@@ -853,7 +896,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 76,
+    "stars": 77,
     "description": "Mario Kart 8 Deluxe recompiled to run natively on your PC: no JIT, FSR 3.1 + frame generation, experimental DLSS, 720p to 4K output, HDR10. Bring your own game files.",
     "version": "v0.2.3",
     "releasedAt": "2026-11-11",
@@ -992,7 +1035,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 2468,
+    "stars": 2469,
     "description": "Decompilation of The Legend of Zelda: Breath of the Wild (Switch 1.5.0)",
     "version": null,
     "releasedAt": "2026-11-11",
@@ -1035,7 +1078,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 577,
+    "stars": 580,
     "description": "Native Windows PC port of Fire Emblem: Fortune's Weave by static recompilation. Bring your own dump; no game files included.",
     "version": "v0.1.7",
     "releasedAt": "2026-11-11",
@@ -1178,7 +1221,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 866,
+    "stars": 867,
     "description": "Unofficial native PC and Steam Deck port of Tears of the Kingdom 1.4.3 using static recompilation. Builds locally from the player's own extracted game dump; no game files included.",
     "version": "v0.4.0",
     "releasedAt": "2026-11-11",
@@ -1229,27 +1272,6 @@
     "releaseUrl": "https://github.com/FH1-ReImagined/ForzaHorizon1-ReImagined/releases/tag/v0.3.3",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
-    "curated": true
-  },
-  {
-    "id": "brazilianhobbyist-project-re-visited-re3",
-    "repo": "BrazilianHobbyist/Project-RE-Visited-RE3",
-    "title": "Resident Evil 3: Nemesis",
-    "game": null,
-    "author": "BrazilianHobbyist",
-    "console": "PlayStation",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows"
-    ],
-    "stars": 94,
-    "description": "Experimental PC port of Resident Evil 3: Nemesis (PS1), built on the PSXRecomp static recompiler",
-    "version": "v2.3.0",
-    "releasedAt": "2026-11-10",
-    "sizeBytes": 42254322,
-    "releaseUrl": "https://github.com/BrazilianHobbyist/Project-RE-Visited-RE3/releases/tag/v2.3.0",
-    "licenseId": null,
-    "licenseUrl": null,
     "curated": true
   },
   {
@@ -1546,7 +1568,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 6737,
+    "stars": 6744,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.4.0",
     "releasedAt": "2026-11-10",
@@ -1686,7 +1708,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 137,
+    "stars": 138,
     "description": "Paper Cut: A native port of Paper Mario: The Thousand-Year Door to Windows, macOS, Linux, iOS and Android",
     "version": "v0.5.0",
     "releasedAt": "2026-11-10",
@@ -1790,7 +1812,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 801,
+    "stars": 804,
     "description": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows with Vulkan. Plays from the title screen through the first stage on an RTX 5060 Ti; still early, can crash. No game files included.",
     "version": "v0.2.0",
     "releasedAt": "2026-11-09",
@@ -1936,7 +1958,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 616,
+    "stars": 617,
     "description": "A native Windows and Linux port of Grand Theft Auto: Vice City Stories (PS2, USA, SLUS-21590), made by recompiling the game's PS2 executable into C++",
     "version": "v0.2.4",
     "releasedAt": "2026-11-09",
@@ -2257,7 +2279,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 408,
+    "stars": 409,
     "description": "Dragon's Crown Pro native PC port for Windows, with direct PS4 PKG installation, TRG launcher and modern graphics options",
     "version": "v1.1.1",
     "releasedAt": "2026-11-08",
@@ -2300,7 +2322,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 62,
+    "stars": 63,
     "description": "A native PC port of God of War (PS2, NTSC-U SCUS-97399): the game's code is statically recompiled to C++, and the PS2 hardware it talked to is replaced by native code, not emulated.",
     "version": null,
     "releasedAt": "2026-11-08",
@@ -2527,7 +2549,7 @@
     "console": "PlayStation 3",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 83,
+    "stars": 84,
     "description": "God of War: Ascension native PC port (static recompilation, bring your own disc)",
     "version": "v2026.11.08",
     "releasedAt": "2026-11-08",
@@ -2684,7 +2706,7 @@
     "console": "PSP",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 203,
+    "stars": 204,
     "description": "Unofficial native PC ports of God of War: Chains of Olympus and Ghost of Sparta (PSP) by static recompilation. Bring your own disc.",
     "version": "v1.5.0",
     "releasedAt": "2026-11-07",
@@ -2811,7 +2833,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 2270,
+    "stars": 2271,
     "description": "Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo",
     "version": "v0.3.14",
     "releasedAt": "2026-11-07",
@@ -2960,7 +2982,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 232,
+    "stars": 233,
     "description": "Native PC port of God of War (PS2) via static recompilation with PS2Recomp",
     "version": null,
     "releasedAt": "2026-11-06",
@@ -2982,7 +3004,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 44,
+    "stars": 45,
     "description": "Native PC port of Knack (PS4): the game's own x86-64 code runs on the PC, with a PS4 runtime and the shadPS4 Vulkan video core. No emulator. 💙 Donate via PayPal: a.deghbouche@esi-sba.dz",
     "version": "v0.1.12",
     "releasedAt": "2026-11-06",
@@ -3095,7 +3117,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 1446,
+    "stars": 1447,
     "description": "Zelda Wind Waker HD Recomp",
     "version": "v0.5.1",
     "releasedAt": "2026-11-06",
@@ -3265,7 +3287,7 @@
     "platforms": [
       "macOS"
     ],
-    "stars": 190,
+    "stars": 191,
     "description": "Call of Duty: Black Ops II statically recompiled from 32-bit x86 Windows to native ARM64 macOS: Remill → LLVM IR, a hand-written Win32 runtime, Direct3D 11 drawn by Metal. No Wine, no game files.",
     "version": "v0.1.0-beta",
     "releasedAt": "2026-11-05",
@@ -3478,7 +3500,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 184,
+    "stars": 185,
     "description": "Odin Sphere Leifthrasir native PC port for Windows, with direct PS4 PKG installation, TRG launcher and modern graphics options",
     "version": "v0.2.3",
     "releasedAt": "2026-11-04",
@@ -3658,28 +3680,6 @@
     "curated": true
   },
   {
-    "id": "petexy-tekken-tag-2-ultimate-edition",
-    "repo": "Petexy/Tekken-Tag-2-Ultimate-Edition",
-    "title": "Tekken Tag Tournament 2: Wii U Edition",
-    "game": "tekken-tag-tournament-2",
-    "author": "Petexy",
-    "console": "Wii U",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 120,
-    "description": "Native port of Tekken Tag Tournament 2 Wii U Edition by static recompilation with the possibility to add new characters and mod the game easily. No files included.",
-    "version": "v0.5.1",
-    "releasedAt": "2026-11-03",
-    "sizeBytes": 7477248,
-    "releaseUrl": "https://github.com/Petexy/Tekken-Tag-2-Ultimate-Edition/releases/tag/v0.5.1",
-    "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit",
-    "curated": true
-  },
-  {
     "id": "z3xox-tenkaichi3decomp",
     "repo": "z3xox/Tenkaichi3Decomp",
     "title": "Dragon Ball Z: Budokai Tenkaichi 3",
@@ -3753,7 +3753,7 @@
     "console": "PlayStation 3",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 274,
+    "stars": 275,
     "description": "Drakengard 3 (PS3) static recompilation using ps3recomp",
     "version": null,
     "releasedAt": "2026-11-03",
@@ -4665,7 +4665,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2333,
+    "stars": 2334,
     "description": "Static recompilation of Link's Awakening (Switch) to native macOS, Windows and Linux",
     "version": "beta_5.4",
     "releasedAt": "2026-10-29",
@@ -4915,7 +4915,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 571,
+    "stars": 572,
     "description": "Native PC port (Linux/Windows) of The Last Guardian (PS4, CUSA03627) — runs your own game dump; no game or firmware files included. Mouse/keyboard, optional 60 FPS, SMAA/CAS filters. | Port nativo para PC de The Last Guardian — usa o seu próprio dump.",
     "version": "v2026.10.27-4825a99",
     "releasedAt": "2026-10-27",
@@ -5171,7 +5171,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 7555,
+    "stars": 7560,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -5616,7 +5616,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 1165,
+    "stars": 1166,
     "description": "Native PC port (Linux/Windows) of inFAMOUS Second Son (PS4, CUSA00223) — in development, playable; runs your own game dump; no game or firmware files included. Motion sensor emulation. | Port nativo para PC de inFAMOUS Second Son (em desenvolvimento) — usa o seu próprio dump.",
     "version": "v1.0",
     "releasedAt": "2026-10-22",
@@ -6589,7 +6589,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 313,
+    "stars": 314,
     "description": "GoldenEye 007 (N64, 1997) as a native PC game for Windows, Linux, Steam Deck and macOS. Built from the open decompilation, with widescreen, mouse and keyboard or controller, and split-screen. Not an emulator.",
     "version": "v0.5.0",
     "releasedAt": "2026-10-07",
@@ -6834,7 +6834,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 227,
+    "stars": 228,
     "description": "",
     "version": "V1.2.2",
     "releasedAt": "2026-10-02",
@@ -8108,7 +8108,7 @@
     "console": "PlayStation 2",
     "mechanism": "native",
     "platforms": [],
-    "stars": 151,
+    "stars": 152,
     "description": "An  in-progress decompilation of the preview version of Shadow of the Colossus on the PlayStation 2",
     "version": null,
     "releasedAt": "2026-03-02",
@@ -8213,7 +8213,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 338,
+    "stars": 339,
     "description": "An unofficial PC port of Mystical Ninja Starring Goemon achieved via static recompilation.",
     "version": "v0.2.0-dev",
     "releasedAt": "2026-01-31",
@@ -8541,7 +8541,7 @@
     "console": "SNES",
     "mechanism": "native",
     "platforms": [],
-    "stars": 5000,
+    "stars": 5001,
     "description": "",
     "version": "v0.3",
     "releasedAt": "2023-08-17",
