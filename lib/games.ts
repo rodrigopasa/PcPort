@@ -1141,6 +1141,76 @@ export const GAMES: Record<string, GameMeta> = {
       en: 'Street racing across an open Los Angeles, with a day-night cycle, licensed cars and tuning.',
     },
   },
+  'god-of-war-ascension': {
+    releasedAt: '2013-03-12',
+    developer: 'Santa Monica Studio',
+    publisher: 'Sony Computer Entertainment',
+    genres: ['Ação', 'Hack and slash'],
+    summary: {
+      pt: "O prólogo da série: Kratos tenta romper o juramento que o prende a Ares e enfrenta as Fúrias.",
+      en: "The prequel to the series: Kratos tries to break the oath that binds him to Ares and faces the Furies.",
+    },
+  },
+  'pokemon-pokopia': {
+    releasedAt: '2026-03-05',
+    developer: 'Omega Force',
+    publisher: 'The Pokémon Company',
+    genres: ['Simulação'],
+    summary: {
+      pt: "Simulação de vida em que você reconstrói um mundo deserto ao lado de Pokémon, coletando materiais e construindo.",
+      en: "A life sim in which you rebuild a deserted world alongside Pokémon, gathering materials and building.",
+    },
+  },
+  'monster-hunter-freedom-unite': {
+    releasedAt: '2008-03-27',
+    developer: 'Capcom',
+    publisher: 'Capcom',
+    genres: ['RPG de ação'],
+    summary: {
+      pt: "Caçadas a monstros gigantes em grupo, com armas e armaduras forjadas a partir do que cada caçada rende.",
+      en: "Group hunts of giant monsters, with weapons and armour forged from what each hunt yields.",
+    },
+  },
+  'infamous-2': {
+    releasedAt: '2011-06-07',
+    developer: 'Sucker Punch Productions',
+    publisher: 'Sony Computer Entertainment',
+    genres: ['Ação e aventura', 'Mundo aberto'],
+    summary: {
+      pt: "Cole MacGrath leva seus poderes elétricos a New Marais para se preparar contra a Besta.",
+      en: "Cole MacGrath takes his electric powers to New Marais to prepare for the Beast.",
+    },
+  },
+  'perfect-dark-remaster': {
+    releasedAt: '2010-03-17',
+    developer: '4J Studios',
+    publisher: 'Microsoft Game Studios',
+    genres: ['Tiro em primeira pessoa'],
+    summary: {
+      pt: "A versão de 2010 do Perfect Dark de Nintendo 64, com gráficos refeitos e multijogador online.",
+      en: "The 2010 version of the Nintendo 64 Perfect Dark, with remade graphics and online multiplayer.",
+    },
+  },
+  'red-dead-revolver': {
+    releasedAt: '2004-05-04',
+    developer: 'Rockstar San Diego',
+    publisher: 'Rockstar Games',
+    genres: ['Tiro em terceira pessoa'],
+    summary: {
+      pt: "Faroeste em que o caçador de recompensas Red Harlow persegue os homens que mataram sua família.",
+      en: "A western in which bounty hunter Red Harlow hunts the men who killed his family.",
+    },
+  },
+  'conker-live-reloaded': {
+    releasedAt: '2005-06-21',
+    developer: 'Rare',
+    publisher: 'Microsoft Game Studios',
+    genres: ['Plataforma', 'Tiro em terceira pessoa'],
+    summary: {
+      pt: "O remake de Conker’s Bad Fur Day, com gráficos novos e uma guerra online entre esquilos e Tediz.",
+      en: "The remake of Conker’s Bad Fur Day, with new graphics and an online war between squirrels and Tediz.",
+    },
+  },
   wet: {
     releasedAt: '2009-09-15',
     developer: 'Artificial Mind and Movement',

@@ -49,6 +49,25 @@ export type Candidate = {
  * catches nothing.
  */
 const DENIED: Record<string, string> = {
+  // Judged on 2026-11-12.
+  "theitsnschool/bloodborne-windows-native-loader":
+    "no source code: an installer script fetched from a website, the shape of malware bait",
+  "HyperaebaseAlpha/infamous2-pc-respocket":
+    "another project's description over an empty repository, with no code",
+  "Glitxhhh/XenobladeChroniclesRecompiled":
+    "no code and no release yet, only a project page",
+  "bonllavier/Corruption_3-PC":
+    "closed source: a binary release with no code in the repository",
+  "nekomancer01/DarkSoulsPS2":
+    "runs on a PS2, not on a PC",
+  "Jovinull/sonicheroes":
+    "a decompilation that rebuilds the GameCube game, not a PC port",
+  "kanapitsas/source-recomp":
+    "PC games moved to macOS and iPhone, not a console game brought to the PC",
+  "adrbn/bo2-mac":
+    "a PC game moved to the Mac, not a console game brought to the PC",
+  "bloodborne-native/bloodborne-recomp":
+    "builds for macOS only, not for a PC",
   // Judged on 2026-11-03.
   "luisxl15/METAL-GEAR-SOLID-2-Sons-of-Liberty-for-Android":
     "runs on Android only, not on a PC",
