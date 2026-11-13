@@ -147,7 +147,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 714,
+    "stars": 716,
     "description": "Pokémon Pokopia (Switch 2) recompiled to run natively on Windows with Linux/Handheld support. Multiplayer included, modding, feature enhancements and more! Join the discord community as well",
     "version": "v0.12.0",
     "releasedAt": "2026-11-13",
@@ -166,7 +166,7 @@
     "console": "PlayStation 4",
     "mechanism": "native",
     "platforms": [],
-    "stars": 207,
+    "stars": 208,
     "description": "A decompilation of Bloodborne (CUSA03173 v1.09) with its own runtime: the game's code rewritten as readable C++, one verified function at a time. The game doesn't run on it yet; 21 functions verified. No game files included.",
     "version": null,
     "releasedAt": "2026-11-13",
@@ -399,7 +399,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 184,
+    "stars": 186,
     "description": "CPS-2 Recomp: unofficial native PC ports of Capcom CPS-2 arcade games (Street Fighter Alpha 2, Super Puzzle Fighter II Turbo, Vampire Savior) via static recompilation, with training modes, in one launcher: macOS, Linux, Steam Deck, Windows. Requires your own ROM sets. Beta.",
     "version": "v1.5.0",
     "releasedAt": "2026-11-13",
@@ -525,12 +525,12 @@
       "Windows",
       "Linux"
     ],
-    "stars": 204,
+    "stars": 210,
     "description": "A native Windows PC port of Super Mario Odyssey by static recompilation. Bring your own game: no game files included.",
-    "version": "v0.2.6",
+    "version": "v0.2.7",
     "releasedAt": "2026-11-13",
-    "sizeBytes": 117195750,
-    "releaseUrl": "https://github.com/Simon3Sarkis/super-odyssey-pc-recomp/releases/tag/v0.2.6",
+    "sizeBytes": 117195751,
+    "releaseUrl": "https://github.com/Simon3Sarkis/super-odyssey-pc-recomp/releases/tag/v0.2.7",
     "licenseId": "NOASSERTION",
     "licenseUrl": null
   },
@@ -576,6 +576,47 @@
     "curated": true
   },
   {
+    "id": "n64hub-mario-party-recomp",
+    "repo": "n64hub/mario-party-recomp",
+    "title": "Mario Party",
+    "game": null,
+    "author": "n64hub",
+    "console": "Nintendo 64",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 43,
+    "description": "AI-written static recompilation of Mario Party (N64, USA) for PC and the web. Bring your own ROM.",
+    "version": "v0.2.13",
+    "releasedAt": "2026-11-13",
+    "sizeBytes": 24352366,
+    "releaseUrl": "https://github.com/n64hub/mario-party-recomp/releases/tag/v0.2.13",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
+  },
+  {
+    "id": "gensokyoclub-th06",
+    "repo": "GensokyoClub/th06",
+    "title": "Touhou 6: The Embodiment of Scarlet Devil",
+    "game": null,
+    "author": "GensokyoClub",
+    "console": "PC",
+    "mechanism": "native",
+    "platforms": [],
+    "stars": 630,
+    "description": "Decompilation of 東方紅魔郷　～ the Embodiment of Scarlet Devil (1.02h)",
+    "version": null,
+    "releasedAt": "2026-11-13",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/GensokyoClub/th06/releases",
+    "licenseId": "CC0-1.0",
+    "licenseUrl": "https://api.github.com/licenses/cc0-1.0",
+    "curated": true
+  },
+  {
     "id": "undecuple-project-helghast",
     "repo": "undecuple/project-helghast",
     "title": "Killzone 3",
@@ -584,7 +625,7 @@
     "console": "PlayStation 3",
     "mechanism": "in-progress",
     "platforms": [],
-    "stars": 143,
+    "stars": 144,
     "description": "Killzone 3 // Unofficial PC Port (static recompilation). Work in progress, partly playable. Builds on your PC from your own game.",
     "version": null,
     "releasedAt": "2026-11-12",
@@ -693,7 +734,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 130,
+    "stars": 132,
     "description": "Native port of Tekken Tag Tournament 2 Wii U Edition by static recompilation with the possibility to add new characters and mod the game easily. No files included.",
     "version": "v0.6.2",
     "releasedAt": "2026-11-12",
@@ -795,7 +836,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 96,
+    "stars": 97,
     "description": "StarFox Remake [recompiled]: static recompilation of Star Fox (Nintendo Switch 2) into a native Windows app, built on your PC from your own copy. No game files included.",
     "version": "v1.0.3",
     "releasedAt": "2026-11-12",
@@ -828,28 +869,6 @@
     "curated": true
   },
   {
-    "id": "n64hub-mario-party-recomp",
-    "repo": "n64hub/mario-party-recomp",
-    "title": "Mario Party",
-    "game": null,
-    "author": "n64hub",
-    "console": "Nintendo 64",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 43,
-    "description": "AI-written static recompilation of Mario Party (N64, USA) for PC and the web. Bring your own ROM.",
-    "version": "v0.2.12",
-    "releasedAt": "2026-11-12",
-    "sizeBytes": 24352465,
-    "releaseUrl": "https://github.com/n64hub/mario-party-recomp/releases/tag/v0.2.12",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
-    "curated": true
-  },
-  {
     "id": "shagg88-cogbox",
     "repo": "Shagg88/COGBox",
     "title": "Gears of War 2, 3 & Judgment",
@@ -858,7 +877,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 446,
+    "stars": 447,
     "description": "This is an open source, all-in-one, static recompilation project that I built from the ground up for the Xbox 360 Gears of War series. All 4 games have been personally recompiled for use with a fully native renderer by me.",
     "version": "0.6.0",
     "releasedAt": "2026-11-12",
@@ -880,7 +899,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 177,
+    "stars": 176,
     "description": "Gears of War 2 native PC port: the Xbox 360 game statically recompiled to x64 (not an emulator). 1440p/4K, FSR, 4K texture packs, keyboard & mouse, Android in progress. Bring your own copy.",
     "version": "v0.4.2",
     "releasedAt": "2026-11-12",
@@ -935,25 +954,6 @@
     "curated": true
   },
   {
-    "id": "gensokyoclub-th06",
-    "repo": "GensokyoClub/th06",
-    "title": "Touhou 6: The Embodiment of Scarlet Devil",
-    "game": null,
-    "author": "GensokyoClub",
-    "console": "PC",
-    "mechanism": "native",
-    "platforms": [],
-    "stars": 630,
-    "description": "Decompilation of 東方紅魔郷　～ the Embodiment of Scarlet Devil (1.02h)",
-    "version": null,
-    "releasedAt": "2026-11-12",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/GensokyoClub/th06/releases",
-    "licenseId": "CC0-1.0",
-    "licenseUrl": "https://api.github.com/licenses/cc0-1.0",
-    "curated": true
-  },
-  {
     "id": "lucas-blip-png-dkb-pc-recomp",
     "repo": "Lucas-blip-png/dkb-pc-recomp",
     "title": "Donkey Kong Bananza",
@@ -966,8 +966,8 @@
       "Linux",
       "macOS"
     ],
-    "stars": 900,
-    "description": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows with Vulkan. Release 0.3.0 plays well past the first level on recent NVIDIA cards; AMD device loss is fixed on the bananza branch for the players who tested it, and heavy scenes still dip below 60 fps. Roadmap: issue #10. No game files included.",
+    "stars": 901,
+    "description": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows with Vulkan. 0.3.0 plays well past the first level on recent NVIDIA cards. On the bananza branch: AMD device loss fixed for testers, a heavy scene at about 58 fps (was 53), full-resolution 3D (scene_res). Roadmap: #10. No game files included.",
     "version": "v0.3.0",
     "releasedAt": "2026-11-12",
     "sizeBytes": 129408124,
@@ -1405,7 +1405,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 75,
+    "stars": 76,
     "description": "inFAMOUS 2 (PS3) as a native PC program for Windows and Linux: Setup recompiles YOUR copy on your PC (static recompilation, Vulkan). No game files included.",
     "version": "v0.5.1",
     "releasedAt": "2026-11-12",
@@ -1564,7 +1564,7 @@
     "console": "PlayStation 3",
     "mechanism": "in-progress",
     "platforms": [],
-    "stars": 144,
+    "stars": 145,
     "description": "Killzone 2 // Unofficial PC Port (static recompilation). Work in progress, partly playable. Builds on your PC from your own game.",
     "version": null,
     "releasedAt": "2026-11-11",
@@ -1773,7 +1773,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 679,
+    "stars": 682,
     "description": "Native Windows PC port of Fire Emblem: Fortune's Weave by static recompilation. Bring your own dump; no game files included.",
     "version": "v0.1.7",
     "releasedAt": "2026-11-11",
@@ -1833,7 +1833,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 898,
+    "stars": 899,
     "description": "Unofficial native PC and Steam Deck port of Tears of the Kingdom 1.4.3 using static recompilation. Builds locally from the player's own extracted game dump; no game files included.",
     "version": "v0.4.0",
     "releasedAt": "2026-11-11",
@@ -2076,7 +2076,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 6992,
+    "stars": 6997,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.4.0",
     "releasedAt": "2026-11-10",
@@ -3130,7 +3130,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 656,
+    "stars": 657,
     "description": "",
     "version": "1.5.1_tag",
     "releasedAt": "2026-11-07",
@@ -3584,7 +3584,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 50,
+    "stars": 51,
     "description": "GoldenEye007: Reloaded 2011 [Xbox360] game static recompilation project based on RexGlue-SDK",
     "version": "1.5",
     "releasedAt": "2026-11-05",
@@ -3881,7 +3881,7 @@
     "console": "PlayStation 3",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 320,
+    "stars": 323,
     "description": "Drakengard 3 (PS3) static recompilation using ps3recomp",
     "version": null,
     "releasedAt": "2026-11-03",
@@ -4122,7 +4122,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 224,
+    "stars": 225,
     "description": "GTA V (Xbox 360, TU27) static recompilation with ReXGlue",
     "version": "v0.3.0",
     "releasedAt": "2026-11-02",
@@ -4674,7 +4674,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 939,
+    "stars": 940,
     "description": "An unofficial original Xbox version PC port of BLACK (2006) via static recompilation.",
     "version": "V3",
     "releasedAt": "2026-10-29",
@@ -4754,7 +4754,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2360,
+    "stars": 2361,
     "description": "Static recompilation of Link's Awakening (Switch) to native macOS, Windows and Linux",
     "version": "beta_5.4",
     "releasedAt": "2026-10-29",
@@ -4921,7 +4921,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 4041,
+    "stars": 4042,
     "description": "Bloodborne (v1.09) running natively on Linux and Windows: the game's x86-64 code runs as is, GPU side translated to Vulkan; FSR 4 / DLSS, co-op (BBSC). Bring your own dump.",
     "version": "0.7",
     "releasedAt": "2026-10-28",
@@ -5131,7 +5131,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 157,
+    "stars": 158,
     "description": "Crash of the Titans (Xbox 360) statically recompiled for Windows: DLSS/FSR, PC controls, PT-BR, subtitles, mods. Bring your own copy of the game.",
     "version": "v1.07",
     "releasedAt": "2026-10-26",
@@ -5257,7 +5257,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 7702,
+    "stars": 7707,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -5467,7 +5467,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 3844,
+    "stars": 3845,
     "description": "Playstation 2 Static Recompiler & Runtime Tool to make native PC ports",
     "version": null,
     "releasedAt": "2026-10-23",
@@ -5763,7 +5763,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2470,
+    "stars": 2471,
     "description": "Native PC port of P.T. (runs from your own PS4 game files)",
     "version": "v1.0.8",
     "releasedAt": "2026-10-22",
@@ -7075,7 +7075,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 6368,
+    "stars": 6369,
     "description": "Dusklight brings a classic adventure to PC and mobile platforms with a variety of fixes and improvements.",
     "version": "v2.0.3",
     "releasedAt": "2026-09-30",
@@ -7758,7 +7758,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 57,
+    "stars": 58,
     "description": "Native PC port of Tony Hawk's Project 8 (Xbox 360) by static recompilation.",
     "version": "v0.3.0",
     "releasedAt": "2026-08-24",
@@ -8002,7 +8002,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 1824,
+    "stars": 1825,
     "description": "A native recompilation of Skate 3 for Windows, Linux, and macOS.",
     "version": "v2.0.2",
     "releasedAt": "2026-07-24",
@@ -8322,7 +8322,7 @@
     "console": "Xbox 360",
     "mechanism": "emulator",
     "platforms": [],
-    "stars": 9824,
+    "stars": 9825,
     "description": "Xbox 360 Emulator Research Project",
     "version": null,
     "releasedAt": "2026-02-18",
@@ -8673,7 +8673,7 @@
     "console": "SNES",
     "mechanism": "native",
     "platforms": [],
-    "stars": 5007,
+    "stars": 5008,
     "description": "",
     "version": "v0.3",
     "releasedAt": "2023-08-17",
