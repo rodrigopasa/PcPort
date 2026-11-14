@@ -87,7 +87,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 113,
+    "stars": 114,
     "description": "Battlefield 1943 Reborn: the Xbox 360 game running natively on PC, with its online multiplayer restored. Releases and server packages.",
     "version": "v0.4.5",
     "releasedAt": "2026-11-14",
@@ -148,7 +148,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 93,
+    "stars": 92,
     "description": "inFamous 2 (PS3) statically recompiled to a native Windows PC port, with a launcher that builds it from your own game files. No game files included.",
     "version": "v0.1.40",
     "releasedAt": "2026-11-14",
@@ -191,7 +191,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 274,
+    "stars": 275,
     "description": "A native Windows PC port of Super Mario Odyssey by static recompilation. Bring your own game: no game files included.",
     "version": "v0.2.9",
     "releasedAt": "2026-11-14",
@@ -270,7 +270,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 757,
+    "stars": 760,
     "description": "Pokémon Pokopia (Switch 2) recompiled to run natively on Windows with Linux/Handheld support. Multiplayer included, modding, feature enhancements and more! Join the discord community as well",
     "version": "v0.13.1",
     "releasedAt": "2026-11-14",
@@ -401,6 +401,90 @@
     "curated": true
   },
   {
+    "id": "maryncrt-ultimate-mortal-kombat-3-ios-decompiled",
+    "repo": "MaryNCRT/Ultimate-Mortal-Kombat-3-iOS-Decompiled",
+    "title": "Ultimate Mortal Kombat 3",
+    "game": null,
+    "author": "MaryNCRT",
+    "console": "Arcade",
+    "mechanism": "in-progress",
+    "platforms": [],
+    "stars": 70,
+    "description": "Decompiled Ultimate Mortal Kombat 3 (iOS v1.2.59) with a playable native PC port featuring DirectX, Vulkan, OpenGL, widescreen support, HD textures, and multiplayer. Original game assets required.",
+    "version": null,
+    "releasedAt": "2026-11-14",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/MaryNCRT/Ultimate-Mortal-Kombat-3-iOS-Decompiled/releases",
+    "licenseId": "NOASSERTION",
+    "licenseUrl": null,
+    "curated": true
+  },
+  {
+    "id": "ravencaio-tlou-remastered-pc",
+    "repo": "ravencaio/tlou-remastered-pc",
+    "title": "The Last of Us Remastered",
+    "game": null,
+    "author": "ravencaio",
+    "console": "PlayStation 4",
+    "mechanism": "native",
+    "platforms": [
+      "Windows"
+    ],
+    "stars": 344,
+    "description": "Unnoficial Native Windows PC port of The Last of Us Remastered (PS4, CUSA00552). Runs the game’s own x86-64 code on a custom runtime, with PS4 system libraries reimplemented and a Vulkan renderer based on shadPS4. Includes a launcher. No game files included: you need your own copy.",
+    "version": "v0.2.3",
+    "releasedAt": "2026-11-14",
+    "sizeBytes": 77965466,
+    "releaseUrl": "https://github.com/ravencaio/tlou-remastered-pc/releases/tag/v0.2.3",
+    "licenseId": "GPL-2.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-2.0",
+    "curated": true
+  },
+  {
+    "id": "abdelmoumendeghbouche-wipeout-pc",
+    "repo": "AbdelmoumenDeghbouche/wipeout_pc",
+    "title": "WipEout Omega Collection",
+    "game": "wipeout-omega-collection",
+    "author": "AbdelmoumenDeghbouche",
+    "console": "PlayStation 4",
+    "mechanism": "in-progress",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 303,
+    "description": "WipEout Omega Collection (PS4) native PC port for Windows and Linux: the game's own x86-64 code on the CPU, a PS4 runtime and the shadPS4 Vulkan video core. Playable, in active development. No game files included. ⭐ Star it if you like it! 💙 Donate: PayPal a.deghbouche@esi-sba.dz or ko-fi.com/abd_dbh",
+    "version": "windows-v0.2.75",
+    "releasedAt": "2026-11-14",
+    "sizeBytes": 109783544,
+    "releaseUrl": "https://github.com/AbdelmoumenDeghbouche/wipeout_pc/releases/tag/windows-v0.2.75",
+    "licenseId": "GPL-2.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-2.0",
+    "curated": true
+  },
+  {
+    "id": "vnnc1-gow-native-pc",
+    "repo": "Vnnc1/gow-native-pc",
+    "title": "God of War",
+    "game": "god-of-war",
+    "author": "Vnnc1",
+    "console": "PlayStation 2",
+    "mechanism": "native",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 250,
+    "description": "Native Windows PC port of God of War (PS2), built by statically recompiling MIPS R5900 code to C++ with PS2Recomp. Includes an installer launcher, one-click build, fan-translation support and a 60 fps target. No game files included: you need your own copy.",
+    "version": "v0.6.1",
+    "releasedAt": "2026-11-14",
+    "sizeBytes": 41283774,
+    "releaseUrl": "https://github.com/Vnnc1/gow-native-pc/releases/tag/v0.6.1",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
+  },
+  {
     "id": "kayliox-transformers-armada-recomp",
     "repo": "kayliox/transformers-armada-recomp",
     "title": "Transformers",
@@ -438,25 +522,6 @@
     "releaseUrl": "https://github.com/victor-takai/rogue-galaxy-recomp/releases",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
-    "curated": true
-  },
-  {
-    "id": "maryncrt-ultimate-mortal-kombat-3-ios-decompiled",
-    "repo": "MaryNCRT/Ultimate-Mortal-Kombat-3-iOS-Decompiled",
-    "title": "Ultimate Mortal Kombat 3",
-    "game": null,
-    "author": "MaryNCRT",
-    "console": "Arcade",
-    "mechanism": "in-progress",
-    "platforms": [],
-    "stars": 70,
-    "description": "Decompiled Ultimate Mortal Kombat 3 (iOS v1.2.59) with a playable native PC port featuring DirectX, Vulkan, OpenGL, widescreen support, HD textures, and multiplayer. Original game assets required.",
-    "version": null,
-    "releasedAt": "2026-11-13",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/MaryNCRT/Ultimate-Mortal-Kombat-3-iOS-Decompiled/releases",
-    "licenseId": "NOASSERTION",
-    "licenseUrl": null,
     "curated": true
   },
   {
@@ -532,7 +597,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5390,
+    "stars": 5391,
     "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
     "version": "windows-v1.9.8.6",
     "releasedAt": "2026-11-13",
@@ -554,7 +619,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 463,
+    "stars": 464,
     "description": "The 2012 Forza Horizon, native on Windows and Linux, and online again: Horizon World, leaderboards and Rivals on a public server you can also self-host. Bring your own copy.",
     "version": "v0.3.6",
     "releasedAt": "2026-11-13",
@@ -805,7 +870,7 @@
     "console": "PlayStation 3",
     "mechanism": "in-progress",
     "platforms": [],
-    "stars": 146,
+    "stars": 147,
     "description": "Killzone 2 // Unofficial PC Port (static recompilation). Work in progress, partly playable. Builds on your PC from your own game.",
     "version": null,
     "releasedAt": "2026-11-13",
@@ -912,7 +977,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 120,
+    "stars": 125,
     "description": "inFAMOUS 2 (PS3) as a native PC program for Windows and Linux: Setup recompiles YOUR copy on your PC (static recompilation, Vulkan). No game files included.",
     "version": "v0.5.4",
     "releasedAt": "2026-11-13",
@@ -993,7 +1058,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 55,
+    "stars": 56,
     "description": "Native PC port of Crash Bandicoot: The Wrath of Cortex, built on its decompilation",
     "version": "v0.8.0",
     "releasedAt": "2026-11-13",
@@ -1119,7 +1184,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 711,
+    "stars": 715,
     "description": "Native Windows PC port of Fire Emblem: Fortune's Weave by static recompilation. Bring your own dump; no game files included.",
     "version": "v0.2.0",
     "releasedAt": "2026-11-13",
@@ -1230,7 +1295,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 83,
+    "stars": 84,
     "description": "Native PC port of Forza Motorsport 2: static recompilation of the CPU code and a native D3D12 renderer",
     "version": "v0.12.1",
     "releasedAt": "2026-11-12",
@@ -1281,49 +1346,6 @@
     "releaseUrl": "https://github.com/Petexy/Tekken-Tag-2-Ultimate-Edition/releases/tag/v0.6.2",
     "licenseId": "MIT",
     "licenseUrl": "https://api.github.com/licenses/mit",
-    "curated": true
-  },
-  {
-    "id": "ravencaio-tlou-remastered-pc",
-    "repo": "ravencaio/tlou-remastered-pc",
-    "title": "The Last of Us Remastered",
-    "game": null,
-    "author": "ravencaio",
-    "console": "PlayStation 4",
-    "mechanism": "native",
-    "platforms": [
-      "Windows"
-    ],
-    "stars": 344,
-    "description": "Unnoficial Native Windows PC port of The Last of Us Remastered (PS4, CUSA00552). Runs the game’s own x86-64 code on a custom runtime, with PS4 system libraries reimplemented and a Vulkan renderer based on shadPS4. Includes a launcher. No game files included: you need your own copy.",
-    "version": "v0.2.2",
-    "releasedAt": "2026-11-12",
-    "sizeBytes": 77926870,
-    "releaseUrl": "https://github.com/ravencaio/tlou-remastered-pc/releases/tag/v0.2.2",
-    "licenseId": "GPL-2.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-2.0",
-    "curated": true
-  },
-  {
-    "id": "abdelmoumendeghbouche-wipeout-pc",
-    "repo": "AbdelmoumenDeghbouche/wipeout_pc",
-    "title": "WipEout Omega Collection",
-    "game": "wipeout-omega-collection",
-    "author": "AbdelmoumenDeghbouche",
-    "console": "PlayStation 4",
-    "mechanism": "in-progress",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 302,
-    "description": "WipEout Omega Collection (PS4) native PC port for Windows and Linux: the game's own x86-64 code on the CPU, a PS4 runtime and the shadPS4 Vulkan video core. Playable, in active development. No game files included. ⭐ Star it if you like it! 💙 Donate: PayPal a.deghbouche@esi-sba.dz or ko-fi.com/abd_dbh",
-    "version": "windows-v0.2.74",
-    "releasedAt": "2026-11-12",
-    "sizeBytes": 137193976,
-    "releaseUrl": "https://github.com/AbdelmoumenDeghbouche/wipeout_pc/releases/tag/windows-v0.2.74",
-    "licenseId": "GPL-2.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-2.0",
     "curated": true
   },
   {
@@ -1584,7 +1606,7 @@
     "platforms": [
       "PC"
     ],
-    "stars": 1910,
+    "stars": 1911,
     "description": "Native Windows port of Shadow of the Colossus (PS4, CUSA08809) - bring your own game dump. Port nativo para PC.",
     "version": "v0.75",
     "releasedAt": "2026-11-12",
@@ -2018,7 +2040,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 46,
+    "stars": 47,
     "description": "TimeSplitters 2 (PS2, NTSC-U) statically recompiled for Windows, Linux and Steam Deck – 60 FPS, real 16:9, up to 8x resolution, online multiplayer, verified against PCSX2",
     "version": "v1.0.1",
     "releasedAt": "2026-11-11",
@@ -2154,7 +2176,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 87,
+    "stars": 88,
     "description": "Virtua Fighter (Sega Model 1, 1993) statically recompiled for Mac, Windows and Steam Deck: up to 6x, widescreen, smooth 120 fps. Bring your own vf.zip.",
     "version": "v1.7.0",
     "releasedAt": "2026-11-10",
@@ -2260,7 +2282,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 7097,
+    "stars": 7103,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.4.0",
     "releasedAt": "2026-11-10",
@@ -2541,7 +2563,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 179,
+    "stars": 180,
     "description": "Unofficial PC port of the Xbox 360 version of Army of Two (2008). Online co-op supported.",
     "version": "v1.5.0",
     "releasedAt": "2026-11-09",
@@ -2846,7 +2868,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 113,
+    "stars": 114,
     "description": "",
     "version": "v0.6.0",
     "releasedAt": "2026-11-08",
@@ -2946,7 +2968,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 166,
+    "stars": 167,
     "description": "Ratchet & Clank: Tools of Destruction native PC port (PS3 static recompilation) – 4K, 60 fps, DualSense, Windows",
     "version": "v1.2.1",
     "releasedAt": "2026-11-08",
@@ -3256,7 +3278,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 49,
+    "stars": 50,
     "description": "Runtime for ports or recompilations of 3DS games.",
     "version": "v0.2.32",
     "releasedAt": "2026-11-06",
@@ -3867,28 +3889,6 @@
     "curated": true
   },
   {
-    "id": "vnnc1-gow-native-pc",
-    "repo": "Vnnc1/gow-native-pc",
-    "title": "God of War",
-    "game": "god-of-war",
-    "author": "Vnnc1",
-    "console": "PlayStation 2",
-    "mechanism": "native",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 250,
-    "description": "Native Windows PC port of God of War (PS2), built by statically recompiling MIPS R5900 code to C++ with PS2Recomp. Includes an installer launcher, one-click build, fan-translation support and a 60 fps target. No game files included: you need your own copy.",
-    "version": "v0.5.0",
-    "releasedAt": "2026-11-03",
-    "sizeBytes": 30871254,
-    "releaseUrl": "https://github.com/Vnnc1/gow-native-pc/releases/tag/v0.5.0",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
-    "curated": true
-  },
-  {
     "id": "mstan-megamanx4recomp",
     "repo": "mstan/MegaManX4Recomp",
     "title": "Mega Man X4",
@@ -3923,7 +3923,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 749,
+    "stars": 750,
     "description": "PC port of Dragon Ball Z: Budokai Tenkaichi 3, built on the BT3-Decompiled project.",
     "version": "v0.1.39.6",
     "releasedAt": "2026-11-03",
@@ -3942,7 +3942,7 @@
     "console": "Nintendo Switch",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 463,
+    "stars": 462,
     "description": "Experimental Windows x64 native porting toolkit for Super Smash Bros. Ultimate: static AArch64 recompilation, a D3D11 runtime, and Local Wireless relay netplay.",
     "version": null,
     "releasedAt": "2026-11-03",
@@ -3984,7 +3984,7 @@
     "console": "PlayStation 3",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 329,
+    "stars": 330,
     "description": "Drakengard 3 (PS3) static recompilation using ps3recomp",
     "version": null,
     "releasedAt": "2026-11-03",
@@ -4204,7 +4204,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 230,
+    "stars": 231,
     "description": "GTA V (Xbox 360, TU27) static recompilation with ReXGlue",
     "version": "v0.3.0",
     "releasedAt": "2026-11-02",
@@ -4545,7 +4545,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 34170,
+    "stars": 34171,
     "description": "PlayStation 4 emulator for Windows, Linux, macOS and FreeBSD written in C++",
     "version": "v.0.21.0",
     "releasedAt": "2026-10-30",
@@ -4756,7 +4756,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 942,
+    "stars": 943,
     "description": "An unofficial original Xbox version PC port of BLACK (2006) via static recompilation.",
     "version": "V3",
     "releasedAt": "2026-10-29",
@@ -4836,7 +4836,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2383,
+    "stars": 2384,
     "description": "Static recompilation of Link's Awakening (Switch) to native macOS, Windows and Linux",
     "version": "beta_5.4",
     "releasedAt": "2026-10-29",
@@ -5003,7 +5003,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 4051,
+    "stars": 4052,
     "description": "Bloodborne (v1.09) running natively on Linux and Windows: the game's x86-64 code runs as is, GPU side translated to Vulkan; FSR 4 / DLSS, co-op (BBSC). Bring your own dump.",
     "version": "0.7",
     "releasedAt": "2026-10-28",
@@ -5172,7 +5172,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 971,
+    "stars": 972,
     "description": "Experimental native PC port of Lost Odyssey using static recompilation. No game assets included.",
     "version": "v1.1.0",
     "releasedAt": "2026-10-26",
@@ -5339,7 +5339,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 7753,
+    "stars": 7758,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -5549,7 +5549,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 3851,
+    "stars": 3852,
     "description": "Playstation 2 Static Recompiler & Runtime Tool to make native PC ports",
     "version": null,
     "releasedAt": "2026-10-23",
@@ -6672,7 +6672,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 428,
+    "stars": 430,
     "description": "A work in progress recomp of the The Simpsons Game 2007 from the Xbox 360 using the RexXGlue recomping tool to get the game running",
     "version": "v0.0.6.5",
     "releasedAt": "2026-10-10",
@@ -6736,7 +6736,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 320,
+    "stars": 321,
     "description": "GoldenEye 007 (N64, 1997) as a native PC game for Windows, Linux, Steam Deck and macOS. Built from the open decompilation, with widescreen, mouse and keyboard or controller, and split-screen. Not an emulator.",
     "version": "v0.5.0",
     "releasedAt": "2026-10-07",
@@ -7601,7 +7601,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 858,
+    "stars": 860,
     "description": "Multiplatform and Feature-rich Port based on PSX decompilation of Silent Hill 1 made with Claude and Psycross. Still in beta and is in active development.",
     "version": "crossplatform-beta",
     "releasedAt": "2026-09-04",
