@@ -49,7 +49,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 132,
+    "stars": 133,
     "description": "Battlefield 1943 Reborn: the Xbox 360 game running natively on PC, with its online multiplayer restored. Releases and server packages.",
     "version": "v0.4.6.4",
     "releasedAt": "2026-11-15",
@@ -146,7 +146,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 347,
+    "stars": 348,
     "description": "",
     "version": null,
     "releasedAt": "2026-11-15",
@@ -220,6 +220,120 @@
     "curated": true
   },
   {
+    "id": "featurejosh-recompia",
+    "repo": "Dittobyte/Recompia",
+    "title": "Pokémon Pokopia",
+    "game": "pokemon-pokopia",
+    "author": "Dittobyte",
+    "console": "Nintendo Switch 2",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 790,
+    "description": "Pokémon Pokopia (Switch 2) recompiled to run natively on Windows with Linux/Handheld support. Multiplayer included, modding, feature enhancements and more! Join the discord community as well - https://discord.recompia.com",
+    "version": "v0.13.6",
+    "releasedAt": "2026-11-15",
+    "sizeBytes": 192742197,
+    "releaseUrl": "https://github.com/Dittobyte/Recompia/releases/tag/v0.13.6",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
+  },
+  {
+    "id": "gamboozino-ngbrecomp",
+    "repo": "gamboozino/ngbrecomp",
+    "title": "Ninja Gaiden Black",
+    "game": "ninja-gaiden-black",
+    "author": "gamboozino",
+    "console": "Xbox",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "Android"
+    ],
+    "stars": 336,
+    "description": "Ninja Gaiden Black (Xbox, 2005) statically recompiled into native Linux and Windows builds, with an experimental Android port, drawn by its own Vulkan renderer. A steady 60 fps, widescreen and ultrawide, keyboard and mouse, touch controls on Android, Steam Deck ready. Bring your own copy of the game.",
+    "version": "v0.9.68",
+    "releasedAt": "2026-11-15",
+    "sizeBytes": 41990648,
+    "releaseUrl": "https://github.com/gamboozino/ngbrecomp/releases/tag/v0.9.68",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
+  },
+  {
+    "id": "kirklandsig-halo2-decompiled",
+    "repo": "kirklandsig/halo2-decompiled",
+    "title": "Halo 2",
+    "game": "halo-2",
+    "author": "kirklandsig",
+    "console": "Xbox",
+    "mechanism": "native",
+    "platforms": [],
+    "stars": 148,
+    "description": "Halo 2 decompilation (decomp) for the original Xbox: a matching decompilation of the retail game into C/C++ source, rebuilt byte for byte, toward native PC, Linux and handheld ports. Contributors welcome. Source only; bring your own disc.",
+    "version": null,
+    "releasedAt": "2026-11-15",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/kirklandsig/halo2-decompiled/releases",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
+  },
+  {
+    "id": "skuza-oss-downhill-revived",
+    "repo": "skuza-oss/downhill-revived",
+    "title": "Downhill Domination",
+    "game": null,
+    "author": "skuza-oss",
+    "console": "PlayStation 2",
+    "mechanism": "native",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Android",
+      "iOS"
+    ],
+    "stars": 211,
+    "description": "A PC port of Downhill Domination (PS2), built on a matching decompilation. Bring your own disc.",
+    "version": "v0.8.5",
+    "releasedAt": "2026-11-15",
+    "sizeBytes": 97520120,
+    "releaseUrl": "https://github.com/skuza-oss/downhill-revived/releases/tag/v0.8.5",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
+  },
+  {
+    "id": "yuutatsubasa-chaotixrecompiled",
+    "repo": "YuutaTsubasa/ChaotixRecompiled",
+    "title": "Knuckles' Chaotix",
+    "game": "knuckles-chaotix",
+    "author": "YuutaTsubasa",
+    "console": "Sega 32X",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Android",
+      "iOS"
+    ],
+    "stars": 72,
+    "description": "Static recompilation of the Sega 32X game Knuckles' Chaotix into native C++ (Windows/Linux/macOS/Android), with true widescreen. Bring your own ROM; no game data included.",
+    "version": "v0.15.22",
+    "releasedAt": "2026-11-15",
+    "sizeBytes": 33110024,
+    "releaseUrl": "https://github.com/YuutaTsubasa/ChaotixRecompiled/releases/tag/v0.15.22",
+    "licenseId": "MIT",
+    "licenseUrl": "https://api.github.com/licenses/mit",
+    "curated": true
+  },
+  {
     "id": "tangosdev-sm64ds-decomp",
     "repo": "tangosdev/sm64ds-decomp",
     "title": "Super Mario 64 DS",
@@ -250,7 +364,7 @@
       "Windows",
       "macOS"
     ],
-    "stars": 829,
+    "stars": 834,
     "description": "An unofficial PC port of the Xbox 360 version of Sonic the Hedgehog (2006) created through the process of static recompilation",
     "version": "v1.0.0",
     "releasedAt": "2026-11-14",
@@ -271,7 +385,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 160,
+    "stars": 163,
     "description": "StarFox Remake [recompiled]: static recompilation of Star Fox (Nintendo Switch 2) into a native Windows app, built on your PC from your own copy. No game files included.",
     "version": "v1.1.0",
     "releasedAt": "2026-11-14",
@@ -354,7 +468,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 303,
+    "stars": 306,
     "description": "A native Windows PC port of Super Mario Odyssey by static recompilation. Bring your own game: no game files included.",
     "version": "v0.2.10",
     "releasedAt": "2026-11-14",
@@ -372,7 +486,7 @@
     "console": "Xbox 360",
     "mechanism": "native",
     "platforms": [],
-    "stars": 418,
+    "stars": 420,
     "description": "A native PC port of The Darkness (Xbox 360) for Windows, featuring DirectX 11 graphics, mouse and keyboard controls, and customizable settings.",
     "version": null,
     "releasedAt": "2026-11-14",
@@ -402,52 +516,6 @@
     "curated": true
   },
   {
-    "id": "featurejosh-recompia",
-    "repo": "Dittobyte/Recompia",
-    "title": "Pokémon Pokopia",
-    "game": "pokemon-pokopia",
-    "author": "Dittobyte",
-    "console": "Nintendo Switch 2",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "macOS"
-    ],
-    "stars": 786,
-    "description": "Pokémon Pokopia (Switch 2) recompiled to run natively on Windows with Linux/Handheld support. Multiplayer included, modding, feature enhancements and more! Join the discord community as well - https://discord.recompia.com",
-    "version": "v0.13.1",
-    "releasedAt": "2026-11-14",
-    "sizeBytes": 182942136,
-    "releaseUrl": "https://github.com/Dittobyte/Recompia/releases/tag/v0.13.1",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
-    "curated": true
-  },
-  {
-    "id": "gamboozino-ngbrecomp",
-    "repo": "gamboozino/ngbrecomp",
-    "title": "Ninja Gaiden Black",
-    "game": "ninja-gaiden-black",
-    "author": "gamboozino",
-    "console": "Xbox",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "Android"
-    ],
-    "stars": 336,
-    "description": "Ninja Gaiden Black (Xbox, 2005) statically recompiled into native Linux and Windows builds, with an experimental Android port, drawn by its own Vulkan renderer. A steady 60 fps, widescreen and ultrawide, keyboard and mouse, touch controls on Android, Steam Deck ready. Bring your own copy of the game.",
-    "version": "v0.9.67",
-    "releasedAt": "2026-11-14",
-    "sizeBytes": 41986552,
-    "releaseUrl": "https://github.com/gamboozino/ngbrecomp/releases/tag/v0.9.67",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
-    "curated": true
-  },
-  {
     "id": "shagg88-cogbox",
     "repo": "Shagg88/COGBox",
     "title": "Gears of War 2, 3 & Judgment",
@@ -456,7 +524,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 465,
+    "stars": 467,
     "description": "This is an open source, all-in-one, static recompilation project that I built from the ground up for the Xbox 360 Gears of War series. All 4 games have been personally recompiled for use with a fully native renderer by me.",
     "version": "0.6.1",
     "releasedAt": "2026-11-14",
@@ -464,25 +532,6 @@
     "releaseUrl": "https://github.com/Shagg88/COGBox/releases/tag/0.6.1",
     "licenseId": "MIT",
     "licenseUrl": "https://api.github.com/licenses/mit",
-    "curated": true
-  },
-  {
-    "id": "kirklandsig-halo2-decompiled",
-    "repo": "kirklandsig/halo2-decompiled",
-    "title": "Halo 2",
-    "game": "halo-2",
-    "author": "kirklandsig",
-    "console": "Xbox",
-    "mechanism": "native",
-    "platforms": [],
-    "stars": 148,
-    "description": "Halo 2 decompilation (decomp) for the original Xbox: a matching decompilation of the retail game into C/C++ source, rebuilt byte for byte, toward native PC, Linux and handheld ports. Contributors welcome. Source only; bring your own disc.",
-    "version": null,
-    "releasedAt": "2026-11-14",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/kirklandsig/halo2-decompiled/releases",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
   },
   {
@@ -580,7 +629,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 253,
+    "stars": 254,
     "description": "Native Windows PC port of God of War (PS2), built by statically recompiling MIPS R5900 code to C++ with PS2Recomp. Includes an installer launcher, one-click build, fan-translation support and a 60 fps target. No game files included: you need your own copy.",
     "version": "v0.6.1",
     "releasedAt": "2026-11-14",
@@ -783,31 +832,6 @@
     "releaseUrl": "https://github.com/bryantmh/rush2recompiled/releases/tag/v1.0.55",
     "licenseId": null,
     "licenseUrl": null,
-    "curated": true
-  },
-  {
-    "id": "skuza-oss-downhill-revived",
-    "repo": "skuza-oss/downhill-revived",
-    "title": "Downhill Domination",
-    "game": null,
-    "author": "skuza-oss",
-    "console": "PlayStation 2",
-    "mechanism": "native",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "macOS",
-      "Android",
-      "iOS"
-    ],
-    "stars": 211,
-    "description": "A PC port of Downhill Domination (PS2), built on a matching decompilation. Bring your own disc.",
-    "version": "v0.8.4",
-    "releasedAt": "2026-11-14",
-    "sizeBytes": 97503736,
-    "releaseUrl": "https://github.com/skuza-oss/downhill-revived/releases/tag/v0.8.4",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
   },
   {
@@ -1453,7 +1477,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 662,
+    "stars": 663,
     "description": "",
     "version": "1.6.0",
     "releasedAt": "2026-11-14",
@@ -1493,7 +1517,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5422,
+    "stars": 5424,
     "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
     "version": "windows-v1.9.8.6",
     "releasedAt": "2026-11-13",
@@ -1779,6 +1803,24 @@
     "curated": true
   },
   {
+    "id": "0xl0cal-repentogxm",
+    "repo": "0xl0cal/repentogxm",
+    "title": "Binding of Isaac: Repentance by static recompilation of the PC exe",
+    "game": null,
+    "author": "0xl0cal",
+    "console": "PC",
+    "mechanism": "recompiled",
+    "platforms": [],
+    "stars": 40,
+    "description": "PS Vita port of The Binding of Isaac: Repentance by static recompilation of the PC executable to ARM.",
+    "version": "v0.2.0-alpha",
+    "releasedAt": "2026-11-13",
+    "sizeBytes": 36485239,
+    "releaseUrl": "https://github.com/0xl0cal/repentogxm/releases/tag/v0.2.0-alpha",
+    "licenseId": "GPL-2.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-2.0"
+  },
+  {
     "id": "droogie-bbhost",
     "repo": "droogie/bbhost",
     "title": "Bloodborne",
@@ -1944,7 +1986,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 1004,
+    "stars": 1005,
     "description": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows with Vulkan. 0.3.0 plays well past the first level on NVIDIA. On bananza: AMD device loss fixed for testers, Snow World device loss on NVIDIA worked around, heavy scene ~58 fps (was 53), full-res 3D. Roadmap: #10. No game files included.",
     "version": "v0.3.0",
     "releasedAt": "2026-11-12",
@@ -2077,7 +2119,7 @@
     "platforms": [
       "PC"
     ],
-    "stars": 1930,
+    "stars": 1931,
     "description": "Native Windows port of Shadow of the Colossus (PS4, CUSA08809) - bring your own game dump. Port nativo para PC.",
     "version": "v0.75",
     "releasedAt": "2026-11-12",
@@ -2447,7 +2489,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 916,
+    "stars": 917,
     "description": "Unofficial native PC and Steam Deck port of Tears of the Kingdom 1.4.3 using static recompilation. Builds locally from the player's own extracted game dump; no game files included.",
     "version": "v0.4.0",
     "releasedAt": "2026-11-11",
@@ -2498,31 +2540,6 @@
     "releaseUrl": "https://github.com/SolarCookies/TiP-Recomp/releases/tag/1.15.0",
     "licenseId": null,
     "licenseUrl": null,
-    "curated": true
-  },
-  {
-    "id": "yuutatsubasa-chaotixrecompiled",
-    "repo": "YuutaTsubasa/ChaotixRecompiled",
-    "title": "Knuckles' Chaotix",
-    "game": "knuckles-chaotix",
-    "author": "YuutaTsubasa",
-    "console": "Sega 32X",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "macOS",
-      "Android",
-      "iOS"
-    ],
-    "stars": 72,
-    "description": "Static recompilation of the Sega 32X game Knuckles' Chaotix into native C++ (Windows/Linux/macOS/Android), with true widescreen. Bring your own ROM; no game data included.",
-    "version": "v0.15.21",
-    "releasedAt": "2026-11-10",
-    "sizeBytes": 33108680,
-    "releaseUrl": "https://github.com/YuutaTsubasa/ChaotixRecompiled/releases/tag/v0.15.21",
-    "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit",
     "curated": true
   },
   {
@@ -2690,7 +2707,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 7236,
+    "stars": 7245,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.4.0",
     "releasedAt": "2026-11-10",
@@ -2780,7 +2797,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 54,
+    "stars": 55,
     "description": "",
     "version": "v0.1.7",
     "releasedAt": "2026-11-09",
@@ -3060,7 +3077,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 1049,
+    "stars": 1050,
     "description": "A playable preview of Forza Horizon static recompilation",
     "version": "v0.8.2",
     "releasedAt": "2026-11-08",
@@ -3208,7 +3225,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 115,
+    "stars": 116,
     "description": "",
     "version": "v0.6.0",
     "releasedAt": "2026-11-08",
@@ -3249,7 +3266,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 135,
+    "stars": 136,
     "description": "Crash Twinsanity (PS2, PAL) running natively on Windows, played through to the credits: a Windows port of HAB3X's Mac port of Smartkin's C++ decompilation. No game data included: bring your own disc image.",
     "version": "v1.2.0",
     "releasedAt": "2026-11-08",
@@ -3470,7 +3487,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 2289,
+    "stars": 2290,
     "description": "Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo",
     "version": "v0.3.14",
     "releasedAt": "2026-11-07",
@@ -3647,7 +3664,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 1497,
+    "stars": 1498,
     "description": "Zelda Wind Waker HD Recomp",
     "version": "v0.5.1",
     "releasedAt": "2026-11-06",
@@ -4223,7 +4240,7 @@
     "platforms": [
       "Android"
     ],
-    "stars": 57,
+    "stars": 58,
     "description": "Naruto Shippuden: Ultimate Ninja Storm 2 - port nativo para Android (ARM64) e PC (documentação; sem arquivos do jogo)",
     "version": "v0.5.43",
     "releasedAt": "2026-11-03",
@@ -4399,7 +4416,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 244,
+    "stars": 245,
     "description": "GTA V (Xbox 360, TU27) static recompilation with ReXGlue",
     "version": "v0.3.0",
     "releasedAt": "2026-11-02",
@@ -4593,7 +4610,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 380,
+    "stars": 381,
     "description": "Breath of the Wild (Wii U, v1.5.0) statically recompiled to a native Windows program with a Vulkan renderer. ",
     "version": "v0.1.2",
     "releasedAt": "2026-10-31",
@@ -4908,7 +4925,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 950,
+    "stars": 951,
     "description": "An unofficial original Xbox version PC port of BLACK (2006) via static recompilation.",
     "version": "V3",
     "releasedAt": "2026-10-29",
@@ -4969,7 +4986,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2409,
+    "stars": 2412,
     "description": "Static recompilation of Link's Awakening (Switch) to native macOS, Windows and Linux",
     "version": "beta_5.4",
     "releasedAt": "2026-10-29",
@@ -5262,7 +5279,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 976,
+    "stars": 977,
     "description": "Experimental native PC port of Lost Odyssey using static recompilation. No game assets included.",
     "version": "v1.1.0",
     "releasedAt": "2026-10-26",
@@ -5429,7 +5446,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 7815,
+    "stars": 7818,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -5639,7 +5656,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 3856,
+    "stars": 3857,
     "description": "Playstation 2 Static Recompiler & Runtime Tool to make native PC ports",
     "version": null,
     "releasedAt": "2026-10-23",
@@ -6208,7 +6225,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 6050,
+    "stars": 6053,
     "description": "Ship of Harkinian: a PC port of Ocarina of Time built from the decompilation, with widescreen, high framerate and mod support.",
     "version": "9.3.1",
     "releasedAt": "2026-10-18",
@@ -6315,7 +6332,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 252,
+    "stars": 251,
     "description": "A Recompilation of Project Gotham Racing 4",
     "version": "v1.2.2",
     "releasedAt": "2026-10-17",
@@ -6418,7 +6435,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 3654,
+    "stars": 3655,
     "description": "Reviving the language that brought us the Jak & Daxter Series",
     "version": "v0.3.9",
     "releasedAt": "2026-10-15",
@@ -6548,7 +6565,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 87,
+    "stars": 88,
     "description": "Unofficial Windows recompilation of Spider-Man: Edge of Time with PC controls, settings, localization, achievements and mod support.",
     "version": "v2.0.0-beta.5",
     "releasedAt": "2026-10-13",
@@ -6798,7 +6815,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 324,
+    "stars": 325,
     "description": "GoldenEye 007 (N64, 1997) as a native PC game for Windows, Linux, Steam Deck and macOS. Built from the open decompilation, with widescreen, mouse and keyboard or controller, and split-screen. Not an emulator.",
     "version": "v0.5.0",
     "releasedAt": "2026-10-07",
@@ -6922,7 +6939,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 117,
+    "stars": 118,
     "description": "Fan PC port of WET (Xbox 360) using ReXGlue. Does not include game files.",
     "version": "v0.6.0",
     "releasedAt": "2026-10-05",
@@ -7154,7 +7171,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 6383,
+    "stars": 6385,
     "description": "Dusklight brings a classic adventure to PC and mobile platforms with a variety of fixes and improvements.",
     "version": "v2.0.3",
     "releasedAt": "2026-09-30",
@@ -7495,7 +7512,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 63,
+    "stars": 64,
     "description": "Mega Man X5 (USA, SLUS-01334) statically recompiled to a native Windows executable with the PSXRecomp framework.",
     "version": "v0.1.0-alpha",
     "releasedAt": "2026-09-12",
@@ -7768,7 +7785,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 100,
+    "stars": 101,
     "description": "Simple Recomp of EINHANDER",
     "version": "v0.1.3",
     "releasedAt": "2026-08-29",
@@ -7814,7 +7831,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2468,
+    "stars": 2470,
     "description": "2 Ship 2 Harkinian: a PC port of Majora's Mask built from the decompilation, with widescreen, high resolution and mod support.",
     "version": "5.0.1",
     "releasedAt": "2026-08-25",
@@ -8235,7 +8252,7 @@
     "console": "Xbox 360",
     "mechanism": "native",
     "platforms": [],
-    "stars": 164,
+    "stars": 163,
     "description": "Using rexglue. Programs runs",
     "version": "v1.0",
     "releasedAt": "2026-04-24",
