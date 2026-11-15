@@ -49,7 +49,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 137,
+    "stars": 138,
     "description": "Battlefield 1943 Reborn: the Xbox 360 game running natively on PC, with its online multiplayer restored. Releases and server packages.",
     "version": "v0.4.6.4",
     "releasedAt": "2026-11-15",
@@ -299,7 +299,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 214,
+    "stars": 215,
     "description": "A PC port of Downhill Domination (PS2), built on a matching decompilation. Bring your own disc.",
     "version": "v0.8.5",
     "releasedAt": "2026-11-15",
@@ -386,7 +386,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 58,
+    "stars": 59,
     "description": "Native Windows port of Shinobi (PS2, USA). Bring your own disc image. Launcher included.",
     "version": "v0.5.3",
     "releasedAt": "2026-11-15",
@@ -445,7 +445,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 159,
+    "stars": 161,
     "description": "inFAMOUS 2 (PS3) as a native PC program for Windows and Linux: Setup recompiles YOUR copy on your PC (static recompilation, Vulkan). No game files included.",
     "version": "v0.5.7",
     "releasedAt": "2026-11-15",
@@ -631,7 +631,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 2429,
+    "stars": 2430,
     "description": "Static recompilation of Link's Awakening (Switch) to native macOS, Windows and Linux",
     "version": "beta_6",
     "releasedAt": "2026-11-15",
@@ -823,6 +823,48 @@
     "curated": true
   },
   {
+    "id": "shagg88-cogbox",
+    "repo": "Shagg88/COGBox",
+    "title": "Gears of War 2, 3 & Judgment",
+    "game": null,
+    "author": "Shagg88",
+    "console": "Xbox 360",
+    "mechanism": "recompiled",
+    "platforms": [],
+    "stars": 476,
+    "description": "This is an open source, all-in-one, static recompilation project that I built from the ground up for the Xbox 360 Gears of War series. All 4 games have been personally recompiled for use with a fully native renderer by me.",
+    "version": "0.6.2",
+    "releasedAt": "2026-11-15",
+    "sizeBytes": 223385570,
+    "releaseUrl": "https://github.com/Shagg88/COGBox/releases/tag/0.6.2",
+    "licenseId": "MIT",
+    "licenseUrl": "https://api.github.com/licenses/mit",
+    "curated": true
+  },
+  {
+    "id": "yestermester-thesimpsonsgamerecomp",
+    "repo": "YesterMester/TheSimpsonsGameRecomp",
+    "title": "The Simpsons Game",
+    "game": "simpsons-game",
+    "author": "YesterMester",
+    "console": "Xbox 360",
+    "mechanism": "in-progress",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "Android"
+    ],
+    "stars": 433,
+    "description": "A work in progress recomp of the The Simpsons Game 2007 from the Xbox 360 using the RexXGlue recomping tool to get the game running",
+    "version": "v0.0.7.1",
+    "releasedAt": "2026-11-15",
+    "sizeBytes": 407562878,
+    "releaseUrl": "https://github.com/YesterMester/TheSimpsonsGameRecomp/releases/tag/v0.0.7.1",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
+  },
+  {
     "id": "sonicnext-dev-marathonrecomp",
     "repo": "sonicnext-dev/MarathonRecomp",
     "title": "Sonic the Hedgehog (2006)",
@@ -919,7 +961,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 318,
+    "stars": 319,
     "description": "A native Windows PC port of Super Mario Odyssey by static recompilation. Bring your own game: no game files included.",
     "version": "v0.2.10",
     "releasedAt": "2026-11-14",
@@ -948,25 +990,6 @@
     "curated": true
   },
   {
-    "id": "shagg88-cogbox",
-    "repo": "Shagg88/COGBox",
-    "title": "Gears of War 2, 3 & Judgment",
-    "game": null,
-    "author": "Shagg88",
-    "console": "Xbox 360",
-    "mechanism": "recompiled",
-    "platforms": [],
-    "stars": 476,
-    "description": "This is an open source, all-in-one, static recompilation project that I built from the ground up for the Xbox 360 Gears of War series. All 4 games have been personally recompiled for use with a fully native renderer by me.",
-    "version": "0.6.1",
-    "releasedAt": "2026-11-14",
-    "sizeBytes": 477584714,
-    "releaseUrl": "https://github.com/Shagg88/COGBox/releases/tag/0.6.1",
-    "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit",
-    "curated": true
-  },
-  {
     "id": "promethendev-wwe2k14-recomp",
     "repo": "PromethenDev/wwe2k14-recomp",
     "title": "WWE 2K14",
@@ -977,7 +1000,7 @@
     "platforms": [
       "Linux"
     ],
-    "stars": 104,
+    "stars": 105,
     "description": "",
     "version": "v1.6.0",
     "releasedAt": "2026-11-14",
@@ -1061,7 +1084,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 256,
+    "stars": 257,
     "description": "Native Windows PC port of God of War (PS2), built by statically recompiling MIPS R5900 code to C++ with PS2Recomp. Includes an installer launcher, one-click build, fan-translation support and a 60 fps target. No game files included: you need your own copy.",
     "version": "v0.6.1",
     "releasedAt": "2026-11-14",
@@ -1181,29 +1204,6 @@
     "releaseUrl": "https://github.com/vyanhursky/DefJamFFNY-recomp/releases/tag/v1.1.2",
     "licenseId": "NOASSERTION",
     "licenseUrl": null,
-    "curated": true
-  },
-  {
-    "id": "yestermester-thesimpsonsgamerecomp",
-    "repo": "YesterMester/TheSimpsonsGameRecomp",
-    "title": "The Simpsons Game",
-    "game": "simpsons-game",
-    "author": "YesterMester",
-    "console": "Xbox 360",
-    "mechanism": "in-progress",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "Android"
-    ],
-    "stars": 433,
-    "description": "A work in progress recomp of the The Simpsons Game 2007 from the Xbox 360 using the RexXGlue recomping tool to get the game running",
-    "version": "v0.0.7.0",
-    "releasedAt": "2026-11-14",
-    "sizeBytes": 407604654,
-    "releaseUrl": "https://github.com/YesterMester/TheSimpsonsGameRecomp/releases/tag/v0.0.7.0",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
   },
   {
@@ -1363,7 +1363,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 662,
+    "stars": 664,
     "description": "A native Windows and Linux port of Grand Theft Auto: Vice City Stories (PS2, USA, SLUS-21590), made by recompiling the game's PS2 executable into C++",
     "version": "v0.3.0",
     "releasedAt": "2026-11-14",
@@ -1531,7 +1531,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 49,
+    "stars": 50,
     "description": "Unofficial PC port of Shadow of Rome (PS2), made by static recompilation with PS2Recomp. Drawn by the video card with PCSX2's GS, VU1 by PCSX2's microVU: smooth 60 FPS, up to 8x, 16:9 and 21:9, wider field of view. Chapters 1 and 2 played to the end. Discs: European (English, French, German, Italian, Spanish), its Russian translation, American.",
     "version": "v2.9.3",
     "releasedAt": "2026-11-14",
@@ -1573,7 +1573,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 272,
+    "stars": 273,
     "description": "Static Recomp of PSX USA MediEvil, By BlackLabelHQ",
     "version": "v1.0.4",
     "releasedAt": "2026-11-14",
@@ -1745,7 +1745,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 664,
+    "stars": 667,
     "description": "",
     "version": "1.6.0",
     "releasedAt": "2026-11-14",
@@ -1784,7 +1784,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5436,
+    "stars": 5437,
     "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
     "version": "windows-v1.9.8.6",
     "releasedAt": "2026-11-13",
@@ -2018,7 +2018,7 @@
     "console": "PlayStation 3",
     "mechanism": "in-progress",
     "platforms": [],
-    "stars": 156,
+    "stars": 158,
     "description": "Killzone 3 // Unofficial PC Port (static recompilation). Work in progress, partly playable. Builds on your PC from your own game.",
     "version": null,
     "releasedAt": "2026-11-13",
@@ -2189,7 +2189,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 1032,
+    "stars": 1034,
     "description": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows with Vulkan. 0.3.0 plays well past the first level on NVIDIA. On bananza: Snow World device loss fixed, AMD device loss fixed for testers, load crashes guarded, DLC from .nup and loose mods, heavy scene ~58 fps. Roadmap: #10. No game files included.",
     "version": "v0.3.0",
     "releasedAt": "2026-11-12",
@@ -2300,7 +2300,7 @@
     "platforms": [
       "PC"
     ],
-    "stars": 1937,
+    "stars": 1939,
     "description": "Native Windows port of Shadow of the Colossus (PS4, CUSA08809) - bring your own game dump. Port nativo para PC.",
     "version": "v0.75",
     "releasedAt": "2026-11-12",
@@ -2808,7 +2808,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 7313,
+    "stars": 7321,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.4.0",
     "releasedAt": "2026-11-10",
@@ -3746,7 +3746,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 1504,
+    "stars": 1505,
     "description": "Zelda Wind Waker HD Recomp",
     "version": "v0.5.1",
     "releasedAt": "2026-11-06",
@@ -3874,7 +3874,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 203,
+    "stars": 204,
     "description": "A matching decompilation and PC port for the Ratchet & Clank series",
     "version": "launcher-v1.0.2",
     "releasedAt": "2026-11-05",
@@ -4498,7 +4498,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 246,
+    "stars": 247,
     "description": "GTA V (Xbox 360, TU27) static recompilation with ReXGlue",
     "version": "v0.3.0",
     "releasedAt": "2026-11-02",
@@ -5212,7 +5212,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 4081,
+    "stars": 4082,
     "description": "Bloodborne (v1.09) running natively on Linux and Windows: the game's x86-64 code runs as is, GPU side translated to Vulkan; FSR 4 / DLSS, co-op (BBSC). Bring your own dump.",
     "version": "0.7",
     "releasedAt": "2026-10-28",
@@ -5231,7 +5231,7 @@
     "console": "Nintendo Switch",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 94,
+    "stars": 95,
     "description": "Static recompilation of Super Mario Odyssey (Switch, 1.4.1) to native Windows x64. No game data included; bring your own dump.",
     "version": null,
     "releasedAt": "2026-10-28",
@@ -5505,7 +5505,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 7847,
+    "stars": 7850,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -5904,7 +5904,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 61,
+    "stars": 62,
     "description": "A recomp of the PS2 game Timesplitters",
     "version": "v1.0",
     "releasedAt": "2026-10-23",
@@ -6005,7 +6005,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2483,
+    "stars": 2484,
     "description": "Native PC port of P.T. (runs from your own PS4 game files)",
     "version": "v1.0.8",
     "releasedAt": "2026-10-22",
@@ -6027,7 +6027,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 387,
+    "stars": 388,
     "description": "A playable PC port of Sly Cooper and the Thievius Raccoonus, rebuilt through reverse engineering.",
     "version": "decompilation",
     "releasedAt": "2026-10-21",
@@ -6204,7 +6204,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 44,
+    "stars": 45,
     "description": "God Hand Recompiled: native PC port of God Hand (PS2) via static recompilation. No game data included.",
     "version": null,
     "releasedAt": "2026-10-20",
@@ -6372,7 +6372,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 252,
+    "stars": 253,
     "description": "A Recompilation of Project Gotham Racing 4",
     "version": "v1.2.2",
     "releasedAt": "2026-10-17",
@@ -7211,7 +7211,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 6392,
+    "stars": 6393,
     "description": "Dusklight brings a classic adventure to PC and mobile platforms with a variety of fixes and improvements.",
     "version": "v2.0.3",
     "releasedAt": "2026-09-30",
@@ -7869,7 +7869,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 46,
+    "stars": 47,
     "description": "",
     "version": "v0.1.2",
     "releasedAt": "2026-08-29",
@@ -8159,7 +8159,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 1829,
+    "stars": 1830,
     "description": "A native recompilation of Skate 3 for Windows, Linux, and macOS.",
     "version": "v2.0.2",
     "releasedAt": "2026-07-24",
