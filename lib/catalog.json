@@ -30,7 +30,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 142,
+    "stars": 144,
     "description": "Battlefield 1943 Reborn: the Xbox 360 game running natively on PC, with its online multiplayer restored. Releases and server packages.",
     "version": "v0.4.6.7",
     "releasedAt": "2026-11-16",
@@ -115,7 +115,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 259,
+    "stars": 260,
     "description": "Ninja Gaiden II (Xbox 360, 2008) statically recompiled into native Linux and Windows builds, drawn by its own Vulkan renderer. A steady 60 fps, up to 8x render scale, widescreen and ultrawide, keyboard and mouse, mods, Steam Deck ready. Bring your own copy of the game.",
     "version": "v0.6.6",
     "releasedAt": "2026-11-16",
@@ -313,7 +313,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 147,
+    "stars": 148,
     "description": "God of War: Ascension PC port: an unofficial, native Windows port of the PS3 game by static recompilation, no emulator. No game files included: you build it from your own copy.",
     "version": "v0.1.0-alpha.12",
     "releasedAt": "2026-11-16",
@@ -452,6 +452,98 @@
     "curated": true
   },
   {
+    "id": "nathanialf-ico-pc",
+    "repo": "nathanialf/ico-pc",
+    "title": "ICO",
+    "game": "ico",
+    "author": "nathanialf",
+    "console": "PlayStation 2",
+    "mechanism": "native",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "Android"
+    ],
+    "stars": 544,
+    "description": "PC, Android, iOS and macOS port of the ICO (PS2) decompilation (nathanialf/ico): Windows, Linux, Steam Deck, Android, iPhone via LiveContainer and Apple-silicon Mac (contributed). Contains no game data.",
+    "version": "v0.11.7",
+    "releasedAt": "2026-11-16",
+    "sizeBytes": 33149868,
+    "releaseUrl": "https://github.com/nathanialf/ico-pc/releases/tag/v0.11.7",
+    "licenseId": "NOASSERTION",
+    "licenseUrl": null,
+    "curated": true
+  },
+  {
+    "id": "mr-finster-vf3-recomp",
+    "repo": "mr-finster/vf3-recomp",
+    "title": "Virtua Fighter 3",
+    "game": null,
+    "author": "mr-finster",
+    "console": "Arcade",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "stars": 118,
+    "description": "Virtua Fighter 3 (Sega Model 3, 1996) for Mac, Windows and Steam Deck: the arcade's PowerPC program recompiled to native code, up to 6x, widescreen, smooth 120 fps. Bring your own vf3.zip.",
+    "version": "v0.1.22-alpha",
+    "releasedAt": "2026-11-16",
+    "sizeBytes": 10573019,
+    "releaseUrl": "https://github.com/mr-finster/vf3-recomp/releases/tag/v0.1.22-alpha",
+    "licenseId": "NOASSERTION",
+    "licenseUrl": null,
+    "curated": true
+  },
+  {
+    "id": "mr-finster-vf2-recomp",
+    "repo": "mr-finster/vf2-recomp",
+    "title": "Virtua Fighter 2",
+    "game": "virtua-fighter-2",
+    "author": "mr-finster",
+    "console": "Arcade",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "stars": 103,
+    "description": "Virtua Fighter 2 (Sega Model 2, 1994) for Mac, Windows and Steam Deck: the arcade's i960 program recompiled to native code, up to 6x, widescreen, smooth 120 fps. Bring your own vf2.zip.",
+    "version": "v0.1.23",
+    "releasedAt": "2026-11-16",
+    "sizeBytes": 11557940,
+    "releaseUrl": "https://github.com/mr-finster/vf2-recomp/releases/tag/v0.1.23",
+    "licenseId": "NOASSERTION",
+    "licenseUrl": null,
+    "curated": true
+  },
+  {
+    "id": "mr-finster-vf1-recomp",
+    "repo": "mr-finster/vf1-recomp",
+    "title": "Virtua Fighter",
+    "game": "virtua-fighter",
+    "author": "mr-finster",
+    "console": "Arcade",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "stars": 93,
+    "description": "Virtua Fighter (Sega Model 1, 1993) statically recompiled for Mac, Windows and Steam Deck: up to 6x, widescreen, smooth 120 fps. Bring your own vf.zip.",
+    "version": "v1.8.0",
+    "releasedAt": "2026-11-16",
+    "sizeBytes": 10568841,
+    "releaseUrl": "https://github.com/mr-finster/vf1-recomp/releases/tag/v1.8.0",
+    "licenseId": "NOASSERTION",
+    "licenseUrl": null,
+    "curated": true
+  },
+  {
     "id": "yharnam-hunters-paleblood",
     "repo": "Yharnam-Hunters/Paleblood",
     "title": "Bloodborne",
@@ -546,7 +638,7 @@
       "Linux",
       "Android"
     ],
-    "stars": 337,
+    "stars": 339,
     "description": "Ninja Gaiden Black (Xbox, 2005) statically recompiled into native Linux and Windows builds, with an experimental Android port, drawn by its own Vulkan renderer. A steady 60 fps, widescreen and ultrawide, keyboard and mouse, touch controls on Android, Steam Deck ready. Bring your own copy of the game.",
     "version": "v0.9.70",
     "releasedAt": "2026-11-15",
@@ -613,7 +705,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 178,
+    "stars": 180,
     "description": "inFAMOUS 2 (PS3) as a native PC program for Windows and Linux: Setup recompiles YOUR copy on your PC (static recompilation, Vulkan). No game files included.",
     "version": "v0.5.7",
     "releasedAt": "2026-11-15",
@@ -799,7 +891,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 2449,
+    "stars": 2450,
     "description": "Static recompilation of Link's Awakening (Switch) to native macOS, Windows and Linux",
     "version": "beta_6",
     "releasedAt": "2026-11-15",
@@ -879,7 +971,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 75,
+    "stars": 76,
     "description": "Native port of Shadow of the Colossus (PS2) to macOS and PS Vita: static recompilation with PS2Recomp, a native Metal/OpenGL renderer, and a decompilation in progress",
     "version": null,
     "releasedAt": "2026-11-15",
@@ -1091,7 +1183,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 94,
+    "stars": 95,
     "description": "inFamous 2 (PS3) statically recompiled to a native Windows PC port, with a launcher that builds it from your own game files. No game files included.",
     "version": "v0.1.41",
     "releasedAt": "2026-11-15",
@@ -1158,7 +1250,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 1102,
+    "stars": 1103,
     "description": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows and Linux with Vulkan. 0.4.0: Snow World and Glacier device loss fixed on NVIDIA, AMD device loss fixed for testers, crashes guarded, DLC and mods, .nx input, Linux AppImage, heavy scene ~58 fps. Roadmap: #10. No game files included.",
     "version": "v0.4.0",
     "releasedAt": "2026-11-15",
@@ -1200,7 +1292,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 7428,
+    "stars": 7435,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.4.1",
     "releasedAt": "2026-11-15",
@@ -1347,7 +1439,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 181,
+    "stars": 188,
     "description": "An unofficial PC port of the Xbox version of Shadow the Hedgehog, created through the process of static recompilation. ",
     "version": "v1.0.0",
     "releasedAt": "2026-11-15",
@@ -1472,7 +1564,7 @@
       "Windows",
       "macOS"
     ],
-    "stars": 898,
+    "stars": 901,
     "description": "An unofficial PC port of the Xbox 360 version of Sonic the Hedgehog (2006) created through the process of static recompilation",
     "version": "v1.0.0",
     "releasedAt": "2026-11-14",
@@ -1595,7 +1687,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 325,
+    "stars": 326,
     "description": "WipEout Omega Collection (PS4) native PC port for Windows and Linux: the game's own x86-64 code on the CPU, a PS4 runtime and the shadPS4 Vulkan video core. Playable, in active development. No game files included. ⭐ Star it if you like it! 💙 Donate: PayPal a.deghbouche@esi-sba.dz or ko-fi.com/abd_dbh",
     "version": "windows-v0.2.76",
     "releasedAt": "2026-11-14",
@@ -1667,31 +1759,6 @@
     "releaseUrl": "https://github.com/Alano6678/hwaoi-recomp/releases",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
-  },
-  {
-    "id": "nathanialf-ico-pc",
-    "repo": "nathanialf/ico-pc",
-    "title": "ICO",
-    "game": "ico",
-    "author": "nathanialf",
-    "console": "PlayStation 2",
-    "mechanism": "native",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "macOS",
-      "Android",
-      "iOS"
-    ],
-    "stars": 544,
-    "description": "PC, Android, iOS and macOS port of the ICO (PS2) decompilation (nathanialf/ico): Windows, Linux, Steam Deck, Android, iPhone via LiveContainer and Apple-silicon Mac (contributed). Contains no game data.",
-    "version": "v0.11.6",
-    "releasedAt": "2026-11-14",
-    "sizeBytes": 32754096,
-    "releaseUrl": "https://github.com/nathanialf/ico-pc/releases/tag/v0.11.6",
-    "licenseId": "NOASSERTION",
-    "licenseUrl": null,
-    "curated": true
   },
   {
     "id": "matteo842-crashbandicoot-launcher",
@@ -2132,7 +2199,7 @@
     "console": "Game Boy Advance",
     "mechanism": "native",
     "platforms": [],
-    "stars": 3696,
+    "stars": 3697,
     "description": "Decompilation of Pokémon Emerald",
     "version": null,
     "releasedAt": "2026-11-14",
@@ -2196,7 +2263,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5459,
+    "stars": 5460,
     "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
     "version": "windows-v1.9.8.6",
     "releasedAt": "2026-11-13",
@@ -2646,7 +2713,7 @@
     "platforms": [
       "PC"
     ],
-    "stars": 1945,
+    "stars": 1946,
     "description": "Native Windows port of Shadow of the Colossus (PS4, CUSA08809) - bring your own game dump. Port nativo para PC.",
     "version": "v0.75",
     "releasedAt": "2026-11-12",
@@ -2991,75 +3058,6 @@
     "curated": true
   },
   {
-    "id": "mr-finster-vf3-recomp",
-    "repo": "mr-finster/vf3-recomp",
-    "title": "Virtua Fighter 3",
-    "game": null,
-    "author": "mr-finster",
-    "console": "Arcade",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "macOS"
-    ],
-    "stars": 118,
-    "description": "Virtua Fighter 3 (Sega Model 3, 1996) for Mac, Windows and Steam Deck: the arcade's PowerPC program recompiled to native code, up to 6x, widescreen, smooth 120 fps. Bring your own vf3.zip.",
-    "version": "v0.1.21-alpha",
-    "releasedAt": "2026-11-10",
-    "sizeBytes": 10432572,
-    "releaseUrl": "https://github.com/mr-finster/vf3-recomp/releases/tag/v0.1.21-alpha",
-    "licenseId": "NOASSERTION",
-    "licenseUrl": null,
-    "curated": true
-  },
-  {
-    "id": "mr-finster-vf2-recomp",
-    "repo": "mr-finster/vf2-recomp",
-    "title": "Virtua Fighter 2",
-    "game": "virtua-fighter-2",
-    "author": "mr-finster",
-    "console": "Arcade",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "macOS"
-    ],
-    "stars": 103,
-    "description": "Virtua Fighter 2 (Sega Model 2, 1994) for Mac, Windows and Steam Deck: the arcade's i960 program recompiled to native code, up to 6x, widescreen, smooth 120 fps. Bring your own vf2.zip.",
-    "version": "v0.1.22",
-    "releasedAt": "2026-11-10",
-    "sizeBytes": 11517862,
-    "releaseUrl": "https://github.com/mr-finster/vf2-recomp/releases/tag/v0.1.22",
-    "licenseId": "NOASSERTION",
-    "licenseUrl": null,
-    "curated": true
-  },
-  {
-    "id": "mr-finster-vf1-recomp",
-    "repo": "mr-finster/vf1-recomp",
-    "title": "Virtua Fighter",
-    "game": "virtua-fighter",
-    "author": "mr-finster",
-    "console": "Arcade",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "macOS"
-    ],
-    "stars": 93,
-    "description": "Virtua Fighter (Sega Model 1, 1993) statically recompiled for Mac, Windows and Steam Deck: up to 6x, widescreen, smooth 120 fps. Bring your own vf.zip.",
-    "version": "v1.7.0",
-    "releasedAt": "2026-11-10",
-    "sizeBytes": 10549828,
-    "releaseUrl": "https://github.com/mr-finster/vf1-recomp/releases/tag/v1.7.0",
-    "licenseId": "NOASSERTION",
-    "licenseUrl": null,
-    "curated": true
-  },
-  {
     "id": "mkst-sssv",
     "repo": "mkst/sssv",
     "title": "Space Station Silicon Valley",
@@ -3391,7 +3389,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 909,
+    "stars": 910,
     "description": "Xbox 360 to PC port of Dante's Inferno using ReXGlue (static recompilation)",
     "version": "v0.8.6-beta-hotfix",
     "releasedAt": "2026-11-08",
@@ -3827,7 +3825,7 @@
       "Linux",
       "Android"
     ],
-    "stars": 88,
+    "stars": 89,
     "description": "Native C++ recompilation of The Binding of Isaac (Flash) — 60 fps, 1080p, Windows/Linux/Switch. Requires the original game from Steam",
     "version": "v1.6.0",
     "releasedAt": "2026-11-07",
@@ -4109,7 +4107,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 207,
+    "stars": 208,
     "description": "A matching decompilation and PC port for the Ratchet & Clank series",
     "version": "launcher-v1.0.2",
     "releasedAt": "2026-11-05",
@@ -4644,7 +4642,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 1586,
+    "stars": 1587,
     "description": "Unofficial Windows/Linux/macOS/Android/iOS Port of Animal Crossing Gamecube",
     "version": "v1.0.0",
     "releasedAt": "2026-11-02",
@@ -4987,7 +4985,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 34225,
+    "stars": 34226,
     "description": "PlayStation 4 emulator for Windows, Linux, macOS and FreeBSD written in C++",
     "version": "v.0.21.0",
     "releasedAt": "2026-10-30",
@@ -5507,7 +5505,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 983,
+    "stars": 984,
     "description": "Experimental native PC port of Lost Odyssey using static recompilation. No game assets included.",
     "version": "v1.1.0",
     "releasedAt": "2026-10-26",
@@ -5674,7 +5672,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 7897,
+    "stars": 7900,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -6174,7 +6172,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2496,
+    "stars": 2499,
     "description": "Native PC port of P.T. (runs from your own PS4 game files)",
     "version": "v1.0.8",
     "releasedAt": "2026-10-22",
@@ -6434,7 +6432,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 6069,
+    "stars": 6070,
     "description": "Ship of Harkinian: a PC port of Ocarina of Time built from the decompilation, with widescreen, high framerate and mod support.",
     "version": "9.3.1",
     "releasedAt": "2026-10-18",
@@ -7342,7 +7340,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 6412,
+    "stars": 6414,
     "description": "Dusklight brings a classic adventure to PC and mobile platforms with a variety of fixes and improvements.",
     "version": "v2.0.3",
     "releasedAt": "2026-09-30",
@@ -7916,7 +7914,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 126,
+    "stars": 127,
     "description": "Unofficial noncommercial PlayStation recompilation releases",
     "version": "v0.3.4",
     "releasedAt": "2026-09-02",
@@ -8023,7 +8021,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2473,
+    "stars": 2474,
     "description": "2 Ship 2 Harkinian: a PC port of Majora's Mask built from the decompilation, with widescreen, high resolution and mod support.",
     "version": "5.0.1",
     "releasedAt": "2026-08-25",
@@ -8796,7 +8794,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5384,
+    "stars": 5385,
     "description": "An unofficial PC port of the Xbox 360 version of Sonic Unleashed created through the process of static recompilation.",
     "version": "v1.0.3",
     "releasedAt": "2025-04-03",
