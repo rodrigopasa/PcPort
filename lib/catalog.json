@@ -30,7 +30,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 144,
+    "stars": 145,
     "description": "Battlefield 1943 Reborn: the Xbox 360 game running natively on PC, with its online multiplayer restored. Releases and server packages.",
     "version": "v0.4.6.7",
     "releasedAt": "2026-11-16",
@@ -248,7 +248,7 @@
     "console": "PlayStation 3",
     "mechanism": "in-progress",
     "platforms": [],
-    "stars": 155,
+    "stars": 156,
     "description": "Killzone 2 // Unofficial PC Port (static recompilation). Work in progress, partly playable. Builds on your PC from your own game.",
     "version": null,
     "releasedAt": "2026-11-16",
@@ -335,7 +335,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 357,
+    "stars": 358,
     "description": "A native Windows PC port of Super Mario Odyssey by static recompilation. Bring your own game: no game files included.",
     "version": "v0.3.1",
     "releasedAt": "2026-11-16",
@@ -617,7 +617,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 172,
+    "stars": 173,
     "description": "Conker: Live & Reloaded (Xbox) on Windows & Linux: a native recompilation with a launcher that builds it from your own disc, widescreen up to 240 FPS, enhancements, and online play with room codes.",
     "version": "v1.4.3",
     "releasedAt": "2026-11-16",
@@ -640,7 +640,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 838,
+    "stars": 840,
     "description": "Pokémon Pokopia (Switch 2) recompiled to run natively on Windows, Linux, and MacOS.  Multiplayer included, all events, modding, feature enhancements and more! Join the discord community as well - https://discord.recompia.com",
     "version": "v0.14.0",
     "releasedAt": "2026-11-16",
@@ -702,7 +702,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 81,
+    "stars": 82,
     "description": "Native PC port of Crash Bandicoot: The Wrath of Cortex, built on its decompilation",
     "version": "v0.8.2",
     "releasedAt": "2026-11-16",
@@ -725,10 +725,10 @@
     ],
     "stars": 65,
     "description": "Native PC port of Diablo III: Reaper of Souls – Ultimate Evil Edition (PS4). Local co-op for 4.",
-    "version": "v0.6.3",
+    "version": "v0.6.4",
     "releasedAt": "2026-11-16",
-    "sizeBytes": 136342008,
-    "releaseUrl": "https://github.com/CaduGimenes/SanctuaryPort/releases/tag/v0.6.3",
+    "sizeBytes": 136346104,
+    "releaseUrl": "https://github.com/CaduGimenes/SanctuaryPort/releases/tag/v0.6.4",
     "licenseId": "GPL-2.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-2.0"
   },
@@ -852,7 +852,7 @@
       "Linux",
       "Android"
     ],
-    "stars": 187,
+    "stars": 186,
     "description": "Gears of War 2 native PC port: the Xbox 360 game statically recompiled to x64 (not an emulator). 1440p/4K, FSR, 4K texture packs, keyboard & mouse, Android in progress. Bring your own copy.",
     "version": "v0.4.6",
     "releasedAt": "2026-11-16",
@@ -875,10 +875,10 @@
     ],
     "stars": 97,
     "description": "inFamous 2 (PS3) statically recompiled to a native Windows PC port, with a launcher that builds it from your own game files. No game files included.",
-    "version": "v0.1.42",
+    "version": "v0.1.43",
     "releasedAt": "2026-11-16",
-    "sizeBytes": 5225419,
-    "releaseUrl": "https://github.com/bhuiyah/infamous2-recomp/releases/tag/v0.1.42",
+    "sizeBytes": 5227466,
+    "releaseUrl": "https://github.com/bhuiyah/infamous2-recomp/releases/tag/v0.1.43",
     "licenseId": "NOASSERTION",
     "licenseUrl": null,
     "curated": true
@@ -1005,6 +1005,64 @@
     "licenseId": "NOASSERTION",
     "licenseUrl": null,
     "curated": true
+  },
+  {
+    "id": "mnkyarts-projectavalanche",
+    "repo": "MnkyArts/ProjectAvalanche",
+    "title": "SSX",
+    "game": null,
+    "author": "MnkyArts",
+    "console": "Xbox 360",
+    "mechanism": "native",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 41,
+    "description": "A native PC port of SSX (2012), decoded with help from Claude from the Xbox 360 disc and rebuilt in Rust on Bevy.",
+    "version": "v0.4.1",
+    "releasedAt": "2026-11-16",
+    "sizeBytes": 117044807,
+    "releaseUrl": "https://github.com/MnkyArts/ProjectAvalanche/releases/tag/v0.4.1",
+    "licenseId": "MIT",
+    "licenseUrl": "https://api.github.com/licenses/mit"
+  },
+  {
+    "id": "mkst-sssv",
+    "repo": "mkst/sssv",
+    "title": "Space Station Silicon Valley",
+    "game": "space-station-silicon-valley",
+    "author": "mkst",
+    "console": "Nintendo 64",
+    "mechanism": "in-progress",
+    "platforms": [],
+    "stars": 66,
+    "description": "WIP Space Station Silicon Valley N64 Decomp",
+    "version": null,
+    "releasedAt": "2026-11-16",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/mkst/sssv/releases",
+    "licenseId": "CC0-1.0",
+    "licenseUrl": "https://api.github.com/licenses/cc0-1.0",
+    "curated": true
+  },
+  {
+    "id": "retroportingtoolkit-recomp-ui",
+    "repo": "RetroPortingToolKit/recomp-ui",
+    "title": "Ui",
+    "game": null,
+    "author": "RetroPortingToolKit",
+    "console": "PC",
+    "mechanism": "recompiled",
+    "platforms": [],
+    "stars": 40,
+    "description": "Shared launcher and in-game UI for static recompilation projects · Part of the R.A.I.D. community",
+    "version": null,
+    "releasedAt": "2026-11-16",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/RetroPortingToolKit/recomp-ui/releases",
+    "licenseId": "MIT",
+    "licenseUrl": "https://api.github.com/licenses/mit"
   },
   {
     "id": "pauloubirajara-asuras-wrath-recomp",
@@ -1269,7 +1327,7 @@
       "Android"
     ],
     "stars": 2455,
-    "description": "Static recompilation of Link's Awakening (Switch) to native macOS, Windows and Linux",
+    "description": "Static recompilation of Link's Awakening (Switch) to native macOS, Windows, Linux, iOS and Android.",
     "version": "beta_6",
     "releasedAt": "2026-11-15",
     "sizeBytes": 241914673,
@@ -1329,7 +1387,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 87,
+    "stars": 89,
     "description": "Play Midtown Madness 3 natively on Windows 10/11 and Linux: your resolution, widescreen, up to 120 fps, controller or keyboard, and optional mods. Get the installer from Releases; you need your own copy of the Xbox game.",
     "version": "v2.7.4",
     "releasedAt": "2026-11-15",
@@ -1418,7 +1476,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 161,
+    "stars": 162,
     "description": "Paper Cut: A native port of Paper Mario: The Thousand-Year Door to Windows, macOS, Linux, iOS and Android (AI-assisted)",
     "version": "v0.5.1",
     "releasedAt": "2026-11-15",
@@ -1528,7 +1586,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 1122,
+    "stars": 1123,
     "description": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows and Linux with Vulkan. 0.4.0: Snow World and Glacier device loss fixed on NVIDIA, AMD device loss fixed for testers, crashes guarded, DLC and mods, .nx input, Linux AppImage, heavy scene ~58 fps. Roadmap: #10. No game files included.",
     "version": "v0.4.0",
     "releasedAt": "2026-11-15",
@@ -1550,7 +1608,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 7488,
+    "stars": 7496,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.4.1",
     "releasedAt": "2026-11-15",
@@ -1675,7 +1733,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 278,
+    "stars": 286,
     "description": "An unofficial PC port of the Xbox version of Shadow the Hedgehog, created through the process of static recompilation. ",
     "version": "v1.0.0",
     "releasedAt": "2026-11-15",
@@ -1695,7 +1753,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 353,
+    "stars": 352,
     "description": "Unnoficial Native Windows PC port of The Last of Us Remastered (PS4, CUSA00552). Runs the game’s own x86-64 code on a custom runtime, with PS4 system libraries reimplemented and a Vulkan renderer based on shadPS4. Includes a launcher. No game files included: you need your own copy.",
     "version": "v0.2.5",
     "releasedAt": "2026-11-15",
@@ -1802,7 +1860,7 @@
       "Windows",
       "macOS"
     ],
-    "stars": 909,
+    "stars": 911,
     "description": "An unofficial PC port of the Xbox 360 version of Sonic the Hedgehog (2006) created through the process of static recompilation",
     "version": "v1.0.0",
     "releasedAt": "2026-11-14",
@@ -1904,7 +1962,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 341,
+    "stars": 342,
     "description": "WipEout Omega Collection (PS4) native PC port for Windows and Linux: the game's own x86-64 code on the CPU, a PS4 runtime and the shadPS4 Vulkan video core. Playable, in active development. No game files included. ⭐ Star it if you like it! 💙 Donate: PayPal a.deghbouche@esi-sba.dz or ko-fi.com/abd_dbh",
     "version": "windows-v0.2.76",
     "releasedAt": "2026-11-14",
@@ -1926,7 +1984,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 260,
+    "stars": 259,
     "description": "Native Windows PC port of God of War (PS2), built by statically recompiling MIPS R5900 code to C++ with PS2Recomp. Includes an installer launcher, one-click build, fan-translation support and a 60 fps target. No game files included: you need your own copy.",
     "version": "v0.6.1",
     "releasedAt": "2026-11-14",
@@ -2351,7 +2409,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 519,
+    "stars": 520,
     "description": "ReStreet: FIFA Street (2012) recompiled for Windows PC, with online play, a launcher with friends, chat and rooms. Bring your own game.",
     "version": "v2.1.5-online-beta",
     "releasedAt": "2026-11-14",
@@ -2449,27 +2507,6 @@
     "curated": true
   },
   {
-    "id": "mnkyarts-projectavalanche",
-    "repo": "MnkyArts/ProjectAvalanche",
-    "title": "SSX",
-    "game": null,
-    "author": "MnkyArts",
-    "console": "Xbox 360",
-    "mechanism": "native",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 41,
-    "description": "A native PC port of SSX (2012), decoded with help from Claude from the Xbox 360 disc and rebuilt in Rust on Bevy.",
-    "version": "v0.4.0",
-    "releasedAt": "2026-11-14",
-    "sizeBytes": 116509544,
-    "releaseUrl": "https://github.com/MnkyArts/ProjectAvalanche/releases/tag/v0.4.0",
-    "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit"
-  },
-  {
     "id": "supermedo-bloodborne-pc",
     "repo": "Supermedo/bloodborne_pc",
     "title": "Bloodborne",
@@ -2480,7 +2517,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5472,
+    "stars": 5473,
     "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
     "version": "windows-v1.9.8.6",
     "releasedAt": "2026-11-13",
@@ -2526,7 +2563,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 206,
+    "stars": 205,
     "description": "Unofficial native PC port of God of War (2005, PS2) for Windows, with experimental Linux support. Statically recompiled to C++, not an emulator. OpenGL renderer, launcher, cheat menu, widescreen, 60 FPS. Bring your own game dump: no game files included.",
     "version": "launcher-v0.4.0",
     "releasedAt": "2026-11-13",
@@ -2629,7 +2666,7 @@
     "console": "PSP",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 214,
+    "stars": 213,
     "description": "Unofficial native PC ports of God of War: Chains of Olympus and Ghost of Sparta (PSP) by static recompilation. Bring your own disc.",
     "version": "v1.6.0",
     "releasedAt": "2026-11-13",
@@ -2670,7 +2707,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 447,
+    "stars": 450,
     "description": "Dragon's Crown Pro native PC port for Windows, with direct PS4 PKG installation, TRG launcher and modern graphics options",
     "version": "v1.2.0",
     "releasedAt": "2026-11-13",
@@ -2885,7 +2922,7 @@
     "platforms": [
       "PC"
     ],
-    "stars": 1951,
+    "stars": 1950,
     "description": "Native Windows port of Shadow of the Colossus (PS4, CUSA08809) - bring your own game dump. Port nativo para PC.",
     "version": "v0.75",
     "releasedAt": "2026-11-12",
@@ -2971,7 +3008,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 190,
+    "stars": 191,
     "description": "Native SDL3 port of Colin McRae Rally 2.0 built from the CMR2Decomp decompilation. No game data included.",
     "version": "v1.9.0",
     "releasedAt": "2026-11-12",
@@ -3230,25 +3267,6 @@
     "curated": true
   },
   {
-    "id": "mkst-sssv",
-    "repo": "mkst/sssv",
-    "title": "Space Station Silicon Valley",
-    "game": "space-station-silicon-valley",
-    "author": "mkst",
-    "console": "Nintendo 64",
-    "mechanism": "in-progress",
-    "platforms": [],
-    "stars": 66,
-    "description": "WIP Space Station Silicon Valley N64 Decomp",
-    "version": null,
-    "releasedAt": "2026-11-10",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/mkst/sssv/releases",
-    "licenseId": "CC0-1.0",
-    "licenseUrl": "https://api.github.com/licenses/cc0-1.0",
-    "curated": true
-  },
-  {
     "id": "hyant4-knack-ii-pc-port",
     "repo": "Hyant4/Knack-II-pc-port",
     "title": "Knack II",
@@ -3410,7 +3428,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 112,
+    "stars": 113,
     "description": "13 Sentinels: Aegis Rim native PC port for Windows and Linux, with direct PS4 PKG installation, TRG launcher and modern graphics options",
     "version": "v0.1.0",
     "releasedAt": "2026-11-09",
@@ -3812,7 +3830,7 @@
     "console": "PlayStation 3",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 99,
+    "stars": 100,
     "description": "God of War: Ascension native PC port (static recompilation, bring your own disc)",
     "version": "v2026.11.08",
     "releasedAt": "2026-11-08",
@@ -3930,7 +3948,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 63,
+    "stars": 65,
     "description": "Unofficial Windows version of WWE All Stars (Xbox 360), recompiled with ReXGlue. Bring your own disc image.",
     "version": "v2.0.0",
     "releasedAt": "2026-11-07",
@@ -4037,7 +4055,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 235,
+    "stars": 236,
     "description": "Native PC port of God of War (PS2) via static recompilation with PS2Recomp",
     "version": null,
     "releasedAt": "2026-11-06",
@@ -4107,7 +4125,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 1532,
+    "stars": 1534,
     "description": "Zelda Wind Waker HD Recomp",
     "version": "v0.5.1",
     "releasedAt": "2026-11-06",
@@ -4449,7 +4467,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 64,
+    "stars": 65,
     "description": "WWE SmackDown! Here Comes the Pain (PS2) static recompilation for PC - work in progress. Bring your own disc; no game code or files included.",
     "version": "v0.3.5",
     "releasedAt": "2026-11-04",
@@ -5049,7 +5067,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 34235,
+    "stars": 34236,
     "description": "PlayStation 4 emulator for Windows, Linux, macOS and FreeBSD written in C++",
     "version": "v.0.21.0",
     "releasedAt": "2026-10-30",
@@ -5070,7 +5088,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 85,
+    "stars": 84,
     "description": "Gears of War 3 (Xbox 360) statically recompiled to native Windows x64 with the ReXGlue SDK. Bring your own copy of the game; no game files are included.",
     "version": "v0.3.1",
     "releasedAt": "2026-10-30",
@@ -5093,7 +5111,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 516,
+    "stars": 517,
     "description": "An unofficial PC port of the Xbox 360 version of Spider-Man: Edge of Time created through the process of static recompilation.",
     "version": "v1.1",
     "releasedAt": "2026-10-30",
@@ -5587,7 +5605,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 984,
+    "stars": 983,
     "description": "Experimental native PC port of Lost Odyssey using static recompilation. No game assets included.",
     "version": "v1.1.0",
     "releasedAt": "2026-10-26",
@@ -5945,7 +5963,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 60,
+    "stars": 61,
     "description": "An unofficial original Xbox version PC port of The Warriors via static recompilation.",
     "version": "v0.2.0-alpha",
     "releasedAt": "2026-10-24",
@@ -6002,7 +6020,7 @@
     "console": "Xbox 360",
     "mechanism": "native",
     "platforms": [],
-    "stars": 88,
+    "stars": 89,
     "description": "FIFA 09 PC Port based on Xbox 360 Version.",
     "version": "v1.4.0",
     "releasedAt": "2026-10-23",
@@ -6664,7 +6682,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 3661,
+    "stars": 3662,
     "description": "Reviving the language that brought us the Jak & Daxter Series",
     "version": "v0.3.9",
     "releasedAt": "2026-10-15",
@@ -6921,7 +6939,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 50,
+    "stars": 51,
     "description": "Native PC port of Halo: Reach (Xbox 360) via static recompilation with ReXGlue. No game code or assets included - bring your own copy.",
     "version": null,
     "releasedAt": "2026-10-12",
@@ -6980,7 +6998,7 @@
     "platforms": [
       "PC"
     ],
-    "stars": 137,
+    "stars": 136,
     "description": "Gears of War Judgement Native on Windows",
     "version": "v0.2.1",
     "releasedAt": "2026-10-11",
@@ -7400,7 +7418,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 6424,
+    "stars": 6425,
     "description": "Dusklight brings a classic adventure to PC and mobile platforms with a variety of fixes and improvements.",
     "version": "v2.0.3",
     "releasedAt": "2026-09-30",
@@ -7993,7 +8011,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 375,
+    "stars": 374,
     "description": "Silent Hill: Downpour — native Windows PC port via static recompilation of the Xbox 360 binary. v1.0 stable: 60 FPS unlocked, ROV warm-cache, standalone launcher, DualSense adaptive triggers, portable saves. Tested on USA + Europe X360 dumps.",
     "version": "v1.1.8",
     "releasedAt": "2026-09-02",
@@ -8670,7 +8688,7 @@
     "console": "Xbox 360",
     "mechanism": "emulator",
     "platforms": [],
-    "stars": 9835,
+    "stars": 9836,
     "description": "Xbox 360 Emulator Research Project",
     "version": null,
     "releasedAt": "2026-02-18",
@@ -8835,7 +8853,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5387,
+    "stars": 5388,
     "description": "An unofficial PC port of the Xbox 360 version of Sonic Unleashed created through the process of static recompilation.",
     "version": "v1.0.3",
     "releasedAt": "2025-04-03",
