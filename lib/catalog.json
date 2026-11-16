@@ -115,7 +115,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 266,
+    "stars": 267,
     "description": "Ninja Gaiden II (Xbox 360, 2008) statically recompiled into native Linux and Windows builds, drawn by its own Vulkan renderer. A steady 60 fps, up to 8x render scale, widescreen and ultrawide, keyboard and mouse, mods, Steam Deck ready. Bring your own copy of the game.",
     "version": "v0.6.6",
     "releasedAt": "2026-11-16",
@@ -313,7 +313,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 150,
+    "stars": 151,
     "description": "God of War: Ascension PC port: an unofficial, native Windows port of the PS3 game by static recompilation, no emulator. No game files included: you build it from your own copy.",
     "version": "v0.1.0-alpha.13",
     "releasedAt": "2026-11-16",
@@ -357,7 +357,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 230,
+    "stars": 231,
     "description": "Native Windows port of Demon's Souls (PS3, BLUS-30443) via ps3recomp static recompilation. Bring your own disc image; no game files included.",
     "version": "v2026.11.15",
     "releasedAt": "2026-11-16",
@@ -635,12 +635,16 @@
     "author": "Dittobyte",
     "console": "Nintendo Switch 2",
     "mechanism": "recompiled",
-    "platforms": [],
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
     "stars": 837,
     "description": "Pokémon Pokopia (Switch 2) recompiled to run natively on Windows, Linux, and MacOS.  Multiplayer included, all events, modding, feature enhancements and more! Join the discord community as well - https://discord.recompia.com",
     "version": "v0.14.0",
     "releasedAt": "2026-11-16",
-    "sizeBytes": 192754385,
+    "sizeBytes": 192783093,
     "releaseUrl": "https://github.com/Dittobyte/Recompia/releases/tag/v0.14.0",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
@@ -698,7 +702,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 78,
+    "stars": 79,
     "description": "Native PC port of Crash Bandicoot: The Wrath of Cortex, built on its decompilation",
     "version": "v0.8.2",
     "releasedAt": "2026-11-16",
@@ -788,6 +792,27 @@
     "sizeBytes": 15854986,
     "releaseUrl": "https://github.com/GTTeancum/Timesplitters/releases/tag/v1.1",
     "licenseId": null,
+    "licenseUrl": null,
+    "curated": true
+  },
+  {
+    "id": "re-tero17-ratchet-tod-recomp",
+    "repo": "Re-TeRo17/ratchet-tod-recomp",
+    "title": "Ratchet & Clank: Tools of Destruction",
+    "game": null,
+    "author": "Re-TeRo17",
+    "console": "PlayStation 3",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows"
+    ],
+    "stars": 172,
+    "description": "Ratchet & Clank: Tools of Destruction native PC port (PS3 static recompilation) – 4K, 60 fps, DualSense, Windows",
+    "version": "v1.3.0",
+    "releasedAt": "2026-11-16",
+    "sizeBytes": 75464876,
+    "releaseUrl": "https://github.com/Re-TeRo17/ratchet-tod-recomp/releases/tag/v1.3.0",
+    "licenseId": "NOASSERTION",
     "licenseUrl": null,
     "curated": true
   },
@@ -1076,7 +1101,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 2451,
+    "stars": 2452,
     "description": "Static recompilation of Link's Awakening (Switch) to native macOS, Windows and Linux",
     "version": "beta_6",
     "releasedAt": "2026-11-15",
@@ -1137,7 +1162,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 78,
+    "stars": 79,
     "description": "Play Midtown Madness 3 natively on Windows 10/11 and Linux: your resolution, widescreen, up to 120 fps, controller or keyboard, and optional mods. Get the installer from Releases; you need your own copy of the Xbox game.",
     "version": "v2.7.4",
     "releasedAt": "2026-11-15",
@@ -1375,7 +1400,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 1112,
+    "stars": 1114,
     "description": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows and Linux with Vulkan. 0.4.0: Snow World and Glacier device loss fixed on NVIDIA, AMD device loss fixed for testers, crashes guarded, DLC and mods, .nx input, Linux AppImage, heavy scene ~58 fps. Roadmap: #10. No game files included.",
     "version": "v0.4.0",
     "releasedAt": "2026-11-15",
@@ -1417,7 +1442,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 7469,
+    "stars": 7473,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.4.1",
     "releasedAt": "2026-11-15",
@@ -1542,7 +1567,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 251,
+    "stars": 257,
     "description": "An unofficial PC port of the Xbox version of Shadow the Hedgehog, created through the process of static recompilation. ",
     "version": "v1.0.0",
     "releasedAt": "2026-11-15",
@@ -1562,7 +1587,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 351,
+    "stars": 352,
     "description": "Unnoficial Native Windows PC port of The Last of Us Remastered (PS4, CUSA00552). Runs the game’s own x86-64 code on a custom runtime, with PS4 system libraries reimplemented and a Vulkan renderer based on shadPS4. Includes a launcher. No game files included: you need your own copy.",
     "version": "v0.2.5",
     "releasedAt": "2026-11-15",
@@ -1604,7 +1629,7 @@
       "Linux",
       "iOS"
     ],
-    "stars": 632,
+    "stars": 633,
     "description": "The Legend of Zelda: The Wind Waker Recompiled. Native for MacOS, iOS, Windows, Linux, and Android.",
     "version": "v0.12.0",
     "releasedAt": "2026-11-15",
@@ -1690,7 +1715,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 194,
+    "stars": 196,
     "description": "StarFox Remake [recompiled]: static recompilation of Star Fox (Nintendo Switch 2) into a native Windows app, built on your PC from your own copy. No game files included.",
     "version": "v1.1.0",
     "releasedAt": "2026-11-14",
@@ -1985,7 +2010,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 679,
+    "stars": 681,
     "description": "A native Windows and Linux port of Grand Theft Auto: Vice City Stories (PS2, USA, SLUS-21590), made by recompiling the game's PS2 executable into C++",
     "version": "v0.3.0",
     "releasedAt": "2026-11-14",
@@ -2347,7 +2372,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5469,
+    "stars": 5470,
     "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
     "version": "windows-v1.9.8.6",
     "releasedAt": "2026-11-13",
@@ -2731,7 +2756,7 @@
       "macOS",
       "iOS"
     ],
-    "stars": 696,
+    "stars": 697,
     "description": "Unofficial static recompilation of the Xbox 360 version of Need for Speed: Most Wanted (2005): a native port for Steam Deck, Steam Machine, Steam Frame, Linux and Mac (iPhone/iPad: sideload the experimental IPA or build it yourself). Bring your own disc: no game files included. Not affiliated with EA or Valve.",
     "version": "v0.2.5",
     "releasedAt": "2026-11-12",
@@ -2797,7 +2822,7 @@
     "platforms": [
       "PC"
     ],
-    "stars": 1949,
+    "stars": 1948,
     "description": "Native Windows port of Shadow of the Colossus (PS4, CUSA08809) - bring your own game dump. Port nativo para PC.",
     "version": "v0.75",
     "releasedAt": "2026-11-12",
@@ -3473,7 +3498,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 911,
+    "stars": 912,
     "description": "Xbox 360 to PC port of Dante's Inferno using ReXGlue (static recompilation)",
     "version": "v0.8.6-beta-hotfix",
     "releasedAt": "2026-11-08",
@@ -3735,27 +3760,6 @@
     "curated": true
   },
   {
-    "id": "re-tero17-ratchet-tod-recomp",
-    "repo": "Re-TeRo17/ratchet-tod-recomp",
-    "title": "Ratchet & Clank: Tools of Destruction",
-    "game": null,
-    "author": "Re-TeRo17",
-    "console": "PlayStation 3",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows"
-    ],
-    "stars": 172,
-    "description": "Ratchet & Clank: Tools of Destruction native PC port (PS3 static recompilation) – 4K, 60 fps, DualSense, Windows",
-    "version": "v1.2.1",
-    "releasedAt": "2026-11-08",
-    "sizeBytes": 75313685,
-    "releaseUrl": "https://github.com/Re-TeRo17/ratchet-tod-recomp/releases/tag/v1.2.1",
-    "licenseId": "NOASSERTION",
-    "licenseUrl": null,
-    "curated": true
-  },
-  {
     "id": "jedijosh920-swrots-pc",
     "repo": "jedijosh920/SWROTS-PC",
     "title": "Star Wars Episode III: Revenge of the Sith",
@@ -3953,7 +3957,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 54,
+    "stars": 55,
     "description": "Runtime for ports or recompilations of 3DS games.",
     "version": "v0.2.32",
     "releasedAt": "2026-11-06",
@@ -4063,7 +4067,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 1529,
+    "stars": 1530,
     "description": "Zelda Wind Waker HD Recomp",
     "version": "v0.5.1",
     "releasedAt": "2026-11-06",
@@ -5112,7 +5116,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 46,
+    "stars": 47,
     "description": "Trials HD, Trials Evolution and Trials Fusion on PC, recompiled from the Xbox 360 games, with their DLC, in one launcher",
     "version": "v1.0.0",
     "releasedAt": "2026-10-30",
@@ -5196,7 +5200,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 487,
+    "stars": 488,
     "description": "An unofficial original Xbox version PC port of Splinter Cell: Double Agent via static recompilation.",
     "version": "V3",
     "releasedAt": "2026-10-29",
@@ -5215,7 +5219,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 961,
+    "stars": 962,
     "description": "An unofficial original Xbox version PC port of BLACK (2006) via static recompilation.",
     "version": "V3",
     "releasedAt": "2026-10-29",
@@ -5731,7 +5735,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 7914,
+    "stars": 7917,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -6469,7 +6473,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 6071,
+    "stars": 6073,
     "description": "Ship of Harkinian: a PC port of Ocarina of Time built from the decompilation, with widescreen, high framerate and mod support.",
     "version": "9.3.1",
     "releasedAt": "2026-10-18",
@@ -7970,7 +7974,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 374,
+    "stars": 375,
     "description": "Silent Hill: Downpour — native Windows PC port via static recompilation of the Xbox 360 binary. v1.0 stable: 60 FPS unlocked, ROV warm-cache, standalone launcher, DualSense adaptive triggers, portable saves. Tested on USA + Europe X360 dumps.",
     "version": "v1.1.8",
     "releasedAt": "2026-09-02",
@@ -8831,7 +8835,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5385,
+    "stars": 5386,
     "description": "An unofficial PC port of the Xbox 360 version of Sonic Unleashed created through the process of static recompilation.",
     "version": "v1.0.3",
     "releasedAt": "2025-04-03",
