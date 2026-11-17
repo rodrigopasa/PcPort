@@ -154,7 +154,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 482,
+    "stars": 483,
     "description": "This is an open source, all-in-one, static recompilation project that I built from the ground up for the Xbox 360 Gears of War series. All 4 games have been personally recompiled for use with a fully native renderer by me.",
     "version": "0.6.4",
     "releasedAt": "2026-11-17",
@@ -454,7 +454,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 1065,
+    "stars": 1066,
     "description": "A playable preview of Forza Horizon static recompilation",
     "version": "v0.9.0",
     "releasedAt": "2026-11-17",
@@ -462,6 +462,48 @@
     "releaseUrl": "https://github.com/arcanite24/pinyon-shift/releases/tag/v0.9.0",
     "licenseId": "BSD-3-Clause",
     "licenseUrl": "https://api.github.com/licenses/bsd-3-clause",
+    "curated": true
+  },
+  {
+    "id": "bhuiyah-ff7-recomp-android",
+    "repo": "bhuiyah/ff7-recomp-android",
+    "title": "Ff 7 Android",
+    "game": null,
+    "author": "bhuiyah",
+    "console": "PC",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Android"
+    ],
+    "stars": 107,
+    "description": "FINAL FANTASY VII (PC) statically recompiled to native ARM64 Android, with an FFNx renderer and a 7th Heaven-style mod launcher. No game files included.",
+    "version": "v1.1.18",
+    "releasedAt": "2026-11-17",
+    "sizeBytes": 97179779,
+    "releaseUrl": "https://github.com/bhuiyah/ff7-recomp-android/releases/tag/v1.1.18",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
+  },
+  {
+    "id": "zer0ducksgiven-forza-motorsport-2-regpu",
+    "repo": "zer0ducksgiven/Forza-Motorsport-2-ReGPU",
+    "title": "Forza Motorsport 2",
+    "game": "forza-motorsport-2",
+    "author": "zer0ducksgiven",
+    "console": "Xbox 360",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 85,
+    "description": "Native PC port of Forza Motorsport 2: static recompilation of the CPU code and a native D3D12 renderer",
+    "version": "v0.13.1",
+    "releasedAt": "2026-11-17",
+    "sizeBytes": 173036833,
+    "releaseUrl": "https://github.com/zer0ducksgiven/Forza-Motorsport-2-ReGPU/releases/tag/v0.13.1",
+    "licenseId": "MIT",
+    "licenseUrl": "https://api.github.com/licenses/mit",
     "curated": true
   },
   {
@@ -1028,7 +1070,7 @@
       "Linux",
       "Android"
     ],
-    "stars": 188,
+    "stars": 189,
     "description": "Gears of War 2 native PC port: the Xbox 360 game statically recompiled to x64 (not an emulator). 1440p/4K, FSR, 4K texture packs, keyboard & mouse, Android in progress. Bring your own copy.",
     "version": "v0.4.6",
     "releasedAt": "2026-11-16",
@@ -1057,48 +1099,6 @@
     "releaseUrl": "https://github.com/bhuiyah/infamous2-recomp/releases/tag/v0.1.45",
     "licenseId": "NOASSERTION",
     "licenseUrl": null,
-    "curated": true
-  },
-  {
-    "id": "bhuiyah-ff7-recomp-android",
-    "repo": "bhuiyah/ff7-recomp-android",
-    "title": "Ff 7 Android",
-    "game": null,
-    "author": "bhuiyah",
-    "console": "PC",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Android"
-    ],
-    "stars": 107,
-    "description": "FINAL FANTASY VII (PC) statically recompiled to native ARM64 Android, with an FFNx renderer and a 7th Heaven-style mod launcher. No game files included.",
-    "version": "v1.1.16",
-    "releasedAt": "2026-11-16",
-    "sizeBytes": 97175387,
-    "releaseUrl": "https://github.com/bhuiyah/ff7-recomp-android/releases/tag/v1.1.16",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
-  },
-  {
-    "id": "zer0ducksgiven-forza-motorsport-2-regpu",
-    "repo": "zer0ducksgiven/Forza-Motorsport-2-ReGPU",
-    "title": "Forza Motorsport 2",
-    "game": "forza-motorsport-2",
-    "author": "zer0ducksgiven",
-    "console": "Xbox 360",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 85,
-    "description": "Native PC port of Forza Motorsport 2: static recompilation of the CPU code and a native D3D12 renderer",
-    "version": "v0.13.0",
-    "releasedAt": "2026-11-16",
-    "sizeBytes": 172913613,
-    "releaseUrl": "https://github.com/zer0ducksgiven/Forza-Motorsport-2-ReGPU/releases/tag/v0.13.0",
-    "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit",
     "curated": true
   },
   {
@@ -1800,7 +1800,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 7537,
+    "stars": 7541,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.4.1",
     "releasedAt": "2026-11-15",
@@ -1945,7 +1945,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 353,
+    "stars": 354,
     "description": "Unnoficial Native Windows PC port of The Last of Us Remastered (PS4, CUSA00552). Runs the game’s own x86-64 code on a custom runtime, with PS4 system libraries reimplemented and a Vulkan renderer based on shadPS4. Includes a launcher. No game files included: you need your own copy.",
     "version": "v0.2.5",
     "releasedAt": "2026-11-15",
@@ -1987,7 +1987,7 @@
       "Linux",
       "iOS"
     ],
-    "stars": 636,
+    "stars": 637,
     "description": "The Legend of Zelda: The Wind Waker Recompiled. Native for MacOS, iOS, Windows, Linux, and Android.",
     "version": "v0.12.0",
     "releasedAt": "2026-11-15",
@@ -2152,7 +2152,7 @@
     "console": "Arcade",
     "mechanism": "in-progress",
     "platforms": [],
-    "stars": 74,
+    "stars": 75,
     "description": "Decompiled Ultimate Mortal Kombat 3 (iOS v1.2.59) with a playable native PC port featuring DirectX, Vulkan, OpenGL, widescreen support, HD textures, and multiplayer. Original game assets required.",
     "version": null,
     "releasedAt": "2026-11-14",
@@ -2324,7 +2324,7 @@
     "console": "PlayStation 3",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 88,
+    "stars": 89,
     "description": "Unofficial native Windows port of ARMORED CORE for Answer (PS3), built from your own copy of the game. Part of Project Glintburn.",
     "version": "v0.7.6",
     "releasedAt": "2026-11-14",
@@ -2687,7 +2687,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5482,
+    "stars": 5485,
     "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
     "version": "windows-v1.9.8.6",
     "releasedAt": "2026-11-13",
@@ -2812,7 +2812,7 @@
     "console": "PSP",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 214,
+    "stars": 213,
     "description": "Unofficial native PC ports of God of War: Chains of Olympus and Ghost of Sparta (PSP) by static recompilation. Bring your own disc.",
     "version": "v1.6.0",
     "releasedAt": "2026-11-13",
@@ -3006,7 +3006,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 101,
+    "stars": 102,
     "description": "Mario Kart 8 Deluxe recompiled to run natively on your PC: no JIT, FSR 3.1 + frame generation, experimental DLSS, 720p to 4K output, HDR10. Bring your own game files.",
     "version": "v0.2.4",
     "releasedAt": "2026-11-12",
@@ -3576,7 +3576,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 187,
+    "stars": 188,
     "description": "Unofficial PC port of the Xbox 360 version of Army of Two (2008). Online co-op supported.",
     "version": "v1.5.0",
     "releasedAt": "2026-11-09",
@@ -3708,7 +3708,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 334,
+    "stars": 333,
     "description": "Zelda: Tears of the Kingdom (TotK) 1.0.0 recompiled to native Windows and Vulkan. Frame cap up to 240, DLSS option, mouse and keyboard. Open source, mostly written by AI agents. You build it from your own dump; no game files included. Measured on one PC so far.",
     "version": "v0.1.10.1",
     "releasedAt": "2026-11-08",
@@ -4167,7 +4167,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 1556,
+    "stars": 1561,
     "description": "Zelda Wind Waker HD Recomp",
     "version": "v0.5.1",
     "releasedAt": "2026-11-06",
@@ -4875,7 +4875,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 349,
+    "stars": 350,
     "description": "Burnout Revenge recompilation based on RexGlue + standalone Plume render",
     "version": "v0.4.10",
     "releasedAt": "2026-11-01",
@@ -5087,7 +5087,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 34242,
+    "stars": 34244,
     "description": "PlayStation 4 emulator for Windows, Linux, macOS and FreeBSD written in C++",
     "version": "v.0.21.0",
     "releasedAt": "2026-10-30",
@@ -5257,7 +5257,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 488,
+    "stars": 489,
     "description": "An unofficial original Xbox version PC port of Splinter Cell: Double Agent via static recompilation.",
     "version": "V3",
     "releasedAt": "2026-10-29",
@@ -5792,7 +5792,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 7940,
+    "stars": 7947,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -6209,7 +6209,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 1204,
+    "stars": 1203,
     "description": "Native PC port (Linux/Windows) of inFAMOUS Second Son (PS4, CUSA00223) — in development, playable; runs your own game dump; no game or firmware files included. Motion sensor emulation. | Port nativo para PC de inFAMOUS Second Son (em desenvolvimento) — usa o seu próprio dump.",
     "version": "v1.0",
     "releasedAt": "2026-10-22",
@@ -6530,7 +6530,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 6083,
+    "stars": 6084,
     "description": "Ship of Harkinian: a PC port of Ocarina of Time built from the decompilation, with widescreen, high framerate and mod support.",
     "version": "9.3.1",
     "releasedAt": "2026-10-18",
@@ -6604,6 +6604,26 @@
     "licenseId": null,
     "licenseUrl": null,
     "curated": true
+  },
+  {
+    "id": "mstan-starfoxsnesrecomp",
+    "repo": "mstan/StarFoxSNESRecomp",
+    "title": "Star Fox SNES",
+    "game": null,
+    "author": "mstan",
+    "console": "PC",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows"
+    ],
+    "stars": 40,
+    "description": "Star Fox recompiled for the Super Nintendo using snesrecomp · Part of the R.A.I.D. community",
+    "version": "v0.3.2",
+    "releasedAt": "2026-10-18",
+    "sizeBytes": 7052897,
+    "releaseUrl": "https://github.com/mstan/StarFoxSNESRecomp/releases/tag/v0.3.2",
+    "licenseId": "NOASSERTION",
+    "licenseUrl": null
   },
   {
     "id": "cdlewis-snowboardkids2-recomp",
@@ -6940,7 +6960,7 @@
     "platforms": [
       "Android"
     ],
-    "stars": 120,
+    "stars": 121,
     "description": "Experimental static recompilation of Need for Speed Carbon for Xbox 360 using ReXGlue. Windows x64 prototype, analysis fixes and build instructions.",
     "version": "v0.3.3",
     "releasedAt": "2026-10-12",
@@ -8873,7 +8893,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5388,
+    "stars": 5387,
     "description": "An unofficial PC port of the Xbox 360 version of Sonic Unleashed created through the process of static recompilation.",
     "version": "v1.0.3",
     "releasedAt": "2025-04-03",
