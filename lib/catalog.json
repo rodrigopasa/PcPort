@@ -8,7 +8,7 @@
     "console": "Nintendo DS",
     "mechanism": "native",
     "platforms": [],
-    "stars": 262,
+    "stars": 263,
     "description": "From-scratch, byte-matching decompilation of Super Mario 64 DS into C/C++, with a live progress atlas and matching tools.",
     "version": null,
     "releasedAt": "2026-11-17",
@@ -88,7 +88,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 849,
+    "stars": 853,
     "description": "Pokémon Pokopia (Switch 2) recompiled to run natively on Windows, Linux, and MacOS.  Multiplayer included, all events, modding, feature enhancements and more! Join the discord community as well - https://discord.recompia.com",
     "version": "v0.14.1",
     "releasedAt": "2026-11-17",
@@ -287,6 +287,97 @@
     "releaseUrl": "https://github.com/Korvonordico/shadow-of-rome-recompiled/releases/tag/v2.9.4",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
+  },
+  {
+    "id": "nathanialf-ico-pc",
+    "repo": "nathanialf/ico-pc",
+    "title": "ICO",
+    "game": "ico",
+    "author": "nathanialf",
+    "console": "PlayStation 2",
+    "mechanism": "native",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Android",
+      "iOS"
+    ],
+    "stars": 549,
+    "description": "PC, Android, iOS and macOS port of the ICO (PS2) decompilation (nathanialf/ico): Windows, Linux, Steam Deck, Android, iPhone via LiveContainer and Apple-silicon Mac (contributed). Contains no game data.",
+    "version": "v0.11.8",
+    "releasedAt": "2026-11-17",
+    "sizeBytes": 33407410,
+    "releaseUrl": "https://github.com/nathanialf/ico-pc/releases/tag/v0.11.8",
+    "licenseId": "NOASSERTION",
+    "licenseUrl": null,
+    "curated": true
+  },
+  {
+    "id": "ajncsystem-shadowofthecolossus-pc",
+    "repo": "AjncSystem/ShadowOfTheColossus-PC",
+    "title": "Shadow of the Colossus",
+    "game": "sotc-ps4",
+    "author": "AjncSystem",
+    "console": "PlayStation 4",
+    "mechanism": "native",
+    "platforms": [
+      "PC"
+    ],
+    "stars": 1957,
+    "description": "Native Windows port of Shadow of the Colossus (PS4, CUSA08809) - bring your own game dump. Port nativo para PC.",
+    "version": "v0.76.1",
+    "releasedAt": "2026-11-17",
+    "sizeBytes": 155153327,
+    "releaseUrl": "https://github.com/AjncSystem/ShadowOfTheColossus-PC/releases/tag/v0.76.1",
+    "licenseId": "GPL-2.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-2.0",
+    "curated": true
+  },
+  {
+    "id": "lucas-blip-png-dkb-pc-recomp",
+    "repo": "Lucas-blip-png/dkb-pc-recomp",
+    "title": "Donkey Kong Bananza",
+    "game": null,
+    "author": "Lucas-blip-png",
+    "console": "Nintendo Switch 2",
+    "mechanism": "in-progress",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "stars": 1144,
+    "description": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows and Linux with Vulkan. 0.4.0: Snow World and Glacier device loss fixed on NVIDIA, AMD device loss fixed for testers, crashes guarded, DLC and mods, .nx input, Linux AppImage, heavy scene ~58 fps. Roadmap: #10. No game files included.",
+    "version": "v0.4.1",
+    "releasedAt": "2026-11-17",
+    "sizeBytes": 221792760,
+    "releaseUrl": "https://github.com/Lucas-blip-png/dkb-pc-recomp/releases/tag/v0.4.1",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
+  },
+  {
+    "id": "saulob-dragons-crown-pro-pc",
+    "repo": "saulob/dragons-crown-pro-pc",
+    "title": "Dragon's Crown Pro",
+    "game": "dragons-crown",
+    "author": "saulob",
+    "console": "PlayStation 4",
+    "mechanism": "native",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 458,
+    "description": "Dragon's Crown Pro native PC port for Windows, with direct PS4 PKG installation, TRG launcher and modern graphics options",
+    "version": "v1.3.0",
+    "releasedAt": "2026-11-17",
+    "sizeBytes": 33630440,
+    "releaseUrl": "https://github.com/saulob/dragons-crown-pro-pc/releases/tag/v1.3.0",
+    "licenseId": "GPL-2.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-2.0",
     "curated": true
   },
   {
@@ -549,7 +640,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 367,
+    "stars": 368,
     "description": "A native Windows PC port of Super Mario Odyssey by static recompilation. Bring your own game: no game files included.",
     "version": "v0.3.1",
     "releasedAt": "2026-11-16",
@@ -643,31 +734,6 @@
     "sizeBytes": null,
     "releaseUrl": "https://github.com/pret/pmd-red/releases",
     "licenseId": null,
-    "licenseUrl": null,
-    "curated": true
-  },
-  {
-    "id": "nathanialf-ico-pc",
-    "repo": "nathanialf/ico-pc",
-    "title": "ICO",
-    "game": "ico",
-    "author": "nathanialf",
-    "console": "PlayStation 2",
-    "mechanism": "native",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "macOS",
-      "Android",
-      "iOS"
-    ],
-    "stars": 548,
-    "description": "PC, Android, iOS and macOS port of the ICO (PS2) decompilation (nathanialf/ico): Windows, Linux, Steam Deck, Android, iPhone via LiveContainer and Apple-silicon Mac (contributed). Contains no game data.",
-    "version": "v0.11.7",
-    "releasedAt": "2026-11-16",
-    "sizeBytes": 33149868,
-    "releaseUrl": "https://github.com/nathanialf/ico-pc/releases/tag/v0.11.7",
-    "licenseId": "NOASSERTION",
     "licenseUrl": null,
     "curated": true
   },
@@ -981,7 +1047,7 @@
     "platforms": [
       "Android"
     ],
-    "stars": 106,
+    "stars": 107,
     "description": "FINAL FANTASY VII (PC) statically recompiled to native ARM64 Android, with an FFNx renderer and a 7th Heaven-style mod launcher. No game files included.",
     "version": "v1.1.16",
     "releasedAt": "2026-11-16",
@@ -1208,27 +1274,6 @@
     "releaseUrl": "https://github.com/RussoPhone/tomodachi-ltd-recomp/releases",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
-    "curated": true
-  },
-  {
-    "id": "ajncsystem-shadowofthecolossus-pc",
-    "repo": "AjncSystem/ShadowOfTheColossus-PC",
-    "title": "Shadow of the Colossus",
-    "game": "sotc-ps4",
-    "author": "AjncSystem",
-    "console": "PlayStation 4",
-    "mechanism": "native",
-    "platforms": [
-      "PC"
-    ],
-    "stars": 1956,
-    "description": "Native Windows port of Shadow of the Colossus (PS4, CUSA08809) - bring your own game dump. Port nativo para PC.",
-    "version": "v0.76",
-    "releasedAt": "2026-11-16",
-    "sizeBytes": 155151086,
-    "releaseUrl": "https://github.com/AjncSystem/ShadowOfTheColossus-PC/releases/tag/v0.76",
-    "licenseId": "GPL-2.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-2.0",
     "curated": true
   },
   {
@@ -1473,7 +1518,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 2462,
+    "stars": 2463,
     "description": "Static recompilation of Link's Awakening (Switch) to native macOS, Windows, Linux, iOS and Android.",
     "version": "beta_6",
     "releasedAt": "2026-11-15",
@@ -1534,7 +1579,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 95,
+    "stars": 96,
     "description": "Play Midtown Madness 3 natively on Windows 10/11 and Linux: your resolution, widescreen, up to 120 fps, controller or keyboard, and optional mods. Get the installer from Releases; you need your own copy of the Xbox game.",
     "version": "v2.7.4",
     "releasedAt": "2026-11-15",
@@ -1721,29 +1766,6 @@
     "curated": true
   },
   {
-    "id": "lucas-blip-png-dkb-pc-recomp",
-    "repo": "Lucas-blip-png/dkb-pc-recomp",
-    "title": "Donkey Kong Bananza",
-    "game": null,
-    "author": "Lucas-blip-png",
-    "console": "Nintendo Switch 2",
-    "mechanism": "in-progress",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "macOS"
-    ],
-    "stars": 1142,
-    "description": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows and Linux with Vulkan. 0.4.0: Snow World and Glacier device loss fixed on NVIDIA, AMD device loss fixed for testers, crashes guarded, DLC and mods, .nx input, Linux AppImage, heavy scene ~58 fps. Roadmap: #10. No game files included.",
-    "version": "v0.4.0",
-    "releasedAt": "2026-11-15",
-    "sizeBytes": 220809720,
-    "releaseUrl": "https://github.com/Lucas-blip-png/dkb-pc-recomp/releases/tag/v0.4.0",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
-    "curated": true
-  },
-  {
     "id": "valentderah-totk-pc-recomp",
     "repo": "valentderah/totk-pc-recomp",
     "title": "The Legend of Zelda: Tears of the Kingdom",
@@ -1755,7 +1777,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 7525,
+    "stars": 7529,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.4.1",
     "releasedAt": "2026-11-15",
@@ -1797,7 +1819,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 2310,
+    "stars": 2311,
     "description": "Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo",
     "version": "v0.3.15",
     "releasedAt": "2026-11-15",
@@ -1880,7 +1902,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 322,
+    "stars": 326,
     "description": "An unofficial PC port of the Xbox version of Shadow the Hedgehog, created through the process of static recompilation. ",
     "version": "v1.0.0",
     "releasedAt": "2026-11-15",
@@ -2006,7 +2028,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 40,
+    "stars": 41,
     "description": "Static recompilation of Killer Instinct Gold (N64) for Windows, built on N64Recomp, N64ModernRuntime and RT64",
     "version": "v0.4.1",
     "releasedAt": "2026-11-15",
@@ -2027,7 +2049,7 @@
       "Windows",
       "macOS"
     ],
-    "stars": 922,
+    "stars": 925,
     "description": "An unofficial PC port of the Xbox 360 version of Sonic the Hedgehog (2006) created through the process of static recompilation",
     "version": "v1.0.0",
     "releasedAt": "2026-11-14",
@@ -2260,7 +2282,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 80,
+    "stars": 81,
     "description": "Unofficial native PC ports of the classic Monster Hunter games via static recompilation, starting with Freedom Unite. No emulator. Bring your own copy",
     "version": "v0.11.1",
     "releasedAt": "2026-11-14",
@@ -2556,7 +2578,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 585,
+    "stars": 586,
     "description": "Native PC port (Linux/Windows) of The Last Guardian (PS4, CUSA03627) — runs your own game dump; no game or firmware files included. Mouse/keyboard, optional 60 FPS, SMAA/CAS filters. | Port nativo para PC de The Last Guardian — usa o seu próprio dump.",
     "version": "v2026.11.14-ee3327d",
     "releasedAt": "2026-11-14",
@@ -2642,7 +2664,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5480,
+    "stars": 5481,
     "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
     "version": "windows-v1.9.8.6",
     "releasedAt": "2026-11-13",
@@ -2775,28 +2797,6 @@
     "releaseUrl": "https://github.com/DrummingBird1/gow-psp-recomp/releases/tag/v1.6.0",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
-    "curated": true
-  },
-  {
-    "id": "saulob-dragons-crown-pro-pc",
-    "repo": "saulob/dragons-crown-pro-pc",
-    "title": "Dragon's Crown Pro",
-    "game": "dragons-crown",
-    "author": "saulob",
-    "console": "PlayStation 4",
-    "mechanism": "native",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 458,
-    "description": "Dragon's Crown Pro native PC port for Windows, with direct PS4 PKG installation, TRG launcher and modern graphics options",
-    "version": "v1.2.0",
-    "releasedAt": "2026-11-13",
-    "sizeBytes": 33464945,
-    "releaseUrl": "https://github.com/saulob/dragons-crown-pro-pc/releases/tag/v1.2.0",
-    "licenseId": "GPL-2.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-2.0",
     "curated": true
   },
   {
@@ -3026,7 +3026,7 @@
     "platforms": [
       "Linux"
     ],
-    "stars": 62,
+    "stars": 63,
     "description": "Playable static recompilation of Star Wars: Shadows of the Empire for Nintendo 64",
     "version": "0.9.8",
     "releasedAt": "2026-11-12",
@@ -3091,7 +3091,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 47,
+    "stars": 48,
     "description": "God of War: Betrayal, remastered for Windows. A native PC port of the 2007 J2ME phone game with widescreen, high frame rates and gamepad support. Bring your own .jar.",
     "version": "gow-v1.0.1",
     "releasedAt": "2026-11-12",
@@ -3255,7 +3255,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 930,
+    "stars": 931,
     "description": "Unofficial native PC and Steam Deck port of Tears of the Kingdom 1.4.3 using static recompilation. Builds locally from the player's own extracted game dump; no game files included.",
     "version": "v0.4.0",
     "releasedAt": "2026-11-11",
@@ -3493,7 +3493,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 423,
+    "stars": 424,
     "description": "Super Mario Strikers for PC, Mac, Linux & Nintendo Switch. Ported from decompiled code. Not a recompilation.",
     "version": "v2.0.0",
     "releasedAt": "2026-11-09",
@@ -4167,7 +4167,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 1546,
+    "stars": 1547,
     "description": "Zelda Wind Waker HD Recomp",
     "version": "v0.5.1",
     "releasedAt": "2026-11-06",
@@ -4337,7 +4337,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 153,
+    "stars": 154,
     "description": "An unofficial original Xbox version PC port of 007: Nightfire via static recompilation.",
     "version": "V2",
     "releasedAt": "2026-11-05",
@@ -4832,7 +4832,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 255,
+    "stars": 256,
     "description": "",
     "version": "v0.4.2-beta",
     "releasedAt": "2026-11-01",
@@ -5276,7 +5276,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 963,
+    "stars": 964,
     "description": "An unofficial original Xbox version PC port of BLACK (2006) via static recompilation.",
     "version": "V3",
     "releasedAt": "2026-10-29",
@@ -5792,7 +5792,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 7936,
+    "stars": 7937,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -8386,7 +8386,7 @@
     "console": "Xbox 360",
     "mechanism": "native",
     "platforms": [],
-    "stars": 67,
+    "stars": 68,
     "description": "",
     "version": "v0.6.0",
     "releasedAt": "2026-07-22",
@@ -8852,7 +8852,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 2147,
+    "stars": 2148,
     "description": "SF64 PC Port",
     "version": "v2.0.0",
     "releasedAt": "2025-05-25",
