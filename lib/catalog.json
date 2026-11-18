@@ -141,7 +141,7 @@
     "console": "PlayStation 3",
     "mechanism": "in-progress",
     "platforms": [],
-    "stars": 168,
+    "stars": 169,
     "description": "Killzone 3 // Unofficial PC Port (static recompilation). Work in progress, partly playable. Builds on your PC from your own game.",
     "version": null,
     "releasedAt": "2026-11-18",
@@ -221,7 +221,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 886,
+    "stars": 887,
     "description": "A cozy life-simulation and sandbox builder with fantastical creatures (Switch 2), recompiled to run natively on Windows, Linux and macOS. Multiplayer, all events, modding, enhancements and more. Discord: https://discord.recompia.com",
     "version": "v0.14.2",
     "releasedAt": "2026-11-18",
@@ -386,7 +386,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 389,
+    "stars": 390,
     "description": "A native Windows PC port of Super Mario Odyssey by static recompilation. Bring your own game: no game files included.",
     "version": "v0.4.5",
     "releasedAt": "2026-11-18",
@@ -716,7 +716,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 2485,
+    "stars": 2486,
     "description": "Decompilation of The Legend of Zelda: Breath of the Wild (Switch 1.5.0)",
     "version": null,
     "releasedAt": "2026-11-18",
@@ -765,6 +765,74 @@
     "releaseUrl": "https://github.com/MikeSemicolonD/RogueSquadron64Recomp/releases",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
+  },
+  {
+    "id": "u0rhs-burnout3-native",
+    "repo": "u0rhs/burnout3-native",
+    "title": "Burnout 3",
+    "game": null,
+    "author": "u0rhs",
+    "console": "PC",
+    "mechanism": "native",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "stars": 56,
+    "description": "Burnout 3: Takedown, native on every platform",
+    "version": "v1.2.0",
+    "releasedAt": "2026-11-18",
+    "sizeBytes": 28406503,
+    "releaseUrl": "https://github.com/u0rhs/burnout3-native/releases/tag/v1.2.0",
+    "licenseId": "MIT",
+    "licenseUrl": "https://api.github.com/licenses/mit"
+  },
+  {
+    "id": "lakshya16157-midtown-madness-3-pc-native",
+    "repo": "lakshya16157/midtown-madness-3-PC-Native",
+    "title": "Midtown Madness 3",
+    "game": null,
+    "author": "lakshya16157",
+    "console": "Xbox",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 103,
+    "description": "Play Midtown Madness 3 natively on Windows 10/11 and Linux: your resolution, widescreen, up to 120 fps, controller or keyboard, and optional mods. Get the installer from Releases; you need your own copy of the Xbox game.",
+    "version": "v2.8",
+    "releasedAt": "2026-11-18",
+    "sizeBytes": 91552076,
+    "releaseUrl": "https://github.com/lakshya16157/midtown-madness-3-PC-Native/releases/tag/v2.8",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
+  },
+  {
+    "id": "openrac-openrac",
+    "repo": "OpenRAC/OpenRAC",
+    "title": "Ratchet & Clank",
+    "game": null,
+    "author": "OpenRAC",
+    "console": "PlayStation 2",
+    "mechanism": "native",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Android"
+    ],
+    "stars": 213,
+    "description": "A matching decompilation and PC port for the Ratchet & Clank series",
+    "version": "launcher-v1.1.0",
+    "releasedAt": "2026-11-18",
+    "sizeBytes": 223936176,
+    "releaseUrl": "https://github.com/OpenRAC/OpenRAC/releases/tag/launcher-v1.1.0",
+    "licenseId": "NOASSERTION",
+    "licenseUrl": null,
+    "curated": true
   },
   {
     "id": "tmcleroy-cps2recomp",
@@ -882,7 +950,7 @@
     "platforms": [
       "PC"
     ],
-    "stars": 1982,
+    "stars": 1983,
     "description": "Native Windows port of Shadow of the Colossus (PS4, CUSA08809) - bring your own game dump. Port nativo para PC.",
     "version": "v0.76.2",
     "releasedAt": "2026-11-17",
@@ -905,7 +973,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 1199,
+    "stars": 1201,
     "description": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows and Linux with Vulkan. 0.4.1: FSR 3.1/FSR 4 upscalers, frame generation Auto and 3x-8x, window and CRT filters, smoother audio, Polish, AppImage fix; 38 community PRs. Roadmap: #10. No game files included.",
     "version": "v0.4.1",
     "releasedAt": "2026-11-17",
@@ -1320,28 +1388,6 @@
     "curated": true
   },
   {
-    "id": "u0rhs-burnout3-native",
-    "repo": "u0rhs/burnout3-native",
-    "title": "Burnout 3",
-    "game": null,
-    "author": "u0rhs",
-    "console": "PC",
-    "mechanism": "native",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "macOS"
-    ],
-    "stars": 55,
-    "description": "Burnout 3: Takedown, native on every platform",
-    "version": "v1.1.0",
-    "releasedAt": "2026-11-17",
-    "sizeBytes": 27649244,
-    "releaseUrl": "https://github.com/u0rhs/burnout3-native/releases/tag/v1.1.0",
-    "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit"
-  },
-  {
     "id": "denzi-gh-crashwoc-nuworld",
     "repo": "denzi-gh/crashwoc-nuworld",
     "title": "Crash Bandicoot: The Wrath of Cortex",
@@ -1521,7 +1567,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 239,
+    "stars": 240,
     "description": "Native Windows port of Demon's Souls (PS3, BLUS-30443) via ps3recomp static recompilation. Bring your own disc image; no game files included.",
     "version": "v2026.11.15",
     "releasedAt": "2026-11-16",
@@ -1695,7 +1741,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 310,
+    "stars": 311,
     "description": "A static recompilation of Condemned 2: Bloodshot done with RexGlue.",
     "version": "0.6.1",
     "releasedAt": "2026-11-16",
@@ -1915,6 +1961,24 @@
     "curated": true
   },
   {
+    "id": "nicowayne95-lcs-ps2-recomp",
+    "repo": "NicoWayne95/lcs-ps2-recomp",
+    "title": "Lcs Ps 2",
+    "game": null,
+    "author": "NicoWayne95",
+    "console": "PlayStation 2",
+    "mechanism": "recompiled",
+    "platforms": [],
+    "stars": 40,
+    "description": "Experimental PS2-to-Windows recompilation project focused on compatibility, graphics rendering and performance.",
+    "version": null,
+    "releasedAt": "2026-11-16",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/NicoWayne95/lcs-ps2-recomp/releases",
+    "licenseId": null,
+    "licenseUrl": null
+  },
+  {
     "id": "pauloubirajara-asuras-wrath-recomp",
     "repo": "PauloUbirajara/asuras-wrath-recomp",
     "title": "Asura's Wrath",
@@ -2093,7 +2157,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 2489,
+    "stars": 2490,
     "description": "Static recompilation of Link's Awakening (Switch) to native macOS, Windows, Linux, iOS and Android.",
     "version": "beta_6",
     "releasedAt": "2026-11-15",
@@ -2143,28 +2207,6 @@
     "curated": true
   },
   {
-    "id": "lakshya16157-midtown-madness-3-pc-native",
-    "repo": "lakshya16157/midtown-madness-3-PC-Native",
-    "title": "Midtown Madness 3",
-    "game": null,
-    "author": "lakshya16157",
-    "console": "Xbox",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 103,
-    "description": "Play Midtown Madness 3 natively on Windows 10/11 and Linux: your resolution, widescreen, up to 120 fps, controller or keyboard, and optional mods. Get the installer from Releases; you need your own copy of the Xbox game.",
-    "version": "v2.7.4",
-    "releasedAt": "2026-11-15",
-    "sizeBytes": 89652476,
-    "releaseUrl": "https://github.com/lakshya16157/midtown-madness-3-PC-Native/releases/tag/v2.7.4",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
-    "curated": true
-  },
-  {
     "id": "xenios-jp-xenios",
     "repo": "xenios-jp/XeniOS",
     "title": "XeniOS",
@@ -2176,7 +2218,7 @@
       "macOS",
       "iOS"
     ],
-    "stars": 370,
+    "stars": 371,
     "description": "The iOS and MacOS port of Xenia, the Xbox 360 Emulator Research project.",
     "version": "release-v2.3.3-build-11940",
     "releasedAt": "2026-11-15",
@@ -2352,7 +2394,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 7663,
+    "stars": 7665,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.4.1",
     "releasedAt": "2026-11-15",
@@ -2437,7 +2479,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 388,
+    "stars": 389,
     "description": "An unofficial PC port of the Xbox version of Shadow the Hedgehog, created through the process of static recompilation. ",
     "version": "v1.0.0",
     "releasedAt": "2026-11-15",
@@ -2499,7 +2541,7 @@
       "Linux",
       "iOS"
     ],
-    "stars": 642,
+    "stars": 643,
     "description": "The Legend of Zelda: The Wind Waker Recompiled. Native for MacOS, iOS, Windows, Linux, and Android.",
     "version": "v0.12.0",
     "releasedAt": "2026-11-15",
@@ -3179,7 +3221,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5514,
+    "stars": 5515,
     "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
     "version": "windows-v1.9.8.6",
     "releasedAt": "2026-11-13",
@@ -4074,7 +4116,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 336,
+    "stars": 337,
     "description": "Zelda: Tears of the Kingdom (TotK) 1.0.0 recompiled to native Windows and Vulkan. Frame cap up to 240, DLSS option, mouse and keyboard. Open source, mostly written by AI agents. You build it from your own dump; no game files included. Measured on one PC so far.",
     "version": "v0.1.10.1",
     "releasedAt": "2026-11-08",
@@ -4566,30 +4608,6 @@
     "curated": true
   },
   {
-    "id": "openrac-openrac",
-    "repo": "OpenRAC/OpenRAC",
-    "title": "Ratchet & Clank",
-    "game": null,
-    "author": "OpenRAC",
-    "console": "PlayStation 2",
-    "mechanism": "native",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "macOS",
-      "Android"
-    ],
-    "stars": 213,
-    "description": "A matching decompilation and PC port for the Ratchet & Clank series",
-    "version": "launcher-v1.0.2",
-    "releasedAt": "2026-11-05",
-    "sizeBytes": 145406456,
-    "releaseUrl": "https://github.com/OpenRAC/OpenRAC/releases/tag/launcher-v1.0.2",
-    "licenseId": "NOASSERTION",
-    "licenseUrl": null,
-    "curated": true
-  },
-  {
     "id": "birabittoh-nocturnerecomp",
     "repo": "birabittoh/NocturneRecomp",
     "title": "Castlevania: Symphony of the Night",
@@ -4727,7 +4745,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 65,
+    "stars": 66,
     "description": "GoldenEye007: Reloaded 2011 [Xbox360] game static recompilation project based on RexGlue-SDK",
     "version": "1.5",
     "releasedAt": "2026-11-05",
@@ -4770,7 +4788,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 206,
+    "stars": 207,
     "description": "Odin Sphere Leifthrasir native PC port for Windows, with direct PS4 PKG installation, TRG launcher and modern graphics options",
     "version": "v0.2.3",
     "releasedAt": "2026-11-04",
@@ -4834,7 +4852,7 @@
     "console": "Nintendo 64",
     "mechanism": "native",
     "platforms": [],
-    "stars": 1790,
+    "stars": 1791,
     "description": "Decompilation of The Legend of Zelda: Majora's Mask",
     "version": null,
     "releasedAt": "2026-11-04",
@@ -5227,7 +5245,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 388,
+    "stars": 389,
     "description": "Breath of the Wild (Wii U, v1.5.0) statically recompiled to a native Windows program with a Vulkan renderer. ",
     "version": "v0.1.2",
     "releasedAt": "2026-10-31",
@@ -5353,7 +5371,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 85,
+    "stars": 86,
     "description": "Gears of War 3 (Xbox 360) statically recompiled to native Windows x64 with the ReXGlue SDK. Bring your own copy of the game; no game files are included.",
     "version": "v0.3.1",
     "releasedAt": "2026-10-30",
@@ -5701,7 +5719,7 @@
     "console": "PC",
     "mechanism": "native",
     "platforms": [],
-    "stars": 331,
+    "stars": 332,
     "description": "Decompilation of Deus Ex: Human Revolution",
     "version": null,
     "releasedAt": "2026-10-28",
@@ -5722,7 +5740,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 248,
+    "stars": 247,
     "description": "A static native recompilation of Need for Speed: Most Wanted (2005) Xbox 360",
     "version": "v1.0.2",
     "releasedAt": "2026-10-28",
@@ -5744,7 +5762,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 4119,
+    "stars": 4120,
     "description": "Bloodborne (v1.09) running natively on Linux and Windows: the game's x86-64 code runs as is, GPU side translated to Vulkan; FSR 4 / DLSS, co-op (BBSC). Bring your own dump.",
     "version": "0.7",
     "releasedAt": "2026-10-28",
@@ -5870,7 +5888,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 999,
+    "stars": 1001,
     "description": "Experimental native PC port of Lost Odyssey using static recompilation. No game assets included.",
     "version": "v1.1.0",
     "releasedAt": "2026-10-26",
@@ -6037,7 +6055,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 8025,
+    "stars": 8027,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -7367,7 +7385,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 83,
+    "stars": 84,
     "description": "A native PC recompilation project for the Crash Titans era.",
     "version": "v1.1.0",
     "releasedAt": "2026-10-06",
@@ -7662,7 +7680,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 6450,
+    "stars": 6452,
     "description": "Dusklight brings a classic adventure to PC and mobile platforms with a variety of fixes and improvements.",
     "version": "v2.0.3",
     "releasedAt": "2026-09-30",
@@ -8000,7 +8018,7 @@
     "console": "Xbox 360",
     "mechanism": "native",
     "platforms": [],
-    "stars": 427,
+    "stars": 430,
     "description": "A Fable 2 Recomp",
     "version": null,
     "releasedAt": "2026-09-12",
@@ -8130,7 +8148,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 876,
+    "stars": 877,
     "description": "Multiplatform and Feature-rich Port based on PSX decompilation of Silent Hill 1 made with Claude and Psycross. Still in beta and is in active development.",
     "version": "crossplatform-beta",
     "releasedAt": "2026-09-04",
@@ -8550,7 +8568,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 1840,
+    "stars": 1841,
     "description": "A native recompilation of Skate 3 for Windows, Linux, and macOS.",
     "version": "v2.0.2",
     "releasedAt": "2026-07-24",
