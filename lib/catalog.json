@@ -84,7 +84,7 @@
     "console": "PlayStation 4",
     "mechanism": "native",
     "platforms": [],
-    "stars": 218,
+    "stars": 219,
     "description": "A decompilation of Bloodborne (CUSA03173 v1.09) with its own runtime: the game's code rewritten as readable C++, one verified function at a time. The game doesn't run on it yet; 21 functions verified. No game files included.",
     "version": null,
     "releasedAt": "2026-11-19",
@@ -188,33 +188,10 @@
     "description": "Native port of Sonic Riders (GameCube) for Windows, Linux / Steam Deck, Nintendo Switch, Switch 2 (experimental alpha), Android and iPhone / iPad. Built from your own disc image; no game data included.",
     "version": "v0.8.7",
     "releasedAt": "2026-11-19",
-    "sizeBytes": 8257527,
+    "sizeBytes": 8272819,
     "releaseUrl": "https://github.com/teclilla18/sonic-riders-recomp/releases/tag/v0.8.7",
     "licenseId": "MPL-2.0",
     "licenseUrl": "https://api.github.com/licenses/mpl-2.0"
-  },
-  {
-    "id": "sciaschi-cbfd-recompiled",
-    "repo": "sciaschi/CBFD-Recompiled",
-    "title": "Conker's Bad Fur Day",
-    "game": "conkers-bad-fur-day",
-    "author": "sciaschi",
-    "console": "Nintendo 64",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "macOS"
-    ],
-    "stars": 347,
-    "description": "Conker's Bad Fur Day Recompiled",
-    "version": "V0.1.7",
-    "releasedAt": "2026-11-19",
-    "sizeBytes": 22301280,
-    "releaseUrl": "https://github.com/sciaschi/CBFD-Recompiled/releases/tag/V0.1.7",
-    "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit",
-    "curated": true
   },
   {
     "id": "mzzvxm-larecomp",
@@ -378,6 +355,49 @@
     "curated": true
   },
   {
+    "id": "cadugimenes-sanctuaryport",
+    "repo": "CaduGimenes/SanctuaryPort",
+    "title": "Diablo III: Reaper of Souls – Ultimate Evil Edition",
+    "game": null,
+    "author": "CaduGimenes",
+    "console": "PlayStation 4",
+    "mechanism": "native",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 71,
+    "description": "Native PC port of Diablo III: Reaper of Souls – Ultimate Evil Edition (PS4). Local co-op for 4.",
+    "version": "v0.6.7",
+    "releasedAt": "2026-11-19",
+    "sizeBytes": 148926931,
+    "releaseUrl": "https://github.com/CaduGimenes/SanctuaryPort/releases/tag/v0.6.7",
+    "licenseId": "GPL-2.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-2.0"
+  },
+  {
+    "id": "fh1-reimagined-forzahorizon1-reimagined",
+    "repo": "FH1-ReImagined/ForzaHorizon1-ReImagined",
+    "title": "Forza Horizon",
+    "game": "forza-horizon",
+    "author": "FH1-ReImagined",
+    "console": "Xbox 360",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 478,
+    "description": "The 2012 Forza Horizon, native on Windows and Linux, and online again: Horizon World, leaderboards and Rivals on a public server you can also self-host. Bring your own copy.",
+    "version": "v0.3.9",
+    "releasedAt": "2026-11-19",
+    "sizeBytes": 205114744,
+    "releaseUrl": "https://github.com/FH1-ReImagined/ForzaHorizon1-ReImagined/releases/tag/v0.3.9",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
+  },
+  {
     "id": "portingpete-the-darkness-recomp",
     "repo": "portingpete/The-Darkness-Recomp",
     "title": "The Darkness",
@@ -466,7 +486,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 896,
+    "stars": 897,
     "description": "A cozy life-simulation and sandbox builder with fantastical creatures (Switch 2), recompiled to run natively on Windows, Linux and macOS. Multiplayer, all events, modding, enhancements and more. Discord: https://discord.recompia.com",
     "version": "v0.15.0",
     "releasedAt": "2026-11-18",
@@ -513,7 +533,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 561,
+    "stars": 562,
     "description": "PC, Android, iOS and macOS port of the ICO (PS2) decompilation (nathanialf/ico): Windows, Linux, Steam Deck, Android, iPhone via LiveContainer and Apple-silicon Mac (contributed). Contains no game data.",
     "version": "v0.11.11",
     "releasedAt": "2026-11-18",
@@ -592,7 +612,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 398,
+    "stars": 399,
     "description": "A native Windows PC port of Super Mario Odyssey by static recompilation. Bring your own game: no game files included.",
     "version": "v0.4.7",
     "releasedAt": "2026-11-18",
@@ -987,7 +1007,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 513,
+    "stars": 516,
     "description": "This is an open source, all-in-one, static recompilation project that I built from the ground up for the Xbox 360 Gears of War series. All 4 games have been personally recompiled for use with a fully native renderer by me.",
     "version": "0.6.5",
     "releasedAt": "2026-11-18",
@@ -1158,7 +1178,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 230,
+    "stars": 233,
     "description": "inFAMOUS 2 (PS3) as a native PC program for Windows and Linux: Setup recompiles YOUR copy on your PC (static recompilation, Vulkan). No game files included.",
     "version": "v0.6.3",
     "releasedAt": "2026-11-18",
@@ -1176,7 +1196,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 47,
+    "stars": 50,
     "description": "Experimental PS2-to-Windows recompilation project focused on compatibility, graphics rendering and performance.",
     "version": null,
     "releasedAt": "2026-11-18",
@@ -1303,27 +1323,6 @@
     "curated": true
   },
   {
-    "id": "cadugimenes-sanctuaryport",
-    "repo": "CaduGimenes/SanctuaryPort",
-    "title": "Diablo III: Reaper of Souls – Ultimate Evil Edition",
-    "game": null,
-    "author": "CaduGimenes",
-    "console": "PlayStation 4",
-    "mechanism": "native",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 70,
-    "description": "Native PC port of Diablo III: Reaper of Souls – Ultimate Evil Edition (PS4). Local co-op for 4.",
-    "version": "v0.6.6",
-    "releasedAt": "2026-11-17",
-    "sizeBytes": 136419832,
-    "releaseUrl": "https://github.com/CaduGimenes/SanctuaryPort/releases/tag/v0.6.6",
-    "licenseId": "GPL-2.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-2.0"
-  },
-  {
     "id": "ajncsystem-shadowofthecolossus-pc",
     "repo": "AjncSystem/ShadowOfTheColossus-PC",
     "title": "Shadow of the Colossus",
@@ -1334,7 +1333,7 @@
     "platforms": [
       "PC"
     ],
-    "stars": 1985,
+    "stars": 1987,
     "description": "Native Windows port of Shadow of the Colossus (PS4, CUSA08809) - bring your own game dump. Port nativo para PC.",
     "version": "v0.76.2",
     "releasedAt": "2026-11-17",
@@ -1400,7 +1399,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 1071,
+    "stars": 1072,
     "description": "A playable preview of Forza Horizon static recompilation",
     "version": "v0.9.1",
     "releasedAt": "2026-11-17",
@@ -2082,7 +2081,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 48,
+    "stars": 50,
     "description": "A native PC port of SSX (2012), decoded from the Xbox 360 disc and rebuilt in Rust on Bevy.",
     "version": "v0.4.1",
     "releasedAt": "2026-11-16",
@@ -2100,7 +2099,7 @@
     "console": "Nintendo 64",
     "mechanism": "in-progress",
     "platforms": [],
-    "stars": 66,
+    "stars": 67,
     "description": "WIP Space Station Silicon Valley N64 Decomp",
     "version": null,
     "releasedAt": "2026-11-16",
@@ -2511,28 +2510,6 @@
     "curated": true
   },
   {
-    "id": "fh1-reimagined-forzahorizon1-reimagined",
-    "repo": "FH1-ReImagined/ForzaHorizon1-ReImagined",
-    "title": "Forza Horizon",
-    "game": "forza-horizon",
-    "author": "FH1-ReImagined",
-    "console": "Xbox 360",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 478,
-    "description": "The 2012 Forza Horizon, native on Windows and Linux, and online again: Horizon World, leaderboards and Rivals on a public server you can also self-host. Bring your own copy.",
-    "version": "v0.3.8",
-    "releasedAt": "2026-11-15",
-    "sizeBytes": 205093191,
-    "releaseUrl": "https://github.com/FH1-ReImagined/ForzaHorizon1-ReImagined/releases/tag/v0.3.8",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
-    "curated": true
-  },
-  {
     "id": "i2kiselev-fm4-static-recomp",
     "repo": "i2kiselev/fm4-static-recomp",
     "title": "Forza Motorsport 4",
@@ -2566,7 +2543,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 7687,
+    "stars": 7690,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.4.1",
     "releasedAt": "2026-11-15",
@@ -3027,7 +3004,7 @@
     "console": "PlayStation 3",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 69,
+    "stars": 70,
     "description": "Unofficial native Windows port of ARMORED CORE 4 (PS3), built from your own copy of the game. Part of Project Glintburn.",
     "version": "v0.7.0",
     "releasedAt": "2026-11-14",
@@ -4600,7 +4577,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 1596,
+    "stars": 1594,
     "description": "Zelda Wind Waker HD Recomp",
     "version": "v0.5.1",
     "releasedAt": "2026-11-06",
@@ -4961,7 +4938,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 769,
+    "stars": 770,
     "description": "PC port of Dragon Ball Z: Budokai Tenkaichi 3, built on the BT3-Decompiled project.",
     "version": "v0.1.39.6",
     "releasedAt": "2026-11-03",
@@ -5087,7 +5064,7 @@
     "platforms": [
       "Android"
     ],
-    "stars": 53,
+    "stars": 54,
     "description": "Naruto Storm 4 MOD (sobre o Ultimate Ninja Storm Revolution) - port nativo para Android (ARM64) e PC (sem arquivos do jogo)",
     "version": "v1.1.11",
     "releasedAt": "2026-11-03",
@@ -5179,7 +5156,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 272,
+    "stars": 271,
     "description": "GTA V (Xbox 360, TU27) static recompilation with ReXGlue",
     "version": "v0.3.0",
     "releasedAt": "2026-11-02",
@@ -5288,7 +5265,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 173,
+    "stars": 174,
     "description": "Fan mod of Dino Crisis (PS1). It brings a modern Resident evil Remakes like over-the-shoulder camera, updated controls, visual/gameplay improvements, and plenty of Quality of Life settings to customize the experience to your liking.",
     "version": "v1.07",
     "releasedAt": "2026-11-01",
@@ -5928,7 +5905,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 73,
+    "stars": 74,
     "description": "Recompilation Project for Timesplitters 2",
     "version": "v0.5.2",
     "releasedAt": "2026-10-27",
@@ -6096,7 +6073,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 8048,
+    "stars": 8054,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -6491,7 +6468,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 1209,
+    "stars": 1208,
     "description": "Native PC port (Linux/Windows) of inFAMOUS Second Son (PS4, CUSA00223) — in development, playable; runs your own game dump; no game or firmware files included. Motion sensor emulation. | Port nativo para PC de inFAMOUS Second Son (em desenvolvimento) — usa o seu próprio dump.",
     "version": "v1.0",
     "releasedAt": "2026-10-22",
@@ -6793,7 +6770,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 6103,
+    "stars": 6104,
     "description": "Ship of Harkinian: a PC port of Ocarina of Time built from the decompilation, with widescreen, high framerate and mod support.",
     "version": "9.3.1",
     "releasedAt": "2026-10-18",
@@ -7102,6 +7079,29 @@
     "releaseUrl": "https://github.com/danisandoval/fukami/releases/tag/v1.1.0",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
+  },
+  {
+    "id": "sciaschi-cbfd-recompiled",
+    "repo": "sciaschi/CBFD-Recompiled",
+    "title": "Conker's Bad Fur Day",
+    "game": "conkers-bad-fur-day",
+    "author": "sciaschi",
+    "console": "Nintendo 64",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "stars": 347,
+    "description": "Conker's Bad Fur Day Recompiled",
+    "version": "V0.1.6",
+    "releasedAt": "2026-10-13",
+    "sizeBytes": 22781093,
+    "releaseUrl": "https://github.com/sciaschi/CBFD-Recompiled/releases/tag/V0.1.6",
+    "licenseId": "MIT",
+    "licenseUrl": "https://api.github.com/licenses/mit",
     "curated": true
   },
   {
@@ -8036,7 +8036,7 @@
     "console": "Xbox 360",
     "mechanism": "native",
     "platforms": [],
-    "stars": 455,
+    "stars": 456,
     "description": "A Fable 2 Recomp",
     "version": null,
     "releasedAt": "2026-09-12",
@@ -8100,7 +8100,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 929,
+    "stars": 930,
     "description": "A PC port of Super Mario 64 with DirectX 11, OpenGL and Vulkan backends, fullscreen and controller support.",
     "version": "3.0.0",
     "releasedAt": "2026-09-07",
@@ -8401,7 +8401,7 @@
     "console": "Xbox 360",
     "mechanism": "native",
     "platforms": [],
-    "stars": 603,
+    "stars": 604,
     "description": "static Recomp of AC6 with Rexglue",
     "version": null,
     "releasedAt": "2026-08-22",
@@ -8605,7 +8605,7 @@
     "console": "Xbox 360",
     "mechanism": "native",
     "platforms": [],
-    "stars": 70,
+    "stars": 71,
     "description": "",
     "version": "v0.6.0",
     "releasedAt": "2026-07-22",
