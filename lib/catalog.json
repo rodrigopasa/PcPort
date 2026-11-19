@@ -244,7 +244,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 294,
+    "stars": 295,
     "description": "Ninja Gaiden II (Xbox 360, 2008) statically recompiled into native Linux and Windows builds, drawn by its own Vulkan renderer. A steady 60 fps, up to 8x render scale, widescreen and ultrawide, keyboard and mouse, mods, Steam Deck ready. Bring your own copy of the game.",
     "version": "v0.6.11",
     "releasedAt": "2026-11-19",
@@ -304,7 +304,7 @@
     "console": "PC",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 78,
+    "stars": 79,
     "description": "Fire Emblem Fates, statically recompiled to a native Windows program. Contains no game files: you build it from your own dump.",
     "version": "v1.2",
     "releasedAt": "2026-11-19",
@@ -409,7 +409,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 410,
+    "stars": 411,
     "description": "A native Windows PC port of Super Mario Odyssey by static recompilation. Bring your own game: no game files included.",
     "version": "v0.4.10",
     "releasedAt": "2026-11-19",
@@ -494,7 +494,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 906,
+    "stars": 907,
     "description": "A cozy life-simulation and sandbox builder with fantastical creatures (Switch 2), recompiled to run natively on Windows, Linux and macOS. Multiplayer, all events, modding, enhancements and more. Discord: https://discord.recompia.com",
     "version": "v0.15.1",
     "releasedAt": "2026-11-19",
@@ -557,7 +557,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 168,
+    "stars": 169,
     "description": "God of War: Ascension PC port: an unofficial, native Windows port of the PS3 game by static recompilation, no emulator. No game files included: you build it from your own copy.",
     "version": "v0.2.0",
     "releasedAt": "2026-11-19",
@@ -780,6 +780,28 @@
     "releaseUrl": "https://github.com/MikeSemicolonD/RogueSquadron64Recomp/releases",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
+  },
+  {
+    "id": "imrburn-wwe12-pc",
+    "repo": "iMrBurn/wwe12-pc",
+    "title": "WWE '12",
+    "game": null,
+    "author": "iMrBurn",
+    "console": "Xbox 360",
+    "mechanism": "native",
+    "platforms": [
+      "PC",
+      "Android"
+    ],
+    "stars": 75,
+    "description": "Static recompilation of WWE '12 (Xbox 360) for PC and Android. Native Vulkan / DirectX 12 / DirectX 11 renderer that still follows the Xbox 360 GPU model. Bring your own game.",
+    "version": "v1.4.1",
+    "releasedAt": "2026-11-19",
+    "sizeBytes": 113374773,
+    "releaseUrl": "https://github.com/iMrBurn/wwe12-pc/releases/tag/v1.4.1",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
   },
   {
     "id": "portingpete-the-darkness-recomp",
@@ -1288,7 +1310,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 1226,
+    "stars": 1227,
     "description": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows and Linux with Vulkan. 0.4.2 out; on bananza: local co-op, 16:10, Thai, start-up progress screen, faster replay on few-core CPUs, banana-pickup crash fix (#428). Roadmap: #10. No game files included.",
     "version": "v0.4.2",
     "releasedAt": "2026-11-18",
@@ -1374,7 +1396,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 252,
+    "stars": 253,
     "description": "inFAMOUS 2 (PS3) as a native PC program for Windows and Linux: Setup recompiles YOUR copy on your PC (static recompilation, Vulkan). No game files included.",
     "version": "v0.6.3",
     "releasedAt": "2026-11-18",
@@ -1481,7 +1503,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 79,
+    "stars": 80,
     "description": "Native PC port of Ace Combat 6: Fires of Liberation using XenonRecomp",
     "version": "v1.0.0",
     "releasedAt": "2026-11-18",
@@ -1525,7 +1547,7 @@
     "platforms": [
       "PC"
     ],
-    "stars": 1994,
+    "stars": 1993,
     "description": "Native Windows port of Shadow of the Colossus (PS4, CUSA08809) - bring your own game dump. Port nativo para PC.",
     "version": "v0.76.2",
     "releasedAt": "2026-11-17",
@@ -1547,7 +1569,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 511,
+    "stars": 512,
     "description": "Dragon's Crown Pro native PC port for Windows, with direct PS4 PKG installation, TRG launcher and modern graphics options",
     "version": "v1.3.0",
     "releasedAt": "2026-11-17",
@@ -1693,7 +1715,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 51,
+    "stars": 52,
     "description": "Unofficial static recompilation of Splatoon Raiders (Switch 2) to native Windows x86-64 with a Vulkan renderer. No game data included: bring your own dump.",
     "version": "v0.1.9",
     "releasedAt": "2026-11-17",
@@ -1743,28 +1765,6 @@
     "releaseUrl": "https://github.com/bhuiyah/infamous2-recomp/releases/tag/v0.1.46",
     "licenseId": "NOASSERTION",
     "licenseUrl": null,
-    "curated": true
-  },
-  {
-    "id": "imrburn-wwe12-pc",
-    "repo": "iMrBurn/wwe12-pc",
-    "title": "WWE '12",
-    "game": null,
-    "author": "iMrBurn",
-    "console": "Xbox 360",
-    "mechanism": "native",
-    "platforms": [
-      "PC",
-      "Android"
-    ],
-    "stars": 75,
-    "description": "Static recompilation of WWE '12 (Xbox 360) for PC and Android. Native Vulkan / DirectX 12 / DirectX 11 renderer that still follows the Xbox 360 GPU model. Bring your own game.",
-    "version": "v1.4.0",
-    "releasedAt": "2026-11-17",
-    "sizeBytes": 113321086,
-    "releaseUrl": "https://github.com/iMrBurn/wwe12-pc/releases/tag/v1.4.0",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
   },
   {
@@ -1824,7 +1824,7 @@
     "console": "Xbox 360",
     "mechanism": "native",
     "platforms": [],
-    "stars": 480,
+    "stars": 481,
     "description": "Tekken 6 (Xbox 360) native on Windows with rollback netcode - build from your own ISO",
     "version": "v3.1.6",
     "releasedAt": "2026-11-17",
@@ -2333,7 +2333,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 858,
+    "stars": 859,
     "description": "Definitive Bloodborne PC Experience",
     "version": "v0.2.35",
     "releasedAt": "2026-11-15",
@@ -2455,7 +2455,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 42,
+    "stars": 43,
     "description": "SOCOM II: U.S. Navy SEALs, statically recompiled for PC with self-hosted online play",
     "version": null,
     "releasedAt": "2026-11-15",
@@ -2651,7 +2651,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 7735,
+    "stars": 7736,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.4.1",
     "releasedAt": "2026-11-15",
@@ -2775,7 +2775,7 @@
     "console": "PlayStation",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 631,
+    "stars": 632,
     "description": "PSX Static Recompiler and Runtime, Not Affiliated With Sony or PlayStation",
     "version": null,
     "releasedAt": "2026-11-15",
@@ -2798,7 +2798,7 @@
       "Linux",
       "iOS"
     ],
-    "stars": 651,
+    "stars": 652,
     "description": "The Legend of Zelda: The Wind Waker Recompiled. Native for MacOS, iOS, Windows, Linux, and Android.",
     "version": "v0.12.0",
     "releasedAt": "2026-11-15",
@@ -3010,7 +3010,7 @@
     "console": "PC",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 98,
+    "stars": 99,
     "description": "Experimental Hyrule Warriors: Age of Imprisonment recompilation for Windows, with a local NUP compiler. Non-60 FPS modes accelerate gameplay; higher resolutions are unstable.",
     "version": null,
     "releasedAt": "2026-11-14",
@@ -3138,7 +3138,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 721,
+    "stars": 722,
     "description": "A native Windows and Linux port of Grand Theft Auto: Vice City Stories (PS2, USA, SLUS-21590), made by recompiling the game's PS2 executable into C++",
     "version": "v0.3.0",
     "releasedAt": "2026-11-14",
@@ -3330,7 +3330,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 590,
+    "stars": 591,
     "description": "Native PC port (Linux/Windows) of The Last Guardian (PS4, CUSA03627) — runs your own game dump; no game or firmware files included. Mouse/keyboard, optional 60 FPS, SMAA/CAS filters. | Port nativo para PC de The Last Guardian — usa o seu próprio dump.",
     "version": "v2026.11.14-ee3327d",
     "releasedAt": "2026-11-14",
@@ -3670,7 +3670,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 215,
+    "stars": 216,
     "description": "Native SDL3 port of Colin McRae Rally 2.0 built from the CMR2Decomp decompilation. No game data included.",
     "version": "v1.9.0",
     "releasedAt": "2026-11-12",
@@ -3858,7 +3858,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 946,
+    "stars": 947,
     "description": "Unofficial native PC and Steam Deck port of Tears of the Kingdom 1.4.3 using static recompilation. Builds locally from the player's own extracted game dump; no game files included.",
     "version": "v0.4.0",
     "releasedAt": "2026-11-11",
@@ -4643,7 +4643,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 1607,
+    "stars": 1608,
     "description": "Zelda Wind Waker HD Recomp",
     "version": "v0.5.1",
     "releasedAt": "2026-11-06",
@@ -4684,7 +4684,7 @@
     "console": "PlayStation",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 79,
+    "stars": 80,
     "description": "Static recompilation of Xenogears for PC ",
     "version": null,
     "releasedAt": "2026-11-06",
@@ -5265,7 +5265,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 352,
+    "stars": 353,
     "description": "Burnout Revenge recompilation based on RexGlue + standalone Plume render",
     "version": "v0.4.10",
     "releasedAt": "2026-11-01",
@@ -5435,7 +5435,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 34290,
+    "stars": 34292,
     "description": "PlayStation 4 emulator for Windows, Linux, macOS and FreeBSD written in C++",
     "version": "v.0.21.0",
     "releasedAt": "2026-10-30",
@@ -5925,7 +5925,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 208,
+    "stars": 209,
     "description": "Call of Duty: Modern Warfare 2 (2009) for Xbox 360 recompiled for Windows & Linux",
     "version": "v0.8.2",
     "releasedAt": "2026-10-27",
@@ -5973,7 +5973,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 1008,
+    "stars": 1009,
     "description": "Experimental native PC port of Lost Odyssey using static recompilation. No game assets included.",
     "version": "v1.1.0",
     "releasedAt": "2026-10-26",
@@ -6734,7 +6734,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 103,
+    "stars": 104,
     "description": "",
     "version": null,
     "releasedAt": "2026-10-20",
@@ -6814,7 +6814,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 6113,
+    "stars": 6114,
     "description": "Ship of Harkinian: a PC port of Ocarina of Time built from the decompilation, with widescreen, high framerate and mod support.",
     "version": "9.3.1",
     "releasedAt": "2026-10-18",
@@ -7320,7 +7320,7 @@
     "platforms": [
       "PC"
     ],
-    "stars": 130,
+    "stars": 131,
     "description": "A recompilation of the Xbox 360 release for Ridge Racer 6 on PC",
     "version": "v0.1.5",
     "releasedAt": "2026-10-09",
@@ -7627,7 +7627,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 136,
+    "stars": 137,
     "description": "Dragon Ball Z: Budokai Tenkaichi 3 PC port via static recompilation (PS2Recomp fork) — bring your own disc image",
     "version": null,
     "releasedAt": "2026-10-01",
@@ -7891,7 +7891,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 52,
+    "stars": 53,
     "description": "Experimental Syphon Filter 2 static recompilation for Windows using PSXRecomp",
     "version": "v0.2.0",
     "releasedAt": "2026-09-23",
@@ -7914,7 +7914,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 147,
+    "stars": 148,
     "description": "Static recompilation of Yu-Gi-Oh! Forbidden Memories (PS1) into a native executable - with a live duel-rank meter, a fusion assistant, adjustable card drops and a cheat menu. Bring your own disc.",
     "version": "v0.6.2",
     "releasedAt": "2026-09-20",
@@ -8251,7 +8251,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 42,
+    "stars": 43,
     "description": "Made with PSXrecomp, a Sony PlayStation game static recompiler ecosystem · Part of the R.A.I.D. community",
     "version": "v1.0.0",
     "releasedAt": "2026-09-03",
@@ -8336,7 +8336,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 48,
+    "stars": 49,
     "description": "",
     "version": "v0.1.2",
     "releasedAt": "2026-08-29",
@@ -8502,7 +8502,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 1677,
+    "stars": 1676,
     "description": "A free and open-source Touhou Project fangame",
     "version": "v1.4.6",
     "releasedAt": "2026-08-02",
@@ -8525,7 +8525,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2145,
+    "stars": 2146,
     "description": "PC Port of Banjo-Kazooie made using N64: Recompiled (Windows/Linux/Mac) ",
     "version": "v1.0.2",
     "releasedAt": "2026-07-31",
@@ -8948,7 +8948,7 @@
     "console": "Xbox 360",
     "mechanism": "emulator",
     "platforms": [],
-    "stars": 9841,
+    "stars": 9840,
     "description": "Xbox 360 Emulator Research Project",
     "version": null,
     "releasedAt": "2026-02-18",
