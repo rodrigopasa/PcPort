@@ -246,10 +246,10 @@
     ],
     "stars": 296,
     "description": "Ninja Gaiden II (Xbox 360, 2008) statically recompiled into native Linux and Windows builds, drawn by its own Vulkan renderer. A steady 60 fps, up to 8x render scale, widescreen and ultrawide, keyboard and mouse, mods, Steam Deck ready. Bring your own copy of the game.",
-    "version": "v0.6.11",
+    "version": "v0.6.12",
     "releasedAt": "2026-11-19",
-    "sizeBytes": 163479208,
-    "releaseUrl": "https://github.com/gamboozino/ng2recomp/releases/tag/v0.6.11",
+    "sizeBytes": 163550133,
+    "releaseUrl": "https://github.com/gamboozino/ng2recomp/releases/tag/v0.6.12",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
@@ -304,7 +304,7 @@
     "console": "PC",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 79,
+    "stars": 80,
     "description": "Fire Emblem Fates, statically recompiled to a native Windows program. Contains no game files: you build it from your own dump.",
     "version": "v1.3",
     "releasedAt": "2026-11-19",
@@ -452,7 +452,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 346,
+    "stars": 347,
     "description": "Conker's Bad Fur Day Recompiled",
     "version": "V0.1.7",
     "releasedAt": "2026-11-19",
@@ -494,7 +494,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 912,
+    "stars": 915,
     "description": "A cozy life-simulation and sandbox builder with fantastical creatures (Switch 2), recompiled to run natively on Windows, Linux and macOS. Multiplayer, all events, modding, enhancements and more. Discord: https://discord.recompia.com",
     "version": "v0.15.2",
     "releasedAt": "2026-11-19",
@@ -536,7 +536,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 1074,
+    "stars": 1073,
     "description": "A playable preview of Forza Horizon static recompilation",
     "version": "v0.9.4",
     "releasedAt": "2026-11-19",
@@ -902,7 +902,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 123,
+    "stars": 125,
     "description": "Recomp of Asura's Wrath using RexGlue for PC (wip)",
     "version": "v0.4",
     "releasedAt": "2026-11-19",
@@ -952,6 +952,46 @@
     "releaseUrl": "https://github.com/wootbeer/snprecomp/releases/tag/0.2.12",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
+  },
+  {
+    "id": "noahbaxter-ghclassic",
+    "repo": "noahbaxter/GHClassic",
+    "title": "GH2",
+    "game": null,
+    "author": "noahbaxter",
+    "console": "PlayStation 2",
+    "mechanism": "native",
+    "platforms": [],
+    "stars": 45,
+    "description": "A recomp of Guitar Hero II (PS2) that runs natively on PC and Mac, and loads content from GH1, GH80s and the 360 port of GH2.",
+    "version": null,
+    "releasedAt": "2026-11-19",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/noahbaxter/GHClassic/releases",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
+  },
+  {
+    "id": "jfryy-reshadowtower",
+    "repo": "JFryy/reshadowtower",
+    "title": "Shadow Tower",
+    "game": null,
+    "author": "JFryy",
+    "console": "PlayStation",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 53,
+    "description": "Shadow Tower native port (recompiled) with modern PC controls, graphical improvements.",
+    "version": "v0.3.2",
+    "releasedAt": "2026-11-19",
+    "sizeBytes": 273705464,
+    "releaseUrl": "https://github.com/JFryy/reshadowtower/releases/tag/v0.3.2",
+    "licenseId": "MIT",
+    "licenseUrl": "https://api.github.com/licenses/mit",
     "curated": true
   },
   {
@@ -1009,24 +1049,6 @@
     "releaseUrl": "https://github.com/RetroPortingToolKit/recomp-ui/releases",
     "licenseId": "MIT",
     "licenseUrl": "https://api.github.com/licenses/mit"
-  },
-  {
-    "id": "noahbaxter-ghclassic",
-    "repo": "noahbaxter/GHClassic",
-    "title": "GH2",
-    "game": null,
-    "author": "noahbaxter",
-    "console": "PlayStation 2",
-    "mechanism": "native",
-    "platforms": [],
-    "stars": 45,
-    "description": "A recomp of Guitar Hero II (PS2) that runs natively on PC and Mac, and loads content from GH1, GH80s and the 360 port of GH2.",
-    "version": null,
-    "releasedAt": "2026-11-18",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/noahbaxter/GHClassic/releases",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
   },
   {
     "id": "caiuscodes-goldeneye-007-xbla-pc-recomp",
@@ -1350,7 +1372,7 @@
     "console": "PlayStation 3",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 73,
+    "stars": 74,
     "description": "Unofficial PC port of Gran Turismo 5 on ps3recomp. Needs your own GT5 disc, EBOOT v1.00, no update: Europe BCES00569 (tested) or US BCUS98114 (untested). Code and tools only: no game files, keys or firmware.",
     "version": "v0.1.108",
     "releasedAt": "2026-11-18",
@@ -1520,7 +1542,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 73,
+    "stars": 74,
     "description": "Experimental PS2-to-Windows recompilation project focused on compatibility, graphics rendering and performance.",
     "version": null,
     "releasedAt": "2026-11-18",
@@ -1609,7 +1631,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 84,
+    "stars": 85,
     "description": "Native PC port of Ace Combat 6: Fires of Liberation using XenonRecomp",
     "version": "v1.0.0",
     "releasedAt": "2026-11-18",
@@ -2186,7 +2208,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 177,
+    "stars": 176,
     "description": "Ratchet & Clank: Tools of Destruction native PC port (PS3 static recompilation) – 4K, 60 fps, DualSense, Windows",
     "version": "v1.3.0",
     "releasedAt": "2026-11-16",
@@ -2271,7 +2293,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 64,
+    "stars": 65,
     "description": "A native PC port of SSX (2012), decoded from the Xbox 360 disc and rebuilt in Rust on Bevy.",
     "version": "v0.4.1",
     "releasedAt": "2026-11-16",
@@ -2695,7 +2717,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 7751,
+    "stars": 7755,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.4.1",
     "releasedAt": "2026-11-15",
@@ -2780,7 +2802,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 409,
+    "stars": 410,
     "description": "An unofficial PC port of the Xbox version of Shadow the Hedgehog, created through the process of static recompilation. ",
     "version": "v1.0.0",
     "releasedAt": "2026-11-15",
@@ -3012,7 +3034,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 268,
+    "stars": 269,
     "description": "Native Windows PC port of God of War (PS2), built by statically recompiling MIPS R5900 code to C++ with PS2Recomp. Includes an installer launcher, one-click build, fan-translation support and a 60 fps target. No game files included: you need your own copy.",
     "version": "v0.6.1",
     "releasedAt": "2026-11-14",
@@ -3143,28 +3165,6 @@
     "releasedAt": "2026-11-14",
     "sizeBytes": 1910136,
     "releaseUrl": "https://github.com/SulphurS16/AC4-Port/releases/tag/v0.7.0",
-    "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit",
-    "curated": true
-  },
-  {
-    "id": "jfryy-reshadowtower",
-    "repo": "JFryy/reshadowtower",
-    "title": "Shadow Tower",
-    "game": null,
-    "author": "JFryy",
-    "console": "PlayStation",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 53,
-    "description": "Shadow Tower native port (recompiled) with modern PC controls, graphical improvements.",
-    "version": "v0.3.1",
-    "releasedAt": "2026-11-14",
-    "sizeBytes": 273705464,
-    "releaseUrl": "https://github.com/JFryy/reshadowtower/releases/tag/v0.3.1",
     "licenseId": "MIT",
     "licenseUrl": "https://api.github.com/licenses/mit",
     "curated": true
@@ -3693,7 +3693,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 217,
+    "stars": 218,
     "description": "Native SDL3 port of Colin McRae Rally 2.0 built from the CMR2Decomp decompilation. No game data included.",
     "version": "v1.9.0",
     "releasedAt": "2026-11-12",
@@ -3881,7 +3881,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 947,
+    "stars": 948,
     "description": "Unofficial native PC and Steam Deck port of Tears of the Kingdom 1.4.3 using static recompilation. Builds locally from the player's own extracted game dump; no game files included.",
     "version": "v0.4.0",
     "releasedAt": "2026-11-11",
@@ -3988,7 +3988,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 220,
+    "stars": 219,
     "description": "Forza Motorsport 4 native on PC",
     "version": "v0.3.11",
     "releasedAt": "2026-11-10",
@@ -4096,7 +4096,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 427,
+    "stars": 426,
     "description": "Super Mario Strikers for PC, Mac, Linux & Nintendo Switch. Ported from decompiled code. Not a recompilation.",
     "version": "v2.0.0",
     "releasedAt": "2026-11-09",
@@ -4643,7 +4643,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 1609,
+    "stars": 1611,
     "description": "Zelda Wind Waker HD Recomp",
     "version": "v0.5.1",
     "releasedAt": "2026-11-06",
@@ -4982,7 +4982,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 770,
+    "stars": 771,
     "description": "PC port of Dragon Ball Z: Budokai Tenkaichi 3, built on the BT3-Decompiled project.",
     "version": "v0.1.39.6",
     "releasedAt": "2026-11-03",
@@ -5066,7 +5066,7 @@
     "platforms": [
       "Android"
     ],
-    "stars": 101,
+    "stars": 102,
     "description": "Naruto Shippuden: Ultimate Ninja Storm 3 Full Burst (Xbox 360) rodando nativamente no Android e no PC: recompilação estática, sem emulador de CPU.",
     "version": "v0.6.16",
     "releasedAt": "2026-11-03",
@@ -5200,7 +5200,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 276,
+    "stars": 277,
     "description": "GTA V (Xbox 360, TU27) static recompilation with ReXGlue",
     "version": "v0.3.0",
     "releasedAt": "2026-11-02",
@@ -5435,7 +5435,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 34295,
+    "stars": 34297,
     "description": "PlayStation 4 emulator for Windows, Linux, macOS and FreeBSD written in C++",
     "version": "v.0.21.0",
     "releasedAt": "2026-10-30",
@@ -6117,7 +6117,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 8085,
+    "stars": 8086,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -6675,7 +6675,7 @@
     "console": "GameCube",
     "mechanism": "native",
     "platforms": [],
-    "stars": 397,
+    "stars": 395,
     "description": "A decompilation of Pikmin 2 (USA) brought to you by fans of the series.",
     "version": null,
     "releasedAt": "2026-10-20",
@@ -6814,7 +6814,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 6116,
+    "stars": 6117,
     "description": "Ship of Harkinian: a PC port of Ocarina of Time built from the decompilation, with widescreen, high framerate and mod support.",
     "version": "9.3.1",
     "releasedAt": "2026-10-18",
@@ -7006,7 +7006,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 3663,
+    "stars": 3664,
     "description": "Reviving the language that brought us the Jak & Daxter Series",
     "version": "v0.3.9",
     "releasedAt": "2026-10-15",
@@ -7363,7 +7363,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 336,
+    "stars": 337,
     "description": "GoldenEye 007 (N64, 1997) as a native PC game for Windows, Linux, Steam Deck and macOS. Built from the open decompilation, with widescreen, mouse and keyboard or controller, and split-screen. Not an emulator.",
     "version": "v0.5.0",
     "releasedAt": "2026-10-07",
@@ -7403,7 +7403,7 @@
     "console": "GameCube",
     "mechanism": "native",
     "platforms": [],
-    "stars": 336,
+    "stars": 335,
     "description": "A decompilation of Pikmin brought to you by fans of the series.",
     "version": null,
     "releasedAt": "2026-10-06",
@@ -7700,7 +7700,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 6475,
+    "stars": 6476,
     "description": "Dusklight brings a classic adventure to PC and mobile platforms with a variety of fixes and improvements.",
     "version": "v2.0.3",
     "releasedAt": "2026-09-30",
@@ -8340,7 +8340,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2498,
+    "stars": 2499,
     "description": "2 Ship 2 Harkinian: a PC port of Majora's Mask built from the decompilation, with widescreen, high resolution and mod support.",
     "version": "5.0.1",
     "releasedAt": "2026-08-25",
@@ -8403,7 +8403,7 @@
     "console": "Xbox 360",
     "mechanism": "native",
     "platforms": [],
-    "stars": 605,
+    "stars": 604,
     "description": "static Recomp of AC6 with Rexglue",
     "version": null,
     "releasedAt": "2026-08-22",
@@ -9158,7 +9158,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 1414,
+    "stars": 1413,
     "description": "HLE 3DS emulator",
     "version": "v0.9",
     "releasedAt": "2024-12-25",
@@ -9242,7 +9242,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2065,
+    "stars": 2064,
     "description": "A game made by the Celeste developers in a week(ish, closer to 2)",
     "version": "v1.1.1",
     "releasedAt": "2024-02-06",
@@ -9341,7 +9341,7 @@
     "console": "PlayStation",
     "mechanism": "native",
     "platforms": [],
-    "stars": 1247,
+    "stars": 1246,
     "description": "Decompilation of Castlevania: Symphony of the Night (PSX, PSP, Saturn)",
     "version": "cc1-psx-26",
     "releasedAt": "2023-04-05",
