@@ -46,7 +46,7 @@
     "console": "Xbox",
     "mechanism": "native",
     "platforms": [],
-    "stars": 154,
+    "stars": 155,
     "description": "Halo 2 decompilation (decomp) for the original Xbox: a matching decompilation of the retail game into C/C++ source, rebuilt byte for byte, toward native PC, Linux and handheld ports. Contributors welcome. Source only; bring your own disc.",
     "version": null,
     "releasedAt": "2026-11-19",
@@ -163,7 +163,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 55,
+    "stars": 56,
     "description": "Def Jam Vendetta (PS2) recompiled for PC with PS2Recomp — source only, build from your own disc",
     "version": "v0.7.2",
     "releasedAt": "2026-11-19",
@@ -184,7 +184,7 @@
     "platforms": [
       "Linux"
     ],
-    "stars": 71,
+    "stars": 72,
     "description": "Native port of Sonic Riders (GameCube) for Windows, Linux / Steam Deck, Nintendo Switch, Switch 2 (experimental alpha), Android and iPhone / iPad. Built from your own disc image; no game data included.",
     "version": "v0.8.7",
     "releasedAt": "2026-11-19",
@@ -366,7 +366,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 71,
+    "stars": 72,
     "description": "Native PC port of Diablo III: Reaper of Souls – Ultimate Evil Edition (PS4). Local co-op for 4.",
     "version": "v0.6.7",
     "releasedAt": "2026-11-19",
@@ -409,7 +409,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 399,
+    "stars": 400,
     "description": "A native Windows PC port of Super Mario Odyssey by static recompilation. Bring your own game: no game files included.",
     "version": "v0.4.8",
     "releasedAt": "2026-11-19",
@@ -463,6 +463,48 @@
     "curated": true
   },
   {
+    "id": "undecuple-project-helghast",
+    "repo": "undecuple/project-helghast",
+    "title": "Killzone 3",
+    "game": null,
+    "author": "undecuple",
+    "console": "PlayStation 3",
+    "mechanism": "in-progress",
+    "platforms": [],
+    "stars": 171,
+    "description": "Killzone 3 // Unofficial PC Port (static recompilation). Work in progress, partly playable. Builds on your PC from your own game.",
+    "version": null,
+    "releasedAt": "2026-11-19",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/undecuple/project-helghast/releases",
+    "licenseId": "MIT",
+    "licenseUrl": "https://api.github.com/licenses/mit",
+    "curated": true
+  },
+  {
+    "id": "featurejosh-recompia",
+    "repo": "Dittobyte/Recompia",
+    "title": "Pokémon Pokopia",
+    "game": "pokemon-pokopia",
+    "author": "Dittobyte",
+    "console": "Nintendo Switch 2",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "stars": 898,
+    "description": "A cozy life-simulation and sandbox builder with fantastical creatures (Switch 2), recompiled to run natively on Windows, Linux and macOS. Multiplayer, all events, modding, enhancements and more. Discord: https://discord.recompia.com",
+    "version": "v0.15.1",
+    "releasedAt": "2026-11-19",
+    "sizeBytes": 191721941,
+    "releaseUrl": "https://github.com/Dittobyte/Recompia/releases/tag/v0.15.1",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
+  },
+  {
     "id": "portingpete-the-darkness-recomp",
     "repo": "portingpete/The-Darkness-Recomp",
     "title": "The Darkness",
@@ -501,25 +543,6 @@
     "curated": true
   },
   {
-    "id": "undecuple-project-helghast",
-    "repo": "undecuple/project-helghast",
-    "title": "Killzone 3",
-    "game": null,
-    "author": "undecuple",
-    "console": "PlayStation 3",
-    "mechanism": "in-progress",
-    "platforms": [],
-    "stars": 171,
-    "description": "Killzone 3 // Unofficial PC Port (static recompilation). Work in progress, partly playable. Builds on your PC from your own game.",
-    "version": null,
-    "releasedAt": "2026-11-18",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/undecuple/project-helghast/releases",
-    "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit",
-    "curated": true
-  },
-  {
     "id": "thiagofraga761-infamous2-pc",
     "repo": "ThiagoFraga761/infamous2-pc",
     "title": "inFAMOUS 2",
@@ -536,29 +559,6 @@
     "releaseUrl": "https://github.com/ThiagoFraga761/infamous2-pc/releases",
     "licenseId": "NOASSERTION",
     "licenseUrl": null,
-    "curated": true
-  },
-  {
-    "id": "featurejosh-recompia",
-    "repo": "Dittobyte/Recompia",
-    "title": "Pokémon Pokopia",
-    "game": "pokemon-pokopia",
-    "author": "Dittobyte",
-    "console": "Nintendo Switch 2",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "macOS"
-    ],
-    "stars": 897,
-    "description": "A cozy life-simulation and sandbox builder with fantastical creatures (Switch 2), recompiled to run natively on Windows, Linux and macOS. Multiplayer, all events, modding, enhancements and more. Discord: https://discord.recompia.com",
-    "version": "v0.15.0",
-    "releasedAt": "2026-11-18",
-    "sizeBytes": 191686343,
-    "releaseUrl": "https://github.com/Dittobyte/Recompia/releases/tag/v0.15.0",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
   },
   {
@@ -800,7 +800,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 154,
+    "stars": 155,
     "description": "Battlefield 1943 Reborn: the Xbox 360 game running natively on PC, with its online multiplayer restored. Releases and server packages.",
     "version": "v0.4.7.4",
     "releasedAt": "2026-11-18",
@@ -944,7 +944,7 @@
     "console": "Nintendo 64",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 40,
+    "stars": 41,
     "description": "A fully playable (AI assisted) static recompilation of Star Wars: Rogue Squadron on N64 for Windows 10, Linux, MacOS & Android",
     "version": null,
     "releasedAt": "2026-11-18",
@@ -966,7 +966,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 59,
+    "stars": 60,
     "description": "Burnout 3: Takedown, native on every platform",
     "version": "v1.2.0",
     "releasedAt": "2026-11-18",
@@ -1051,7 +1051,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 516,
+    "stars": 517,
     "description": "This is an open source, all-in-one, static recompilation project that I built from the ground up for the Xbox 360 Gears of War series. All 4 games have been personally recompiled for use with a fully native renderer by me.",
     "version": "0.6.5",
     "releasedAt": "2026-11-18",
@@ -1222,7 +1222,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 238,
+    "stars": 240,
     "description": "inFAMOUS 2 (PS3) as a native PC program for Windows and Linux: Setup recompiles YOUR copy on your PC (static recompilation, Vulkan). No game files included.",
     "version": "v0.6.3",
     "releasedAt": "2026-11-18",
@@ -1240,7 +1240,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 54,
+    "stars": 55,
     "description": "Experimental PS2-to-Windows recompilation project focused on compatibility, graphics rendering and performance.",
     "version": null,
     "releasedAt": "2026-11-18",
@@ -1377,7 +1377,7 @@
     "platforms": [
       "PC"
     ],
-    "stars": 1988,
+    "stars": 1987,
     "description": "Native Windows port of Shadow of the Colossus (PS4, CUSA08809) - bring your own game dump. Port nativo para PC.",
     "version": "v0.76.2",
     "releasedAt": "2026-11-17",
@@ -1589,7 +1589,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 49,
+    "stars": 50,
     "description": "Unofficial static recompilation of Splatoon Raiders (Switch 2) to native Windows x86-64 with a Vulkan renderer. No game data included: bring your own dump.",
     "version": "v0.1.9",
     "releasedAt": "2026-11-17",
@@ -1678,7 +1678,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 229,
+    "stars": 230,
     "description": "A PC port of Downhill Domination (PS2), built on a matching decompilation. Bring your own disc.",
     "version": "v0.8.10",
     "releasedAt": "2026-11-17",
@@ -2104,7 +2104,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 51,
+    "stars": 52,
     "description": "A native PC port of SSX (2012), decoded from the Xbox 360 disc and rebuilt in Rust on Bevy.",
     "version": "v0.4.1",
     "releasedAt": "2026-11-16",
@@ -2351,7 +2351,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 2496,
+    "stars": 2498,
     "description": "Static recompilation of Link's Awakening (Switch) to native macOS, Windows, Linux, iOS and Android.",
     "version": "beta_6",
     "releasedAt": "2026-11-15",
@@ -2390,7 +2390,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 108,
+    "stars": 109,
     "description": "007 Everything or Nothing recompilation for a native PC port.",
     "version": "v1.3.2",
     "releasedAt": "2026-11-15",
@@ -2566,7 +2566,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 7696,
+    "stars": 7701,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.4.1",
     "releasedAt": "2026-11-15",
@@ -2651,7 +2651,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 400,
+    "stars": 401,
     "description": "An unofficial PC port of the Xbox version of Shadow the Hedgehog, created through the process of static recompilation. ",
     "version": "v1.0.0",
     "releasedAt": "2026-11-15",
@@ -2839,7 +2839,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 234,
+    "stars": 235,
     "description": "StarFox Remake [recompiled]: static recompilation of Star Fox (Nintendo Switch 2) into a native Windows app, built on your PC from your own copy. No game files included.",
     "version": "v1.1.0",
     "releasedAt": "2026-11-14",
@@ -3242,7 +3242,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 529,
+    "stars": 530,
     "description": "ReStreet: FIFA Street (2012) recompiled for Windows PC, with online play, a launcher with friends, chat and rooms. Bring your own game.",
     "version": "v2.1.5-online-beta",
     "releasedAt": "2026-11-14",
@@ -3350,7 +3350,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5532,
+    "stars": 5533,
     "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
     "version": "windows-v1.9.8.6",
     "releasedAt": "2026-11-13",
@@ -3792,7 +3792,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 940,
+    "stars": 941,
     "description": "Unofficial native PC and Steam Deck port of Tears of the Kingdom 1.4.3 using static recompilation. Builds locally from the player's own extracted game dump; no game files included.",
     "version": "v0.4.0",
     "releasedAt": "2026-11-11",
@@ -4090,7 +4090,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 188,
+    "stars": 189,
     "description": "Unofficial PC port of the Xbox 360 version of Army of Two (2008). Online co-op supported.",
     "version": "v1.5.0",
     "releasedAt": "2026-11-09",
@@ -4158,7 +4158,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 924,
+    "stars": 923,
     "description": "Xbox 360 to PC port of Dante's Inferno using ReXGlue (static recompilation)",
     "version": "v0.8.6-beta-hotfix",
     "releasedAt": "2026-11-08",
@@ -4706,7 +4706,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 439,
+    "stars": 440,
     "description": "Static recompilation of Castlevania: Symphony of the Night (XBLA) for Windows and Linux, built on the ReXGlue SDK.",
     "version": "v1.5.2",
     "releasedAt": "2026-11-05",
@@ -5087,7 +5087,7 @@
     "platforms": [
       "Android"
     ],
-    "stars": 54,
+    "stars": 55,
     "description": "Naruto Storm 4 MOD (sobre o Ultimate Ninja Storm Revolution) - port nativo para Android (ARM64) e PC (sem arquivos do jogo)",
     "version": "v1.1.11",
     "releasedAt": "2026-11-03",
@@ -5544,7 +5544,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 114,
+    "stars": 115,
     "description": "Marvel Ultimate Alliance 1, Gold Edition and 2 native PC ports via static recompilation, in one bundle with high frame rates, 4K rendering, ultrawide, HD Text, TRG launcher, and experimental Linux/Steam Deck support",
     "version": "v0.2.0",
     "releasedAt": "2026-10-29",
@@ -5663,7 +5663,7 @@
       "Windows",
       "macOS"
     ],
-    "stars": 71,
+    "stars": 72,
     "description": "BlastCorps for PC (Windows/Linux/MacOS)",
     "version": "1.1.1",
     "releasedAt": "2026-10-29",
@@ -5993,7 +5993,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 155,
+    "stars": 156,
     "description": "Crash of the Titans (Xbox 360) statically recompiled for Windows: DLSS/FSR, PC controls, PT-BR, subtitles, mods. Bring your own copy of the game.",
     "version": "v1.07",
     "releasedAt": "2026-10-26",
@@ -6096,7 +6096,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 8056,
+    "stars": 8059,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -6552,7 +6552,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2519,
+    "stars": 2520,
     "description": "Native PC port of P.T. (runs from your own PS4 game files)",
     "version": "v1.0.8",
     "releasedAt": "2026-10-22",
@@ -7445,7 +7445,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 925,
+    "stars": 926,
     "description": "Recompilation of Blue Dragon",
     "version": "v1.3.1",
     "releasedAt": "2026-10-05",
@@ -9339,7 +9339,7 @@
     "console": "PlayStation",
     "mechanism": "native",
     "platforms": [],
-    "stars": 1246,
+    "stars": 1247,
     "description": "Decompilation of Castlevania: Symphony of the Night (PSX, PSP, Saturn)",
     "version": "cc1-psx-26",
     "releasedAt": "2023-04-05",
