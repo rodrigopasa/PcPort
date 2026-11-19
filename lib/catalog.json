@@ -8,10 +8,10 @@
     "console": "Nintendo DS",
     "mechanism": "native",
     "platforms": [],
-    "stars": 265,
+    "stars": 264,
     "description": "From-scratch, byte-matching decompilation of Super Mario 64 DS into C/C++, with a live progress atlas and matching tools.",
     "version": null,
-    "releasedAt": "2026-11-18",
+    "releasedAt": "2026-11-19",
     "sizeBytes": null,
     "releaseUrl": "https://github.com/tangosdev/sm64ds-decomp/releases",
     "licenseId": "MIT",
@@ -30,7 +30,7 @@
     "stars": 349,
     "description": "Static ARM64 to x86 recompiler (GPLv3)",
     "version": null,
-    "releasedAt": "2026-11-18",
+    "releasedAt": "2026-11-19",
     "sizeBytes": null,
     "releaseUrl": "https://github.com/scarletnx/ScarletNX/releases",
     "licenseId": "GPL-3.0",
@@ -49,7 +49,7 @@
     "stars": 154,
     "description": "Halo 2 decompilation (decomp) for the original Xbox: a matching decompilation of the retail game into C/C++ source, rebuilt byte for byte, toward native PC, Linux and handheld ports. Contributors welcome. Source only; bring your own disc.",
     "version": null,
-    "releasedAt": "2026-11-18",
+    "releasedAt": "2026-11-19",
     "sizeBytes": null,
     "releaseUrl": "https://github.com/kirklandsig/halo2-decompiled/releases",
     "licenseId": "GPL-3.0",
@@ -68,7 +68,7 @@
     "stars": 83,
     "description": "Native port of Shadow of the Colossus (PS2) to macOS and PS Vita: static recompilation with PS2Recomp, a native Metal/OpenGL renderer, and a decompilation in progress",
     "version": null,
-    "releasedAt": "2026-11-18",
+    "releasedAt": "2026-11-19",
     "sizeBytes": null,
     "releaseUrl": "https://github.com/HenryKun55/celosia/releases",
     "licenseId": "GPL-3.0",
@@ -87,11 +87,133 @@
     "stars": 219,
     "description": "A decompilation of Bloodborne (CUSA03173 v1.09) with its own runtime: the game's code rewritten as readable C++, one verified function at a time. The game doesn't run on it yet; 21 functions verified. No game files included.",
     "version": null,
-    "releasedAt": "2026-11-18",
+    "releasedAt": "2026-11-19",
     "sizeBytes": null,
     "releaseUrl": "https://github.com/Yharnam-Hunters/Paleblood/releases",
     "licenseId": "GPL-2.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-2.0",
+    "curated": true
+  },
+  {
+    "id": "pascalpixel-alchemy",
+    "repo": "PascalPixel/alchemy",
+    "title": "Golden Sun",
+    "game": null,
+    "author": "PascalPixel",
+    "console": "Game Boy Advance",
+    "mechanism": "native",
+    "platforms": [],
+    "stars": 153,
+    "description": "🌋 Alchemy is a reconstruction of the source for both ☀️ Golden Sun games for Game Boy Advance: a matching decompilation that builds the same ROMs, byte for byte",
+    "version": null,
+    "releasedAt": "2026-11-19",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/PascalPixel/alchemy/releases",
+    "licenseId": null,
+    "licenseUrl": null,
+    "curated": true
+  },
+  {
+    "id": "therealestnwah-sotc-decomp",
+    "repo": "TheRealestNwah/sotc-decomp",
+    "title": "Shadow of the Colossus",
+    "game": "shadow-of-the-colossus",
+    "author": "TheRealestNwah",
+    "console": "PlayStation 2",
+    "mechanism": "in-progress",
+    "platforms": [],
+    "stars": 49,
+    "description": "Matching decompilation of Shadow of the Colossus (PS2, NTSC-U) aiming for a native PC port",
+    "version": null,
+    "releasedAt": "2026-11-19",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/TheRealestNwah/sotc-decomp/releases",
+    "licenseId": "CC0-1.0",
+    "licenseUrl": "https://api.github.com/licenses/cc0-1.0",
+    "curated": true
+  },
+  {
+    "id": "roz1077-true-crime-new-york-city-recomp",
+    "repo": "roz1077/true-crime-new-york-city-recomp",
+    "title": "True Crime: New York City",
+    "game": null,
+    "author": "roz1077",
+    "console": "Xbox",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Linux"
+    ],
+    "stars": 53,
+    "description": "Beta Windows/Linux recompilation port of True Crime: New York City (Xbox US & PAL)",
+    "version": "v0.9.2-beta.4.3",
+    "releasedAt": "2026-11-19",
+    "sizeBytes": 116437164,
+    "releaseUrl": "https://github.com/roz1077/true-crime-new-york-city-recomp/releases/tag/v0.9.2-beta.4.3",
+    "licenseId": "NOASSERTION",
+    "licenseUrl": null
+  },
+  {
+    "id": "jcsix694-def-jam-vendetta-recomp",
+    "repo": "jcsix694/def-jam-vendetta-recomp",
+    "title": "Def Jam Vendetta",
+    "game": null,
+    "author": "jcsix694",
+    "console": "PlayStation 2",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows"
+    ],
+    "stars": 53,
+    "description": "Def Jam Vendetta (PS2) recompiled for PC with PS2Recomp — source only, build from your own disc",
+    "version": "v0.7.2",
+    "releasedAt": "2026-11-19",
+    "sizeBytes": 176179824,
+    "releaseUrl": "https://github.com/jcsix694/def-jam-vendetta-recomp/releases/tag/v0.7.2",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
+  },
+  {
+    "id": "teclilla18-sonic-riders-recomp",
+    "repo": "teclilla18/sonic-riders-recomp",
+    "title": "Sonic Riders",
+    "game": null,
+    "author": "teclilla18",
+    "console": "GameCube",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Linux"
+    ],
+    "stars": 71,
+    "description": "Native port of Sonic Riders (GameCube) for Windows, Linux / Steam Deck, Nintendo Switch, Switch 2 (experimental alpha), Android and iPhone / iPad. Built from your own disc image; no game data included.",
+    "version": "v0.8.7",
+    "releasedAt": "2026-11-19",
+    "sizeBytes": 8257527,
+    "releaseUrl": "https://github.com/teclilla18/sonic-riders-recomp/releases/tag/v0.8.7",
+    "licenseId": "MPL-2.0",
+    "licenseUrl": "https://api.github.com/licenses/mpl-2.0"
+  },
+  {
+    "id": "sciaschi-cbfd-recompiled",
+    "repo": "sciaschi/CBFD-Recompiled",
+    "title": "Conker's Bad Fur Day",
+    "game": "conkers-bad-fur-day",
+    "author": "sciaschi",
+    "console": "Nintendo 64",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "stars": 347,
+    "description": "Conker's Bad Fur Day Recompiled",
+    "version": "V0.1.7",
+    "releasedAt": "2026-11-19",
+    "sizeBytes": 22301280,
+    "releaseUrl": "https://github.com/sciaschi/CBFD-Recompiled/releases/tag/V0.1.7",
+    "licenseId": "MIT",
+    "licenseUrl": "https://api.github.com/licenses/mit",
     "curated": true
   },
   {
@@ -152,25 +274,6 @@
     "curated": true
   },
   {
-    "id": "pascalpixel-alchemy",
-    "repo": "PascalPixel/alchemy",
-    "title": "Golden Sun",
-    "game": null,
-    "author": "PascalPixel",
-    "console": "Game Boy Advance",
-    "mechanism": "native",
-    "platforms": [],
-    "stars": 153,
-    "description": "🌋 Alchemy is a reconstruction of the source for both ☀️ Golden Sun games for Game Boy Advance: a matching decompilation that builds the same ROMs, byte for byte",
-    "version": null,
-    "releasedAt": "2026-11-18",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/PascalPixel/alchemy/releases",
-    "licenseId": null,
-    "licenseUrl": null,
-    "curated": true
-  },
-  {
     "id": "mzzvxm-larecomp",
     "repo": "mzzvxm/LARecomp",
     "title": "Midnight Club: Los Angeles",
@@ -221,7 +324,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 895,
+    "stars": 896,
     "description": "A cozy life-simulation and sandbox builder with fantastical creatures (Switch 2), recompiled to run natively on Windows, Linux and macOS. Multiplayer, all events, modding, enhancements and more. Discord: https://discord.recompia.com",
     "version": "v0.15.0",
     "releasedAt": "2026-11-18",
@@ -299,25 +402,6 @@
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
   },
   {
-    "id": "therealestnwah-sotc-decomp",
-    "repo": "TheRealestNwah/sotc-decomp",
-    "title": "Shadow of the Colossus",
-    "game": "shadow-of-the-colossus",
-    "author": "TheRealestNwah",
-    "console": "PlayStation 2",
-    "mechanism": "in-progress",
-    "platforms": [],
-    "stars": 49,
-    "description": "Matching decompilation of Shadow of the Colossus (PS2, NTSC-U) aiming for a native PC port",
-    "version": null,
-    "releasedAt": "2026-11-18",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/TheRealestNwah/sotc-decomp/releases",
-    "licenseId": "CC0-1.0",
-    "licenseUrl": "https://api.github.com/licenses/cc0-1.0",
-    "curated": true
-  },
-  {
     "id": "retroportingtoolkit-recomp-ui",
     "repo": "RetroPortingToolKit/recomp-ui",
     "title": "Ui",
@@ -364,7 +448,7 @@
     "platforms": [
       "PC"
     ],
-    "stars": 96,
+    "stars": 97,
     "description": "Native Windows PC recompilation of the unreleased GoldenEye 007 Xbox 360/XBLA remaster using ReXGlue. Requires your own copy.",
     "version": "v0.9.7d",
     "releasedAt": "2026-11-18",
@@ -541,26 +625,6 @@
     "curated": true
   },
   {
-    "id": "roz1077-true-crime-new-york-city-recomp",
-    "repo": "roz1077/true-crime-new-york-city-recomp",
-    "title": "True Crime: New York City",
-    "game": null,
-    "author": "roz1077",
-    "console": "Xbox",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Linux"
-    ],
-    "stars": 53,
-    "description": "Beta Windows/Linux recompilation port of True Crime: New York City (Xbox US & PAL)",
-    "version": "v0.9.2-beta.4.2",
-    "releasedAt": "2026-11-18",
-    "sizeBytes": 116423937,
-    "releaseUrl": "https://github.com/roz1077/true-crime-new-york-city-recomp/releases/tag/v0.9.2-beta.4.2",
-    "licenseId": "NOASSERTION",
-    "licenseUrl": null
-  },
-  {
     "id": "dreamingmoths-memory-of-alessa",
     "repo": "dreamingmoths/memory-of-alessa",
     "title": "Silent Hill 3",
@@ -591,7 +655,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 153,
+    "stars": 154,
     "description": "Battlefield 1943 Reborn: the Xbox 360 game running natively on PC, with its online multiplayer restored. Releases and server packages.",
     "version": "v0.4.7.4",
     "releasedAt": "2026-11-18",
@@ -864,7 +928,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 511,
+    "stars": 512,
     "description": "This is an open source, all-in-one, static recompilation project that I built from the ground up for the Xbox 360 Gears of War series. All 4 games have been personally recompiled for use with a fully native renderer by me.",
     "version": "0.6.5",
     "releasedAt": "2026-11-18",
@@ -949,7 +1013,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 1211,
+    "stars": 1212,
     "description": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows and Linux with Vulkan. 0.4.2 out: fewer stalls on first runs and on 4-7 thread CPUs, layer -200 at 60 fps, smash blur fix on 1.0.0, Switch 2 controller over Bluetooth. Roadmap: #10. No game files included.",
     "version": "v0.4.2",
     "releasedAt": "2026-11-18",
@@ -992,7 +1056,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 66,
+    "stars": 67,
     "description": "WWE SmackDown! Here Comes the Pain (PS2) static recompilation for PC - work in progress. Bring your own disc; no game code or files included.",
     "version": "v0.3.6",
     "releasedAt": "2026-11-18",
@@ -1035,7 +1099,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 225,
+    "stars": 228,
     "description": "inFAMOUS 2 (PS3) as a native PC program for Windows and Linux: Setup recompiles YOUR copy on your PC (static recompilation, Vulkan). No game files included.",
     "version": "v0.6.3",
     "releasedAt": "2026-11-18",
@@ -1061,27 +1125,6 @@
     "releaseUrl": "https://github.com/NicoWayne95/lcs-ps2-recomp/releases",
     "licenseId": null,
     "licenseUrl": null
-  },
-  {
-    "id": "jcsix694-def-jam-vendetta-recomp",
-    "repo": "jcsix694/def-jam-vendetta-recomp",
-    "title": "Def Jam Vendetta",
-    "game": null,
-    "author": "jcsix694",
-    "console": "PlayStation 2",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows"
-    ],
-    "stars": 53,
-    "description": "Def Jam Vendetta (PS2) recompiled for PC with PS2Recomp — source only, build from your own disc",
-    "version": "v0.7.0",
-    "releasedAt": "2026-11-18",
-    "sizeBytes": 176183412,
-    "releaseUrl": "https://github.com/jcsix694/def-jam-vendetta-recomp/releases/tag/v0.7.0",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
-    "curated": true
   },
   {
     "id": "obaidr1-hercules-recompiled",
@@ -1129,6 +1172,54 @@
     "curated": true
   },
   {
+    "id": "yuutatsubasa-free-riders-recompiled",
+    "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+    "title": "Sonic Free Riders",
+    "game": "sonic-free-riders",
+    "author": "YuutaTsubasa",
+    "console": "Xbox 360",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Android",
+      "iOS"
+    ],
+    "stars": 127,
+    "description": "Unofficial static recompilation of Sonic Free Riders for Windows, Linux and Android, with controller/keyboard support, custom VRM avatars, and Kinect v1, Kinect v2 (experimental) and webcam motion controls on Windows.",
+    "version": "v0.10.66",
+    "releasedAt": "2026-11-18",
+    "sizeBytes": 106227108,
+    "releaseUrl": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.66",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
+  },
+  {
+    "id": "alondero-aerogauge-recomp",
+    "repo": "alondero/aerogauge-recomp",
+    "title": "AeroGauge",
+    "game": null,
+    "author": "alondero",
+    "console": "Nintendo 64",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "Android"
+    ],
+    "stars": 49,
+    "description": "A static recompilation of AeroGauge for the Nintendo N64",
+    "version": "v0.7.1",
+    "releasedAt": "2026-11-18",
+    "sizeBytes": 27867297,
+    "releaseUrl": "https://github.com/alondero/aerogauge-recomp/releases/tag/v0.7.1",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
+  },
+  {
     "id": "tmcleroy-cps2recomp",
     "repo": "tmcleroy/cps2recomp",
     "title": "CPS-2 Recomp",
@@ -1151,26 +1242,6 @@
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
-  },
-  {
-    "id": "teclilla18-sonic-riders-recomp",
-    "repo": "teclilla18/sonic-riders-recomp",
-    "title": "Sonic Riders",
-    "game": null,
-    "author": "teclilla18",
-    "console": "GameCube",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Linux"
-    ],
-    "stars": 71,
-    "description": "Native port of Sonic Riders (GameCube) for Windows, Linux / Steam Deck, Nintendo Switch, Switch 2 (experimental alpha), Android and iPhone / iPad. Built from your own disc image; no game data included.",
-    "version": "v0.8.6",
-    "releasedAt": "2026-11-17",
-    "sizeBytes": 8210435,
-    "releaseUrl": "https://github.com/teclilla18/sonic-riders-recomp/releases/tag/v0.8.6",
-    "licenseId": "MPL-2.0",
-    "licenseUrl": "https://api.github.com/licenses/mpl-2.0"
   },
   {
     "id": "cadugimenes-sanctuaryport",
@@ -1204,7 +1275,7 @@
     "platforms": [
       "PC"
     ],
-    "stars": 1984,
+    "stars": 1985,
     "description": "Native Windows port of Shadow of the Colossus (PS4, CUSA08809) - bring your own game dump. Port nativo para PC.",
     "version": "v0.76.2",
     "releasedAt": "2026-11-17",
@@ -1605,7 +1676,7 @@
     "console": "Game Boy Advance",
     "mechanism": "native",
     "platforms": [],
-    "stars": 702,
+    "stars": 700,
     "description": "A decompilation and port of Sonic Advance 1 & 2 - GameBoy Advance game's written in C",
     "version": null,
     "releasedAt": "2026-11-17",
@@ -1634,31 +1705,6 @@
     "releaseUrl": "https://github.com/MysteriousAeon/rayman3-hd-recompiled/releases/tag/v1.2.0",
     "licenseId": "NOASSERTION",
     "licenseUrl": null,
-    "curated": true
-  },
-  {
-    "id": "yuutatsubasa-free-riders-recompiled",
-    "repo": "YuutaTsubasa/Free-Riders-Recompiled",
-    "title": "Sonic Free Riders",
-    "game": "sonic-free-riders",
-    "author": "YuutaTsubasa",
-    "console": "Xbox 360",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "macOS",
-      "Android",
-      "iOS"
-    ],
-    "stars": 127,
-    "description": "Unofficial static recompilation of Sonic Free Riders for Windows, Linux and Android, with controller/keyboard support, custom VRM avatars, and Kinect v1, Kinect v2 (experimental) and webcam motion controls on Windows.",
-    "version": "v0.10.65",
-    "releasedAt": "2026-11-16",
-    "sizeBytes": 106210724,
-    "releaseUrl": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.65",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
   },
   {
@@ -1712,7 +1758,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 243,
+    "stars": 244,
     "description": "Native Windows port of Demon's Souls (PS3, BLUS-30443) via ps3recomp static recompilation. Bring your own disc image; no game files included.",
     "version": "v2026.11.15",
     "releasedAt": "2026-11-16",
@@ -1886,7 +1932,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 311,
+    "stars": 312,
     "description": "A static recompilation of Condemned 2: Bloodshot done with RexGlue.",
     "version": "0.6.1",
     "releasedAt": "2026-11-16",
@@ -2014,7 +2060,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 45,
+    "stars": 48,
     "description": "A native PC port of SSX (2012), decoded from the Xbox 360 disc and rebuilt in Rust on Bevy.",
     "version": "v0.4.1",
     "releasedAt": "2026-11-16",
@@ -2158,7 +2204,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 855,
+    "stars": 857,
     "description": "Definitive Bloodborne PC Experience",
     "version": "v0.2.35",
     "releasedAt": "2026-11-15",
@@ -2498,7 +2544,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 7686,
+    "stars": 7685,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.4.1",
     "releasedAt": "2026-11-15",
@@ -2750,7 +2796,7 @@
       "Windows",
       "macOS"
     ],
-    "stars": 961,
+    "stars": 960,
     "description": "An unofficial PC port of the Xbox 360 version of Sonic the Hedgehog (2006) created through the process of static recompilation",
     "version": "v1.0.0",
     "releasedAt": "2026-11-14",
@@ -2943,7 +2989,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 83,
+    "stars": 84,
     "description": "Unofficial native PC ports of the classic Monster Hunter games via static recompilation, starting with Freedom Unite. No emulator. Bring your own copy",
     "version": "v0.11.1",
     "releasedAt": "2026-11-14",
@@ -2962,7 +3008,7 @@
     "console": "PlayStation 3",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 92,
+    "stars": 93,
     "description": "Unofficial native Windows port of ARMORED CORE for Answer (PS3), built from your own copy of the game. Part of Project Glintburn.",
     "version": "v0.7.6",
     "releasedAt": "2026-11-14",
@@ -3491,7 +3537,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 106,
+    "stars": 107,
     "description": "Mario Kart 8 Deluxe recompiled to run natively on your PC: no JIT, FSR 3.1 + frame generation, experimental DLSS, 720p to 4K output, HDR10. Bring your own game files.",
     "version": "v0.2.4",
     "releasedAt": "2026-11-12",
@@ -4025,7 +4071,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 289,
+    "stars": 290,
     "description": "Native Windows port of Tekken Tag Tournament 2 (Xbox 360) by static recompilation. Not an emulator. Ships no game data - the installer builds the game from your own disc image and Title Update 3.",
     "version": "v0.2.0",
     "releasedAt": "2026-11-09",
@@ -4554,7 +4600,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 1597,
+    "stars": 1596,
     "description": "Zelda Wind Waker HD Recomp",
     "version": "v0.5.1",
     "releasedAt": "2026-11-06",
@@ -4957,7 +5003,7 @@
     "console": "PlayStation 3",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 351,
+    "stars": 350,
     "description": "Drakengard 3 (PS3) static recompilation using ps3recomp",
     "version": null,
     "releasedAt": "2026-11-03",
@@ -5110,7 +5156,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 1590,
+    "stars": 1591,
     "description": "Unofficial Windows/Linux/macOS/Android/iOS Port of Animal Crossing Gamecube",
     "version": "v1.0.0",
     "releasedAt": "2026-11-02",
@@ -5368,7 +5414,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 34278,
+    "stars": 34280,
     "description": "PlayStation 4 emulator for Windows, Linux, macOS and FreeBSD written in C++",
     "version": "v.0.21.0",
     "releasedAt": "2026-10-30",
@@ -5595,7 +5641,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 183,
+    "stars": 184,
     "description": "An unofficial original Xbox version PC port of 007: From Russia With Love via static recompilation.",
     "version": "V2",
     "releasedAt": "2026-10-29",
@@ -5906,7 +5952,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 1002,
+    "stars": 1006,
     "description": "Experimental native PC port of Lost Odyssey using static recompilation. No game assets included.",
     "version": "v1.1.0",
     "releasedAt": "2026-10-26",
@@ -6000,29 +6046,6 @@
     "curated": true
   },
   {
-    "id": "alondero-aerogauge-recomp",
-    "repo": "alondero/aerogauge-recomp",
-    "title": "AeroGauge",
-    "game": null,
-    "author": "alondero",
-    "console": "Nintendo 64",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "Android"
-    ],
-    "stars": 49,
-    "description": "A static recompilation of AeroGauge for the Nintendo N64",
-    "version": "v0.7.0",
-    "releasedAt": "2026-10-26",
-    "sizeBytes": 27791242,
-    "releaseUrl": "https://github.com/alondero/aerogauge-recomp/releases/tag/v0.7.0",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
-    "curated": true
-  },
-  {
     "id": "mstan-tombarecomp",
     "repo": "mstan/TombaRecomp",
     "title": "Tomba!",
@@ -6073,7 +6096,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 8045,
+    "stars": 8046,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -6428,7 +6451,7 @@
     "console": "Nintendo 64",
     "mechanism": "native",
     "platforms": [],
-    "stars": 1640,
+    "stars": 1636,
     "description": "Decompilation of Paper Mario (Nintendo 64)",
     "version": null,
     "releasedAt": "2026-10-23",
@@ -6570,7 +6593,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 436,
+    "stars": 437,
     "description": "Call of Duty 3 (Xbox 360) static recompilation: host runtime, tools and notes",
     "version": null,
     "releasedAt": "2026-10-21",
@@ -7127,29 +7150,6 @@
     "curated": true
   },
   {
-    "id": "sciaschi-cbfd-recompiled",
-    "repo": "sciaschi/CBFD-Recompiled",
-    "title": "Conker's Bad Fur Day",
-    "game": "conkers-bad-fur-day",
-    "author": "sciaschi",
-    "console": "Nintendo 64",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "macOS"
-    ],
-    "stars": 347,
-    "description": "Conker's Bad Fur Day Recompiled",
-    "version": "V0.1.6",
-    "releasedAt": "2026-10-13",
-    "sizeBytes": 22781093,
-    "releaseUrl": "https://github.com/sciaschi/CBFD-Recompiled/releases/tag/V0.1.6",
-    "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit",
-    "curated": true
-  },
-  {
     "id": "promethendev-wwe13-recomp",
     "repo": "PromethenDev/wwe13-recomp",
     "title": "WWE '13",
@@ -7299,7 +7299,7 @@
     "platforms": [
       "PC"
     ],
-    "stars": 129,
+    "stars": 130,
     "description": "A recompilation of the Xbox 360 release for Ridge Racer 6 on PC",
     "version": "v0.1.5",
     "releasedAt": "2026-10-09",
@@ -7342,7 +7342,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 335,
+    "stars": 334,
     "description": "GoldenEye 007 (N64, 1997) as a native PC game for Windows, Linux, Steam Deck and macOS. Built from the open decompilation, with widescreen, mouse and keyboard or controller, and split-screen. Not an emulator.",
     "version": "v0.5.0",
     "releasedAt": "2026-10-07",
@@ -7976,7 +7976,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 144,
+    "stars": 145,
     "description": "An AI-assisted Wave Race 64 recompilation for Windows, with modern graphics and expanded local multiplayer.",
     "version": "v1.0.0",
     "releasedAt": "2026-09-16",
@@ -8036,7 +8036,7 @@
     "console": "Xbox 360",
     "mechanism": "native",
     "platforms": [],
-    "stars": 452,
+    "stars": 454,
     "description": "A Fable 2 Recomp",
     "version": null,
     "releasedAt": "2026-09-12",
@@ -8542,7 +8542,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 224,
+    "stars": 223,
     "description": "A static recompilation of Daytona USA (Xbox 360 / XBLA, 2011)",
     "version": null,
     "releasedAt": "2026-07-26",
@@ -8969,7 +8969,7 @@
     "console": "Nintendo 64",
     "mechanism": "native",
     "platforms": [],
-    "stars": 291,
+    "stars": 290,
     "description": "",
     "version": "v0.1",
     "releasedAt": "2026-01-11",
@@ -9092,7 +9092,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5393,
+    "stars": 5392,
     "description": "An unofficial PC port of the Xbox 360 version of Sonic Unleashed created through the process of static recompilation.",
     "version": "v1.0.3",
     "releasedAt": "2025-04-03",
