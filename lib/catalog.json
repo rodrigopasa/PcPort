@@ -143,7 +143,7 @@
     "platforms": [
       "Linux"
     ],
-    "stars": 53,
+    "stars": 54,
     "description": "Beta Windows/Linux recompilation port of True Crime: New York City (Xbox US & PAL)",
     "version": "v0.9.2-beta.4.3",
     "releasedAt": "2026-11-19",
@@ -409,7 +409,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 400,
+    "stars": 401,
     "description": "A native Windows PC port of Super Mario Odyssey by static recompilation. Bring your own game: no game files included.",
     "version": "v0.4.9",
     "releasedAt": "2026-11-19",
@@ -565,6 +565,69 @@
     "releaseUrl": "https://github.com/rigaz29/Ascension-R/releases/tag/v0.2.0",
     "licenseId": "NOASSERTION",
     "licenseUrl": null,
+    "curated": true
+  },
+  {
+    "id": "shdecompilations-silent-hill-decomp",
+    "repo": "shdecompilations/silent-hill-decomp",
+    "title": "Silent Hill",
+    "game": "silent-hill",
+    "author": "shdecompilations",
+    "console": "PlayStation",
+    "mechanism": "native",
+    "platforms": [],
+    "stars": 966,
+    "description": "An in-progress decompilation of Silent Hill on the PlayStation 1.",
+    "version": null,
+    "releasedAt": "2026-11-19",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/shdecompilations/silent-hill-decomp/releases",
+    "licenseId": "NOASSERTION",
+    "licenseUrl": null,
+    "curated": true
+  },
+  {
+    "id": "yuutatsubasa-free-riders-recompiled",
+    "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+    "title": "Sonic Free Riders",
+    "game": "sonic-free-riders",
+    "author": "YuutaTsubasa",
+    "console": "Xbox 360",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Android",
+      "iOS"
+    ],
+    "stars": 127,
+    "description": "Unofficial static recompilation of Sonic Free Riders for Windows, Linux and Android, with controller/keyboard support, custom VRM avatars, and Kinect v1, Kinect v2 (experimental) and webcam motion controls on Windows.",
+    "version": "v0.10.67",
+    "releasedAt": "2026-11-19",
+    "sizeBytes": 106227108,
+    "releaseUrl": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.67",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
+  },
+  {
+    "id": "mkst-sssv",
+    "repo": "mkst/sssv",
+    "title": "Space Station Silicon Valley",
+    "game": "space-station-silicon-valley",
+    "author": "mkst",
+    "console": "Nintendo 64",
+    "mechanism": "in-progress",
+    "platforms": [],
+    "stars": 67,
+    "description": "WIP Space Station Silicon Valley N64 Decomp",
+    "version": null,
+    "releasedAt": "2026-11-19",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/mkst/sssv/releases",
+    "licenseId": "CC0-1.0",
+    "licenseUrl": "https://api.github.com/licenses/cc0-1.0",
     "curated": true
   },
   {
@@ -811,25 +874,6 @@
     "releaseUrl": "https://github.com/gamboozino/ngbrecomp/releases/tag/v0.9.74",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
-    "curated": true
-  },
-  {
-    "id": "shdecompilations-silent-hill-decomp",
-    "repo": "shdecompilations/silent-hill-decomp",
-    "title": "Silent Hill",
-    "game": "silent-hill",
-    "author": "shdecompilations",
-    "console": "PlayStation",
-    "mechanism": "native",
-    "platforms": [],
-    "stars": 966,
-    "description": "An in-progress decompilation of Silent Hill on the PlayStation 1.",
-    "version": null,
-    "releasedAt": "2026-11-18",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/shdecompilations/silent-hill-decomp/releases",
-    "licenseId": "NOASSERTION",
-    "licenseUrl": null,
     "curated": true
   },
   {
@@ -1266,7 +1310,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 240,
+    "stars": 243,
     "description": "inFAMOUS 2 (PS3) as a native PC program for Windows and Linux: Setup recompiles YOUR copy on your PC (static recompilation, Vulkan). No game files included.",
     "version": "v0.6.3",
     "releasedAt": "2026-11-18",
@@ -1284,7 +1328,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 61,
+    "stars": 62,
     "description": "Experimental PS2-to-Windows recompilation project focused on compatibility, graphics rendering and performance.",
     "version": null,
     "releasedAt": "2026-11-18",
@@ -1339,31 +1383,6 @@
     "curated": true
   },
   {
-    "id": "yuutatsubasa-free-riders-recompiled",
-    "repo": "YuutaTsubasa/Free-Riders-Recompiled",
-    "title": "Sonic Free Riders",
-    "game": "sonic-free-riders",
-    "author": "YuutaTsubasa",
-    "console": "Xbox 360",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "macOS",
-      "Android",
-      "iOS"
-    ],
-    "stars": 127,
-    "description": "Unofficial static recompilation of Sonic Free Riders for Windows, Linux and Android, with controller/keyboard support, custom VRM avatars, and Kinect v1, Kinect v2 (experimental) and webcam motion controls on Windows.",
-    "version": "v0.10.66",
-    "releasedAt": "2026-11-18",
-    "sizeBytes": 106227108,
-    "releaseUrl": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.66",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
-    "curated": true
-  },
-  {
     "id": "alondero-aerogauge-recomp",
     "repo": "alondero/aerogauge-recomp",
     "title": "AeroGauge",
@@ -1398,7 +1417,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 44,
+    "stars": 50,
     "description": "Native PC port of Ace Combat 6: Fires of Liberation using XenonRecomp",
     "version": "v1.0.0",
     "releasedAt": "2026-11-18",
@@ -1464,7 +1483,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 504,
+    "stars": 505,
     "description": "Dragon's Crown Pro native PC port for Windows, with direct PS4 PKG installation, TRG launcher and modern graphics options",
     "version": "v1.3.0",
     "releasedAt": "2026-11-17",
@@ -1741,7 +1760,7 @@
     "console": "Xbox 360",
     "mechanism": "native",
     "platforms": [],
-    "stars": 480,
+    "stars": 479,
     "description": "Tekken 6 (Xbox 360) native on Windows with rollback netcode - build from your own ISO",
     "version": "v3.1.6",
     "releasedAt": "2026-11-17",
@@ -1997,7 +2016,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 312,
+    "stars": 313,
     "description": "A static recompilation of Condemned 2: Bloodshot done with RexGlue.",
     "version": "0.6.1",
     "releasedAt": "2026-11-16",
@@ -2125,7 +2144,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 53,
+    "stars": 54,
     "description": "A native PC port of SSX (2012), decoded from the Xbox 360 disc and rebuilt in Rust on Bevy.",
     "version": "v0.4.1",
     "releasedAt": "2026-11-16",
@@ -2133,25 +2152,6 @@
     "releaseUrl": "https://github.com/MnkyArts/ProjectAvalanche/releases/tag/v0.4.1",
     "licenseId": "MIT",
     "licenseUrl": "https://api.github.com/licenses/mit"
-  },
-  {
-    "id": "mkst-sssv",
-    "repo": "mkst/sssv",
-    "title": "Space Station Silicon Valley",
-    "game": "space-station-silicon-valley",
-    "author": "mkst",
-    "console": "Nintendo 64",
-    "mechanism": "in-progress",
-    "platforms": [],
-    "stars": 67,
-    "description": "WIP Space Station Silicon Valley N64 Decomp",
-    "version": null,
-    "releasedAt": "2026-11-16",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/mkst/sssv/releases",
-    "licenseId": "CC0-1.0",
-    "licenseUrl": "https://api.github.com/licenses/cc0-1.0",
-    "curated": true
   },
   {
     "id": "destinity13-timesplitters-2-native-recomp-windows-linux-steamdeck",
@@ -2372,7 +2372,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 2502,
+    "stars": 2503,
     "description": "Static recompilation of Link's Awakening (Switch) to native macOS, Windows, Linux, iOS and Android.",
     "version": "beta_6",
     "releasedAt": "2026-11-15",
@@ -2629,7 +2629,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 694,
+    "stars": 695,
     "description": "",
     "version": "1.6.1",
     "releasedAt": "2026-11-15",
@@ -2672,7 +2672,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 402,
+    "stars": 404,
     "description": "An unofficial PC port of the Xbox version of Shadow the Hedgehog, created through the process of static recompilation. ",
     "version": "v1.0.0",
     "releasedAt": "2026-11-15",
@@ -2734,7 +2734,7 @@
       "Linux",
       "iOS"
     ],
-    "stars": 645,
+    "stars": 646,
     "description": "The Legend of Zelda: The Wind Waker Recompiled. Native for MacOS, iOS, Windows, Linux, and Android.",
     "version": "v0.12.0",
     "releasedAt": "2026-11-15",
@@ -2839,7 +2839,7 @@
       "Windows",
       "macOS"
     ],
-    "stars": 960,
+    "stars": 961,
     "description": "An unofficial PC port of the Xbox 360 version of Sonic the Hedgehog (2006) created through the process of static recompilation",
     "version": "v1.0.0",
     "releasedAt": "2026-11-14",
@@ -2860,7 +2860,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 238,
+    "stars": 239,
     "description": "StarFox Remake [recompiled]: static recompilation of Star Fox (Nintendo Switch 2) into a native Windows app, built on your PC from your own copy. No game files included.",
     "version": "v1.1.0",
     "releasedAt": "2026-11-14",
@@ -3285,7 +3285,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 590,
+    "stars": 591,
     "description": "Native PC port (Linux/Windows) of The Last Guardian (PS4, CUSA03627) — runs your own game dump; no game or firmware files included. Mouse/keyboard, optional 60 FPS, SMAA/CAS filters. | Port nativo para PC de The Last Guardian — usa o seu próprio dump.",
     "version": "v2026.11.14-ee3327d",
     "releasedAt": "2026-11-14",
@@ -3371,7 +3371,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5534,
+    "stars": 5535,
     "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
     "version": "windows-v1.9.8.6",
     "releasedAt": "2026-11-13",
@@ -3856,7 +3856,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 263,
+    "stars": 264,
     "description": "A Recompilation of Viva Pinata: Trouble In Paradise",
     "version": "1.15.0",
     "releasedAt": "2026-11-10",
@@ -4894,7 +4894,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 208,
+    "stars": 209,
     "description": "Odin Sphere Leifthrasir native PC port for Windows, with direct PS4 PKG installation, TRG launcher and modern graphics options",
     "version": "v0.2.3",
     "releasedAt": "2026-11-04",
@@ -5024,7 +5024,7 @@
     "console": "PlayStation 3",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 351,
+    "stars": 352,
     "description": "Drakengard 3 (PS3) static recompilation using ps3recomp",
     "version": null,
     "releasedAt": "2026-11-03",
@@ -5309,7 +5309,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 174,
+    "stars": 175,
     "description": "Fan mod of Dino Crisis (PS1). It brings a modern Resident evil Remakes like over-the-shoulder camera, updated controls, visual/gameplay improvements, and plenty of Quality of Life settings to customize the experience to your liking.",
     "version": "v1.07",
     "releasedAt": "2026-11-01",
@@ -5624,7 +5624,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 975,
+    "stars": 976,
     "description": "An unofficial original Xbox version PC port of BLACK (2006) via static recompilation.",
     "version": "V3",
     "releasedAt": "2026-10-29",
@@ -6117,7 +6117,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 8062,
+    "stars": 8065,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -6365,7 +6365,7 @@
     "console": "Xbox 360",
     "mechanism": "native",
     "platforms": [],
-    "stars": 88,
+    "stars": 89,
     "description": "FIFA 09 PC Port based on Xbox 360 Version.",
     "version": "v1.4.0",
     "releasedAt": "2026-10-23",
@@ -6512,7 +6512,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 1210,
+    "stars": 1211,
     "description": "Native PC port (Linux/Windows) of inFAMOUS Second Son (PS4, CUSA00223) — in development, playable; runs your own game dump; no game or firmware files included. Motion sensor emulation. | Port nativo para PC de inFAMOUS Second Son (em desenvolvimento) — usa o seu próprio dump.",
     "version": "v1.0",
     "releasedAt": "2026-10-22",
@@ -6814,13 +6814,13 @@
       "Linux",
       "macOS"
     ],
-    "stars": 6104,
+    "stars": 6105,
     "description": "Ship of Harkinian: a PC port of Ocarina of Time built from the decompilation, with widescreen, high framerate and mod support.",
     "version": "9.3.1",
     "releasedAt": "2026-10-18",
     "sizeBytes": 72980600,
     "releaseUrl": "https://github.com/HarbourMasters/Shipwright/releases/tag/9.3.1",
-    "licenseId": null,
+    "licenseId": "NOASSERTION",
     "licenseUrl": null,
     "curated": true
   },
@@ -9113,7 +9113,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5393,
+    "stars": 5394,
     "description": "An unofficial PC port of the Xbox 360 version of Sonic Unleashed created through the process of static recompilation.",
     "version": "v1.0.3",
     "releasedAt": "2025-04-03",
