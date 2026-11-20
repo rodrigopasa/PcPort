@@ -144,7 +144,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 72,
+    "stars": 73,
     "description": "TimeSplitters 2 (PS2, NTSC-U) statically recompiled for Windows, Linux and Steam Deck – 60 FPS, real 16:9, up to 8x resolution, online multiplayer, verified against PCSX2",
     "version": "v1.3.0",
     "releasedAt": "2026-11-20",
@@ -162,13 +162,15 @@
     "console": "PC",
     "mechanism": "recompiled",
     "platforms": [
-      "Windows"
+      "Windows",
+      "Android",
+      "iOS"
     ],
     "stars": 46,
     "description": "Nightjar: Resident Evil 4 (GameCube) 100% native source port, byte-matching decompilation & standalone engine runtime for Android (32/64-bit), iOS (Metal), Windows, and Linux.",
     "version": "nightly",
     "releasedAt": "2026-11-20",
-    "sizeBytes": 50634196,
+    "sizeBytes": 50620459,
     "releaseUrl": "https://github.com/st4rwhx/Resident-Evil-4-Native-Port/releases/tag/nightly",
     "licenseId": "CC0-1.0",
     "licenseUrl": "https://api.github.com/licenses/cc0-1.0"
@@ -417,6 +419,25 @@
     "curated": true
   },
   {
+    "id": "maryncrt-ultimate-mortal-kombat-3-ios-decompiled",
+    "repo": "MaryNCRT/Ultimate-Mortal-Kombat-3-iOS-Decompiled",
+    "title": "Ultimate Mortal Kombat 3",
+    "game": null,
+    "author": "MaryNCRT",
+    "console": "Arcade",
+    "mechanism": "in-progress",
+    "platforms": [],
+    "stars": 77,
+    "description": "Decompiled Ultimate Mortal Kombat 3 (iOS v1.2.59) with a playable native PC port featuring DirectX, Vulkan, OpenGL, widescreen support, HD textures, and multiplayer. Original game assets required.",
+    "version": null,
+    "releasedAt": "2026-11-20",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/MaryNCRT/Ultimate-Mortal-Kombat-3-iOS-Decompiled/releases",
+    "licenseId": "NOASSERTION",
+    "licenseUrl": null,
+    "curated": true
+  },
+  {
     "id": "roz1077-true-crime-new-york-city-recomp",
     "repo": "roz1077/true-crime-new-york-city-recomp",
     "title": "True Crime: New York City",
@@ -489,7 +510,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 298,
+    "stars": 299,
     "description": "Ninja Gaiden II (Xbox 360, 2008) statically recompiled into native Linux and Windows builds, drawn by its own Vulkan renderer. A steady 60 fps, up to 8x render scale, widescreen and ultrawide, keyboard and mouse, mods, Steam Deck ready. Bring your own copy of the game.",
     "version": "v0.6.12",
     "releasedAt": "2026-11-19",
@@ -595,7 +616,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 417,
+    "stars": 418,
     "description": "A native Windows PC port of Super Mario Odyssey by static recompilation. Bring your own game: no game files included.",
     "version": "v0.5.0",
     "releasedAt": "2026-11-19",
@@ -680,7 +701,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 920,
+    "stars": 922,
     "description": "A cozy life-simulation and sandbox builder with fantastical creatures (Switch 2), recompiled to run natively on Windows, Linux and macOS. Multiplayer, all events, modding, enhancements and more. Discord: https://discord.recompia.com",
     "version": "v0.15.2",
     "releasedAt": "2026-11-19",
@@ -905,25 +926,6 @@
     "releaseUrl": "https://github.com/saulob/odin-sphere-leifthrasir-pc/releases/tag/v0.3.0",
     "licenseId": "GPL-2.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-2.0",
-    "curated": true
-  },
-  {
-    "id": "maryncrt-ultimate-mortal-kombat-3-ios-decompiled",
-    "repo": "MaryNCRT/Ultimate-Mortal-Kombat-3-iOS-Decompiled",
-    "title": "Ultimate Mortal Kombat 3",
-    "game": null,
-    "author": "MaryNCRT",
-    "console": "Arcade",
-    "mechanism": "in-progress",
-    "platforms": [],
-    "stars": 77,
-    "description": "Decompiled Ultimate Mortal Kombat 3 (iOS v1.2.59) with a playable native PC port featuring DirectX, Vulkan, OpenGL, widescreen support, HD textures, and multiplayer. Original game assets required.",
-    "version": null,
-    "releasedAt": "2026-11-19",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/MaryNCRT/Ultimate-Mortal-Kombat-3-iOS-Decompiled/releases",
-    "licenseId": "NOASSERTION",
-    "licenseUrl": null,
     "curated": true
   },
   {
@@ -1351,7 +1353,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 315,
+    "stars": 314,
     "description": "Native Windows port of Pokémon: Let's Go, Eevee! (Switch v1.0.0) by static recompilation, built on LAS Recomp. No game files included.",
     "version": "v0.7.7",
     "releasedAt": "2026-11-18",
@@ -1438,7 +1440,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 221,
+    "stars": 222,
     "description": "A matching decompilation and PC port for the Ratchet & Clank series",
     "version": "launcher-v1.1.0",
     "releasedAt": "2026-11-18",
@@ -1563,7 +1565,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 1236,
+    "stars": 1235,
     "description": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows and Linux with Vulkan. 0.4.2 out; on bananza: performance presets with a Recommended level, DLSS quality modes, local co-op, 16:10, Thai, setup with Play/Uninstall and a Linux tarball. Requirements: docs/requirements.md. Roadmap: #10. No game files included.",
     "version": "v0.4.2",
     "releasedAt": "2026-11-18",
@@ -1756,7 +1758,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 88,
+    "stars": 90,
     "description": "Native PC port of Ace Combat 6: Fires of Liberation using XenonRecomp",
     "version": "v1.0.0",
     "releasedAt": "2026-11-18",
@@ -1822,7 +1824,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 513,
+    "stars": 514,
     "description": "Dragon's Crown Pro native PC port for Windows, with direct PS4 PKG installation, TRG launcher and modern graphics options",
     "version": "v1.3.0",
     "releasedAt": "2026-11-17",
@@ -1968,7 +1970,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 54,
+    "stars": 55,
     "description": "Unofficial static recompilation of Splatoon Raiders (Switch 2) to native Windows x86-64 with a Vulkan renderer. No game data included: bring your own dump.",
     "version": "v0.1.9",
     "releasedAt": "2026-11-17",
@@ -2314,7 +2316,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 177,
+    "stars": 178,
     "description": "Ratchet & Clank: Tools of Destruction native PC port (PS3 static recompilation) – 4K, 60 fps, DualSense, Windows",
     "version": "v1.3.0",
     "releasedAt": "2026-11-16",
@@ -2587,7 +2589,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 2511,
+    "stars": 2510,
     "description": "Static recompilation of Link's Awakening (Switch) to native macOS, Windows, Linux, iOS and Android.",
     "version": "beta_6",
     "releasedAt": "2026-11-15",
@@ -2802,7 +2804,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 7763,
+    "stars": 7769,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.4.1",
     "releasedAt": "2026-11-15",
@@ -3523,7 +3525,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 166,
+    "stars": 167,
     "description": "OpenTricky is an unofficial PC port of SSX Tricky, made by static recompilation. Bring your own disc.",
     "version": "v0.1.6",
     "releasedAt": "2026-11-13",
@@ -4092,7 +4094,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 294,
+    "stars": 295,
     "description": "Native PC port of Peter Jackson's King Kong (Xbox 360) via static recompilation",
     "version": "v2.1.3",
     "releasedAt": "2026-11-09",
@@ -4265,7 +4267,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 927,
+    "stars": 928,
     "description": "Xbox 360 to PC port of Dante's Inferno using ReXGlue (static recompilation)",
     "version": "v0.8.6-beta-hotfix",
     "releasedAt": "2026-11-08",
@@ -4811,7 +4813,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 94,
+    "stars": 95,
     "description": "Perfect Dark Zero [Xbox360] game static recompilation project based on RexGlue-SDK",
     "version": "2.0",
     "releasedAt": "2026-11-05",
@@ -5000,7 +5002,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 140,
+    "stars": 141,
     "description": "Mega Man X4 (USA, SLUS-00561) statically recompiled to a native PC executable with PSXRecomp",
     "version": "v1.0.29",
     "releasedAt": "2026-11-03",
@@ -5023,7 +5025,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 773,
+    "stars": 774,
     "description": "PC port of Dragon Ball Z: Budokai Tenkaichi 3, built on the BT3-Decompiled project.",
     "version": "v0.1.39.6",
     "releasedAt": "2026-11-03",
@@ -5476,7 +5478,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 34298,
+    "stars": 34297,
     "description": "PlayStation 4 emulator for Windows, Linux, macOS and FreeBSD written in C++",
     "version": "v.0.21.0",
     "releasedAt": "2026-10-30",
@@ -5520,7 +5522,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 522,
+    "stars": 523,
     "description": "An unofficial PC port of the Xbox 360 version of Spider-Man: Edge of Time created through the process of static recompilation.",
     "version": "v1.1",
     "releasedAt": "2026-10-30",
@@ -5996,7 +5998,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 1010,
+    "stars": 1011,
     "description": "Experimental native PC port of Lost Odyssey using static recompilation. No game assets included.",
     "version": "v1.1.0",
     "releasedAt": "2026-10-26",
@@ -6121,7 +6123,7 @@
     "platforms": [
       "Linux"
     ],
-    "stars": 167,
+    "stars": 166,
     "description": "Unofficial native PC port of inFAMOUS First Light (PS4). Bring your own game dump - no game files included.",
     "version": "v0.3.8",
     "releasedAt": "2026-10-25",
@@ -6140,7 +6142,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 8095,
+    "stars": 8099,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -6227,7 +6229,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 120,
+    "stars": 121,
     "description": "Dead or Alive 3 PC Port ",
     "version": "v1.0.7",
     "releasedAt": "2026-10-24",
@@ -6350,7 +6352,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 3889,
+    "stars": 3890,
     "description": "Playstation 2 Static Recompiler & Runtime Tool to make native PC ports",
     "version": null,
     "releasedAt": "2026-10-23",
@@ -6738,7 +6740,7 @@
     "console": "Xbox 360",
     "mechanism": "native",
     "platforms": [],
-    "stars": 104,
+    "stars": 105,
     "description": "",
     "version": "v0.3",
     "releasedAt": "2026-10-20",
@@ -7029,7 +7031,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 3664,
+    "stars": 3665,
     "description": "Reviving the language that brought us the Jak & Daxter Series",
     "version": "v0.3.9",
     "releasedAt": "2026-10-15",
@@ -7723,7 +7725,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 6480,
+    "stars": 6482,
     "description": "Dusklight brings a classic adventure to PC and mobile platforms with a variety of fixes and improvements.",
     "version": "v2.0.3",
     "releasedAt": "2026-09-30",
