@@ -11,7 +11,7 @@
     "stars": 264,
     "description": "From-scratch, byte-matching decompilation of Super Mario 64 DS into C/C++, with a live progress atlas and matching tools.",
     "version": null,
-    "releasedAt": "2026-11-19",
+    "releasedAt": "2026-11-20",
     "sizeBytes": null,
     "releaseUrl": "https://github.com/tangosdev/sm64ds-decomp/releases",
     "licenseId": "MIT",
@@ -30,7 +30,7 @@
     "stars": 350,
     "description": "Static ARM64 to x86 recompiler (GPLv3)",
     "version": null,
-    "releasedAt": "2026-11-19",
+    "releasedAt": "2026-11-20",
     "sizeBytes": null,
     "releaseUrl": "https://github.com/scarletnx/ScarletNX/releases",
     "licenseId": "GPL-3.0",
@@ -49,7 +49,7 @@
     "stars": 155,
     "description": "Halo 2 decompilation (decomp) for the original Xbox: a matching decompilation of the retail game into C/C++ source, rebuilt byte for byte, toward native PC, Linux and handheld ports. Contributors welcome. Source only; bring your own disc.",
     "version": null,
-    "releasedAt": "2026-11-19",
+    "releasedAt": "2026-11-20",
     "sizeBytes": null,
     "releaseUrl": "https://github.com/kirklandsig/halo2-decompiled/releases",
     "licenseId": "GPL-3.0",
@@ -68,7 +68,7 @@
     "stars": 83,
     "description": "Native port of Shadow of the Colossus (PS2) to macOS and PS Vita: static recompilation with PS2Recomp, a native Metal/OpenGL renderer, and a decompilation in progress",
     "version": null,
-    "releasedAt": "2026-11-19",
+    "releasedAt": "2026-11-20",
     "sizeBytes": null,
     "releaseUrl": "https://github.com/HenryKun55/celosia/releases",
     "licenseId": "GPL-3.0",
@@ -87,7 +87,7 @@
     "stars": 219,
     "description": "A decompilation of Bloodborne (CUSA03173 v1.09) with its own runtime: the game's code rewritten as readable C++, one verified function at a time. The game doesn't run on it yet; 21 functions verified. No game files included.",
     "version": null,
-    "releasedAt": "2026-11-19",
+    "releasedAt": "2026-11-20",
     "sizeBytes": null,
     "releaseUrl": "https://github.com/Yharnam-Hunters/Paleblood/releases",
     "licenseId": "GPL-2.0",
@@ -106,12 +106,70 @@
     "stars": 151,
     "description": "🌋 Alchemy is a reconstruction of the source for both ☀️ Golden Sun games for Game Boy Advance: a matching decompilation that builds the same ROMs, byte for byte",
     "version": null,
-    "releasedAt": "2026-11-19",
+    "releasedAt": "2026-11-20",
     "sizeBytes": null,
     "releaseUrl": "https://github.com/PascalPixel/alchemy/releases",
     "licenseId": null,
     "licenseUrl": null,
     "curated": true
+  },
+  {
+    "id": "mzzvxm-larecomp",
+    "repo": "mzzvxm/LARecomp",
+    "title": "Midnight Club: Los Angeles",
+    "game": "midnight-club-la",
+    "author": "mzzvxm",
+    "console": "Xbox 360",
+    "mechanism": "recompiled",
+    "platforms": [],
+    "stars": 354,
+    "description": "",
+    "version": null,
+    "releasedAt": "2026-11-20",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/mzzvxm/LARecomp/releases",
+    "licenseId": null,
+    "licenseUrl": null,
+    "curated": true
+  },
+  {
+    "id": "destinity13-timesplitters-2-native-recomp-windows-linux-steamdeck",
+    "repo": "Destinity13/TimeSplitters-2-Native-Recomp-Windows-Linux-SteamDeck",
+    "title": "Time Splitters 2 Windows Linux Steam Deck",
+    "game": null,
+    "author": "Destinity13",
+    "console": "PlayStation 2",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 70,
+    "description": "TimeSplitters 2 (PS2, NTSC-U) statically recompiled for Windows, Linux and Steam Deck – 60 FPS, real 16:9, up to 8x resolution, online multiplayer, verified against PCSX2",
+    "version": "v1.3.0",
+    "releasedAt": "2026-11-20",
+    "sizeBytes": 155086608,
+    "releaseUrl": "https://github.com/Destinity13/TimeSplitters-2-Native-Recomp-Windows-Linux-SteamDeck/releases/tag/v1.3.0",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
+  },
+  {
+    "id": "st4rwhx-resident-evil-4-native-port",
+    "repo": "st4rwhx/Resident-Evil-4-Native-Port",
+    "title": "Resident Evil 4",
+    "game": null,
+    "author": "st4rwhx",
+    "console": "PC",
+    "mechanism": "native",
+    "platforms": [],
+    "stars": 44,
+    "description": "",
+    "version": null,
+    "releasedAt": "2026-11-20",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/st4rwhx/Resident-Evil-4-Native-Port/releases",
+    "licenseId": "CC0-1.0",
+    "licenseUrl": "https://api.github.com/licenses/cc0-1.0"
   },
   {
     "id": "therealestnwah-sotc-decomp",
@@ -184,7 +242,7 @@
     "platforms": [
       "Linux"
     ],
-    "stars": 73,
+    "stars": 74,
     "description": "Native port of Sonic Riders (GameCube) for Windows, Linux / Steam Deck, Nintendo Switch, Switch 2 (experimental alpha), Android and iPhone / iPad. Built from your own disc image; no game data included.",
     "version": "v0.8.7",
     "releasedAt": "2026-11-19",
@@ -192,25 +250,6 @@
     "releaseUrl": "https://github.com/teclilla18/sonic-riders-recomp/releases/tag/v0.8.7",
     "licenseId": "MPL-2.0",
     "licenseUrl": "https://api.github.com/licenses/mpl-2.0"
-  },
-  {
-    "id": "mzzvxm-larecomp",
-    "repo": "mzzvxm/LARecomp",
-    "title": "Midnight Club: Los Angeles",
-    "game": "midnight-club-la",
-    "author": "mzzvxm",
-    "console": "Xbox 360",
-    "mechanism": "recompiled",
-    "platforms": [],
-    "stars": 354,
-    "description": "",
-    "version": null,
-    "releasedAt": "2026-11-19",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/mzzvxm/LARecomp/releases",
-    "licenseId": null,
-    "licenseUrl": null,
-    "curated": true
   },
   {
     "id": "bhuiyah-ff7-recomp-android",
@@ -248,7 +287,7 @@
     "description": "Ninja Gaiden II (Xbox 360, 2008) statically recompiled into native Linux and Windows builds, drawn by its own Vulkan renderer. A steady 60 fps, up to 8x render scale, widescreen and ultrawide, keyboard and mouse, mods, Steam Deck ready. Bring your own copy of the game.",
     "version": "v0.6.12",
     "releasedAt": "2026-11-19",
-    "sizeBytes": 163550133,
+    "sizeBytes": 163568193,
     "releaseUrl": "https://github.com/gamboozino/ng2recomp/releases/tag/v0.6.12",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
@@ -409,12 +448,12 @@
       "Windows",
       "Linux"
     ],
-    "stars": 414,
+    "stars": 416,
     "description": "A native Windows PC port of Super Mario Odyssey by static recompilation. Bring your own game: no game files included.",
-    "version": "v0.4.10",
+    "version": "v0.5.0",
     "releasedAt": "2026-11-19",
-    "sizeBytes": 231345221,
-    "releaseUrl": "https://github.com/Simon3Sarkis/super-odyssey-pc-recomp/releases/tag/v0.4.10",
+    "sizeBytes": 231363274,
+    "releaseUrl": "https://github.com/Simon3Sarkis/super-odyssey-pc-recomp/releases/tag/v0.5.0",
     "licenseId": "NOASSERTION",
     "licenseUrl": null
   },
@@ -494,7 +533,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 915,
+    "stars": 918,
     "description": "A cozy life-simulation and sandbox builder with fantastical creatures (Switch 2), recompiled to run natively on Windows, Linux and macOS. Multiplayer, all events, modding, enhancements and more. Discord: https://discord.recompia.com",
     "version": "v0.15.2",
     "releasedAt": "2026-11-19",
@@ -557,7 +596,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 170,
+    "stars": 169,
     "description": "God of War: Ascension PC port: an unofficial, native Windows port of the PS3 game by static recompilation, no emulator. No game files included: you build it from your own copy.",
     "version": "v0.2.0",
     "releasedAt": "2026-11-19",
@@ -734,7 +773,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 211,
+    "stars": 212,
     "description": "Odin Sphere Leifthrasir native PC port for Windows, with direct PS4 PKG installation, TRG launcher and modern graphics options",
     "version": "v0.3.0",
     "releasedAt": "2026-11-19",
@@ -992,6 +1031,29 @@
     "releaseUrl": "https://github.com/JFryy/reshadowtower/releases/tag/v0.3.2",
     "licenseId": "MIT",
     "licenseUrl": "https://api.github.com/licenses/mit",
+    "curated": true
+  },
+  {
+    "id": "vyanhursky-defjamffny-recomp",
+    "repo": "vyanhursky/DefJamFFNY-recomp",
+    "title": "Def Jam: Fight for NY",
+    "game": "def-jam-ffny",
+    "author": "vyanhursky",
+    "console": "Xbox",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "stars": 274,
+    "description": "Def Jam: Fight for NY PC port — static recompilation of the original Xbox game for native Windows and macOS (Direct3D 11 / Vulkan). Bring your own game dump.",
+    "version": "v1.2.0",
+    "releasedAt": "2026-11-19",
+    "sizeBytes": 204990968,
+    "releaseUrl": "https://github.com/vyanhursky/DefJamFFNY-recomp/releases/tag/v1.2.0",
+    "licenseId": "NOASSERTION",
+    "licenseUrl": null,
     "curated": true
   },
   {
@@ -1438,8 +1500,8 @@
       "Linux",
       "macOS"
     ],
-    "stars": 1230,
-    "description": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows and Linux with Vulkan. 0.4.2 out; on bananza: local co-op, 16:10, Thai, shorter level-entry stalls on NVIDIA, faster replay on few-core CPUs and dedicated AMD cards, prompts that follow button swaps. Roadmap: #10. No game files included.",
+    "stars": 1233,
+    "description": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows and Linux with Vulkan. 0.4.2 out; on bananza: performance presets with a Recommended level, DLSS quality modes, local co-op, 16:10, Thai, shorter level-entry stalls. Requirements: docs/requirements.md. Roadmap: #10. No game files included.",
     "version": "v0.4.2",
     "releasedAt": "2026-11-18",
     "sizeBytes": 222104056,
@@ -1524,7 +1586,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 253,
+    "stars": 254,
     "description": "inFAMOUS 2 (PS3) as a native PC program for Windows and Linux: Setup recompiles YOUR copy on your PC (static recompilation, Vulkan). No game files included.",
     "version": "v0.6.3",
     "releasedAt": "2026-11-18",
@@ -1822,7 +1884,7 @@
     "console": "Nintendo Switch",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 472,
+    "stars": 473,
     "description": "Experimental Windows x64 native porting toolkit for Super Smash Bros. Ultimate: static AArch64 recompilation, a D3D11 runtime, and Local Wireless relay netplay.",
     "version": null,
     "releasedAt": "2026-11-17",
@@ -2303,27 +2365,6 @@
     "licenseUrl": "https://api.github.com/licenses/mit"
   },
   {
-    "id": "destinity13-timesplitters-2-native-recomp-windows-linux-steamdeck",
-    "repo": "Destinity13/TimeSplitters-2-Native-Recomp-Windows-Linux-SteamDeck",
-    "title": "Time Splitters 2 Windows Linux Steam Deck",
-    "game": null,
-    "author": "Destinity13",
-    "console": "PlayStation 2",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 70,
-    "description": "TimeSplitters 2 (PS2, NTSC-U) statically recompiled for Windows, Linux and Steam Deck – 60 FPS, real 16:9, up to 8x resolution, online multiplayer, verified against PCSX2",
-    "version": "v1.2.1",
-    "releasedAt": "2026-11-16",
-    "sizeBytes": 196478407,
-    "releaseUrl": "https://github.com/Destinity13/TimeSplitters-2-Native-Recomp-Windows-Linux-SteamDeck/releases/tag/v1.2.1",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
-  },
-  {
     "id": "russophone-tomodachi-ltd-recomp",
     "repo": "RussoPhone/tomodachi-ltd-recomp",
     "title": "Tomodachi Life: Living the Dream",
@@ -2502,7 +2543,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 2508,
+    "stars": 2510,
     "description": "Static recompilation of Link's Awakening (Switch) to native macOS, Windows, Linux, iOS and Android.",
     "version": "beta_6",
     "releasedAt": "2026-11-15",
@@ -2717,7 +2758,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 7755,
+    "stars": 7757,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.4.1",
     "releasedAt": "2026-11-15",
@@ -2759,7 +2800,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 701,
+    "stars": 702,
     "description": "",
     "version": "1.6.1",
     "releasedAt": "2026-11-15",
@@ -2802,7 +2843,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 410,
+    "stars": 411,
     "description": "An unofficial PC port of the Xbox version of Shadow the Hedgehog, created through the process of static recompilation. ",
     "version": "v1.0.0",
     "releasedAt": "2026-11-15",
@@ -2864,7 +2905,7 @@
       "Linux",
       "iOS"
     ],
-    "stars": 654,
+    "stars": 653,
     "description": "The Legend of Zelda: The Wind Waker Recompiled. Native for MacOS, iOS, Windows, Linux, and Android.",
     "version": "v0.12.0",
     "releasedAt": "2026-11-15",
@@ -3106,29 +3147,6 @@
     "releaseUrl": "https://github.com/Matteo842/CrashBandicoot-Launcher/releases/tag/2.6",
     "licenseId": "MIT",
     "licenseUrl": "https://api.github.com/licenses/mit",
-    "curated": true
-  },
-  {
-    "id": "vyanhursky-defjamffny-recomp",
-    "repo": "vyanhursky/DefJamFFNY-recomp",
-    "title": "Def Jam: Fight for NY",
-    "game": "def-jam-ffny",
-    "author": "vyanhursky",
-    "console": "Xbox",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "macOS"
-    ],
-    "stars": 274,
-    "description": "Def Jam: Fight for NY PC port — static recompilation of the original Xbox game for native Windows and macOS (Direct3D 11 / Vulkan). Bring your own game dump.",
-    "version": "v1.1.2",
-    "releasedAt": "2026-11-14",
-    "sizeBytes": 204478968,
-    "releaseUrl": "https://github.com/vyanhursky/DefJamFFNY-recomp/releases/tag/v1.1.2",
-    "licenseId": "NOASSERTION",
-    "licenseUrl": null,
     "curated": true
   },
   {
@@ -3482,7 +3500,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 165,
+    "stars": 166,
     "description": "OpenTricky is an unofficial PC port of SSX Tricky, made by static recompilation. Bring your own disc.",
     "version": "v0.1.6",
     "releasedAt": "2026-11-13",
@@ -4643,7 +4661,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 1611,
+    "stars": 1612,
     "description": "Zelda Wind Waker HD Recomp",
     "version": "v0.5.1",
     "releasedAt": "2026-11-06",
@@ -5200,7 +5218,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 277,
+    "stars": 278,
     "description": "GTA V (Xbox 360, TU27) static recompilation with ReXGlue",
     "version": "v0.3.0",
     "releasedAt": "2026-11-02",
@@ -5435,7 +5453,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 34297,
+    "stars": 34299,
     "description": "PlayStation 4 emulator for Windows, Linux, macOS and FreeBSD written in C++",
     "version": "v.0.21.0",
     "releasedAt": "2026-10-30",
@@ -5756,24 +5774,6 @@
     "curated": true
   },
   {
-    "id": "st4rwhx-resident-evil-4-native-port",
-    "repo": "st4rwhx/Resident-Evil-4-Native-Port",
-    "title": "Resident Evil 4",
-    "game": null,
-    "author": "st4rwhx",
-    "console": "PC",
-    "mechanism": "native",
-    "platforms": [],
-    "stars": 44,
-    "description": "",
-    "version": null,
-    "releasedAt": "2026-10-29",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/st4rwhx/Resident-Evil-4-Native-Port/releases",
-    "licenseId": null,
-    "licenseUrl": null
-  },
-  {
     "id": "dahsidiabdallah-conkerbfdreloaded",
     "repo": "DahSidiAbdallah/ConkerBFDReloaded",
     "title": "Conker's Bad Fur Day",
@@ -5847,7 +5847,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 4138,
+    "stars": 4139,
     "description": "Bloodborne (v1.09) running natively on Linux and Windows: the game's x86-64 code runs as is, GPU side translated to Vulkan; FSR 4 / DLSS, co-op (BBSC). Bring your own dump.",
     "version": "0.7",
     "releasedAt": "2026-10-28",
@@ -6117,7 +6117,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 8086,
+    "stars": 8087,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -6512,7 +6512,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 1212,
+    "stars": 1213,
     "description": "Native PC port (Linux/Windows) of inFAMOUS Second Son (PS4, CUSA00223) — in development, playable; runs your own game dump; no game or firmware files included. Motion sensor emulation. | Port nativo para PC de inFAMOUS Second Son (em desenvolvimento) — usa o seu próprio dump.",
     "version": "v1.0",
     "releasedAt": "2026-10-22",
@@ -6814,7 +6814,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 6117,
+    "stars": 6119,
     "description": "Ship of Harkinian: a PC port of Ocarina of Time built from the decompilation, with widescreen, high framerate and mod support.",
     "version": "9.3.1",
     "releasedAt": "2026-10-18",
@@ -7466,7 +7466,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 927,
+    "stars": 928,
     "description": "Recompilation of Blue Dragon",
     "version": "v1.3.1",
     "releasedAt": "2026-10-05",
@@ -7675,7 +7675,7 @@
     "platforms": [
       "macOS"
     ],
-    "stars": 108,
+    "stars": 109,
     "description": "God of War II HD static recompilation — curated work artifacts (lift boundaries, SPU lift sources, scripts, findings). Game data & build artifacts excluded.",
     "version": "kit-macos-20260930",
     "releasedAt": "2026-09-30",
@@ -8038,7 +8038,7 @@
     "console": "Xbox 360",
     "mechanism": "native",
     "platforms": [],
-    "stars": 465,
+    "stars": 466,
     "description": "A Fable 2 Recomp",
     "version": null,
     "releasedAt": "2026-09-12",
@@ -8252,7 +8252,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 129,
+    "stars": 130,
     "description": "Unofficial noncommercial PlayStation recompilation releases",
     "version": "v0.3.4",
     "releasedAt": "2026-09-02",
@@ -8340,7 +8340,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2499,
+    "stars": 2501,
     "description": "2 Ship 2 Harkinian: a PC port of Majora's Mask built from the decompilation, with widescreen, high resolution and mod support.",
     "version": "5.0.1",
     "releasedAt": "2026-08-25",
@@ -8506,7 +8506,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2147,
+    "stars": 2148,
     "description": "PC Port of Banjo-Kazooie made using N64: Recompiled (Windows/Linux/Mac) ",
     "version": "v1.0.2",
     "releasedAt": "2026-07-31",
@@ -8525,7 +8525,7 @@
     "console": "Xbox 360",
     "mechanism": "in-progress",
     "platforms": [],
-    "stars": 258,
+    "stars": 260,
     "description": "WIP 1:1 Decompilation of multiple versions of NFS:MW",
     "version": "extension_0.1.0",
     "releasedAt": "2026-07-29",
@@ -8565,7 +8565,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 74,
+    "stars": 75,
     "description": "A port of Diablo 3 based on RexGlue using AI",
     "version": "beta-1.3",
     "releasedAt": "2026-07-25",
@@ -8607,7 +8607,7 @@
     "console": "Xbox 360",
     "mechanism": "native",
     "platforms": [],
-    "stars": 71,
+    "stars": 72,
     "description": "",
     "version": "v0.6.0",
     "releasedAt": "2026-07-22",
