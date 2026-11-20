@@ -226,7 +226,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 102,
+    "stars": 105,
     "description": "Native PC port of Diablo III: Reaper of Souls – Ultimate Evil Edition (PS4). Local co-op for 4.",
     "version": "v0.6.9",
     "releasedAt": "2026-11-20",
@@ -471,7 +471,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 528,
+    "stars": 530,
     "description": "Dragon's Crown Pro native PC port for Windows, with direct PS4 PKG installation, TRG launcher and modern graphics options",
     "version": "v1.4.0",
     "releasedAt": "2026-11-20",
@@ -514,7 +514,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 427,
+    "stars": 429,
     "description": "A native Windows PC port of Super Mario Odyssey by static recompilation. Bring your own game: no game files included.",
     "version": "v0.5.1",
     "releasedAt": "2026-11-20",
@@ -576,7 +576,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 273,
+    "stars": 274,
     "description": "Native Windows port of Dead or Alive Xtreme Beach Volleyball (Xbox), built by static recompilation with a hand-written runtime. Requires your own copy of the game.",
     "version": "v0.7.0",
     "releasedAt": "2026-11-20",
@@ -722,7 +722,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 933,
+    "stars": 935,
     "description": "A cozy life-simulation and sandbox builder with fantastical creatures (Switch 2), recompiled to run natively on Windows, Linux and macOS. Multiplayer, all events, modding, enhancements and more. Discord: https://discord.recompia.com",
     "version": "v0.16.0",
     "releasedAt": "2026-11-20",
@@ -766,7 +766,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 81,
+    "stars": 82,
     "description": "Experimental PS2-to-Windows recompilation project focused on compatibility, graphics rendering and performance.",
     "version": null,
     "releasedAt": "2026-11-20",
@@ -898,6 +898,89 @@
     "licenseUrl": "https://api.github.com/licenses/gpl-2.0"
   },
   {
+    "id": "smokedoggy044-cod2-bro-native-loader",
+    "repo": "SmokeDoggy044/CoD2-BRO-Native-Loader",
+    "title": "Call of Duty 2: Big Red One",
+    "game": null,
+    "author": "SmokeDoggy044",
+    "console": "Xbox",
+    "mechanism": "native",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 105,
+    "description": "Call of Duty 2: Big Red One - Custom Engine: our own engine implementation of the Xbox game, built from source for Linux and Windows (bring your own game).",
+    "version": "v1.0.8",
+    "releasedAt": "2026-11-20",
+    "sizeBytes": 24998200,
+    "releaseUrl": "https://github.com/SmokeDoggy044/CoD2-BRO-Native-Loader/releases/tag/v1.0.8",
+    "licenseId": "GPL-2.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-2.0",
+    "curated": true
+  },
+  {
+    "id": "mormonftp-hub-gt5-recomp",
+    "repo": "MormonFTP-hub/gt5-recomp",
+    "title": "Gran Turismo 5 on ps3recomp",
+    "game": null,
+    "author": "MormonFTP-hub",
+    "console": "PlayStation 3",
+    "mechanism": "recompiled",
+    "platforms": [],
+    "stars": 75,
+    "description": "Unofficial PC port of Gran Turismo 5 on ps3recomp. Needs your own GT5 disc, EBOOT v1.00, no update: Europe BCES00569 (tested) or US BCUS98114 (untested). Code and tools only: no game files, keys or firmware.",
+    "version": "v0.1.109",
+    "releasedAt": "2026-11-20",
+    "sizeBytes": 126132,
+    "releaseUrl": "https://github.com/MormonFTP-hub/gt5-recomp/releases/tag/v0.1.109",
+    "licenseId": "MIT",
+    "licenseUrl": "https://api.github.com/licenses/mit"
+  },
+  {
+    "id": "giacomozama-live-and-recompiled",
+    "repo": "giacomozama/live-and-recompiled",
+    "title": "Conker: Live & Reloaded",
+    "game": "conker-live-reloaded",
+    "author": "giacomozama",
+    "console": "Xbox",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 44,
+    "description": "An unofficial native PC port of the OG Xbox Conker: Live & Reloaded.",
+    "version": "v5.0.0",
+    "releasedAt": "2026-11-20",
+    "sizeBytes": 136623376,
+    "releaseUrl": "https://github.com/giacomozama/live-and-recompiled/releases/tag/v5.0.0",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
+  },
+  {
+    "id": "nikolaygorb-perfectdarkzerorecomp",
+    "repo": "nikolaygorb/PerfectDarkZeroRecomp",
+    "title": "Perfect Dark Zero",
+    "game": null,
+    "author": "nikolaygorb",
+    "console": "Xbox 360",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows"
+    ],
+    "stars": 95,
+    "description": "Perfect Dark Zero [Xbox360] game static recompilation project based on RexGlue-SDK",
+    "version": "2.1",
+    "releasedAt": "2026-11-20",
+    "sizeBytes": 70349024,
+    "releaseUrl": "https://github.com/nikolaygorb/PerfectDarkZeroRecomp/releases/tag/2.1",
+    "licenseId": "MIT",
+    "licenseUrl": "https://api.github.com/licenses/mit",
+    "curated": true
+  },
+  {
     "id": "roz1077-true-crime-new-york-city-recomp",
     "repo": "roz1077/true-crime-new-york-city-recomp",
     "title": "True Crime: New York City",
@@ -908,7 +991,7 @@
     "platforms": [
       "Linux"
     ],
-    "stars": 65,
+    "stars": 66,
     "description": "Beta Windows/Linux recompilation port of True Crime: New York City (Xbox US & PAL)",
     "version": "v0.9.2-beta.4.3",
     "releasedAt": "2026-11-19",
@@ -1076,7 +1159,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 170,
+    "stars": 171,
     "description": "God of War: Ascension PC port: an unofficial, native Windows port of the PS3 game by static recompilation, no emulator. No game files included: you build it from your own copy.",
     "version": "v0.2.0",
     "releasedAt": "2026-11-19",
@@ -1217,28 +1300,6 @@
     "releaseUrl": "https://github.com/iMrBurn/wwe12-pc/releases/tag/v1.4.1",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
-    "curated": true
-  },
-  {
-    "id": "smokedoggy044-cod2-bro-native-loader",
-    "repo": "SmokeDoggy044/CoD2-BRO-Native-Loader",
-    "title": "Call of Duty 2: Big Red One",
-    "game": null,
-    "author": "SmokeDoggy044",
-    "console": "Xbox",
-    "mechanism": "native",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 105,
-    "description": "Call of Duty 2: Big Red One - Custom Engine: our own engine implementation of the Xbox game, built from source for Linux and Windows (bring your own game).",
-    "version": "v1.0.7",
-    "releasedAt": "2026-11-19",
-    "sizeBytes": 24387933,
-    "releaseUrl": "https://github.com/SmokeDoggy044/CoD2-BRO-Native-Loader/releases/tag/v1.0.7",
-    "licenseId": "GPL-2.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-2.0",
     "curated": true
   },
   {
@@ -1715,24 +1776,6 @@
     "curated": true
   },
   {
-    "id": "mormonftp-hub-gt5-recomp",
-    "repo": "MormonFTP-hub/gt5-recomp",
-    "title": "Gran Turismo 5 on ps3recomp",
-    "game": null,
-    "author": "MormonFTP-hub",
-    "console": "PlayStation 3",
-    "mechanism": "recompiled",
-    "platforms": [],
-    "stars": 75,
-    "description": "Unofficial PC port of Gran Turismo 5 on ps3recomp. Needs your own GT5 disc, EBOOT v1.00, no update: Europe BCES00569 (tested) or US BCUS98114 (untested). Code and tools only: no game files, keys or firmware.",
-    "version": "v0.1.108",
-    "releasedAt": "2026-11-18",
-    "sizeBytes": 125350,
-    "releaseUrl": "https://github.com/MormonFTP-hub/gt5-recomp/releases/tag/v0.1.108",
-    "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit"
-  },
-  {
     "id": "iexplosiverage-dbz-burst-limit-recompiled",
     "repo": "iExplosiveRage/DBZ-Burst-Limit-Recompiled",
     "title": "Dragon Ball Z: Burst Limit",
@@ -1941,7 +1984,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 96,
+    "stars": 97,
     "description": "Native PC port of Ace Combat 6: Fires of Liberation using XenonRecomp",
     "version": "v1.0.0",
     "releasedAt": "2026-11-18",
@@ -2006,7 +2049,7 @@
     "platforms": [
       "PC"
     ],
-    "stars": 2010,
+    "stars": 2012,
     "description": "Native Windows port of Shadow of the Colossus (PS4, CUSA08809) - bring your own game dump. Port nativo para PC.",
     "version": "v0.76.2",
     "releasedAt": "2026-11-17",
@@ -2302,7 +2345,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 249,
+    "stars": 250,
     "description": "Native Windows port of Demon's Souls (PS3, BLUS-30443) via ps3recomp static recompilation. Bring your own disc image; no game files included.",
     "version": "v2026.11.15",
     "releasedAt": "2026-11-16",
@@ -2751,7 +2794,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 2518,
+    "stars": 2519,
     "description": "Static recompilation of Link's Awakening (Switch) to native macOS, Windows, Linux, iOS and Android.",
     "version": "beta_6",
     "releasedAt": "2026-11-15",
@@ -2947,7 +2990,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 7821,
+    "stars": 7828,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.4.1",
     "releasedAt": "2026-11-15",
@@ -3032,7 +3075,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 420,
+    "stars": 421,
     "description": "An unofficial PC port of the Xbox version of Shadow the Hedgehog, created through the process of static recompilation. ",
     "version": "v1.0.0",
     "releasedAt": "2026-11-15",
@@ -3199,7 +3242,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 250,
+    "stars": 251,
     "description": "StarFox Remake [recompiled]: static recompilation of Star Fox (Nintendo Switch 2) into a native Windows app, built on your PC from your own copy. No game files included.",
     "version": "v1.1.0",
     "releasedAt": "2026-11-14",
@@ -3356,28 +3399,6 @@
     "releasedAt": "2026-11-14",
     "sizeBytes": 84818996,
     "releaseUrl": "https://github.com/gothamor/gta-vcs-recomp/releases/tag/v0.3.0",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
-    "curated": true
-  },
-  {
-    "id": "giacomozama-live-and-recompiled",
-    "repo": "giacomozama/live-and-recompiled",
-    "title": "Conker: Live & Reloaded",
-    "game": "conker-live-reloaded",
-    "author": "giacomozama",
-    "console": "Xbox",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 44,
-    "description": "An unofficial native PC port of the OG Xbox Conker: Live & Reloaded.",
-    "version": "v4.0.0",
-    "releasedAt": "2026-11-14",
-    "sizeBytes": 99787395,
-    "releaseUrl": "https://github.com/giacomozama/live-and-recompiled/releases/tag/v4.0.0",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
@@ -3588,7 +3609,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5566,
+    "stars": 5568,
     "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
     "version": "windows-v1.9.8.6",
     "releasedAt": "2026-11-13",
@@ -3671,7 +3692,7 @@
     "console": "PSP",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 214,
+    "stars": 215,
     "description": "Unofficial native PC ports of God of War: Chains of Olympus and Ghost of Sparta (PSP) by static recompilation. Bring your own disc.",
     "version": "v1.6.0",
     "releasedAt": "2026-11-13",
@@ -3775,7 +3796,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 116,
+    "stars": 117,
     "description": "Mario Kart 8 Deluxe recompiled to run natively on your PC: no JIT, FSR 3.1 + frame generation, experimental DLSS, 720p to 4K output, HDR10. Bring your own game files.",
     "version": "v0.2.4",
     "releasedAt": "2026-11-12",
@@ -4030,7 +4051,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 952,
+    "stars": 954,
     "description": "Unofficial native PC and Steam Deck port of Tears of the Kingdom 1.4.3 using static recompilation. Builds locally from the player's own extracted game dump; no game files included.",
     "version": "v0.4.0",
     "releasedAt": "2026-11-11",
@@ -4791,7 +4812,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 1621,
+    "stars": 1622,
     "description": "Zelda Wind Waker HD Recomp",
     "version": "v0.5.1",
     "releasedAt": "2026-11-06",
@@ -4908,27 +4929,6 @@
     "curated": true
   },
   {
-    "id": "nikolaygorb-perfectdarkzerorecomp",
-    "repo": "nikolaygorb/PerfectDarkZeroRecomp",
-    "title": "Perfect Dark Zero",
-    "game": null,
-    "author": "nikolaygorb",
-    "console": "Xbox 360",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows"
-    ],
-    "stars": 95,
-    "description": "Perfect Dark Zero [Xbox360] game static recompilation project based on RexGlue-SDK",
-    "version": "2.0",
-    "releasedAt": "2026-11-05",
-    "sizeBytes": 59473109,
-    "releaseUrl": "https://github.com/nikolaygorb/PerfectDarkZeroRecomp/releases/tag/2.0",
-    "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit",
-    "curated": true
-  },
-  {
     "id": "tgp482-007nightfire-xberecomp",
     "repo": "TGP482/007Nightfire-XBERecomp",
     "title": "007: Nightfire",
@@ -5021,7 +5021,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 67,
+    "stars": 68,
     "description": "GoldenEye007: Reloaded 2011 [Xbox360] game static recompilation project based on RexGlue-SDK",
     "version": "1.5",
     "releasedAt": "2026-11-05",
@@ -5085,7 +5085,7 @@
     "console": "Nintendo 64",
     "mechanism": "native",
     "platforms": [],
-    "stars": 1791,
+    "stars": 1792,
     "description": "Decompilation of The Legend of Zelda: Majora's Mask",
     "version": null,
     "releasedAt": "2026-11-04",
@@ -5392,7 +5392,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 354,
+    "stars": 355,
     "description": "Burnout Revenge recompilation based on RexGlue + standalone Plume render",
     "version": "v0.4.10",
     "releasedAt": "2026-11-01",
@@ -5436,7 +5436,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 176,
+    "stars": 177,
     "description": "Fan mod of Dino Crisis (PS1). It brings a modern Resident evil Remakes like over-the-shoulder camera, updated controls, visual/gameplay improvements, and plenty of Quality of Life settings to customize the experience to your liking.",
     "version": "v1.07",
     "releasedAt": "2026-11-01",
@@ -5751,7 +5751,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 977,
+    "stars": 979,
     "description": "An unofficial original Xbox version PC port of BLACK (2006) via static recompilation.",
     "version": "V3",
     "releasedAt": "2026-10-29",
@@ -6226,7 +6226,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 8118,
+    "stars": 8119,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -6436,7 +6436,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 3891,
+    "stars": 3892,
     "description": "Playstation 2 Static Recompiler & Runtime Tool to make native PC ports",
     "version": null,
     "releasedAt": "2026-10-23",
@@ -6659,7 +6659,7 @@
     "console": "Nintendo Switch",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 634,
+    "stars": 635,
     "description": "Unofficial static recompilation of Bayonetta 2 (Switch) for Windows. Builds the game on your PC from your own legally dumped copy. No game files, keys or SDK code included.",
     "version": "v0.3.3",
     "releasedAt": "2026-10-22",
@@ -6682,7 +6682,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2526,
+    "stars": 2525,
     "description": "Native PC port of P.T. (runs from your own PS4 game files)",
     "version": "v1.0.8",
     "releasedAt": "2026-10-22",
@@ -8277,7 +8277,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 886,
+    "stars": 887,
     "description": "Multiplatform and Feature-rich Port based on PSX decompilation of Silent Hill 1 made with Claude and Psycross. Still in beta and is in active development.",
     "version": "crossplatform-beta",
     "releasedAt": "2026-09-04",
