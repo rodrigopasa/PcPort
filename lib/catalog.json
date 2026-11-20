@@ -144,7 +144,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 71,
+    "stars": 72,
     "description": "TimeSplitters 2 (PS2, NTSC-U) statically recompiled for Windows, Linux and Steam Deck – 60 FPS, real 16:9, up to 8x resolution, online multiplayer, verified against PCSX2",
     "version": "v1.3.0",
     "releasedAt": "2026-11-20",
@@ -164,7 +164,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 45,
+    "stars": 46,
     "description": "Nightjar: Resident Evil 4 (GameCube) 100% native source port, byte-matching decompilation & standalone engine runtime for Android (32/64-bit), iOS (Metal), Windows, and Linux.",
     "version": "nightly",
     "releasedAt": "2026-11-20",
@@ -224,7 +224,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 77,
+    "stars": 78,
     "description": "Native PC port of Diablo III: Reaper of Souls – Ultimate Evil Edition (PS4). Local co-op for 4.",
     "version": "v0.6.8",
     "releasedAt": "2026-11-20",
@@ -262,7 +262,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 55,
+    "stars": 56,
     "description": "EarthBound Companion 1.0: native Windows port with Original and MaternalBound Redux, widescreen/4K, MSU music, controllers, Story Shuffle and 46 offline achievements. Linux, macOS and Android community previews. Bring your own clean USA ROM.",
     "version": "v1.0.26",
     "releasedAt": "2026-11-20",
@@ -364,14 +364,56 @@
       "Windows",
       "Linux"
     ],
-    "stars": 125,
-    "description": "Recomp of Asura's Wrath using RexGlue for PC (wip)",
+    "stars": 126,
+    "description": "Recomp of Asura's Wrath using RexGlue for PC (playable, wip)",
     "version": "v0.4.1",
     "releasedAt": "2026-11-20",
     "sizeBytes": 45514576,
     "releaseUrl": "https://github.com/PauloUbirajara/asuras-wrath-recomp/releases/tag/v0.4.1",
     "licenseId": null,
     "licenseUrl": null,
+    "curated": true
+  },
+  {
+    "id": "ilfforever-yw4recomp",
+    "repo": "ILFforever/YW4Recomp",
+    "title": "YW4",
+    "game": null,
+    "author": "ILFforever",
+    "console": "Nintendo Switch",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 41,
+    "description": "Yo-kai Watch 4++ (Switch, v2.2.0) statically recompiled into native Windows and Linux builds, drawn by its own Vulkan renderer. 60++ fps, widescreen and ultrawide, DLSS and FSR, keyboard and mouse, English patch and mod support. Bring your own dump: no game files or keys included.",
+    "version": "launcher-v1.5.0",
+    "releasedAt": "2026-11-20",
+    "sizeBytes": 88304120,
+    "releaseUrl": "https://github.com/ILFforever/YW4Recomp/releases/tag/launcher-v1.5.0",
+    "licenseId": "NOASSERTION",
+    "licenseUrl": null
+  },
+  {
+    "id": "ravencaio-tlou-remastered-pc",
+    "repo": "ravencaio/tlou-remastered-pc",
+    "title": "The Last of Us Remastered",
+    "game": null,
+    "author": "ravencaio",
+    "console": "PlayStation 4",
+    "mechanism": "native",
+    "platforms": [
+      "Windows"
+    ],
+    "stars": 367,
+    "description": "Unnoficial Native Windows PC port of The Last of Us Remastered (PS4, CUSA00552). Runs the game’s own x86-64 code on a custom runtime, with PS4 system libraries reimplemented and a Vulkan renderer based on shadPS4. Includes a launcher. No game files included: you need your own copy.",
+    "version": "v0.4.0",
+    "releasedAt": "2026-11-20",
+    "sizeBytes": 78048618,
+    "releaseUrl": "https://github.com/ravencaio/tlou-remastered-pc/releases/tag/v0.4.0",
+    "licenseId": "GPL-2.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-2.0",
     "curated": true
   },
   {
@@ -451,7 +493,7 @@
     "description": "Ninja Gaiden II (Xbox 360, 2008) statically recompiled into native Linux and Windows builds, drawn by its own Vulkan renderer. A steady 60 fps, up to 8x render scale, widescreen and ultrawide, keyboard and mouse, mods, Steam Deck ready. Bring your own copy of the game.",
     "version": "v0.6.12",
     "releasedAt": "2026-11-19",
-    "sizeBytes": 163568193,
+    "sizeBytes": 163577004,
     "releaseUrl": "https://github.com/gamboozino/ng2recomp/releases/tag/v0.6.12",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
@@ -941,7 +983,7 @@
       "Linux",
       "Android"
     ],
-    "stars": 361,
+    "stars": 362,
     "description": "Ninja Gaiden Black (Xbox, 2005) statically recompiled into native Linux and Windows builds, with an experimental Android port, drawn by its own Vulkan renderer. A steady 60 fps, widescreen and ultrawide, keyboard and mouse, touch controls on Android, Steam Deck ready. Bring your own copy of the game.",
     "version": "v0.9.75",
     "releasedAt": "2026-11-19",
@@ -1023,7 +1065,7 @@
     "console": "PlayStation 2",
     "mechanism": "native",
     "platforms": [],
-    "stars": 46,
+    "stars": 47,
     "description": "A recomp of Guitar Hero II (PS2) that runs natively on PC and Mac, and loads content from GH1, GH80s and the 360 port of GH2.",
     "version": null,
     "releasedAt": "2026-11-19",
@@ -1475,7 +1517,7 @@
     "platforms": [
       "Linux"
     ],
-    "stars": 129,
+    "stars": 130,
     "description": "Dragon Ball Z: Burst Limit Recompiled - native PC port via ReXGlue static recompilation",
     "version": "v0.8.1",
     "releasedAt": "2026-11-18",
@@ -1498,7 +1540,7 @@
       "macOS",
       "iOS"
     ],
-    "stars": 710,
+    "stars": 711,
     "description": "Unofficial static recompilation of the Xbox 360 version of Need for Speed: Most Wanted (2005): a native port for Steam Deck, Steam Machine, Steam Frame, Linux and Mac (iPhone/iPad: sideload the experimental IPA or build it yourself). Bring your own disc: no game files included. Not affiliated with EA or Valve.",
     "version": "v0.2.6",
     "releasedAt": "2026-11-18",
@@ -1521,8 +1563,8 @@
       "Linux",
       "macOS"
     ],
-    "stars": 1235,
-    "description": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows and Linux with Vulkan. 0.4.2 out; on bananza: performance presets with a Recommended level, DLSS quality modes, local co-op, 16:10, Thai, shorter level-entry stalls. Requirements: docs/requirements.md. Roadmap: #10. No game files included.",
+    "stars": 1236,
+    "description": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows and Linux with Vulkan. 0.4.2 out; on bananza: performance presets with a Recommended level, DLSS quality modes, local co-op, 16:10, Thai, setup with Play/Uninstall and a Linux tarball. Requirements: docs/requirements.md. Roadmap: #10. No game files included.",
     "version": "v0.4.2",
     "releasedAt": "2026-11-18",
     "sizeBytes": 222104056,
@@ -1714,7 +1756,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 86,
+    "stars": 88,
     "description": "Native PC port of Ace Combat 6: Fires of Liberation using XenonRecomp",
     "version": "v1.0.0",
     "releasedAt": "2026-11-18",
@@ -1722,27 +1764,6 @@
     "releaseUrl": "https://github.com/Dipshet/GracemeriaRecomp/releases/tag/v1.0.0",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
-  },
-  {
-    "id": "ilfforever-yw4recomp",
-    "repo": "ILFforever/YW4Recomp",
-    "title": "YW4",
-    "game": null,
-    "author": "ILFforever",
-    "console": "Nintendo Switch",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 41,
-    "description": "Yo-kai Watch 4++ (Switch, v2.2.0) statically recompiled into native Windows and Linux builds, drawn by its own Vulkan renderer. 60++ fps, widescreen and ultrawide, DLSS and FSR, keyboard and mouse, English patch and mod support. Bring your own dump: no game files or keys included.",
-    "version": "launcher-v1.4.0",
-    "releasedAt": "2026-11-18",
-    "sizeBytes": 88177144,
-    "releaseUrl": "https://github.com/ILFforever/YW4Recomp/releases/tag/launcher-v1.4.0",
-    "licenseId": "NOASSERTION",
-    "licenseUrl": null
   },
   {
     "id": "tmcleroy-cps2recomp",
@@ -1779,7 +1800,7 @@
     "platforms": [
       "PC"
     ],
-    "stars": 1997,
+    "stars": 1998,
     "description": "Native Windows port of Shadow of the Colossus (PS4, CUSA08809) - bring your own game dump. Port nativo para PC.",
     "version": "v0.76.2",
     "releasedAt": "2026-11-17",
@@ -2337,7 +2358,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 79,
+    "stars": 80,
     "description": "Windows x64 recompilation with up to 4K output, graphics filters, gamepad intro skip and offline menu fixes. Builds locally from your own Xbox 360 ISO. 60 FPS recommended; higher-FPS motion is not unlocked.",
     "version": "v1.6.0",
     "releasedAt": "2026-11-16",
@@ -2781,7 +2802,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 7760,
+    "stars": 7763,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.4.1",
     "releasedAt": "2026-11-15",
@@ -2874,27 +2895,6 @@
     "releaseUrl": "https://github.com/FoxWorkshop/ShadowRecomp/releases/tag/v1.0.0",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
-  },
-  {
-    "id": "ravencaio-tlou-remastered-pc",
-    "repo": "ravencaio/tlou-remastered-pc",
-    "title": "The Last of Us Remastered",
-    "game": null,
-    "author": "ravencaio",
-    "console": "PlayStation 4",
-    "mechanism": "native",
-    "platforms": [
-      "Windows"
-    ],
-    "stars": 367,
-    "description": "Unnoficial Native Windows PC port of The Last of Us Remastered (PS4, CUSA00552). Runs the game’s own x86-64 code on a custom runtime, with PS4 system libraries reimplemented and a Vulkan renderer based on shadPS4. Includes a launcher. No game files included: you need your own copy.",
-    "version": "v0.2.5",
-    "releasedAt": "2026-11-15",
-    "sizeBytes": 77888340,
-    "releaseUrl": "https://github.com/ravencaio/tlou-remastered-pc/releases/tag/v0.2.5",
-    "licenseId": "GPL-2.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-2.0",
-    "curated": true
   },
   {
     "id": "blacklabelhq-recompone",
@@ -3054,7 +3054,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 242,
+    "stars": 244,
     "description": "StarFox Remake [recompiled]: static recompilation of Star Fox (Nintendo Switch 2) into a native Windows app, built on your PC from your own copy. No game files included.",
     "version": "v1.1.0",
     "releasedAt": "2026-11-14",
@@ -3140,7 +3140,7 @@
     "console": "PC",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 100,
+    "stars": 99,
     "description": "Experimental Hyrule Warriors: Age of Imprisonment recompilation for Windows, with a local NUP compiler. Non-60 FPS modes accelerate gameplay; higher resolutions are unstable.",
     "version": null,
     "releasedAt": "2026-11-14",
@@ -3223,7 +3223,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 723,
+    "stars": 724,
     "description": "A native Windows and Linux port of Grand Theft Auto: Vice City Stories (PS2, USA, SLUS-21590), made by recompiling the game's PS2 executable into C++",
     "version": "v0.3.0",
     "releasedAt": "2026-11-14",
@@ -3667,7 +3667,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 111,
+    "stars": 112,
     "description": "Mario Kart 8 Deluxe recompiled to run natively on your PC: no JIT, FSR 3.1 + frame generation, experimental DLSS, 720p to 4K output, HDR10. Bring your own game files.",
     "version": "v0.2.4",
     "releasedAt": "2026-11-12",
@@ -4244,7 +4244,7 @@
       "macOS",
       "iOS"
     ],
-    "stars": 71,
+    "stars": 72,
     "description": "Unofficial static recompilation of the Xbox 360 version of Need for Speed: Carbon (2006): a native port for Steam Deck, Steam Machine, Steam Frame, Linux and Mac, plus a Windows beta (iPhone/iPad: sideload the experimental IPA or build it yourself). Bring your own disc: no game files included. Not affiliated with EA or Valve.",
     "version": "v0.1.3",
     "releasedAt": "2026-11-09",
@@ -5107,7 +5107,7 @@
     "platforms": [
       "Android"
     ],
-    "stars": 102,
+    "stars": 101,
     "description": "Naruto Shippuden: Ultimate Ninja Storm 3 Full Burst (Xbox 360) rodando nativamente no Android e no PC: recompilação estática, sem emulador de CPU.",
     "version": "v0.6.16",
     "releasedAt": "2026-11-03",
@@ -5128,7 +5128,7 @@
     "platforms": [
       "Android"
     ],
-    "stars": 113,
+    "stars": 114,
     "description": "Naruto Shippuden: Ultimate Ninja Storm Generations (Xbox 360) rodando nativamente no Android e no PC: recompilação estática, sem emulador de CPU.",
     "version": "v0.4.16",
     "releasedAt": "2026-11-03",
@@ -5171,7 +5171,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 83,
+    "stars": 84,
     "description": "",
     "version": "v0.2.0-beta",
     "releasedAt": "2026-11-02",
@@ -5306,7 +5306,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 353,
+    "stars": 354,
     "description": "Burnout Revenge recompilation based on RexGlue + standalone Plume render",
     "version": "v0.4.10",
     "releasedAt": "2026-11-01",
@@ -5476,7 +5476,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 34297,
+    "stars": 34298,
     "description": "PlayStation 4 emulator for Windows, Linux, macOS and FreeBSD written in C++",
     "version": "v.0.21.0",
     "releasedAt": "2026-10-30",
@@ -5665,7 +5665,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 976,
+    "stars": 977,
     "description": "An unofficial original Xbox version PC port of BLACK (2006) via static recompilation.",
     "version": "V3",
     "releasedAt": "2026-10-29",
@@ -5703,7 +5703,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 185,
+    "stars": 186,
     "description": "An unofficial original Xbox version PC port of 007: From Russia With Love via static recompilation.",
     "version": "V2",
     "releasedAt": "2026-10-29",
@@ -5870,7 +5870,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 4140,
+    "stars": 4141,
     "description": "Bloodborne (v1.09) running natively on Linux and Windows: the game's x86-64 code runs as is, GPU side translated to Vulkan; FSR 4 / DLSS, co-op (BBSC). Bring your own dump.",
     "version": "0.7",
     "releasedAt": "2026-10-28",
@@ -5972,7 +5972,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 74,
+    "stars": 75,
     "description": "Recompilation Project for Timesplitters 2",
     "version": "v0.5.2",
     "releasedAt": "2026-10-27",
@@ -6037,7 +6037,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 157,
+    "stars": 158,
     "description": "Crash of the Titans (Xbox 360) statically recompiled for Windows: DLSS/FSR, PC controls, PT-BR, subtitles, mods. Bring your own copy of the game.",
     "version": "v1.07",
     "releasedAt": "2026-10-26",
@@ -6249,7 +6249,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 194,
+    "stars": 195,
     "description": "Native PC port (Linux/Windows) of Gravity Rush 2 (PS4, CUSA03694) — runs your own game dump; no game or firmware files included. Bilingual launcher (English/Portuguese). | Port nativo para PC de Gravity Rush 2 — usa o seu próprio dump.",
     "version": "v2026.10.24-a2e69a1",
     "releasedAt": "2026-10-24",
@@ -7447,7 +7447,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 85,
+    "stars": 86,
     "description": "A native PC recompilation project for the Crash Titans era.",
     "version": "v1.1.0",
     "releasedAt": "2026-10-06",
