@@ -27,7 +27,7 @@
     "console": "Nintendo Switch",
     "mechanism": "emulator",
     "platforms": [],
-    "stars": 350,
+    "stars": 351,
     "description": "Static ARM64 to x86 recompiler (GPLv3)",
     "version": null,
     "releasedAt": "2026-11-20",
@@ -144,7 +144,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 73,
+    "stars": 74,
     "description": "TimeSplitters 2 (PS2, NTSC-U) statically recompiled for Windows, Linux and Steam Deck – 60 FPS, real 16:9, up to 8x resolution, online multiplayer, verified against PCSX2",
     "version": "v1.3.0",
     "releasedAt": "2026-11-20",
@@ -166,7 +166,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 46,
+    "stars": 47,
     "description": "Nightjar: Resident Evil 4 (GameCube) 100% native source port, byte-matching decompilation & standalone engine runtime for Android (32/64-bit), iOS (Metal), Windows, and Linux.",
     "version": "nightly",
     "releasedAt": "2026-11-20",
@@ -226,7 +226,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 78,
+    "stars": 79,
     "description": "Native PC port of Diablo III: Reaper of Souls – Ultimate Evil Edition (PS4). Local co-op for 4.",
     "version": "v0.6.8",
     "releasedAt": "2026-11-20",
@@ -344,7 +344,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 1074,
+    "stars": 1075,
     "description": "A playable preview of Forza Horizon static recompilation",
     "version": "v0.9.5",
     "releasedAt": "2026-11-20",
@@ -433,6 +433,71 @@
     "releasedAt": "2026-11-20",
     "sizeBytes": null,
     "releaseUrl": "https://github.com/MaryNCRT/Ultimate-Mortal-Kombat-3-iOS-Decompiled/releases",
+    "licenseId": "NOASSERTION",
+    "licenseUrl": null,
+    "curated": true
+  },
+  {
+    "id": "bryantmh-rush2recompiled",
+    "repo": "bryantmh/rush2recompiled",
+    "title": "Rush 2: Extreme Racing USA",
+    "game": null,
+    "author": "bryantmh",
+    "console": "Nintendo 64",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Linux",
+      "macOS"
+    ],
+    "stars": 80,
+    "description": "A recompilation of the N64 Classic: Rush 2",
+    "version": "v1.0.59",
+    "releasedAt": "2026-11-20",
+    "sizeBytes": 26241528,
+    "releaseUrl": "https://github.com/bryantmh/rush2recompiled/releases/tag/v1.0.59",
+    "licenseId": null,
+    "licenseUrl": null,
+    "curated": true
+  },
+  {
+    "id": "saulob-dragons-crown-pro-pc",
+    "repo": "saulob/dragons-crown-pro-pc",
+    "title": "Dragon's Crown Pro",
+    "game": "dragons-crown",
+    "author": "saulob",
+    "console": "PlayStation 4",
+    "mechanism": "native",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 514,
+    "description": "Dragon's Crown Pro native PC port for Windows, with direct PS4 PKG installation, TRG launcher and modern graphics options",
+    "version": "v1.4.0",
+    "releasedAt": "2026-11-20",
+    "sizeBytes": 34056392,
+    "releaseUrl": "https://github.com/saulob/dragons-crown-pro-pc/releases/tag/v1.4.0",
+    "licenseId": "GPL-2.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-2.0",
+    "curated": true
+  },
+  {
+    "id": "mstan-apeescaperecomp",
+    "repo": "mstan/ApeEscapeRecomp",
+    "title": "Ape Escape",
+    "game": null,
+    "author": "mstan",
+    "console": "PlayStation",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows"
+    ],
+    "stars": 106,
+    "description": "Ape Escape (USA) recompiled for the Sony PlayStation using psxrecomp · Part of the R.A.I.D. community",
+    "version": "v0.5.9",
+    "releasedAt": "2026-11-20",
+    "sizeBytes": 62993380,
+    "releaseUrl": "https://github.com/mstan/ApeEscapeRecomp/releases/tag/v0.5.9",
     "licenseId": "NOASSERTION",
     "licenseUrl": null,
     "curated": true
@@ -701,7 +766,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 922,
+    "stars": 923,
     "description": "A cozy life-simulation and sandbox builder with fantastical creatures (Switch 2), recompiled to run natively on Windows, Linux and macOS. Multiplayer, all events, modding, enhancements and more. Discord: https://discord.recompia.com",
     "version": "v0.15.2",
     "releasedAt": "2026-11-19",
@@ -962,7 +1027,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 103,
+    "stars": 104,
     "description": "Call of Duty 2: Big Red One - Custom Engine: our own engine implementation of the Xbox game, built from source for Linux and Windows (bring your own game).",
     "version": "v1.0.7",
     "releasedAt": "2026-11-19",
@@ -1302,28 +1367,6 @@
     "curated": true
   },
   {
-    "id": "bryantmh-rush2recompiled",
-    "repo": "bryantmh/rush2recompiled",
-    "title": "Rush 2: Extreme Racing USA",
-    "game": null,
-    "author": "bryantmh",
-    "console": "Nintendo 64",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Linux",
-      "macOS"
-    ],
-    "stars": 80,
-    "description": "A recompilation of the N64 Classic: Rush 2",
-    "version": "v1.0.58",
-    "releasedAt": "2026-11-18",
-    "sizeBytes": 26241528,
-    "releaseUrl": "https://github.com/bryantmh/rush2recompiled/releases/tag/v1.0.58",
-    "licenseId": null,
-    "licenseUrl": null,
-    "curated": true
-  },
-  {
     "id": "pret-pmd-red",
     "repo": "pret/pmd-red",
     "title": "Pokémon Mystery Dungeon: Red Rescue Team",
@@ -1440,7 +1483,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 222,
+    "stars": 223,
     "description": "A matching decompilation and PC port for the Ratchet & Clank series",
     "version": "launcher-v1.1.0",
     "releasedAt": "2026-11-18",
@@ -1565,7 +1608,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 1235,
+    "stars": 1236,
     "description": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows and Linux with Vulkan. 0.4.2 out; on bananza: performance presets with a Recommended level, DLSS quality modes, local co-op, 16:10, Thai, setup with Play/Uninstall and a Linux tarball. Requirements: docs/requirements.md. Roadmap: #10. No game files included.",
     "version": "v0.4.2",
     "releasedAt": "2026-11-18",
@@ -1669,7 +1712,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 74,
+    "stars": 75,
     "description": "Experimental PS2-to-Windows recompilation project focused on compatibility, graphics rendering and performance.",
     "version": null,
     "releasedAt": "2026-11-18",
@@ -1802,34 +1845,12 @@
     "platforms": [
       "PC"
     ],
-    "stars": 1998,
+    "stars": 1999,
     "description": "Native Windows port of Shadow of the Colossus (PS4, CUSA08809) - bring your own game dump. Port nativo para PC.",
     "version": "v0.76.2",
     "releasedAt": "2026-11-17",
     "sizeBytes": 155153600,
     "releaseUrl": "https://github.com/AjncSystem/ShadowOfTheColossus-PC/releases/tag/v0.76.2",
-    "licenseId": "GPL-2.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-2.0",
-    "curated": true
-  },
-  {
-    "id": "saulob-dragons-crown-pro-pc",
-    "repo": "saulob/dragons-crown-pro-pc",
-    "title": "Dragon's Crown Pro",
-    "game": "dragons-crown",
-    "author": "saulob",
-    "console": "PlayStation 4",
-    "mechanism": "native",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 514,
-    "description": "Dragon's Crown Pro native PC port for Windows, with direct PS4 PKG installation, TRG launcher and modern graphics options",
-    "version": "v1.3.0",
-    "releasedAt": "2026-11-17",
-    "sizeBytes": 33630440,
-    "releaseUrl": "https://github.com/saulob/dragons-crown-pro-pc/releases/tag/v1.3.0",
     "licenseId": "GPL-2.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-2.0",
     "curated": true
@@ -2140,7 +2161,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 247,
+    "stars": 248,
     "description": "Native Windows port of Demon's Souls (PS3, BLUS-30443) via ps3recomp static recompilation. Bring your own disc image; no game files included.",
     "version": "v2026.11.15",
     "releasedAt": "2026-11-16",
@@ -2589,7 +2610,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 2510,
+    "stars": 2512,
     "description": "Static recompilation of Link's Awakening (Switch) to native macOS, Windows, Linux, iOS and Android.",
     "version": "beta_6",
     "releasedAt": "2026-11-15",
@@ -2804,7 +2825,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 7769,
+    "stars": 7775,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.4.1",
     "releasedAt": "2026-11-15",
@@ -2846,7 +2867,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 702,
+    "stars": 703,
     "description": "",
     "version": "1.6.1",
     "releasedAt": "2026-11-15",
@@ -2889,7 +2910,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 412,
+    "stars": 413,
     "description": "An unofficial PC port of the Xbox version of Shadow the Hedgehog, created through the process of static recompilation. ",
     "version": "v1.0.0",
     "releasedAt": "2026-11-15",
@@ -3056,7 +3077,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 244,
+    "stars": 245,
     "description": "StarFox Remake [recompiled]: static recompilation of Star Fox (Nintendo Switch 2) into a native Windows app, built on your PC from your own copy. No game files included.",
     "version": "v1.1.0",
     "releasedAt": "2026-11-14",
@@ -3482,7 +3503,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5551,
+    "stars": 5552,
     "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
     "version": "windows-v1.9.8.6",
     "releasedAt": "2026-11-13",
@@ -3669,7 +3690,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 112,
+    "stars": 113,
     "description": "Mario Kart 8 Deluxe recompiled to run natively on your PC: no JIT, FSR 3.1 + frame generation, experimental DLSS, 720p to 4K output, HDR10. Bring your own game files.",
     "version": "v0.2.4",
     "releasedAt": "2026-11-12",
@@ -4522,27 +4543,6 @@
     "curated": true
   },
   {
-    "id": "mstan-apeescaperecomp",
-    "repo": "mstan/ApeEscapeRecomp",
-    "title": "Ape Escape",
-    "game": null,
-    "author": "mstan",
-    "console": "PlayStation",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows"
-    ],
-    "stars": 106,
-    "description": "Ape Escape (USA) recompiled for the Sony PlayStation using psxrecomp · Part of the R.A.I.D. community",
-    "version": "v0.5.7",
-    "releasedAt": "2026-11-07",
-    "sizeBytes": 46713030,
-    "releaseUrl": "https://github.com/mstan/ApeEscapeRecomp/releases/tag/v0.5.7",
-    "licenseId": "NOASSERTION",
-    "licenseUrl": null,
-    "curated": true
-  },
-  {
     "id": "shaneomac1337-wwe-allstars-recomp",
     "repo": "shaneomac1337/WWE-AllStars-Recomp",
     "title": "WWE All Stars",
@@ -5243,7 +5243,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 280,
+    "stars": 281,
     "description": "GTA V (Xbox 360, TU27) static recompilation with ReXGlue",
     "version": "v0.3.0",
     "releasedAt": "2026-11-02",
@@ -5648,7 +5648,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 493,
+    "stars": 495,
     "description": "An unofficial original Xbox version PC port of Splinter Cell: Double Agent via static recompilation.",
     "version": "V3",
     "releasedAt": "2026-10-29",
@@ -5872,7 +5872,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 4141,
+    "stars": 4143,
     "description": "Bloodborne (v1.09) running natively on Linux and Windows: the game's x86-64 code runs as is, GPU side translated to Vulkan; FSR 4 / DLSS, co-op (BBSC). Bring your own dump.",
     "version": "0.7",
     "releasedAt": "2026-10-28",
@@ -5998,7 +5998,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 1011,
+    "stars": 1012,
     "description": "Experimental native PC port of Lost Odyssey using static recompilation. No game assets included.",
     "version": "v1.1.0",
     "releasedAt": "2026-10-26",
@@ -6142,7 +6142,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 8099,
+    "stars": 8103,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -6537,7 +6537,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 1214,
+    "stars": 1215,
     "description": "Native PC port (Linux/Windows) of inFAMOUS Second Son (PS4, CUSA00223) — in development, playable; runs your own game dump; no game or firmware files included. Motion sensor emulation. | Port nativo para PC de inFAMOUS Second Son (em desenvolvimento) — usa o seu próprio dump.",
     "version": "v1.0",
     "releasedAt": "2026-10-22",
@@ -6639,7 +6639,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 437,
+    "stars": 438,
     "description": "Call of Duty 3 (Xbox 360) static recompilation: host runtime, tools and notes",
     "version": null,
     "releasedAt": "2026-10-21",
@@ -7161,7 +7161,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 90,
+    "stars": 91,
     "description": "Unofficial Windows recompilation of Spider-Man: Edge of Time with PC controls, settings, localization, achievements and mod support.",
     "version": "v2.0.0-beta.5",
     "releasedAt": "2026-10-13",
@@ -7573,7 +7573,7 @@
     "console": "GameCube",
     "mechanism": "native",
     "platforms": [],
-    "stars": 402,
+    "stars": 401,
     "description": "Resident Evil 4 (GameCube, G4BE08 debug build) — complete byte-identical decompilation to C/C++",
     "version": null,
     "releasedAt": "2026-10-02",
@@ -8257,7 +8257,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 43,
+    "stars": 44,
     "description": "Made with PSXrecomp, a Sony PlayStation game static recompiler ecosystem · Part of the R.A.I.D. community",
     "version": "v1.0.0",
     "releasedAt": "2026-09-03",
@@ -9098,7 +9098,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 2150,
+    "stars": 2151,
     "description": "SF64 PC Port",
     "version": "v2.0.0",
     "releasedAt": "2025-05-25",
@@ -9267,7 +9267,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2064,
+    "stars": 2065,
     "description": "A game made by the Celeste developers in a week(ish, closer to 2)",
     "version": "v1.1.1",
     "releasedAt": "2024-02-06",
