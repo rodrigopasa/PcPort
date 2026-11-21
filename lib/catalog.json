@@ -109,10 +109,10 @@
     ],
     "stars": 365,
     "description": "Ninja Gaiden Black (Xbox, 2005) statically recompiled into native Linux and Windows builds, with an experimental Android port, drawn by its own Vulkan renderer. A steady 60 fps, widescreen and ultrawide, keyboard and mouse, touch controls on Android, Steam Deck ready. Bring your own copy of the game.",
-    "version": "v0.9.78",
+    "version": "v0.9.79",
     "releasedAt": "2026-11-21",
-    "sizeBytes": 42064376,
-    "releaseUrl": "https://github.com/gamboozino/ngbrecomp/releases/tag/v0.9.78",
+    "sizeBytes": 42076664,
+    "releaseUrl": "https://github.com/gamboozino/ngbrecomp/releases/tag/v0.9.79",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
@@ -211,7 +211,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 484,
+    "stars": 487,
     "description": "A native Windows PC port of Super Mario Odyssey by static recompilation. Bring your own game: no game files included.",
     "version": "v0.6.0",
     "releasedAt": "2026-11-21",
@@ -690,7 +690,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 109,
+    "stars": 110,
     "description": "Army of Two (Army of 2) 2008 [Xbox360] game static recompilation project based on RexGlue-SDK",
     "version": "1.6",
     "releasedAt": "2026-11-21",
@@ -790,7 +790,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 96,
+    "stars": 97,
     "description": "Experimental PS2-to-Windows recompilation project focused on compatibility, graphics rendering and performance.",
     "version": "v0.2.2",
     "releasedAt": "2026-11-21",
@@ -816,6 +816,69 @@
     "releaseUrl": "https://github.com/nlwstein/skullburglar/releases",
     "licenseId": "NOASSERTION",
     "licenseUrl": null,
+    "curated": true
+  },
+  {
+    "id": "bhuiyah-ff7-recomp-android",
+    "repo": "bhuiyah/ff7-recomp-android",
+    "title": "Ff 7 Android",
+    "game": null,
+    "author": "bhuiyah",
+    "console": "PC",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Android"
+    ],
+    "stars": 119,
+    "description": "FINAL FANTASY VII (PC) statically recompiled to native ARM64 Android, with an FFNx renderer and a 7th Heaven-style mod launcher. No game files included.",
+    "version": "v1.1.35",
+    "releasedAt": "2026-11-21",
+    "sizeBytes": 97200411,
+    "releaseUrl": "https://github.com/bhuiyah/ff7-recomp-android/releases/tag/v1.1.35",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
+  },
+  {
+    "id": "ilfforever-yw4recomp",
+    "repo": "ILFforever/YW4Recomp",
+    "title": "YW4",
+    "game": null,
+    "author": "ILFforever",
+    "console": "Nintendo Switch",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 45,
+    "description": "Yo-kai Watch 4++ (Switch, v2.2.0) statically recompiled into native Windows and Linux builds, drawn by its own Vulkan renderer. 60++ fps, widescreen and ultrawide, DLSS and FSR, keyboard and mouse, English patch and mod support. Bring your own dump: no game files or keys included.",
+    "version": "launcher-v1.6.1",
+    "releasedAt": "2026-11-21",
+    "sizeBytes": 88345080,
+    "releaseUrl": "https://github.com/ILFforever/YW4Recomp/releases/tag/launcher-v1.6.1",
+    "licenseId": "NOASSERTION",
+    "licenseUrl": null
+  },
+  {
+    "id": "imrburn-wwe12-pc",
+    "repo": "iMrBurn/wwe12-pc",
+    "title": "WWE '12",
+    "game": null,
+    "author": "iMrBurn",
+    "console": "Xbox 360",
+    "mechanism": "native",
+    "platforms": [
+      "PC",
+      "Android"
+    ],
+    "stars": 75,
+    "description": "Static recompilation of WWE '12 (Xbox 360) for PC and Android. Native Vulkan / DirectX 12 / DirectX 11 renderer that still follows the Xbox 360 GPU model. Bring your own game.",
+    "version": "v1.5.0",
+    "releasedAt": "2026-11-21",
+    "sizeBytes": 113515575,
+    "releaseUrl": "https://github.com/iMrBurn/wwe12-pc/releases/tag/v1.5.0",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
   },
   {
@@ -869,7 +932,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 54,
+    "stars": 56,
     "description": "Nightjar: Resident Evil 4 (GameCube) 100% native source port, byte-matching decompilation & standalone engine runtime for Android (32/64-bit), iOS (Metal), Windows, and Linux.",
     "version": "nightly",
     "releasedAt": "2026-11-20",
@@ -877,26 +940,6 @@
     "releaseUrl": "https://github.com/st4rwhx/Resident-Evil-4-Native-Port/releases/tag/nightly",
     "licenseId": "CC0-1.0",
     "licenseUrl": "https://api.github.com/licenses/cc0-1.0"
-  },
-  {
-    "id": "bhuiyah-ff7-recomp-android",
-    "repo": "bhuiyah/ff7-recomp-android",
-    "title": "Ff 7 Android",
-    "game": null,
-    "author": "bhuiyah",
-    "console": "PC",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Android"
-    ],
-    "stars": 119,
-    "description": "FINAL FANTASY VII (PC) statically recompiled to native ARM64 Android, with an FFNx renderer and a 7th Heaven-style mod launcher. No game files included.",
-    "version": "v1.1.34",
-    "releasedAt": "2026-11-20",
-    "sizeBytes": 97198147,
-    "releaseUrl": "https://github.com/bhuiyah/ff7-recomp-android/releases/tag/v1.1.34",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
   },
   {
     "id": "rages4calm-earthbound-companion",
@@ -985,27 +1028,6 @@
     "curated": true
   },
   {
-    "id": "ilfforever-yw4recomp",
-    "repo": "ILFforever/YW4Recomp",
-    "title": "YW4",
-    "game": null,
-    "author": "ILFforever",
-    "console": "Nintendo Switch",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 45,
-    "description": "Yo-kai Watch 4++ (Switch, v2.2.0) statically recompiled into native Windows and Linux builds, drawn by its own Vulkan renderer. 60++ fps, widescreen and ultrawide, DLSS and FSR, keyboard and mouse, English patch and mod support. Bring your own dump: no game files or keys included.",
-    "version": "launcher-v1.6.0",
-    "releasedAt": "2026-11-20",
-    "sizeBytes": 88336888,
-    "releaseUrl": "https://github.com/ILFforever/YW4Recomp/releases/tag/launcher-v1.6.0",
-    "licenseId": "NOASSERTION",
-    "licenseUrl": null
-  },
-  {
     "id": "ravencaio-tlou-remastered-pc",
     "repo": "ravencaio/tlou-remastered-pc",
     "title": "The Last of Us Remastered",
@@ -1016,7 +1038,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 373,
+    "stars": 374,
     "description": "Unnoficial Native Windows PC port of The Last of Us Remastered (PS4, CUSA00552). Runs the game’s own x86-64 code on a custom runtime, with PS4 system libraries reimplemented and a Vulkan renderer based on shadPS4. Includes a launcher. No game files included: you need your own copy.",
     "version": "v0.4.0",
     "releasedAt": "2026-11-20",
@@ -1079,7 +1101,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 540,
+    "stars": 541,
     "description": "Dragon's Crown Pro native PC port for Windows, with direct PS4 PKG installation, TRG launcher and modern graphics options",
     "version": "v1.4.0",
     "releasedAt": "2026-11-20",
@@ -1123,7 +1145,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 1261,
+    "stars": 1262,
     "description": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows and Linux with Vulkan. 0.5.1 out: NVIDIA shader cache fix, player 2 rumble; one-file Windows launcher, presets, local co-op, 16:10, Thai. Requirements: docs/requirements.md. Roadmap: #10. No game files included.",
     "version": "v0.5.1",
     "releasedAt": "2026-11-20",
@@ -1187,7 +1209,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 74,
+    "stars": 75,
     "description": "Burnout 3: Takedown, native on every platform",
     "version": "v1.3.0",
     "releasedAt": "2026-11-20",
@@ -1291,7 +1313,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 63,
+    "stars": 64,
     "description": "Unofficial static recompilation of Splatoon Raiders (Switch 2) to native Linux/Windows x86-64 with a Vulkan renderer. No game data included: bring your own dump.",
     "version": "v0.2.0",
     "releasedAt": "2026-11-20",
@@ -1497,8 +1519,8 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 146,
-    "description": "Static recompilation research for Xbox Series X|S (Scarlett) on x64 Windows. GTA VI case study with shader translation, BC7 texture rendering, script-state replay and D3D12/PE checks.",
+    "stars": 271,
+    "description": "Static recompilation research for Xbox Series X|S (Scarlett) on x64 Windows, including shader translation, BC7 textures, script-state replay and D3D12/PE checks.",
     "version": "gpu-check-v0.1.0",
     "releasedAt": "2026-11-20",
     "sizeBytes": 187311,
@@ -1737,28 +1759,6 @@
     "releaseUrl": "https://github.com/saulob/odin-sphere-leifthrasir-pc/releases/tag/v0.3.0",
     "licenseId": "GPL-2.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-2.0",
-    "curated": true
-  },
-  {
-    "id": "imrburn-wwe12-pc",
-    "repo": "iMrBurn/wwe12-pc",
-    "title": "WWE '12",
-    "game": null,
-    "author": "iMrBurn",
-    "console": "Xbox 360",
-    "mechanism": "native",
-    "platforms": [
-      "PC",
-      "Android"
-    ],
-    "stars": 75,
-    "description": "Static recompilation of WWE '12 (Xbox 360) for PC and Android. Native Vulkan / DirectX 12 / DirectX 11 renderer that still follows the Xbox 360 GPU model. Bring your own game.",
-    "version": "v1.4.1",
-    "releasedAt": "2026-11-19",
-    "sizeBytes": 113374773,
-    "releaseUrl": "https://github.com/iMrBurn/wwe12-pc/releases/tag/v1.4.1",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
   },
   {
@@ -2058,7 +2058,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 318,
+    "stars": 319,
     "description": "Native Windows port of Pokémon: Let's Go, Eevee! (Switch v1.0.0) by static recompilation, built on LAS Recomp. No game files included.",
     "version": "v0.7.7",
     "releasedAt": "2026-11-18",
@@ -2529,7 +2529,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 93,
+    "stars": 94,
     "description": "A native Windows port of Rayman 3 HD (Xbox 360) using static recompilation, with HD+ enhancements and Turkish localization.",
     "version": "v1.2.0",
     "releasedAt": "2026-11-17",
@@ -3156,7 +3156,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 7887,
+    "stars": 7893,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.4.1",
     "releasedAt": "2026-11-15",
@@ -3387,7 +3387,7 @@
       "Windows",
       "macOS"
     ],
-    "stars": 976,
+    "stars": 977,
     "description": "An unofficial PC port of the Xbox 360 version of Sonic the Hedgehog (2006) created through the process of static recompilation",
     "version": "v1.0.0",
     "releasedAt": "2026-11-14",
@@ -3498,7 +3498,7 @@
       "Linux",
       "Android"
     ],
-    "stars": 349,
+    "stars": 350,
     "description": "CrashBandicoot native pc port",
     "version": "2.6",
     "releasedAt": "2026-11-14",
@@ -3732,7 +3732,7 @@
     "console": "Game Boy Advance",
     "mechanism": "native",
     "platforms": [],
-    "stars": 3703,
+    "stars": 3704,
     "description": "Decompilation of Pokémon Emerald",
     "version": null,
     "releasedAt": "2026-11-14",
@@ -4342,7 +4342,7 @@
     "platforms": [
       "Android"
     ],
-    "stars": 42,
+    "stars": 43,
     "description": "Android Game Ports Put Into A Beautiful App",
     "version": "v1.1.0",
     "releasedAt": "2026-11-10",
@@ -4513,7 +4513,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 216,
+    "stars": 217,
     "description": "Eternal Sonata, recompiled for PC.",
     "version": "v1.3.9",
     "releasedAt": "2026-11-09",
@@ -4621,7 +4621,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 342,
+    "stars": 343,
     "description": "Zelda: Tears of the Kingdom (TotK) 1.0.0 recompiled to native Windows and Vulkan. Frame cap up to 240, DLSS option, mouse and keyboard. Open source, mostly written by AI agents. You build it from your own dump; no game files included. Measured on one PC so far.",
     "version": "v0.1.10.1",
     "releasedAt": "2026-11-08",
@@ -4906,7 +4906,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 237,
+    "stars": 238,
     "description": "Native PC port of God of War (PS2) via static recompilation with PS2Recomp",
     "version": null,
     "releasedAt": "2026-11-06",
@@ -4955,7 +4955,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 1630,
+    "stars": 1631,
     "description": "Zelda Wind Waker HD Recomp",
     "version": "v0.5.1",
     "releasedAt": "2026-11-06",
@@ -5426,7 +5426,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 289,
+    "stars": 291,
     "description": "GTA V (Xbox 360, TU27) static recompilation with ReXGlue",
     "version": "v0.3.0",
     "releasedAt": "2026-11-02",
@@ -5642,7 +5642,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 34326,
+    "stars": 34328,
     "description": "PlayStation 4 emulator for Windows, Linux, macOS and FreeBSD written in C++",
     "version": "v.0.21.0",
     "releasedAt": "2026-10-30",
@@ -5686,7 +5686,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 524,
+    "stars": 523,
     "description": "An unofficial PC port of the Xbox 360 version of Spider-Man: Edge of Time created through the process of static recompilation.",
     "version": "v1.1",
     "releasedAt": "2026-10-30",
@@ -6036,7 +6036,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 4162,
+    "stars": 4164,
     "description": "Bloodborne (v1.09) running natively on Linux and Windows: the game's x86-64 code runs as is, GPU side translated to Vulkan; FSR 4 / DLSS, co-op (BBSC). Bring your own dump.",
     "version": "0.7",
     "releasedAt": "2026-10-28",
@@ -6475,7 +6475,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 217,
+    "stars": 218,
     "description": "Eternal Darkness: Sanity's Requiem static recompilation (DolRecomp + GXRuntime) for Mac, Windows and Linux / Steam Deck. Bring your own disc.",
     "version": "v0.9.6",
     "releasedAt": "2026-10-24",
@@ -7003,7 +7003,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 6134,
+    "stars": 6135,
     "description": "Ship of Harkinian: a PC port of Ocarina of Time built from the decompilation, with widescreen, high framerate and mod support.",
     "version": "9.3.1",
     "releasedAt": "2026-10-18",
@@ -7304,7 +7304,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 105,
+    "stars": 106,
     "description": "Fukami: native macOS / Steam Deck port of Ridge Racer V (USA) by static recompilation. No game data.",
     "version": "v1.1.0",
     "releasedAt": "2026-10-14",
@@ -7655,7 +7655,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 934,
+    "stars": 933,
     "description": "Recompilation of Blue Dragon",
     "version": "v1.3.1",
     "releasedAt": "2026-10-05",
@@ -7889,7 +7889,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 6499,
+    "stars": 6500,
     "description": "Dusklight brings a classic adventure to PC and mobile platforms with a variety of fixes and improvements.",
     "version": "v2.0.3",
     "releasedAt": "2026-09-30",
@@ -8291,7 +8291,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 934,
+    "stars": 935,
     "description": "A PC port of Super Mario 64 with DirectX 11, OpenGL and Vulkan backends, fullscreen and controller support.",
     "version": "3.0.0",
     "releasedAt": "2026-09-07",
@@ -8529,7 +8529,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2505,
+    "stars": 2506,
     "description": "2 Ship 2 Harkinian: a PC port of Majora's Mask built from the decompilation, with widescreen, high resolution and mod support.",
     "version": "5.0.1",
     "releasedAt": "2026-08-25",
@@ -8611,7 +8611,7 @@
     "console": "PlayStation",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 50,
+    "stars": 51,
     "description": "Matching decompilation of Ridge Racer (PlayStation, Namco, 1994, SLPS-00001), and a static recompilation that boots and plays natively on Linux and Windows. No game data here — bring your own disc.",
     "version": "v0.1.0",
     "releasedAt": "2026-08-17",
@@ -9179,7 +9179,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 55,
+    "stars": 56,
     "description": "An unofficial PC port of the Xbox 360 version of Grand Theft Auto V created through the process of static recompilation. Based on LibertyRecomp",
     "version": null,
     "releasedAt": "2026-01-05",
@@ -9262,7 +9262,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 2151,
+    "stars": 2152,
     "description": "SF64 PC Port",
     "version": "v2.0.0",
     "releasedAt": "2025-05-25",
@@ -9283,7 +9283,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5403,
+    "stars": 5404,
     "description": "An unofficial PC port of the Xbox 360 version of Sonic Unleashed created through the process of static recompilation.",
     "version": "v1.0.3",
     "releasedAt": "2025-04-03",
