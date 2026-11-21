@@ -168,7 +168,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 276,
+    "stars": 278,
     "description": "Def Jam: Fight for NY PC port — static recompilation of the original Xbox game for native Windows and macOS (Direct3D 11 / Vulkan). Bring your own game dump.",
     "version": "v1.2.1",
     "releasedAt": "2026-11-21",
@@ -190,7 +190,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 144,
+    "stars": 145,
     "description": "Native PC port of Diablo III: Reaper of Souls – Ultimate Evil Edition (PS4). Local co-op for 4.",
     "version": "v0.7.3",
     "releasedAt": "2026-11-21",
@@ -211,7 +211,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 506,
+    "stars": 507,
     "description": "A native Windows PC port of Super Mario Odyssey by static recompilation. Bring your own game: no game files included.",
     "version": "v0.6.0",
     "releasedAt": "2026-11-21",
@@ -338,12 +338,12 @@
       "macOS",
       "Android"
     ],
-    "stars": 207,
+    "stars": 208,
     "description": "CPS-2 Recomp: unofficial native PC ports of Capcom CPS-2 arcade games (Street Fighter Alpha 2, Super Puzzle Fighter II Turbo, Vampire Savior) via static recompilation, with training modes, in one launcher: macOS, Linux, Steam Deck, Windows. Requires your own ROM sets. Beta.",
-    "version": "v1.6.0-beta.4",
+    "version": "v1.6.0-beta.5",
     "releasedAt": "2026-11-21",
-    "sizeBytes": 327140808,
-    "releaseUrl": "https://github.com/tmcleroy/cps2recomp/releases/tag/v1.6.0-beta.4",
+    "sizeBytes": 331677350,
+    "releaseUrl": "https://github.com/tmcleroy/cps2recomp/releases/tag/v1.6.0-beta.5",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
@@ -518,7 +518,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 2491,
+    "stars": 2492,
     "description": "Decompilation of The Legend of Zelda: Breath of the Wild (Switch 1.5.0)",
     "version": null,
     "releasedAt": "2026-11-21",
@@ -607,7 +607,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 73,
+    "stars": 74,
     "description": "Wet [Xbox360] game static recompilation project based on RexGlue-SDK",
     "version": "1.7",
     "releasedAt": "2026-11-21",
@@ -790,7 +790,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 99,
+    "stars": 100,
     "description": "Experimental PS2-to-Windows recompilation project focused on compatibility, graphics rendering and performance.",
     "version": "v0.2.2",
     "releasedAt": "2026-11-21",
@@ -831,10 +831,10 @@
     ],
     "stars": 119,
     "description": "FINAL FANTASY VII (PC) statically recompiled to native ARM64 Android, with an FFNx renderer and a 7th Heaven-style mod launcher. No game files included.",
-    "version": "v1.1.39",
+    "version": "v1.1.40",
     "releasedAt": "2026-11-21",
-    "sizeBytes": 97229455,
-    "releaseUrl": "https://github.com/bhuiyah/ff7-recomp-android/releases/tag/v1.1.39",
+    "sizeBytes": 97231191,
+    "releaseUrl": "https://github.com/bhuiyah/ff7-recomp-android/releases/tag/v1.1.40",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
   },
@@ -1102,7 +1102,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 319,
+    "stars": 320,
     "description": "Native Windows port of Pokémon: Let's Go, Eevee! (Switch v1.0.0) by static recompilation, built on LAS Recomp. No game files included.",
     "version": "v0.7.8",
     "releasedAt": "2026-11-21",
@@ -1144,7 +1144,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2528,
+    "stars": 2527,
     "description": "Native PC port of P.T. (runs from your own PS4 game files)",
     "version": "v1.1.0",
     "releasedAt": "2026-11-21",
@@ -1152,6 +1152,46 @@
     "releaseUrl": "https://github.com/LoreanXavier/pt-pc/releases/tag/v1.1.0",
     "licenseId": "MIT",
     "licenseUrl": "https://api.github.com/licenses/mit",
+    "curated": true
+  },
+  {
+    "id": "mstan-megamanx5recomp",
+    "repo": "mstan/MegaManX5Recomp",
+    "title": "Mega Man X5",
+    "game": null,
+    "author": "mstan",
+    "console": "PlayStation",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows"
+    ],
+    "stars": 68,
+    "description": "Mega Man X5 (USA, SLUS-01334) statically recompiled to a native Windows executable with the PSXRecomp framework.",
+    "version": "v1.0.2",
+    "releasedAt": "2026-11-21",
+    "sizeBytes": 12644577,
+    "releaseUrl": "https://github.com/mstan/MegaManX5Recomp/releases/tag/v1.0.2",
+    "licenseId": "NOASSERTION",
+    "licenseUrl": null,
+    "curated": true
+  },
+  {
+    "id": "pret-pokeplatinum",
+    "repo": "pret/pokeplatinum",
+    "title": "Pokémon Platinum",
+    "game": "pokemon-platinum",
+    "author": "pret",
+    "console": "Nintendo DS",
+    "mechanism": "native",
+    "platforms": [],
+    "stars": 616,
+    "description": "Decompilation of Pokémon Platinum",
+    "version": null,
+    "releasedAt": "2026-11-21",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/pret/pokeplatinum/releases",
+    "licenseId": null,
+    "licenseUrl": null,
     "curated": true
   },
   {
@@ -1231,7 +1271,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 374,
+    "stars": 375,
     "description": "Unnoficial Native Windows PC port of The Last of Us Remastered (PS4, CUSA00552). Runs the game’s own x86-64 code on a custom runtime, with PS4 system libraries reimplemented and a Vulkan renderer based on shadPS4. Includes a launcher. No game files included: you need your own copy.",
     "version": "v0.4.0",
     "releasedAt": "2026-11-20",
@@ -1294,7 +1334,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 543,
+    "stars": 544,
     "description": "Dragon's Crown Pro native PC port for Windows, with direct PS4 PKG installation, TRG launcher and modern graphics options",
     "version": "v1.4.0",
     "releasedAt": "2026-11-20",
@@ -1443,7 +1483,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 952,
+    "stars": 953,
     "description": "A cozy life-simulation and sandbox builder with fantastical creatures (Switch 2), recompiled to run natively on Windows, Linux and macOS. Multiplayer, all events, modding, enhancements and more. Discord: https://discord.recompia.com",
     "version": "v0.16.0",
     "releasedAt": "2026-11-20",
@@ -1484,7 +1524,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 66,
+    "stars": 67,
     "description": "Unofficial static recompilation of Splatoon Raiders (Switch 2) to native Linux/Windows x86-64 with a Vulkan renderer. No game data included: bring your own dump.",
     "version": "v0.2.0",
     "releasedAt": "2026-11-20",
@@ -1668,7 +1708,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 803,
+    "stars": 842,
     "description": "Static recompilation research for Xbox Series X|S (Scarlett) on x64 Windows, including shader translation, BC7 textures, script-state replay and D3D12/PE checks.",
     "version": "gpu-check-v0.1.0",
     "releasedAt": "2026-11-20",
@@ -1730,7 +1770,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 481,
+    "stars": 482,
     "description": "The 2012 Forza Horizon, native on Windows and Linux, and online again: Horizon World, leaderboards and Rivals on a public server you can also self-host. Bring your own copy.",
     "version": "v0.3.9",
     "releasedAt": "2026-11-19",
@@ -1738,27 +1778,6 @@
     "releaseUrl": "https://github.com/FH1-ReImagined/ForzaHorizon1-ReImagined/releases/tag/v0.3.9",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
-    "curated": true
-  },
-  {
-    "id": "mstan-megamanx5recomp",
-    "repo": "mstan/MegaManX5Recomp",
-    "title": "Mega Man X5",
-    "game": null,
-    "author": "mstan",
-    "console": "PlayStation",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows"
-    ],
-    "stars": 68,
-    "description": "Mega Man X5 (USA, SLUS-01334) statically recompiled to a native Windows executable with the PSXRecomp framework.",
-    "version": "v1.0.1",
-    "releasedAt": "2026-11-19",
-    "sizeBytes": 12641671,
-    "releaseUrl": "https://github.com/mstan/MegaManX5Recomp/releases/tag/v1.0.1",
-    "licenseId": "NOASSERTION",
-    "licenseUrl": null,
     "curated": true
   },
   {
@@ -1814,7 +1833,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 176,
+    "stars": 177,
     "description": "God of War: Ascension PC port: an unofficial, native Windows port of the PS3 game by static recompilation, no emulator. No game files included: you build it from your own copy.",
     "version": "v0.2.0",
     "releasedAt": "2026-11-19",
@@ -2124,7 +2143,7 @@
     "platforms": [
       "PC"
     ],
-    "stars": 45,
+    "stars": 46,
     "description": "Native PC port of Predator: Concrete Jungle (Xbox, 2005) by static recompilation. Build it from your own disc with Install.bat. No game data included.",
     "version": "v0.2.1",
     "releasedAt": "2026-11-18",
@@ -2145,7 +2164,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 156,
+    "stars": 157,
     "description": "Battlefield 1943 Reborn: the Xbox 360 game running natively on PC, with its online multiplayer restored. Releases and server packages.",
     "version": "v0.4.7.4",
     "releasedAt": "2026-11-18",
@@ -2232,7 +2251,7 @@
       "macOS",
       "iOS"
     ],
-    "stars": 713,
+    "stars": 714,
     "description": "Unofficial static recompilation of the Xbox 360 version of Need for Speed: Most Wanted (2005): a native port for Steam Deck, Steam Machine, Steam Frame, Linux and Mac (iPhone/iPad: sideload the experimental IPA or build it yourself). Bring your own disc: no game files included. Not affiliated with EA or Valve.",
     "version": "v0.2.6",
     "releasedAt": "2026-11-18",
@@ -2576,7 +2595,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 75,
+    "stars": 76,
     "description": "A native PC port of Mario Kart Arcade GP and GP 2 by static recompilation. Builds the games from your own disc images.",
     "version": "v1.0.6",
     "releasedAt": "2026-11-17",
@@ -3240,7 +3259,7 @@
       "Windows",
       "macOS"
     ],
-    "stars": 169,
+    "stars": 170,
     "description": "Forza Motorsport 4 recompilation based on ShiftGlue",
     "version": "v0.3.3",
     "releasedAt": "2026-11-15",
@@ -3262,7 +3281,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 7913,
+    "stars": 7916,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.4.1",
     "releasedAt": "2026-11-15",
@@ -3644,7 +3663,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 736,
+    "stars": 737,
     "description": "A native Windows and Linux port of Grand Theft Auto: Vice City Stories (PS2, USA, SLUS-21590), made by recompiling the game's PS2 executable into C++",
     "version": "v0.3.0",
     "releasedAt": "2026-11-14",
@@ -3860,7 +3879,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5588,
+    "stars": 5589,
     "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
     "version": "windows-v1.9.8.6",
     "releasedAt": "2026-11-13",
@@ -3882,7 +3901,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 213,
+    "stars": 214,
     "description": "Unofficial native PC port of God of War (2005, PS2) for Windows, with experimental Linux support. Statically recompiled to C++, not an emulator. OpenGL renderer, launcher, cheat menu, widescreen, 60 FPS. Bring your own game dump: no game files included.",
     "version": "launcher-v0.4.0",
     "releasedAt": "2026-11-13",
@@ -3943,7 +3962,7 @@
     "console": "PSP",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 219,
+    "stars": 220,
     "description": "Unofficial native PC ports of God of War: Chains of Olympus and Ghost of Sparta (PSP) by static recompilation. Bring your own disc.",
     "version": "v1.6.0",
     "releasedAt": "2026-11-13",
@@ -4449,7 +4468,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 126,
+    "stars": 127,
     "description": "13 Sentinels: Aegis Rim native PC port for Windows and Linux, with direct PS4 PKG installation, TRG launcher and modern graphics options",
     "version": "v0.1.0",
     "releasedAt": "2026-11-09",
@@ -4795,25 +4814,6 @@
     "releaseUrl": "https://github.com/jedijosh920/SWROTS-PC/releases",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
-    "curated": true
-  },
-  {
-    "id": "pret-pokeplatinum",
-    "repo": "pret/pokeplatinum",
-    "title": "Pokémon Platinum",
-    "game": "pokemon-platinum",
-    "author": "pret",
-    "console": "Nintendo DS",
-    "mechanism": "native",
-    "platforms": [],
-    "stars": 616,
-    "description": "Decompilation of Pokémon Platinum",
-    "version": null,
-    "releasedAt": "2026-11-07",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/pret/pokeplatinum/releases",
-    "licenseId": null,
-    "licenseUrl": null,
     "curated": true
   },
   {
@@ -5189,7 +5189,7 @@
     "console": "Nintendo 64",
     "mechanism": "native",
     "platforms": [],
-    "stars": 1792,
+    "stars": 1793,
     "description": "Decompilation of The Legend of Zelda: Majora's Mask",
     "version": null,
     "releasedAt": "2026-11-04",
@@ -5318,7 +5318,7 @@
     "platforms": [
       "Android"
     ],
-    "stars": 103,
+    "stars": 104,
     "description": "Naruto Shippuden: Ultimate Ninja Storm 3 Full Burst (Xbox 360) rodando nativamente no Android e no PC: recompilação estática, sem emulador de CPU.",
     "version": "v0.6.16",
     "releasedAt": "2026-11-03",
@@ -6943,7 +6943,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 48,
+    "stars": 49,
     "description": "God Hand Recompiled: native PC port of God Hand (PS2) via static recompilation. No game data included.",
     "version": null,
     "releasedAt": "2026-10-20",
@@ -7004,7 +7004,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 6138,
+    "stars": 6139,
     "description": "Ship of Harkinian: a PC port of Ocarina of Time built from the decompilation, with widescreen, high framerate and mod support.",
     "version": "9.3.1",
     "releasedAt": "2026-10-18",
@@ -7574,7 +7574,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 122,
+    "stars": 123,
     "description": "",
     "version": "v1.0",
     "releasedAt": "2026-10-07",
@@ -8530,7 +8530,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2508,
+    "stars": 2510,
     "description": "2 Ship 2 Harkinian: a PC port of Majora's Mask built from the decompilation, with widescreen, high resolution and mod support.",
     "version": "5.0.1",
     "releasedAt": "2026-08-25",
