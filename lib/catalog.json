@@ -190,7 +190,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 135,
+    "stars": 136,
     "description": "Native PC port of Diablo III: Reaper of Souls – Ultimate Evil Edition (PS4). Local co-op for 4.",
     "version": "v0.7.2",
     "releasedAt": "2026-11-21",
@@ -211,7 +211,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 469,
+    "stars": 472,
     "description": "A native Windows PC port of Super Mario Odyssey by static recompilation. Bring your own game: no game files included.",
     "version": "v0.5.4",
     "releasedAt": "2026-11-21",
@@ -576,6 +576,69 @@
     "curated": true
   },
   {
+    "id": "destinity13-timesplitters-2-native-recomp-windows-linux-steamdeck",
+    "repo": "Destinity13/TimeSplitters-2-Native-Recomp-Windows-Linux-SteamDeck",
+    "title": "Time Splitters 2 Windows Linux Steam Deck",
+    "game": null,
+    "author": "Destinity13",
+    "console": "PlayStation 2",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 84,
+    "description": "TimeSplitters 2 (PS2, NTSC-U) statically recompiled for Windows, Linux and Steam Deck – 60 FPS, real 16:9, up to 8x resolution, online multiplayer, verified against PCSX2",
+    "version": "v1.3.2",
+    "releasedAt": "2026-11-21",
+    "sizeBytes": 196613237,
+    "releaseUrl": "https://github.com/Destinity13/TimeSplitters-2-Native-Recomp-Windows-Linux-SteamDeck/releases/tag/v1.3.2",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
+  },
+  {
+    "id": "nikolaygorb-wetrecomp",
+    "repo": "nikolaygorb/WetRecomp",
+    "title": "WET",
+    "game": "wet",
+    "author": "nikolaygorb",
+    "console": "Xbox 360",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows"
+    ],
+    "stars": 73,
+    "description": "Wet [Xbox360] game static recompilation project based on RexGlue-SDK",
+    "version": "1.7",
+    "releasedAt": "2026-11-21",
+    "sizeBytes": 68141573,
+    "releaseUrl": "https://github.com/nikolaygorb/WetRecomp/releases/tag/1.7",
+    "licenseId": "MIT",
+    "licenseUrl": "https://api.github.com/licenses/mit",
+    "curated": true
+  },
+  {
+    "id": "nikolaygorb-goldeneye007reloadedrecomp",
+    "repo": "nikolaygorb/GoldenEye007ReloadedRecomp",
+    "title": "GoldenEye 007: Reloaded",
+    "game": null,
+    "author": "nikolaygorb",
+    "console": "Xbox 360",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows"
+    ],
+    "stars": 69,
+    "description": "GoldenEye007: Reloaded 2011 [Xbox360] game static recompilation project based on RexGlue-SDK",
+    "version": "1.6",
+    "releasedAt": "2026-11-21",
+    "sizeBytes": 56554366,
+    "releaseUrl": "https://github.com/nikolaygorb/GoldenEye007ReloadedRecomp/releases/tag/1.6",
+    "licenseId": "MIT",
+    "licenseUrl": "https://api.github.com/licenses/mit",
+    "curated": true
+  },
+  {
     "id": "tangosdev-sm64ds-decomp",
     "repo": "tangosdev/sm64ds-decomp",
     "title": "Super Mario 64 DS",
@@ -631,27 +694,6 @@
     "licenseId": "GPL-2.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-2.0",
     "curated": true
-  },
-  {
-    "id": "destinity13-timesplitters-2-native-recomp-windows-linux-steamdeck",
-    "repo": "Destinity13/TimeSplitters-2-Native-Recomp-Windows-Linux-SteamDeck",
-    "title": "Time Splitters 2 Windows Linux Steam Deck",
-    "game": null,
-    "author": "Destinity13",
-    "console": "PlayStation 2",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 84,
-    "description": "TimeSplitters 2 (PS2, NTSC-U) statically recompiled for Windows, Linux and Steam Deck – 60 FPS, real 16:9, up to 8x resolution, online multiplayer, verified against PCSX2",
-    "version": "v1.3.1",
-    "releasedAt": "2026-11-20",
-    "sizeBytes": 196609914,
-    "releaseUrl": "https://github.com/Destinity13/TimeSplitters-2-Native-Recomp-Windows-Linux-SteamDeck/releases/tag/v1.3.1",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
   },
   {
     "id": "st4rwhx-resident-evil-4-native-port",
@@ -913,7 +955,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 535,
+    "stars": 537,
     "description": "Dragon's Crown Pro native PC port for Windows, with direct PS4 PKG installation, TRG launcher and modern graphics options",
     "version": "v1.4.0",
     "releasedAt": "2026-11-20",
@@ -1125,7 +1167,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 92,
+    "stars": 93,
     "description": "Experimental PS2-to-Windows recompilation project focused on compatibility, graphics rendering and performance.",
     "version": "v0.2.1",
     "releasedAt": "2026-11-20",
@@ -1183,7 +1225,7 @@
     "console": "PC",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 99,
+    "stars": 100,
     "description": "Experimental Hyrule Warriors: Age of Imprisonment recompilation for Windows, with a local NUP compiler. Non-60 FPS modes accelerate gameplay; higher resolutions are unstable.",
     "version": null,
     "releasedAt": "2026-11-20",
@@ -1245,7 +1287,7 @@
     "console": "PlayStation 3",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 76,
+    "stars": 75,
     "description": "Unofficial PC port of Gran Turismo 5 on ps3recomp. Needs your own GT5 disc, EBOOT v1.00, no update: Europe BCES00569 (tested) or US BCUS98114 (untested). Code and tools only: no game files, keys or firmware.",
     "version": "v0.1.109",
     "releasedAt": "2026-11-20",
@@ -1435,7 +1477,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 480,
+    "stars": 481,
     "description": "The 2012 Forza Horizon, native on Windows and Linux, and online again: Horizon World, leaderboards and Rivals on a public server you can also self-host. Bring your own copy.",
     "version": "v0.3.9",
     "releasedAt": "2026-11-19",
@@ -2384,7 +2426,7 @@
     "console": "Xbox 360",
     "mechanism": "native",
     "platforms": [],
-    "stars": 483,
+    "stars": 484,
     "description": "Tekken 6 (Xbox 360) native on Windows with rollback netcode - build from your own ISO",
     "version": "v3.1.6",
     "releasedAt": "2026-11-17",
@@ -3051,7 +3093,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 7866,
+    "stars": 7867,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.4.1",
     "releasedAt": "2026-11-15",
@@ -3072,7 +3114,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 2337,
+    "stars": 2338,
     "description": "Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo",
     "version": "v0.3.15",
     "releasedAt": "2026-11-15",
@@ -3713,7 +3755,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 170,
+    "stars": 171,
     "description": "OpenTricky is an unofficial PC port of SSX Tricky, made by static recompilation. Bring your own disc.",
     "version": "v0.1.6",
     "releasedAt": "2026-11-13",
@@ -4979,7 +5021,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 440,
+    "stars": 441,
     "description": "Static recompilation of Castlevania: Symphony of the Night (XBLA) for Windows and Linux, built on the ReXGlue SDK.",
     "version": "v1.5.2",
     "releasedAt": "2026-11-05",
@@ -5046,48 +5088,6 @@
     "releasedAt": "2026-11-05",
     "sizeBytes": 91178017,
     "releaseUrl": "https://github.com/nikolaygorb/ArmyOfTwoRecomp/releases/tag/1.5",
-    "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit",
-    "curated": true
-  },
-  {
-    "id": "nikolaygorb-wetrecomp",
-    "repo": "nikolaygorb/WetRecomp",
-    "title": "WET",
-    "game": "wet",
-    "author": "nikolaygorb",
-    "console": "Xbox 360",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows"
-    ],
-    "stars": 73,
-    "description": "Wet [Xbox360] game static recompilation project based on RexGlue-SDK",
-    "version": "1.6",
-    "releasedAt": "2026-11-05",
-    "sizeBytes": 59222172,
-    "releaseUrl": "https://github.com/nikolaygorb/WetRecomp/releases/tag/1.6",
-    "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit",
-    "curated": true
-  },
-  {
-    "id": "nikolaygorb-goldeneye007reloadedrecomp",
-    "repo": "nikolaygorb/GoldenEye007ReloadedRecomp",
-    "title": "GoldenEye 007: Reloaded",
-    "game": null,
-    "author": "nikolaygorb",
-    "console": "Xbox 360",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows"
-    ],
-    "stars": 69,
-    "description": "GoldenEye007: Reloaded 2011 [Xbox360] game static recompilation project based on RexGlue-SDK",
-    "version": "1.5",
-    "releasedAt": "2026-11-05",
-    "sizeBytes": 44705647,
-    "releaseUrl": "https://github.com/nikolaygorb/GoldenEye007ReloadedRecomp/releases/tag/1.5",
     "licenseId": "MIT",
     "licenseUrl": "https://api.github.com/licenses/mit",
     "curated": true
@@ -5623,7 +5623,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 34321,
+    "stars": 34323,
     "description": "PlayStation 4 emulator for Windows, Linux, macOS and FreeBSD written in C++",
     "version": "v.0.21.0",
     "releasedAt": "2026-10-30",
@@ -5812,7 +5812,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 979,
+    "stars": 980,
     "description": "An unofficial original Xbox version PC port of BLACK (2006) via static recompilation.",
     "version": "V3",
     "releasedAt": "2026-10-29",
@@ -6017,7 +6017,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 4157,
+    "stars": 4158,
     "description": "Bloodborne (v1.09) running natively on Linux and Windows: the game's x86-64 code runs as is, GPU side translated to Vulkan; FSR 4 / DLSS, co-op (BBSC). Bring your own dump.",
     "version": "0.7",
     "releasedAt": "2026-10-28",
@@ -6305,7 +6305,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 8140,
+    "stars": 8141,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -6327,7 +6327,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 131,
+    "stars": 132,
     "description": "Crackdown native PC port via static recompilation, with high frame rates, 4K rendering, ultrawide support, offline achievements, language selection, TRG launcher, and experimental Linux/Steam Deck support",
     "version": "v0.6.2",
     "releasedAt": "2026-10-25",
@@ -8533,7 +8533,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 59,
+    "stars": 60,
     "description": "Native PC port of Tony Hawk's Project 8 (Xbox 360) by static recompilation.",
     "version": "v0.3.0",
     "releasedAt": "2026-08-24",
@@ -8653,7 +8653,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 1677,
+    "stars": 1678,
     "description": "A free and open-source Touhou Project fangame",
     "version": "v1.4.6",
     "releasedAt": "2026-08-02",
@@ -8856,7 +8856,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 42,
+    "stars": 43,
     "description": "SoulCalibur IV Statically Recompiled using ReXGlue SDK",
     "version": "v0.9.1",
     "releasedAt": "2026-07-07",
