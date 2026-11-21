@@ -126,7 +126,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 273,
+    "stars": 275,
     "description": "A Recompilation of Project Gotham Racing 4",
     "version": "v2.0.1",
     "releasedAt": "2026-11-21",
@@ -190,7 +190,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 136,
+    "stars": 137,
     "description": "Native PC port of Diablo III: Reaper of Souls – Ultimate Evil Edition (PS4). Local co-op for 4.",
     "version": "v0.7.2",
     "releasedAt": "2026-11-21",
@@ -211,12 +211,12 @@
       "Windows",
       "Linux"
     ],
-    "stars": 472,
+    "stars": 477,
     "description": "A native Windows PC port of Super Mario Odyssey by static recompilation. Bring your own game: no game files included.",
-    "version": "v0.5.4",
+    "version": "v0.6.0",
     "releasedAt": "2026-11-21",
-    "sizeBytes": 231279698,
-    "releaseUrl": "https://github.com/Simon3Sarkis/super-odyssey-pc-recomp/releases/tag/v0.5.4",
+    "sizeBytes": 231293710,
+    "releaseUrl": "https://github.com/Simon3Sarkis/super-odyssey-pc-recomp/releases/tag/v0.6.0",
     "licenseId": "NOASSERTION",
     "licenseUrl": null
   },
@@ -256,10 +256,10 @@
     ],
     "stars": 131,
     "description": "Unofficial static recompilation of Sonic Free Riders for Windows, Linux and Android, with controller/keyboard support, custom VRM avatars, and Kinect v1, Kinect v2 (experimental) and webcam motion controls on Windows.",
-    "version": "v0.10.71",
+    "version": "v0.10.72",
     "releasedAt": "2026-11-21",
-    "sizeBytes": 106309028,
-    "releaseUrl": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.71",
+    "sizeBytes": 106325412,
+    "releaseUrl": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.72",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
@@ -315,7 +315,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 104,
+    "stars": 105,
     "description": "Native PC port of Ace Combat 6: Fires of Liberation using XenonRecomp",
     "version": "v1.0.1",
     "releasedAt": "2026-11-21",
@@ -425,7 +425,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 566,
+    "stars": 567,
     "description": "PC, Android, iOS and macOS port of the ICO (PS2) decompilation (nathanialf/ico): Windows, Linux, Steam Deck, Android, iPhone via LiveContainer and Apple-silicon Mac (contributed). Contains no game data.",
     "version": "v0.11.13",
     "releasedAt": "2026-11-21",
@@ -578,7 +578,7 @@
   {
     "id": "destinity13-timesplitters-2-native-recomp-windows-linux-steamdeck",
     "repo": "Destinity13/TimeSplitters-2-Native-Recomp-Windows-Linux-SteamDeck",
-    "title": "Time Splitters 2 Windows Linux Steam Deck",
+    "title": "TimeSplitters 2",
     "game": null,
     "author": "Destinity13",
     "console": "PlayStation 2",
@@ -587,8 +587,8 @@
       "Windows",
       "Linux"
     ],
-    "stars": 84,
-    "description": "TimeSplitters 2 (PS2, NTSC-U) statically recompiled for Windows, Linux and Steam Deck – 60 FPS, real 16:9, up to 8x resolution, online multiplayer, verified against PCSX2",
+    "stars": 85,
+    "description": "Crystal Cut: a native PC port of TimeSplitters 2 (PS2, USA and PAL) with cut content restored from your own disc. Windows, Linux and Steam Deck, 60 FPS, true 16:9, up to 8x resolution, online play. Statically recompiled and checked against PCSX2. No game files included.",
     "version": "v1.3.2",
     "releasedAt": "2026-11-21",
     "sizeBytes": 196613237,
@@ -634,6 +634,68 @@
     "releasedAt": "2026-11-21",
     "sizeBytes": 56554366,
     "releaseUrl": "https://github.com/nikolaygorb/GoldenEye007ReloadedRecomp/releases/tag/1.6",
+    "licenseId": "MIT",
+    "licenseUrl": "https://api.github.com/licenses/mit",
+    "curated": true
+  },
+  {
+    "id": "gensokyoclub-th06",
+    "repo": "GensokyoClub/th06",
+    "title": "Touhou 6: The Embodiment of Scarlet Devil",
+    "game": null,
+    "author": "GensokyoClub",
+    "console": "PC",
+    "mechanism": "native",
+    "platforms": [],
+    "stars": 634,
+    "description": "Decompilation of 東方紅魔郷　～ the Embodiment of Scarlet Devil (1.02h)",
+    "version": null,
+    "releasedAt": "2026-11-21",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/GensokyoClub/th06/releases",
+    "licenseId": "CC0-1.0",
+    "licenseUrl": "https://api.github.com/licenses/cc0-1.0",
+    "curated": true
+  },
+  {
+    "id": "kayliox-transformers-armada-recomp",
+    "repo": "kayliox/transformers-armada-recomp",
+    "title": "Transformers",
+    "game": null,
+    "author": "kayliox",
+    "console": "PlayStation 2",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 59,
+    "description": "Transformers (PS2, 2004) as a native PC game: static recompilation from your own disc, native Direct3D 12 renderer, up to 4K / 240 fps / ultrawide. Bring your own disc.",
+    "version": "setup-v0.9.5",
+    "releasedAt": "2026-11-21",
+    "sizeBytes": 6406376,
+    "releaseUrl": "https://github.com/kayliox/transformers-armada-recomp/releases/tag/setup-v0.9.5",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
+  },
+  {
+    "id": "nikolaygorb-armyoftworecomp",
+    "repo": "nikolaygorb/ArmyOfTwoRecomp",
+    "title": "Army of Two",
+    "game": "army-of-two",
+    "author": "nikolaygorb",
+    "console": "Xbox 360",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows"
+    ],
+    "stars": 109,
+    "description": "Army of Two (Army of 2) 2008 [Xbox360] game static recompilation project based on RexGlue-SDK",
+    "version": "1.6",
+    "releasedAt": "2026-11-21",
+    "sizeBytes": 110150068,
+    "releaseUrl": "https://github.com/nikolaygorb/ArmyOfTwoRecomp/releases/tag/1.6",
     "licenseId": "MIT",
     "licenseUrl": "https://api.github.com/licenses/mit",
     "curated": true
@@ -793,25 +855,6 @@
     "releaseUrl": "https://github.com/metroidret/mzm/releases",
     "licenseId": "MIT",
     "licenseUrl": "https://api.github.com/licenses/mit",
-    "curated": true
-  },
-  {
-    "id": "gensokyoclub-th06",
-    "repo": "GensokyoClub/th06",
-    "title": "Touhou 6: The Embodiment of Scarlet Devil",
-    "game": null,
-    "author": "GensokyoClub",
-    "console": "PC",
-    "mechanism": "native",
-    "platforms": [],
-    "stars": 634,
-    "description": "Decompilation of 東方紅魔郷　～ the Embodiment of Scarlet Devil (1.02h)",
-    "version": null,
-    "releasedAt": "2026-11-20",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/GensokyoClub/th06/releases",
-    "licenseId": "CC0-1.0",
-    "licenseUrl": "https://api.github.com/licenses/cc0-1.0",
     "curated": true
   },
   {
@@ -999,7 +1042,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 1259,
+    "stars": 1260,
     "description": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows and Linux with Vulkan. 0.5.1 out: NVIDIA shader cache fix, player 2 rumble; one-file Windows launcher, presets, local co-op, 16:10, Thai. Requirements: docs/requirements.md. Roadmap: #10. No game files included.",
     "version": "v0.5.1",
     "releasedAt": "2026-11-20",
@@ -1084,7 +1127,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 305,
+    "stars": 306,
     "description": "Ninja Gaiden II (Xbox 360, 2008) statically recompiled into native Linux and Windows builds, drawn by its own Vulkan renderer. A steady 60 fps, up to 8x render scale, widescreen and ultrawide, keyboard and mouse, mods, Steam Deck ready. Bring your own copy of the game.",
     "version": "v0.6.13",
     "releasedAt": "2026-11-20",
@@ -1111,28 +1154,6 @@
     "releaseUrl": "https://github.com/undecuple/project-helghast/releases",
     "licenseId": "MIT",
     "licenseUrl": "https://api.github.com/licenses/mit",
-    "curated": true
-  },
-  {
-    "id": "kayliox-transformers-armada-recomp",
-    "repo": "kayliox/transformers-armada-recomp",
-    "title": "Transformers",
-    "game": null,
-    "author": "kayliox",
-    "console": "PlayStation 2",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 59,
-    "description": "Transformers (PS2, 2004) as a native PC game: static recompilation from your own disc, native Direct3D 12 renderer, up to 4K / 240 fps / ultrawide. Bring your own disc.",
-    "version": "setup-v0.9.4",
-    "releasedAt": "2026-11-20",
-    "sizeBytes": 6406376,
-    "releaseUrl": "https://github.com/kayliox/transformers-armada-recomp/releases/tag/setup-v0.9.4",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
   },
   {
@@ -1167,7 +1188,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 93,
+    "stars": 94,
     "description": "Experimental PS2-to-Windows recompilation project focused on compatibility, graphics rendering and performance.",
     "version": "v0.2.1",
     "releasedAt": "2026-11-20",
@@ -1287,7 +1308,7 @@
     "console": "PlayStation 3",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 75,
+    "stars": 76,
     "description": "Unofficial PC port of Gran Turismo 5 on ps3recomp. Needs your own GT5 disc, EBOOT v1.00, no update: Europe BCES00569 (tested) or US BCUS98114 (untested). Code and tools only: no game files, keys or firmware.",
     "version": "v0.1.109",
     "releasedAt": "2026-11-20",
@@ -1561,7 +1582,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 175,
+    "stars": 176,
     "description": "God of War: Ascension PC port: an unofficial, native Windows port of the PS3 game by static recompilation, no emulator. No game files included: you build it from your own copy.",
     "version": "v0.2.0",
     "releasedAt": "2026-11-19",
@@ -2384,7 +2405,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 65,
+    "stars": 66,
     "description": "Native Windows port of Dead or Alive 3 (Xbox), built by static recompilation with a hand-written runtime. Requires your own copy of the game.",
     "version": "v0.7.1",
     "releasedAt": "2026-11-17",
@@ -2916,7 +2937,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 2530,
+    "stars": 2531,
     "description": "Static recompilation of Link's Awakening (Switch) to native macOS, Windows, Linux, iOS and Android.",
     "version": "beta_6",
     "releasedAt": "2026-11-15",
@@ -3093,7 +3114,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 7867,
+    "stars": 7871,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.4.1",
     "releasedAt": "2026-11-15",
@@ -3114,7 +3135,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 2338,
+    "stars": 2339,
     "description": "Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo",
     "version": "v0.3.15",
     "releasedAt": "2026-11-15",
@@ -3219,7 +3240,7 @@
       "Linux",
       "iOS"
     ],
-    "stars": 656,
+    "stars": 657,
     "description": "The Legend of Zelda: The Wind Waker Recompiled. Native for MacOS, iOS, Windows, Linux, and Android.",
     "version": "v0.12.0",
     "releasedAt": "2026-11-15",
@@ -3559,7 +3580,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 128,
+    "stars": 129,
     "description": "Native Windows port of Dead or Alive 2 Ultimate (Xbox), built by static recompilation with a hand-written runtime. Requires your own copy of the game.",
     "version": "v0.4.0",
     "releasedAt": "2026-11-14",
@@ -3712,7 +3733,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5576,
+    "stars": 5578,
     "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
     "version": "windows-v1.9.8.6",
     "releasedAt": "2026-11-13",
@@ -3795,7 +3816,7 @@
     "console": "PSP",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 218,
+    "stars": 219,
     "description": "Unofficial native PC ports of God of War: Chains of Olympus and Ghost of Sparta (PSP) by static recompilation. Bring your own disc.",
     "version": "v1.6.0",
     "releasedAt": "2026-11-13",
@@ -5072,27 +5093,6 @@
     "curated": true
   },
   {
-    "id": "nikolaygorb-armyoftworecomp",
-    "repo": "nikolaygorb/ArmyOfTwoRecomp",
-    "title": "Army of Two",
-    "game": "army-of-two",
-    "author": "nikolaygorb",
-    "console": "Xbox 360",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows"
-    ],
-    "stars": 109,
-    "description": "Army of Two (Army of 2) 2008 [Xbox360] game static recompilation project based on RexGlue-SDK",
-    "version": "1.5",
-    "releasedAt": "2026-11-05",
-    "sizeBytes": 91178017,
-    "releaseUrl": "https://github.com/nikolaygorb/ArmyOfTwoRecomp/releases/tag/1.5",
-    "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit",
-    "curated": true
-  },
-  {
     "id": "crazyriddler-finesthourremastered",
     "repo": "crazyriddler/FinestHourRemastered",
     "title": "Call of Duty: Finest Hour",
@@ -5453,7 +5453,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 355,
+    "stars": 356,
     "description": "Burnout Revenge recompilation based on RexGlue + standalone Plume render",
     "version": "v0.4.10",
     "releasedAt": "2026-11-01",
@@ -5623,7 +5623,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 34323,
+    "stars": 34322,
     "description": "PlayStation 4 emulator for Windows, Linux, macOS and FreeBSD written in C++",
     "version": "v.0.21.0",
     "releasedAt": "2026-10-30",
@@ -5893,7 +5893,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 75,
+    "stars": 76,
     "description": "Native Direct3D 12 renderer for the Project Gotham Racing 4 static recompilation",
     "version": "v0.3.0",
     "releasedAt": "2026-10-29",
@@ -6161,7 +6161,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 1021,
+    "stars": 1022,
     "description": "Experimental native PC port of Lost Odyssey using static recompilation. No game assets included.",
     "version": "v1.1.0",
     "releasedAt": "2026-10-26",
@@ -6286,7 +6286,7 @@
     "platforms": [
       "Linux"
     ],
-    "stars": 166,
+    "stars": 167,
     "description": "Unofficial native PC port of inFAMOUS First Light (PS4). Bring your own game dump - no game files included.",
     "version": "v0.3.8",
     "releasedAt": "2026-10-25",
@@ -6305,7 +6305,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 8141,
+    "stars": 8142,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -6720,7 +6720,7 @@
     "console": "Nintendo Switch",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 636,
+    "stars": 638,
     "description": "Unofficial static recompilation of Bayonetta 2 (Switch) for Windows. Builds the game on your PC from your own legally dumped copy. No game files, keys or SDK code included.",
     "version": "v0.3.3",
     "releasedAt": "2026-10-22",
@@ -6743,7 +6743,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2526,
+    "stars": 2525,
     "description": "Native PC port of P.T. (runs from your own PS4 game files)",
     "version": "v1.0.8",
     "releasedAt": "2026-10-22",
@@ -7870,7 +7870,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 6497,
+    "stars": 6498,
     "description": "Dusklight brings a classic adventure to PC and mobile platforms with a variety of fixes and improvements.",
     "version": "v2.0.3",
     "releasedAt": "2026-09-30",
@@ -9099,7 +9099,7 @@
     "console": "Xbox 360",
     "mechanism": "emulator",
     "platforms": [],
-    "stars": 9844,
+    "stars": 9845,
     "description": "Xbox 360 Emulator Research Project",
     "version": null,
     "releasedAt": "2026-02-18",
@@ -9160,7 +9160,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 54,
+    "stars": 55,
     "description": "An unofficial PC port of the Xbox 360 version of Grand Theft Auto V created through the process of static recompilation. Based on LibertyRecomp",
     "version": null,
     "releasedAt": "2026-01-05",
