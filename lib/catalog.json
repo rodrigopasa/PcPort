@@ -107,7 +107,7 @@
       "Linux",
       "Android"
     ],
-    "stars": 364,
+    "stars": 365,
     "description": "Ninja Gaiden Black (Xbox, 2005) statically recompiled into native Linux and Windows builds, with an experimental Android port, drawn by its own Vulkan renderer. A steady 60 fps, widescreen and ultrawide, keyboard and mouse, touch controls on Android, Steam Deck ready. Bring your own copy of the game.",
     "version": "v0.9.78",
     "releasedAt": "2026-11-21",
@@ -190,7 +190,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 129,
+    "stars": 131,
     "description": "Native PC port of Diablo III: Reaper of Souls – Ultimate Evil Edition (PS4). Local co-op for 4.",
     "version": "v0.7.2",
     "releasedAt": "2026-11-21",
@@ -211,12 +211,12 @@
       "Windows",
       "Linux"
     ],
-    "stars": 457,
+    "stars": 463,
     "description": "A native Windows PC port of Super Mario Odyssey by static recompilation. Bring your own game: no game files included.",
-    "version": "v0.5.3",
+    "version": "v0.5.4",
     "releasedAt": "2026-11-21",
-    "sizeBytes": 231269386,
-    "releaseUrl": "https://github.com/Simon3Sarkis/super-odyssey-pc-recomp/releases/tag/v0.5.3",
+    "sizeBytes": 231279698,
+    "releaseUrl": "https://github.com/Simon3Sarkis/super-odyssey-pc-recomp/releases/tag/v0.5.4",
     "licenseId": "NOASSERTION",
     "licenseUrl": null
   },
@@ -473,6 +473,43 @@
     "curated": true
   },
   {
+    "id": "dreamingmoths-memory-of-alessa",
+    "repo": "dreamingmoths/memory-of-alessa",
+    "title": "Silent Hill 3",
+    "game": null,
+    "author": "dreamingmoths",
+    "console": "PlayStation 2",
+    "mechanism": "native",
+    "platforms": [],
+    "stars": 177,
+    "description": "In-progress matching decompilation of Silent Hill 3",
+    "version": null,
+    "releasedAt": "2026-11-21",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/dreamingmoths/memory-of-alessa/releases",
+    "licenseId": "MIT",
+    "licenseUrl": "https://api.github.com/licenses/mit",
+    "curated": true
+  },
+  {
+    "id": "tyle-beep-haiku",
+    "repo": "tyle-beep/Haiku",
+    "title": "Haiku",
+    "game": null,
+    "author": "tyle-beep",
+    "console": "PC",
+    "mechanism": "recompiled",
+    "platforms": [],
+    "stars": 82,
+    "description": "Fire Emblem Fates, statically recompiled to a native Windows program. Contains no game files: you build it from your own dump.",
+    "version": "v1.4.1",
+    "releasedAt": "2026-11-21",
+    "sizeBytes": 152193966,
+    "releaseUrl": "https://github.com/tyle-beep/Haiku/releases/tag/v1.4.1",
+    "licenseId": "NOASSERTION",
+    "licenseUrl": null
+  },
+  {
     "id": "tangosdev-sm64ds-decomp",
     "repo": "tangosdev/sm64ds-decomp",
     "title": "Super Mario 64 DS",
@@ -563,7 +600,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 50,
+    "stars": 53,
     "description": "Nightjar: Resident Evil 4 (GameCube) 100% native source port, byte-matching decompilation & standalone engine runtime for Android (32/64-bit), iOS (Metal), Windows, and Linux.",
     "version": "nightly",
     "releasedAt": "2026-11-20",
@@ -646,25 +683,6 @@
     "releasedAt": "2026-11-20",
     "sizeBytes": null,
     "releaseUrl": "https://github.com/metroidret/mzm/releases",
-    "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit",
-    "curated": true
-  },
-  {
-    "id": "dreamingmoths-memory-of-alessa",
-    "repo": "dreamingmoths/memory-of-alessa",
-    "title": "Silent Hill 3",
-    "game": null,
-    "author": "dreamingmoths",
-    "console": "PlayStation 2",
-    "mechanism": "native",
-    "platforms": [],
-    "stars": 177,
-    "description": "In-progress matching decompilation of Silent Hill 3",
-    "version": null,
-    "releasedAt": "2026-11-20",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/dreamingmoths/memory-of-alessa/releases",
     "licenseId": "MIT",
     "licenseUrl": "https://api.github.com/licenses/mit",
     "curated": true
@@ -829,7 +847,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 533,
+    "stars": 534,
     "description": "Dragon's Crown Pro native PC port for Windows, with direct PS4 PKG installation, TRG launcher and modern graphics options",
     "version": "v1.4.0",
     "releasedAt": "2026-11-20",
@@ -882,24 +900,6 @@
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
-  },
-  {
-    "id": "tyle-beep-haiku",
-    "repo": "tyle-beep/Haiku",
-    "title": "Haiku",
-    "game": null,
-    "author": "tyle-beep",
-    "console": "PC",
-    "mechanism": "recompiled",
-    "platforms": [],
-    "stars": 82,
-    "description": "Fire Emblem Fates, statically recompiled to a native Windows program. Contains no game files: you build it from your own dump.",
-    "version": "v1.4",
-    "releasedAt": "2026-11-20",
-    "sizeBytes": 152193966,
-    "releaseUrl": "https://github.com/tyle-beep/Haiku/releases/tag/v1.4",
-    "licenseId": "NOASSERTION",
-    "licenseUrl": null
   },
   {
     "id": "norain211-doaxvb-re",
@@ -976,7 +976,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 303,
+    "stars": 304,
     "description": "Ninja Gaiden II (Xbox 360, 2008) statically recompiled into native Linux and Windows builds, drawn by its own Vulkan renderer. A steady 60 fps, up to 8x render scale, widescreen and ultrawide, keyboard and mouse, mods, Steam Deck ready. Bring your own copy of the game.",
     "version": "v0.6.13",
     "releasedAt": "2026-11-20",
@@ -1059,7 +1059,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 89,
+    "stars": 91,
     "description": "Experimental PS2-to-Windows recompilation project focused on compatibility, graphics rendering and performance.",
     "version": "v0.2.1",
     "releasedAt": "2026-11-20",
@@ -1495,7 +1495,7 @@
       "Linux",
       "Android"
     ],
-    "stars": 53,
+    "stars": 54,
     "description": "Static Recompilation of Automobili Lamborghini for the N64",
     "version": "v0.11.1",
     "releasedAt": "2026-11-19",
@@ -1539,7 +1539,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 215,
+    "stars": 216,
     "description": "Odin Sphere Leifthrasir native PC port for Windows, with direct PS4 PKG installation, TRG launcher and modern graphics options",
     "version": "v0.3.0",
     "releasedAt": "2026-11-19",
@@ -1704,7 +1704,7 @@
     "console": "Xbox 360",
     "mechanism": "native",
     "platforms": [],
-    "stars": 424,
+    "stars": 425,
     "description": "A native PC port of The Darkness (Xbox 360) for Windows, featuring DirectX 11 graphics, mouse and keyboard controls, and customizable settings.",
     "version": null,
     "releasedAt": "2026-11-18",
@@ -1826,7 +1826,7 @@
     "platforms": [
       "PC"
     ],
-    "stars": 44,
+    "stars": 45,
     "description": "Native PC port of Predator: Concrete Jungle (Xbox, 2005) by static recompilation. Build it from your own disc with Install.bat. No game data included.",
     "version": "v0.2.1",
     "releasedAt": "2026-11-18",
@@ -2061,7 +2061,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 268,
+    "stars": 269,
     "description": "inFAMOUS 2 (PS3) as a native PC program for Windows and Linux: Setup recompiles YOUR copy on your PC (static recompilation, Vulkan). No game files included.",
     "version": "v0.6.3",
     "releasedAt": "2026-11-18",
@@ -2193,7 +2193,7 @@
       "Linux",
       "Android"
     ],
-    "stars": 67,
+    "stars": 68,
     "description": "AI Driven Project to Port Monster Hunter Freedom Unite Natively on Windows and Android, Multiplayer Supports across Platform and Regions.",
     "version": "v0.4.9",
     "releasedAt": "2026-11-17",
@@ -2234,7 +2234,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 84,
+    "stars": 85,
     "description": "Dragon Age: Origins (Xbox 360) static recompilation - bring your own disc image",
     "version": null,
     "releasedAt": "2026-11-17",
@@ -2342,7 +2342,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 235,
+    "stars": 236,
     "description": "A PC port of Downhill Domination (PS2), built on a matching decompilation. Bring your own disc.",
     "version": "v0.8.10",
     "releasedAt": "2026-11-17",
@@ -2365,7 +2365,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 72,
+    "stars": 73,
     "description": "A native PC port of Mario Kart Arcade GP and GP 2 by static recompilation. Builds the games from your own disc images.",
     "version": "v1.0.6",
     "releasedAt": "2026-11-17",
@@ -2935,7 +2935,7 @@
       "macOS",
       "iOS"
     ],
-    "stars": 375,
+    "stars": 374,
     "description": "The iOS and MacOS port of Xenia, the Xbox 360 Emulator Research project.",
     "version": "release-v2.3.3-build-11940",
     "releasedAt": "2026-11-15",
@@ -3051,7 +3051,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 7853,
+    "stars": 7856,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.4.1",
     "releasedAt": "2026-11-15",
@@ -3072,7 +3072,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 2335,
+    "stars": 2336,
     "description": "Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo",
     "version": "v0.3.15",
     "releasedAt": "2026-11-15",
@@ -3303,7 +3303,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 256,
+    "stars": 257,
     "description": "StarFox Remake [recompiled]: static recompilation of Star Fox (Nintendo Switch 2) into a native Windows app, built on your PC from your own copy. No game files included.",
     "version": "v1.1.0",
     "releasedAt": "2026-11-14",
@@ -3670,7 +3670,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5574,
+    "stars": 5575,
     "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
     "version": "windows-v1.9.8.6",
     "releasedAt": "2026-11-13",
@@ -3879,7 +3879,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 245,
+    "stars": 244,
     "description": "Banjo-Kazooie: Nuts and Bolts Recompilation with Rexglue",
     "version": "big-lua-energy",
     "releasedAt": "2026-11-12",
@@ -4112,7 +4112,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 955,
+    "stars": 956,
     "description": "Unofficial native PC and Steam Deck port of Tears of the Kingdom 1.4.3 using static recompilation. Builds locally from the player's own extracted game dump; no game files included.",
     "version": "v0.4.0",
     "releasedAt": "2026-11-11",
@@ -4347,7 +4347,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 428,
+    "stars": 429,
     "description": "Super Mario Strikers for PC, Mac, Linux & Nintendo Switch. Ported from decompiled code. Not a recompilation.",
     "version": "v2.0.0",
     "releasedAt": "2026-11-09",
@@ -4873,7 +4873,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 1624,
+    "stars": 1627,
     "description": "Zelda Wind Waker HD Recomp",
     "version": "v0.5.1",
     "releasedAt": "2026-11-06",
@@ -5623,7 +5623,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 34318,
+    "stars": 34319,
     "description": "PlayStation 4 emulator for Windows, Linux, macOS and FreeBSD written in C++",
     "version": "v.0.21.0",
     "releasedAt": "2026-10-30",
@@ -5995,7 +5995,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 247,
+    "stars": 248,
     "description": "A static native recompilation of Need for Speed: Most Wanted (2005) Xbox 360",
     "version": "v1.0.2",
     "releasedAt": "2026-10-28",
@@ -6017,7 +6017,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 4154,
+    "stars": 4157,
     "description": "Bloodborne (v1.09) running natively on Linux and Windows: the game's x86-64 code runs as is, GPU side translated to Vulkan; FSR 4 / DLSS, co-op (BBSC). Bring your own dump.",
     "version": "0.7",
     "releasedAt": "2026-10-28",
@@ -6305,7 +6305,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 8137,
+    "stars": 8139,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -6371,7 +6371,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 82,
+    "stars": 83,
     "description": "Hard Corps: Uprising native PC port via static recompilation, the Xbox 360 XBLA Contra spin-off, with TRG launcher",
     "version": "v0.7.1",
     "releasedAt": "2026-10-25",
@@ -6682,7 +6682,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 1219,
+    "stars": 1220,
     "description": "Native PC port (Linux/Windows) of inFAMOUS Second Son (PS4, CUSA00223) — in development, playable; runs your own game dump; no game or firmware files included. Motion sensor emulation. | Port nativo para PC de inFAMOUS Second Son (em desenvolvimento) — usa o seu próprio dump.",
     "version": "v1.0",
     "releasedAt": "2026-10-22",
@@ -9264,7 +9264,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5402,
+    "stars": 5403,
     "description": "An unofficial PC port of the Xbox 360 version of Sonic Unleashed created through the process of static recompilation.",
     "version": "v1.0.3",
     "releasedAt": "2025-04-03",
@@ -9511,7 +9511,7 @@
     "console": "PlayStation",
     "mechanism": "native",
     "platforms": [],
-    "stars": 1248,
+    "stars": 1249,
     "description": "Decompilation of Castlevania: Symphony of the Night (PSX, PSP, Saturn)",
     "version": "cc1-psx-26",
     "releasedAt": "2023-04-05",
