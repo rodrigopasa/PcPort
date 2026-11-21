@@ -190,7 +190,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 131,
+    "stars": 134,
     "description": "Native PC port of Diablo III: Reaper of Souls – Ultimate Evil Edition (PS4). Local co-op for 4.",
     "version": "v0.7.2",
     "releasedAt": "2026-11-21",
@@ -211,7 +211,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 463,
+    "stars": 466,
     "description": "A native Windows PC port of Super Mario Odyssey by static recompilation. Bring your own game: no game files included.",
     "version": "v0.5.4",
     "releasedAt": "2026-11-21",
@@ -382,7 +382,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 236,
+    "stars": 237,
     "description": "Experimental static recompilation of Mario Kart 8 Deluxe 4.0.1 for Windows x64 and Linux amd64. Native Vulkan runtime, Mii creator, online play via Nextendo and Steam rooms. Bring your own game files and keys: no ROMs, assets or keys included.",
     "version": "v0.5.0",
     "releasedAt": "2026-11-21",
@@ -425,7 +425,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 565,
+    "stars": 566,
     "description": "PC, Android, iOS and macOS port of the ICO (PS2) decompilation (nathanialf/ico): Windows, Linux, Steam Deck, Android, iPhone via LiveContainer and Apple-silicon Mac (contributed). Contains no game data.",
     "version": "v0.11.13",
     "releasedAt": "2026-11-21",
@@ -508,6 +508,25 @@
     "releaseUrl": "https://github.com/tyle-beep/Haiku/releases/tag/v1.4.1",
     "licenseId": "NOASSERTION",
     "licenseUrl": null
+  },
+  {
+    "id": "zeldaret-botw",
+    "repo": "zeldaret/botw",
+    "title": "The Legend of Zelda: Breath of the Wild",
+    "game": "breath-of-the-wild",
+    "author": "zeldaret",
+    "console": "Nintendo Switch",
+    "mechanism": "native",
+    "platforms": [],
+    "stars": 2490,
+    "description": "Decompilation of The Legend of Zelda: Breath of the Wild (Switch 1.5.0)",
+    "version": null,
+    "releasedAt": "2026-11-21",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/zeldaret/botw/releases",
+    "licenseId": null,
+    "licenseUrl": null,
+    "curated": true
   },
   {
     "id": "tangosdev-sm64ds-decomp",
@@ -784,7 +803,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 372,
+    "stars": 373,
     "description": "Unnoficial Native Windows PC port of The Last of Us Remastered (PS4, CUSA00552). Runs the game’s own x86-64 code on a custom runtime, with PS4 system libraries reimplemented and a Vulkan renderer based on shadPS4. Includes a launcher. No game files included: you need your own copy.",
     "version": "v0.4.0",
     "releasedAt": "2026-11-20",
@@ -891,7 +910,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 1257,
+    "stars": 1259,
     "description": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows and Linux with Vulkan. 0.5.1 out: NVIDIA shader cache fix, player 2 rumble; one-file Windows launcher, presets, local co-op, 16:10, Thai. Requirements: docs/requirements.md. Roadmap: #10. No game files included.",
     "version": "v0.5.1",
     "releasedAt": "2026-11-20",
@@ -1059,7 +1078,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 91,
+    "stars": 92,
     "description": "Experimental PS2-to-Windows recompilation project focused on compatibility, graphics rendering and performance.",
     "version": "v0.2.1",
     "releasedAt": "2026-11-20",
@@ -1099,7 +1118,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 59,
+    "stars": 60,
     "description": "Unofficial static recompilation of Splatoon Raiders (Switch 2) to native Linux/Windows x86-64 with a Vulkan renderer. No game data included: bring your own dump.",
     "version": "v0.2.0",
     "releasedAt": "2026-11-20",
@@ -1453,7 +1472,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 174,
+    "stars": 175,
     "description": "God of War: Ascension PC port: an unofficial, native Windows port of the PS3 game by static recompilation, no emulator. No game files included: you build it from your own copy.",
     "version": "v0.2.0",
     "releasedAt": "2026-11-19",
@@ -1894,25 +1913,6 @@
     "sizeBytes": 92222406,
     "releaseUrl": "https://github.com/raulzrrs/letsgo-recomp/releases/tag/v0.7.7",
     "licenseId": "NOASSERTION",
-    "licenseUrl": null,
-    "curated": true
-  },
-  {
-    "id": "zeldaret-botw",
-    "repo": "zeldaret/botw",
-    "title": "The Legend of Zelda: Breath of the Wild",
-    "game": "breath-of-the-wild",
-    "author": "zeldaret",
-    "console": "Nintendo Switch",
-    "mechanism": "native",
-    "platforms": [],
-    "stars": 2490,
-    "description": "Decompilation of The Legend of Zelda: Breath of the Wild (Switch 1.5.0)",
-    "version": null,
-    "releasedAt": "2026-11-18",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/zeldaret/botw/releases",
-    "licenseId": null,
     "licenseUrl": null,
     "curated": true
   },
@@ -2874,7 +2874,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 2528,
+    "stars": 2530,
     "description": "Static recompilation of Link's Awakening (Switch) to native macOS, Windows, Linux, iOS and Android.",
     "version": "beta_6",
     "releasedAt": "2026-11-15",
@@ -3051,7 +3051,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 7856,
+    "stars": 7861,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.4.1",
     "releasedAt": "2026-11-15",
@@ -3072,7 +3072,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 2336,
+    "stars": 2337,
     "description": "Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo",
     "version": "v0.3.15",
     "releasedAt": "2026-11-15",
@@ -3093,7 +3093,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 706,
+    "stars": 707,
     "description": "",
     "version": "1.6.1",
     "releasedAt": "2026-11-15",
@@ -3454,7 +3454,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 731,
+    "stars": 732,
     "description": "A native Windows and Linux port of Grand Theft Auto: Vice City Stories (PS2, USA, SLUS-21590), made by recompiling the game's PS2 executable into C++",
     "version": "v0.3.0",
     "releasedAt": "2026-11-14",
@@ -5254,7 +5254,7 @@
     "platforms": [
       "Android"
     ],
-    "stars": 64,
+    "stars": 65,
     "description": "Naruto Shippuden: Ultimate Ninja Storm 2 - port nativo para Android (ARM64) e PC (documentação; sem arquivos do jogo)",
     "version": "v0.5.43",
     "releasedAt": "2026-11-03",
@@ -5275,7 +5275,7 @@
     "platforms": [
       "Android"
     ],
-    "stars": 102,
+    "stars": 103,
     "description": "Naruto Shippuden: Ultimate Ninja Storm 3 Full Burst (Xbox 360) rodando nativamente no Android e no PC: recompilação estática, sem emulador de CPU.",
     "version": "v0.6.16",
     "releasedAt": "2026-11-03",
@@ -5338,7 +5338,7 @@
     "platforms": [
       "Android"
     ],
-    "stars": 40,
+    "stars": 41,
     "description": "Naruto x Boruto: Ultimate Ninja Storm Connections (Xbox 360) rodando nativamente no Android: recompilação estática e renderizador nativo shadowZero (documentação; sem arquivos do jogo)",
     "version": "v0.6.37",
     "releasedAt": "2026-11-03",
@@ -5623,7 +5623,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 34319,
+    "stars": 34320,
     "description": "PlayStation 4 emulator for Windows, Linux, macOS and FreeBSD written in C++",
     "version": "v.0.21.0",
     "releasedAt": "2026-10-30",
@@ -5793,7 +5793,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 497,
+    "stars": 498,
     "description": "An unofficial original Xbox version PC port of Splinter Cell: Double Agent via static recompilation.",
     "version": "V3",
     "releasedAt": "2026-10-29",
@@ -6784,7 +6784,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 440,
+    "stars": 441,
     "description": "Call of Duty 3 (Xbox 360) static recompilation: host runtime, tools and notes",
     "version": null,
     "releasedAt": "2026-10-21",
@@ -7718,7 +7718,7 @@
     "console": "GameCube",
     "mechanism": "native",
     "platforms": [],
-    "stars": 401,
+    "stars": 402,
     "description": "Resident Evil 4 (GameCube, G4BE08 debug build) — complete byte-identical decompilation to C/C++",
     "version": null,
     "releasedAt": "2026-10-02",
@@ -7870,7 +7870,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 6495,
+    "stars": 6497,
     "description": "Dusklight brings a classic adventure to PC and mobile platforms with a variety of fixes and improvements.",
     "version": "v2.0.3",
     "releasedAt": "2026-09-30",
