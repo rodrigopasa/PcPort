@@ -190,7 +190,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 134,
+    "stars": 135,
     "description": "Native PC port of Diablo III: Reaper of Souls – Ultimate Evil Edition (PS4). Local co-op for 4.",
     "version": "v0.7.2",
     "releasedAt": "2026-11-21",
@@ -211,7 +211,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 466,
+    "stars": 469,
     "description": "A native Windows PC port of Super Mario Odyssey by static recompilation. Bring your own game: no game files included.",
     "version": "v0.5.4",
     "releasedAt": "2026-11-21",
@@ -338,7 +338,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 204,
+    "stars": 205,
     "description": "CPS-2 Recomp: unofficial native PC ports of Capcom CPS-2 arcade games (Street Fighter Alpha 2, Super Puzzle Fighter II Turbo, Vampire Savior) via static recompilation, with training modes, in one launcher: macOS, Linux, Steam Deck, Windows. Requires your own ROM sets. Beta.",
     "version": "v1.6.0-beta.4",
     "releasedAt": "2026-11-21",
@@ -526,6 +526,53 @@
     "releaseUrl": "https://github.com/zeldaret/botw/releases",
     "licenseId": null,
     "licenseUrl": null,
+    "curated": true
+  },
+  {
+    "id": "petexy-tekken-tag-2-ultimate-edition",
+    "repo": "Petexy/Tekken-Tag-2-Ultimate-Edition",
+    "title": "Tekken Tag Tournament 2: Wii U Edition",
+    "game": "tekken-tag-tournament-2",
+    "author": "Petexy",
+    "console": "Wii U",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 153,
+    "description": "Native port of Tekken Tag Tournament 2 Wii U Edition by static recompilation with the possibility to add new characters and mod the game easily. No files included.",
+    "version": "v0.7.1",
+    "releasedAt": "2026-11-21",
+    "sizeBytes": 9409024,
+    "releaseUrl": "https://github.com/Petexy/Tekken-Tag-2-Ultimate-Edition/releases/tag/v0.7.1",
+    "licenseId": "MIT",
+    "licenseUrl": "https://api.github.com/licenses/mit",
+    "curated": true
+  },
+  {
+    "id": "skuza-oss-downhill-revived",
+    "repo": "skuza-oss/downhill-revived",
+    "title": "Downhill Domination",
+    "game": null,
+    "author": "skuza-oss",
+    "console": "PlayStation 2",
+    "mechanism": "native",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Android",
+      "iOS"
+    ],
+    "stars": 236,
+    "description": "A PC port of Downhill Domination (PS2), built on a matching decompilation. Bring your own disc.",
+    "version": "v0.8.11",
+    "releasedAt": "2026-11-21",
+    "sizeBytes": 97610232,
+    "releaseUrl": "https://github.com/skuza-oss/downhill-revived/releases/tag/v0.8.11",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
   },
   {
@@ -866,7 +913,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 534,
+    "stars": 535,
     "description": "Dragon's Crown Pro native PC port for Windows, with direct PS4 PKG installation, TRG launcher and modern graphics options",
     "version": "v1.4.0",
     "releasedAt": "2026-11-20",
@@ -995,7 +1042,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 304,
+    "stars": 305,
     "description": "Ninja Gaiden II (Xbox 360, 2008) statically recompiled into native Linux and Windows builds, drawn by its own Vulkan renderer. A steady 60 fps, up to 8x render scale, widescreen and ultrawide, keyboard and mouse, mods, Steam Deck ready. Bring your own copy of the game.",
     "version": "v0.6.13",
     "releasedAt": "2026-11-20",
@@ -1059,7 +1106,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 944,
+    "stars": 945,
     "description": "A cozy life-simulation and sandbox builder with fantastical creatures (Switch 2), recompiled to run natively on Windows, Linux and macOS. Multiplayer, all events, modding, enhancements and more. Discord: https://discord.recompia.com",
     "version": "v0.16.0",
     "releasedAt": "2026-11-20",
@@ -1262,7 +1309,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 93,
+    "stars": 94,
     "description": "Native PC port of Crash Bandicoot: The Wrath of Cortex, built on its decompilation",
     "version": "v0.10.0",
     "releasedAt": "2026-11-20",
@@ -1388,7 +1435,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 479,
+    "stars": 480,
     "description": "The 2012 Forza Horizon, native on Windows and Linux, and online again: Horizon World, leaderboards and Rivals on a public server you can also self-host. Bring your own copy.",
     "version": "v0.3.9",
     "releasedAt": "2026-11-19",
@@ -1558,7 +1605,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 216,
+    "stars": 217,
     "description": "Odin Sphere Leifthrasir native PC port for Windows, with direct PS4 PKG installation, TRG launcher and modern graphics options",
     "version": "v0.3.0",
     "releasedAt": "2026-11-19",
@@ -1917,28 +1964,6 @@
     "curated": true
   },
   {
-    "id": "petexy-tekken-tag-2-ultimate-edition",
-    "repo": "Petexy/Tekken-Tag-2-Ultimate-Edition",
-    "title": "Tekken Tag Tournament 2: Wii U Edition",
-    "game": "tekken-tag-tournament-2",
-    "author": "Petexy",
-    "console": "Wii U",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 153,
-    "description": "Native port of Tekken Tag Tournament 2 Wii U Edition by static recompilation with the possibility to add new characters and mod the game easily. No files included.",
-    "version": "v0.7.0",
-    "releasedAt": "2026-11-18",
-    "sizeBytes": 9406976,
-    "releaseUrl": "https://github.com/Petexy/Tekken-Tag-2-Ultimate-Edition/releases/tag/v0.7.0",
-    "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit",
-    "curated": true
-  },
-  {
     "id": "openrac-openrac",
     "repo": "OpenRAC/OpenRAC",
     "title": "Ratchet & Clank",
@@ -1952,7 +1977,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 225,
+    "stars": 226,
     "description": "A matching decompilation and PC port for the Ratchet & Clank series",
     "version": "launcher-v1.1.0",
     "releasedAt": "2026-11-18",
@@ -2018,7 +2043,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 86,
+    "stars": 87,
     "description": "Native PC port of Forza Motorsport 2: static recompilation of the CPU code and a native D3D12 renderer",
     "version": "v0.14.0",
     "releasedAt": "2026-11-18",
@@ -2328,31 +2353,6 @@
     "curated": true
   },
   {
-    "id": "skuza-oss-downhill-revived",
-    "repo": "skuza-oss/downhill-revived",
-    "title": "Downhill Domination",
-    "game": null,
-    "author": "skuza-oss",
-    "console": "PlayStation 2",
-    "mechanism": "native",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "macOS",
-      "Android",
-      "iOS"
-    ],
-    "stars": 236,
-    "description": "A PC port of Downhill Domination (PS2), built on a matching decompilation. Bring your own disc.",
-    "version": "v0.8.10",
-    "releasedAt": "2026-11-17",
-    "sizeBytes": 97606136,
-    "releaseUrl": "https://github.com/skuza-oss/downhill-revived/releases/tag/v0.8.10",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
-    "curated": true
-  },
-  {
     "id": "opengp-dev-opengp",
     "repo": "OpenGP-dev/OpenGP",
     "title": "Mario Kart Arcade GP e GP 2",
@@ -2365,7 +2365,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 73,
+    "stars": 74,
     "description": "A native PC port of Mario Kart Arcade GP and GP 2 by static recompilation. Builds the games from your own disc images.",
     "version": "v1.0.6",
     "releasedAt": "2026-11-17",
@@ -3051,7 +3051,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 7861,
+    "stars": 7866,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.4.1",
     "releasedAt": "2026-11-15",
@@ -3454,7 +3454,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 732,
+    "stars": 734,
     "description": "A native Windows and Linux port of Grand Theft Auto: Vice City Stories (PS2, USA, SLUS-21590), made by recompiling the game's PS2 executable into C++",
     "version": "v0.3.0",
     "releasedAt": "2026-11-14",
@@ -3670,7 +3670,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5575,
+    "stars": 5576,
     "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
     "version": "windows-v1.9.8.6",
     "releasedAt": "2026-11-13",
@@ -3924,7 +3924,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 221,
+    "stars": 222,
     "description": "Native SDL3 port of Colin McRae Rally 2.0 built from the CMR2Decomp decompilation. No game data included.",
     "version": "v1.9.0",
     "releasedAt": "2026-11-12",
@@ -4431,7 +4431,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 215,
+    "stars": 216,
     "description": "Eternal Sonata, recompiled for PC.",
     "version": "v1.3.9",
     "releasedAt": "2026-11-09",
@@ -4475,7 +4475,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 932,
+    "stars": 933,
     "description": "Xbox 360 to PC port of Dante's Inferno using ReXGlue (static recompilation)",
     "version": "v0.8.6-beta-hotfix",
     "releasedAt": "2026-11-08",
@@ -5623,7 +5623,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 34320,
+    "stars": 34321,
     "description": "PlayStation 4 emulator for Windows, Linux, macOS and FreeBSD written in C++",
     "version": "v.0.21.0",
     "releasedAt": "2026-10-30",
@@ -6113,7 +6113,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 211,
+    "stars": 212,
     "description": "Call of Duty: Modern Warfare 2 (2009) for Xbox 360 recompiled for Windows & Linux",
     "version": "v0.8.2",
     "releasedAt": "2026-10-27",
@@ -6161,7 +6161,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 1020,
+    "stars": 1021,
     "description": "Experimental native PC port of Lost Odyssey using static recompilation. No game assets included.",
     "version": "v1.1.0",
     "releasedAt": "2026-10-26",
@@ -6305,7 +6305,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 8139,
+    "stars": 8140,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -6923,7 +6923,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 49,
+    "stars": 48,
     "description": "God Hand Recompiled: native PC port of God Hand (PS2) via static recompilation. No game data included.",
     "version": null,
     "releasedAt": "2026-10-20",
@@ -7132,7 +7132,7 @@
     "platforms": [
       "PC"
     ],
-    "stars": 46,
+    "stars": 45,
     "description": "Shadow of the Colossus (PS4) native PC port with DLSS-G / FSR 3 frame generation: 30 FPS locked, 60 shown. F7 uncaps live. Bring your own game files.",
     "version": "v0.57-fg2",
     "releasedAt": "2026-10-17",
@@ -7153,7 +7153,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 94,
+    "stars": 95,
     "description": "Original open-source static recompilation of Tekken 6 (Xbox 360) for native execution on PC. This project provides the recompilation foundation used by downstream projects including Tekken6 Native Online.",
     "version": "Iterate",
     "releasedAt": "2026-10-16",
