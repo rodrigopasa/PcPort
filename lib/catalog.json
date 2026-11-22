@@ -8,7 +8,7 @@
     "console": "Nintendo Switch",
     "mechanism": "emulator",
     "platforms": [],
-    "stars": 355,
+    "stars": 356,
     "description": "Static ARM64 to x86 recompiler (GPLv3)",
     "version": null,
     "releasedAt": "2026-11-22",
@@ -30,7 +30,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 539,
+    "stars": 540,
     "description": "A native Windows PC port of Super Mario Odyssey by static recompilation. Bring your own game: no game files included.",
     "version": "v0.8.0",
     "releasedAt": "2026-11-22",
@@ -369,7 +369,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 7986,
+    "stars": 7994,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.5.0",
     "releasedAt": "2026-11-22",
@@ -488,7 +488,7 @@
     "console": "PlayStation 4",
     "mechanism": "native",
     "platforms": [],
-    "stars": 224,
+    "stars": 225,
     "description": "A decompilation of Bloodborne (CUSA03173 v1.09) with its own runtime: the game's code rewritten as readable C++, one verified function at a time. The game doesn't run on it yet; 21 functions verified. No game files included.",
     "version": null,
     "releasedAt": "2026-11-22",
@@ -532,10 +532,91 @@
     "description": "Native Windows port of Shinobi (PS2, USA). Bring your own disc image. Launcher included.",
     "version": "v0.7.0",
     "releasedAt": "2026-11-22",
-    "sizeBytes": 37129237,
+    "sizeBytes": 31052080,
     "releaseUrl": "https://github.com/TheRealAfsan/Shinobi-PS2-Recomp/releases/tag/v0.7.0",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
+  },
+  {
+    "id": "victor-takai-rogue-galaxy-recomp",
+    "repo": "victor-takai/rogue-galaxy-recomp",
+    "title": "Rogue Galaxy",
+    "game": null,
+    "author": "victor-takai",
+    "console": "PlayStation 2",
+    "mechanism": "recompiled",
+    "platforms": [],
+    "stars": 94,
+    "description": "Rogue Galaxy (PS2) as a native Windows game: a static recompilation on PS2Recomp, built from your own disc.",
+    "version": null,
+    "releasedAt": "2026-11-22",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/victor-takai/rogue-galaxy-recomp/releases",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
+  },
+  {
+    "id": "ilfforever-yw4recomp",
+    "repo": "ILFforever/YW4Recomp",
+    "title": "YW4",
+    "game": null,
+    "author": "ILFforever",
+    "console": "Nintendo Switch",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 47,
+    "description": "Yo-kai Watch 4++ (Switch, v2.2.0) statically recompiled into native Windows and Linux builds, drawn by its own Vulkan renderer. 60++ fps, widescreen and ultrawide, DLSS and FSR, keyboard and mouse, English patch and mod support. Bring your own dump: no game files or keys included.",
+    "version": "launcher-v1.6.2",
+    "releasedAt": "2026-11-22",
+    "sizeBytes": 88361464,
+    "releaseUrl": "https://github.com/ILFforever/YW4Recomp/releases/tag/launcher-v1.6.2",
+    "licenseId": "NOASSERTION",
+    "licenseUrl": null
+  },
+  {
+    "id": "gamboozino-ng2recomp",
+    "repo": "gamboozino/ng2recomp",
+    "title": "Ninja Gaiden II",
+    "game": null,
+    "author": "gamboozino",
+    "console": "Xbox 360",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 316,
+    "description": "Ninja Gaiden II (Xbox 360, 2008) statically recompiled into native Linux and Windows builds, drawn by its own Vulkan renderer. A steady 60 fps, up to 8x render scale, widescreen and ultrawide, keyboard and mouse, mods, Steam Deck ready. Bring your own copy of the game.",
+    "version": "v0.7.1",
+    "releasedAt": "2026-11-22",
+    "sizeBytes": 163784565,
+    "releaseUrl": "https://github.com/gamboozino/ng2recomp/releases/tag/v0.7.1",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
+  },
+  {
+    "id": "promethendev-wwe13-recomp",
+    "repo": "PromethenDev/wwe13-recomp",
+    "title": "WWE '13",
+    "game": null,
+    "author": "PromethenDev",
+    "console": "Xbox 360",
+    "mechanism": "native",
+    "platforms": [],
+    "stars": 129,
+    "description": "",
+    "version": "v1.6.0",
+    "releasedAt": "2026-11-22",
+    "sizeBytes": 164550585,
+    "releaseUrl": "https://github.com/PromethenDev/wwe13-recomp/releases/tag/v1.6.0",
+    "licenseId": "NOASSERTION",
+    "licenseUrl": null,
+    "curated": true
   },
   {
     "id": "gamboozino-ngbrecomp",
@@ -633,7 +714,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 150,
+    "stars": 151,
     "description": "Native PC port of Diablo III: Reaper of Souls – Ultimate Evil Edition (PS4). Local co-op for 4.",
     "version": "v0.7.3",
     "releasedAt": "2026-11-21",
@@ -641,25 +722,6 @@
     "releaseUrl": "https://github.com/CaduGimenes/SanctuaryPort/releases/tag/v0.7.3",
     "licenseId": "GPL-2.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-2.0"
-  },
-  {
-    "id": "victor-takai-rogue-galaxy-recomp",
-    "repo": "victor-takai/rogue-galaxy-recomp",
-    "title": "Rogue Galaxy",
-    "game": null,
-    "author": "victor-takai",
-    "console": "PlayStation 2",
-    "mechanism": "recompiled",
-    "platforms": [],
-    "stars": 94,
-    "description": "Rogue Galaxy (PS2) as a native Windows game: a static recompilation on PS2Recomp, built from your own disc.",
-    "version": null,
-    "releasedAt": "2026-11-21",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/victor-takai/rogue-galaxy-recomp/releases",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
-    "curated": true
   },
   {
     "id": "yuutatsubasa-free-riders-recompiled",
@@ -783,7 +845,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 249,
+    "stars": 251,
     "description": "Experimental static recompilation of Mario Kart 8 Deluxe 4.0.1 for Windows x64 and Linux amd64. Native Vulkan runtime, Mii creator, online play via Nextendo and Steam rooms. Bring your own game files and keys: no ROMs, assets or keys included.",
     "version": "v0.5.0",
     "releasedAt": "2026-11-21",
@@ -1076,7 +1138,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 103,
+    "stars": 104,
     "description": "Experimental PS2-to-Windows recompilation project focused on compatibility, graphics rendering and performance.",
     "version": "v0.2.4",
     "releasedAt": "2026-11-21",
@@ -1105,27 +1167,6 @@
     "curated": true
   },
   {
-    "id": "ilfforever-yw4recomp",
-    "repo": "ILFforever/YW4Recomp",
-    "title": "YW4",
-    "game": null,
-    "author": "ILFforever",
-    "console": "Nintendo Switch",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 47,
-    "description": "Yo-kai Watch 4++ (Switch, v2.2.0) statically recompiled into native Windows and Linux builds, drawn by its own Vulkan renderer. 60++ fps, widescreen and ultrawide, DLSS and FSR, keyboard and mouse, English patch and mod support. Bring your own dump: no game files or keys included.",
-    "version": "launcher-v1.6.1",
-    "releasedAt": "2026-11-21",
-    "sizeBytes": 88345080,
-    "releaseUrl": "https://github.com/ILFforever/YW4Recomp/releases/tag/launcher-v1.6.1",
-    "licenseId": "NOASSERTION",
-    "licenseUrl": null
-  },
-  {
     "id": "imrburn-wwe12-pc",
     "repo": "iMrBurn/wwe12-pc",
     "title": "WWE '12",
@@ -1148,28 +1189,6 @@
     "curated": true
   },
   {
-    "id": "gamboozino-ng2recomp",
-    "repo": "gamboozino/ng2recomp",
-    "title": "Ninja Gaiden II",
-    "game": null,
-    "author": "gamboozino",
-    "console": "Xbox 360",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 315,
-    "description": "Ninja Gaiden II (Xbox 360, 2008) statically recompiled into native Linux and Windows builds, drawn by its own Vulkan renderer. A steady 60 fps, up to 8x render scale, widescreen and ultrawide, keyboard and mouse, mods, Steam Deck ready. Bring your own copy of the game.",
-    "version": "v0.7.0",
-    "releasedAt": "2026-11-21",
-    "sizeBytes": 163746875,
-    "releaseUrl": "https://github.com/gamboozino/ng2recomp/releases/tag/v0.7.0",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
-    "curated": true
-  },
-  {
     "id": "smokedoggy044-cod2-bro-native-loader",
     "repo": "SmokeDoggy044/CoD2-BRO-Native-Loader",
     "title": "Call of Duty 2: Big Red One",
@@ -1181,7 +1200,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 109,
+    "stars": 110,
     "description": "Call of Duty 2: Big Red One - Custom Engine: our own engine implementation of the Xbox game, built from source for Linux and Windows (bring your own game).",
     "version": "v1.0.10",
     "releasedAt": "2026-11-21",
@@ -1430,7 +1449,7 @@
     "console": "PC",
     "mechanism": "native",
     "platforms": [],
-    "stars": 284,
+    "stars": 301,
     "description": "Native Instruments Komplete - music production suite for virtual instruments, sound libraries and effect processing on Windows 10/11",
     "version": null,
     "releasedAt": "2026-11-21",
@@ -1495,7 +1514,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 1087,
+    "stars": 1088,
     "description": "A playable preview of Forza Horizon static recompilation",
     "version": "v0.9.5",
     "releasedAt": "2026-11-20",
@@ -1516,7 +1535,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 377,
+    "stars": 378,
     "description": "Unnoficial Native Windows PC port of The Last of Us Remastered (PS4, CUSA00552). Runs the game’s own x86-64 code on a custom runtime, with PS4 system libraries reimplemented and a Vulkan renderer based on shadPS4. Includes a launcher. No game files included: you need your own copy.",
     "version": "v0.4.0",
     "releasedAt": "2026-11-20",
@@ -1561,7 +1580,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 1305,
+    "stars": 1309,
     "description": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows and Linux with Vulkan. 0.5.1 out: NVIDIA shader cache fix, player 2 rumble; one-file Windows launcher, presets, local co-op, 16:10, Thai. Requirements: docs/requirements.md. Roadmap: #10. No game files included.",
     "version": "v0.5.1",
     "releasedAt": "2026-11-20",
@@ -1726,7 +1745,7 @@
       "macOS",
       "iOS"
     ],
-    "stars": 79,
+    "stars": 80,
     "description": "PvZ2: Reflourished native port for iPhone, iPad, Mac and Windows",
     "version": "v1.5.6",
     "releasedAt": "2026-11-20",
@@ -1848,7 +1867,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 1174,
+    "stars": 1182,
     "description": "GTA VI static recompilation research for x64 Windows. Source-built EXEs run on Windows, and two translated pixel shaders match reference outputs on hardware and WARP. Full-game startup is unverified.",
     "version": "gpu-check-v0.1.0",
     "releasedAt": "2026-11-20",
@@ -2122,7 +2141,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 54,
+    "stars": 55,
     "description": "Shadow Tower native port (recompiled) with modern PC controls, graphical improvements.",
     "version": "v0.3.2",
     "releasedAt": "2026-11-19",
@@ -2162,7 +2181,7 @@
     "console": "Xbox 360",
     "mechanism": "native",
     "platforms": [],
-    "stars": 426,
+    "stars": 428,
     "description": "A native PC port of The Darkness (Xbox 360) for Windows, featuring DirectX 11 graphics, mouse and keyboard controls, and customizable settings.",
     "version": null,
     "releasedAt": "2026-11-18",
@@ -2416,7 +2435,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 55,
+    "stars": 56,
     "description": "Unofficial PC port of Shadow of Rome (PS2), statically recompiled with PS2Recomp. Drawn by the video card with PCSX2's GS, VU1 by PCSX2's microVU: smooth 60 FPS, up to 8x, 16:9 and 21:9, wider field of view, a cleaner picture without blur and grain. The whole game played to the end. Discs: European (5 languages), its Russian translation, American.",
     "version": "v2.9.5",
     "releasedAt": "2026-11-18",
@@ -2482,7 +2501,7 @@
       "Linux",
       "Android"
     ],
-    "stars": 191,
+    "stars": 192,
     "description": "Gears of War 2 native PC port: the Xbox 360 game statically recompiled to x64 (not an emulator). 1440p/4K, FSR, 4K texture packs, keyboard & mouse, Android in progress. Bring your own copy.",
     "version": "v0.4.7",
     "releasedAt": "2026-11-18",
@@ -2526,7 +2545,7 @@
     "platforms": [
       "PC"
     ],
-    "stars": 2023,
+    "stars": 2024,
     "description": "Native Windows port of Shadow of the Colossus (PS4, CUSA08809) - bring your own game dump. Port nativo para PC.",
     "version": "v0.76.2",
     "releasedAt": "2026-11-17",
@@ -3164,7 +3183,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 2542,
+    "stars": 2543,
     "description": "Static recompilation of Link's Awakening (Switch) to native macOS, Windows, Linux, iOS and Android.",
     "version": "beta_6",
     "releasedAt": "2026-11-15",
@@ -3340,7 +3359,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 2348,
+    "stars": 2349,
     "description": "Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo",
     "version": "v0.3.15",
     "releasedAt": "2026-11-15",
@@ -3723,7 +3742,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 746,
+    "stars": 747,
     "description": "A native Windows and Linux port of Grand Theft Auto: Vice City Stories (PS2, USA, SLUS-21590), made by recompiling the game's PS2 executable into C++",
     "version": "v0.3.0",
     "releasedAt": "2026-11-14",
@@ -3939,7 +3958,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5615,
+    "stars": 5620,
     "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
     "version": "windows-v1.9.8.6",
     "releasedAt": "2026-11-13",
@@ -4022,7 +4041,7 @@
     "console": "PSP",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 223,
+    "stars": 224,
     "description": "Unofficial native PC ports of God of War: Chains of Olympus and Ghost of Sparta (PSP) by static recompilation. Bring your own disc.",
     "version": "v1.6.0",
     "releasedAt": "2026-11-13",
@@ -4745,7 +4764,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 343,
+    "stars": 342,
     "description": "Zelda: Tears of the Kingdom (TotK) 1.0.0 recompiled to native Windows and Vulkan. Frame cap up to 240, DLSS option, mouse and keyboard. Open source, mostly written by AI agents. You build it from your own dump; no game files included. Measured on one PC so far.",
     "version": "v0.1.10.1",
     "releasedAt": "2026-11-08",
@@ -5120,7 +5139,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 158,
+    "stars": 159,
     "description": "Estacado: a native PC recompilation of The Darkness (Xbox 360). Unofficial fan port; bring your own copy of the game.",
     "version": null,
     "releasedAt": "2026-11-06",
@@ -5512,7 +5531,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 311,
+    "stars": 312,
     "description": "GTA V (Xbox 360, TU27) static recompilation with ReXGlue",
     "version": "v0.3.0",
     "releasedAt": "2026-11-02",
@@ -5728,7 +5747,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 34340,
+    "stars": 34341,
     "description": "PlayStation 4 emulator for Windows, Linux, macOS and FreeBSD written in C++",
     "version": "v.0.21.0",
     "releasedAt": "2026-10-30",
@@ -6410,7 +6429,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 8196,
+    "stars": 8197,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -6787,7 +6806,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 1225,
+    "stars": 1226,
     "description": "Native PC port (Linux/Windows) of inFAMOUS Second Son (PS4, CUSA00223) — in development, playable; runs your own game dump; no game or firmware files included. Motion sensor emulation. | Port nativo para PC de inFAMOUS Second Son (em desenvolvimento) — usa o seu próprio dump.",
     "version": "v1.0",
     "releasedAt": "2026-10-22",
@@ -7066,7 +7085,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 6146,
+    "stars": 6147,
     "description": "Ship of Harkinian: a PC port of Ocarina of Time built from the decompilation, with widescreen, high framerate and mod support.",
     "version": "9.3.1",
     "releasedAt": "2026-10-18",
@@ -7423,25 +7442,6 @@
     "curated": true
   },
   {
-    "id": "promethendev-wwe13-recomp",
-    "repo": "PromethenDev/wwe13-recomp",
-    "title": "WWE '13",
-    "game": null,
-    "author": "PromethenDev",
-    "console": "Xbox 360",
-    "mechanism": "native",
-    "platforms": [],
-    "stars": 129,
-    "description": "",
-    "version": "v1.5",
-    "releasedAt": "2026-10-13",
-    "sizeBytes": 93358360,
-    "releaseUrl": "https://github.com/PromethenDev/wwe13-recomp/releases/tag/v1.5",
-    "licenseId": "NOASSERTION",
-    "licenseUrl": null,
-    "curated": true
-  },
-  {
     "id": "christianortel-skate2-recompile-pc",
     "repo": "christianortel/skate2-recompile-pc",
     "title": "Skate 2",
@@ -7615,7 +7615,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 342,
+    "stars": 343,
     "description": "GoldenEye 007 (N64, 1997) as a native PC game for Windows, Linux, Steam Deck and macOS. Built from the open decompilation, with widescreen, mouse and keyboard or controller, and split-screen. Not an emulator.",
     "version": "v0.5.0",
     "releasedAt": "2026-10-07",
@@ -7841,7 +7841,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 250,
+    "stars": 251,
     "description": "",
     "version": "V1.2.2",
     "releasedAt": "2026-10-02",
@@ -8840,7 +8840,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 1841,
+    "stars": 1840,
     "description": "A native recompilation of Skate 3 for Windows, Linux, and macOS.",
     "version": "v2.0.2",
     "releasedAt": "2026-07-24",
