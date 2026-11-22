@@ -30,7 +30,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 530,
+    "stars": 533,
     "description": "A native Windows PC port of Super Mario Odyssey by static recompilation. Bring your own game: no game files included.",
     "version": "v0.8.0",
     "releasedAt": "2026-11-22",
@@ -369,7 +369,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 7965,
+    "stars": 7970,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.5.0",
     "releasedAt": "2026-11-22",
@@ -406,7 +406,7 @@
     "console": "PC",
     "mechanism": "native",
     "platforms": [],
-    "stars": 633,
+    "stars": 634,
     "description": "Decompilation of 東方紅魔郷　～ the Embodiment of Scarlet Devil (1.02h)",
     "version": null,
     "releasedAt": "2026-11-22",
@@ -478,6 +478,44 @@
     "releaseUrl": "https://github.com/PC-PORTERS/SplatPC-Splatoon-Native-PC-Port/releases/tag/v1.0.7",
     "licenseId": "MPL-2.0",
     "licenseUrl": "https://api.github.com/licenses/mpl-2.0"
+  },
+  {
+    "id": "yharnam-hunters-paleblood",
+    "repo": "Yharnam-Hunters/Paleblood",
+    "title": "Bloodborne",
+    "game": "bloodborne",
+    "author": "Yharnam-Hunters",
+    "console": "PlayStation 4",
+    "mechanism": "native",
+    "platforms": [],
+    "stars": 224,
+    "description": "A decompilation of Bloodborne (CUSA03173 v1.09) with its own runtime: the game's code rewritten as readable C++, one verified function at a time. The game doesn't run on it yet; 21 functions verified. No game files included.",
+    "version": null,
+    "releasedAt": "2026-11-22",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/Yharnam-Hunters/Paleblood/releases",
+    "licenseId": "GPL-2.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-2.0",
+    "curated": true
+  },
+  {
+    "id": "zeldaret-mm",
+    "repo": "zeldaret/mm",
+    "title": "The Legend of Zelda: Majora's Mask",
+    "game": "majoras-mask",
+    "author": "zeldaret",
+    "console": "Nintendo 64",
+    "mechanism": "native",
+    "platforms": [],
+    "stars": 1793,
+    "description": "Decompilation of The Legend of Zelda: Majora's Mask",
+    "version": null,
+    "releasedAt": "2026-11-22",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/zeldaret/mm/releases",
+    "licenseId": null,
+    "licenseUrl": null,
+    "curated": true
   },
   {
     "id": "gamboozino-ngbrecomp",
@@ -553,7 +591,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 280,
+    "stars": 281,
     "description": "Def Jam: Fight for NY PC port — static recompilation of the original Xbox game for native Windows and macOS (Direct3D 11 / Vulkan). Bring your own game dump.",
     "version": "v1.2.1",
     "releasedAt": "2026-11-21",
@@ -1220,25 +1258,6 @@
     "curated": true
   },
   {
-    "id": "yharnam-hunters-paleblood",
-    "repo": "Yharnam-Hunters/Paleblood",
-    "title": "Bloodborne",
-    "game": "bloodborne",
-    "author": "Yharnam-Hunters",
-    "console": "PlayStation 4",
-    "mechanism": "native",
-    "platforms": [],
-    "stars": 224,
-    "description": "A decompilation of Bloodborne (CUSA03173 v1.09) with its own runtime: the game's code rewritten as readable C++, one verified function at a time. The game doesn't run on it yet; 21 functions verified. No game files included.",
-    "version": null,
-    "releasedAt": "2026-11-21",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/Yharnam-Hunters/Paleblood/releases",
-    "licenseId": "GPL-2.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-2.0",
-    "curated": true
-  },
-  {
     "id": "pauloubirajara-asuras-wrath-recomp",
     "repo": "PauloUbirajara/asuras-wrath-recomp",
     "title": "Asura's Wrath",
@@ -1333,7 +1352,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2540,
+    "stars": 2542,
     "description": "Native PC port of P.T. (runs from your own PS4 game files)",
     "version": "v1.1.0",
     "releasedAt": "2026-11-21",
@@ -1391,7 +1410,7 @@
     "console": "PC",
     "mechanism": "native",
     "platforms": [],
-    "stars": 228,
+    "stars": 245,
     "description": "Native Instruments Komplete - music production suite for virtual instruments, sound libraries and effect processing on Windows 10/11",
     "version": null,
     "releasedAt": "2026-11-21",
@@ -1413,7 +1432,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 59,
+    "stars": 60,
     "description": "Nightjar: Resident Evil 4 (GameCube) 100% native source port, byte-matching decompilation & standalone engine runtime for Android (32/64-bit), iOS (Metal), Windows, and Linux.",
     "version": "nightly",
     "releasedAt": "2026-11-20",
@@ -1522,7 +1541,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 1296,
+    "stars": 1299,
     "description": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows and Linux with Vulkan. 0.5.1 out: NVIDIA shader cache fix, player 2 rumble; one-file Windows launcher, presets, local co-op, 16:10, Thai. Requirements: docs/requirements.md. Roadmap: #10. No game files included.",
     "version": "v0.5.1",
     "releasedAt": "2026-11-20",
@@ -1563,7 +1582,7 @@
     "console": "PlayStation",
     "mechanism": "native",
     "platforms": [],
-    "stars": 442,
+    "stars": 443,
     "description": "A Crash Team Racing Decompilation Project",
     "version": null,
     "releasedAt": "2026-11-20",
@@ -1627,7 +1646,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 965,
+    "stars": 968,
     "description": "A cozy life-simulation and sandbox builder with fantastical creatures (Switch 2), recompiled to run natively on Windows, Linux and macOS. Multiplayer, all events, modding, enhancements and more. Discord: https://discord.recompia.com",
     "version": "v0.16.0",
     "releasedAt": "2026-11-20",
@@ -1727,7 +1746,7 @@
       "Linux"
     ],
     "stars": 44,
-    "description": "An unofficial native PC port of the OG Xbox Conker: Live & Reloaded.",
+    "description": "An unofficial Conker: Live & Reloaded native recompilation and enhancement project.",
     "version": "v5.0.0",
     "releasedAt": "2026-11-20",
     "sizeBytes": 136623376,
@@ -1809,7 +1828,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 1103,
+    "stars": 1130,
     "description": "GTA VI static recompilation research for x64 Windows. Source-built EXEs run on Windows, and two translated pixel shaders match reference outputs on hardware and WARP. Full-game startup is unverified.",
     "version": "gpu-check-v0.1.0",
     "releasedAt": "2026-11-20",
@@ -1934,7 +1953,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 181,
+    "stars": 183,
     "description": "God of War: Ascension PC port: an unofficial, native Windows port of the PS3 game by static recompilation, no emulator. No game files included: you build it from your own copy.",
     "version": "v0.2.0",
     "releasedAt": "2026-11-19",
@@ -2105,7 +2124,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 468,
+    "stars": 469,
     "description": "Static recompilation of Metroid Dread (Switch, 2.1.0) for Windows, Linux and Steam Deck. Bring your own dump: no game files, keys or dumping tools included.",
     "version": "v0.5.10",
     "releasedAt": "2026-11-19",
@@ -2894,7 +2913,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 315,
+    "stars": 316,
     "description": "A static recompilation of Condemned 2: Bloodshot done with RexGlue.",
     "version": "0.6.1",
     "releasedAt": "2026-11-16",
@@ -3812,7 +3831,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 597,
+    "stars": 598,
     "description": "Native PC port (Linux/Windows) of The Last Guardian (PS4, CUSA03627) — runs your own game dump; no game or firmware files included. Mouse/keyboard, optional 60 FPS, SMAA/CAS filters. | Port nativo para PC de The Last Guardian — usa o seu próprio dump.",
     "version": "v2026.11.14-ee3327d",
     "releasedAt": "2026-11-14",
@@ -3898,7 +3917,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5610,
+    "stars": 5612,
     "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
     "version": "windows-v1.9.8.6",
     "releasedAt": "2026-11-13",
@@ -4572,7 +4591,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 291,
+    "stars": 292,
     "description": "Native Windows port of Tekken Tag Tournament 2 (Xbox 360) by static recompilation. Not an emulator. Ships no game data - the installer builds the game from your own disc image and Title Update 3.",
     "version": "v0.2.0",
     "releasedAt": "2026-11-09",
@@ -4640,7 +4659,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 938,
+    "stars": 939,
     "description": "Xbox 360 to PC port of Dante's Inferno using ReXGlue (static recompilation)",
     "version": "v0.8.6-beta-hotfix",
     "releasedAt": "2026-11-08",
@@ -4704,7 +4723,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 344,
+    "stars": 343,
     "description": "Zelda: Tears of the Kingdom (TotK) 1.0.0 recompiled to native Windows and Vulkan. Frame cap up to 240, DLSS option, mouse and keyboard. Open source, mostly written by AI agents. You build it from your own dump; no game files included. Measured on one PC so far.",
     "version": "v0.1.10.1",
     "releasedAt": "2026-11-08",
@@ -5221,25 +5240,6 @@
     "curated": true
   },
   {
-    "id": "zeldaret-mm",
-    "repo": "zeldaret/mm",
-    "title": "The Legend of Zelda: Majora's Mask",
-    "game": "majoras-mask",
-    "author": "zeldaret",
-    "console": "Nintendo 64",
-    "mechanism": "native",
-    "platforms": [],
-    "stars": 1793,
-    "description": "Decompilation of The Legend of Zelda: Majora's Mask",
-    "version": null,
-    "releasedAt": "2026-11-04",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/zeldaret/mm/releases",
-    "licenseId": null,
-    "licenseUrl": null,
-    "curated": true
-  },
-  {
     "id": "mstan-megamanx4recomp",
     "repo": "mstan/MegaManX4Recomp",
     "title": "Mega Man X4",
@@ -5274,7 +5274,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 780,
+    "stars": 781,
     "description": "PC port of Dragon Ball Z: Budokai Tenkaichi 3, built on the BT3-Decompiled project.",
     "version": "v0.1.39.6",
     "releasedAt": "2026-11-03",
@@ -5490,7 +5490,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 306,
+    "stars": 309,
     "description": "GTA V (Xbox 360, TU27) static recompilation with ReXGlue",
     "version": "v0.3.0",
     "releasedAt": "2026-11-02",
@@ -6100,7 +6100,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 4175,
+    "stars": 4174,
     "description": "Bloodborne (v1.09) running natively on Linux and Windows: the game's x86-64 code runs as is, GPU side translated to Vulkan; FSR 4 / DLSS, co-op (BBSC). Bring your own dump.",
     "version": "0.7",
     "releasedAt": "2026-10-28",
@@ -6388,7 +6388,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 8186,
+    "stars": 8190,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -6765,7 +6765,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 1224,
+    "stars": 1225,
     "description": "Native PC port (Linux/Windows) of inFAMOUS Second Son (PS4, CUSA00223) — in development, playable; runs your own game dump; no game or firmware files included. Motion sensor emulation. | Port nativo para PC de inFAMOUS Second Son (em desenvolvimento) — usa o seu próprio dump.",
     "version": "v1.0",
     "releasedAt": "2026-10-22",
@@ -8501,7 +8501,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 378,
+    "stars": 379,
     "description": "Silent Hill: Downpour — native Windows PC port via static recompilation of the Xbox 360 binary. v1.0 stable: 60 FPS unlocked, ROV warm-cache, standalone launcher, DualSense adaptive triggers, portable saves. Tested on USA + Europe X360 dumps.",
     "version": "v1.1.8",
     "releasedAt": "2026-09-02",
