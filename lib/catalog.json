@@ -32,10 +32,10 @@
     ],
     "stars": 550,
     "description": "A native Windows PC port of Super Mario Odyssey by static recompilation. Bring your own game: no game files included.",
-    "version": "v0.8.0",
+    "version": "v0.9.0",
     "releasedAt": "2026-11-22",
-    "sizeBytes": 231314123,
-    "releaseUrl": "https://github.com/Simon3Sarkis/super-odyssey-pc-recomp/releases/tag/v0.8.0",
+    "sizeBytes": 231323027,
+    "releaseUrl": "https://github.com/Simon3Sarkis/super-odyssey-pc-recomp/releases/tag/v0.9.0",
     "licenseId": "NOASSERTION",
     "licenseUrl": null
   },
@@ -369,7 +369,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 8016,
+    "stars": 8017,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.5.0",
     "releasedAt": "2026-11-22",
@@ -589,7 +589,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 319,
+    "stars": 320,
     "description": "Ninja Gaiden II (Xbox 360, 2008) statically recompiled into native Linux and Windows builds, drawn by its own Vulkan renderer. A steady 60 fps, up to 8x render scale, widescreen and ultrawide, keyboard and mouse, mods, Steam Deck ready. Bring your own copy of the game.",
     "version": "v0.7.2",
     "releasedAt": "2026-11-22",
@@ -668,7 +668,7 @@
       "Linux",
       "Android"
     ],
-    "stars": 370,
+    "stars": 373,
     "description": "Ninja Gaiden Black (Xbox, 2005) statically recompiled into native Linux and Windows builds, with an experimental Android port, drawn by its own Vulkan renderer. A steady 60 fps, widescreen and ultrawide, keyboard and mouse, touch controls on Android, Steam Deck ready. Bring your own copy of the game.",
     "version": "v0.9.81",
     "releasedAt": "2026-11-22",
@@ -869,6 +869,52 @@
     "curated": true
   },
   {
+    "id": "rigaz29-ascension-r",
+    "repo": "rigaz29/Ascension-R",
+    "title": "God of War: Ascension",
+    "game": "god-of-war-ascension",
+    "author": "rigaz29",
+    "console": "PlayStation 3",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows"
+    ],
+    "stars": 184,
+    "description": "God of War: Ascension PC port: an unofficial, native Windows port of the PS3 game by static recompilation, no emulator. No game files included: you build it from your own copy.",
+    "version": "v0.3.0",
+    "releasedAt": "2026-11-22",
+    "sizeBytes": 154989401,
+    "releaseUrl": "https://github.com/rigaz29/Ascension-R/releases/tag/v0.3.0",
+    "licenseId": "NOASSERTION",
+    "licenseUrl": null,
+    "curated": true
+  },
+  {
+    "id": "yuutatsubasa-chaotixrecompiled",
+    "repo": "YuutaTsubasa/ChaotixRecompiled",
+    "title": "Knuckles' Chaotix",
+    "game": "knuckles-chaotix",
+    "author": "YuutaTsubasa",
+    "console": "Sega 32X",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Android",
+      "iOS"
+    ],
+    "stars": 75,
+    "description": "Static recompilation of the Sega 32X game Knuckles' Chaotix into native C++ (Windows/Linux/macOS/Android), with true widescreen. Bring your own ROM; no game data included.",
+    "version": "v0.15.23",
+    "releasedAt": "2026-11-22",
+    "sizeBytes": 33110268,
+    "releaseUrl": "https://github.com/YuutaTsubasa/ChaotixRecompiled/releases/tag/v0.15.23",
+    "licenseId": "MIT",
+    "licenseUrl": "https://api.github.com/licenses/mit",
+    "curated": true
+  },
+  {
     "id": "beatrixzy-pgr4-recomp",
     "repo": "beatrixzy/PGR4-Recomp",
     "title": "Project Gotham Racing 4",
@@ -922,7 +968,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 154,
+    "stars": 155,
     "description": "Native PC port of Diablo III: Reaper of Souls – Ultimate Evil Edition (PS4). Local co-op for 4.",
     "version": "v0.7.3",
     "releasedAt": "2026-11-21",
@@ -1302,7 +1348,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 105,
+    "stars": 106,
     "description": "Experimental PS2-to-Windows recompilation project focused on compatibility, graphics rendering and performance.",
     "version": "v0.2.4",
     "releasedAt": "2026-11-21",
@@ -1702,7 +1748,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 1318,
+    "stars": 1322,
     "description": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows and Linux with Vulkan. 0.5.1 out: NVIDIA shader cache fix, player 2 rumble; one-file Windows launcher, presets, local co-op, 16:10, Thai. Requirements: docs/requirements.md. Roadmap: #10. No game files included.",
     "version": "v0.5.1",
     "releasedAt": "2026-11-20",
@@ -1888,7 +1934,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 44,
+    "stars": 45,
     "description": "An unofficial Conker: Live & Reloaded native recompilation and enhancement project.",
     "version": "v5.0.0",
     "releasedAt": "2026-11-20",
@@ -1971,7 +2017,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 1272,
+    "stars": 1284,
     "description": "GTA VI static recompilation research for x64 Windows. Source-built EXEs run on Windows, and two translated pixel shaders match reference outputs on hardware and WARP. Full-game startup is unverified.",
     "version": "gpu-check-v0.1.0",
     "releasedAt": "2026-11-20",
@@ -2063,27 +2109,6 @@
     "releaseUrl": "https://github.com/undecuple/project-pyrrhus/releases",
     "licenseId": "MIT",
     "licenseUrl": "https://api.github.com/licenses/mit",
-    "curated": true
-  },
-  {
-    "id": "rigaz29-ascension-r",
-    "repo": "rigaz29/Ascension-R",
-    "title": "God of War: Ascension",
-    "game": "god-of-war-ascension",
-    "author": "rigaz29",
-    "console": "PlayStation 3",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows"
-    ],
-    "stars": 184,
-    "description": "God of War: Ascension PC port: an unofficial, native Windows port of the PS3 game by static recompilation, no emulator. No game files included: you build it from your own copy.",
-    "version": "v0.2.0",
-    "releasedAt": "2026-11-19",
-    "sizeBytes": 154802624,
-    "releaseUrl": "https://github.com/rigaz29/Ascension-R/releases/tag/v0.2.0",
-    "licenseId": "NOASSERTION",
-    "licenseUrl": null,
     "curated": true
   },
   {
@@ -2519,7 +2544,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 284,
+    "stars": 285,
     "description": "inFAMOUS 2 (PS3) as a native PC program for Windows and Linux: Setup recompiles YOUR copy on your PC (static recompilation, Vulkan). No game files included.",
     "version": "v0.6.3",
     "releasedAt": "2026-11-18",
@@ -3084,31 +3109,6 @@
     "curated": true
   },
   {
-    "id": "yuutatsubasa-chaotixrecompiled",
-    "repo": "YuutaTsubasa/ChaotixRecompiled",
-    "title": "Knuckles' Chaotix",
-    "game": "knuckles-chaotix",
-    "author": "YuutaTsubasa",
-    "console": "Sega 32X",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "macOS",
-      "Android",
-      "iOS"
-    ],
-    "stars": 75,
-    "description": "Static recompilation of the Sega 32X game Knuckles' Chaotix into native C++ (Windows/Linux/macOS/Android), with true widescreen. Bring your own ROM; no game data included.",
-    "version": "v0.15.22",
-    "releasedAt": "2026-11-15",
-    "sizeBytes": 33110024,
-    "releaseUrl": "https://github.com/YuutaTsubasa/ChaotixRecompiled/releases/tag/v0.15.22",
-    "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit",
-    "curated": true
-  },
-  {
     "id": "droogie-bbhost",
     "repo": "droogie/bbhost",
     "title": "Bloodborne",
@@ -3377,7 +3377,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 2349,
+    "stars": 2350,
     "description": "Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo",
     "version": "v0.3.15",
     "releasedAt": "2026-11-15",
@@ -3398,7 +3398,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 713,
+    "stars": 714,
     "description": "",
     "version": "1.6.1",
     "releasedAt": "2026-11-15",
@@ -3419,7 +3419,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 92,
+    "stars": 93,
     "description": "007 Nightfire recompilation for a native PC port.",
     "version": "v1.2.0",
     "releasedAt": "2026-11-15",
@@ -3718,7 +3718,7 @@
     "console": "PlayStation 3",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 97,
+    "stars": 98,
     "description": "Unofficial native Windows port of ARMORED CORE for Answer (PS3), built from your own copy of the game. Part of Project Glintburn.",
     "version": "v0.7.6",
     "releasedAt": "2026-11-14",
@@ -3737,7 +3737,7 @@
     "console": "PlayStation 3",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 71,
+    "stars": 72,
     "description": "Unofficial native Windows port of ARMORED CORE 4 (PS3), built from your own copy of the game. Part of Project Glintburn.",
     "version": "v0.7.0",
     "releasedAt": "2026-11-14",
@@ -3933,7 +3933,7 @@
     "console": "Game Boy Advance",
     "mechanism": "native",
     "platforms": [],
-    "stars": 3705,
+    "stars": 3706,
     "description": "Decompilation of Pokémon Emerald",
     "version": null,
     "releasedAt": "2026-11-14",
@@ -3976,7 +3976,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5628,
+    "stars": 5630,
     "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
     "version": "windows-v1.9.8.6",
     "releasedAt": "2026-11-13",
@@ -4185,7 +4185,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 244,
+    "stars": 243,
     "description": "Banjo-Kazooie: Nuts and Bolts Recompilation with Rexglue",
     "version": "big-lua-energy",
     "releasedAt": "2026-11-12",
@@ -5097,7 +5097,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 1650,
+    "stars": 1651,
     "description": "Zelda Wind Waker HD Recomp",
     "version": "v0.5.1",
     "releasedAt": "2026-11-06",
@@ -5222,7 +5222,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 159,
+    "stars": 160,
     "description": "An unofficial original Xbox version PC port of 007: Nightfire via static recompilation.",
     "version": "V2",
     "releasedAt": "2026-11-05",
@@ -5333,7 +5333,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 781,
+    "stars": 782,
     "description": "PC port of Dragon Ball Z: Budokai Tenkaichi 3, built on the BT3-Decompiled project.",
     "version": "v0.1.39.6",
     "releasedAt": "2026-11-03",
@@ -5501,7 +5501,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 85,
+    "stars": 86,
     "description": "",
     "version": "v0.2.0-beta",
     "releasedAt": "2026-11-02",
@@ -5765,7 +5765,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 34344,
+    "stars": 34346,
     "description": "PlayStation 4 emulator for Windows, Linux, macOS and FreeBSD written in C++",
     "version": "v.0.21.0",
     "releasedAt": "2026-10-30",
@@ -6035,7 +6035,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 77,
+    "stars": 76,
     "description": "Native Direct3D 12 renderer for the Project Gotham Racing 4 static recompilation",
     "version": "v0.3.0",
     "releasedAt": "2026-10-29",
@@ -6447,7 +6447,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 8206,
+    "stars": 8208,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -6824,7 +6824,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 1230,
+    "stars": 1231,
     "description": "Native PC port (Linux/Windows) of inFAMOUS Second Son (PS4, CUSA00223) — in development, playable; runs your own game dump; no game or firmware files included. Motion sensor emulation. | Port nativo para PC de inFAMOUS Second Son (em desenvolvimento) — usa o seu próprio dump.",
     "version": "v1.0",
     "releasedAt": "2026-10-22",
@@ -6945,7 +6945,7 @@
     "console": "Game Boy Advance",
     "mechanism": "native",
     "platforms": [],
-    "stars": 1721,
+    "stars": 1722,
     "description": "Decompilation of Pokémon FireRed/LeafGreen",
     "version": null,
     "releasedAt": "2026-10-20",
@@ -7103,7 +7103,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 6148,
+    "stars": 6150,
     "description": "Ship of Harkinian: a PC port of Ocarina of Time built from the decompilation, with widescreen, high framerate and mod support.",
     "version": "9.3.1",
     "releasedAt": "2026-10-18",
@@ -7859,7 +7859,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 251,
+    "stars": 253,
     "description": "",
     "version": "V1.2.2",
     "releasedAt": "2026-10-02",
@@ -7970,7 +7970,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 6516,
+    "stars": 6517,
     "description": "Dusklight brings a classic adventure to PC and mobile platforms with a variety of fixes and improvements.",
     "version": "v2.0.3",
     "releasedAt": "2026-09-30",
@@ -8610,7 +8610,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2512,
+    "stars": 2514,
     "description": "2 Ship 2 Harkinian: a PC port of Majora's Mask built from the decompilation, with widescreen, high resolution and mod support.",
     "version": "5.0.1",
     "releasedAt": "2026-08-25",
@@ -9199,7 +9199,7 @@
     "console": "Xbox 360",
     "mechanism": "emulator",
     "platforms": [],
-    "stars": 9847,
+    "stars": 9848,
     "description": "Xbox 360 Emulator Research Project",
     "version": null,
     "releasedAt": "2026-02-18",
@@ -9364,7 +9364,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5407,
+    "stars": 5408,
     "description": "An unofficial PC port of the Xbox 360 version of Sonic Unleashed created through the process of static recompilation.",
     "version": "v1.0.3",
     "releasedAt": "2025-04-03",
