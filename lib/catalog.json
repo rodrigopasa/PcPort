@@ -30,7 +30,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 512,
+    "stars": 513,
     "description": "A native Windows PC port of Super Mario Odyssey by static recompilation. Bring your own game: no game files included.",
     "version": "v0.7.0",
     "releasedAt": "2026-11-22",
@@ -95,6 +95,48 @@
     "licenseId": "NOASSERTION",
     "licenseUrl": null,
     "curated": true
+  },
+  {
+    "id": "elie-0066-spr-recomp-project",
+    "repo": "Elie-0066/SPR-Recomp-Project",
+    "title": "Splatoon Raiders",
+    "game": null,
+    "author": "Elie-0066",
+    "console": "Nintendo Switch",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 69,
+    "description": "Unofficial static recompilation of Splatoon Raiders (Switch 2) to native Linux/Windows x86-64 with a Vulkan renderer. No game data included: bring your own dump.",
+    "version": "v0.2.1",
+    "releasedAt": "2026-11-22",
+    "sizeBytes": 216304120,
+    "releaseUrl": "https://github.com/Elie-0066/SPR-Recomp-Project/releases/tag/v0.2.1",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
+  },
+  {
+    "id": "mnkyarts-projectavalanche",
+    "repo": "MnkyArts/ProjectAvalanche",
+    "title": "SSX",
+    "game": null,
+    "author": "MnkyArts",
+    "console": "Xbox 360",
+    "mechanism": "native",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 67,
+    "description": "A native PC port of SSX (2012), decoded from the Xbox 360 disc and rebuilt in Rust on Bevy.",
+    "version": "v0.4.2",
+    "releasedAt": "2026-11-22",
+    "sizeBytes": 118718066,
+    "releaseUrl": "https://github.com/MnkyArts/ProjectAvalanche/releases/tag/v0.4.2",
+    "licenseId": "MIT",
+    "licenseUrl": "https://api.github.com/licenses/mit"
   },
   {
     "id": "kirklandsig-halo2-decompiled",
@@ -953,7 +995,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 106,
+    "stars": 107,
     "description": "Call of Duty 2: Big Red One - Custom Engine: our own engine implementation of the Xbox game, built from source for Linux and Windows (bring your own game).",
     "version": "v1.0.10",
     "releasedAt": "2026-11-21",
@@ -1121,7 +1163,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 320,
+    "stars": 321,
     "description": "Native Windows port of Pokémon: Let's Go, Eevee! (Switch v1.0.0) by static recompilation, built on LAS Recomp. No game files included.",
     "version": "v0.7.8",
     "releasedAt": "2026-11-21",
@@ -1347,7 +1389,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 375,
+    "stars": 376,
     "description": "Unnoficial Native Windows PC port of The Last of Us Remastered (PS4, CUSA00552). Runs the game’s own x86-64 code on a custom runtime, with PS4 system libraries reimplemented and a Vulkan renderer based on shadPS4. Includes a launcher. No game files included: you need your own copy.",
     "version": "v0.4.0",
     "releasedAt": "2026-11-20",
@@ -1519,7 +1561,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 956,
+    "stars": 958,
     "description": "A cozy life-simulation and sandbox builder with fantastical creatures (Switch 2), recompiled to run natively on Windows, Linux and macOS. Multiplayer, all events, modding, enhancements and more. Discord: https://discord.recompia.com",
     "version": "v0.16.0",
     "releasedAt": "2026-11-20",
@@ -1547,27 +1589,6 @@
     "licenseId": "NOASSERTION",
     "licenseUrl": null,
     "curated": true
-  },
-  {
-    "id": "elie-0066-spr-recomp-project",
-    "repo": "Elie-0066/SPR-Recomp-Project",
-    "title": "Splatoon Raiders",
-    "game": null,
-    "author": "Elie-0066",
-    "console": "Nintendo Switch",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 69,
-    "description": "Unofficial static recompilation of Splatoon Raiders (Switch 2) to native Linux/Windows x86-64 with a Vulkan renderer. No game data included: bring your own dump.",
-    "version": "v0.2.0",
-    "releasedAt": "2026-11-20",
-    "sizeBytes": 215366136,
-    "releaseUrl": "https://github.com/Elie-0066/SPR-Recomp-Project/releases/tag/v0.2.0",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
   },
   {
     "id": "alano6678-hwaoi-recomp",
@@ -1744,7 +1765,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 926,
+    "stars": 937,
     "description": "Static recompilation research for Xbox Series X|S (Scarlett) on x64 Windows, including shader translation, BC7 textures, script-state replay and D3D12/PE checks.",
     "version": "gpu-check-v0.1.0",
     "releasedAt": "2026-11-20",
@@ -2568,7 +2589,7 @@
     "console": "Nintendo Switch",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 473,
+    "stars": 472,
     "description": "Experimental Windows x64 native porting toolkit for Super Smash Bros. Ultimate: static AArch64 recompilation, a D3D11 runtime, and Local Wireless relay netplay.",
     "version": null,
     "releasedAt": "2026-11-17",
@@ -2945,27 +2966,6 @@
     "curated": true
   },
   {
-    "id": "mnkyarts-projectavalanche",
-    "repo": "MnkyArts/ProjectAvalanche",
-    "title": "SSX",
-    "game": null,
-    "author": "MnkyArts",
-    "console": "Xbox 360",
-    "mechanism": "native",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 67,
-    "description": "A native PC port of SSX (2012), decoded from the Xbox 360 disc and rebuilt in Rust on Bevy.",
-    "version": "v0.4.1",
-    "releasedAt": "2026-11-16",
-    "sizeBytes": 117044807,
-    "releaseUrl": "https://github.com/MnkyArts/ProjectAvalanche/releases/tag/v0.4.1",
-    "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit"
-  },
-  {
     "id": "russophone-tomodachi-ltd-recomp",
     "repo": "RussoPhone/tomodachi-ltd-recomp",
     "title": "Tomodachi Life: Living the Dream",
@@ -3299,7 +3299,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 7926,
+    "stars": 7928,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.4.1",
     "releasedAt": "2026-11-15",
@@ -3897,7 +3897,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5594,
+    "stars": 5596,
     "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
     "version": "windows-v1.9.8.6",
     "releasedAt": "2026-11-13",
@@ -5164,7 +5164,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 195,
+    "stars": 196,
     "description": "A native PC port of Call of Duty: Finest Hour (original Xbox) with a remastered renderer",
     "version": "update",
     "releasedAt": "2026-11-04",
@@ -5468,7 +5468,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 299,
+    "stars": 300,
     "description": "GTA V (Xbox 360, TU27) static recompilation with ReXGlue",
     "version": "v0.3.0",
     "releasedAt": "2026-11-02",
@@ -5642,7 +5642,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 65,
+    "stars": 66,
     "description": "This project aims to create a Natively running Windows & Linux port of Haunting Ground (PS2) by static recompilation: it will support up to 4K resolution with HD textures i upscaled myself and 60 fps . Requires an US ISO of Haunting Ground",
     "version": "v0.2",
     "releasedAt": "2026-10-31",
@@ -5684,7 +5684,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 34335,
+    "stars": 34336,
     "description": "PlayStation 4 emulator for Windows, Linux, macOS and FreeBSD written in C++",
     "version": "v.0.21.0",
     "releasedAt": "2026-10-30",
@@ -6078,7 +6078,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 4170,
+    "stars": 4171,
     "description": "Bloodborne (v1.09) running natively on Linux and Windows: the game's x86-64 code runs as is, GPU side translated to Vulkan; FSR 4 / DLSS, co-op (BBSC). Bring your own dump.",
     "version": "0.7",
     "releasedAt": "2026-10-28",
@@ -6174,7 +6174,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 213,
+    "stars": 214,
     "description": "Call of Duty: Modern Warfare 2 (2009) for Xbox 360 recompiled for Windows & Linux",
     "version": "v0.8.2",
     "releasedAt": "2026-10-27",
@@ -6222,7 +6222,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 1030,
+    "stars": 1031,
     "description": "Experimental native PC port of Lost Odyssey using static recompilation. No game assets included.",
     "version": "v1.1.0",
     "releasedAt": "2026-10-26",
@@ -8352,7 +8352,7 @@
     "console": "Sega 32X",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 189,
+    "stars": 190,
     "description": "Complete static recompilation of Virtua Racing for the Sega 32X (optimization in progress)",
     "version": null,
     "releasedAt": "2026-09-05",
