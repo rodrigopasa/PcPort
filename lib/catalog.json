@@ -403,6 +403,65 @@
     "curated": true
   },
   {
+    "id": "dreamingmoths-memory-of-alessa",
+    "repo": "dreamingmoths/memory-of-alessa",
+    "title": "Silent Hill 3",
+    "game": null,
+    "author": "dreamingmoths",
+    "console": "PlayStation 2",
+    "mechanism": "native",
+    "platforms": [],
+    "stars": 177,
+    "description": "In-progress matching decompilation of Silent Hill 3",
+    "version": null,
+    "releasedAt": "2026-11-23",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/dreamingmoths/memory-of-alessa/releases",
+    "licenseId": "MIT",
+    "licenseUrl": "https://api.github.com/licenses/mit",
+    "curated": true
+  },
+  {
+    "id": "mstan-megamanxsnesrecomp",
+    "repo": "mstan/MegaManXSNESRecomp",
+    "title": "Mega Man X",
+    "game": null,
+    "author": "mstan",
+    "console": "SNES",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 238,
+    "description": "Mega Man X recompiled for the Super Nintendo using snesrecomp · Part of the R.A.I.D. community",
+    "version": "v2.4.3",
+    "releasedAt": "2026-11-23",
+    "sizeBytes": 16454807,
+    "releaseUrl": "https://github.com/mstan/MegaManXSNESRecomp/releases/tag/v2.4.3",
+    "licenseId": "NOASSERTION",
+    "licenseUrl": null,
+    "curated": true
+  },
+  {
+    "id": "retroportingtoolkit-recomp-ui",
+    "repo": "RetroPortingToolKit/recomp-ui",
+    "title": "Ui",
+    "game": null,
+    "author": "RetroPortingToolKit",
+    "console": "PC",
+    "mechanism": "recompiled",
+    "platforms": [],
+    "stars": 42,
+    "description": "Shared launcher and in-game UI for static recompilation projects · Part of the R.A.I.D. community",
+    "version": null,
+    "releasedAt": "2026-11-23",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/RetroPortingToolKit/recomp-ui/releases",
+    "licenseId": "MIT",
+    "licenseUrl": "https://api.github.com/licenses/mit"
+  },
+  {
     "id": "simon3sarkis-super-odyssey-pc-recomp",
     "repo": "Simon3Sarkis/super-odyssey-pc-recomp",
     "title": "Super Mario Odyssey by static recompilation",
@@ -422,25 +481,6 @@
     "releaseUrl": "https://github.com/Simon3Sarkis/super-odyssey-pc-recomp/releases/tag/v0.9.0",
     "licenseId": "NOASSERTION",
     "licenseUrl": null
-  },
-  {
-    "id": "dreamingmoths-memory-of-alessa",
-    "repo": "dreamingmoths/memory-of-alessa",
-    "title": "Silent Hill 3",
-    "game": null,
-    "author": "dreamingmoths",
-    "console": "PlayStation 2",
-    "mechanism": "native",
-    "platforms": [],
-    "stars": 177,
-    "description": "In-progress matching decompilation of Silent Hill 3",
-    "version": null,
-    "releasedAt": "2026-11-22",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/dreamingmoths/memory-of-alessa/releases",
-    "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit",
-    "curated": true
   },
   {
     "id": "tangosdev-sm64ds-decomp",
@@ -494,7 +534,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 70,
+    "stars": 71,
     "description": "A native PC port of SSX (2012), decoded from the Xbox 360 disc and rebuilt in Rust on Bevy.",
     "version": "v0.4.2",
     "releasedAt": "2026-11-22",
@@ -515,7 +555,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 122,
+    "stars": 123,
     "description": "Native PC port of Ace Combat 6: Fires of Liberation using XenonRecomp",
     "version": "v1.1.0",
     "releasedAt": "2026-11-22",
@@ -541,28 +581,6 @@
     "releaseUrl": "https://github.com/MikeSemicolonD/RogueSquadron64Recomp/releases",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
-  },
-  {
-    "id": "mstan-megamanxsnesrecomp",
-    "repo": "mstan/MegaManXSNESRecomp",
-    "title": "Mega Man X",
-    "game": null,
-    "author": "mstan",
-    "console": "SNES",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 238,
-    "description": "Mega Man X recompiled for the Super Nintendo using snesrecomp · Part of the R.A.I.D. community",
-    "version": "v2.4.2",
-    "releasedAt": "2026-11-22",
-    "sizeBytes": 16455082,
-    "releaseUrl": "https://github.com/mstan/MegaManXSNESRecomp/releases/tag/v2.4.2",
-    "licenseId": "NOASSERTION",
-    "licenseUrl": null,
-    "curated": true
   },
   {
     "id": "pret-pokeplatinum",
@@ -639,7 +657,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 8067,
+    "stars": 8070,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.5.0",
     "releasedAt": "2026-11-22",
@@ -648,24 +666,6 @@
     "licenseId": "MIT",
     "licenseUrl": "https://api.github.com/licenses/mit",
     "curated": true
-  },
-  {
-    "id": "retroportingtoolkit-recomp-ui",
-    "repo": "RetroPortingToolKit/recomp-ui",
-    "title": "Ui",
-    "game": null,
-    "author": "RetroPortingToolKit",
-    "console": "PC",
-    "mechanism": "recompiled",
-    "platforms": [],
-    "stars": 42,
-    "description": "Shared launcher and in-game UI for static recompilation projects · Part of the R.A.I.D. community",
-    "version": null,
-    "releasedAt": "2026-11-22",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/RetroPortingToolKit/recomp-ui/releases",
-    "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit"
   },
   {
     "id": "lakshya16157-midtown-madness-3-pc-native",
@@ -1097,7 +1097,7 @@
     "platforms": [
       "PC"
     ],
-    "stars": 70,
+    "stars": 73,
     "description": "Unofficial PC port of NieR Re[in]carnation (Global 3.7.1): local server, Android runtime, launcher. Bring your own game files.",
     "version": "v1.1",
     "releasedAt": "2026-11-22",
@@ -1160,7 +1160,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 157,
+    "stars": 158,
     "description": "Native PC port of Diablo III: Reaper of Souls – Ultimate Evil Edition (PS4). Local co-op for 4.",
     "version": "v0.7.3",
     "releasedAt": "2026-11-21",
@@ -1266,7 +1266,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 257,
+    "stars": 258,
     "description": "Experimental static recompilation of Mario Kart 8 Deluxe 4.0.1 for Windows x64 and Linux amd64. Native Vulkan runtime, Mii creator, online play via Nextendo and Steam rooms. Bring your own game files and keys: no ROMs, assets or keys included.",
     "version": "v0.5.0",
     "releasedAt": "2026-11-21",
@@ -1605,7 +1605,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 277,
+    "stars": 278,
     "description": "StarFox Remake [recompiled]: static recompilation of Star Fox (Nintendo Switch 2) into a native Windows app, built on your PC from your own copy. No game files included.",
     "version": "v1.2.0",
     "releasedAt": "2026-11-21",
@@ -1670,7 +1670,7 @@
       "Linux",
       "Android"
     ],
-    "stars": 137,
+    "stars": 138,
     "description": "Recomp of Asura's Wrath using RexGlue for PC (playable, wip)",
     "version": "v0.4.3",
     "releasedAt": "2026-11-21",
@@ -1710,7 +1710,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 324,
+    "stars": 325,
     "description": "Native Windows port of Pokémon: Let's Go, Eevee! (Switch v1.0.0) by static recompilation, built on LAS Recomp. No game files included.",
     "version": "v0.7.8",
     "releasedAt": "2026-11-21",
@@ -1766,7 +1766,7 @@
     "console": "PC",
     "mechanism": "native",
     "platforms": [],
-    "stars": 412,
+    "stars": 415,
     "description": "Native Instruments Komplete - music production suite for virtual instruments, sound libraries and effect processing on Windows 10/11",
     "version": null,
     "releasedAt": "2026-11-21",
@@ -2121,7 +2121,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 1350,
+    "stars": 1359,
     "description": "GTA VI static recompilation research for x64 Windows. Source-built EXEs run on Windows, and two translated pixel shaders match reference outputs on hardware and WARP. Full-game startup is unverified.",
     "version": "gpu-check-v0.1.0",
     "releasedAt": "2026-11-20",
@@ -2605,7 +2605,7 @@
       "macOS",
       "iOS"
     ],
-    "stars": 717,
+    "stars": 718,
     "description": "Unofficial static recompilation of the Xbox 360 version of Need for Speed: Most Wanted (2005): a native port for Steam Deck, Steam Machine, Steam Frame, Linux and Mac (iPhone/iPad: sideload the experimental IPA or build it yourself). Bring your own disc: no game files included. Not affiliated with EA or Valve.",
     "version": "v0.2.6",
     "releasedAt": "2026-11-18",
@@ -3286,7 +3286,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 2547,
+    "stars": 2548,
     "description": "Static recompilation of Link's Awakening (Switch) to native macOS, Windows, Linux, iOS and Android.",
     "version": "beta_6",
     "releasedAt": "2026-11-15",
@@ -3954,7 +3954,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 597,
+    "stars": 598,
     "description": "Native PC port (Linux/Windows) of The Last Guardian (PS4, CUSA03627) — runs your own game dump; no game or firmware files included. Mouse/keyboard, optional 60 FPS, SMAA/CAS filters. | Port nativo para PC de The Last Guardian — usa o seu próprio dump.",
     "version": "v2026.11.14-ee3327d",
     "releasedAt": "2026-11-14",
@@ -4019,7 +4019,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 46,
+    "stars": 47,
     "description": "AI-written static recompilation of Mario Party (N64, USA) for PC and the web. Bring your own ROM.",
     "version": "v0.2.14",
     "releasedAt": "2026-11-14",
@@ -4040,7 +4040,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5639,
+    "stars": 5640,
     "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
     "version": "windows-v1.9.8.6",
     "releasedAt": "2026-11-13",
@@ -4397,7 +4397,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 166,
+    "stars": 167,
     "description": "An unofficial original Xbox version PC port of Red Dead Revolver via static recompilation.",
     "version": "V2",
     "releasedAt": "2026-11-11",
@@ -4460,7 +4460,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 56,
+    "stars": 57,
     "description": "Yoshi's Story Recomp",
     "version": "0.1.8",
     "releasedAt": "2026-11-10",
@@ -4695,7 +4695,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 219,
+    "stars": 220,
     "description": "Eternal Sonata, recompiled for PC.",
     "version": "v1.3.9",
     "releasedAt": "2026-11-09",
@@ -4739,7 +4739,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 941,
+    "stars": 942,
     "description": "Xbox 360 to PC port of Dante's Inferno using ReXGlue (static recompilation)",
     "version": "v0.8.6-beta-hotfix",
     "releasedAt": "2026-11-08",
@@ -5118,7 +5118,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 1657,
+    "stars": 1658,
     "description": "Zelda Wind Waker HD Recomp",
     "version": "v0.5.1",
     "releasedAt": "2026-11-06",
@@ -5243,7 +5243,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 162,
+    "stars": 163,
     "description": "An unofficial original Xbox version PC port of 007: Nightfire via static recompilation.",
     "version": "V2",
     "releasedAt": "2026-11-05",
@@ -6033,7 +6033,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 189,
+    "stars": 190,
     "description": "An unofficial original Xbox version PC port of 007: From Russia With Love via static recompilation.",
     "version": "V2",
     "releasedAt": "2026-10-29",
@@ -6200,7 +6200,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 4181,
+    "stars": 4182,
     "description": "Bloodborne (v1.09) running natively on Linux and Windows: the game's x86-64 code runs as is, GPU side translated to Vulkan; FSR 4 / DLSS, co-op (BBSC). Bring your own dump.",
     "version": "0.7",
     "releasedAt": "2026-10-28",
@@ -6344,7 +6344,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 1038,
+    "stars": 1039,
     "description": "Experimental native PC port of Lost Odyssey using static recompilation. No game assets included.",
     "version": "v1.1.0",
     "releasedAt": "2026-10-26",
@@ -6488,7 +6488,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 8212,
+    "stars": 8214,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -6690,6 +6690,26 @@
     "curated": true
   },
   {
+    "id": "giangra-stuntdouble-reignition",
+    "repo": "giangra/stuntdouble-reignition",
+    "title": "Stuntdouble Reignition",
+    "game": null,
+    "author": "giangra",
+    "console": "Xbox 360",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows"
+    ],
+    "stars": 40,
+    "description": "Stuntman: Ignition (Xbox 360) static recompilation for PC, built with ReXGlue",
+    "version": "v0.3.0",
+    "releasedAt": "2026-10-24",
+    "sizeBytes": 64821852,
+    "releaseUrl": "https://github.com/giangra/stuntdouble-reignition/releases/tag/v0.3.0",
+    "licenseId": "MIT",
+    "licenseUrl": "https://api.github.com/licenses/mit"
+  },
+  {
     "id": "ran-j-ps2recomp",
     "repo": "ran-j/PS2Recomp",
     "title": "PS2Recomp",
@@ -6865,7 +6885,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 1234,
+    "stars": 1235,
     "description": "Native PC port (Linux/Windows) of inFAMOUS Second Son (PS4, CUSA00223) — in development, playable; runs your own game dump; no game or firmware files included. Motion sensor emulation. | Port nativo para PC de inFAMOUS Second Son (em desenvolvimento) — usa o seu próprio dump.",
     "version": "v1.0",
     "releasedAt": "2026-10-22",
@@ -7777,7 +7797,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 940,
+    "stars": 941,
     "description": "Recompilation of Blue Dragon",
     "version": "v1.3.1",
     "releasedAt": "2026-10-05",
@@ -8011,7 +8031,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 6523,
+    "stars": 6524,
     "description": "Dusklight brings a classic adventure to PC and mobile platforms with a variety of fixes and improvements.",
     "version": "v2.0.3",
     "releasedAt": "2026-09-30",
@@ -8582,7 +8602,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 379,
+    "stars": 378,
     "description": "Silent Hill: Downpour — native Windows PC port via static recompilation of the Xbox 360 binary. v1.0 stable: 60 FPS unlocked, ROV warm-cache, standalone launcher, DualSense adaptive triggers, portable saves. Tested on USA + Europe X360 dumps.",
     "version": "v1.1.8",
     "releasedAt": "2026-09-02",
