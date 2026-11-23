@@ -287,7 +287,7 @@
     "console": "Xbox",
     "mechanism": "native",
     "platforms": [],
-    "stars": 158,
+    "stars": 159,
     "description": "Halo 2 decompilation (decomp) for the original Xbox: a matching decompilation of the retail game into C/C++ source, rebuilt byte for byte, toward native PC, Linux and handheld ports. Contributors welcome. Source only; bring your own disc.",
     "version": null,
     "releasedAt": "2026-11-23",
@@ -313,7 +313,7 @@
     "description": "Ninja Gaiden II (Xbox 360, 2008) statically recompiled into native Linux and Windows builds, drawn by its own Vulkan renderer. A steady 60 fps, up to 8x render scale, widescreen and ultrawide, keyboard and mouse, mods, Steam Deck ready. Bring your own copy of the game.",
     "version": "v0.7.4",
     "releasedAt": "2026-11-23",
-    "sizeBytes": 163813860,
+    "sizeBytes": 168364985,
     "releaseUrl": "https://github.com/gamboozino/ng2recomp/releases/tag/v0.7.4",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
@@ -762,7 +762,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 266,
+    "stars": 267,
     "description": "Experimental static recompilation of Mario Kart 8 Deluxe 4.0.1 for Windows x64 and Linux amd64. Native Vulkan runtime, Mii creator, online play via Nextendo and Steam rooms. Bring your own game files and keys: no ROMs, assets or keys included.",
     "version": "v0.6.1",
     "releasedAt": "2026-11-23",
@@ -783,7 +783,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 86,
+    "stars": 87,
     "description": "SplatPC SPLATOON 1 PORT",
     "version": "v1.0.10",
     "releasedAt": "2026-11-23",
@@ -827,7 +827,7 @@
     "description": "2014 FIFA World Cup Brazil (Xbox 360) running natively on Windows. An unofficial recompilation, played from your own copy of the game.",
     "version": "v0.3.1",
     "releasedAt": "2026-11-23",
-    "sizeBytes": 48514667,
+    "sizeBytes": 48514796,
     "releaseUrl": "https://github.com/HossEz/fifa-world-cup-2014-recompiled/releases/tag/v0.3.1",
     "licenseId": "BSD-3-Clause",
     "licenseUrl": "https://api.github.com/licenses/bsd-3-clause",
@@ -858,6 +858,69 @@
     "curated": true
   },
   {
+    "id": "mikesemicolond-roguesquadron64recomp",
+    "repo": "MikeSemicolonD/RogueSquadron64Recomp",
+    "title": "Star Wars: Rogue Squadron",
+    "game": null,
+    "author": "MikeSemicolonD",
+    "console": "Nintendo 64",
+    "mechanism": "recompiled",
+    "platforms": [],
+    "stars": 46,
+    "description": "A fully playable (AI assisted) static recompilation of Star Wars: Rogue Squadron on N64 for Windows 10, Linux, MacOS & Android",
+    "version": null,
+    "releasedAt": "2026-11-23",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/MikeSemicolonD/RogueSquadron64Recomp/releases",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
+  },
+  {
+    "id": "vyanhursky-defjamffny-recomp",
+    "repo": "vyanhursky/DefJamFFNY-recomp",
+    "title": "Def Jam: Fight for NY",
+    "game": "def-jam-ffny",
+    "author": "vyanhursky",
+    "console": "Xbox",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "stars": 282,
+    "description": "Def Jam: Fight for NY PC port — static recompilation of the original Xbox game for native Windows and macOS (Direct3D 11 / Vulkan). Bring your own game dump.",
+    "version": "v1.2.2",
+    "releasedAt": "2026-11-23",
+    "sizeBytes": 205007352,
+    "releaseUrl": "https://github.com/vyanhursky/DefJamFFNY-recomp/releases/tag/v1.2.2",
+    "licenseId": "NOASSERTION",
+    "licenseUrl": null,
+    "curated": true
+  },
+  {
+    "id": "norain211-doa3-re",
+    "repo": "NoRain211/doa3-re",
+    "title": "Dead or Alive 3",
+    "game": "doa3",
+    "author": "NoRain211",
+    "console": "Xbox",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Linux",
+      "macOS"
+    ],
+    "stars": 66,
+    "description": "Native Windows port of Dead or Alive 3 (Xbox), built by static recompilation with a hand-written runtime. Requires your own copy of the game.",
+    "version": "v0.8.0",
+    "releasedAt": "2026-11-23",
+    "sizeBytes": 27975928,
+    "releaseUrl": "https://github.com/NoRain211/doa3-re/releases/tag/v0.8.0",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
+  },
+  {
     "id": "simon3sarkis-super-odyssey-pc-recomp",
     "repo": "Simon3Sarkis/super-odyssey-pc-recomp",
     "title": "Super Mario Odyssey by static recompilation",
@@ -869,7 +932,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 579,
+    "stars": 580,
     "description": "A native Windows PC port of Super Mario Odyssey by static recompilation. Bring your own game: no game files included.",
     "version": "v0.9.0",
     "releasedAt": "2026-11-22",
@@ -938,24 +1001,6 @@
     "releasedAt": "2026-11-22",
     "sizeBytes": 16477898,
     "releaseUrl": "https://github.com/Dipshet/GracemeriaRecomp/releases/tag/v1.1.0",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
-  },
-  {
-    "id": "mikesemicolond-roguesquadron64recomp",
-    "repo": "MikeSemicolonD/RogueSquadron64Recomp",
-    "title": "Star Wars: Rogue Squadron",
-    "game": null,
-    "author": "MikeSemicolonD",
-    "console": "Nintendo 64",
-    "mechanism": "recompiled",
-    "platforms": [],
-    "stars": 46,
-    "description": "A fully playable (AI assisted) static recompilation of Star Wars: Rogue Squadron on N64 for Windows 10, Linux, MacOS & Android",
-    "version": null,
-    "releasedAt": "2026-11-22",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/MikeSemicolonD/RogueSquadron64Recomp/releases",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
   },
@@ -1034,7 +1079,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 8125,
+    "stars": 8128,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.5.0",
     "releasedAt": "2026-11-22",
@@ -1377,7 +1422,7 @@
     "platforms": [
       "PC"
     ],
-    "stars": 134,
+    "stars": 146,
     "description": "Unofficial PC port of NieR Re[in]carnation (Global 3.7.1): local server, Android runtime, launcher. Bring your own game files.",
     "version": "v1.1",
     "releasedAt": "2026-11-22",
@@ -1385,29 +1430,6 @@
     "releaseUrl": "https://github.com/AllenWalkerED/nier-reincarnation-pc/releases/tag/v1.1",
     "licenseId": "AGPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/agpl-3.0"
-  },
-  {
-    "id": "vyanhursky-defjamffny-recomp",
-    "repo": "vyanhursky/DefJamFFNY-recomp",
-    "title": "Def Jam: Fight for NY",
-    "game": "def-jam-ffny",
-    "author": "vyanhursky",
-    "console": "Xbox",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "macOS"
-    ],
-    "stars": 282,
-    "description": "Def Jam: Fight for NY PC port — static recompilation of the original Xbox game for native Windows and macOS (Direct3D 11 / Vulkan). Bring your own game dump.",
-    "version": "v1.2.1",
-    "releasedAt": "2026-11-21",
-    "sizeBytes": 204995064,
-    "releaseUrl": "https://github.com/vyanhursky/DefJamFFNY-recomp/releases/tag/v1.2.1",
-    "licenseId": "NOASSERTION",
-    "licenseUrl": null,
-    "curated": true
   },
   {
     "id": "cadugimenes-sanctuaryport",
@@ -1568,7 +1590,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 556,
+    "stars": 557,
     "description": "This is an open source, all-in-one, static recompilation project that I built from the ground up for the Xbox 360 Gears of War series. All 4 games have been personally recompiled for use with a fully native renderer by me.",
     "version": "0.6.7",
     "releasedAt": "2026-11-21",
@@ -2075,7 +2097,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 1356,
+    "stars": 1358,
     "description": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows and Linux with Vulkan. 0.5.1 out: NVIDIA shader cache fix, player 2 rumble; one-file Windows launcher, presets, local co-op, 16:10, Thai. Requirements: docs/requirements.md. Roadmap: #10. No game files included.",
     "version": "v0.5.1",
     "releasedAt": "2026-11-20",
@@ -2299,7 +2321,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 1448,
+    "stars": 1459,
     "description": "Static recompilation research for Xbox Series X|S software on x64 Windows, with source-built CPU and GPU tests. Full-game startup is unverified.",
     "version": "gpu-check-v0.1.0",
     "releasedAt": "2026-11-20",
@@ -2535,7 +2557,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 474,
+    "stars": 475,
     "description": "Static recompilation of Metroid Dread (Switch, 2.1.0) for Windows, Linux and Steam Deck. Bring your own dump: no game files, keys or dumping tools included.",
     "version": "v0.5.10",
     "releasedAt": "2026-11-19",
@@ -2961,28 +2983,6 @@
     "releasedAt": "2026-11-17",
     "sizeBytes": null,
     "releaseUrl": "https://github.com/OpenSmash-Ultimate/WindowSmash/releases",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
-    "curated": true
-  },
-  {
-    "id": "norain211-doa3-re",
-    "repo": "NoRain211/doa3-re",
-    "title": "Dead or Alive 3",
-    "game": "doa3",
-    "author": "NoRain211",
-    "console": "Xbox",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Linux",
-      "macOS"
-    ],
-    "stars": 66,
-    "description": "Native Windows port of Dead or Alive 3 (Xbox), built by static recompilation with a hand-written runtime. Requires your own copy of the game.",
-    "version": "v0.7.1",
-    "releasedAt": "2026-11-17",
-    "sizeBytes": 12575261,
-    "releaseUrl": "https://github.com/NoRain211/doa3-re/releases/tag/v0.7.1",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
@@ -3743,7 +3743,7 @@
       "Windows",
       "macOS"
     ],
-    "stars": 985,
+    "stars": 987,
     "description": "An unofficial PC port of the Xbox 360 version of Sonic the Hedgehog (2006) created through the process of static recompilation",
     "version": "v1.0.0",
     "releasedAt": "2026-11-14",
@@ -3894,7 +3894,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 753,
+    "stars": 755,
     "description": "A native Windows and Linux port of Grand Theft Auto: Vice City Stories (PS2, USA, SLUS-21590), made by recompiling the game's PS2 executable into C++",
     "version": "v0.3.0",
     "releasedAt": "2026-11-14",
@@ -4110,7 +4110,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 217,
+    "stars": 218,
     "description": "Unofficial native PC port of God of War (2005, PS2) for Windows, with experimental Linux support. Statically recompiled to C++, not an emulator. OpenGL renderer, launcher, cheat menu, widescreen, 60 FPS. Bring your own game dump: no game files included.",
     "version": "launcher-v0.4.0",
     "releasedAt": "2026-11-13",
@@ -5033,7 +5033,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 68,
+    "stars": 69,
     "description": "Unofficial Windows version of WWE All Stars (Xbox 360), recompiled with ReXGlue. Bring your own disc image.",
     "version": "v2.0.0",
     "releasedAt": "2026-11-07",
@@ -5166,7 +5166,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 1664,
+    "stars": 1666,
     "description": "Zelda Wind Waker HD Recomp",
     "version": "v0.5.1",
     "releasedAt": "2026-11-06",
@@ -5617,7 +5617,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 316,
+    "stars": 318,
     "description": "GTA V (Xbox 360, TU27) static recompilation with ReXGlue",
     "version": "v0.3.0",
     "releasedAt": "2026-11-02",
@@ -5683,7 +5683,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 179,
+    "stars": 180,
     "description": "Fan mod of Dino Crisis (PS1). It brings a modern Resident evil Remakes like over-the-shoulder camera, updated controls, visual/gameplay improvements, and plenty of Quality of Life settings to customize the experience to your liking.",
     "version": "v1.07",
     "releasedAt": "2026-11-01",
@@ -6100,7 +6100,7 @@
     "platforms": [
       "PC"
     ],
-    "stars": 51,
+    "stars": 52,
     "description": "Unofficial native Windows PC port of Call of Duty 3 (Xbox 360) via static recompilation. Bring your own game. EN · RU · UK.",
     "version": "2.1",
     "releasedAt": "2026-10-29",
@@ -6721,7 +6721,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 3901,
+    "stars": 3900,
     "description": "Playstation 2 Static Recompiler & Runtime Tool to make native PC ports",
     "version": null,
     "releasedAt": "2026-10-23",
@@ -6759,7 +6759,7 @@
     "console": "Xbox 360",
     "mechanism": "native",
     "platforms": [],
-    "stars": 91,
+    "stars": 92,
     "description": "FIFA 09 PC Port based on Xbox 360 Version.",
     "version": "v1.4.0",
     "releasedAt": "2026-10-23",
@@ -7380,7 +7380,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 149,
+    "stars": 150,
     "description": "Experimental static recompilation of Forza Motorsport 4 using ReXGlue. No game files included.",
     "version": "v0.1.0-alpha.2",
     "releasedAt": "2026-10-15",
@@ -8436,7 +8436,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 941,
+    "stars": 942,
     "description": "A PC port of Super Mario 64 with DirectX 11, OpenGL and Vulkan backends, fullscreen and controller support.",
     "version": "3.0.0",
     "releasedAt": "2026-09-07",
@@ -9204,7 +9204,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2510,
+    "stars": 2511,
     "description": "I have spaghetti, now i just need a kart",
     "version": "1.0.0",
     "releasedAt": "2026-02-25",
@@ -9407,7 +9407,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 2156,
+    "stars": 2157,
     "description": "SF64 PC Port",
     "version": "v2.0.0",
     "releasedAt": "2025-05-25",
@@ -9428,7 +9428,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5409,
+    "stars": 5412,
     "description": "An unofficial PC port of the Xbox 360 version of Sonic Unleashed created through the process of static recompilation.",
     "version": "v1.0.3",
     "releasedAt": "2025-04-03",
