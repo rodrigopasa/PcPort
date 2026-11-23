@@ -27,7 +27,7 @@
     "console": "Arcade",
     "mechanism": "in-progress",
     "platforms": [],
-    "stars": 77,
+    "stars": 79,
     "description": "Decompiled Ultimate Mortal Kombat 3 (iOS v1.2.59) with a playable native PC port featuring DirectX, Vulkan, OpenGL, widescreen support, HD textures, and multiplayer. Original game assets required.",
     "version": null,
     "releasedAt": "2026-11-23",
@@ -160,7 +160,7 @@
     "console": "Nintendo DS",
     "mechanism": "native",
     "platforms": [],
-    "stars": 770,
+    "stars": 771,
     "description": "Decompilation of Pokemon HeartGold/SoulSilver",
     "version": null,
     "releasedAt": "2026-11-23",
@@ -247,7 +247,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 993,
+    "stars": 995,
     "description": "A cozy life-simulation and sandbox builder with fantastical creatures (Switch 2), recompiled to run natively on Windows, Linux and macOS. Multiplayer, all events, modding, enhancements and more. Discord: https://discord.recompia.com",
     "version": "v0.17.0",
     "releasedAt": "2026-11-23",
@@ -719,7 +719,7 @@
       "Linux",
       "Android"
     ],
-    "stars": 191,
+    "stars": 192,
     "description": "Gears of War 2 native PC port: the Xbox 360 game statically recompiled to x64 (not an emulator). 1440p/4K, FSR, 4K texture packs, keyboard & mouse, Android in progress. Bring your own copy.",
     "version": "v0.4.8",
     "releasedAt": "2026-11-23",
@@ -762,7 +762,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 268,
+    "stars": 269,
     "description": "Experimental static recompilation of Mario Kart 8 Deluxe 4.0.1 for Windows x64 and Linux amd64. Native Vulkan runtime, Mii creator, online play via Nextendo and Steam rooms. Bring your own game files and keys: no ROMs, assets or keys included.",
     "version": "v0.6.3",
     "releasedAt": "2026-11-23",
@@ -783,7 +783,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 88,
+    "stars": 89,
     "description": "SplatPC SPLATOON 1 PORT",
     "version": "v1.0.10",
     "releasedAt": "2026-11-23",
@@ -933,10 +933,10 @@
     ],
     "stars": 120,
     "description": "FINAL FANTASY VII (PC) statically recompiled to native ARM64 Android, with an FFNx renderer and a 7th Heaven-style mod launcher. No game files included.",
-    "version": "v1.1.42",
+    "version": "v1.1.43",
     "releasedAt": "2026-11-23",
-    "sizeBytes": 97296867,
-    "releaseUrl": "https://github.com/bhuiyah/ff7-recomp-android/releases/tag/v1.1.42",
+    "sizeBytes": 97302975,
+    "releaseUrl": "https://github.com/bhuiyah/ff7-recomp-android/releases/tag/v1.1.43",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
   },
@@ -995,7 +995,7 @@
     "platforms": [
       "PC"
     ],
-    "stars": 179,
+    "stars": 188,
     "description": "Unofficial PC port of NieR Re[in]carnation (Global 3.7.1): local server, Android runtime, launcher. Bring your own game files.",
     "version": "v1.2",
     "releasedAt": "2026-11-23",
@@ -1101,7 +1101,7 @@
     "platforms": [
       "PC"
     ],
-    "stars": 2033,
+    "stars": 2034,
     "description": "Native Windows port of Shadow of the Colossus (PS4, CUSA08809) - bring your own game dump. Port nativo para PC.",
     "version": "v0.77",
     "releasedAt": "2026-11-23",
@@ -1212,6 +1212,65 @@
     "releaseUrl": "https://github.com/james2doyle/ffta-recomp/releases/tag/v2.2",
     "licenseId": "NOASSERTION",
     "licenseUrl": null,
+    "curated": true
+  },
+  {
+    "id": "mormonftp-hub-gt5-recomp",
+    "repo": "MormonFTP-hub/gt5-recomp",
+    "title": "Gran Turismo 5 on ps3recomp",
+    "game": null,
+    "author": "MormonFTP-hub",
+    "console": "PlayStation 3",
+    "mechanism": "recompiled",
+    "platforms": [],
+    "stars": 80,
+    "description": "Unofficial PC port of Gran Turismo 5 on ps3recomp. Needs your own GT5 disc, EBOOT v1.00, no update: Europe BCES00569 (tested) or US BCUS98114 (untested). Code and tools only: no game files, keys or firmware.",
+    "version": "v0.1.111",
+    "releasedAt": "2026-11-23",
+    "sizeBytes": 126132,
+    "releaseUrl": "https://github.com/MormonFTP-hub/gt5-recomp/releases/tag/v0.1.111",
+    "licenseId": "MIT",
+    "licenseUrl": "https://api.github.com/licenses/mit"
+  },
+  {
+    "id": "carlosexabyte-arceuszada",
+    "repo": "CarlosExabyte/Arceuszada",
+    "title": "Pokémon Legends: Arceus",
+    "game": null,
+    "author": "CarlosExabyte",
+    "console": "Nintendo Switch",
+    "mechanism": "recompiled",
+    "platforms": [],
+    "stars": 115,
+    "description": "Amateur Pokémon Legends: Arceus recompilation project. Requires your own game files. More optimizations and size reductions are coming in future updates!",
+    "version": "v1.2.0MoreFixes",
+    "releasedAt": "2026-11-23",
+    "sizeBytes": 69703308,
+    "releaseUrl": "https://github.com/CarlosExabyte/Arceuszada/releases/tag/v1.2.0MoreFixes",
+    "licenseId": "NOASSERTION",
+    "licenseUrl": null,
+    "curated": true
+  },
+  {
+    "id": "wootbeer-dinotale",
+    "repo": "wootbeer/dinotale",
+    "title": "Yoshi's Story",
+    "game": null,
+    "author": "wootbeer",
+    "console": "Nintendo 64",
+    "mechanism": "native",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 58,
+    "description": "Yoshi's Story Recomp",
+    "version": "0.1.9",
+    "releasedAt": "2026-11-23",
+    "sizeBytes": 18142274,
+    "releaseUrl": "https://github.com/wootbeer/dinotale/releases/tag/0.1.9",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
   },
   {
@@ -1331,7 +1390,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 8136,
+    "stars": 8137,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.5.0",
     "releasedAt": "2026-11-22",
@@ -1422,24 +1481,6 @@
     "releaseUrl": "https://github.com/ILFforever/YW4Recomp/releases/tag/launcher-v1.6.2",
     "licenseId": "NOASSERTION",
     "licenseUrl": null
-  },
-  {
-    "id": "mormonftp-hub-gt5-recomp",
-    "repo": "MormonFTP-hub/gt5-recomp",
-    "title": "Gran Turismo 5 on ps3recomp",
-    "game": null,
-    "author": "MormonFTP-hub",
-    "console": "PlayStation 3",
-    "mechanism": "recompiled",
-    "platforms": [],
-    "stars": 80,
-    "description": "Unofficial PC port of Gran Turismo 5 on ps3recomp. Needs your own GT5 disc, EBOOT v1.00, no update: Europe BCES00569 (tested) or US BCUS98114 (untested). Code and tools only: no game files, keys or firmware.",
-    "version": "v0.1.110",
-    "releasedAt": "2026-11-22",
-    "sizeBytes": 126132,
-    "releaseUrl": "https://github.com/MormonFTP-hub/gt5-recomp/releases/tag/v0.1.110",
-    "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit"
   },
   {
     "id": "timboat-demons-souls-recomp",
@@ -1636,25 +1677,6 @@
     "releasedAt": "2026-11-21",
     "sizeBytes": 25787143,
     "releaseUrl": "https://github.com/mstan/SuperMarioWorldRecomp/releases/tag/v0.15.11",
-    "licenseId": "NOASSERTION",
-    "licenseUrl": null,
-    "curated": true
-  },
-  {
-    "id": "carlosexabyte-arceuszada",
-    "repo": "CarlosExabyte/Arceuszada",
-    "title": "Pokémon Legends: Arceus",
-    "game": null,
-    "author": "CarlosExabyte",
-    "console": "Nintendo Switch",
-    "mechanism": "recompiled",
-    "platforms": [],
-    "stars": 115,
-    "description": "Amateur Pokémon Legends: Arceus recompilation project. Requires your own game files. More optimizations and size reductions are coming in future updates!",
-    "version": "v1.2.0Fix",
-    "releasedAt": "2026-11-21",
-    "sizeBytes": 69683532,
-    "releaseUrl": "https://github.com/CarlosExabyte/Arceuszada/releases/tag/v1.2.0Fix",
     "licenseId": "NOASSERTION",
     "licenseUrl": null,
     "curated": true
@@ -2134,7 +2156,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 1092,
+    "stars": 1093,
     "description": "A playable preview of Forza Horizon static recompilation",
     "version": "v0.9.5",
     "releasedAt": "2026-11-20",
@@ -2155,7 +2177,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 385,
+    "stars": 387,
     "description": "Unnoficial Native Windows PC port of The Last of Us Remastered (PS4, CUSA00552). Runs the game’s own x86-64 code on a custom runtime, with PS4 system libraries reimplemented and a Vulkan renderer based on shadPS4. Includes a launcher. No game files included: you need your own copy.",
     "version": "v0.4.0",
     "releasedAt": "2026-11-20",
@@ -2384,7 +2406,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 1489,
+    "stars": 1491,
     "description": "Static recompilation research for Xbox Series X|S software on x64 Windows, with source-built CPU and GPU tests. Full-game startup is unverified.",
     "version": "gpu-check-v0.1.0",
     "releasedAt": "2026-11-20",
@@ -2598,7 +2620,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 55,
+    "stars": 56,
     "description": "Shadow Tower native port (recompiled) with modern PC controls, graphical improvements.",
     "version": "v0.3.2",
     "releasedAt": "2026-11-19",
@@ -2678,7 +2700,7 @@
     "platforms": [
       "PC"
     ],
-    "stars": 100,
+    "stars": 101,
     "description": "Native Windows PC recompilation of the unreleased GoldenEye 007 Xbox 360/XBLA remaster using ReXGlue. Requires your own copy.",
     "version": "v0.9.7d",
     "releasedAt": "2026-11-18",
@@ -2849,7 +2871,7 @@
       "macOS",
       "iOS"
     ],
-    "stars": 718,
+    "stars": 719,
     "description": "Unofficial static recompilation of the Xbox 360 version of Need for Speed: Most Wanted (2005): a native port for Steam Deck, Steam Machine, Steam Frame, Linux and Mac (iPhone/iPad: sideload the experimental IPA or build it yourself). Bring your own disc: no game files included. Not affiliated with EA or Valve.",
     "version": "v0.2.6",
     "releasedAt": "2026-11-18",
@@ -3576,7 +3598,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 718,
+    "stars": 719,
     "description": "",
     "version": "1.6.1",
     "releasedAt": "2026-11-15",
@@ -4111,7 +4133,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5649,
+    "stars": 5651,
     "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
     "version": "windows-v1.9.8.6",
     "releasedAt": "2026-11-13",
@@ -4277,7 +4299,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 120,
+    "stars": 121,
     "description": "Mario Kart 8 Deluxe recompiled to run natively on your PC: no JIT, FSR 3.1 + frame generation, experimental DLSS, 720p to 4K output, HDR10. Bring your own game files.",
     "version": "v0.2.4",
     "releasedAt": "2026-11-12",
@@ -4344,7 +4366,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 225,
+    "stars": 226,
     "description": "Native SDL3 port of Colin McRae Rally 2.0 built from the CMR2Decomp decompilation. No game data included.",
     "version": "v1.9.0",
     "releasedAt": "2026-11-12",
@@ -4515,28 +4537,6 @@
     "releasedAt": "2026-11-11",
     "sizeBytes": 214469112,
     "releaseUrl": "https://github.com/kuraeow/ultratears/releases/tag/v0.4.0",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
-    "curated": true
-  },
-  {
-    "id": "wootbeer-dinotale",
-    "repo": "wootbeer/dinotale",
-    "title": "Yoshi's Story",
-    "game": null,
-    "author": "wootbeer",
-    "console": "Nintendo 64",
-    "mechanism": "native",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 58,
-    "description": "Yoshi's Story Recomp",
-    "version": "0.1.8",
-    "releasedAt": "2026-11-10",
-    "sizeBytes": 18102255,
-    "releaseUrl": "https://github.com/wootbeer/dinotale/releases/tag/0.1.8",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
@@ -4874,7 +4874,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 343,
+    "stars": 344,
     "description": "Zelda: Tears of the Kingdom (TotK) 1.0.0 recompiled to native Windows and Vulkan. Frame cap up to 240, DLSS option, mouse and keyboard. Open source, mostly written by AI agents. You build it from your own dump; no game files included. Measured on one PC so far.",
     "version": "v0.1.10.1",
     "releasedAt": "2026-11-08",
@@ -5189,7 +5189,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 1668,
+    "stars": 1669,
     "description": "Zelda Wind Waker HD Recomp",
     "version": "v0.5.1",
     "releasedAt": "2026-11-06",
@@ -5466,7 +5466,7 @@
     "console": "PlayStation 3",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 360,
+    "stars": 362,
     "description": "Drakengard 3 (PS3) static recompilation using ps3recomp",
     "version": null,
     "releasedAt": "2026-11-03",
@@ -5832,7 +5832,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 34360,
+    "stars": 34361,
     "description": "PlayStation 4 emulator for Windows, Linux, macOS and FreeBSD written in C++",
     "version": "v.0.21.0",
     "releasedAt": "2026-10-30",
@@ -6040,7 +6040,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 250,
+    "stars": 251,
     "description": "Static recompilation of Midnight Club: Los Angeles (Xbox 360) for PC and PS5. No game data included.",
     "version": "v1.0.14",
     "releasedAt": "2026-10-29",
@@ -6226,7 +6226,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 4188,
+    "stars": 4187,
     "description": "Bloodborne (v1.09) running natively on Linux and Windows: the game's x86-64 code runs as is, GPU side translated to Vulkan; FSR 4 / DLSS, co-op (BBSC). Bring your own dump.",
     "version": "0.7",
     "releasedAt": "2026-10-28",
@@ -6495,7 +6495,7 @@
     "platforms": [
       "Linux"
     ],
-    "stars": 169,
+    "stars": 170,
     "description": "Unofficial native PC port of inFAMOUS First Light (PS4). Bring your own game dump - no game files included.",
     "version": "v0.3.8",
     "releasedAt": "2026-10-25",
@@ -6686,7 +6686,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 79,
+    "stars": 80,
     "description": "The Legend of Zelda: A Link to the Past recompiled for the Super Nintendo using snesrecomp · Part of the R.A.I.D. community",
     "version": "v0.6.6",
     "releasedAt": "2026-10-24",
@@ -6726,7 +6726,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 40,
+    "stars": 42,
     "description": "Stuntman: Ignition (Xbox 360) static recompilation for PC, built with ReXGlue",
     "version": "v0.3.0",
     "releasedAt": "2026-10-24",
@@ -6744,7 +6744,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 3900,
+    "stars": 3901,
     "description": "Playstation 2 Static Recompiler & Runtime Tool to make native PC ports",
     "version": null,
     "releasedAt": "2026-10-23",
@@ -8034,7 +8034,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 6526,
+    "stars": 6527,
     "description": "Dusklight brings a classic adventure to PC and mobile platforms with a variety of fixes and improvements.",
     "version": "v2.0.3",
     "releasedAt": "2026-09-30",
@@ -8605,7 +8605,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 379,
+    "stars": 380,
     "description": "Silent Hill: Downpour — native Windows PC port via static recompilation of the Xbox 360 binary. v1.0 stable: 60 FPS unlocked, ROV warm-cache, standalone launcher, DualSense adaptive triggers, portable saves. Tested on USA + Europe X360 dumps.",
     "version": "v1.1.8",
     "releasedAt": "2026-09-02",
@@ -9428,7 +9428,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5412,
+    "stars": 5413,
     "description": "An unofficial PC port of the Xbox 360 version of Sonic Unleashed created through the process of static recompilation.",
     "version": "v1.0.3",
     "releasedAt": "2025-04-03",
