@@ -554,7 +554,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 2556,
+    "stars": 2557,
     "description": "Static recompilation of Link's Awakening (Switch) to native macOS, Windows, Linux, iOS and Android.",
     "version": "v0.6.1",
     "releasedAt": "2026-11-23",
@@ -783,7 +783,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 87,
+    "stars": 88,
     "description": "SplatPC SPLATOON 1 PORT",
     "version": "v1.0.10",
     "releasedAt": "2026-11-23",
@@ -888,7 +888,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 282,
+    "stars": 283,
     "description": "Def Jam: Fight for NY PC port — static recompilation of the original Xbox game for native Windows and macOS (Direct3D 11 / Vulkan). Bring your own game dump.",
     "version": "v1.2.2",
     "releasedAt": "2026-11-23",
@@ -914,10 +914,113 @@
     "description": "Native Windows port of Dead or Alive 3 (Xbox), built by static recompilation with a hand-written runtime. Requires your own copy of the game.",
     "version": "v0.8.0",
     "releasedAt": "2026-11-23",
-    "sizeBytes": 27975928,
+    "sizeBytes": 27977124,
     "releaseUrl": "https://github.com/NoRain211/doa3-re/releases/tag/v0.8.0",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
+  },
+  {
+    "id": "bhuiyah-ff7-recomp-android",
+    "repo": "bhuiyah/ff7-recomp-android",
+    "title": "Ff 7 Android",
+    "game": null,
+    "author": "bhuiyah",
+    "console": "PC",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Android"
+    ],
+    "stars": 120,
+    "description": "FINAL FANTASY VII (PC) statically recompiled to native ARM64 Android, with an FFNx renderer and a 7th Heaven-style mod launcher. No game files included.",
+    "version": "v1.1.42",
+    "releasedAt": "2026-11-23",
+    "sizeBytes": 97296867,
+    "releaseUrl": "https://github.com/bhuiyah/ff7-recomp-android/releases/tag/v1.1.42",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
+  },
+  {
+    "id": "gamboozino-ngbrecomp",
+    "repo": "gamboozino/ngbrecomp",
+    "title": "Ninja Gaiden Black",
+    "game": "ninja-gaiden-black",
+    "author": "gamboozino",
+    "console": "Xbox",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "Android"
+    ],
+    "stars": 377,
+    "description": "Ninja Gaiden Black (Xbox, 2005) statically recompiled into native Linux and Windows builds, with an experimental Android port, drawn by its own Vulkan renderer. A steady 60 fps, widescreen and ultrawide, keyboard and mouse, touch controls on Android, Steam Deck ready. Bring your own copy of the game.",
+    "version": "v0.9.83",
+    "releasedAt": "2026-11-23",
+    "sizeBytes": 42072568,
+    "releaseUrl": "https://github.com/gamboozino/ngbrecomp/releases/tag/v0.9.83",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
+  },
+  {
+    "id": "mysteriousaeon-rayman3-hd-recompiled",
+    "repo": "MysteriousAeon/rayman3-hd-recompiled",
+    "title": "Rayman 3 HD",
+    "game": null,
+    "author": "MysteriousAeon",
+    "console": "Xbox 360",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows"
+    ],
+    "stars": 96,
+    "description": "A native Windows port of Rayman 3 HD (Xbox 360) using static recompilation, with HD+ enhancements and Turkish localization.",
+    "version": "v1.3.1",
+    "releasedAt": "2026-11-23",
+    "sizeBytes": 45089122,
+    "releaseUrl": "https://github.com/MysteriousAeon/rayman3-hd-recompiled/releases/tag/v1.3.1",
+    "licenseId": "NOASSERTION",
+    "licenseUrl": null,
+    "curated": true
+  },
+  {
+    "id": "allenwalkered-nier-reincarnation-pc",
+    "repo": "AllenWalkerED/nier-reincarnation-pc",
+    "title": "NieR Re[in]carnation",
+    "game": null,
+    "author": "AllenWalkerED",
+    "console": "PC",
+    "mechanism": "native",
+    "platforms": [
+      "PC"
+    ],
+    "stars": 162,
+    "description": "Unofficial PC port of NieR Re[in]carnation (Global 3.7.1): local server, Android runtime, launcher. Bring your own game files.",
+    "version": "v1.2",
+    "releasedAt": "2026-11-23",
+    "sizeBytes": 213378868,
+    "releaseUrl": "https://github.com/AllenWalkerED/nier-reincarnation-pc/releases/tag/v1.2",
+    "licenseId": "AGPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/agpl-3.0"
+  },
+  {
+    "id": "undecuple-project-helghast",
+    "repo": "undecuple/project-helghast",
+    "title": "Killzone 3",
+    "game": null,
+    "author": "undecuple",
+    "console": "PlayStation 3",
+    "mechanism": "in-progress",
+    "platforms": [],
+    "stars": 177,
+    "description": "Killzone 3 // Unofficial PC Port (static recompilation). Work in progress, partly playable. Builds on your PC from your own game.",
+    "version": null,
+    "releasedAt": "2026-11-23",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/undecuple/project-helghast/releases",
+    "licenseId": "MIT",
+    "licenseUrl": "https://api.github.com/licenses/mit",
     "curated": true
   },
   {
@@ -932,7 +1035,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 580,
+    "stars": 581,
     "description": "A native Windows PC port of Super Mario Odyssey by static recompilation. Bring your own game: no game files included.",
     "version": "v0.9.0",
     "releasedAt": "2026-11-22",
@@ -1079,7 +1182,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 8128,
+    "stars": 8130,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.5.0",
     "releasedAt": "2026-11-22",
@@ -1110,26 +1213,6 @@
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
-  },
-  {
-    "id": "bhuiyah-ff7-recomp-android",
-    "repo": "bhuiyah/ff7-recomp-android",
-    "title": "Ff 7 Android",
-    "game": null,
-    "author": "bhuiyah",
-    "console": "PC",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Android"
-    ],
-    "stars": 120,
-    "description": "FINAL FANTASY VII (PC) statically recompiled to native ARM64 Android, with an FFNx renderer and a 7th Heaven-style mod launcher. No game files included.",
-    "version": "v1.1.41",
-    "releasedAt": "2026-11-22",
-    "sizeBytes": 97232555,
-    "releaseUrl": "https://github.com/bhuiyah/ff7-recomp-android/releases/tag/v1.1.41",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
   },
   {
     "id": "zeldaret-mm",
@@ -1219,7 +1302,7 @@
     "console": "PlayStation 3",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 79,
+    "stars": 80,
     "description": "Unofficial PC port of Gran Turismo 5 on ps3recomp. Needs your own GT5 disc, EBOOT v1.00, no update: Europe BCES00569 (tested) or US BCUS98114 (untested). Code and tools only: no game files, keys or firmware.",
     "version": "v0.1.110",
     "releasedAt": "2026-11-22",
@@ -1227,29 +1310,6 @@
     "releaseUrl": "https://github.com/MormonFTP-hub/gt5-recomp/releases/tag/v0.1.110",
     "licenseId": "MIT",
     "licenseUrl": "https://api.github.com/licenses/mit"
-  },
-  {
-    "id": "gamboozino-ngbrecomp",
-    "repo": "gamboozino/ngbrecomp",
-    "title": "Ninja Gaiden Black",
-    "game": "ninja-gaiden-black",
-    "author": "gamboozino",
-    "console": "Xbox",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "Android"
-    ],
-    "stars": 377,
-    "description": "Ninja Gaiden Black (Xbox, 2005) statically recompiled into native Linux and Windows builds, with an experimental Android port, drawn by its own Vulkan renderer. A steady 60 fps, widescreen and ultrawide, keyboard and mouse, touch controls on Android, Steam Deck ready. Bring your own copy of the game.",
-    "version": "v0.9.82",
-    "releasedAt": "2026-11-22",
-    "sizeBytes": 42072568,
-    "releaseUrl": "https://github.com/gamboozino/ngbrecomp/releases/tag/v0.9.82",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
-    "curated": true
   },
   {
     "id": "timboat-demons-souls-recomp",
@@ -1317,27 +1377,6 @@
     "releaseUrl": "https://github.com/zer0ducksgiven/Forza-Motorsport-2-ReGPU/releases/tag/v0.14.1",
     "licenseId": "MIT",
     "licenseUrl": "https://api.github.com/licenses/mit",
-    "curated": true
-  },
-  {
-    "id": "mysteriousaeon-rayman3-hd-recompiled",
-    "repo": "MysteriousAeon/rayman3-hd-recompiled",
-    "title": "Rayman 3 HD",
-    "game": null,
-    "author": "MysteriousAeon",
-    "console": "Xbox 360",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows"
-    ],
-    "stars": 95,
-    "description": "A native Windows port of Rayman 3 HD (Xbox 360) using static recompilation, with HD+ enhancements and Turkish localization.",
-    "version": "v1.3.0",
-    "releasedAt": "2026-11-22",
-    "sizeBytes": 45086799,
-    "releaseUrl": "https://github.com/MysteriousAeon/rayman3-hd-recompiled/releases/tag/v1.3.0",
-    "licenseId": "NOASSERTION",
-    "licenseUrl": null,
     "curated": true
   },
   {
@@ -1410,26 +1449,6 @@
     "licenseId": "MIT",
     "licenseUrl": "https://api.github.com/licenses/mit",
     "curated": true
-  },
-  {
-    "id": "allenwalkered-nier-reincarnation-pc",
-    "repo": "AllenWalkerED/nier-reincarnation-pc",
-    "title": "NieR Re[in]carnation",
-    "game": null,
-    "author": "AllenWalkerED",
-    "console": "PC",
-    "mechanism": "native",
-    "platforms": [
-      "PC"
-    ],
-    "stars": 146,
-    "description": "Unofficial PC port of NieR Re[in]carnation (Global 3.7.1): local server, Android runtime, launcher. Bring your own game files.",
-    "version": "v1.1",
-    "releasedAt": "2026-11-22",
-    "sizeBytes": 213378231,
-    "releaseUrl": "https://github.com/AllenWalkerED/nier-reincarnation-pc/releases/tag/v1.1",
-    "licenseId": "AGPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/agpl-3.0"
   },
   {
     "id": "cadugimenes-sanctuaryport",
@@ -1590,7 +1609,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 557,
+    "stars": 558,
     "description": "This is an open source, all-in-one, static recompilation project that I built from the ground up for the Xbox 360 Gears of War series. All 4 games have been personally recompiled for use with a fully native renderer by me.",
     "version": "0.6.7",
     "releasedAt": "2026-11-21",
@@ -1736,7 +1755,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 93,
+    "stars": 94,
     "description": "Unofficial native PC ports of the classic Monster Hunter games via static recompilation, starting with Freedom Unite. No emulator. Bring your own copy",
     "version": "v0.12.1",
     "releasedAt": "2026-11-21",
@@ -2097,7 +2116,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 1358,
+    "stars": 1361,
     "description": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows and Linux with Vulkan. 0.5.1 out: NVIDIA shader cache fix, player 2 rumble; one-file Windows launcher, presets, local co-op, 16:10, Thai. Requirements: docs/requirements.md. Roadmap: #10. No game files included.",
     "version": "v0.5.1",
     "releasedAt": "2026-11-20",
@@ -2147,25 +2166,6 @@
     "releaseUrl": "https://github.com/u0rhs/burnout3-native/releases/tag/v1.3.0",
     "licenseId": "MIT",
     "licenseUrl": "https://api.github.com/licenses/mit"
-  },
-  {
-    "id": "undecuple-project-helghast",
-    "repo": "undecuple/project-helghast",
-    "title": "Killzone 3",
-    "game": null,
-    "author": "undecuple",
-    "console": "PlayStation 3",
-    "mechanism": "in-progress",
-    "platforms": [],
-    "stars": 177,
-    "description": "Killzone 3 // Unofficial PC Port (static recompilation). Work in progress, partly playable. Builds on your PC from your own game.",
-    "version": null,
-    "releasedAt": "2026-11-20",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/undecuple/project-helghast/releases",
-    "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit",
-    "curated": true
   },
   {
     "id": "chrissotraidis-paperpad",
@@ -2321,7 +2321,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 1459,
+    "stars": 1475,
     "description": "Static recompilation research for Xbox Series X|S software on x64 Windows, with source-built CPU and GPU tests. Full-game startup is unverified.",
     "version": "gpu-check-v0.1.0",
     "releasedAt": "2026-11-20",
@@ -2363,7 +2363,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 488,
+    "stars": 489,
     "description": "The 2012 Forza Horizon, native on Windows and Linux, and online again: Horizon World, leaderboards and Rivals on a public server you can also self-host. Bring your own copy.",
     "version": "v0.3.9",
     "releasedAt": "2026-11-19",
@@ -2615,7 +2615,7 @@
     "platforms": [
       "PC"
     ],
-    "stars": 98,
+    "stars": 99,
     "description": "Native Windows PC recompilation of the unreleased GoldenEye 007 Xbox 360/XBLA remaster using ReXGlue. Requires your own copy.",
     "version": "v0.9.7d",
     "releasedAt": "2026-11-18",
@@ -2917,7 +2917,7 @@
       "Linux",
       "Android"
     ],
-    "stars": 68,
+    "stars": 69,
     "description": "AI Driven Project to Port Monster Hunter Freedom Unite Natively on Windows and Android, Multiplayer Supports across Platform and Regions.",
     "version": "v0.4.9",
     "releasedAt": "2026-11-17",
@@ -3787,7 +3787,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 277,
+    "stars": 278,
     "description": "Native Windows PC port of God of War (PS2), built by statically recompiling MIPS R5900 code to C++ with PS2Recomp. Includes an installer launcher, one-click build, fan-translation support and a 60 fps target. No game files included: you need your own copy.",
     "version": "v0.6.1",
     "releasedAt": "2026-11-14",
@@ -4088,7 +4088,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5645,
+    "stars": 5647,
     "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
     "version": "windows-v1.9.8.6",
     "releasedAt": "2026-11-13",
@@ -4362,7 +4362,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 60,
+    "stars": 61,
     "description": "God of War: Betrayal, remastered for Windows. A native PC port of the 2007 J2ME phone game with widescreen, high frame rates and gamepad support. Bring your own .jar.",
     "version": "gow-v1.0.1",
     "releasedAt": "2026-11-12",
@@ -4678,7 +4678,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 433,
+    "stars": 434,
     "description": "Super Mario Strikers for PC, Mac, Linux & Nintendo Switch. Ported from decompiled code. Not a recompilation.",
     "version": "v2.0.0",
     "releasedAt": "2026-11-09",
@@ -4787,7 +4787,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 942,
+    "stars": 943,
     "description": "Xbox 360 to PC port of Dante's Inferno using ReXGlue (static recompilation)",
     "version": "v0.8.6-beta-hotfix",
     "releasedAt": "2026-11-08",
@@ -4974,7 +4974,7 @@
     "console": "PlayStation 3",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 114,
+    "stars": 115,
     "description": "God of War: Ascension native PC port (static recompilation, bring your own disc)",
     "version": "v2026.11.08",
     "releasedAt": "2026-11-08",
@@ -4993,7 +4993,7 @@
     "console": "Xbox",
     "mechanism": "native",
     "platforms": [],
-    "stars": 140,
+    "stars": 139,
     "description": "Unofficial native Windows port of Star Wars: Episode III - Revenge of the Sith (Xbox). Bring your own copy.",
     "version": null,
     "releasedAt": "2026-11-07",
@@ -5291,7 +5291,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 164,
+    "stars": 165,
     "description": "An unofficial original Xbox version PC port of 007: Nightfire via static recompilation.",
     "version": "V2",
     "releasedAt": "2026-11-05",
@@ -5401,7 +5401,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 785,
+    "stars": 787,
     "description": "PC port of Dragon Ball Z: Budokai Tenkaichi 3, built on the BT3-Decompiled project.",
     "version": "v0.1.39.6",
     "releasedAt": "2026-11-03",
@@ -5809,7 +5809,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 34356,
+    "stars": 34358,
     "description": "PlayStation 4 emulator for Windows, Linux, macOS and FreeBSD written in C++",
     "version": "v.0.21.0",
     "releasedAt": "2026-10-30",
@@ -6017,7 +6017,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 249,
+    "stars": 250,
     "description": "Static recompilation of Midnight Club: Los Angeles (Xbox 360) for PC and PS5. No game data included.",
     "version": "v1.0.14",
     "releasedAt": "2026-10-29",
@@ -6203,7 +6203,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 4186,
+    "stars": 4187,
     "description": "Bloodborne (v1.09) running natively on Linux and Windows: the game's x86-64 code runs as is, GPU side translated to Vulkan; FSR 4 / DLSS, co-op (BBSC). Bring your own dump.",
     "version": "0.7",
     "releasedAt": "2026-10-28",
@@ -8605,7 +8605,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 378,
+    "stars": 379,
     "description": "Silent Hill: Downpour — native Windows PC port via static recompilation of the Xbox 360 binary. v1.0 stable: 60 FPS unlocked, ROV warm-cache, standalone launcher, DualSense adaptive triggers, portable saves. Tested on USA + Europe X360 dumps.",
     "version": "v1.1.8",
     "releasedAt": "2026-09-02",
