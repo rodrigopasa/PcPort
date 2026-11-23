@@ -247,7 +247,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 989,
+    "stars": 991,
     "description": "A cozy life-simulation and sandbox builder with fantastical creatures (Switch 2), recompiled to run natively on Windows, Linux and macOS. Multiplayer, all events, modding, enhancements and more. Discord: https://discord.recompia.com",
     "version": "v0.17.0",
     "releasedAt": "2026-11-23",
@@ -554,7 +554,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 2557,
+    "stars": 2558,
     "description": "Static recompilation of Link's Awakening (Switch) to native macOS, Windows, Linux, iOS and Android.",
     "version": "v0.6.1",
     "releasedAt": "2026-11-23",
@@ -575,7 +575,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 47,
+    "stars": 48,
     "description": "A PC port of Twisted Metal 2 (PlayStation, 1996)",
     "version": "v1.0.12",
     "releasedAt": "2026-11-23",
@@ -677,7 +677,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 48,
+    "stars": 49,
     "description": "AI-written static recompilation of Mario Party (N64, USA) for PC and the web. Bring your own ROM.",
     "version": "v0.2.16",
     "releasedAt": "2026-11-23",
@@ -762,7 +762,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 267,
+    "stars": 268,
     "description": "Experimental static recompilation of Mario Kart 8 Deluxe 4.0.1 for Windows x64 and Linux amd64. Native Vulkan runtime, Mii creator, online play via Nextendo and Steam rooms. Bring your own game files and keys: no ROMs, assets or keys included.",
     "version": "v0.6.1",
     "releasedAt": "2026-11-23",
@@ -995,7 +995,7 @@
     "platforms": [
       "PC"
     ],
-    "stars": 162,
+    "stars": 171,
     "description": "Unofficial PC port of NieR Re[in]carnation (Global 3.7.1): local server, Android runtime, launcher. Bring your own game files.",
     "version": "v1.2",
     "releasedAt": "2026-11-23",
@@ -1035,14 +1035,100 @@
       "Windows",
       "Linux"
     ],
-    "stars": 581,
+    "stars": 582,
     "description": "A native Windows PC port of Super Mario Odyssey by static recompilation. Bring your own game: no game files included.",
-    "version": "v0.9.0",
-    "releasedAt": "2026-11-22",
-    "sizeBytes": 231323027,
-    "releaseUrl": "https://github.com/Simon3Sarkis/super-odyssey-pc-recomp/releases/tag/v0.9.0",
+    "version": "v1.0.0",
+    "releasedAt": "2026-11-23",
+    "sizeBytes": 231424351,
+    "releaseUrl": "https://github.com/Simon3Sarkis/super-odyssey-pc-recomp/releases/tag/v1.0.0",
     "licenseId": "NOASSERTION",
     "licenseUrl": null
+  },
+  {
+    "id": "yuutatsubasa-chaotixrecompiled",
+    "repo": "YuutaTsubasa/ChaotixRecompiled",
+    "title": "Knuckles' Chaotix",
+    "game": "knuckles-chaotix",
+    "author": "YuutaTsubasa",
+    "console": "Sega 32X",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Android",
+      "iOS"
+    ],
+    "stars": 75,
+    "description": "Static recompilation of the Sega 32X game Knuckles' Chaotix into native C++ (Windows/Linux/macOS/Android), with true widescreen. Bring your own ROM; no game data included.",
+    "version": "v0.15.24",
+    "releasedAt": "2026-11-23",
+    "sizeBytes": 33140184,
+    "releaseUrl": "https://github.com/YuutaTsubasa/ChaotixRecompiled/releases/tag/v0.15.24",
+    "licenseId": "MIT",
+    "licenseUrl": "https://api.github.com/licenses/mit",
+    "curated": true
+  },
+  {
+    "id": "denzi-gh-crashwoc-nuworld",
+    "repo": "denzi-gh/crashwoc-nuworld",
+    "title": "Crash Bandicoot: The Wrath of Cortex",
+    "game": null,
+    "author": "denzi-gh",
+    "console": "PlayStation 2",
+    "mechanism": "native",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 95,
+    "description": "Native PC port of Crash Bandicoot: The Wrath of Cortex, built on its decompilation",
+    "version": "v0.10.1",
+    "releasedAt": "2026-11-23",
+    "sizeBytes": 7130460,
+    "releaseUrl": "https://github.com/denzi-gh/crashwoc-nuworld/releases/tag/v0.10.1",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
+  },
+  {
+    "id": "ajncsystem-shadowofthecolossus-pc",
+    "repo": "AjncSystem/ShadowOfTheColossus-PC",
+    "title": "Shadow of the Colossus",
+    "game": "sotc-ps4",
+    "author": "AjncSystem",
+    "console": "PlayStation 4",
+    "mechanism": "native",
+    "platforms": [
+      "PC"
+    ],
+    "stars": 2032,
+    "description": "Native Windows port of Shadow of the Colossus (PS4, CUSA08809) - bring your own game dump. Port nativo para PC.",
+    "version": "v0.77",
+    "releasedAt": "2026-11-23",
+    "sizeBytes": 155228419,
+    "releaseUrl": "https://github.com/AjncSystem/ShadowOfTheColossus-PC/releases/tag/v0.77",
+    "licenseId": "GPL-2.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-2.0",
+    "curated": true
+  },
+  {
+    "id": "russophone-tomodachi-ltd-recomp",
+    "repo": "RussoPhone/tomodachi-ltd-recomp",
+    "title": "Tomodachi Life: Living the Dream",
+    "game": null,
+    "author": "RussoPhone",
+    "console": "Nintendo Switch",
+    "mechanism": "in-progress",
+    "platforms": [],
+    "stars": 69,
+    "description": "Unofficial native PC port (alpha) of Tomodachi Life: Living the Dream, built on your computer from your own copy. Linux first. NO game files, firmware or keys included.",
+    "version": null,
+    "releasedAt": "2026-11-23",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/RussoPhone/tomodachi-ltd-recomp/releases",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
   },
   {
     "id": "elie-0066-spr-recomp-project",
@@ -1182,7 +1268,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 8130,
+    "stars": 8133,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.5.0",
     "releasedAt": "2026-11-22",
@@ -1426,31 +1512,6 @@
     "curated": true
   },
   {
-    "id": "yuutatsubasa-chaotixrecompiled",
-    "repo": "YuutaTsubasa/ChaotixRecompiled",
-    "title": "Knuckles' Chaotix",
-    "game": "knuckles-chaotix",
-    "author": "YuutaTsubasa",
-    "console": "Sega 32X",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "macOS",
-      "Android",
-      "iOS"
-    ],
-    "stars": 75,
-    "description": "Static recompilation of the Sega 32X game Knuckles' Chaotix into native C++ (Windows/Linux/macOS/Android), with true widescreen. Bring your own ROM; no game data included.",
-    "version": "v0.15.23",
-    "releasedAt": "2026-11-22",
-    "sizeBytes": 33110268,
-    "releaseUrl": "https://github.com/YuutaTsubasa/ChaotixRecompiled/releases/tag/v0.15.23",
-    "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit",
-    "curated": true
-  },
-  {
     "id": "cadugimenes-sanctuaryport",
     "repo": "CaduGimenes/SanctuaryPort",
     "title": "Diablo III: Reaper of Souls – Ultimate Evil Edition",
@@ -1590,7 +1651,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 577,
+    "stars": 578,
     "description": "PC, Android, iOS and macOS port of the ICO (PS2) decompilation (nathanialf/ico): Windows, Linux, Steam Deck, Android, iPhone via LiveContainer and Apple-silicon Mac (contributed). Contains no game data.",
     "version": "v0.11.14",
     "releasedAt": "2026-11-21",
@@ -2270,27 +2331,6 @@
     "curated": true
   },
   {
-    "id": "denzi-gh-crashwoc-nuworld",
-    "repo": "denzi-gh/crashwoc-nuworld",
-    "title": "Crash Bandicoot: The Wrath of Cortex",
-    "game": null,
-    "author": "denzi-gh",
-    "console": "PlayStation 2",
-    "mechanism": "native",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 95,
-    "description": "Native PC port of Crash Bandicoot: The Wrath of Cortex, built on its decompilation",
-    "version": "v0.10.0",
-    "releasedAt": "2026-11-20",
-    "sizeBytes": 7127779,
-    "releaseUrl": "https://github.com/denzi-gh/crashwoc-nuworld/releases/tag/v0.10.0",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
-  },
-  {
     "id": "teclilla18-sonic-riders-recomp",
     "repo": "teclilla18/sonic-riders-recomp",
     "title": "Sonic Riders",
@@ -2301,7 +2341,7 @@
     "platforms": [
       "Linux"
     ],
-    "stars": 81,
+    "stars": 82,
     "description": "Native port of Sonic Riders (GameCube) for Windows, Linux / Steam Deck, Nintendo Switch, Switch 2 (experimental alpha), Android and iPhone / iPad. Built from your own disc image; no game data included.",
     "version": "v0.9.0",
     "releasedAt": "2026-11-20",
@@ -2321,7 +2361,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 1475,
+    "stars": 1482,
     "description": "Static recompilation research for Xbox Series X|S software on x64 Windows, with source-built CPU and GPU tests. Full-game startup is unverified.",
     "version": "gpu-check-v0.1.0",
     "releasedAt": "2026-11-20",
@@ -2363,7 +2403,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 489,
+    "stars": 490,
     "description": "The 2012 Forza Horizon, native on Windows and Linux, and online again: Horizon World, leaderboards and Rivals on a public server you can also self-host. Bring your own copy.",
     "version": "v0.3.9",
     "releasedAt": "2026-11-19",
@@ -2615,7 +2655,7 @@
     "platforms": [
       "PC"
     ],
-    "stars": 99,
+    "stars": 100,
     "description": "Native Windows PC recompilation of the unreleased GoldenEye 007 Xbox 360/XBLA remaster using ReXGlue. Requires your own copy.",
     "version": "v0.9.7d",
     "releasedAt": "2026-11-18",
@@ -2881,27 +2921,6 @@
     "releaseUrl": "https://github.com/alondero/aerogauge-recomp/releases/tag/v0.7.1",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
-    "curated": true
-  },
-  {
-    "id": "ajncsystem-shadowofthecolossus-pc",
-    "repo": "AjncSystem/ShadowOfTheColossus-PC",
-    "title": "Shadow of the Colossus",
-    "game": "sotc-ps4",
-    "author": "AjncSystem",
-    "console": "PlayStation 4",
-    "mechanism": "native",
-    "platforms": [
-      "PC"
-    ],
-    "stars": 2032,
-    "description": "Native Windows port of Shadow of the Colossus (PS4, CUSA08809) - bring your own game dump. Port nativo para PC.",
-    "version": "v0.76.2",
-    "releasedAt": "2026-11-17",
-    "sizeBytes": 155153600,
-    "releaseUrl": "https://github.com/AjncSystem/ShadowOfTheColossus-PC/releases/tag/v0.76.2",
-    "licenseId": "GPL-2.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-2.0",
     "curated": true
   },
   {
@@ -3288,25 +3307,6 @@
     "curated": true
   },
   {
-    "id": "russophone-tomodachi-ltd-recomp",
-    "repo": "RussoPhone/tomodachi-ltd-recomp",
-    "title": "Tomodachi Life: Living the Dream",
-    "game": null,
-    "author": "RussoPhone",
-    "console": "Nintendo Switch",
-    "mechanism": "in-progress",
-    "platforms": [],
-    "stars": 69,
-    "description": "Unofficial native PC port (alpha) of Tomodachi Life: Living the Dream, built on your computer from your own copy. Linux first. NO game files, firmware or keys included.",
-    "version": null,
-    "releasedAt": "2026-11-16",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/RussoPhone/tomodachi-ltd-recomp/releases",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
-    "curated": true
-  },
-  {
     "id": "droogie-bbhost",
     "repo": "droogie/bbhost",
     "title": "Bloodborne",
@@ -3417,7 +3417,7 @@
       "macOS",
       "iOS"
     ],
-    "stars": 377,
+    "stars": 378,
     "description": "The iOS and MacOS port of Xenia, the Xbox 360 Emulator Research project.",
     "version": "release-v2.3.3-build-11940",
     "releasedAt": "2026-11-15",
@@ -3743,7 +3743,7 @@
       "Windows",
       "macOS"
     ],
-    "stars": 987,
+    "stars": 988,
     "description": "An unofficial PC port of the Xbox 360 version of Sonic the Hedgehog (2006) created through the process of static recompilation",
     "version": "v1.0.0",
     "releasedAt": "2026-11-14",
@@ -3833,7 +3833,7 @@
       "Linux",
       "Android"
     ],
-    "stars": 351,
+    "stars": 352,
     "description": "CrashBandicoot native pc port",
     "version": "2.6",
     "releasedAt": "2026-11-14",
@@ -4088,7 +4088,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5647,
+    "stars": 5649,
     "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
     "version": "windows-v1.9.8.6",
     "releasedAt": "2026-11-13",
@@ -4486,7 +4486,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 968,
+    "stars": 967,
     "description": "Unofficial native PC and Steam Deck port of Tears of the Kingdom 1.4.3 using static recompilation. Builds locally from the player's own extracted game dump; no game files included.",
     "version": "v0.4.0",
     "releasedAt": "2026-11-11",
@@ -4655,7 +4655,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 130,
+    "stars": 131,
     "description": "13 Sentinels: Aegis Rim native PC port for Windows and Linux, with direct PS4 PKG installation, TRG launcher and modern graphics options",
     "version": "v0.1.0",
     "releasedAt": "2026-11-09",
@@ -5357,7 +5357,7 @@
     "platforms": [
       "Linux"
     ],
-    "stars": 40,
+    "stars": 41,
     "description": "Obtainium for Steam Deck: keep recomps, PC ports and emulators updated and in your Steam library",
     "version": "v0.1.0",
     "releasedAt": "2026-11-04",
@@ -5617,7 +5617,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 318,
+    "stars": 319,
     "description": "GTA V (Xbox 360, TU27) static recompilation with ReXGlue",
     "version": "v0.3.0",
     "releasedAt": "2026-11-02",
@@ -5704,7 +5704,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 403,
+    "stars": 404,
     "description": "Breath of the Wild (Wii U, v1.5.0) statically recompiled to a native Windows program with a Vulkan renderer. ",
     "version": "v0.1.2",
     "releasedAt": "2026-10-31",
@@ -5809,7 +5809,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 34358,
+    "stars": 34359,
     "description": "PlayStation 4 emulator for Windows, Linux, macOS and FreeBSD written in C++",
     "version": "v.0.21.0",
     "releasedAt": "2026-10-30",
@@ -5998,7 +5998,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 986,
+    "stars": 987,
     "description": "An unofficial original Xbox version PC port of BLACK (2006) via static recompilation.",
     "version": "V3",
     "releasedAt": "2026-10-29",
@@ -6203,7 +6203,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 4187,
+    "stars": 4188,
     "description": "Bloodborne (v1.09) running natively on Linux and Windows: the game's x86-64 code runs as is, GPU side translated to Vulkan; FSR 4 / DLSS, co-op (BBSC). Bring your own dump.",
     "version": "0.7",
     "releasedAt": "2026-10-28",
@@ -6491,7 +6491,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 8226,
+    "stars": 8227,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -7336,7 +7336,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 96,
+    "stars": 97,
     "description": "Original open-source static recompilation of Tekken 6 (Xbox 360) for native execution on PC. This project provides the recompilation foundation used by downstream projects including Tekken6 Native Online.",
     "version": "Iterate",
     "releasedAt": "2026-10-16",
@@ -8674,7 +8674,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2518,
+    "stars": 2519,
     "description": "2 Ship 2 Harkinian: a PC port of Majora's Mask built from the decompilation, with widescreen, high resolution and mod support.",
     "version": "5.0.1",
     "releasedAt": "2026-08-25",
@@ -8737,7 +8737,7 @@
     "console": "Xbox 360",
     "mechanism": "native",
     "platforms": [],
-    "stars": 607,
+    "stars": 608,
     "description": "static Recomp of AC6 with Rexglue",
     "version": null,
     "releasedAt": "2026-08-22",
