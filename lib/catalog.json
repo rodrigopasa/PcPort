@@ -122,7 +122,7 @@
     "console": "PlayStation 4",
     "mechanism": "native",
     "platforms": [],
-    "stars": 225,
+    "stars": 226,
     "description": "A decompilation of Bloodborne (CUSA03173 v1.09) with its own runtime: the game's code rewritten as readable C++, one verified function at a time. The game doesn't run on it yet; 21 functions verified. No game files included.",
     "version": null,
     "releasedAt": "2026-11-23",
@@ -247,7 +247,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 981,
+    "stars": 982,
     "description": "A cozy life-simulation and sandbox builder with fantastical creatures (Switch 2), recompiled to run natively on Windows, Linux and macOS. Multiplayer, all events, modding, enhancements and more. Discord: https://discord.recompia.com",
     "version": "v0.17.0",
     "releasedAt": "2026-11-23",
@@ -287,7 +287,7 @@
     "console": "Xbox",
     "mechanism": "native",
     "platforms": [],
-    "stars": 156,
+    "stars": 157,
     "description": "Halo 2 decompilation (decomp) for the original Xbox: a matching decompilation of the retail game into C/C++ source, rebuilt byte for byte, toward native PC, Linux and handheld ports. Contributors welcome. Source only; bring your own disc.",
     "version": null,
     "releasedAt": "2026-11-23",
@@ -309,7 +309,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 323,
+    "stars": 324,
     "description": "Ninja Gaiden II (Xbox 360, 2008) statically recompiled into native Linux and Windows builds, drawn by its own Vulkan renderer. A steady 60 fps, up to 8x render scale, widescreen and ultrawide, keyboard and mouse, mods, Steam Deck ready. Bring your own copy of the game.",
     "version": "v0.7.3",
     "releasedAt": "2026-11-23",
@@ -350,7 +350,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 443,
+    "stars": 444,
     "description": "An unofficial PC port of the Xbox version of Shadow the Hedgehog, created through the process of static recompilation. ",
     "version": "v1.0.1",
     "releasedAt": "2026-11-23",
@@ -436,10 +436,10 @@
     ],
     "stars": 238,
     "description": "Mega Man X recompiled for the Super Nintendo using snesrecomp · Part of the R.A.I.D. community",
-    "version": "v2.4.4",
+    "version": "v2.4.5",
     "releasedAt": "2026-11-23",
-    "sizeBytes": 16454210,
-    "releaseUrl": "https://github.com/mstan/MegaManXSNESRecomp/releases/tag/v2.4.4",
+    "sizeBytes": 16455188,
+    "releaseUrl": "https://github.com/mstan/MegaManXSNESRecomp/releases/tag/v2.4.5",
     "licenseId": "NOASSERTION",
     "licenseUrl": null,
     "curated": true
@@ -471,7 +471,7 @@
     "console": "Xbox 360",
     "mechanism": "native",
     "platforms": [],
-    "stars": 129,
+    "stars": 130,
     "description": "",
     "version": "v1.7.0",
     "releasedAt": "2026-11-23",
@@ -575,7 +575,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 45,
+    "stars": 46,
     "description": "A PC port of Twisted Metal 2 (PlayStation, 1996)",
     "version": "v1.0.11",
     "releasedAt": "2026-11-23",
@@ -629,6 +629,24 @@
     "curated": true
   },
   {
+    "id": "sozud-mmx4",
+    "repo": "sozud/mmx4",
+    "title": "Mega Man X4",
+    "game": null,
+    "author": "sozud",
+    "console": "PlayStation",
+    "mechanism": "in-progress",
+    "platforms": [],
+    "stars": 40,
+    "description": "A WIP decompilation of Mega Man X4 for the PS1.",
+    "version": null,
+    "releasedAt": "2026-11-23",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/sozud/mmx4/releases",
+    "licenseId": "AGPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/agpl-3.0"
+  },
+  {
     "id": "simon3sarkis-super-odyssey-pc-recomp",
     "repo": "Simon3Sarkis/super-odyssey-pc-recomp",
     "title": "Super Mario Odyssey by static recompilation",
@@ -640,7 +658,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 568,
+    "stars": 569,
     "description": "A native Windows PC port of Super Mario Odyssey by static recompilation. Bring your own game: no game files included.",
     "version": "v0.9.0",
     "releasedAt": "2026-11-22",
@@ -680,7 +698,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 75,
+    "stars": 76,
     "description": "Unofficial static recompilation of Splatoon Raiders (Switch 2) to native Linux/Windows x86-64 with a Vulkan renderer. No game data included: bring your own dump.",
     "version": "v0.2.1",
     "releasedAt": "2026-11-22",
@@ -802,7 +820,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 558,
+    "stars": 559,
     "description": "Dragon's Crown Pro native PC port for Windows, with direct PS4 PKG installation, TRG launcher and modern graphics options",
     "version": "v1.4.1",
     "releasedAt": "2026-11-22",
@@ -824,7 +842,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 8089,
+    "stars": 8096,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.5.0",
     "releasedAt": "2026-11-22",
@@ -1053,7 +1071,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2552,
+    "stars": 2553,
     "description": "Native PC port of P.T. (runs from your own PS4 game files)",
     "version": "v1.1.1",
     "releasedAt": "2026-11-22",
@@ -1125,24 +1143,6 @@
     "licenseId": "NOASSERTION",
     "licenseUrl": null,
     "curated": true
-  },
-  {
-    "id": "sozud-mmx4",
-    "repo": "sozud/mmx4",
-    "title": "Mega Man X4",
-    "game": null,
-    "author": "sozud",
-    "console": "PlayStation",
-    "mechanism": "in-progress",
-    "platforms": [],
-    "stars": 40,
-    "description": "A WIP decompilation of Mega Man X4 for the PS1.",
-    "version": null,
-    "releasedAt": "2026-11-22",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/sozud/mmx4/releases",
-    "licenseId": "AGPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/agpl-3.0"
   },
   {
     "id": "yuutatsubasa-free-riders-recompiled",
@@ -1226,7 +1226,7 @@
     "platforms": [
       "PC"
     ],
-    "stars": 94,
+    "stars": 99,
     "description": "Unofficial PC port of NieR Re[in]carnation (Global 3.7.1): local server, Android runtime, launcher. Bring your own game files.",
     "version": "v1.1",
     "releasedAt": "2026-11-22",
@@ -1982,7 +1982,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 1340,
+    "stars": 1343,
     "description": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows and Linux with Vulkan. 0.5.1 out: NVIDIA shader cache fix, player 2 rumble; one-file Windows launcher, presets, local co-op, 16:10, Thai. Requirements: docs/requirements.md. Roadmap: #10. No game files included.",
     "version": "v0.5.1",
     "releasedAt": "2026-11-20",
@@ -2206,8 +2206,8 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 1391,
-    "description": "GTA VI static recompilation research for x64 Windows. Source-built EXEs run on Windows, and two translated pixel shaders match reference outputs on hardware and WARP. Full-game startup is unverified.",
+    "stars": 1394,
+    "description": "Static recompilation research for Xbox Series X|S software on x64 Windows, with source-built CPU and GPU tests. Full-game startup is unverified.",
     "version": "gpu-check-v0.1.0",
     "releasedAt": "2026-11-20",
     "sizeBytes": 187311,
@@ -2563,7 +2563,7 @@
     "platforms": [
       "PC"
     ],
-    "stars": 47,
+    "stars": 48,
     "description": "Native PC port of Predator: Concrete Jungle (Xbox, 2005) by static recompilation. Build it from your own disc with Install.bat. No game data included.",
     "version": "v0.2.1",
     "releasedAt": "2026-11-18",
@@ -2951,7 +2951,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 79,
+    "stars": 80,
     "description": "A native PC port of Mario Kart Arcade GP and GP 2 by static recompilation. Builds the games from your own disc images.",
     "version": "v1.0.6",
     "releasedAt": "2026-11-17",
@@ -3440,7 +3440,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 131,
+    "stars": 132,
     "description": "The Oracles Project - A faithful, moddable port of Oracle of Ages and Oracle of Seasons for Windows, macOS, Linux and Android: your own ROM runs unmodified in SameBoy or mGBA, with a widescreen Enhanced mode, European languages, item hotkeys, Lua mods and fan games.",
     "version": "v1.5.0",
     "releasedAt": "2026-11-15",
@@ -3483,7 +3483,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 2353,
+    "stars": 2354,
     "description": "Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo",
     "version": "v0.3.15",
     "releasedAt": "2026-11-15",
@@ -3694,7 +3694,7 @@
       "Windows",
       "macOS"
     ],
-    "stars": 983,
+    "stars": 984,
     "description": "An unofficial PC port of the Xbox 360 version of Sonic the Hedgehog (2006) created through the process of static recompilation",
     "version": "v1.0.0",
     "releasedAt": "2026-11-14",
@@ -3975,7 +3975,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 598,
+    "stars": 600,
     "description": "Native PC port (Linux/Windows) of The Last Guardian (PS4, CUSA03627) — runs your own game dump; no game or firmware files included. Mouse/keyboard, optional 60 FPS, SMAA/CAS filters. | Port nativo para PC de The Last Guardian — usa o seu próprio dump.",
     "version": "v2026.11.14-ee3327d",
     "releasedAt": "2026-11-14",
@@ -5657,7 +5657,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 365,
+    "stars": 366,
     "description": "Burnout Revenge recompilation based on RexGlue + standalone Plume render",
     "version": "v0.4.10",
     "releasedAt": "2026-11-01",
@@ -5722,7 +5722,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 403,
+    "stars": 404,
     "description": "Breath of the Wild (Wii U, v1.5.0) statically recompiled to a native Windows program with a Vulkan renderer. ",
     "version": "v0.1.2",
     "releasedAt": "2026-10-31",
@@ -5871,7 +5871,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 522,
+    "stars": 523,
     "description": "An unofficial PC port of the Xbox 360 version of Spider-Man: Edge of Time created through the process of static recompilation.",
     "version": "v1.1",
     "releasedAt": "2026-10-30",
@@ -6221,7 +6221,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 4181,
+    "stars": 4182,
     "description": "Bloodborne (v1.09) running natively on Linux and Windows: the game's x86-64 code runs as is, GPU side translated to Vulkan; FSR 4 / DLSS, co-op (BBSC). Bring your own dump.",
     "version": "0.7",
     "releasedAt": "2026-10-28",
@@ -6660,7 +6660,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 218,
+    "stars": 219,
     "description": "Eternal Darkness: Sanity's Requiem static recompilation (DolRecomp + GXRuntime) for Mac, Windows and Linux / Steam Deck. Bring your own disc.",
     "version": "v0.9.6",
     "releasedAt": "2026-10-24",
@@ -6985,7 +6985,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 446,
+    "stars": 447,
     "description": "Call of Duty 3 (Xbox 360) static recompilation: host runtime, tools and notes",
     "version": null,
     "releasedAt": "2026-10-21",
@@ -7818,7 +7818,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 941,
+    "stars": 942,
     "description": "Recompilation of Blue Dragon",
     "version": "v1.3.1",
     "releasedAt": "2026-10-05",
@@ -9281,7 +9281,7 @@
     "console": "Xbox 360",
     "mechanism": "emulator",
     "platforms": [],
-    "stars": 9850,
+    "stars": 9851,
     "description": "Xbox 360 Emulator Research Project",
     "version": null,
     "releasedAt": "2026-02-18",
@@ -9632,7 +9632,7 @@
     "console": "SNES",
     "mechanism": "native",
     "platforms": [],
-    "stars": 5022,
+    "stars": 5023,
     "description": "",
     "version": "v0.3",
     "releasedAt": "2023-08-17",
