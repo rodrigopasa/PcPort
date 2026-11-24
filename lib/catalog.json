@@ -47,7 +47,7 @@
     "mechanism": "native",
     "platforms": [],
     "stars": 147,
-    "description": "The 🌋 Alchemy project is a reconstruction of the source code for both Golden Sun games on GameBoy Advance. It is a 100% matching decompilation, aimed at video game preservation.",
+    "description": "The 🌋 Alchemy project is a reconstruction of the source code for both Golden Sun games on GameBoy Advance aimed at video game preservation. It is a 100% matching decompilation.",
     "version": null,
     "releasedAt": "2026-11-24",
     "sizeBytes": null,
@@ -292,7 +292,7 @@
     "console": "PlayStation 2",
     "mechanism": "native",
     "platforms": [],
-    "stars": 177,
+    "stars": 178,
     "description": "In-progress matching decompilation of Silent Hill 3",
     "version": null,
     "releasedAt": "2026-11-24",
@@ -397,7 +397,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 579,
+    "stars": 580,
     "description": "PC, Android, iOS and macOS port of the ICO (PS2) decompilation (nathanialf/ico): Windows, Linux, Steam Deck, Android, iPhone via LiveContainer and Apple-silicon Mac (contributed). Contains no game data.",
     "version": "v0.11.15",
     "releasedAt": "2026-11-24",
@@ -458,7 +458,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 334,
+    "stars": 351,
     "description": "Continuation of Project Leonida, aiming to bring GTA VI from Xbox to PC through static recompilation.",
     "version": null,
     "releasedAt": "2026-11-24",
@@ -604,10 +604,10 @@
     ],
     "stars": 51,
     "description": "A PC port of Twisted Metal 2 (PlayStation, 1996)",
-    "version": "v1.0.14",
+    "version": "v1.0.15",
     "releasedAt": "2026-11-24",
-    "sizeBytes": 17963398,
-    "releaseUrl": "https://github.com/Tokatta007/OpenTM2/releases/tag/v1.0.14",
+    "sizeBytes": 17981969,
+    "releaseUrl": "https://github.com/Tokatta007/OpenTM2/releases/tag/v1.0.15",
     "licenseId": "NOASSERTION",
     "licenseUrl": null
   },
@@ -624,7 +624,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 91,
+    "stars": 92,
     "description": "Burnout 3: Takedown, native on every platform",
     "version": "v1.4.0",
     "releasedAt": "2026-11-24",
@@ -685,7 +685,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 63,
+    "stars": 64,
     "description": "Transformers (PS2, 2004) as a native PC game: static recompilation from your own disc, native Direct3D 12 renderer, up to 4K / 240 fps / ultrawide. Bring your own disc.",
     "version": "setup-v0.9.9-2",
     "releasedAt": "2026-11-24",
@@ -742,7 +742,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 122,
+    "stars": 123,
     "description": "An experimental Xbox Series X|S recompilation framework for Apple Silicon, targeting native ARM64 execution and RDNA-to-Metal graphics translation through XenoMetal.",
     "version": null,
     "releasedAt": "2026-11-24",
@@ -764,10 +764,10 @@
     ],
     "stars": 120,
     "description": "FINAL FANTASY VII (PC) statically recompiled to native ARM64 Android, with an FFNx renderer and a 7th Heaven-style mod launcher. No game files included.",
-    "version": "v1.1.45",
+    "version": "v1.1.46",
     "releasedAt": "2026-11-24",
-    "sizeBytes": 97618026,
-    "releaseUrl": "https://github.com/bhuiyah/ff7-recomp-android/releases/tag/v1.1.45",
+    "sizeBytes": 97619414,
+    "releaseUrl": "https://github.com/bhuiyah/ff7-recomp-android/releases/tag/v1.1.46",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
   },
@@ -784,7 +784,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 1399,
+    "stars": 1400,
     "description": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows and Linux with Vulkan. 0.5.2 out: TOTK to DKB rename, Feast Layer muck fix, 4 GB cards, Switch 2 controllers on USB; one-file Windows launcher. Requirements: docs/requirements.md. Roadmap: #10. No game files included.",
     "version": "v0.5.2",
     "releasedAt": "2026-11-24",
@@ -885,7 +885,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 146,
+    "stars": 150,
     "description": "Native PC port layer for an Xbox Series X|S title: the game's x64 code runs on your CPU and its RDNA2 GPU code is recompiled for your graphics card. Bring your own files.",
     "version": null,
     "releasedAt": "2026-11-24",
@@ -962,7 +962,7 @@
     "console": "PlayStation 3",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 363,
+    "stars": 364,
     "description": "Drakengard 3 (PS3) static recompilation using ps3recomp",
     "version": null,
     "releasedAt": "2026-11-24",
@@ -1070,6 +1070,92 @@
     "releasedAt": "2026-11-24",
     "sizeBytes": null,
     "releaseUrl": "https://github.com/jessetbh/WWFNoMercyRecomp/releases",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
+  },
+  {
+    "id": "mango77x-mhforever",
+    "repo": "Mango77x/MHForever",
+    "title": "Monster Hunter Freedom Unite",
+    "game": "monster-hunter-freedom-unite",
+    "author": "Mango77x",
+    "console": "PSP",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 96,
+    "description": "Unofficial native PC ports of the classic Monster Hunter games via static recompilation, starting with Freedom Unite. No emulator. Bring your own copy",
+    "version": "v0.13.0",
+    "releasedAt": "2026-11-24",
+    "sizeBytes": 241445736,
+    "releaseUrl": "https://github.com/Mango77x/MHForever/releases/tag/v0.13.0",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
+  },
+  {
+    "id": "ekspym-tekken6-native-online",
+    "repo": "Ekspym/Tekken6-native-online",
+    "title": "Tekken 6",
+    "game": "tekken-6",
+    "author": "Ekspym",
+    "console": "Xbox 360",
+    "mechanism": "native",
+    "platforms": [],
+    "stars": 487,
+    "description": "Tekken 6 (Xbox 360) native on Windows with rollback netcode - build from your own ISO",
+    "version": "v3.2.0",
+    "releasedAt": "2026-11-24",
+    "sizeBytes": 199864645,
+    "releaseUrl": "https://github.com/Ekspym/Tekken6-native-online/releases/tag/v3.2.0",
+    "licenseId": null,
+    "licenseUrl": null,
+    "curated": true
+  },
+  {
+    "id": "fearkov-zakuro",
+    "repo": "fearkov/zakuro",
+    "title": "Zakuro",
+    "game": null,
+    "author": "fearkov",
+    "console": "Nintendo 3DS",
+    "mechanism": "emulator",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "stars": 65,
+    "description": "Runtime for ports or recompilations of 3DS games.",
+    "version": "v0.2.33",
+    "releasedAt": "2026-11-24",
+    "sizeBytes": 40624751,
+    "releaseUrl": "https://github.com/fearkov/zakuro/releases/tag/v0.2.33",
+    "licenseId": "MIT",
+    "licenseUrl": "https://api.github.com/licenses/mit",
+    "curated": true
+  },
+  {
+    "id": "paulcombal-mw2-recompiled",
+    "repo": "PaulCombal/mw2-recompiled",
+    "title": "Call of Duty: Modern Warfare 2",
+    "game": "cod-mw2",
+    "author": "PaulCombal",
+    "console": "Xbox 360",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 215,
+    "description": "Call of Duty: Modern Warfare 2 (2009) for Xbox 360 recompiled for Windows & Linux",
+    "version": "v0.9.0",
+    "releasedAt": "2026-11-24",
+    "sizeBytes": 19479853,
+    "releaseUrl": "https://github.com/PaulCombal/mw2-recompiled/releases/tag/v0.9.0",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
@@ -1525,7 +1611,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 366,
+    "stars": 365,
     "description": "Burnout Revenge recompilation based on RexGlue + standalone Plume render",
     "version": "v0.4.19",
     "releasedAt": "2026-11-23",
@@ -1548,7 +1634,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 284,
+    "stars": 285,
     "description": "Def Jam: Fight for NY PC port — static recompilation of the original Xbox game for native Windows and macOS (Direct3D 11 / Vulkan). Bring your own game dump.",
     "version": "v1.2.2",
     "releasedAt": "2026-11-23",
@@ -1759,7 +1845,7 @@
     "console": "Game Boy Advance",
     "mechanism": "native",
     "platforms": [],
-    "stars": 3715,
+    "stars": 3716,
     "description": "Decompilation of Pokémon Emerald",
     "version": null,
     "releasedAt": "2026-11-23",
@@ -1782,7 +1868,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 40,
+    "stars": 41,
     "description": "A static recomp of Civilization Revolution.",
     "version": "v0.7.8",
     "releasedAt": "2026-11-23",
@@ -1846,7 +1932,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 104,
+    "stars": 105,
     "description": "A native PC port of SSX (2012), decoded from the Xbox 360 disc and rebuilt in Rust on Bevy.",
     "version": "v0.4.2",
     "releasedAt": "2026-11-22",
@@ -1864,7 +1950,7 @@
     "console": "Nintendo DS",
     "mechanism": "native",
     "platforms": [],
-    "stars": 619,
+    "stars": 620,
     "description": "Decompilation of Pokémon Platinum",
     "version": null,
     "releasedAt": "2026-11-22",
@@ -1908,7 +1994,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 568,
+    "stars": 569,
     "description": "Dragon's Crown Pro native PC port for Windows, with direct PS4 PKG installation, TRG launcher and modern graphics options",
     "version": "v1.4.1",
     "releasedAt": "2026-11-22",
@@ -1930,7 +2016,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 8210,
+    "stars": 8215,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.5.0",
     "releasedAt": "2026-11-22",
@@ -2260,28 +2346,6 @@
     "curated": true
   },
   {
-    "id": "mango77x-mhforever",
-    "repo": "Mango77x/MHForever",
-    "title": "Monster Hunter Freedom Unite",
-    "game": "monster-hunter-freedom-unite",
-    "author": "Mango77x",
-    "console": "PSP",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 96,
-    "description": "Unofficial native PC ports of the classic Monster Hunter games via static recompilation, starting with Freedom Unite. No emulator. Bring your own copy",
-    "version": "v0.12.1",
-    "releasedAt": "2026-11-21",
-    "sizeBytes": 240655293,
-    "releaseUrl": "https://github.com/Mango77x/MHForever/releases/tag/v0.12.1",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
-    "curated": true
-  },
-  {
     "id": "nicowayne95-lcs-ps2-recomp",
     "repo": "NicoWayne95/lcs-ps2-recomp",
     "title": "Lcs Ps 2",
@@ -2441,7 +2505,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 326,
+    "stars": 327,
     "description": "Native Windows port of Pokémon: Let's Go, Eevee! (Switch v1.0.0) by static recompilation, built on LAS Recomp. No game files included.",
     "version": "v0.7.8",
     "releasedAt": "2026-11-21",
@@ -2479,7 +2543,7 @@
     "console": "PlayStation 2",
     "mechanism": "native",
     "platforms": [],
-    "stars": 53,
+    "stars": 54,
     "description": "A recomp of Guitar Hero II (PS2) that runs natively on PC and Mac, and loads content from GH1, GH80s and the 360 port of GH2.",
     "version": null,
     "releasedAt": "2026-11-21",
@@ -2501,7 +2565,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 66,
+    "stars": 67,
     "description": "Nightjar: Resident Evil 4 (GameCube) 100% native source port, byte-matching decompilation & standalone engine runtime for Android (32/64-bit), iOS (Metal), Windows, and Linux.",
     "version": "nightly",
     "releasedAt": "2026-11-20",
@@ -2730,7 +2794,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 1877,
+    "stars": 1886,
     "description": "Static recompilation research for Xbox Series X|S software on x64 Windows, with source-built CPU and GPU tests. Full-game startup is unverified.",
     "version": "gpu-check-v0.1.0",
     "releasedAt": "2026-11-20",
@@ -2881,7 +2945,7 @@
       "Linux",
       "Android"
     ],
-    "stars": 100,
+    "stars": 101,
     "description": "Sin and Punishment N64 Recomp",
     "version": "0.2.12",
     "releasedAt": "2026-11-19",
@@ -3136,7 +3200,7 @@
       "macOS",
       "iOS"
     ],
-    "stars": 721,
+    "stars": 722,
     "description": "Unofficial static recompilation of the Xbox 360 version of Need for Speed: Most Wanted (2005): a native port for Steam Deck, Steam Machine, Steam Frame, Linux and Mac (iPhone/iPad: sideload the experimental IPA or build it yourself). Bring your own disc: no game files included. Not affiliated with EA or Valve.",
     "version": "v0.2.6",
     "releasedAt": "2026-11-18",
@@ -3337,25 +3401,6 @@
     "releaseUrl": "https://github.com/OpenGP-dev/OpenGP/releases/tag/v1.0.6",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
-    "curated": true
-  },
-  {
-    "id": "ekspym-tekken6-native-online",
-    "repo": "Ekspym/Tekken6-native-online",
-    "title": "Tekken 6",
-    "game": "tekken-6",
-    "author": "Ekspym",
-    "console": "Xbox 360",
-    "mechanism": "native",
-    "platforms": [],
-    "stars": 487,
-    "description": "Tekken 6 (Xbox 360) native on Windows with rollback netcode - build from your own ISO",
-    "version": "v3.1.6",
-    "releasedAt": "2026-11-17",
-    "sizeBytes": 199830664,
-    "releaseUrl": "https://github.com/Ekspym/Tekken6-native-online/releases/tag/v3.1.6",
-    "licenseId": null,
-    "licenseUrl": null,
     "curated": true
   },
   {
@@ -3844,7 +3889,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 723,
+    "stars": 724,
     "description": "",
     "version": "1.6.1",
     "releasedAt": "2026-11-15",
@@ -4337,7 +4382,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5670,
+    "stars": 5672,
     "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
     "version": "windows-v1.9.8.6",
     "releasedAt": "2026-11-13",
@@ -4990,7 +5035,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 950,
+    "stars": 951,
     "description": "Xbox 360 to PC port of Dante's Inferno using ReXGlue (static recompilation)",
     "version": "v0.8.6-beta-hotfix",
     "releasedAt": "2026-11-08",
@@ -5246,29 +5291,6 @@
     "licenseUrl": "https://api.github.com/licenses/gpl-2.0"
   },
   {
-    "id": "fearkov-zakuro",
-    "repo": "fearkov/zakuro",
-    "title": "Zakuro",
-    "game": null,
-    "author": "fearkov",
-    "console": "Nintendo 3DS",
-    "mechanism": "emulator",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "macOS"
-    ],
-    "stars": 65,
-    "description": "Runtime for ports or recompilations of 3DS games.",
-    "version": "v0.2.32",
-    "releasedAt": "2026-11-06",
-    "sizeBytes": 40296526,
-    "releaseUrl": "https://github.com/fearkov/zakuro/releases/tag/v0.2.32",
-    "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit",
-    "curated": true
-  },
-  {
     "id": "yokimitsuro-khdays-port",
     "repo": "Yokimitsuro/khdays-port",
     "title": "Kingdom Hearts 358/2 Days",
@@ -5347,7 +5369,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 1677,
+    "stars": 1679,
     "description": "Zelda Wind Waker HD Recomp",
     "version": "v0.5.1",
     "releasedAt": "2026-11-06",
@@ -5760,7 +5782,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 325,
+    "stars": 326,
     "description": "GTA V (Xbox 360, TU27) static recompilation with ReXGlue",
     "version": "v0.3.0",
     "releasedAt": "2026-11-02",
@@ -6141,7 +6163,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 988,
+    "stars": 989,
     "description": "An unofficial original Xbox version PC port of BLACK (2006) via static recompilation.",
     "version": "V3",
     "releasedAt": "2026-10-29",
@@ -6451,28 +6473,6 @@
     "curated": true
   },
   {
-    "id": "paulcombal-mw2-recompiled",
-    "repo": "PaulCombal/mw2-recompiled",
-    "title": "Call of Duty: Modern Warfare 2",
-    "game": "cod-mw2",
-    "author": "PaulCombal",
-    "console": "Xbox 360",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 215,
-    "description": "Call of Duty: Modern Warfare 2 (2009) for Xbox 360 recompiled for Windows & Linux",
-    "version": "v0.8.2",
-    "releasedAt": "2026-10-27",
-    "sizeBytes": 21238874,
-    "releaseUrl": "https://github.com/PaulCombal/mw2-recompiled/releases/tag/v0.8.2",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
-    "curated": true
-  },
-  {
     "id": "phobos665-split2-recomp",
     "repo": "phobos665/split2-recomp",
     "title": "TimeSplitters 2",
@@ -6510,7 +6510,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 1044,
+    "stars": 1045,
     "description": "Experimental native PC port of Lost Odyssey using static recompilation. No game assets included.",
     "version": "v1.1.0",
     "releasedAt": "2026-10-26",
@@ -7088,7 +7088,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 399,
+    "stars": 400,
     "description": "A playable PC port of Sly Cooper and the Thievius Raccoonus, rebuilt through reverse engineering.",
     "version": "decompilation",
     "releasedAt": "2026-10-21",
@@ -8216,7 +8216,7 @@
     "console": "Game Boy Advance",
     "mechanism": "native",
     "platforms": [],
-    "stars": 1015,
+    "stars": 1016,
     "description": "Decompilation of Pokémon Ruby/Sapphire",
     "version": null,
     "releasedAt": "2026-09-29",
@@ -9655,7 +9655,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2122,
+    "stars": 2123,
     "description": "work in progress port of n64decomp/perfect_dark to modern platforms",
     "version": "ci-dev-build",
     "releasedAt": "2024-05-14",
