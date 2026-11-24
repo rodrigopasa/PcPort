@@ -170,7 +170,7 @@
       "Linux",
       "Android"
     ],
-    "stars": 352,
+    "stars": 353,
     "description": "CrashBandicoot native pc port",
     "version": "2.7",
     "releasedAt": "2026-11-24",
@@ -216,10 +216,10 @@
     ],
     "stars": 49,
     "description": "AI-written static recompilation of Mario Party (N64, USA) for PC and the web. Bring your own ROM.",
-    "version": "v0.2.18",
+    "version": "v0.2.19",
     "releasedAt": "2026-11-24",
-    "sizeBytes": 24567182,
-    "releaseUrl": "https://github.com/n64hub/mario-party-recomp/releases/tag/v0.2.18",
+    "sizeBytes": 24573778,
+    "releaseUrl": "https://github.com/n64hub/mario-party-recomp/releases/tag/v0.2.19",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
@@ -416,7 +416,7 @@
     "console": "PC",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 88,
+    "stars": 89,
     "description": "Fire Emblem Fates, statically recompiled to a native Windows program. Contains no game files: you build it from your own dump.",
     "version": "v1.4.2",
     "releasedAt": "2026-11-24",
@@ -434,11 +434,11 @@
     "console": "Nintendo Switch 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 1000,
+    "stars": 1001,
     "description": "A cozy life-simulation and sandbox builder with fantastical creatures (Switch 2), recompiled to run natively on Windows, Linux and macOS. Multiplayer, all events, modding, enhancements and more.",
     "version": "v0.17.5",
     "releasedAt": "2026-11-24",
-    "sizeBytes": 193539044,
+    "sizeBytes": 3848640,
     "releaseUrl": "https://github.com/Dittobyte/Recompia/releases/tag/v0.17.5",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
@@ -453,7 +453,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 46,
+    "stars": 51,
     "description": "A community driven continuation of Project Leonida, aiming to bring GTA VI from Xbox to PC through static recompilation.",
     "version": null,
     "releasedAt": "2026-11-24",
@@ -461,6 +461,68 @@
     "releaseUrl": "https://github.com/ProjectLeonidaL/leonida/releases",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
+  },
+  {
+    "id": "henrykun55-celosia",
+    "repo": "HenryKun55/celosia",
+    "title": "Shadow of the Colossus",
+    "game": "shadow-of-the-colossus",
+    "author": "HenryKun55",
+    "console": "PlayStation 2",
+    "mechanism": "recompiled",
+    "platforms": [],
+    "stars": 85,
+    "description": "Native port of Shadow of the Colossus (PS2) to macOS and PS Vita: static recompilation with PS2Recomp, a native Metal/OpenGL renderer, and a decompilation in progress",
+    "version": null,
+    "releasedAt": "2026-11-24",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/HenryKun55/celosia/releases",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
+  },
+  {
+    "id": "rigaz29-ascension-r",
+    "repo": "rigaz29/Ascension-R",
+    "title": "God of War: Ascension",
+    "game": "god-of-war-ascension",
+    "author": "rigaz29",
+    "console": "PlayStation 3",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows"
+    ],
+    "stars": 189,
+    "description": "God of War: Ascension PC port: an unofficial, native Windows port of the PS3 game by static recompilation, no emulator. No game files included: you build it from your own copy.",
+    "version": "v0.3.1",
+    "releasedAt": "2026-11-24",
+    "sizeBytes": 155041676,
+    "releaseUrl": "https://github.com/rigaz29/Ascension-R/releases/tag/v0.3.1",
+    "licenseId": "NOASSERTION",
+    "licenseUrl": null,
+    "curated": true
+  },
+  {
+    "id": "smokedoggy044-cod2-bro-native-loader",
+    "repo": "SmokeDoggy044/CoD2-BRO-Native-Loader",
+    "title": "Call of Duty 2: Big Red One",
+    "game": null,
+    "author": "SmokeDoggy044",
+    "console": "Xbox",
+    "mechanism": "native",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 115,
+    "description": "Call of Duty 2: Big Red One - Custom Engine: our own engine implementation of the Xbox game, built from source for Linux and Windows (bring your own game).",
+    "version": "v1.0.11",
+    "releasedAt": "2026-11-24",
+    "sizeBytes": 35280616,
+    "releaseUrl": "https://github.com/SmokeDoggy044/CoD2-BRO-Native-Loader/releases/tag/v1.0.11",
+    "licenseId": "GPL-2.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-2.0",
+    "curated": true
   },
   {
     "id": "maryncrt-ultimate-mortal-kombat-3-ios-decompiled",
@@ -501,25 +563,6 @@
     "curated": true
   },
   {
-    "id": "henrykun55-celosia",
-    "repo": "HenryKun55/celosia",
-    "title": "Shadow of the Colossus",
-    "game": "shadow-of-the-colossus",
-    "author": "HenryKun55",
-    "console": "PlayStation 2",
-    "mechanism": "recompiled",
-    "platforms": [],
-    "stars": 85,
-    "description": "Native port of Shadow of the Colossus (PS2) to macOS and PS Vita: static recompilation with PS2Recomp, a native Metal/OpenGL renderer, and a decompilation in progress",
-    "version": null,
-    "releasedAt": "2026-11-23",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/HenryKun55/celosia/releases",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
-    "curated": true
-  },
-  {
     "id": "gensokyoclub-th06",
     "repo": "GensokyoClub/th06",
     "title": "Touhou 6: The Embodiment of Scarlet Devil",
@@ -547,7 +590,7 @@
     "console": "PlayStation 4",
     "mechanism": "native",
     "platforms": [],
-    "stars": 226,
+    "stars": 227,
     "description": "A decompilation of Bloodborne (CUSA03173 v1.09) with its own runtime: the game's code rewritten as readable C++, one verified function at a time. The game doesn't run on it yet; 21 functions verified. No game files included.",
     "version": null,
     "releasedAt": "2026-11-23",
@@ -629,7 +672,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 278,
+    "stars": 279,
     "description": "Native Windows port of Dead or Alive Xtreme Beach Volleyball (Xbox), built by static recompilation with a hand-written runtime. Requires your own copy of the game.",
     "version": "v0.8.0",
     "releasedAt": "2026-11-23",
@@ -713,7 +756,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 449,
+    "stars": 450,
     "description": "An unofficial PC port of the Xbox version of Shadow the Hedgehog, created through the process of static recompilation. ",
     "version": "v1.0.1",
     "releasedAt": "2026-11-23",
@@ -756,7 +799,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 68,
+    "stars": 69,
     "description": "Mega Man X5 (USA, SLUS-01334) statically recompiled to a native Windows executable with the PSXRecomp framework.",
     "version": "v1.0.4",
     "releasedAt": "2026-11-23",
@@ -778,7 +821,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 240,
+    "stars": 242,
     "description": "Mega Man X recompiled for the Super Nintendo using snesrecomp · Part of the R.A.I.D. community",
     "version": "v2.4.9",
     "releasedAt": "2026-11-23",
@@ -1240,7 +1283,7 @@
     "platforms": [
       "PC"
     ],
-    "stars": 211,
+    "stars": 216,
     "description": "Unofficial PC port of NieR Re[in]carnation (Global 3.7.1): local server, Android runtime, launcher. Bring your own game files.",
     "version": "v1.2",
     "releasedAt": "2026-11-23",
@@ -1327,7 +1370,7 @@
     "platforms": [
       "Linux"
     ],
-    "stars": 2038,
+    "stars": 2039,
     "description": "Native Windows port of Shadow of the Colossus (PS4, CUSA08809) - bring your own game dump. Port nativo para PC.",
     "version": "v0.77",
     "releasedAt": "2026-11-23",
@@ -1368,7 +1411,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 127,
+    "stars": 128,
     "description": "Native PC port of Ace Combat 6: Fires of Liberation using XenonRecomp",
     "version": "v1.1.1",
     "releasedAt": "2026-11-23",
@@ -1515,7 +1558,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 76,
+    "stars": 77,
     "description": "Unofficial static recompilation of Splatoon Raiders (Switch 2) to native Linux/Windows x86-64 with a Vulkan renderer. No game data included: bring your own dump.",
     "version": "v0.2.1",
     "releasedAt": "2026-11-22",
@@ -1536,7 +1579,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 86,
+    "stars": 89,
     "description": "A native PC port of SSX (2012), decoded from the Xbox 360 disc and rebuilt in Rust on Bevy.",
     "version": "v0.4.2",
     "releasedAt": "2026-11-22",
@@ -1620,7 +1663,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 8151,
+    "stars": 8154,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.5.0",
     "releasedAt": "2026-11-22",
@@ -1781,27 +1824,6 @@
     "curated": true
   },
   {
-    "id": "rigaz29-ascension-r",
-    "repo": "rigaz29/Ascension-R",
-    "title": "God of War: Ascension",
-    "game": "god-of-war-ascension",
-    "author": "rigaz29",
-    "console": "PlayStation 3",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows"
-    ],
-    "stars": 188,
-    "description": "God of War: Ascension PC port: an unofficial, native Windows port of the PS3 game by static recompilation, no emulator. No game files included: you build it from your own copy.",
-    "version": "v0.3.0",
-    "releasedAt": "2026-11-22",
-    "sizeBytes": 154989401,
-    "releaseUrl": "https://github.com/rigaz29/Ascension-R/releases/tag/v0.3.0",
-    "licenseId": "NOASSERTION",
-    "licenseUrl": null,
-    "curated": true
-  },
-  {
     "id": "sp00nznet-psprecomp",
     "repo": "sp00nznet/psprecomp",
     "title": "Psprecomp",
@@ -1876,7 +1898,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 189,
+    "stars": 190,
     "description": "Super Mario World recompiled for the Super Nintendo using snesrecomp · Part of the R.A.I.D. community",
     "version": "v0.15.11",
     "releasedAt": "2026-11-21",
@@ -2052,28 +2074,6 @@
     "curated": true
   },
   {
-    "id": "smokedoggy044-cod2-bro-native-loader",
-    "repo": "SmokeDoggy044/CoD2-BRO-Native-Loader",
-    "title": "Call of Duty 2: Big Red One",
-    "game": null,
-    "author": "SmokeDoggy044",
-    "console": "Xbox",
-    "mechanism": "native",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 115,
-    "description": "Call of Duty 2: Big Red One - Custom Engine: our own engine implementation of the Xbox game, built from source for Linux and Windows (bring your own game).",
-    "version": "v1.0.10",
-    "releasedAt": "2026-11-21",
-    "sizeBytes": 25142810,
-    "releaseUrl": "https://github.com/SmokeDoggy044/CoD2-BRO-Native-Loader/releases/tag/v1.0.10",
-    "licenseId": "GPL-2.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-2.0",
-    "curated": true
-  },
-  {
     "id": "aoxzh-bayo3-recomp",
     "repo": "aoxzh/bayo3-recomp",
     "title": "Bayo 3",
@@ -2086,7 +2086,7 @@
       "Linux",
       "Android"
     ],
-    "stars": 51,
+    "stars": 52,
     "description": "Bayonetta 3 PC, Steam Deck and Android native port: static ARM-to-C++ recompiler, Horizon/NVN runtime and Vulkan backend. No emulator; bring your own 1.2.0 game files.",
     "version": "v0.3.14",
     "releasedAt": "2026-11-21",
@@ -2253,7 +2253,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 61,
+    "stars": 63,
     "description": "Nightjar: Resident Evil 4 (GameCube) 100% native source port, byte-matching decompilation & standalone engine runtime for Android (32/64-bit), iOS (Metal), Windows, and Linux.",
     "version": "nightly",
     "releasedAt": "2026-11-20",
@@ -2362,7 +2362,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 1376,
+    "stars": 1377,
     "description": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows and Linux with Vulkan. 0.5.1 out: NVIDIA shader cache fix, player 2 rumble; one-file Windows launcher, presets, local co-op, 16:10, Thai. Requirements: docs/requirements.md. Roadmap: #10. No game files included.",
     "version": "v0.5.1",
     "releasedAt": "2026-11-20",
@@ -2546,7 +2546,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 1632,
+    "stars": 1651,
     "description": "Static recompilation research for Xbox Series X|S software on x64 Windows, with source-built CPU and GPU tests. Full-game startup is unverified.",
     "version": "gpu-check-v0.1.0",
     "releasedAt": "2026-11-20",
@@ -3462,7 +3462,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 871,
+    "stars": 872,
     "description": "Definitive Bloodborne PC Experience",
     "version": "v0.2.35",
     "releasedAt": "2026-11-15",
@@ -3887,7 +3887,7 @@
       "Windows",
       "macOS"
     ],
-    "stars": 989,
+    "stars": 991,
     "description": "An unofficial PC port of the Xbox 360 version of Sonic the Hedgehog (2006) created through the process of static recompilation",
     "version": "v1.0.0",
     "releasedAt": "2026-11-14",
@@ -3931,7 +3931,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 278,
+    "stars": 279,
     "description": "Native Windows PC port of God of War (PS2), built by statically recompiling MIPS R5900 code to C++ with PS2Recomp. Includes an installer launcher, one-click build, fan-translation support and a 60 fps target. No game files included: you need your own copy.",
     "version": "v0.6.1",
     "releasedAt": "2026-11-14",
@@ -4190,7 +4190,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5655,
+    "stars": 5656,
     "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
     "version": "windows-v1.9.8.6",
     "releasedAt": "2026-11-13",
@@ -4399,7 +4399,7 @@
     "platforms": [
       "Linux"
     ],
-    "stars": 62,
+    "stars": 63,
     "description": "Playable static recompilation of Star Wars: Shadows of the Empire for Nintendo 64",
     "version": "0.9.8",
     "releasedAt": "2026-11-12",
@@ -4609,7 +4609,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 264,
+    "stars": 265,
     "description": "A Recompilation of Viva Pinata: Trouble In Paradise",
     "version": "1.15.0",
     "releasedAt": "2026-11-10",
@@ -4735,7 +4735,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 133,
+    "stars": 134,
     "description": "13 Sentinels: Aegis Rim native PC port for Windows and Linux, with direct PS4 PKG installation, TRG launcher and modern graphics options",
     "version": "v0.1.0",
     "releasedAt": "2026-11-09",
@@ -5013,7 +5013,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 129,
+    "stars": 130,
     "description": "",
     "version": "v0.6.0",
     "releasedAt": "2026-11-08",
@@ -5330,7 +5330,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 441,
+    "stars": 442,
     "description": "Static recompilation of Castlevania: Symphony of the Night (XBLA) for Windows and Linux, built on the ReXGlue SDK.",
     "version": "v1.5.2",
     "releasedAt": "2026-11-05",
@@ -5436,7 +5436,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 142,
+    "stars": 143,
     "description": "Mega Man X4 (USA, SLUS-00561) statically recompiled to a native PC executable with PSXRecomp",
     "version": "v1.0.29",
     "releasedAt": "2026-11-03",
@@ -5459,7 +5459,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 789,
+    "stars": 790,
     "description": "PC port of Dragon Ball Z: Budokai Tenkaichi 3, built on the BT3-Decompiled project.",
     "version": "v0.1.39.6",
     "releasedAt": "2026-11-03",
@@ -5675,7 +5675,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 322,
+    "stars": 321,
     "description": "GTA V (Xbox 360, TU27) static recompilation with ReXGlue",
     "version": "v0.3.0",
     "releasedAt": "2026-11-02",
@@ -6405,7 +6405,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 1041,
+    "stars": 1042,
     "description": "Experimental native PC port of Lost Odyssey using static recompilation. No game assets included.",
     "version": "v1.1.0",
     "releasedAt": "2026-10-26",
@@ -6549,7 +6549,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 8250,
+    "stars": 8254,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -6636,7 +6636,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 123,
+    "stars": 124,
     "description": "Dead or Alive 3 PC Port ",
     "version": "v1.0.7",
     "releasedAt": "2026-10-24",
@@ -6961,7 +6961,7 @@
     "console": "Nintendo Switch",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 648,
+    "stars": 649,
     "description": "Unofficial static recompilation of Bayonetta 2 (Switch) for Windows. Builds the game on your PC from your own legally dumped copy. No game files, keys or SDK code included.",
     "version": "v0.3.3",
     "releasedAt": "2026-10-22",
@@ -7202,7 +7202,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 6162,
+    "stars": 6163,
     "description": "Ship of Harkinian: a PC port of Ocarina of Time built from the decompilation, with widescreen, high framerate and mod support.",
     "version": "9.3.1",
     "releasedAt": "2026-10-18",
@@ -7898,7 +7898,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 89,
+    "stars": 90,
     "description": "Mega Man X6 (USA) recompiled for the Sony PlayStation using psxrecomp · Part of the R.A.I.D. community",
     "version": "v1.2.0",
     "releasedAt": "2026-10-03",
@@ -8347,7 +8347,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 146,
+    "stars": 147,
     "description": "An AI-assisted Wave Race 64 recompilation for Windows, with modern graphics and expanded local multiplayer.",
     "version": "v1.0.0",
     "releasedAt": "2026-09-16",
@@ -9710,7 +9710,7 @@
     "console": "PlayStation",
     "mechanism": "native",
     "platforms": [],
-    "stars": 1250,
+    "stars": 1251,
     "description": "Decompilation of Castlevania: Symphony of the Night (PSX, PSP, Saturn)",
     "version": "cc1-psx-26",
     "releasedAt": "2023-04-05",
