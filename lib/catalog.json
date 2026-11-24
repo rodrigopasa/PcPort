@@ -76,6 +76,130 @@
     "curated": true
   },
   {
+    "id": "kirklandsig-halo2-decompiled",
+    "repo": "kirklandsig/halo2-decompiled",
+    "title": "Halo 2",
+    "game": "halo-2",
+    "author": "kirklandsig",
+    "console": "Xbox",
+    "mechanism": "native",
+    "platforms": [],
+    "stars": 160,
+    "description": "Halo 2 decompilation (decomp) for the original Xbox: a matching decompilation of the retail game into C/C++ source, rebuilt byte for byte, toward native PC, Linux and handheld ports. Contributors welcome. Source only; bring your own disc.",
+    "version": null,
+    "releasedAt": "2026-11-24",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/kirklandsig/halo2-decompiled/releases",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
+  },
+  {
+    "id": "gamboozino-ngbrecomp",
+    "repo": "gamboozino/ngbrecomp",
+    "title": "Ninja Gaiden Black",
+    "game": "ninja-gaiden-black",
+    "author": "gamboozino",
+    "console": "Xbox",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "Android"
+    ],
+    "stars": 378,
+    "description": "Ninja Gaiden Black (Xbox, 2005) statically recompiled into native Linux and Windows builds, with an experimental Android port, drawn by its own Vulkan renderer. A steady 60 fps, widescreen and ultrawide, keyboard and mouse, touch controls on Android, Steam Deck ready. Bring your own copy of the game.",
+    "version": "v0.9.84",
+    "releasedAt": "2026-11-24",
+    "sizeBytes": 42080760,
+    "releaseUrl": "https://github.com/gamboozino/ngbrecomp/releases/tag/v0.9.84",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
+  },
+  {
+    "id": "mormonftp-hub-gt5-recomp",
+    "repo": "MormonFTP-hub/gt5-recomp",
+    "title": "Gran Turismo 5 on ps3recomp",
+    "game": null,
+    "author": "MormonFTP-hub",
+    "console": "PlayStation 3",
+    "mechanism": "recompiled",
+    "platforms": [],
+    "stars": 79,
+    "description": "Unofficial PC port of Gran Turismo 5 on ps3recomp. Needs your own GT5 disc, EBOOT v1.00, no update: Europe BCES00569 (tested) or US BCUS98114 (untested). Code and tools only: no game files, keys or firmware.",
+    "version": "v0.1.112",
+    "releasedAt": "2026-11-24",
+    "sizeBytes": 126132,
+    "releaseUrl": "https://github.com/MormonFTP-hub/gt5-recomp/releases/tag/v0.1.112",
+    "licenseId": "MIT",
+    "licenseUrl": "https://api.github.com/licenses/mit"
+  },
+  {
+    "id": "petexy-tekken-tag-2-ultimate-edition",
+    "repo": "Petexy/Tekken-Tag-2-Ultimate-Edition",
+    "title": "Tekken Tag Tournament 2: Wii U Edition",
+    "game": "tekken-tag-tournament-2",
+    "author": "Petexy",
+    "console": "Wii U",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 156,
+    "description": "Native port of Tekken Tag Tournament 2 Wii U Edition by static recompilation with the possibility to add new characters and mod the game easily. No files included.",
+    "version": "v0.8.0",
+    "releasedAt": "2026-11-24",
+    "sizeBytes": 10074624,
+    "releaseUrl": "https://github.com/Petexy/Tekken-Tag-2-Ultimate-Edition/releases/tag/v0.8.0",
+    "licenseId": "MIT",
+    "licenseUrl": "https://api.github.com/licenses/mit",
+    "curated": true
+  },
+  {
+    "id": "matteo842-crashbandicoot-launcher",
+    "repo": "Matteo842/CrashBandicoot-Launcher",
+    "title": "Crash Bandicoot",
+    "game": null,
+    "author": "Matteo842",
+    "console": "PlayStation",
+    "mechanism": "native",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "Android"
+    ],
+    "stars": 352,
+    "description": "CrashBandicoot native pc port",
+    "version": "2.7",
+    "releasedAt": "2026-11-24",
+    "sizeBytes": 76965079,
+    "releaseUrl": "https://github.com/Matteo842/CrashBandicoot-Launcher/releases/tag/2.7",
+    "licenseId": "MIT",
+    "licenseUrl": "https://api.github.com/licenses/mit",
+    "curated": true
+  },
+  {
+    "id": "novapowers0-dbz-budokai-3-hd-collection",
+    "repo": "novapowers0/DBZ-Budokai-3-HD-Collection",
+    "title": "Dragon Ball Z: Budokai 3 HD",
+    "game": null,
+    "author": "novapowers0",
+    "console": "Xbox 360",
+    "mechanism": "recompiled",
+    "platforms": [],
+    "stars": 252,
+    "description": "Recompilacion estatica (ReXGlue) de Dragon Ball Z: Budokai 3 HD Collection (Xbox 360) para Windows con launcher, sistema de mods y herramientas. No incluye datos del juego.",
+    "version": "v1.5.7",
+    "releasedAt": "2026-11-24",
+    "sizeBytes": 225591831,
+    "releaseUrl": "https://github.com/novapowers0/DBZ-Budokai-3-HD-Collection/releases/tag/v1.5.7",
+    "licenseId": "MIT",
+    "licenseUrl": "https://api.github.com/licenses/mit",
+    "curated": true
+  },
+  {
     "id": "maryncrt-ultimate-mortal-kombat-3-ios-decompiled",
     "repo": "MaryNCRT/Ultimate-Mortal-Kombat-3-iOS-Decompiled",
     "title": "Ultimate Mortal Kombat 3",
@@ -266,7 +390,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 997,
+    "stars": 998,
     "description": "A cozy life-simulation and sandbox builder with fantastical creatures (Switch 2), recompiled to run natively on Windows, Linux and macOS. Multiplayer, all events, modding, enhancements and more. Discord: https://discord.recompia.com",
     "version": "v0.17.0",
     "releasedAt": "2026-11-23",
@@ -295,25 +419,6 @@
     "releaseUrl": "https://github.com/hibikifukui22/Dead-or-Alive-Xtreme-2-Recompilation/releases/tag/v1.2.1",
     "licenseId": "NOASSERTION",
     "licenseUrl": null,
-    "curated": true
-  },
-  {
-    "id": "kirklandsig-halo2-decompiled",
-    "repo": "kirklandsig/halo2-decompiled",
-    "title": "Halo 2",
-    "game": "halo-2",
-    "author": "kirklandsig",
-    "console": "Xbox",
-    "mechanism": "native",
-    "platforms": [],
-    "stars": 160,
-    "description": "Halo 2 decompilation (decomp) for the original Xbox: a matching decompilation of the retail game into C/C++ source, rebuilt byte for byte, toward native PC, Linux and handheld ports. Contributors welcome. Source only; bring your own disc.",
-    "version": null,
-    "releasedAt": "2026-11-23",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/kirklandsig/halo2-decompiled/releases",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
   },
   {
@@ -781,7 +886,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 270,
+    "stars": 271,
     "description": "Experimental static recompilation of Mario Kart 8 Deluxe 4.0.1 for Windows x64 and Linux amd64. Native Vulkan runtime, Mii creator, online play via Nextendo and Steam rooms. Bring your own game files and keys: no ROMs, assets or keys included.",
     "version": "v0.6.3",
     "releasedAt": "2026-11-23",
@@ -960,29 +1065,6 @@
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
   },
   {
-    "id": "gamboozino-ngbrecomp",
-    "repo": "gamboozino/ngbrecomp",
-    "title": "Ninja Gaiden Black",
-    "game": "ninja-gaiden-black",
-    "author": "gamboozino",
-    "console": "Xbox",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "Android"
-    ],
-    "stars": 378,
-    "description": "Ninja Gaiden Black (Xbox, 2005) statically recompiled into native Linux and Windows builds, with an experimental Android port, drawn by its own Vulkan renderer. A steady 60 fps, widescreen and ultrawide, keyboard and mouse, touch controls on Android, Steam Deck ready. Bring your own copy of the game.",
-    "version": "v0.9.83",
-    "releasedAt": "2026-11-23",
-    "sizeBytes": 42072568,
-    "releaseUrl": "https://github.com/gamboozino/ngbrecomp/releases/tag/v0.9.83",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
-    "curated": true
-  },
-  {
     "id": "mysteriousaeon-rayman3-hd-recompiled",
     "repo": "MysteriousAeon/rayman3-hd-recompiled",
     "title": "Rayman 3 HD",
@@ -993,7 +1075,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 96,
+    "stars": 95,
     "description": "A native Windows port of Rayman 3 HD (Xbox 360) using static recompilation, with HD+ enhancements and Turkish localization.",
     "version": "v1.3.1",
     "releasedAt": "2026-11-23",
@@ -1014,7 +1096,7 @@
     "platforms": [
       "PC"
     ],
-    "stars": 196,
+    "stars": 199,
     "description": "Unofficial PC port of NieR Re[in]carnation (Global 3.7.1): local server, Android runtime, launcher. Bring your own game files.",
     "version": "v1.2",
     "releasedAt": "2026-11-23",
@@ -1234,24 +1316,6 @@
     "curated": true
   },
   {
-    "id": "mormonftp-hub-gt5-recomp",
-    "repo": "MormonFTP-hub/gt5-recomp",
-    "title": "Gran Turismo 5 on ps3recomp",
-    "game": null,
-    "author": "MormonFTP-hub",
-    "console": "PlayStation 3",
-    "mechanism": "recompiled",
-    "platforms": [],
-    "stars": 79,
-    "description": "Unofficial PC port of Gran Turismo 5 on ps3recomp. Needs your own GT5 disc, EBOOT v1.00, no update: Europe BCES00569 (tested) or US BCUS98114 (untested). Code and tools only: no game files, keys or firmware.",
-    "version": "v0.1.111",
-    "releasedAt": "2026-11-23",
-    "sizeBytes": 126132,
-    "releaseUrl": "https://github.com/MormonFTP-hub/gt5-recomp/releases/tag/v0.1.111",
-    "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit"
-  },
-  {
     "id": "carlosexabyte-arceuszada",
     "repo": "CarlosExabyte/Arceuszada",
     "title": "Pokémon Legends: Arceus",
@@ -1428,7 +1492,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 8138,
+    "stars": 8139,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.5.0",
     "releasedAt": "2026-11-22",
@@ -1782,28 +1846,6 @@
     "licenseUrl": null
   },
   {
-    "id": "petexy-tekken-tag-2-ultimate-edition",
-    "repo": "Petexy/Tekken-Tag-2-Ultimate-Edition",
-    "title": "Tekken Tag Tournament 2: Wii U Edition",
-    "game": "tekken-tag-tournament-2",
-    "author": "Petexy",
-    "console": "Wii U",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 156,
-    "description": "Native port of Tekken Tag Tournament 2 Wii U Edition by static recompilation with the possibility to add new characters and mod the game easily. No files included.",
-    "version": "v0.7.1",
-    "releasedAt": "2026-11-21",
-    "sizeBytes": 9409024,
-    "releaseUrl": "https://github.com/Petexy/Tekken-Tag-2-Ultimate-Edition/releases/tag/v0.7.1",
-    "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit",
-    "curated": true
-  },
-  {
     "id": "destinity13-timesplitters-2-native-recomp-windows-linux-steamdeck",
     "repo": "Destinity13/TimeSplitters-2-Native-Recomp-Windows-Linux-SteamDeck",
     "title": "TimeSplitters 2",
@@ -1961,7 +2003,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 114,
+    "stars": 115,
     "description": "Call of Duty 2: Big Red One - Custom Engine: our own engine implementation of the Xbox game, built from source for Linux and Windows (bring your own game).",
     "version": "v1.0.10",
     "releasedAt": "2026-11-21",
@@ -2444,7 +2486,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 1520,
+    "stars": 1541,
     "description": "Static recompilation research for Xbox Series X|S software on x64 Windows, with source-built CPU and GPU tests. Full-game startup is unverified.",
     "version": "gpu-check-v0.1.0",
     "releasedAt": "2026-11-20",
@@ -2554,7 +2596,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 224,
+    "stars": 225,
     "description": "Odin Sphere Leifthrasir native PC port for Windows, with direct PS4 PKG installation, TRG launcher and modern graphics options",
     "version": "v0.3.0",
     "releasedAt": "2026-11-19",
@@ -3575,7 +3617,7 @@
       "Windows",
       "macOS"
     ],
-    "stars": 170,
+    "stars": 171,
     "description": "Forza Motorsport 4 recompilation based on ShiftGlue",
     "version": "v0.3.3",
     "releasedAt": "2026-11-15",
@@ -3829,7 +3871,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 365,
+    "stars": 366,
     "description": "WipEout Omega Collection (PS4) native PC port for Windows and Linux: the game's own x86-64 code on the CPU, a PS4 runtime and the shadPS4 Vulkan video core. Playable, in active development. No game files included. ⭐ Star it if you like it! 💙 Donate: PayPal a.deghbouche@esi-sba.dz or ko-fi.com/abd_dbh",
     "version": "windows-v0.2.76",
     "releasedAt": "2026-11-14",
@@ -3882,29 +3924,6 @@
     "releaseUrl": "https://github.com/ChupathingyCE/chupathingyce/releases/tag/v0.9.1a",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
-    "curated": true
-  },
-  {
-    "id": "matteo842-crashbandicoot-launcher",
-    "repo": "Matteo842/CrashBandicoot-Launcher",
-    "title": "Crash Bandicoot",
-    "game": null,
-    "author": "Matteo842",
-    "console": "PlayStation",
-    "mechanism": "native",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "Android"
-    ],
-    "stars": 352,
-    "description": "CrashBandicoot native pc port",
-    "version": "2.6",
-    "releasedAt": "2026-11-14",
-    "sizeBytes": 76829911,
-    "releaseUrl": "https://github.com/Matteo842/CrashBandicoot-Launcher/releases/tag/2.6",
-    "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit",
     "curated": true
   },
   {
@@ -4945,28 +4964,6 @@
     "curated": true
   },
   {
-    "id": "novapowers0-dbz-budokai-3-hd-collection",
-    "repo": "novapowers0/DBZ-Budokai-3-HD-Collection",
-    "title": "Dragon Ball Z: Budokai 3 HD",
-    "game": null,
-    "author": "novapowers0",
-    "console": "Xbox 360",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Linux",
-      "macOS"
-    ],
-    "stars": 252,
-    "description": "Recompilacion estatica (ReXGlue) de Dragon Ball Z: Budokai 3 HD Collection (Xbox 360) para Windows con launcher, sistema de mods y herramientas. No incluye datos del juego.",
-    "version": "v1.5.6.2",
-    "releasedAt": "2026-11-08",
-    "sizeBytes": 133870620,
-    "releaseUrl": "https://github.com/novapowers0/DBZ-Budokai-3-HD-Collection/releases/tag/v1.5.6.2",
-    "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit",
-    "curated": true
-  },
-  {
     "id": "wrexxial-harmonyrecomp",
     "repo": "Wrexxial/HarmonyRecomp",
     "title": "Castlevania: Harmony of Despair",
@@ -5189,7 +5186,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 1669,
+    "stars": 1670,
     "description": "Zelda Wind Waker HD Recomp",
     "version": "v0.5.1",
     "releasedAt": "2026-11-06",
@@ -6514,7 +6511,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 8230,
+    "stars": 8232,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -6847,7 +6844,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 134,
+    "stars": 135,
     "description": "Recompilation of Dragon Quest VIII (PS2) to run natively on PC and Mac.",
     "version": "f6dfd96",
     "releasedAt": "2026-10-23",
