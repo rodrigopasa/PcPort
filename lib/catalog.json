@@ -11,11 +11,68 @@
     "stars": 357,
     "description": "Static ARM64 to x86 recompiler (GPLv3)",
     "version": null,
-    "releasedAt": "2026-11-23",
+    "releasedAt": "2026-11-24",
     "sizeBytes": null,
     "releaseUrl": "https://github.com/scarletnx/ScarletNX/releases",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
+  },
+  {
+    "id": "therealestnwah-sotc-decomp",
+    "repo": "TheRealestNwah/sotc-decomp",
+    "title": "Shadow of the Colossus",
+    "game": "shadow-of-the-colossus",
+    "author": "TheRealestNwah",
+    "console": "PlayStation 2",
+    "mechanism": "in-progress",
+    "platforms": [],
+    "stars": 50,
+    "description": "Matching decompilation of Shadow of the Colossus (PS2, NTSC-U) aiming for a native PC port",
+    "version": null,
+    "releasedAt": "2026-11-24",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/TheRealestNwah/sotc-decomp/releases",
+    "licenseId": "CC0-1.0",
+    "licenseUrl": "https://api.github.com/licenses/cc0-1.0",
+    "curated": true
+  },
+  {
+    "id": "pascalpixel-alchemy",
+    "repo": "PascalPixel/alchemy",
+    "title": "Golden Sun",
+    "game": null,
+    "author": "PascalPixel",
+    "console": "Game Boy Advance",
+    "mechanism": "native",
+    "platforms": [],
+    "stars": 147,
+    "description": "🌋 Alchemy is a reconstruction of the source for both ☀️ Golden Sun games for Game Boy Advance: a matching decompilation that builds the same ROMs, byte for byte",
+    "version": null,
+    "releasedAt": "2026-11-24",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/PascalPixel/alchemy/releases",
+    "licenseId": null,
+    "licenseUrl": null,
+    "curated": true
+  },
+  {
+    "id": "undecuple-project-pyrrhus",
+    "repo": "undecuple/project-pyrrhus",
+    "title": "Killzone 2",
+    "game": null,
+    "author": "undecuple",
+    "console": "PlayStation 3",
+    "mechanism": "in-progress",
+    "platforms": [],
+    "stars": 167,
+    "description": "Killzone 2 // Unofficial PC Port (static recompilation). Work in progress, partly playable. Builds on your PC from your own game.",
+    "version": null,
+    "releasedAt": "2026-11-24",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/undecuple/project-pyrrhus/releases",
+    "licenseId": "MIT",
+    "licenseUrl": "https://api.github.com/licenses/mit",
     "curated": true
   },
   {
@@ -35,25 +92,6 @@
     "releaseUrl": "https://github.com/MaryNCRT/Ultimate-Mortal-Kombat-3-iOS-Decompiled/releases",
     "licenseId": "NOASSERTION",
     "licenseUrl": null,
-    "curated": true
-  },
-  {
-    "id": "therealestnwah-sotc-decomp",
-    "repo": "TheRealestNwah/sotc-decomp",
-    "title": "Shadow of the Colossus",
-    "game": "shadow-of-the-colossus",
-    "author": "TheRealestNwah",
-    "console": "PlayStation 2",
-    "mechanism": "in-progress",
-    "platforms": [],
-    "stars": 50,
-    "description": "Matching decompilation of Shadow of the Colossus (PS2, NTSC-U) aiming for a native PC port",
-    "version": null,
-    "releasedAt": "2026-11-23",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/TheRealestNwah/sotc-decomp/releases",
-    "licenseId": "CC0-1.0",
-    "licenseUrl": "https://api.github.com/licenses/cc0-1.0",
     "curated": true
   },
   {
@@ -193,25 +231,6 @@
     "curated": true
   },
   {
-    "id": "pascalpixel-alchemy",
-    "repo": "PascalPixel/alchemy",
-    "title": "Golden Sun",
-    "game": null,
-    "author": "PascalPixel",
-    "console": "Game Boy Advance",
-    "mechanism": "native",
-    "platforms": [],
-    "stars": 147,
-    "description": "🌋 Alchemy is a reconstruction of the source for both ☀️ Golden Sun games for Game Boy Advance: a matching decompilation that builds the same ROMs, byte for byte",
-    "version": null,
-    "releasedAt": "2026-11-23",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/PascalPixel/alchemy/releases",
-    "licenseId": null,
-    "licenseUrl": null,
-    "curated": true
-  },
-  {
     "id": "norain211-doaxvb-re",
     "repo": "NoRain211/doaxvb-re",
     "title": "Dead or Alive Xtreme Beach Volleyball",
@@ -247,7 +266,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 995,
+    "stars": 997,
     "description": "A cozy life-simulation and sandbox builder with fantastical creatures (Switch 2), recompiled to run natively on Windows, Linux and macOS. Multiplayer, all events, modding, enhancements and more. Discord: https://discord.recompia.com",
     "version": "v0.17.0",
     "releasedAt": "2026-11-23",
@@ -287,7 +306,7 @@
     "console": "Xbox",
     "mechanism": "native",
     "platforms": [],
-    "stars": 159,
+    "stars": 160,
     "description": "Halo 2 decompilation (decomp) for the original Xbox: a matching decompilation of the retail game into C/C++ source, rebuilt byte for byte, toward native PC, Linux and handheld ports. Contributors welcome. Source only; bring your own disc.",
     "version": null,
     "releasedAt": "2026-11-23",
@@ -309,12 +328,12 @@
       "Windows",
       "Linux"
     ],
-    "stars": 325,
+    "stars": 326,
     "description": "Ninja Gaiden II (Xbox 360, 2008) statically recompiled into native Linux and Windows builds, drawn by its own Vulkan renderer. A steady 60 fps, up to 8x render scale, widescreen and ultrawide, keyboard and mouse, mods, Steam Deck ready. Bring your own copy of the game.",
-    "version": "v0.7.4",
+    "version": "v0.7.5",
     "releasedAt": "2026-11-23",
-    "sizeBytes": 168364985,
-    "releaseUrl": "https://github.com/gamboozino/ng2recomp/releases/tag/v0.7.4",
+    "sizeBytes": 163813352,
+    "releaseUrl": "https://github.com/gamboozino/ng2recomp/releases/tag/v0.7.5",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
@@ -350,7 +369,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 447,
+    "stars": 448,
     "description": "An unofficial PC port of the Xbox version of Shadow the Hedgehog, created through the process of static recompilation. ",
     "version": "v1.0.1",
     "releasedAt": "2026-11-23",
@@ -395,10 +414,10 @@
     ],
     "stars": 68,
     "description": "Mega Man X5 (USA, SLUS-01334) statically recompiled to a native Windows executable with the PSXRecomp framework.",
-    "version": "v1.0.3",
+    "version": "v1.0.4",
     "releasedAt": "2026-11-23",
     "sizeBytes": 14977528,
-    "releaseUrl": "https://github.com/mstan/MegaManX5Recomp/releases/tag/v1.0.3",
+    "releaseUrl": "https://github.com/mstan/MegaManX5Recomp/releases/tag/v1.0.4",
     "licenseId": "NOASSERTION",
     "licenseUrl": null,
     "curated": true
@@ -575,7 +594,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 48,
+    "stars": 49,
     "description": "A PC port of Twisted Metal 2 (PlayStation, 1996)",
     "version": "v1.0.13",
     "releasedAt": "2026-11-23",
@@ -762,7 +781,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 269,
+    "stars": 270,
     "description": "Experimental static recompilation of Mario Kart 8 Deluxe 4.0.1 for Windows x64 and Linux amd64. Native Vulkan runtime, Mii creator, online play via Nextendo and Steam rooms. Bring your own game files and keys: no ROMs, assets or keys included.",
     "version": "v0.6.3",
     "releasedAt": "2026-11-23",
@@ -803,7 +822,7 @@
     "platforms": [
       "Linux"
     ],
-    "stars": 71,
+    "stars": 72,
     "description": "Beta Windows/Linux recompilation port of True Crime: New York City (Xbox US & PAL)",
     "version": "v0.9.2-beta.5.1",
     "releasedAt": "2026-11-23",
@@ -823,7 +842,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 108,
+    "stars": 109,
     "description": "2014 FIFA World Cup Brazil (Xbox 360) running natively on Windows. An unofficial recompilation, played from your own copy of the game.",
     "version": "v0.3.1",
     "releasedAt": "2026-11-23",
@@ -847,7 +866,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 366,
+    "stars": 365,
     "description": "Burnout Revenge recompilation based on RexGlue + standalone Plume render",
     "version": "v0.4.19",
     "releasedAt": "2026-11-23",
@@ -953,7 +972,7 @@
       "Linux",
       "Android"
     ],
-    "stars": 377,
+    "stars": 378,
     "description": "Ninja Gaiden Black (Xbox, 2005) statically recompiled into native Linux and Windows builds, with an experimental Android port, drawn by its own Vulkan renderer. A steady 60 fps, widescreen and ultrawide, keyboard and mouse, touch controls on Android, Steam Deck ready. Bring your own copy of the game.",
     "version": "v0.9.83",
     "releasedAt": "2026-11-23",
@@ -995,7 +1014,7 @@
     "platforms": [
       "PC"
     ],
-    "stars": 188,
+    "stars": 196,
     "description": "Unofficial PC port of NieR Re[in]carnation (Global 3.7.1): local server, Android runtime, launcher. Bring your own game files.",
     "version": "v1.2",
     "releasedAt": "2026-11-23",
@@ -1101,7 +1120,7 @@
     "platforms": [
       "PC"
     ],
-    "stars": 2034,
+    "stars": 2035,
     "description": "Native Windows port of Shadow of the Colossus (PS4, CUSA08809) - bring your own game dump. Port nativo para PC.",
     "version": "v0.77",
     "releasedAt": "2026-11-23",
@@ -1204,7 +1223,7 @@
       "Linux",
       "Android"
     ],
-    "stars": 56,
+    "stars": 57,
     "description": "Native recompilation of Final Fantasy Tactics Advance with shaders, post-processing, haptics/rumble, and native Android support",
     "version": "v2.2",
     "releasedAt": "2026-11-23",
@@ -1223,7 +1242,7 @@
     "console": "PlayStation 3",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 80,
+    "stars": 79,
     "description": "Unofficial PC port of Gran Turismo 5 on ps3recomp. Needs your own GT5 disc, EBOOT v1.00, no update: Europe BCES00569 (tested) or US BCUS98114 (untested). Code and tools only: no game files, keys or firmware.",
     "version": "v0.1.111",
     "releasedAt": "2026-11-23",
@@ -1271,6 +1290,25 @@
     "releaseUrl": "https://github.com/wootbeer/dinotale/releases/tag/0.1.9",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
+  },
+  {
+    "id": "pret-pokeemerald",
+    "repo": "pret/pokeemerald",
+    "title": "Pokémon Emerald",
+    "game": "pokemon-emerald",
+    "author": "pret",
+    "console": "Game Boy Advance",
+    "mechanism": "native",
+    "platforms": [],
+    "stars": 3709,
+    "description": "Decompilation of Pokémon Emerald",
+    "version": null,
+    "releasedAt": "2026-11-23",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/pret/pokeemerald/releases",
+    "licenseId": null,
+    "licenseUrl": null,
     "curated": true
   },
   {
@@ -1368,7 +1406,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 559,
+    "stars": 560,
     "description": "Dragon's Crown Pro native PC port for Windows, with direct PS4 PKG installation, TRG launcher and modern graphics options",
     "version": "v1.4.1",
     "releasedAt": "2026-11-22",
@@ -1390,7 +1428,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 8137,
+    "stars": 8138,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.5.0",
     "releasedAt": "2026-11-22",
@@ -1474,7 +1512,7 @@
       "Linux"
     ],
     "stars": 47,
-    "description": "Yo-kai Watch 4++ (Switch, v2.2.0) statically recompiled into native Windows and Linux builds, drawn by its own Vulkan renderer. 60++ fps, widescreen and ultrawide, DLSS and FSR, keyboard and mouse, English patch and mod support. Bring your own dump: no game files or keys included.",
+    "description": "Yo-kai Watch 4++ statically recompiled into native Windows and Linux builds. w/120++ fps, ultrawide support, DLSS FSR XeSS + Framegen, Keyboard and Mouse, Online and Mod support. Bring your own dump: no game files or keys included.",
     "version": "launcher-v1.6.2",
     "releasedAt": "2026-11-22",
     "sizeBytes": 88361464,
@@ -1649,7 +1687,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 212,
+    "stars": 213,
     "description": "CPS-2 Recomp: unofficial native PC ports of Capcom CPS-2 arcade games (Street Fighter Alpha 2, Super Puzzle Fighter II Turbo, Vampire Savior) via static recompilation, with training modes, in one launcher: macOS, Linux, Steam Deck, Windows. Requires your own ROM sets. Beta.",
     "version": "v1.6.0-beta.5",
     "releasedAt": "2026-11-21",
@@ -1923,7 +1961,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 113,
+    "stars": 114,
     "description": "Call of Duty 2: Big Red One - Custom Engine: our own engine implementation of the Xbox game, built from source for Linux and Windows (bring your own game).",
     "version": "v1.0.10",
     "releasedAt": "2026-11-21",
@@ -1967,7 +2005,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 279,
+    "stars": 280,
     "description": "StarFox Remake [recompiled]: static recompilation of Star Fox (Nintendo Switch 2) into a native Windows app, built on your PC from your own copy. No game files included.",
     "version": "v1.2.0",
     "releasedAt": "2026-11-21",
@@ -2222,7 +2260,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 1363,
+    "stars": 1366,
     "description": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows and Linux with Vulkan. 0.5.1 out: NVIDIA shader cache fix, player 2 rumble; one-file Windows launcher, presets, local co-op, 16:10, Thai. Requirements: docs/requirements.md. Roadmap: #10. No game files included.",
     "version": "v0.5.1",
     "releasedAt": "2026-11-20",
@@ -2406,7 +2444,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 1491,
+    "stars": 1520,
     "description": "Static recompilation research for Xbox Series X|S software on x64 Windows, with source-built CPU and GPU tests. Full-game startup is unverified.",
     "version": "gpu-check-v0.1.0",
     "releasedAt": "2026-11-20",
@@ -2482,25 +2520,6 @@
     "curated": true
   },
   {
-    "id": "undecuple-project-pyrrhus",
-    "repo": "undecuple/project-pyrrhus",
-    "title": "Killzone 2",
-    "game": null,
-    "author": "undecuple",
-    "console": "PlayStation 3",
-    "mechanism": "in-progress",
-    "platforms": [],
-    "stars": 167,
-    "description": "Killzone 2 // Unofficial PC Port (static recompilation). Work in progress, partly playable. Builds on your PC from your own game.",
-    "version": null,
-    "releasedAt": "2026-11-19",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/undecuple/project-pyrrhus/releases",
-    "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit",
-    "curated": true
-  },
-  {
     "id": "alondero-automobililamborghini-recomp",
     "repo": "alondero/automobililamborghini-recomp",
     "title": "Automobili Lamborghini",
@@ -2535,7 +2554,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 223,
+    "stars": 224,
     "description": "Odin Sphere Leifthrasir native PC port for Windows, with direct PS4 PKG installation, TRG launcher and modern graphics options",
     "version": "v0.3.0",
     "releasedAt": "2026-11-19",
@@ -2642,7 +2661,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 475,
+    "stars": 476,
     "description": "Static recompilation of Metroid Dread (Switch, 2.1.0) for Windows, Linux and Steam Deck. Bring your own dump: no game files, keys or dumping tools included.",
     "version": "v0.5.10",
     "releasedAt": "2026-11-19",
@@ -2679,7 +2698,7 @@
     "console": "PlayStation 3",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 58,
+    "stars": 57,
     "description": "inFAMOUS 2 native PC port: PS3 static recompilation to Linux, Vulkan renderer, up to 4K, unlocked fps, no emulator. Bring your own disc.",
     "version": null,
     "releasedAt": "2026-11-18",
@@ -3102,7 +3121,7 @@
     "console": "Game Boy Advance",
     "mechanism": "native",
     "platforms": [],
-    "stars": 701,
+    "stars": 702,
     "description": "A decompilation and port of Sonic Advance 1 & 2 - GameBoy Advance game's written in C",
     "version": null,
     "releasedAt": "2026-11-17",
@@ -3278,7 +3297,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 180,
+    "stars": 182,
     "description": "Ratchet & Clank: Tools of Destruction native PC port (PS3 static recompilation) – 4K, 60 fps, DualSense, Windows",
     "version": "v1.3.0",
     "releasedAt": "2026-11-16",
@@ -3577,7 +3596,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 2356,
+    "stars": 2357,
     "description": "Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo",
     "version": "v0.3.15",
     "releasedAt": "2026-11-15",
@@ -3939,7 +3958,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 756,
+    "stars": 755,
     "description": "A native Windows and Linux port of Grand Theft Auto: Vice City Stories (PS2, USA, SLUS-21590), made by recompiling the game's PS2 executable into C++",
     "version": "v0.3.0",
     "releasedAt": "2026-11-14",
@@ -4104,25 +4123,6 @@
     "curated": true
   },
   {
-    "id": "pret-pokeemerald",
-    "repo": "pret/pokeemerald",
-    "title": "Pokémon Emerald",
-    "game": "pokemon-emerald",
-    "author": "pret",
-    "console": "Game Boy Advance",
-    "mechanism": "native",
-    "platforms": [],
-    "stars": 3709,
-    "description": "Decompilation of Pokémon Emerald",
-    "version": null,
-    "releasedAt": "2026-11-14",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/pret/pokeemerald/releases",
-    "licenseId": null,
-    "licenseUrl": null,
-    "curated": true
-  },
-  {
     "id": "supermedo-bloodborne-pc",
     "repo": "Supermedo/bloodborne_pc",
     "title": "Bloodborne",
@@ -4176,7 +4176,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 179,
+    "stars": 180,
     "description": "OpenTricky is an unofficial PC port of SSX Tricky, made by static recompilation. Bring your own disc.",
     "version": "v0.1.6",
     "releasedAt": "2026-11-13",
@@ -4366,7 +4366,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 226,
+    "stars": 227,
     "description": "Native SDL3 port of Colin McRae Rally 2.0 built from the CMR2Decomp decompilation. No game data included.",
     "version": "v1.9.0",
     "releasedAt": "2026-11-12",
@@ -5165,7 +5165,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 46,
+    "stars": 47,
     "description": "A native Godot 4 reimplementation of the Gen 1 and 2 Game Boy Color games. Not an emulator, bring your own ROM.",
     "version": "v0.1.87",
     "releasedAt": "2026-11-06",
@@ -5424,7 +5424,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 787,
+    "stars": 788,
     "description": "PC port of Dragon Ball Z: Budokai Tenkaichi 3, built on the BT3-Decompiled project.",
     "version": "v0.1.39.6",
     "releasedAt": "2026-11-03",
@@ -5617,7 +5617,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 1600,
+    "stars": 1601,
     "description": "Unofficial Windows/Linux/macOS/Android/iOS Port of Animal Crossing Gamecube",
     "version": "v1.0.0",
     "releasedAt": "2026-11-02",
@@ -5640,7 +5640,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 319,
+    "stars": 320,
     "description": "GTA V (Xbox 360, TU27) static recompilation with ReXGlue",
     "version": "v0.3.0",
     "releasedAt": "2026-11-02",
@@ -6226,7 +6226,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 4187,
+    "stars": 4188,
     "description": "Bloodborne (v1.09) running natively on Linux and Windows: the game's x86-64 code runs as is, GPU side translated to Vulkan; FSR 4 / DLSS, co-op (BBSC). Bring your own dump.",
     "version": "0.7",
     "releasedAt": "2026-10-28",
@@ -6411,7 +6411,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 162,
+    "stars": 161,
     "description": "Crash of the Titans (Xbox 360) statically recompiled for Windows: DLSS/FSR, PC controls, PT-BR, subtitles, mods. Bring your own copy of the game.",
     "version": "v1.07",
     "releasedAt": "2026-10-26",
@@ -6514,7 +6514,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 8227,
+    "stars": 8230,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -6888,7 +6888,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 1236,
+    "stars": 1237,
     "description": "Native PC port (Linux/Windows) of inFAMOUS Second Son (PS4, CUSA00223) — in development, playable; runs your own game dump; no game or firmware files included. Motion sensor emulation. | Port nativo para PC de inFAMOUS Second Son (em desenvolvimento) — usa o seu próprio dump.",
     "version": "v1.0",
     "releasedAt": "2026-10-22",
@@ -7468,7 +7468,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 109,
+    "stars": 110,
     "description": "Fukami: native macOS / Steam Deck port of Ridge Racer V (USA) by static recompilation. No game data.",
     "version": "v1.1.0",
     "releasedAt": "2026-10-14",
@@ -7513,7 +7513,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 628,
+    "stars": 629,
     "description": "Static recompilation of a PSP game into a native executable. Vulkan and SDL3. Bring your own copy of the game.",
     "version": "v0.7.5",
     "releasedAt": "2026-10-13",
@@ -7718,7 +7718,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 126,
+    "stars": 127,
     "description": "",
     "version": "v1.0",
     "releasedAt": "2026-10-07",
@@ -7758,7 +7758,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 86,
+    "stars": 85,
     "description": "A native PC recompilation project for the Crash Titans era.",
     "version": "v1.1.0",
     "releasedAt": "2026-10-06",
@@ -7923,7 +7923,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 258,
+    "stars": 260,
     "description": "",
     "version": "V1.2.2",
     "releasedAt": "2026-10-02",
@@ -8034,7 +8034,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 6527,
+    "stars": 6528,
     "description": "Dusklight brings a classic adventure to PC and mobile platforms with a variety of fixes and improvements.",
     "version": "v2.0.3",
     "releasedAt": "2026-09-30",
@@ -9263,7 +9263,7 @@
     "console": "Xbox 360",
     "mechanism": "emulator",
     "platforms": [],
-    "stars": 9857,
+    "stars": 9858,
     "description": "Xbox 360 Emulator Research Project",
     "version": null,
     "releasedAt": "2026-02-18",
