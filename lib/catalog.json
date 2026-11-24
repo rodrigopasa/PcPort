@@ -46,7 +46,7 @@
     "console": "Game Boy Advance",
     "mechanism": "native",
     "platforms": [],
-    "stars": 147,
+    "stars": 148,
     "description": "🌋 Alchemy is a reconstruction of the source for both ☀️ Golden Sun games for Game Boy Advance: a matching decompilation that builds the same ROMs, byte for byte",
     "version": null,
     "releasedAt": "2026-11-24",
@@ -147,7 +147,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 156,
+    "stars": 157,
     "description": "Native port of Tekken Tag Tournament 2 Wii U Edition by static recompilation with the possibility to add new characters and mod the game easily. No files included.",
     "version": "v0.8.0",
     "releasedAt": "2026-11-24",
@@ -188,7 +188,10 @@
     "author": "novapowers0",
     "console": "Xbox 360",
     "mechanism": "recompiled",
-    "platforms": [],
+    "platforms": [
+      "Linux",
+      "macOS"
+    ],
     "stars": 252,
     "description": "Recompilacion estatica (ReXGlue) de Dragon Ball Z: Budokai 3 HD Collection (Xbox 360) para Windows con launcher, sistema de mods y herramientas. No incluye datos del juego.",
     "version": "v1.5.7",
@@ -197,6 +200,87 @@
     "releaseUrl": "https://github.com/novapowers0/DBZ-Budokai-3-HD-Collection/releases/tag/v1.5.7",
     "licenseId": "MIT",
     "licenseUrl": "https://api.github.com/licenses/mit",
+    "curated": true
+  },
+  {
+    "id": "n64hub-mario-party-recomp",
+    "repo": "n64hub/mario-party-recomp",
+    "title": "Mario Party",
+    "game": null,
+    "author": "n64hub",
+    "console": "Nintendo 64",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 49,
+    "description": "AI-written static recompilation of Mario Party (N64, USA) for PC and the web. Bring your own ROM.",
+    "version": "v0.2.18",
+    "releasedAt": "2026-11-24",
+    "sizeBytes": 24567182,
+    "releaseUrl": "https://github.com/n64hub/mario-party-recomp/releases/tag/v0.2.18",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
+  },
+  {
+    "id": "mikesemicolond-roguesquadron64recomp",
+    "repo": "MikeSemicolonD/RogueSquadron64Recomp",
+    "title": "Star Wars: Rogue Squadron",
+    "game": null,
+    "author": "MikeSemicolonD",
+    "console": "Nintendo 64",
+    "mechanism": "recompiled",
+    "platforms": [],
+    "stars": 46,
+    "description": "A fully playable (AI assisted) static recompilation of Star Wars: Rogue Squadron on N64 for Windows 10, Linux, MacOS & Android",
+    "version": null,
+    "releasedAt": "2026-11-24",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/MikeSemicolonD/RogueSquadron64Recomp/releases",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
+  },
+  {
+    "id": "victor-takai-rogue-galaxy-recomp",
+    "repo": "victor-takai/rogue-galaxy-recomp",
+    "title": "Rogue Galaxy",
+    "game": null,
+    "author": "victor-takai",
+    "console": "PlayStation 2",
+    "mechanism": "recompiled",
+    "platforms": [],
+    "stars": 94,
+    "description": "Rogue Galaxy (PS2) as a native Windows game: a static recompilation on PS2Recomp, built from your own disc.",
+    "version": null,
+    "releasedAt": "2026-11-24",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/victor-takai/rogue-galaxy-recomp/releases",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
+  },
+  {
+    "id": "fh1-reimagined-forzahorizon1-reimagined",
+    "repo": "FH1-ReImagined/ForzaHorizon1-ReImagined",
+    "title": "Forza Horizon",
+    "game": "forza-horizon",
+    "author": "FH1-ReImagined",
+    "console": "Xbox 360",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 490,
+    "description": "The 2012 Forza Horizon, native on Windows and Linux, and online again: Horizon World, leaderboards and Rivals on a public server you can also self-host. Bring your own copy.",
+    "version": "v0.4.0",
+    "releasedAt": "2026-11-24",
+    "sizeBytes": 205188593,
+    "releaseUrl": "https://github.com/FH1-ReImagined/ForzaHorizon1-ReImagined/releases/tag/v0.4.0",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
   },
   {
@@ -227,7 +311,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 359,
+    "stars": 360,
     "description": "",
     "version": null,
     "releasedAt": "2026-11-23",
@@ -390,7 +474,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 998,
+    "stars": 999,
     "description": "A cozy life-simulation and sandbox builder with fantastical creatures (Switch 2), recompiled to run natively on Windows, Linux and macOS. Multiplayer, all events, modding, enhancements and more. Discord: https://discord.recompia.com",
     "version": "v0.17.0",
     "releasedAt": "2026-11-23",
@@ -678,7 +762,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 2560,
+    "stars": 2561,
     "description": "Static recompilation of Link's Awakening (Switch) to native macOS, Windows, Linux, iOS and Android.",
     "version": "v0.6.1",
     "releasedAt": "2026-11-23",
@@ -790,28 +874,6 @@
     "curated": true
   },
   {
-    "id": "n64hub-mario-party-recomp",
-    "repo": "n64hub/mario-party-recomp",
-    "title": "Mario Party",
-    "game": null,
-    "author": "n64hub",
-    "console": "Nintendo 64",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 49,
-    "description": "AI-written static recompilation of Mario Party (N64, USA) for PC and the web. Bring your own ROM.",
-    "version": "v0.2.17",
-    "releasedAt": "2026-11-23",
-    "sizeBytes": 24565928,
-    "releaseUrl": "https://github.com/n64hub/mario-party-recomp/releases/tag/v0.2.17",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
-    "curated": true
-  },
-  {
     "id": "metroidret-mzm",
     "repo": "metroidret/mzm",
     "title": "Metroid: Zero Mission",
@@ -886,7 +948,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 271,
+    "stars": 272,
     "description": "Experimental static recompilation of Mario Kart 8 Deluxe 4.0.1 for Windows x64 and Linux amd64. Native Vulkan runtime, Mii creator, online play via Nextendo and Steam rooms. Bring your own game files and keys: no ROMs, assets or keys included.",
     "version": "v0.6.3",
     "releasedAt": "2026-11-23",
@@ -980,24 +1042,6 @@
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
-  },
-  {
-    "id": "mikesemicolond-roguesquadron64recomp",
-    "repo": "MikeSemicolonD/RogueSquadron64Recomp",
-    "title": "Star Wars: Rogue Squadron",
-    "game": null,
-    "author": "MikeSemicolonD",
-    "console": "Nintendo 64",
-    "mechanism": "recompiled",
-    "platforms": [],
-    "stars": 46,
-    "description": "A fully playable (AI assisted) static recompilation of Star Wars: Rogue Squadron on N64 for Windows 10, Linux, MacOS & Android",
-    "version": null,
-    "releasedAt": "2026-11-23",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/MikeSemicolonD/RogueSquadron64Recomp/releases",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
   },
   {
     "id": "vyanhursky-defjamffny-recomp",
@@ -1096,7 +1140,7 @@
     "platforms": [
       "PC"
     ],
-    "stars": 199,
+    "stars": 203,
     "description": "Unofficial PC port of NieR Re[in]carnation (Global 3.7.1): local server, Android runtime, launcher. Bring your own game files.",
     "version": "v1.2",
     "releasedAt": "2026-11-23",
@@ -1136,7 +1180,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 582,
+    "stars": 583,
     "description": "A native Windows PC port of Super Mario Odyssey by static recompilation. Bring your own game: no game files included.",
     "version": "v1.0.0",
     "releasedAt": "2026-11-23",
@@ -1200,7 +1244,7 @@
     "console": "PlayStation 4",
     "mechanism": "native",
     "platforms": [
-      "PC"
+      "Linux"
     ],
     "stars": 2035,
     "description": "Native Windows port of Shadow of the Colossus (PS4, CUSA08809) - bring your own game dump. Port nativo para PC.",
@@ -1243,7 +1287,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 126,
+    "stars": 127,
     "description": "Native PC port of Ace Combat 6: Fires of Liberation using XenonRecomp",
     "version": "v1.1.1",
     "releasedAt": "2026-11-23",
@@ -1251,25 +1295,6 @@
     "releaseUrl": "https://github.com/Dipshet/GracemeriaRecomp/releases/tag/v1.1.1",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
-  },
-  {
-    "id": "victor-takai-rogue-galaxy-recomp",
-    "repo": "victor-takai/rogue-galaxy-recomp",
-    "title": "Rogue Galaxy",
-    "game": null,
-    "author": "victor-takai",
-    "console": "PlayStation 2",
-    "mechanism": "recompiled",
-    "platforms": [],
-    "stars": 94,
-    "description": "Rogue Galaxy (PS2) as a native Windows game: a static recompilation on PS2Recomp, built from your own disc.",
-    "version": null,
-    "releasedAt": "2026-11-23",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/victor-takai/rogue-galaxy-recomp/releases",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
-    "curated": true
   },
   {
     "id": "cadugimenes-sanctuaryport",
@@ -1283,7 +1308,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 162,
+    "stars": 163,
     "description": "Native PC port of Diablo III: Reaper of Souls – Ultimate Evil Edition (PS4). Local co-op for 4.",
     "version": "v0.7.4",
     "releasedAt": "2026-11-23",
@@ -1376,6 +1401,28 @@
     "curated": true
   },
   {
+    "id": "rerevvedrecomp-rerevved",
+    "repo": "ReRevvedRecomp/rerevved",
+    "title": "Rerevved",
+    "game": null,
+    "author": "ReRevvedRecomp",
+    "console": "Xbox 360",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "stars": 40,
+    "description": "A static recomp of Civilization Revolution.",
+    "version": "v0.7.8",
+    "releasedAt": "2026-11-23",
+    "sizeBytes": 195764446,
+    "releaseUrl": "https://github.com/ReRevvedRecomp/rerevved/releases/tag/v0.7.8",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
+  },
+  {
     "id": "elie-0066-spr-recomp-project",
     "repo": "Elie-0066/SPR-Recomp-Project",
     "title": "Splatoon Raiders",
@@ -1408,7 +1455,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 71,
+    "stars": 74,
     "description": "A native PC port of SSX (2012), decoded from the Xbox 360 disc and rebuilt in Rust on Bevy.",
     "version": "v0.4.2",
     "releasedAt": "2026-11-22",
@@ -1492,7 +1539,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 8139,
+    "stars": 8140,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.5.0",
     "releasedAt": "2026-11-22",
@@ -2302,7 +2349,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 1366,
+    "stars": 1367,
     "description": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows and Linux with Vulkan. 0.5.1 out: NVIDIA shader cache fix, player 2 rumble; one-file Windows launcher, presets, local co-op, 16:10, Thai. Requirements: docs/requirements.md. Roadmap: #10. No game files included.",
     "version": "v0.5.1",
     "releasedAt": "2026-11-20",
@@ -2486,7 +2533,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 1541,
+    "stars": 1575,
     "description": "Static recompilation research for Xbox Series X|S software on x64 Windows, with source-built CPU and GPU tests. Full-game startup is unverified.",
     "version": "gpu-check-v0.1.0",
     "releasedAt": "2026-11-20",
@@ -2512,28 +2559,6 @@
     "releasedAt": "2026-11-19",
     "sizeBytes": 176180623,
     "releaseUrl": "https://github.com/jcsix694/def-jam-vendetta-recomp/releases/tag/v0.7.3",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
-    "curated": true
-  },
-  {
-    "id": "fh1-reimagined-forzahorizon1-reimagined",
-    "repo": "FH1-ReImagined/ForzaHorizon1-ReImagined",
-    "title": "Forza Horizon",
-    "game": "forza-horizon",
-    "author": "FH1-ReImagined",
-    "console": "Xbox 360",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 490,
-    "description": "The 2012 Forza Horizon, native on Windows and Linux, and online again: Horizon World, leaderboards and Rivals on a public server you can also self-host. Bring your own copy.",
-    "version": "v0.3.9",
-    "releasedAt": "2026-11-19",
-    "sizeBytes": 205114744,
-    "releaseUrl": "https://github.com/FH1-ReImagined/ForzaHorizon1-ReImagined/releases/tag/v0.3.9",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
@@ -3102,7 +3127,7 @@
     "console": "Nintendo Switch",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 472,
+    "stars": 473,
     "description": "Experimental Windows x64 native porting toolkit for Super Smash Bros. Ultimate: static AArch64 recompilation, a D3D11 runtime, and Local Wireless relay netplay.",
     "version": null,
     "releasedAt": "2026-11-17",
@@ -3210,7 +3235,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 124,
+    "stars": 125,
     "description": "Virtua Fighter 3 (Sega Model 3, 1996) for Mac, Windows and Steam Deck: the arcade's PowerPC program recompiled to native code, up to 6x, widescreen, smooth 120 fps. Bring your own vf3.zip.",
     "version": "v0.1.22-alpha",
     "releasedAt": "2026-11-16",
@@ -3617,7 +3642,7 @@
       "Windows",
       "macOS"
     ],
-    "stars": 171,
+    "stars": 172,
     "description": "Forza Motorsport 4 recompilation based on ShiftGlue",
     "version": "v0.3.3",
     "releasedAt": "2026-11-15",
@@ -3638,7 +3663,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 2357,
+    "stars": 2356,
     "description": "Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo",
     "version": "v0.3.15",
     "releasedAt": "2026-11-15",
@@ -3659,7 +3684,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 719,
+    "stars": 720,
     "description": "",
     "version": "1.6.1",
     "releasedAt": "2026-11-15",
@@ -3849,7 +3874,7 @@
       "Windows",
       "macOS"
     ],
-    "stars": 988,
+    "stars": 989,
     "description": "An unofficial PC port of the Xbox 360 version of Sonic the Hedgehog (2006) created through the process of static recompilation",
     "version": "v1.0.0",
     "releasedAt": "2026-11-14",
@@ -3977,7 +4002,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 755,
+    "stars": 756,
     "description": "A native Windows and Linux port of Grand Theft Auto: Vice City Stories (PS2, USA, SLUS-21590), made by recompiling the game's PS2 executable into C++",
     "version": "v0.3.0",
     "releasedAt": "2026-11-14",
@@ -4195,7 +4220,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 180,
+    "stars": 181,
     "description": "OpenTricky is an unofficial PC port of SSX Tricky, made by static recompilation. Bring your own disc.",
     "version": "v0.1.6",
     "releasedAt": "2026-11-13",
@@ -4697,7 +4722,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 131,
+    "stars": 132,
     "description": "13 Sentinels: Aegis Rim native PC port for Windows and Linux, with direct PS4 PKG installation, TRG launcher and modern graphics options",
     "version": "v0.1.0",
     "releasedAt": "2026-11-09",
@@ -5463,7 +5488,7 @@
     "console": "PlayStation 3",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 362,
+    "stars": 363,
     "description": "Drakengard 3 (PS3) static recompilation using ps3recomp",
     "version": null,
     "releasedAt": "2026-11-03",
@@ -5614,7 +5639,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 1601,
+    "stars": 1602,
     "description": "Unofficial Windows/Linux/macOS/Android/iOS Port of Animal Crossing Gamecube",
     "version": "v1.0.0",
     "releasedAt": "2026-11-02",
@@ -5829,7 +5854,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 34361,
+    "stars": 34365,
     "description": "PlayStation 4 emulator for Windows, Linux, macOS and FreeBSD written in C++",
     "version": "v.0.21.0",
     "releasedAt": "2026-10-30",
@@ -6223,7 +6248,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 4188,
+    "stars": 4189,
     "description": "Bloodborne (v1.09) running natively on Linux and Windows: the game's x86-64 code runs as is, GPU side translated to Vulkan; FSR 4 / DLSS, co-op (BBSC). Bring your own dump.",
     "version": "0.7",
     "releasedAt": "2026-10-28",
@@ -6511,7 +6536,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 8232,
+    "stars": 8242,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -6885,7 +6910,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 1237,
+    "stars": 1238,
     "description": "Native PC port (Linux/Windows) of inFAMOUS Second Son (PS4, CUSA00223) — in development, playable; runs your own game dump; no game or firmware files included. Motion sensor emulation. | Port nativo para PC de inFAMOUS Second Son (em desenvolvimento) — usa o seu próprio dump.",
     "version": "v1.0",
     "releasedAt": "2026-10-22",
@@ -6923,7 +6948,7 @@
     "console": "Nintendo Switch",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 647,
+    "stars": 648,
     "description": "Unofficial static recompilation of Bayonetta 2 (Switch) for Windows. Builds the game on your PC from your own legally dumped copy. No game files, keys or SDK code included.",
     "version": "v0.3.3",
     "releasedAt": "2026-10-22",
@@ -7797,7 +7822,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 943,
+    "stars": 944,
     "description": "Recompilation of Blue Dragon",
     "version": "v1.3.1",
     "releasedAt": "2026-10-05",
@@ -8031,7 +8056,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 6528,
+    "stars": 6530,
     "description": "Dusklight brings a classic adventure to PC and mobile platforms with a variety of fixes and improvements.",
     "version": "v2.0.3",
     "releasedAt": "2026-09-30",
@@ -8734,7 +8759,7 @@
     "console": "Xbox 360",
     "mechanism": "native",
     "platforms": [],
-    "stars": 608,
+    "stars": 609,
     "description": "static Recomp of AC6 with Rexglue",
     "version": null,
     "releasedAt": "2026-08-22",
@@ -8995,7 +9020,7 @@
     "console": "Game Boy Advance",
     "mechanism": "native",
     "platforms": [],
-    "stars": 75,
+    "stars": 74,
     "description": "PC port of Rayman 3 GBA",
     "version": null,
     "releasedAt": "2026-07-10",
@@ -9017,7 +9042,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 45,
+    "stars": 46,
     "description": "SoulCalibur IV Statically Recompiled using ReXGlue SDK",
     "version": "v0.9.1",
     "releasedAt": "2026-07-07",
