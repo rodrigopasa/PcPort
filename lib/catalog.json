@@ -383,6 +383,49 @@
     "curated": true
   },
   {
+    "id": "nathanialf-ico-pc",
+    "repo": "nathanialf/ico-pc",
+    "title": "ICO",
+    "game": "ico",
+    "author": "nathanialf",
+    "console": "PlayStation 2",
+    "mechanism": "native",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Android",
+      "iOS"
+    ],
+    "stars": 579,
+    "description": "PC, Android, iOS and macOS port of the ICO (PS2) decompilation (nathanialf/ico): Windows, Linux, Steam Deck, Android, iPhone via LiveContainer and Apple-silicon Mac (contributed). Contains no game data.",
+    "version": "v0.11.15",
+    "releasedAt": "2026-11-24",
+    "sizeBytes": 34585009,
+    "releaseUrl": "https://github.com/nathanialf/ico-pc/releases/tag/v0.11.15",
+    "licenseId": "NOASSERTION",
+    "licenseUrl": null,
+    "curated": true
+  },
+  {
+    "id": "tyle-beep-haiku",
+    "repo": "tyle-beep/Haiku",
+    "title": "Haiku",
+    "game": null,
+    "author": "tyle-beep",
+    "console": "PC",
+    "mechanism": "recompiled",
+    "platforms": [],
+    "stars": 88,
+    "description": "Fire Emblem Fates, statically recompiled to a native Windows program. Contains no game files: you build it from your own dump.",
+    "version": "v1.4.2",
+    "releasedAt": "2026-11-24",
+    "sizeBytes": 152193966,
+    "releaseUrl": "https://github.com/tyle-beep/Haiku/releases/tag/v1.4.2",
+    "licenseId": "NOASSERTION",
+    "licenseUrl": null
+  },
+  {
     "id": "maryncrt-ultimate-mortal-kombat-3-ios-decompiled",
     "repo": "MaryNCRT/Ultimate-Mortal-Kombat-3-iOS-Decompiled",
     "title": "Ultimate Mortal Kombat 3",
@@ -573,7 +616,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 999,
+    "stars": 1000,
     "description": "A cozy life-simulation and sandbox builder with fantastical creatures (Switch 2), recompiled to run natively on Windows, Linux and macOS. Multiplayer, all events, modding, enhancements and more. Discord: https://discord.recompia.com",
     "version": "v0.17.0",
     "releasedAt": "2026-11-23",
@@ -616,7 +659,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 326,
+    "stars": 327,
     "description": "Ninja Gaiden II (Xbox 360, 2008) statically recompiled into native Linux and Windows builds, drawn by its own Vulkan renderer. A steady 60 fps, up to 8x render scale, widescreen and ultrawide, keyboard and mouse, mods, Steam Deck ready. Bring your own copy of the game.",
     "version": "v0.7.5",
     "releasedAt": "2026-11-23",
@@ -1184,7 +1227,7 @@
     "platforms": [
       "PC"
     ],
-    "stars": 206,
+    "stars": 208,
     "description": "Unofficial PC port of NieR Re[in]carnation (Global 3.7.1): local server, Android runtime, launcher. Bring your own game files.",
     "version": "v1.2",
     "releasedAt": "2026-11-23",
@@ -1415,7 +1458,7 @@
     "console": "Game Boy Advance",
     "mechanism": "native",
     "platforms": [],
-    "stars": 3709,
+    "stars": 3710,
     "description": "Decompilation of Pokémon Emerald",
     "version": null,
     "releasedAt": "2026-11-23",
@@ -1480,7 +1523,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 79,
+    "stars": 86,
     "description": "A native PC port of SSX (2012), decoded from the Xbox 360 disc and rebuilt in Rust on Bevy.",
     "version": "v0.4.2",
     "releasedAt": "2026-11-22",
@@ -1564,7 +1607,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 8144,
+    "stars": 8147,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.5.0",
     "releasedAt": "2026-11-22",
@@ -1692,7 +1735,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2557,
+    "stars": 2556,
     "description": "Native PC port of P.T. (runs from your own PS4 game files)",
     "version": "v1.1.1",
     "releasedAt": "2026-11-22",
@@ -1831,31 +1874,6 @@
     "curated": true
   },
   {
-    "id": "nathanialf-ico-pc",
-    "repo": "nathanialf/ico-pc",
-    "title": "ICO",
-    "game": "ico",
-    "author": "nathanialf",
-    "console": "PlayStation 2",
-    "mechanism": "native",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "macOS",
-      "Android",
-      "iOS"
-    ],
-    "stars": 578,
-    "description": "PC, Android, iOS and macOS port of the ICO (PS2) decompilation (nathanialf/ico): Windows, Linux, Steam Deck, Android, iPhone via LiveContainer and Apple-silicon Mac (contributed). Contains no game data.",
-    "version": "v0.11.14",
-    "releasedAt": "2026-11-21",
-    "sizeBytes": 34172993,
-    "releaseUrl": "https://github.com/nathanialf/ico-pc/releases/tag/v0.11.14",
-    "licenseId": "NOASSERTION",
-    "licenseUrl": null,
-    "curated": true
-  },
-  {
     "id": "shagg88-cogbox",
     "repo": "Shagg88/COGBox",
     "title": "Gears of War 2, 3 & Judgment",
@@ -1873,24 +1891,6 @@
     "licenseId": "MIT",
     "licenseUrl": "https://api.github.com/licenses/mit",
     "curated": true
-  },
-  {
-    "id": "tyle-beep-haiku",
-    "repo": "tyle-beep/Haiku",
-    "title": "Haiku",
-    "game": null,
-    "author": "tyle-beep",
-    "console": "PC",
-    "mechanism": "recompiled",
-    "platforms": [],
-    "stars": 88,
-    "description": "Fire Emblem Fates, statically recompiled to a native Windows program. Contains no game files: you build it from your own dump.",
-    "version": "v1.4.1",
-    "releasedAt": "2026-11-21",
-    "sizeBytes": 152193966,
-    "releaseUrl": "https://github.com/tyle-beep/Haiku/releases/tag/v1.4.1",
-    "licenseId": "NOASSERTION",
-    "licenseUrl": null
   },
   {
     "id": "destinity13-timesplitters-2-native-recomp-windows-linux-steamdeck",
@@ -2218,7 +2218,7 @@
     "console": "PlayStation 2",
     "mechanism": "native",
     "platforms": [],
-    "stars": 52,
+    "stars": 53,
     "description": "A recomp of Guitar Hero II (PS2) that runs natively on PC and Mac, and loads content from GH1, GH80s and the 360 port of GH2.",
     "version": null,
     "releasedAt": "2026-11-21",
@@ -2349,7 +2349,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 1373,
+    "stars": 1374,
     "description": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows and Linux with Vulkan. 0.5.1 out: NVIDIA shader cache fix, player 2 rumble; one-file Windows launcher, presets, local co-op, 16:10, Thai. Requirements: docs/requirements.md. Roadmap: #10. No game files included.",
     "version": "v0.5.1",
     "releasedAt": "2026-11-20",
@@ -2450,7 +2450,7 @@
       "macOS",
       "iOS"
     ],
-    "stars": 81,
+    "stars": 82,
     "description": "PvZ2: Reflourished native port for iPhone, iPad, Mac and Windows",
     "version": "v1.5.6",
     "releasedAt": "2026-11-20",
@@ -2533,7 +2533,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 1597,
+    "stars": 1606,
     "description": "Static recompilation research for Xbox Series X|S software on x64 Windows, with source-built CPU and GPU tests. Full-game startup is unverified.",
     "version": "gpu-check-v0.1.0",
     "releasedAt": "2026-11-20",
@@ -4854,7 +4854,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 943,
+    "stars": 944,
     "description": "Xbox 360 to PC port of Dante's Inferno using ReXGlue (static recompilation)",
     "version": "v0.8.6-beta-hotfix",
     "releasedAt": "2026-11-08",
@@ -5038,7 +5038,7 @@
     "console": "Xbox",
     "mechanism": "native",
     "platforms": [],
-    "stars": 139,
+    "stars": 140,
     "description": "Unofficial native Windows port of Star Wars: Episode III - Revenge of the Sith (Xbox). Bring your own copy.",
     "version": null,
     "releasedAt": "2026-11-07",
@@ -5984,7 +5984,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 115,
+    "stars": 116,
     "description": "Marvel Ultimate Alliance 1, Gold Edition and 2 native PC ports via static recompilation, in one bundle with high frame rates, 4K rendering, ultrawide, HD Text, TRG launcher, and experimental Linux/Steam Deck support",
     "version": "v0.2.0",
     "releasedAt": "2026-10-29",
@@ -6536,7 +6536,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 8245,
+    "stars": 8248,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -6558,7 +6558,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 135,
+    "stars": 136,
     "description": "Crackdown native PC port via static recompilation, with high frame rates, 4K rendering, ultrawide support, offline achievements, language selection, TRG launcher, and experimental Linux/Steam Deck support",
     "version": "v0.6.2",
     "releasedAt": "2026-10-25",
@@ -6910,7 +6910,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 1238,
+    "stars": 1239,
     "description": "Native PC port (Linux/Windows) of inFAMOUS Second Son (PS4, CUSA00223) — in development, playable; runs your own game dump; no game or firmware files included. Motion sensor emulation. | Port nativo para PC de inFAMOUS Second Son (em desenvolvimento) — usa o seu próprio dump.",
     "version": "v1.0",
     "releasedAt": "2026-10-22",
@@ -7189,7 +7189,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 6161,
+    "stars": 6162,
     "description": "Ship of Harkinian: a PC port of Ocarina of Time built from the decompilation, with widescreen, high framerate and mod support.",
     "version": "9.3.1",
     "releasedAt": "2026-10-18",
@@ -7254,7 +7254,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 126,
+    "stars": 127,
     "description": "Native PC port of Earthworm Jim HD (Xbox Live Arcade) via static recompilation, with the TRG launcher",
     "version": "v0.9.6",
     "releasedAt": "2026-10-18",
@@ -7490,7 +7490,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 110,
+    "stars": 111,
     "description": "Fukami: native macOS / Steam Deck port of Ridge Racer V (USA) by static recompilation. No game data.",
     "version": "v1.1.0",
     "releasedAt": "2026-10-14",
@@ -8056,7 +8056,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 6529,
+    "stars": 6530,
     "description": "Dusklight brings a classic adventure to PC and mobile platforms with a variety of fixes and improvements.",
     "version": "v2.0.3",
     "releasedAt": "2026-09-30",
