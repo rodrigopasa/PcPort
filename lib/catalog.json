@@ -47,7 +47,7 @@
     "mechanism": "native",
     "platforms": [],
     "stars": 147,
-    "description": "A reconstruction of the source for the Golden Sun games on GBA: a 100% matching decompilation",
+    "description": "The 🌋 Alchemy project is a reconstruction of the source code for both Golden Sun games on GameBoy Advance. It is a 100% matching decompilation, aimed at video game preservation.",
     "version": null,
     "releasedAt": "2026-11-24",
     "sizeBytes": null,
@@ -216,10 +216,10 @@
     ],
     "stars": 49,
     "description": "AI-written static recompilation of Mario Party (N64, USA) for PC and the web. Bring your own ROM.",
-    "version": "v0.2.27",
+    "version": "v0.2.28",
     "releasedAt": "2026-11-24",
-    "sizeBytes": 24597884,
-    "releaseUrl": "https://github.com/n64hub/mario-party-recomp/releases/tag/v0.2.27",
+    "sizeBytes": 24598032,
+    "releaseUrl": "https://github.com/n64hub/mario-party-recomp/releases/tag/v0.2.28",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
@@ -251,7 +251,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 95,
+    "stars": 96,
     "description": "Rogue Galaxy (PS2) as a native Windows game: a static recompilation on PS2Recomp, built from your own disc.",
     "version": null,
     "releasedAt": "2026-11-24",
@@ -439,7 +439,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 1017,
+    "stars": 1018,
     "description": "A cozy life-simulation and sandbox builder with fantastical creatures (Switch 2), recompiled to run natively on Windows, Linux and macOS. Multiplayer, all events, modding, enhancements and more.",
     "version": "v0.17.5",
     "releasedAt": "2026-11-24",
@@ -458,7 +458,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 322,
+    "stars": 334,
     "description": "Continuation of Project Leonida, aiming to bring GTA VI from Xbox to PC through static recompilation.",
     "version": null,
     "releasedAt": "2026-11-24",
@@ -557,7 +557,7 @@
     "console": "Nintendo DS",
     "mechanism": "native",
     "platforms": [],
-    "stars": 267,
+    "stars": 268,
     "description": "From-scratch, byte-matching decompilation of Super Mario 64 DS into C/C++, with a live progress atlas and matching tools.",
     "version": null,
     "releasedAt": "2026-11-24",
@@ -624,7 +624,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 90,
+    "stars": 91,
     "description": "Burnout 3: Takedown, native on every platform",
     "version": "v1.4.0",
     "releasedAt": "2026-11-24",
@@ -664,7 +664,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 612,
+    "stars": 614,
     "description": "A native Windows PC port of Super Mario Odyssey by static recompilation. Bring your own game: no game files included.",
     "version": "v1.0.1",
     "releasedAt": "2026-11-24",
@@ -704,7 +704,7 @@
     "console": "PlayStation",
     "mechanism": "native",
     "platforms": [],
-    "stars": 445,
+    "stars": 446,
     "description": "A Crash Team Racing Decompilation Project",
     "version": null,
     "releasedAt": "2026-11-24",
@@ -784,7 +784,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 1398,
+    "stars": 1399,
     "description": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows and Linux with Vulkan. 0.5.2 out: TOTK to DKB rename, Feast Layer muck fix, 4 GB cards, Switch 2 controllers on USB; one-file Windows launcher. Requirements: docs/requirements.md. Roadmap: #10. No game files included.",
     "version": "v0.5.2",
     "releasedAt": "2026-11-24",
@@ -885,7 +885,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 127,
+    "stars": 146,
     "description": "Native PC port layer for an Xbox Series X|S title: the game's x64 code runs on your CPU and its RDNA2 GPU code is recompiled for your graphics card. Bring your own files.",
     "version": null,
     "releasedAt": "2026-11-24",
@@ -970,6 +970,108 @@
     "releaseUrl": "https://github.com/soyjxck/dod3-recomp/releases",
     "licenseId": "NOASSERTION",
     "licenseUrl": null,
+    "curated": true
+  },
+  {
+    "id": "nlwstein-skullburglar",
+    "repo": "nlwstein/skullburglar",
+    "title": "50 Cent: Blood on the Sand",
+    "game": null,
+    "author": "nlwstein",
+    "console": "Xbox 360",
+    "mechanism": "recompiled",
+    "platforms": [],
+    "stars": 78,
+    "description": "Native PC, Mac and Steam Deck port of 50 Cent: Blood on the Sand (Xbox 360), statically recompiled with ReXGlue. Download: https://skullburglar.stz.sh",
+    "version": null,
+    "releasedAt": "2026-11-24",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/nlwstein/skullburglar/releases",
+    "licenseId": "NOASSERTION",
+    "licenseUrl": null,
+    "curated": true
+  },
+  {
+    "id": "pc-porters-splatpc-splatoon-native-pc-port",
+    "repo": "PC-PORTERS/SplatPC-Splatoon-Native-PC-Port",
+    "title": "Splat Splatoon",
+    "game": null,
+    "author": "PC-PORTERS",
+    "console": "PC",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 90,
+    "description": "SplatPC SPLATOON 1 PORT",
+    "version": "v1.0.11",
+    "releasedAt": "2026-11-24",
+    "sizeBytes": 13321022,
+    "releaseUrl": "https://github.com/PC-PORTERS/SplatPC-Splatoon-Native-PC-Port/releases/tag/v1.0.11",
+    "licenseId": "MPL-2.0",
+    "licenseUrl": "https://api.github.com/licenses/mpl-2.0"
+  },
+  {
+    "id": "norain211-doa3-re",
+    "repo": "NoRain211/doa3-re",
+    "title": "Dead or Alive 3",
+    "game": "doa3",
+    "author": "NoRain211",
+    "console": "Xbox",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Linux",
+      "macOS"
+    ],
+    "stars": 67,
+    "description": "Native Windows port of Dead or Alive 3 (Xbox), built by static recompilation with a hand-written runtime. Requires your own copy of the game.",
+    "version": "v0.8.1",
+    "releasedAt": "2026-11-24",
+    "sizeBytes": 27981584,
+    "releaseUrl": "https://github.com/NoRain211/doa3-re/releases/tag/v0.8.1",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
+  },
+  {
+    "id": "cadugimenes-sanctuaryport",
+    "repo": "CaduGimenes/SanctuaryPort",
+    "title": "Diablo III: Reaper of Souls – Ultimate Evil Edition",
+    "game": null,
+    "author": "CaduGimenes",
+    "console": "PlayStation 4",
+    "mechanism": "native",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 168,
+    "description": "Native PC port of Diablo III: Reaper of Souls – Ultimate Evil Edition (PS4). Local co-op for 4.",
+    "version": "v0.7.5",
+    "releasedAt": "2026-11-24",
+    "sizeBytes": 150054549,
+    "releaseUrl": "https://github.com/CaduGimenes/SanctuaryPort/releases/tag/v0.7.5",
+    "licenseId": "GPL-2.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-2.0"
+  },
+  {
+    "id": "jessetbh-wwfnomercyrecomp",
+    "repo": "jessetbh/WWFNoMercyRecomp",
+    "title": "WWF No Mercy",
+    "game": null,
+    "author": "jessetbh",
+    "console": "Nintendo 64",
+    "mechanism": "recompiled",
+    "platforms": [],
+    "stars": 56,
+    "description": "Native PC port of WWF No Mercy (N64) via static recompilation. No game assets included — bring your own ROM.",
+    "version": null,
+    "releasedAt": "2026-11-24",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/jessetbh/WWFNoMercyRecomp/releases",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
   },
   {
@@ -1125,7 +1227,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 452,
+    "stars": 453,
     "description": "An unofficial PC port of the Xbox version of Shadow the Hedgehog, created through the process of static recompilation. ",
     "version": "v1.0.1",
     "releasedAt": "2026-11-23",
@@ -1249,31 +1351,12 @@
       "macOS",
       "Android"
     ],
-    "stars": 2579,
+    "stars": 2580,
     "description": "Static recompilation of Link's Awakening (Switch) to native macOS, Windows, Linux, iOS and Android.",
     "version": "v0.6.1",
     "releasedAt": "2026-11-23",
     "sizeBytes": 241929491,
     "releaseUrl": "https://github.com/peiikai/LASRecomp/releases/tag/v0.6.1",
-    "licenseId": "NOASSERTION",
-    "licenseUrl": null,
-    "curated": true
-  },
-  {
-    "id": "nlwstein-skullburglar",
-    "repo": "nlwstein/skullburglar",
-    "title": "50 Cent: Blood on the Sand",
-    "game": null,
-    "author": "nlwstein",
-    "console": "Xbox 360",
-    "mechanism": "recompiled",
-    "platforms": [],
-    "stars": 78,
-    "description": "Native PC, Mac and Steam Deck port of 50 Cent: Blood on the Sand (Xbox 360), statically recompiled with ReXGlue. Download: https://skullburglar.stz.sh",
-    "version": null,
-    "releasedAt": "2026-11-23",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/nlwstein/skullburglar/releases",
     "licenseId": "NOASSERTION",
     "licenseUrl": null,
     "curated": true
@@ -1388,27 +1471,6 @@
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
   },
   {
-    "id": "pc-porters-splatpc-splatoon-native-pc-port",
-    "repo": "PC-PORTERS/SplatPC-Splatoon-Native-PC-Port",
-    "title": "Splat Splatoon",
-    "game": null,
-    "author": "PC-PORTERS",
-    "console": "PC",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 90,
-    "description": "SplatPC SPLATOON 1 PORT",
-    "version": "v1.0.10",
-    "releasedAt": "2026-11-23",
-    "sizeBytes": 13316949,
-    "releaseUrl": "https://github.com/PC-PORTERS/SplatPC-Splatoon-Native-PC-Port/releases/tag/v1.0.10",
-    "licenseId": "MPL-2.0",
-    "licenseUrl": "https://api.github.com/licenses/mpl-2.0"
-  },
-  {
     "id": "roz1077-true-crime-new-york-city-recomp",
     "repo": "roz1077/true-crime-new-york-city-recomp",
     "title": "True Crime: New York City",
@@ -1486,7 +1548,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 283,
+    "stars": 284,
     "description": "Def Jam: Fight for NY PC port — static recompilation of the original Xbox game for native Windows and macOS (Direct3D 11 / Vulkan). Bring your own game dump.",
     "version": "v1.2.2",
     "releasedAt": "2026-11-23",
@@ -1494,28 +1556,6 @@
     "releaseUrl": "https://github.com/vyanhursky/DefJamFFNY-recomp/releases/tag/v1.2.2",
     "licenseId": "NOASSERTION",
     "licenseUrl": null,
-    "curated": true
-  },
-  {
-    "id": "norain211-doa3-re",
-    "repo": "NoRain211/doa3-re",
-    "title": "Dead or Alive 3",
-    "game": "doa3",
-    "author": "NoRain211",
-    "console": "Xbox",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Linux",
-      "macOS"
-    ],
-    "stars": 67,
-    "description": "Native Windows port of Dead or Alive 3 (Xbox), built by static recompilation with a hand-written runtime. Requires your own copy of the game.",
-    "version": "v0.8.0",
-    "releasedAt": "2026-11-23",
-    "sizeBytes": 27977124,
-    "releaseUrl": "https://github.com/NoRain211/doa3-re/releases/tag/v0.8.0",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
   },
   {
@@ -1645,27 +1685,6 @@
     "releaseUrl": "https://github.com/Dipshet/GracemeriaRecomp/releases/tag/v1.1.1",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
-  },
-  {
-    "id": "cadugimenes-sanctuaryport",
-    "repo": "CaduGimenes/SanctuaryPort",
-    "title": "Diablo III: Reaper of Souls – Ultimate Evil Edition",
-    "game": null,
-    "author": "CaduGimenes",
-    "console": "PlayStation 4",
-    "mechanism": "native",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 166,
-    "description": "Native PC port of Diablo III: Reaper of Souls – Ultimate Evil Edition (PS4). Local co-op for 4.",
-    "version": "v0.7.4",
-    "releasedAt": "2026-11-23",
-    "sizeBytes": 149976660,
-    "releaseUrl": "https://github.com/CaduGimenes/SanctuaryPort/releases/tag/v0.7.4",
-    "licenseId": "GPL-2.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-2.0"
   },
   {
     "id": "james2doyle-ffta-recomp",
@@ -1827,7 +1846,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 103,
+    "stars": 104,
     "description": "A native PC port of SSX (2012), decoded from the Xbox 360 disc and rebuilt in Rust on Bevy.",
     "version": "v0.4.2",
     "releasedAt": "2026-11-22",
@@ -1889,7 +1908,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 567,
+    "stars": 568,
     "description": "Dragon's Crown Pro native PC port for Windows, with direct PS4 PKG installation, TRG launcher and modern graphics options",
     "version": "v1.4.1",
     "releasedAt": "2026-11-22",
@@ -1911,7 +1930,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 8208,
+    "stars": 8210,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.5.0",
     "releasedAt": "2026-11-22",
@@ -2124,7 +2143,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 215,
+    "stars": 216,
     "description": "CPS-2 Recomp: unofficial native PC ports of Capcom CPS-2 arcade games (Street Fighter Alpha 2, Super Puzzle Fighter II Turbo, Vampire Savior) via static recompilation, with training modes, in one launcher: macOS, Linux, Steam Deck, Windows. Requires your own ROM sets. Beta.",
     "version": "v1.6.0-beta.5",
     "releasedAt": "2026-11-21",
@@ -2146,7 +2165,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 190,
+    "stars": 191,
     "description": "Super Mario World recompiled for the Super Nintendo using snesrecomp · Part of the R.A.I.D. community",
     "version": "v0.15.11",
     "releasedAt": "2026-11-21",
@@ -2711,7 +2730,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 1871,
+    "stars": 1877,
     "description": "Static recompilation research for Xbox Series X|S software on x64 Windows, with source-built CPU and GPU tests. Full-game startup is unverified.",
     "version": "gpu-check-v0.1.0",
     "releasedAt": "2026-11-20",
@@ -2986,7 +3005,7 @@
     "platforms": [
       "PC"
     ],
-    "stars": 101,
+    "stars": 102,
     "description": "Native Windows PC recompilation of the unreleased GoldenEye 007 Xbox 360/XBLA remaster using ReXGlue. Requires your own copy.",
     "version": "v0.9.7d",
     "releasedAt": "2026-11-18",
@@ -3547,7 +3566,7 @@
       "Linux",
       "Android"
     ],
-    "stars": 99,
+    "stars": 100,
     "description": "Native C++ recompilation of The Binding of Isaac (Flash) — 60 fps, 1080p, Windows/Linux/Switch. Requires the original game from Steam",
     "version": "v1.7.0",
     "releasedAt": "2026-11-16",
@@ -3615,25 +3634,6 @@
     "releasedAt": "2026-11-15",
     "sizeBytes": 217861632,
     "releaseUrl": "https://github.com/droogie/bbhost/releases/tag/v0.2.35",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
-    "curated": true
-  },
-  {
-    "id": "jessetbh-wwfnomercyrecomp",
-    "repo": "jessetbh/WWFNoMercyRecomp",
-    "title": "WWF No Mercy",
-    "game": null,
-    "author": "jessetbh",
-    "console": "Nintendo 64",
-    "mechanism": "recompiled",
-    "platforms": [],
-    "stars": 56,
-    "description": "Native PC port of WWF No Mercy (N64) via static recompilation. No game assets included — bring your own ROM.",
-    "version": null,
-    "releasedAt": "2026-11-15",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/jessetbh/WWFNoMercyRecomp/releases",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
@@ -3802,7 +3802,7 @@
       "Windows",
       "macOS"
     ],
-    "stars": 176,
+    "stars": 177,
     "description": "Forza Motorsport 4 recompilation based on ShiftGlue",
     "version": "v0.3.3",
     "releasedAt": "2026-11-15",
@@ -3823,7 +3823,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 2360,
+    "stars": 2362,
     "description": "Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo",
     "version": "v0.3.15",
     "releasedAt": "2026-11-15",
@@ -4101,7 +4101,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 146,
+    "stars": 147,
     "description": "Halo CE: Ported for Everyone. Windows, Mac, Linux, Steam Deck, Android and FreeBSD, with online play and stats. Bring your own copy of the game.",
     "version": "v0.9.1a",
     "releasedAt": "2026-11-14",
@@ -4337,7 +4337,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5669,
+    "stars": 5670,
     "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
     "version": "windows-v1.9.8.6",
     "releasedAt": "2026-11-13",
@@ -5952,7 +5952,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 34380,
+    "stars": 34379,
     "description": "PlayStation 4 emulator for Windows, Linux, macOS and FreeBSD written in C++",
     "version": "v.0.21.0",
     "releasedAt": "2026-10-30",
@@ -6141,7 +6141,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 987,
+    "stars": 988,
     "description": "An unofficial original Xbox version PC port of BLACK (2006) via static recompilation.",
     "version": "V3",
     "releasedAt": "2026-10-29",
@@ -6271,6 +6271,26 @@
     "licenseId": "MIT",
     "licenseUrl": "https://api.github.com/licenses/mit",
     "curated": true
+  },
+  {
+    "id": "tekrantgaming-angry-birds-re-hatched-collection",
+    "repo": "TekRantGaming/angry-birds-re-hatched-collection",
+    "title": "Angry Birds Hatched Collection",
+    "game": null,
+    "author": "TekRantGaming",
+    "console": "Xbox 360",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows"
+    ],
+    "stars": 40,
+    "description": "Native PC ports of Angry Birds Classic, Seasons, Rio and Star Wars (Xbox 360) via static recompilation, in one launcher",
+    "version": "v0.1.0",
+    "releasedAt": "2026-10-29",
+    "sizeBytes": 36925913,
+    "releaseUrl": "https://github.com/TekRantGaming/angry-birds-re-hatched-collection/releases/tag/v0.1.0",
+    "licenseId": null,
+    "licenseUrl": null
   },
   {
     "id": "dahsidiabdallah-conkerbfdreloaded",
@@ -6531,7 +6551,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 161,
+    "stars": 160,
     "description": "Crash of the Titans (Xbox 360) statically recompiled for Windows: DLSS/FSR, PC controls, PT-BR, subtitles, mods. Bring your own copy of the game.",
     "version": "v1.07",
     "releasedAt": "2026-10-26",
@@ -7046,7 +7066,7 @@
     "console": "Nintendo Switch",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 651,
+    "stars": 652,
     "description": "Unofficial static recompilation of Bayonetta 2 (Switch) for Windows. Builds the game on your PC from your own legally dumped copy. No game files, keys or SDK code included.",
     "version": "v0.3.3",
     "releasedAt": "2026-10-22",
@@ -7287,7 +7307,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 6164,
+    "stars": 6165,
     "description": "Ship of Harkinian: a PC port of Ocarina of Time built from the decompilation, with widescreen, high framerate and mod support.",
     "version": "9.3.1",
     "releasedAt": "2026-10-18",
