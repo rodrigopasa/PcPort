@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { Ad } from '@/components/Ads'
 import Link from 'next/link'
 import { notFound, permanentRedirect } from 'next/navigation'
 import { getCounts, getEntries, type Entry } from '@/lib/data'
@@ -129,11 +130,13 @@ export async function GuidePage({ lang, slug }: { lang: Lang; slug: string }) {
       </section>
 
       <main id="conteudo">
+        <Ad unit={1} className="my-8" />
         {guide.kind === 'list' ? (
           <Matrix entries={entries} lang={lang} />
         ) : (
           <DecompArticle lang={lang} all={all} />
         )}
+        <Ad unit={8} className="my-10" />
 
         {others.length ? (
           <section className="mx-auto max-w-[1400px] border-t border-hairline px-5 py-10">
@@ -211,6 +214,7 @@ export async function GuidesIndex({ lang }: { lang: Lang }) {
             </Link>
           </li>
         </ul>
+        <Ad unit={1} className="mt-12" />
       </main>
       <SiteFooter lang={lang} />
     </>

@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation'
 import { Archivo, Spline_Sans_Mono } from 'next/font/google'
 import { isLang, SITE, SITE_NAME, DICT } from '@/lib/i18n'
 import { ServiceWorker } from '@/components/ServiceWorker'
+import { AdsRuntime } from '@/components/Ads'
 import '../globals.css'
 
 // Self-hosted at build time by next/font — no render-blocking request to Google.
@@ -82,6 +83,7 @@ export default async function LangLayout({
         </a>
         {children}
         <ServiceWorker />
+        <AdsRuntime />
       </body>
     </html>
   )

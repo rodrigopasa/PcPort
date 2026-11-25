@@ -25,7 +25,7 @@ import { SiteFooter } from '@/components/SiteFooter'
 import { StatusChip } from '@/components/StatusChip'
 import { Cover } from '@/components/Cover'
 import { Shots } from '@/components/Shots'
-import { AdSlot } from '@/components/AdSlot'
+import { Ad } from '@/components/Ads'
 
 export const revalidate = 300
 
@@ -290,7 +290,7 @@ export default async function EntryPage({ params }: { params: Params }) {
               </Link>
             ) : null}
 
-            <AdSlot className="mt-10" />
+            <Ad unit={1} className="mt-10" />
           </aside>
 
           {/* 3 — the long tail */}
@@ -332,6 +332,8 @@ export default async function EntryPage({ params }: { params: Params }) {
               {entry.repoDescription}
             </p>
 
+            <Ad unit={2} className="mt-12" />
+
             <h2 className={`mt-12 ${h2}`}>{t.howToInstall}</h2>
             <ol className="mt-4 border-t border-hairline">
               {entry.installSteps.map((s, i) => (
@@ -347,6 +349,8 @@ export default async function EntryPage({ params }: { params: Params }) {
               ))}
             </ol>
             <p className="mt-4 text-[12px] text-faint">{t.ownCopy}</p>
+
+            <Ad unit={3} className="mt-12" />
 
             <h2 className={`mt-12 ${h2}`}>{t.faq}</h2>
             <div className="mt-4 border-t border-hairline">
@@ -366,6 +370,8 @@ export default async function EntryPage({ params }: { params: Params }) {
             <MaintainerBox lang={lang} repo={entry.repo} path={entryPath(lang, entry.slug)} />
           </div>
         </article>
+
+        <Ad unit={4} className="mb-12" />
 
         {related.length ? (
           <section className="border-t border-hairline pt-8">

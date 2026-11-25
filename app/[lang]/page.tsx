@@ -14,6 +14,7 @@ import {
 } from '@/lib/i18n'
 import { SiteHeader } from '@/components/SiteHeader'
 import { SiteFooter } from '@/components/SiteFooter'
+import { Ad } from '@/components/Ads'
 import { LeadBand } from '@/components/LeadBand'
 import { Matrix } from '@/components/Matrix'
 import { ArrowRight } from '@/components/Icon'
@@ -189,7 +190,9 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
 
       <main id="conteudo">
         <h2 className="sr-only">{lang === 'pt' ? 'Todos os ports' : 'Every port'}</h2>
+        <Ad unit={1} className="my-8" />
         <Matrix entries={entries} lang={lang} />
+        <Ad unit={8} className="my-10" />
       </main>
       <SiteFooter lang={lang} />
     </>

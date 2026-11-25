@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { Ad } from '@/components/Ads'
 import { notFound } from 'next/navigation'
 import { getEntries, getCounts } from '@/lib/data'
 import { isLang, SITE, SITE_NAME, DICT } from '@/lib/i18n'
@@ -69,7 +70,9 @@ export default async function RadarPage({ params }: { params: Params }) {
         </div>
       </section>
       <main>
+        <Ad unit={1} className="my-8" />
         <Matrix entries={entries} lang={lang} />
+        <Ad unit={8} className="my-10" />
       </main>
       <SiteFooter lang={lang} />
     </>

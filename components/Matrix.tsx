@@ -8,8 +8,12 @@ import { formatDate, gameYear } from '@/lib/format'
 import { DICT, contributePath, entryPath } from '@/lib/i18n'
 import { ArrowRight } from './Icon'
 import { StatusChip } from './StatusChip'
+import { Ad, type AdUnit } from './Ads'
 
 type Sort = 'recent' | 'alpha' | 'stars'
+
+/** One content unit every this many rows, units 2 to 7: the page holds 1 and 8. */
+const AD_EVERY = 40
 
 const CELL = 'px-3 py-2.5 align-middle'
 
@@ -160,7 +164,8 @@ export function Matrix({ entries, lang }: { entries: Entry[]; lang: Lang }) {
         {/* `key` on the body restarts the deal when the filter changes, so the
             result reads as a new hand rather than a silent swap. */}
         <tbody key={`${q}|${consoleFilter}|${mech}|${sort}`} className="deal">
-          {rows.map((e) => {
+          {rows.map((e, i) => {
+            const adAfter = (i + 1) % AD_EVERY === 0 && i + 1 < rows.length ? (i + 1) / AD_EVERY + 1 : 0
             const isOpen = open === e.id
             return (
               <Fragment key={e.id}>
@@ -244,6 +249,13 @@ export function Matrix({ entries, lang }: { entries: Entry[]; lang: Lang }) {
                           </p>
                         </div>
                       </div>
+                    </td>
+                  </tr>
+                ) : null}
+                {adAfter >= 2 && adAfter <= 7 ? (
+                  <tr aria-hidden>
+                    <td colSpan={7} className="border-t border-hairline px-3 py-6">
+                      <Ad unit={adAfter as AdUnit} />
                     </td>
                   </tr>
                 ) : null}

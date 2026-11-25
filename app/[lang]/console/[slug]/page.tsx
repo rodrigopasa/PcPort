@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { Ad } from '@/components/Ads'
 import { notFound, permanentRedirect } from 'next/navigation'
 import { getByConsole, getConsoles, getCounts, formerConsolePage } from '@/lib/data'
 import { isLang, SITE, SITE_NAME, DICT, entryPath, monthYear } from '@/lib/i18n'
@@ -90,7 +91,9 @@ export default async function ConsolePage({ params }: { params: Params }) {
       </section>
 
       <main>
+        <Ad unit={1} className="my-8" />
         <Matrix entries={rows} lang={lang} />
+        <Ad unit={8} className="my-10" />
       </main>
       <SiteFooter lang={lang} />
     </>

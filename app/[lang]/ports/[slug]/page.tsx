@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { Ad } from '@/components/Ads'
 import Link from 'next/link'
 import { notFound, permanentRedirect } from 'next/navigation'
 import {
@@ -368,6 +369,8 @@ export default async function HubPage({ params }: { params: Params }) {
           <p className="mt-4 text-[12px] text-faint">{t.ownCopy}</p>
         </section>
 
+        <Ad unit={1} className="mt-12" />
+
         {game ? (
           <section className="mt-14 max-w-[68ch]">
             <h2 className={h2}>{c.about}</h2>
@@ -377,6 +380,8 @@ export default async function HubPage({ params }: { params: Params }) {
             </p>
           </section>
         ) : null}
+
+        <Ad unit={2} className="mt-12" />
       </main>
 
       <SiteFooter lang={lang} />

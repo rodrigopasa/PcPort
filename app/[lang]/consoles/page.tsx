@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { Ad } from '@/components/Ads'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { getConsoles, getCounts } from '@/lib/data'
@@ -83,6 +84,7 @@ export default async function ConsolesPage({ params }: { params: Params }) {
             </li>
           ))}
         </ul>
+        <Ad unit={1} className="mt-12" />
       </main>
       <SiteFooter lang={lang} />
     </>
