@@ -27,7 +27,7 @@
     "console": "PlayStation 2",
     "mechanism": "in-progress",
     "platforms": [],
-    "stars": 52,
+    "stars": 53,
     "description": "Matching decompilation of Shadow of the Colossus (PS2, NTSC-U) aiming for a native PC port",
     "version": null,
     "releasedAt": "2026-11-25",
@@ -103,7 +103,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 305,
+    "stars": 315,
     "description": "Native PC port layer for an Xbox Series X|S title: the game's x64 code runs on your CPU and its RDNA2 GPU code is recompiled for your graphics card. Bring your own files.",
     "version": null,
     "releasedAt": "2026-11-25",
@@ -127,7 +127,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 245,
+    "stars": 246,
     "description": "A PC port of Downhill Domination (PS2), built on a matching decompilation. Bring your own disc.",
     "version": "v0.8.13",
     "releasedAt": "2026-11-25",
@@ -168,7 +168,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 623,
+    "stars": 624,
     "description": "A native Windows PC port of Super Mario Odyssey by static recompilation. Bring your own game: no game files included.",
     "version": "v1.0.2",
     "releasedAt": "2026-11-25",
@@ -389,7 +389,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 576,
+    "stars": 575,
     "description": "Dragon's Crown Pro native PC port for Windows, with direct PS4 PKG installation, TRG launcher and modern graphics options",
     "version": "v1.5.0",
     "releasedAt": "2026-11-25",
@@ -429,7 +429,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 196,
+    "stars": 197,
     "description": "God of War: Ascension PC port: an unofficial, native Windows port of the PS3 game by static recompilation, no emulator. No game files included: you build it from your own copy.",
     "version": "v0.4.0",
     "releasedAt": "2026-11-25",
@@ -448,7 +448,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 565,
+    "stars": 566,
     "description": "This is an open source, all-in-one, static recompilation project that I built from the ground up for the Xbox 360 Gears of War series. All 4 games have been personally recompiled for use with a fully native renderer by me.",
     "version": "0.6.9",
     "releasedAt": "2026-11-25",
@@ -489,7 +489,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 286,
+    "stars": 287,
     "description": "Def Jam: Fight for NY PC port — static recompilation of the original Xbox game for native Windows and macOS (Direct3D 11 / Vulkan). Bring your own game dump.",
     "version": "v1.2.3",
     "releasedAt": "2026-11-25",
@@ -530,7 +530,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 416,
+    "stars": 418,
     "description": "Continuation of Project Leonida, aiming to bring GTA VI from Xbox to PC through static recompilation.",
     "version": null,
     "releasedAt": "2026-11-25",
@@ -586,7 +586,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 135,
+    "stars": 134,
     "description": "An experimental Xbox Series X|S recompilation framework for Apple Silicon, targeting native ARM64 execution and RDNA-to-Metal graphics translation through XenoMetal.",
     "version": null,
     "releasedAt": "2026-11-25",
@@ -610,10 +610,10 @@
     ],
     "stars": 54,
     "description": "Bayonetta 3 PC, Steam Deck and Android native port: static ARM-to-C++ recompiler, Horizon/NVN runtime and Vulkan backend. No emulator; bring your own 1.2.0 game files.",
-    "version": "v0.3.15",
+    "version": "v0.3.16",
     "releasedAt": "2026-11-25",
-    "sizeBytes": 270857447,
-    "releaseUrl": "https://github.com/aoxzh/bayo3-recomp/releases/tag/v0.3.15",
+    "sizeBytes": 270858582,
+    "releaseUrl": "https://github.com/aoxzh/bayo3-recomp/releases/tag/v0.3.16",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
   },
@@ -665,7 +665,8 @@
     "mechanism": "native",
     "platforms": [
       "Windows",
-      "Linux"
+      "Linux",
+      "macOS"
     ],
     "stars": 2561,
     "description": "Native PC port of P.T. (runs from your own PS4 game files)",
@@ -676,6 +677,64 @@
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
+  },
+  {
+    "id": "dennis5heikh-native-instruments-massive-x",
+    "repo": "dennis5heikh/native-instruments-massive-x",
+    "title": "Instruments Massive X",
+    "game": null,
+    "author": "dennis5heikh",
+    "console": "PC",
+    "mechanism": "native",
+    "platforms": [],
+    "stars": 118,
+    "description": "Native Instruments Massive X for Windows 10/11. Designs and shapes synth patches with wavetable oscillators, drag-and-drop modulation and routing, then saves presets for use in your DAW productions.",
+    "version": null,
+    "releasedAt": "2026-11-25",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/dennis5heikh/native-instruments-massive-x/releases",
+    "licenseId": "NOASSERTION",
+    "licenseUrl": null
+  },
+  {
+    "id": "giopixelgh-crash-twinsanity-windows",
+    "repo": "GioPixelGH/Crash-Twinsanity-Windows",
+    "title": "Crash Twinsanity",
+    "game": null,
+    "author": "GioPixelGH",
+    "console": "PlayStation 2",
+    "mechanism": "native",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 142,
+    "description": "Crash Twinsanity (PS2, PAL and North American v2.00) running natively on Windows and Linux, played through to the credits: a port of HAB3X's Mac port of Smartkin's C++ decompilation. No game data included: bring your own disc image.",
+    "version": "v1.4.0",
+    "releasedAt": "2026-11-25",
+    "sizeBytes": 16327725,
+    "releaseUrl": "https://github.com/GioPixelGH/Crash-Twinsanity-Windows/releases/tag/v1.4.0",
+    "licenseId": "NOASSERTION",
+    "licenseUrl": null,
+    "curated": true
+  },
+  {
+    "id": "jaenster-redivivus",
+    "repo": "jaenster/redivivus",
+    "title": "Redivivus",
+    "game": null,
+    "author": "jaenster",
+    "console": "PC",
+    "mechanism": "native",
+    "platforms": [],
+    "stars": 80,
+    "description": "Diablo II (Diablo 2) 1.14d decompilation: the shipped Game.exe recovered as C++ source that builds. Not a reimplementation.",
+    "version": null,
+    "releasedAt": "2026-11-25",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/jaenster/redivivus/releases",
+    "licenseId": "MIT",
+    "licenseUrl": "https://api.github.com/licenses/mit"
   },
   {
     "id": "gamboozino-ngbrecomp",
@@ -753,7 +812,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 251,
+    "stars": 252,
     "description": "Recompilacion estatica (ReXGlue) de Dragon Ball Z: Budokai 3 HD Collection (Xbox 360) para Windows con launcher, sistema de mods y herramientas. No incluye datos del juego.",
     "version": "v1.5.7.1",
     "releasedAt": "2026-11-24",
@@ -1134,7 +1193,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 1416,
+    "stars": 1419,
     "description": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows and Linux with Vulkan. 0.5.2 out: TOTK to DKB rename, Feast Layer muck fix, 4 GB cards, Switch 2 controllers on USB; one-file Windows launcher. Requirements: docs/requirements.md. Roadmap: #10. No game files included.",
     "version": "v0.5.2",
     "releasedAt": "2026-11-24",
@@ -1198,7 +1257,7 @@
     "platforms": [
       "PC"
     ],
-    "stars": 234,
+    "stars": 235,
     "description": "Unofficial PC port of NieR Re[in]carnation (Global 3.7.1): local server, Android runtime, launcher. Bring your own game files.",
     "version": "v1.3.1",
     "releasedAt": "2026-11-24",
@@ -1441,7 +1500,7 @@
     "console": "Nintendo Switch",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 128,
+    "stars": 130,
     "description": "Amateur Pokémon Legends: Arceus recompilation project. Requires your own game files. More optimizations and size reductions are coming in future updates!",
     "version": "v1.2.1",
     "releasedAt": "2026-11-24",
@@ -1508,24 +1567,6 @@
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
-  },
-  {
-    "id": "dennis5heikh-native-instruments-massive-x",
-    "repo": "dennis5heikh/native-instruments-massive-x",
-    "title": "Instruments Massive X",
-    "game": null,
-    "author": "dennis5heikh",
-    "console": "PC",
-    "mechanism": "native",
-    "platforms": [],
-    "stars": 118,
-    "description": "Native Instruments Massive X for Windows 10/11. Designs and shapes synth patches with wavetable oscillators, drag-and-drop modulation and routing, then saves presets for use in your DAW productions.",
-    "version": null,
-    "releasedAt": "2026-11-24",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/dennis5heikh/native-instruments-massive-x/releases",
-    "licenseId": "NOASSERTION",
-    "licenseUrl": null
   },
   {
     "id": "petexy-tekken-tag-2-ultimate-edition",
@@ -1661,7 +1702,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 2507,
+    "stars": 2508,
     "description": "Decompilation of The Legend of Zelda: Breath of the Wild (Switch 1.5.0)",
     "version": null,
     "releasedAt": "2026-11-23",
@@ -1764,7 +1805,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 279,
+    "stars": 280,
     "description": "A Recompilation of Project Gotham Racing 4",
     "version": "v2.0.2",
     "releasedAt": "2026-11-23",
@@ -2253,7 +2294,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 8255,
+    "stars": 8258,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.5.0",
     "releasedAt": "2026-11-22",
@@ -2294,7 +2335,7 @@
     "console": "Nintendo 64",
     "mechanism": "native",
     "platforms": [],
-    "stars": 1795,
+    "stars": 1796,
     "description": "Decompilation of The Legend of Zelda: Majora's Mask",
     "version": null,
     "releasedAt": "2026-11-22",
@@ -2614,7 +2655,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 127,
+    "stars": 128,
     "description": "Project Gotham Racing 2 recompilation for a native PC port.",
     "version": "v1.6.4",
     "releasedAt": "2026-11-21",
@@ -2635,7 +2676,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 97,
+    "stars": 98,
     "description": "Project Gotham Racing recompilation for a native PC port.",
     "version": "v1.8",
     "releasedAt": "2026-11-21",
@@ -2929,7 +2970,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 1932,
+    "stars": 1937,
     "description": "Static recompilation research for Xbox Series X|S software on x64 Windows, with source-built CPU and GPU tests. Full-game startup is unverified.",
     "version": "gpu-check-v0.1.0",
     "releasedAt": "2026-11-20",
@@ -3411,28 +3452,6 @@
     "releaseUrl": "https://github.com/PateeerQ/FreedomUniteRecomp/releases/tag/v0.4.9",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
-    "curated": true
-  },
-  {
-    "id": "giopixelgh-crash-twinsanity-windows",
-    "repo": "GioPixelGH/Crash-Twinsanity-Windows",
-    "title": "Crash Twinsanity",
-    "game": null,
-    "author": "GioPixelGH",
-    "console": "PlayStation 2",
-    "mechanism": "native",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 142,
-    "description": "Crash Twinsanity (PS2, PAL) running natively on Windows, played through to the credits: a Windows port of HAB3X's Mac port of Smartkin's C++ decompilation. No game data included: bring your own disc image.",
-    "version": "v1.3.0",
-    "releasedAt": "2026-11-17",
-    "sizeBytes": 16120318,
-    "releaseUrl": "https://github.com/GioPixelGH/Crash-Twinsanity-Windows/releases/tag/v1.3.0",
-    "licenseId": "NOASSERTION",
-    "licenseUrl": null,
     "curated": true
   },
   {
@@ -5130,7 +5149,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 113,
+    "stars": 114,
     "description": "Project Gotham Racing 4 PC port on ReGPU (XenonRecomp)",
     "version": "v0.2.7",
     "releasedAt": "2026-11-08",
@@ -6072,7 +6091,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 527,
+    "stars": 528,
     "description": "An unofficial PC port of the Xbox 360 version of Spider-Man: Edge of Time created through the process of static recompilation.",
     "version": "v1.1",
     "releasedAt": "2026-10-30",
@@ -6708,7 +6727,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 8295,
+    "stars": 8299,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -7101,7 +7120,7 @@
     "console": "Nintendo Switch",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 653,
+    "stars": 654,
     "description": "Unofficial static recompilation of Bayonetta 2 (Switch) for Windows. Builds the game on your PC from your own legally dumped copy. No game files, keys or SDK code included.",
     "version": "v0.3.3",
     "releasedAt": "2026-10-22",
@@ -7142,7 +7161,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 448,
+    "stars": 447,
     "description": "Call of Duty 3 (Xbox 360) static recompilation: host runtime, tools and notes",
     "version": null,
     "releasedAt": "2026-10-21",
@@ -8209,7 +8228,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 6540,
+    "stars": 6542,
     "description": "Dusklight brings a classic adventure to PC and mobile platforms with a variety of fixes and improvements.",
     "version": "v2.0.3",
     "releasedAt": "2026-09-30",
@@ -8677,7 +8696,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 904,
+    "stars": 905,
     "description": "Multiplatform and Feature-rich Port based on PSX decompilation of Silent Hill 1 made with Claude and Psycross. Still in beta and is in active development.",
     "version": "crossplatform-beta",
     "releasedAt": "2026-09-04",
