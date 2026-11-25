@@ -103,7 +103,7 @@
     "console": "Xbox Series X|S",
     "mechanism": "translation-layer",
     "platforms": [],
-    "stars": 329,
+    "stars": 331,
     "description": "Native PC port layer for an Xbox Series X|S title: the game's x64 code runs on your CPU and its RDNA2 GPU code is recompiled for your graphics card. Bring your own files.",
     "version": null,
     "releasedAt": "2026-11-25",
@@ -191,7 +191,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 176,
+    "stars": 177,
     "description": "Native PC port of Diablo III: Reaper of Souls – Ultimate Evil Edition (PS4). Local co-op for 4.",
     "version": "v0.7.6",
     "releasedAt": "2026-11-25",
@@ -497,7 +497,7 @@
     "console": "Xbox Series X|S",
     "mechanism": "in-progress",
     "platforms": [],
-    "stars": 422,
+    "stars": 426,
     "description": "Continuation of Project Leonida, aiming to bring GTA VI from Xbox to PC through static recompilation.",
     "version": null,
     "releasedAt": "2026-11-25",
@@ -783,6 +783,94 @@
     "curated": true
   },
   {
+    "id": "elie-0066-spr-recomp-project",
+    "repo": "Elie-0066/SPR-Recomp-Project",
+    "title": "Splatoon Raiders",
+    "game": null,
+    "author": "Elie-0066",
+    "console": "Nintendo Switch 2",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 80,
+    "description": "Unofficial static recompilation of Splatoon Raiders (Switch 2) to native Linux/Windows x86-64 with a Vulkan renderer. No game data included: bring your own dump.",
+    "version": "v0.2.2",
+    "releasedAt": "2026-11-25",
+    "sizeBytes": 216304120,
+    "releaseUrl": "https://github.com/Elie-0066/SPR-Recomp-Project/releases/tag/v0.2.2",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
+  },
+  {
+    "id": "blacklabelhq-recompone",
+    "repo": "BlackLabelHQ/RecompOne",
+    "title": "RecompOne",
+    "game": null,
+    "author": "BlackLabelHQ",
+    "console": "PlayStation",
+    "mechanism": "recompiled",
+    "platforms": [],
+    "stars": 636,
+    "description": "PSX Static Recompiler and Runtime, Not Affiliated With Sony or PlayStation",
+    "version": null,
+    "releasedAt": "2026-11-25",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/BlackLabelHQ/RecompOne/releases",
+    "licenseId": "MIT",
+    "licenseUrl": "https://api.github.com/licenses/mit",
+    "curated": true
+  },
+  {
+    "id": "dyzz-srw64-recomp",
+    "repo": "dyzz/srw64-recomp",
+    "title": "Super Robot Wars 64",
+    "game": null,
+    "author": "dyzz",
+    "console": "Nintendo 64",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Android"
+    ],
+    "stars": 52,
+    "description": "Unofficial native recompilation of Super Robot Wars 64 for Windows, macOS, Linux/Steam Deck, Android and Switch: Japanese, English, Simplified and Traditional Chinese, Korean, widescreen, optional HD art, mods and bug fixes. Requires your own ROM.",
+    "version": "v0.5.4",
+    "releasedAt": "2026-11-25",
+    "sizeBytes": 75622035,
+    "releaseUrl": "https://github.com/dyzz/srw64-recomp/releases/tag/v0.5.4",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
+  },
+  {
+    "id": "sinan-karakaya-dq8-recompiled",
+    "repo": "Sinan-Karakaya/DQ8-Recompiled",
+    "title": "Dragon Quest VIII: Journey of the Cursed King",
+    "game": null,
+    "author": "Sinan-Karakaya",
+    "console": "PlayStation 2",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "stars": 137,
+    "description": "Recompilation of Dragon Quest VIII (PS2) to run natively on PC and Mac.",
+    "version": "469d3cf",
+    "releasedAt": "2026-11-25",
+    "sizeBytes": 73626769,
+    "releaseUrl": "https://github.com/Sinan-Karakaya/DQ8-Recompiled/releases/tag/469d3cf",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
+  },
+  {
     "id": "gamboozino-ngbrecomp",
     "repo": "gamboozino/ngbrecomp",
     "title": "Ninja Gaiden Black",
@@ -881,7 +969,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 49,
+    "stars": 50,
     "description": "AI-written static recompilation of Mario Party (N64, USA) for PC and the web. Bring your own ROM.",
     "version": "v0.2.29",
     "releasedAt": "2026-11-24",
@@ -1124,7 +1212,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 103,
+    "stars": 105,
     "description": "Burnout 3: Takedown, native on every platform",
     "version": "v1.4.0",
     "releasedAt": "2026-11-24",
@@ -1458,7 +1546,7 @@
     "console": "Nintendo Switch",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 133,
+    "stars": 135,
     "description": "Amateur Pokémon Legends: Arceus recompilation project. Requires your own game files. More optimizations and size reductions are coming in future updates!",
     "version": "v1.2.1",
     "releasedAt": "2026-11-24",
@@ -1479,7 +1567,7 @@
     "platforms": [
       "PC"
     ],
-    "stars": 50,
+    "stars": 51,
     "description": "Native PC port of Predator: Concrete Jungle (Xbox, 2005) by static recompilation. Build it from your own disc with Install.bat. No game data included.",
     "version": "v0.2.2",
     "releasedAt": "2026-11-24",
@@ -2004,7 +2092,7 @@
     "platforms": [
       "Linux"
     ],
-    "stars": 2056,
+    "stars": 2058,
     "description": "Native Windows port of Shadow of the Colossus (PS4, CUSA08809) - bring your own game dump. Port nativo para PC.",
     "version": "v0.77",
     "releasedAt": "2026-11-23",
@@ -2143,28 +2231,6 @@
     "curated": true
   },
   {
-    "id": "elie-0066-spr-recomp-project",
-    "repo": "Elie-0066/SPR-Recomp-Project",
-    "title": "Splatoon Raiders",
-    "game": null,
-    "author": "Elie-0066",
-    "console": "Nintendo Switch 2",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 80,
-    "description": "Unofficial static recompilation of Splatoon Raiders (Switch 2) to native Linux/Windows x86-64 with a Vulkan renderer. No game data included: bring your own dump.",
-    "version": "v0.2.1",
-    "releasedAt": "2026-11-22",
-    "sizeBytes": 216304120,
-    "releaseUrl": "https://github.com/Elie-0066/SPR-Recomp-Project/releases/tag/v0.2.1",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
-    "curated": true
-  },
-  {
     "id": "mnkyarts-projectavalanche",
     "repo": "MnkyArts/ProjectAvalanche",
     "title": "SSX",
@@ -2239,7 +2305,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 8265,
+    "stars": 8269,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.5.0",
     "releasedAt": "2026-11-22",
@@ -2258,7 +2324,7 @@
     "console": "Nintendo 64",
     "mechanism": "native",
     "platforms": [],
-    "stars": 1796,
+    "stars": 1797,
     "description": "Decompilation of The Legend of Zelda: Majora's Mask",
     "version": null,
     "releasedAt": "2026-11-22",
@@ -2646,7 +2712,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 74,
+    "stars": 76,
     "description": "Nightjar: Resident Evil 4 (GameCube) 100% native source port, byte-matching decompilation & standalone engine runtime for Android (32/64-bit), iOS (Metal), Windows, and Linux.",
     "version": "nightly",
     "releasedAt": "2026-11-20",
@@ -3569,7 +3635,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 84,
+    "stars": 85,
     "description": "Windows x64 recompilation with up to 4K output, graphics filters, gamepad intro skip and offline menu fixes. Builds locally from your own Xbox 360 ISO. 60 FPS recommended; higher-FPS motion is not unlocked.",
     "version": "v1.6.0",
     "releasedAt": "2026-11-16",
@@ -3813,25 +3879,6 @@
     "releasedAt": "2026-11-15",
     "sizeBytes": 76214198,
     "releaseUrl": "https://github.com/hk21x/nightfire-recomp/releases/tag/v1.2.0",
-    "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit",
-    "curated": true
-  },
-  {
-    "id": "blacklabelhq-recompone",
-    "repo": "BlackLabelHQ/RecompOne",
-    "title": "RecompOne",
-    "game": null,
-    "author": "BlackLabelHQ",
-    "console": "PlayStation",
-    "mechanism": "recompiled",
-    "platforms": [],
-    "stars": 636,
-    "description": "PSX Static Recompiler and Runtime, Not Affiliated With Sony or PlayStation",
-    "version": null,
-    "releasedAt": "2026-11-15",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/BlackLabelHQ/RecompOne/releases",
     "licenseId": "MIT",
     "licenseUrl": "https://api.github.com/licenses/mit",
     "curated": true
@@ -4109,7 +4156,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 762,
+    "stars": 763,
     "description": "A native Windows and Linux port of Grand Theft Auto: Vice City Stories (PS2, USA, SLUS-21590), made by recompiling the game's PS2 executable into C++",
     "version": "v0.3.0",
     "releasedAt": "2026-11-14",
@@ -4264,7 +4311,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5675,
+    "stars": 5678,
     "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
     "version": "windows-v1.9.8.6",
     "releasedAt": "2026-11-13",
@@ -4307,7 +4354,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 183,
+    "stars": 184,
     "description": "OpenTricky is an unofficial PC port of SSX Tricky, made by static recompilation. Bring your own disc.",
     "version": "v0.1.6",
     "releasedAt": "2026-11-13",
@@ -4412,7 +4459,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 122,
+    "stars": 123,
     "description": "Mario Kart 8 Deluxe recompiled to run natively on your PC: no JIT, FSR 3.1 + frame generation, experimental DLSS, 720p to 4K output, HDR10. Bring your own game files.",
     "version": "v0.2.4",
     "releasedAt": "2026-11-12",
@@ -4623,7 +4670,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 269,
+    "stars": 270,
     "description": "A Recompilation of Viva Pinata: Trouble In Paradise",
     "version": "1.15.0",
     "releasedAt": "2026-11-10",
@@ -5337,30 +5384,6 @@
     "curated": true
   },
   {
-    "id": "dyzz-srw64-recomp",
-    "repo": "dyzz/srw64-recomp",
-    "title": "Super Robot Wars 64",
-    "game": null,
-    "author": "dyzz",
-    "console": "Nintendo 64",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "macOS",
-      "Android"
-    ],
-    "stars": 52,
-    "description": "Unofficial native recompilation of Super Robot Wars 64 for Windows, macOS, Linux/Steam Deck, Android and Switch: Japanese, English, Simplified and Traditional Chinese, Korean, widescreen, optional HD art, mods and bug fixes. Requires your own ROM.",
-    "version": "v0.5.3",
-    "releasedAt": "2026-11-04",
-    "sizeBytes": 72835958,
-    "releaseUrl": "https://github.com/dyzz/srw64-recomp/releases/tag/v0.5.3",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
-    "curated": true
-  },
-  {
     "id": "mstan-megamanx4recomp",
     "repo": "mstan/MegaManX4Recomp",
     "title": "Mega Man X4",
@@ -5764,7 +5787,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 34388,
+    "stars": 34390,
     "description": "PlayStation 4 emulator for Windows, Linux, macOS and FreeBSD written in C++",
     "version": "v.0.21.0",
     "releasedAt": "2026-10-30",
@@ -6423,7 +6446,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 8299,
+    "stars": 8301,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -6726,29 +6749,6 @@
     "curated": true
   },
   {
-    "id": "sinan-karakaya-dq8-recompiled",
-    "repo": "Sinan-Karakaya/DQ8-Recompiled",
-    "title": "Dragon Quest VIII: Journey of the Cursed King",
-    "game": null,
-    "author": "Sinan-Karakaya",
-    "console": "PlayStation 2",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "macOS"
-    ],
-    "stars": 137,
-    "description": "Recompilation of Dragon Quest VIII (PS2) to run natively on PC and Mac.",
-    "version": "f6dfd96",
-    "releasedAt": "2026-10-23",
-    "sizeBytes": 104975316,
-    "releaseUrl": "https://github.com/Sinan-Karakaya/DQ8-Recompiled/releases/tag/f6dfd96",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
-    "curated": true
-  },
-  {
     "id": "pmret-papermario",
     "repo": "pmret/papermario",
     "title": "Paper Mario",
@@ -6817,7 +6817,7 @@
     "console": "Nintendo Switch",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 653,
+    "stars": 654,
     "description": "Unofficial static recompilation of Bayonetta 2 (Switch) for Windows. Builds the game on your PC from your own legally dumped copy. No game files, keys or SDK code included.",
     "version": "v0.3.3",
     "releasedAt": "2026-10-22",
@@ -6959,7 +6959,7 @@
     "console": "Xbox 360",
     "mechanism": "native",
     "platforms": [],
-    "stars": 105,
+    "stars": 106,
     "description": "",
     "version": "v0.3",
     "releasedAt": "2026-10-20",
@@ -7405,7 +7405,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 634,
+    "stars": 635,
     "description": "Static recompilation of a PSP game into a native executable. Vulkan and SDL3. Bring your own copy of the game.",
     "version": "v0.7.5",
     "releasedAt": "2026-10-13",
@@ -7815,7 +7815,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 264,
+    "stars": 265,
     "description": "",
     "version": "V1.2.2",
     "releasedAt": "2026-10-02",
@@ -7926,7 +7926,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 6543,
+    "stars": 6544,
     "description": "Dusklight brings a classic adventure to PC and mobile platforms with a variety of fixes and improvements.",
     "version": "v2.0.3",
     "releasedAt": "2026-09-30",
@@ -8417,7 +8417,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 144,
+    "stars": 145,
     "description": "Native PC recompilation of Valkyrie Profile (PS1) powered by PSXRecomp.",
     "version": "v1.0.1",
     "releasedAt": "2026-09-04",
