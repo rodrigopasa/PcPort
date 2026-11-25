@@ -49,6 +49,43 @@ export type Candidate = {
  * catches nothing.
  */
 const DENIED: Record<string, string> = {
+  // Judged on 2026-11-25.
+  "dennis5heikh/native-instruments-massive-x":
+    "not a game: a paid audio plugin offered for Windows from a repository with no code, the shape of malware bait",
+  "bakarserpil22/NHL24-PC":
+    "ships prebuilt executables in the repository, including nhl24.exe, with no way to check what they are",
+  "thebabyhippo303/nimbus-recompilation-project":
+    "no code: a repository of one file",
+  "Masterllgod/naruto-x-boruto-connections-port-nativo":
+    "runs on Android only, and the repository has no code",
+  "NicoWayne95/lcs-ps2-recomp":
+    "closed source: images and releases, with no code in the repository",
+  "Nazatric/Re-Port":
+    "an Android app, not a PC port",
+  "intermission88/SedotDeck":
+    "not a game port: an updater that installs other projects",
+  "RetroPortingToolKit/recomp-ui":
+    "not a game port: a launcher and interface shared by other projects",
+  "sp00nznet/psprecomp":
+    "not a game port: recompiler or decompilation tooling the ports are built with",
+  "R0Y00/Xbox2Windows":
+    "not a game port: recompilation research in which no game starts yet",
+  "ranveersoni98/Xenora":
+    "a framework for Apple Silicon Macs, not a PC port",
+  "bhuiyah/ff7-recomp-android":
+    "a PC game moved to Android, not a console game brought to the PC",
+  "jaenster/redivivus":
+    "a PC game, not a console game brought to the PC",
+  "AllenWalkerED/nier-reincarnation-pc":
+    "a phone game, not a console game",
+  "samioan/gow-betrayal-remastered":
+    "a phone game (J2ME), not a console game",
+  "oenderg/Reflourished-Darwin":
+    "a phone game, not a console game",
+  "0xl0cal/repentogxm":
+    "a PC game moved to the PS Vita, not a console game brought to the PC",
+  "sozud/mmx4":
+    "a decompilation that rebuilds the PlayStation game, not a PC port",
   // Judged on 2026-11-12.
   "theitsnschool/bloodborne-windows-native-loader":
     "no source code: an installer script fetched from a website, the shape of malware bait",

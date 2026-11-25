@@ -16,7 +16,11 @@ import { isUsableShot } from '../lib/shot-filter'
 
 type Row = { id: string; repo: string; title: string }
 
-const BRANCHES = ['main', 'master', 'dev', 'develop']
+// HEAD last: raw.githubusercontent.com resolves it to the default branch, whatever
+// it is called, so a repository whose default branch is none of the four still
+// gets read. It is last so the addresses of images found before do not change:
+// the by-eye rejections in shot-filter.ts match on the address.
+const BRANCHES = ['main', 'master', 'dev', 'develop', 'HEAD']
 const NAMES = ['README.md', 'readme.md', 'Readme.md', 'README.MD']
 
 /**
@@ -61,7 +65,11 @@ function extract(body: string, repo: string, branch: string): string[] {
     const u = absolute(m[1], repo, branch)
     if (u && !SKIP.test(u)) urls.add(u)
   }
-  return [...urls].filter((u) => /\.(png|jpe?g|webp)(\?|$)/i.test(u)).slice(0, 5)
+  // GitHub's own upload host has no extension in the address: it answers with a
+  // redirect to a freshly signed copy on every request, so the address is stable.
+  // measure() still checks that what comes back is an image.
+  const UPLOAD = /^https:\/\/github\.com\/user-attachments\/assets\/[0-9a-f-]+$/i
+  return [...urls].filter((u) => /\.(png|jpe?g|webp)(\?|$)/i.test(u) || UPLOAD.test(u)).slice(0, 5)
 }
 
 /**

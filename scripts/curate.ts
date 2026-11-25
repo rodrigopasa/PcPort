@@ -54,11 +54,7 @@ const CURATED: Record<string, Curation> = {
     console: 'PlayStation 4',
   },
   'TGP482/BLACK-XBERecomp': { game: 'black', title: 'BLACK', console: 'Xbox' },
-  'Odrannnn/MetroidPrimePort': {
-    game: 'metroid-prime',
-    title: 'Metroid Prime',
-    console: 'GameCube',
-  },
+  // Odrannnn/MetroidPrimePort: deleted from GitHub on 13 November.
   // PrimeDecomp/prime was removed from GitHub in October 2026; the native
   // port built on it stays, and the decompilation's address redirects there.
   'AliveTeam/alive_reversing': {
@@ -732,7 +728,7 @@ const CURATED: Record<string, Curation> = {
   "MysteriousAeon/rayman3-hd-recompiled": { title: "Rayman 3 HD", console: "Xbox 360" },
   "zer0ducksgiven/Forza-Motorsport-2-ReGPU": { game: "forza-motorsport-2", title: "Forza Motorsport 2", console: "Xbox 360" },
   "DrummingBird1/gow-psp-recomp": { title: "God of War: Chains of Olympus & Ghost of Sparta", console: "PSP" },
-  "Petexy/Tekken-Tag-2-Ultimate-Edition": { game: "tekken-tag-tournament-2", title: "Tekken Tag Tournament 2: Wii U Edition", console: "Wii U" },
+  "Petexy/Golden-Fist-Launcher": { game: "tekken-tag-tournament-2", title: "Tekken Tag Tournament 2: Wii U Edition", console: "Wii U" },
   "HenryKun55/celosia": { game: "shadow-of-the-colossus", title: "Shadow of the Colossus", console: "PlayStation 2" },
   "VitoMiguelF/crashott-pc": { game: "crash-of-the-titans", title: "Crash of the Titans", console: "Xbox 360" },
   "n0madic/Soulcalibur2HD-recomp": { title: "Soulcalibur II HD Online", console: "PlayStation 3" },
@@ -776,7 +772,7 @@ const CURATED: Record<string, Curation> = {
   "saulob/odin-sphere-leifthrasir-pc": { title: "Odin Sphere Leifthrasir", console: "PlayStation 4" },
   "hk21x/007eon-recomp": { title: "007: Everything or Nothing", console: "Xbox" },
   "Masterllgod/naruto-storm-2-port-nativo": { title: "Naruto Shippuden: Ultimate Ninja Storm 2", console: "Xbox 360" },
-  "GTTeancum/Timesplitters": { title: "TimeSplitters", console: "PlayStation 2" },
+  // GTTeancum/Timesplitters: deleted from GitHub on 19 November.
   "OZORDI/SanRecomp": { game: "gta-v", title: "Grand Theft Auto V", console: "Xbox 360" },
 
   // Fourteenth batch, 3 November: what discovery added that week. Tears of
@@ -797,7 +793,7 @@ const CURATED: Record<string, Curation> = {
   "undecuple/project-helghast": { title: "Killzone 3", console: "PlayStation 3" },
   "NoRain211/doa3-re": { game: "doa3", title: "Dead or Alive 3", console: "Xbox" },
   "jcsix694/def-jam-vendetta-recomp": { title: "Def Jam Vendetta", console: "PlayStation 2" },
-  "Odrannnn/MetroidPrime2Port": { title: "Metroid Prime 2: Echoes", console: "GameCube" },
+  // Odrannnn/MetroidPrime2Port: deleted from GitHub on 13 November.
   "gothamor/gta-vcs-recomp": { title: "Grand Theft Auto: Vice City Stories", console: "PlayStation 2" },
   "valentderah/totk-pc-recomp": { game: "tears-of-the-kingdom", title: "The Legend of Zelda: Tears of the Kingdom", console: "Nintendo Switch" },
   // badcompany94-rcmp/project-tandem: deleted from GitHub on 9 November.
@@ -819,14 +815,14 @@ const CURATED: Record<string, Curation> = {
   "jessetbh/WWFNoMercyRecomp": { title: "WWF No Mercy", console: "Nintendo 64" },
   "i2kiselev/fm4-static-recomp": { game: "forza-motorsport-4", title: "Forza Motorsport 4", console: "Xbox 360" },
   "BigDaddyJRich/hctp-recomp": { title: "WWE SmackDown! Here Comes the Pain", console: "PlayStation 2" },
-  "Coz-0/smo-recomp": { title: "Super Mario Odyssey", console: "Nintendo Switch" },
-  "phobos665/split2-recomp": { title: "TimeSplitters 2", console: "Xbox" },
+  "Coz-0/smo-recomp": { game: "super-mario-odyssey", title: "Super Mario Odyssey", console: "Nintendo Switch" },
+  "phobos665/split2-recomp": { game: "timesplitters-2", title: "TimeSplitters 2", console: "Xbox" },
   "wootbeer/dinotale": { title: "Yoshi's Story", console: "Nintendo 64" },
   "AbdelmoumenDeghbouche/knack_pc": { title: "Knack", console: "PlayStation 4" },
   "Antriksh1984/TheWarriors-XBERecomp": { title: "The Warriors", console: "Xbox" },
   "FractalEngineer/Medal-Of-Honor-PSX-Recomp": { title: "Medal of Honor", console: "PlayStation" },
   "NoahVl/Birdman64": { game: "pilotwings-64", title: "Pilotwings 64", console: "Nintendo 64" },
-  "Boron853/Souls-of-the-Reaper": { title: "Diablo III", console: "Xbox 360" },
+  "Boron853/Souls-of-the-Reaper": { game: "diablo-iii", title: "Diablo III", console: "Xbox 360" },
 
   // Fifteenth batch, 3 November: seeded by hand (see SEED in build-catalog.ts).
   // Midnight Club: Los Angeles now has two ports.
@@ -861,15 +857,15 @@ const CURATED: Record<string, Curation> = {
   "ThiagoFraga761/infamous2-pc": { game: "infamous-2", title: "inFAMOUS 2", console: "PlayStation 3", mechanism: "recompiled" },
   "Korvonordico/shadow-of-rome-recompiled": { title: "Shadow of Rome", console: "PlayStation 2", mechanism: "recompiled" },
   "OpenGP-dev/OpenGP": { title: "Mario Kart Arcade GP e GP 2", console: "Arcade", mechanism: "recompiled" },
-  "TekRantGaming/Battlefield-1943-Reborn": { title: "Battlefield 1943", console: "Xbox 360" },
-  "galarianpikachu2021-hue/Racing-8-DX-Recomp": { title: "Mario Kart 8 Deluxe", console: "Nintendo Switch", mechanism: "recompiled" },
+  "TekRantGaming/Battlefield-1943-Reborn": { game: "battlefield-1943", title: "Battlefield 1943", console: "Xbox 360" },
+  "galarianpikachu2021-hue/Racing-8-DX-Recomp": { game: "mario-kart-8-deluxe", title: "Mario Kart 8 Deluxe", console: "Nintendo Switch", mechanism: "recompiled" },
   "gamboozino/ng2recomp": { title: "Ninja Gaiden II", console: "Xbox 360", mechanism: "recompiled" },
   "bassobr/Far-Cry-Instincts-Recomp": { title: "Far Cry Instincts", console: "Xbox", mechanism: "recompiled" },
   "CaiusCodes/Perfect-Dark-XBLA-PC-Recomp": { game: "perfect-dark-remaster", title: "Perfect Dark Remaster", console: "Xbox 360", mechanism: "recompiled" },
   "saulob/tmnt-turtles-in-time-reshelled-recompiled": { title: "TMNT: Turtles in Time Re-Shelled", console: "Xbox 360", mechanism: "recompiled" },
   "TGP482/RDR-XBERecomp": { game: "red-dead-revolver", title: "Red Dead Revolver", console: "Xbox", mechanism: "recompiled" },
   "dennisabalo18-bot/red-dead-revolver-pc": { game: "red-dead-revolver", title: "Red Dead Revolver", console: "Xbox", mechanism: "recompiled" },
-  "Goldoire/fefw-recomp": { title: "Fire Emblem: Fortune's Weave", console: "Nintendo Switch 2", mechanism: "recompiled" },
+  // Goldoire/fefw-recomp: deleted from GitHub on 14 November.
   "TheBozos/TMB_Recomp": { title: "Twisted Metal: Black", console: "PlayStation 2", mechanism: "recompiled" },
   "LLCOOLT/paper-cut": { title: "Paper Mario: The Thousand-Year Door", console: "GameCube", mechanism: "native" },
   "saulob/13-sentinels-aegis-rim-pc": { title: "13 Sentinels: Aegis Rim", console: "PlayStation 4", mechanism: "native" },
@@ -886,6 +882,58 @@ const CURATED: Record<string, Curation> = {
   "FluffyQuack/rexglue-MetalSlugXX": { title: "Metal Slug XX", console: "Xbox 360", mechanism: "recompiled" },
   "Conker64Recomp/conker64-recompiled": { game: "conkers-bad-fur-day", title: "Conker's Bad Fur Day", console: "Nintendo 64", mechanism: "recompiled" },
   "matty45/Crackdown2-Recomp": { title: "Crackdown 2", console: "Xbox 360", mechanism: "in-progress" },
+
+  // Seventeenth batch, 25 November: what discovery added since the 12th. Super Mario
+  // Odyssey, Mario Kart 8 Deluxe, Battlefield 1943, TimeSplitters 2 and Diablo III now
+  // have two ports or more each.
+  "ZigZagBoi1/ScarlettPort": { title: "ScarlettPort", console: "Xbox Series X|S", mechanism: "translation-layer" },
+  "ProjectLeonidaL/leonida": { title: "Grand Theft Auto VI", console: "Xbox Series X|S", mechanism: "in-progress" },
+  "Simon3Sarkis/super-odyssey-pc-recomp": { game: "super-mario-odyssey", title: "Super Mario Odyssey", console: "Nintendo Switch", mechanism: "recompiled" },
+  "Vnnc1/MK8-online": { game: "mario-kart-8-deluxe", title: "Mario Kart 8 Deluxe", console: "Nintendo Switch", mechanism: "recompiled" },
+  "CaduGimenes/SanctuaryPort": { game: "diablo-iii", title: "Diablo III", console: "PlayStation 4", mechanism: "native" },
+  "papand7/Battlefield-1943-BC-Recompilation": { game: "battlefield-1943", title: "Battlefield 1943 e Bad Company", console: "Xbox 360", mechanism: "recompiled" },
+  "Destinity13/TimeSplitters-2-Native-Recomp-Windows-Linux-SteamDeck": { game: "timesplitters-2", title: "TimeSplitters 2", console: "PlayStation 2", mechanism: "recompiled" },
+  "SamiEnazi/infamous2-port": { game: "infamous-2", title: "inFAMOUS 2", console: "PlayStation 3", mechanism: "recompiled" },
+  "cxldsakeb/GoW2-nativo-PS2": { game: "god-of-war-2", title: "God of War II", console: "PlayStation 2", mechanism: "in-progress" },
+  "st4rwhx/Resident-Evil-4-Native-Port": { game: "resident-evil-4", title: "Resident Evil 4", console: "GameCube", mechanism: "native" },
+  "Dipshet/GracemeriaRecomp": { game: "ace-combat-6", title: "Ace Combat 6: Fires of Liberation", console: "Xbox 360", mechanism: "recompiled" },
+  "Jstar269/Nakagawa-Recomp": { title: "Nakagawa Recomp", console: "PSP", mechanism: "emulator" },
+  "noahbaxter/GHClassic": { title: "Guitar Hero II", console: "PlayStation 2", mechanism: "recompiled" },
+  "aoxzh/bayo3-recomp": { title: "Bayonetta 3", console: "Nintendo Switch", mechanism: "recompiled" },
+  "MormonFTP-hub/gt5-recomp": { title: "Gran Turismo 5", console: "PlayStation 3", mechanism: "recompiled" },
+  "MikeSemicolonD/RogueSquadron64Recomp": { title: "Star Wars: Rogue Squadron", console: "Nintendo 64", mechanism: "recompiled" },
+  "tyle-beep/Haiku": { title: "Fire Emblem Fates", console: "Nintendo 3DS", mechanism: "recompiled" },
+  "Tokatta007/OpenTM2": { title: "Twisted Metal 2", console: "PlayStation", mechanism: "recompiled" },
+  "u0rhs/burnout3-native": { title: "Burnout 3: Takedown", console: "PlayStation 2", mechanism: "native" },
+  "PC-PORTERS/SplatPC-Splatoon-Native-PC-Port": { title: "Splatoon", console: "Wii U", mechanism: "recompiled" },
+  "Adolini1715/Concrete-Jungle-PC": { title: "Predator: Concrete Jungle", console: "Xbox", mechanism: "recompiled" },
+  "FoxWorkshop/ShadowRecomp": { title: "Shadow the Hedgehog", console: "Xbox", mechanism: "recompiled" },
+  "roz1077/true-crime-new-york-city-recomp": { title: "True Crime: New York City", console: "Xbox", mechanism: "recompiled" },
+  "denzi-gh/crashwoc-nuworld": { title: "Crash Bandicoot: The Wrath of Cortex", console: "PlayStation 2", mechanism: "native" },
+  "ReRevvedRecomp/rerevved": { title: "Civilization Revolution", console: "Xbox 360", mechanism: "recompiled" },
+  "Elie-0066/SPR-Recomp-Project": { title: "Splatoon Raiders", console: "Nintendo Switch 2", mechanism: "recompiled" },
+  "MnkyArts/ProjectAvalanche": { title: "SSX", console: "Xbox 360", mechanism: "native" },
+  "TheRealAfsan/Shinobi-PS2-Recomp": { title: "Shinobi", console: "PlayStation 2", mechanism: "native" },
+  "ILFforever/YW4Recomp": { title: "Yo-kai Watch 4++", console: "Nintendo Switch", mechanism: "recompiled" },
+  "Alano6678/hwaoi-recomp": { title: "Hyrule Warriors: Age of Imprisonment", console: "Nintendo Switch 2", mechanism: "recompiled" },
+  "teclilla18/sonic-riders-recomp": { title: "Sonic Riders", console: "GameCube", mechanism: "recompiled" },
+  "yozander2009-stack/Metroid-Dread-Recomp": { title: "Metroid Dread", console: "Nintendo Switch", mechanism: "recompiled" },
+  "Scotho/socom-unzipped": { title: "SOCOM II: U.S. Navy SEALs", console: "PlayStation 2", mechanism: "recompiled" },
+  "alexbeavs-ps1-ports/metal-gear-solid-recomp": { title: "Metal Gear Solid", console: "PlayStation", mechanism: "recompiled" },
+  "alexbeavs-ps1-ports/parasite-eve-recomp": { title: "Parasite Eve", console: "PlayStation", mechanism: "recompiled" },
+  "Coaltergeist/Brothership-Recomp": { title: "Mario & Luigi: Brothership", console: "Nintendo Switch", mechanism: "recompiled" },
+  "geno55/kigold-recomp": { title: "Killer Instinct Gold", console: "Nintendo 64", mechanism: "recompiled" },
+  "hk21x/007-agentunderfire-recomp": { title: "007: Agent Under Fire", console: "Xbox", mechanism: "recompiled" },
+  "petrishevgeorgii-debug/prototype-pc-slop": { title: "Prototype e Prototype 2", console: "PlayStation 4", mechanism: "native" },
+  "monscriser/HydroThunderPORT": { title: "Hydro Thunder Hurricane", console: "Xbox 360", mechanism: "recompiled" },
+  "ElGuslml/PiratesAtWorldsEndRecomp": { title: "Pirates of the Caribbean: At World's End", console: "Xbox 360", mechanism: "recompiled" },
+  "saulob/el-chavo-kart-recompiled": { title: "Chaves Kart", console: "Xbox 360", mechanism: "recompiled" },
+  "TekRantGaming/angry-birds-re-hatched-collection": { title: "Angry Birds Trilogy e Star Wars", console: "Xbox 360", mechanism: "recompiled" },
+  "projectedan/McRae05-XBE-Recomp": { title: "Colin McRae Rally 2005", console: "Xbox", mechanism: "recompiled" },
+  "giangra/stuntdouble-reignition": { title: "Stuntman: Ignition", console: "Xbox 360", mechanism: "recompiled" },
+  "mstan/StarFoxSNESRecomp": { title: "Star Fox", console: "SNES", mechanism: "recompiled" },
+  "omegakatana92/RidgeRacer4Recomp": { title: "Ridge Racer Type 4", console: "PlayStation", mechanism: "in-progress" },
+  "FluffyQuack/rexglue-SoulCaliburIV": { title: "SoulCalibur IV", console: "Xbox 360", mechanism: "recompiled" },
 }
 
 /**

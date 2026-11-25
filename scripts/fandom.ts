@@ -161,6 +161,14 @@ const WIKI: Record<string, string[]> = {
  * file anyway and the list stops mattering.
  */
 const REJECTED: Record<string, string> = {
+  // Judged by eye on 2026-11-25.
+  'project-gotham-racing-4': 'Fandom served the box of Project Gotham Racing 2, a different game',
+  'tears-of-the-kingdom': 'Fandom served the Breath of the Wild box, a different game',
+  'naruto-broken-bond': 'Fandom served the box of Ultimate Ninja Storm, a different game',
+  'perfect-dark-remaster': 'Fandom served an Australian classification certificate, not the game',
+  'battlefield-1943': 'Fandom served a picture of a jeep, not the game',
+  'diablo-iii': 'Fandom served a PlayStation trophy icon, not the game',
+  'wave-race-64': 'Fandom served the box of Wave Race: Blue Storm, a different game',
   'links-awakening':
     "Fandom served Breath of the Wild artwork of Link, not the Link’s Awakening box",
   'ace-combat-6': 'Fandom served the cover of the official strategy guide, not the game',
@@ -314,7 +322,10 @@ async function coverFromPage(wiki: string, title: string): Promise<Shot | null> 
 }
 
 async function coverFor(key: string, name: string): Promise<Shot | null> {
-  for (const wiki of WIKI[key] ?? []) {
+  // The general gaming wiki is the fallback the header promises. It was missing,
+  // so a game with no entry in WIKI was never searched at all.
+  const wikis = [...new Set([...(WIKI[key] ?? []), 'gaming'])]
+  for (const wiki of wikis) {
     for (const title of await findPages(wiki, name)) {
       const shot = await coverFromPage(wiki, title)
       if (shot) return shot
@@ -341,6 +352,9 @@ async function main() {
     .then((r) => JSON.parse(r))
     .catch(() => ({}))
   const names = await titles()
+  const libretro: Record<string, unknown> = await readFile('lib/libretro.json', 'utf8')
+    .then((r) => JSON.parse(r))
+    .catch(() => ({}))
 
   let added = 0
   for (const key of Object.keys(GAMES)) {
@@ -350,6 +364,8 @@ async function main() {
       continue
     }
     if (existing[key] && !force) continue
+    // libretro outranks Fandom on the page, so a game it covers needs nothing here.
+    if (libretro[key] || GAMES[key].cover) continue
     const name = names.get(key) ?? key.replace(/-/g, ' ')
 
     const shot = await coverFor(key, name)

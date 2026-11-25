@@ -342,7 +342,7 @@ export const GAMES: Record<string, GameMeta> = {
   },
   'cnc-tiberian-dawn': {
     cover: {
-      url: 'https://thumbnails.libretro.com/DOS/Named_Boxarts/Command%20and%20Conquer.png',
+      url: 'https://raw.githubusercontent.com/libretro-thumbnails/DOS/master/Named_Boxarts/Command%20and%20Conquer.png',
       w: 512,
       h: 611,
       source: 'libretro-thumbnails',
@@ -887,7 +887,7 @@ export const GAMES: Record<string, GameMeta> = {
   },
   'tekken-3': {
     cover: {
-      url: 'https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Tekken%203%20(USA).png',
+      url: 'https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Tekken%203%20(USA).png',
       w: 512,
       h: 499,
       source: 'libretro-thumbnails',
@@ -1209,6 +1209,56 @@ export const GAMES: Record<string, GameMeta> = {
     summary: {
       pt: "O remake de Conker’s Bad Fur Day, com gráficos novos e uma guerra online entre esquilos e Tediz.",
       en: "The remake of Conker’s Bad Fur Day, with new graphics and an online war between squirrels and Tediz.",
+    },
+  },
+  'super-mario-odyssey': {
+    releasedAt: '2017-10-27',
+    developer: 'Nintendo EPD',
+    publisher: 'Nintendo',
+    genres: ['Plataforma'],
+    summary: {
+      pt: "Mario viaja por reinos de vários estilos com Cappy, um chapéu que deixa capturar inimigos e objetos.",
+      en: "Mario travels across kingdoms of many styles with Cappy, a hat that lets him capture enemies and objects.",
+    },
+  },
+  'mario-kart-8-deluxe': {
+    releasedAt: '2017-04-28',
+    developer: 'Nintendo EPD',
+    publisher: 'Nintendo',
+    genres: ['Corrida'],
+    summary: {
+      pt: "A versão completa de Mario Kart 8, com todas as pistas extras, modo batalha refeito e corridas online.",
+      en: "The complete edition of Mario Kart 8, with every extra track, a rebuilt battle mode and online racing.",
+    },
+  },
+  'battlefield-1943': {
+    releasedAt: '2009-07-08',
+    developer: 'DICE',
+    publisher: 'Electronic Arts',
+    genres: ['Tiro em primeira pessoa'],
+    summary: {
+      pt: "Batalhas online da Segunda Guerra no Pacífico, com veículos, aviões e cenários destrutíveis.",
+      en: "Online Second World War battles in the Pacific, with vehicles, planes and destructible maps.",
+    },
+  },
+  'timesplitters-2': {
+    releasedAt: '2002-10-09',
+    developer: 'Free Radical Design',
+    publisher: 'Eidos Interactive',
+    genres: ['Tiro em primeira pessoa'],
+    summary: {
+      pt: "Tiro em primeira pessoa que salta entre épocas, do faroeste ao futuro, com multijogador local e editor de mapas.",
+      en: "A first-person shooter that leaps between eras, from the Wild West to the future, with local multiplayer and a map maker.",
+    },
+  },
+  'diablo-iii': {
+    releasedAt: '2013-09-03',
+    developer: 'Blizzard Entertainment',
+    publisher: 'Blizzard Entertainment',
+    genres: ['RPG de ação'],
+    summary: {
+      pt: "A versão de console de Diablo III, feita para controle, com cooperativo local para quatro.",
+      en: "The console version of Diablo III, built for a controller, with local co-op for four.",
     },
   },
   wet: {

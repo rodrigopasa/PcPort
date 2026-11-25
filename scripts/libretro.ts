@@ -1,5 +1,5 @@
 /**
- * Box art from the libretro thumbnails archive. No credentials.
+ * Box art from the libretro thumbnails archive. GITHUB_TOKEN is optional.
  *
  *   npx tsx scripts/libretro.ts [--force]
  *
@@ -32,14 +32,22 @@ import { writeFile, readFile } from 'node:fs/promises'
 import { imageSize } from '../lib/imagesize'
 import { GAMES } from '../lib/games'
 
-const CDN = 'https://thumbnails.libretro.com'
+// The archive's own CDN, thumbnails.libretro.com, was emptied in November 2026 and
+// every cover taken from it answered 404. The same files live in one GitHub
+// repository per system, served from the raw host the site already allows.
+const RAW = 'https://raw.githubusercontent.com/libretro-thumbnails'
+const API = 'https://api.github.com/repos/libretro-thumbnails'
+const TOKEN = process.env.GITHUB_TOKEN
+/** 'Nintendo - Nintendo 64' is the repository Nintendo_-_Nintendo_64. */
+const repoOf = (system: string) => system.replace(/ /g, '_')
 
 /**
  * The catalog's console names mapped to the archive's system directories.
  *
- * Absent on purpose: Xbox 360, PlayStation 3, PlayStation 4 and Switch. The
- * archive preserves what emulators play, so it stops before that generation —
- * which is 36 of our games, and they keep whatever cover they already have.
+ * Absent: Switch, which the archive has no folder for. Xbox 360, PlayStation 3
+ * and 4 were absent until November 2026, when the archive had grown folders for
+ * them. Those folders are still small (12 Xbox 360 boxes, 60 PS3), so they find
+ * little yet; matching stays exact, and what they find is looked at by eye.
  * Arcade is absent too: MAME file names are short ROM ids like `sfa3`, and
  * matching a game title against those invites exactly the wrong-game error
  * this script exists to end.
@@ -57,6 +65,12 @@ const SYSTEM: Record<string, string> = {
   Dreamcast: 'Sega - Dreamcast',
   Xbox: 'Microsoft - Xbox',
   'Wii U': 'Nintendo - Wii U',
+  'Xbox 360': 'Microsoft - Xbox 360',
+  'PlayStation 3': 'Sony - PlayStation 3',
+  'PlayStation 4': 'Sony - PlayStation 4',
+  Wii: 'Nintendo - Wii',
+  'Nintendo 3DS': 'Nintendo - Nintendo 3DS',
+  'Sega Saturn': 'Sega - Saturn',
   PC: 'DOS',
 }
 
@@ -148,18 +162,32 @@ function regionRank(file: string): number {
 
 const listings = new Map<string, Map<string, Entry>>()
 
-/** The CDN serves an autoindex, which is the only file listing available. */
+/** The file list comes from the repository's git tree: one request per system. */
 async function listing(system: string): Promise<Map<string, Entry>> {
   const hit = listings.get(system)
   if (hit) return hit
 
-  const url = `${CDN}/${encodeURIComponent(system)}/Named_Boxarts/`
-  const res = await fetch(url, { signal: AbortSignal.timeout(120_000) })
-  const html = await res.text()
+  // Two steps, the root and then the Named_Boxarts folder alone: asking for the
+  // whole tree at once makes GitHub answer 500 on the larger systems.
+  const get = async (sha: string) => {
+    const res = await fetch(`${API}/${encodeURIComponent(repoOf(system))}/git/trees/${sha}`, {
+      signal: AbortSignal.timeout(120_000),
+      headers: {
+        accept: 'application/vnd.github+json',
+        'user-agent': 'pcport-libretro',
+        ...(TOKEN ? { authorization: `Bearer ${TOKEN}` } : {}),
+      },
+    })
+    if (!res.ok) console.warn(`   ${system}: listing failed, HTTP ${res.status}`)
+    return res.ok ? (((await res.json()) as { tree?: { path: string; sha: string }[] }).tree ?? []) : []
+  }
+  const folder = (await get('master')).find((t) => t.path === 'Named_Boxarts')
+  const tree = folder ? (await get(folder.sha)).map((t) => ({ path: `Named_Boxarts/${t.path}` })) : []
 
   const out = new Map<string, Entry>()
-  for (const m of html.matchAll(/href="([^"]+\.png)"/g)) {
-    const file = decodeURIComponent(m[1])
+  for (const { path } of tree) {
+    if (!path.startsWith('Named_Boxarts/') || !path.endsWith('.png')) continue
+    const file = path.slice('Named_Boxarts/'.length)
     if (NOT_RETAIL.test(file)) continue
     const name = file.replace(/\.png$/i, '')
     const k = key(name)
@@ -238,7 +266,7 @@ async function main() {
       continue
     }
 
-    const url = `${CDN}/${encodeURIComponent(system)}/Named_Boxarts/${encodeURIComponent(hit.file)}`
+    const url = `${RAW}/${encodeURIComponent(repoOf(system))}/master/Named_Boxarts/${encodeURIComponent(hit.file)}`
     const shot = await measure(url, hit.name)
     if (!shot) {
       missed++
