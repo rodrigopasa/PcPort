@@ -46,7 +46,7 @@
     "console": "Game Boy Advance",
     "mechanism": "native",
     "platforms": [],
-    "stars": 147,
+    "stars": 146,
     "description": "The 🌋 Alchemy project reconstructs the source code of both Golden Sun games on Game Boy Advance for video game preservation. It is a 100% matching decompilation.",
     "version": null,
     "releasedAt": "2026-11-25",
@@ -103,7 +103,7 @@
     "console": "Xbox Series X|S",
     "mechanism": "translation-layer",
     "platforms": [],
-    "stars": 344,
+    "stars": 346,
     "description": "Native PC port layer for an Xbox Series X|S title: the game's x64 code runs on your CPU and its RDNA2 GPU code is recompiled for your graphics card. Bring your own files.",
     "version": null,
     "releasedAt": "2026-11-25",
@@ -169,7 +169,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 634,
+    "stars": 635,
     "description": "A native Windows PC port of Super Mario Odyssey by static recompilation. Bring your own game: no game files included.",
     "version": "v1.0.2",
     "releasedAt": "2026-11-25",
@@ -219,8 +219,8 @@
     "releasedAt": "2026-11-25",
     "sizeBytes": 54991352,
     "releaseUrl": "https://github.com/TekRantGaming/Battlefield-1943-Reborn/releases/tag/v0.4.7.5",
-    "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
   },
   {
@@ -357,10 +357,10 @@
     ],
     "stars": 578,
     "description": "Dragon's Crown Pro native PC port for Windows, with direct PS4 PKG installation, TRG launcher and modern graphics options",
-    "version": "v1.5.0",
+    "version": "v1.5.1",
     "releasedAt": "2026-11-25",
-    "sizeBytes": 39717528,
-    "releaseUrl": "https://github.com/saulob/dragons-crown-pro-pc/releases/tag/v1.5.0",
+    "sizeBytes": 39766132,
+    "releaseUrl": "https://github.com/saulob/dragons-crown-pro-pc/releases/tag/v1.5.1",
     "licenseId": "GPL-2.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-2.0",
     "curated": true
@@ -414,7 +414,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 568,
+    "stars": 569,
     "description": "This is an open source, all-in-one, static recompilation project that I built from the ground up for the Xbox 360 Gears of War series. All 4 games have been personally recompiled for use with a fully native renderer by me.",
     "version": "0.6.9",
     "releasedAt": "2026-11-25",
@@ -497,7 +497,7 @@
     "console": "Xbox Series X|S",
     "mechanism": "in-progress",
     "platforms": [],
-    "stars": 438,
+    "stars": 440,
     "description": "Continuation of Project Leonida, aiming to bring GTA VI from Xbox to PC through static recompilation.",
     "version": null,
     "releasedAt": "2026-11-25",
@@ -619,7 +619,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2562,
+    "stars": 2563,
     "description": "Native PC port of P.T. (runs from your own PS4 game files)",
     "version": "v1.1.2",
     "releasedAt": "2026-11-25",
@@ -684,7 +684,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 216,
+    "stars": 217,
     "description": "CPS-2 Recomp: unofficial native PC ports of Capcom CPS-2 arcade games (Street Fighter Alpha 2, Super Puzzle Fighter II Turbo, Vampire Savior) via static recompilation, with training modes, in one launcher: macOS, Linux, Steam Deck, Windows. Requires your own ROM sets. Beta.",
     "version": "v1.6.0-beta.6",
     "releasedAt": "2026-11-25",
@@ -749,7 +749,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 97,
+    "stars": 98,
     "description": "Rogue Galaxy (PS2) as a native Windows game: a static recompilation on PS2Recomp, built from your own disc.",
     "version": null,
     "releasedAt": "2026-11-25",
@@ -884,7 +884,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 1033,
+    "stars": 1035,
     "description": "A cozy life-simulation and sandbox builder with fantastical creatures (Switch 2), recompiled to run natively on Windows, Linux and macOS. Multiplayer, all events, modding, enhancements and more.",
     "version": "v0.17.7",
     "releasedAt": "2026-11-25",
@@ -1052,7 +1052,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 95,
+    "stars": 96,
     "description": "A native Windows port of Rayman 3 HD (Xbox 360) using static recompilation, with HD+ enhancements and Turkish localization.",
     "version": "v1.4.0",
     "releasedAt": "2026-11-25",
@@ -1146,6 +1146,71 @@
     "releaseUrl": "https://github.com/GenissonEmilio/ShadowOfTheColossusPC/releases/tag/v1.2.5",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
+  },
+  {
+    "id": "nathanialf-ico-pc",
+    "repo": "nathanialf/ico-pc",
+    "title": "ICO",
+    "game": "ico",
+    "author": "nathanialf",
+    "console": "PlayStation 2",
+    "mechanism": "native",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Android",
+      "iOS"
+    ],
+    "stars": 582,
+    "description": "PC, Android, iOS and macOS port of the ICO (PS2) decompilation (nathanialf/ico): Windows, Linux, Steam Deck, Android, iPhone via LiveContainer and Apple-silicon Mac (contributed). Contains no game data.",
+    "version": "v0.11.16",
+    "releasedAt": "2026-11-25",
+    "sizeBytes": 34775395,
+    "releaseUrl": "https://github.com/nathanialf/ico-pc/releases/tag/v0.11.16",
+    "licenseId": "NOASSERTION",
+    "licenseUrl": null,
+    "curated": true
+  },
+  {
+    "id": "adolini1715-concrete-jungle-pc",
+    "repo": "Adolini1715/Concrete-Jungle-PC",
+    "title": "Predator: Concrete Jungle",
+    "game": null,
+    "author": "Adolini1715",
+    "console": "Xbox",
+    "mechanism": "recompiled",
+    "platforms": [
+      "PC"
+    ],
+    "stars": 51,
+    "description": "Native PC port of Predator: Concrete Jungle (Xbox, 2005) by static recompilation. Build it from your own disc with Install.bat. No game data included.",
+    "version": "v0.2.3",
+    "releasedAt": "2026-11-25",
+    "sizeBytes": 22792957,
+    "releaseUrl": "https://github.com/Adolini1715/Concrete-Jungle-PC/releases/tag/v0.2.3",
+    "licenseId": "NOASSERTION",
+    "licenseUrl": null,
+    "curated": true
+  },
+  {
+    "id": "alano6678-hwaoi-recomp",
+    "repo": "Alano6678/hwaoi-recomp",
+    "title": "Hyrule Warriors: Age of Imprisonment",
+    "game": null,
+    "author": "Alano6678",
+    "console": "Nintendo Switch 2",
+    "mechanism": "recompiled",
+    "platforms": [],
+    "stars": 110,
+    "description": "Experimental Hyrule Warriors: Age of Imprisonment recompilation for Windows, with a local NUP compiler. Non-60 FPS modes accelerate gameplay; higher resolutions are unstable.",
+    "version": null,
+    "releasedAt": "2026-11-25",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/Alano6678/hwaoi-recomp/releases",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
   },
   {
     "id": "mormonftp-hub-gt5-recomp",
@@ -1278,31 +1343,6 @@
     "releaseUrl": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.76",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
-    "curated": true
-  },
-  {
-    "id": "nathanialf-ico-pc",
-    "repo": "nathanialf/ico-pc",
-    "title": "ICO",
-    "game": "ico",
-    "author": "nathanialf",
-    "console": "PlayStation 2",
-    "mechanism": "native",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "macOS",
-      "Android",
-      "iOS"
-    ],
-    "stars": 582,
-    "description": "PC, Android, iOS and macOS port of the ICO (PS2) decompilation (nathanialf/ico): Windows, Linux, Steam Deck, Android, iPhone via LiveContainer and Apple-silicon Mac (contributed). Contains no game data.",
-    "version": "v0.11.15",
-    "releasedAt": "2026-11-24",
-    "sizeBytes": 34585009,
-    "releaseUrl": "https://github.com/nathanialf/ico-pc/releases/tag/v0.11.15",
-    "licenseId": "NOASSERTION",
-    "licenseUrl": null,
     "curated": true
   },
   {
@@ -1466,7 +1506,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 1426,
+    "stars": 1427,
     "description": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows and Linux with Vulkan. 0.5.2 out: TOTK to DKB rename, Feast Layer muck fix, 4 GB cards, Switch 2 controllers on USB; one-file Windows launcher. Requirements: docs/requirements.md. Roadmap: #10. No game files included.",
     "version": "v0.5.2",
     "releasedAt": "2026-11-24",
@@ -1720,27 +1760,6 @@
     "releasedAt": "2026-11-24",
     "sizeBytes": 70792703,
     "releaseUrl": "https://github.com/CarlosExabyte/Arceuszada/releases/tag/v1.2.1",
-    "licenseId": "NOASSERTION",
-    "licenseUrl": null,
-    "curated": true
-  },
-  {
-    "id": "adolini1715-concrete-jungle-pc",
-    "repo": "Adolini1715/Concrete-Jungle-PC",
-    "title": "Predator: Concrete Jungle",
-    "game": null,
-    "author": "Adolini1715",
-    "console": "Xbox",
-    "mechanism": "recompiled",
-    "platforms": [
-      "PC"
-    ],
-    "stars": 51,
-    "description": "Native PC port of Predator: Concrete Jungle (Xbox, 2005) by static recompilation. Build it from your own disc with Install.bat. No game data included.",
-    "version": "v0.2.2",
-    "releasedAt": "2026-11-24",
-    "sizeBytes": 22794443,
-    "releaseUrl": "https://github.com/Adolini1715/Concrete-Jungle-PC/releases/tag/v0.2.2",
     "licenseId": "NOASSERTION",
     "licenseUrl": null,
     "curated": true
@@ -2255,7 +2274,7 @@
     "console": "Nintendo Switch",
     "mechanism": "in-progress",
     "platforms": [],
-    "stars": 69,
+    "stars": 70,
     "description": "Unofficial native PC port (alpha) of Tomodachi Life: Living the Dream, built on your computer from your own copy. Linux first. NO game files, firmware or keys included.",
     "version": null,
     "releasedAt": "2026-11-23",
@@ -2449,7 +2468,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 8278,
+    "stars": 8281,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.5.0",
     "releasedAt": "2026-11-22",
@@ -2856,7 +2875,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 76,
+    "stars": 77,
     "description": "Nightjar: Resident Evil 4 (GameCube) 100% native source port, byte-matching decompilation & standalone engine runtime for Android (32/64-bit), iOS (Metal), Windows, and Linux.",
     "version": "nightly",
     "releasedAt": "2026-11-20",
@@ -2952,25 +2971,6 @@
     "curated": true
   },
   {
-    "id": "alano6678-hwaoi-recomp",
-    "repo": "Alano6678/hwaoi-recomp",
-    "title": "Hyrule Warriors: Age of Imprisonment",
-    "game": null,
-    "author": "Alano6678",
-    "console": "Nintendo Switch 2",
-    "mechanism": "recompiled",
-    "platforms": [],
-    "stars": 110,
-    "description": "Experimental Hyrule Warriors: Age of Imprisonment recompilation for Windows, with a local NUP compiler. Non-60 FPS modes accelerate gameplay; higher resolutions are unstable.",
-    "version": null,
-    "releasedAt": "2026-11-20",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/Alano6678/hwaoi-recomp/releases",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
-    "curated": true
-  },
-  {
     "id": "giacomozama-live-and-recompiled",
     "repo": "giacomozama/live-and-recompiled",
     "title": "Conker: Live & Reloaded",
@@ -3003,7 +3003,7 @@
     "platforms": [
       "Linux"
     ],
-    "stars": 84,
+    "stars": 85,
     "description": "Native port of Sonic Riders (GameCube) for Windows, Linux / Steam Deck, Nintendo Switch, Switch 2 (experimental alpha), Android and iPhone / iPad. Built from your own disc image; no game data included.",
     "version": "v0.9.0",
     "releasedAt": "2026-11-20",
@@ -3222,7 +3222,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 40,
+    "stars": 39,
     "description": "Native PC ports of Battlefield 1943 and Bad Company (Xbox 360) via static recompilation",
     "version": "v0.4.1",
     "releasedAt": "2026-11-19",
@@ -3975,7 +3975,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 728,
+    "stars": 729,
     "description": "",
     "version": "1.6.1",
     "releasedAt": "2026-11-15",
@@ -4279,7 +4279,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 764,
+    "stars": 765,
     "description": "A native Windows and Linux port of Grand Theft Auto: Vice City Stories (PS2, USA, SLUS-21590), made by recompiling the game's PS2 executable into C++",
     "version": "v0.3.0",
     "releasedAt": "2026-11-14",
@@ -4412,7 +4412,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5683,
+    "stars": 5684,
     "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
     "version": "windows-v1.9.8.6",
     "releasedAt": "2026-11-13",
@@ -5156,7 +5156,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 130,
+    "stars": 131,
     "description": "",
     "version": "v0.6.0",
     "releasedAt": "2026-11-08",
@@ -6137,7 +6137,7 @@
       "Windows",
       "macOS"
     ],
-    "stars": 73,
+    "stars": 74,
     "description": "BlastCorps for PC (Windows/Linux/MacOS)",
     "version": "1.1.1",
     "releasedAt": "2026-10-29",
@@ -6303,7 +6303,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 4206,
+    "stars": 4205,
     "description": "Bloodborne (v1.09) running natively on Linux and Windows: the game's x86-64 code runs as is, GPU side translated to Vulkan; FSR 4 / DLSS, co-op (BBSC). Bring your own dump.",
     "version": "0.7",
     "releasedAt": "2026-10-28",
@@ -6858,7 +6858,7 @@
     "console": "Nintendo 64",
     "mechanism": "native",
     "platforms": [],
-    "stars": 1635,
+    "stars": 1634,
     "description": "Decompilation of Paper Mario (Nintendo 64)",
     "version": null,
     "releasedAt": "2026-10-23",
@@ -6880,7 +6880,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 1252,
+    "stars": 1254,
     "description": "Native PC port (Linux/Windows) of inFAMOUS Second Son (PS4, CUSA00223) — in development, playable; runs your own game dump; no game or firmware files included. Motion sensor emulation. | Port nativo para PC de inFAMOUS Second Son (em desenvolvimento) — usa o seu próprio dump.",
     "version": "v1.0",
     "releasedAt": "2026-10-22",
@@ -6918,7 +6918,7 @@
     "console": "Nintendo Switch",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 654,
+    "stars": 655,
     "description": "Unofficial static recompilation of Bayonetta 2 (Switch) for Windows. Builds the game on your PC from your own legally dumped copy. No game files, keys or SDK code included.",
     "version": "v0.3.3",
     "releasedAt": "2026-10-22",
@@ -7159,7 +7159,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 6167,
+    "stars": 6166,
     "description": "Ship of Harkinian: a PC port of Ocarina of Time built from the decompilation, with widescreen, high framerate and mod support.",
     "version": "9.3.1",
     "releasedAt": "2026-10-18",
@@ -7352,7 +7352,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 3672,
+    "stars": 3673,
     "description": "Reviving the language that brought us the Jak & Daxter Series",
     "version": "v0.3.9",
     "releasedAt": "2026-10-15",
@@ -7482,7 +7482,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 92,
+    "stars": 93,
     "description": "Unofficial Windows recompilation of Spider-Man: Edge of Time with PC controls, settings, localization, achievements and mod support.",
     "version": "v2.0.0-beta.5",
     "releasedAt": "2026-10-13",
@@ -8495,7 +8495,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 909,
+    "stars": 910,
     "description": "Multiplatform and Feature-rich Port based on PSX decompilation of Silent Hill 1 made with Claude and Psycross. Still in beta and is in active development.",
     "version": "crossplatform-beta",
     "releasedAt": "2026-09-04",
@@ -8668,7 +8668,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2526,
+    "stars": 2527,
     "description": "2 Ship 2 Harkinian: a PC port of Majora's Mask built from the decompilation, with widescreen, high resolution and mod support.",
     "version": "5.0.1",
     "releasedAt": "2026-08-25",
@@ -8916,7 +8916,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 1845,
+    "stars": 1844,
     "description": "A native recompilation of Skate 3 for Windows, Linux, and macOS.",
     "version": "v2.0.2",
     "releasedAt": "2026-07-24",
@@ -9423,7 +9423,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5420,
+    "stars": 5421,
     "description": "An unofficial PC port of the Xbox 360 version of Sonic Unleashed created through the process of static recompilation.",
     "version": "v1.0.3",
     "releasedAt": "2025-04-03",
