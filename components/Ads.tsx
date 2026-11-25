@@ -142,7 +142,9 @@ export function AdsRuntime() {
       </Script>
       <Script
         src="https://script.joinads.me/kvp.js"
-        strategy="lazyOnload"
+        // Not lazyOnload: it waits for the window load event, which has
+        // already fired by the time this component mounts, so it never ran.
+        strategy="afterInteractive"
         onLoad={() => window.kvp?.(JOINADS_ID)}
       />
 
