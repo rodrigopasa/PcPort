@@ -202,11 +202,19 @@ async function listing(system: string): Promise<Map<string, Entry>> {
 
 type Shot = { url: string; w: number; h: number; source: string; matched: string }
 
-async function measure(url: string, matched: string): Promise<Shot | null> {
+async function measure(url: string, matched: string, hops = 0): Promise<Shot | null> {
   try {
     const res = await fetch(url, { signal: AbortSignal.timeout(40_000) })
     if (!res.ok) return null
     const buf = Buffer.from(await res.arrayBuffer())
+    // Region and revision variants are git symlinks to one scan. The raw host
+    // serves a symlink as a few bytes of text naming its target, which a
+    // browser shows as a broken image, so the target is followed and stored.
+    if (!(res.headers.get('content-type') ?? '').startsWith('image/') && buf.length < 400 && hops < 3) {
+      const target = buf.toString('utf8').trim()
+      const next = `${url.slice(0, url.lastIndexOf('/'))}/${encodeURIComponent(target)}`
+      return measure(next, target.replace(/\.png$/i, ''), hops + 1)
+    }
     const dim = imageSize(buf)
     if (!dim || buf.length < 8_000) return null
     return { url, w: dim.w, h: dim.h, source: 'libretro-thumbnails', matched }
