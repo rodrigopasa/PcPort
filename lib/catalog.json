@@ -103,7 +103,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 297,
+    "stars": 305,
     "description": "Native PC port layer for an Xbox Series X|S title: the game's x64 code runs on your CPU and its RDNA2 GPU code is recompiled for your graphics card. Bring your own files.",
     "version": null,
     "releasedAt": "2026-11-25",
@@ -168,7 +168,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 621,
+    "stars": 623,
     "description": "A native Windows PC port of Super Mario Odyssey by static recompilation. Bring your own game: no game files included.",
     "version": "v1.0.2",
     "releasedAt": "2026-11-25",
@@ -342,7 +342,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 87,
+    "stars": 86,
     "description": "Native port of Shadow of the Colossus (PS2) to macOS and PS Vita: static recompilation with PS2Recomp, a native Metal/OpenGL renderer, and a decompilation in progress",
     "version": null,
     "releasedAt": "2026-11-25",
@@ -530,7 +530,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 414,
+    "stars": 416,
     "description": "Continuation of Project Leonida, aiming to bring GTA VI from Xbox to PC through static recompilation.",
     "version": null,
     "releasedAt": "2026-11-25",
@@ -616,6 +616,66 @@
     "releaseUrl": "https://github.com/aoxzh/bayo3-recomp/releases/tag/v0.3.15",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
+  },
+  {
+    "id": "nlwstein-skullburglar",
+    "repo": "nlwstein/skullburglar",
+    "title": "50 Cent: Blood on the Sand",
+    "game": null,
+    "author": "nlwstein",
+    "console": "Xbox 360",
+    "mechanism": "recompiled",
+    "platforms": [],
+    "stars": 78,
+    "description": "Native PC, Mac and Steam Deck port of 50 Cent: Blood on the Sand (Xbox 360), statically recompiled with ReXGlue. Download: https://skullburglar.stz.sh",
+    "version": null,
+    "releasedAt": "2026-11-25",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/nlwstein/skullburglar/releases",
+    "licenseId": "NOASSERTION",
+    "licenseUrl": null,
+    "curated": true
+  },
+  {
+    "id": "mzzvxm-larecomp",
+    "repo": "mzzvxm/LARecomp",
+    "title": "Midnight Club: Los Angeles",
+    "game": "midnight-club-la",
+    "author": "mzzvxm",
+    "console": "Xbox 360",
+    "mechanism": "recompiled",
+    "platforms": [],
+    "stars": 363,
+    "description": "",
+    "version": null,
+    "releasedAt": "2026-11-25",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/mzzvxm/LARecomp/releases",
+    "licenseId": null,
+    "licenseUrl": null,
+    "curated": true
+  },
+  {
+    "id": "loreanxavier-pt-pc",
+    "repo": "LoreanXavier/pt-pc",
+    "title": "P.T.",
+    "game": "pt",
+    "author": "LoreanXavier",
+    "console": "PlayStation 4",
+    "mechanism": "native",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 2561,
+    "description": "Native PC port of P.T. (runs from your own PS4 game files)",
+    "version": "v1.1.2",
+    "releasedAt": "2026-11-25",
+    "sizeBytes": 660660147,
+    "releaseUrl": "https://github.com/LoreanXavier/pt-pc/releases/tag/v1.1.2",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
   },
   {
     "id": "gamboozino-ngbrecomp",
@@ -1138,7 +1198,7 @@
     "platforms": [
       "PC"
     ],
-    "stars": 233,
+    "stars": 234,
     "description": "Unofficial PC port of NieR Re[in]carnation (Global 3.7.1): local server, Android runtime, launcher. Bring your own game files.",
     "version": "v1.3.1",
     "releasedAt": "2026-11-24",
@@ -1202,25 +1262,6 @@
     "releasedAt": "2026-11-24",
     "sizeBytes": null,
     "releaseUrl": "https://github.com/soyjxck/dod3-recomp/releases",
-    "licenseId": "NOASSERTION",
-    "licenseUrl": null,
-    "curated": true
-  },
-  {
-    "id": "nlwstein-skullburglar",
-    "repo": "nlwstein/skullburglar",
-    "title": "50 Cent: Blood on the Sand",
-    "game": null,
-    "author": "nlwstein",
-    "console": "Xbox 360",
-    "mechanism": "recompiled",
-    "platforms": [],
-    "stars": 78,
-    "description": "Native PC, Mac and Steam Deck port of 50 Cent: Blood on the Sand (Xbox 360), statically recompiled with ReXGlue. Download: https://skullburglar.stz.sh",
-    "version": null,
-    "releasedAt": "2026-11-24",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/nlwstein/skullburglar/releases",
     "licenseId": "NOASSERTION",
     "licenseUrl": null,
     "curated": true
@@ -1318,7 +1359,7 @@
     "console": "Xbox 360",
     "mechanism": "native",
     "platforms": [],
-    "stars": 487,
+    "stars": 488,
     "description": "Tekken 6 (Xbox 360) native on Windows with rollback netcode - build from your own ISO",
     "version": "v3.2.0",
     "releasedAt": "2026-11-24",
@@ -1363,7 +1404,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 216,
+    "stars": 217,
     "description": "Call of Duty: Modern Warfare 2 (2009) for Xbox 360 recompiled for Windows & Linux",
     "version": "v0.9.0",
     "releasedAt": "2026-11-24",
@@ -1400,7 +1441,7 @@
     "console": "Nintendo Switch",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 127,
+    "stars": 128,
     "description": "Amateur Pokémon Legends: Arceus recompilation project. Requires your own game files. More optimizations and size reductions are coming in future updates!",
     "version": "v1.2.1",
     "releasedAt": "2026-11-24",
@@ -1485,25 +1526,6 @@
     "releaseUrl": "https://github.com/dennis5heikh/native-instruments-massive-x/releases",
     "licenseId": "NOASSERTION",
     "licenseUrl": null
-  },
-  {
-    "id": "mzzvxm-larecomp",
-    "repo": "mzzvxm/LARecomp",
-    "title": "Midnight Club: Los Angeles",
-    "game": "midnight-club-la",
-    "author": "mzzvxm",
-    "console": "Xbox 360",
-    "mechanism": "recompiled",
-    "platforms": [],
-    "stars": 363,
-    "description": "",
-    "version": null,
-    "releasedAt": "2026-11-24",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/mzzvxm/LARecomp/releases",
-    "licenseId": null,
-    "licenseUrl": null,
-    "curated": true
   },
   {
     "id": "petexy-tekken-tag-2-ultimate-edition",
@@ -1639,7 +1661,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 2506,
+    "stars": 2507,
     "description": "Decompilation of The Legend of Zelda: Breath of the Wild (Switch 1.5.0)",
     "version": null,
     "releasedAt": "2026-11-23",
@@ -1851,7 +1873,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 283,
+    "stars": 284,
     "description": "Experimental static recompilation of Mario Kart 8 Deluxe 4.0.1 for Windows x64 and Linux amd64. Native Vulkan runtime, Mii creator, online play via Nextendo and Steam rooms. Bring your own game files and keys: no ROMs, assets or keys included.",
     "version": "v0.6.3",
     "releasedAt": "2026-11-23",
@@ -1915,7 +1937,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 366,
+    "stars": 367,
     "description": "Burnout Revenge recompilation based on RexGlue + standalone Plume render",
     "version": "v0.4.19",
     "releasedAt": "2026-11-23",
@@ -2231,7 +2253,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 8254,
+    "stars": 8255,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.5.0",
     "releasedAt": "2026-11-22",
@@ -2344,29 +2366,6 @@
     "releaseUrl": "https://github.com/timboat/demons-souls-recomp/releases/tag/v2026.11.22",
     "licenseId": "NOASSERTION",
     "licenseUrl": null,
-    "curated": true
-  },
-  {
-    "id": "loreanxavier-pt-pc",
-    "repo": "LoreanXavier/pt-pc",
-    "title": "P.T.",
-    "game": "pt",
-    "author": "LoreanXavier",
-    "console": "PlayStation 4",
-    "mechanism": "native",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "macOS"
-    ],
-    "stars": 2561,
-    "description": "Native PC port of P.T. (runs from your own PS4 game files)",
-    "version": "v1.1.1",
-    "releasedAt": "2026-11-22",
-    "sizeBytes": 660614307,
-    "releaseUrl": "https://github.com/LoreanXavier/pt-pc/releases/tag/v1.1.1",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
   },
   {
@@ -2930,7 +2929,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 1933,
+    "stars": 1932,
     "description": "Static recompilation research for Xbox Series X|S software on x64 Windows, with source-built CPU and GPU tests. Full-game startup is unverified.",
     "version": "gpu-check-v0.1.0",
     "releasedAt": "2026-11-20",
@@ -4435,7 +4434,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5672,
+    "stars": 5673,
     "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
     "version": "windows-v1.9.8.6",
     "releasedAt": "2026-11-13",
@@ -4809,7 +4808,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 972,
+    "stars": 971,
     "description": "Unofficial native PC and Steam Deck port of Tears of the Kingdom 1.4.3 using static recompilation. Builds locally from the player's own extracted game dump; no game files included.",
     "version": "v0.4.0",
     "releasedAt": "2026-11-11",
@@ -5088,7 +5087,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 954,
+    "stars": 955,
     "description": "Xbox 360 to PC port of Dante's Inferno using ReXGlue (static recompilation)",
     "version": "v0.8.6-beta-hotfix",
     "releasedAt": "2026-11-08",
@@ -5837,7 +5836,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 331,
+    "stars": 332,
     "description": "GTA V (Xbox 360, TU27) static recompilation with ReXGlue",
     "version": "v0.3.0",
     "releasedAt": "2026-11-02",
@@ -6421,7 +6420,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 251,
+    "stars": 252,
     "description": "A static native recompilation of Need for Speed: Most Wanted (2005) Xbox 360",
     "version": "v1.0.2",
     "releasedAt": "2026-10-28",
@@ -6443,7 +6442,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 4202,
+    "stars": 4203,
     "description": "Bloodborne (v1.09) running natively on Linux and Windows: the game's x86-64 code runs as is, GPU side translated to Vulkan; FSR 4 / DLSS, co-op (BBSC). Bring your own dump.",
     "version": "0.7",
     "releasedAt": "2026-10-28",
@@ -6709,7 +6708,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 8294,
+    "stars": 8295,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -6860,7 +6859,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 220,
+    "stars": 221,
     "description": "Eternal Darkness: Sanity's Requiem static recompilation (DolRecomp + GXRuntime) for Mac, Windows and Linux / Steam Deck. Bring your own disc.",
     "version": "v0.9.6",
     "releasedAt": "2026-10-24",
@@ -7102,7 +7101,7 @@
     "console": "Nintendo Switch",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 654,
+    "stars": 653,
     "description": "Unofficial static recompilation of Bayonetta 2 (Switch) for Windows. Builds the game on your PC from your own legally dumped copy. No game files, keys or SDK code included.",
     "version": "v0.3.3",
     "releasedAt": "2026-10-22",
@@ -7512,7 +7511,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 98,
+    "stars": 99,
     "description": "Original open-source static recompilation of Tekken 6 (Xbox 360) for native execution on PC. This project provides the recompilation foundation used by downstream projects including Tekken6 Native Online.",
     "version": "Iterate",
     "releasedAt": "2026-10-16",
@@ -7556,7 +7555,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 150,
+    "stars": 151,
     "description": "Experimental static recompilation of Forza Motorsport 4 using ReXGlue. No game files included.",
     "version": "v0.1.0-alpha.2",
     "releasedAt": "2026-10-15",
