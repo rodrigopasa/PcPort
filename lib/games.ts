@@ -1261,6 +1261,636 @@ export const GAMES: Record<string, GameMeta> = {
       en: "The console version of Diablo III, built for a controller, with local co-op for four.",
     },
   },
+  'donkey-kong-bananza': {
+    releasedAt: '2025-07-17',
+    developer: 'Nintendo EPD',
+    publisher: 'Nintendo',
+    genres: ['Plataforma'],
+    summary: {
+      pt: "Donkey Kong cava e destrói cenários inteiros no subterrâneo em busca de bananas douradas, ao lado de Pauline.",
+      en: "Donkey Kong digs through and smashes whole underground worlds in search of golden bananas, alongside Pauline.",
+    },
+  },
+  'outrun': {
+    releasedAt: '1986-09-20',
+    developer: 'Sega AM2',
+    publisher: 'Sega',
+    genres: ['Corrida', 'Arcade'],
+    summary: {
+      pt: "Corrida contra o relógio numa Ferrari conversível, escolhendo a cada bifurcação o caminho até o fim da estrada.",
+      en: "A race against the clock in a convertible Ferrari, picking the route at every fork on the way to the end of the road.",
+    },
+  },
+  'gta-vice-city-stories': {
+    releasedAt: '2007-03-06',
+    developer: 'Rockstar Leeds',
+    publisher: 'Rockstar Games',
+    genres: ['Ação e aventura', 'Mundo aberto'],
+    summary: {
+      pt: "Vice City em 1984: o soldado Vic Vance monta um império do crime dois anos antes de GTA: Vice City.",
+      en: "Vice City in 1984: soldier Vic Vance builds a criminal empire two years before GTA: Vice City.",
+    },
+  },
+  'sly-cooper': {
+    releasedAt: '2002-09-23',
+    developer: 'Sucker Punch Productions',
+    publisher: 'Sony Computer Entertainment',
+    genres: ['Plataforma'],
+    summary: {
+      pt: "O guaxinim ladrão Sly Cooper recupera as páginas do livro da família, roubadas pelo bando que matou seu pai.",
+      en: "Raccoon thief Sly Cooper recovers the pages of his family book, stolen by the gang that killed his father.",
+    },
+  },
+  'metroid-dread': {
+    releasedAt: '2021-10-08',
+    developer: 'MercurySteam',
+    publisher: 'Nintendo',
+    genres: ['Metroidvania'],
+    summary: {
+      pt: "Samus explora o planeta ZDR fugindo dos robôs E.M.M.I., que a caçam pelos corredores.",
+      en: "Samus explores planet ZDR while fleeing the E.M.M.I. robots that hunt her through its corridors.",
+    },
+  },
+  'shadow-the-hedgehog': {
+    releasedAt: '2005-11-15',
+    developer: 'Sega Studio USA',
+    publisher: 'Sega',
+    genres: ['Plataforma', 'Ação'],
+    summary: {
+      pt: "Shadow busca o próprio passado durante uma invasão alienígena, com caminhos que mudam conforme as escolhas.",
+      en: "Shadow searches for his own past during an alien invasion, with routes that change with his choices.",
+    },
+  },
+  'gta-vi': {
+    releasedAt: '2026-11-19',
+    developer: 'Rockstar North',
+    publisher: 'Rockstar Games',
+    genres: ['Ação e aventura', 'Mundo aberto'],
+    summary: {
+      pt: "Lucia e Jason no estado de Leonida, uma versão da Flórida, em torno de Vice City.",
+      en: "Lucia and Jason in the state of Leonida, a take on Florida, centred on Vice City.",
+    },
+  },
+  'last-of-us-remastered': {
+    releasedAt: '2014-07-29',
+    developer: 'Naughty Dog',
+    publisher: 'Sony Computer Entertainment',
+    genres: ['Ação e aventura', 'Sobrevivência'],
+    summary: {
+      pt: "Joel atravessa os Estados Unidos devastados por uma infecção escoltando Ellie, com a expansão Left Behind.",
+      en: "Joel crosses an infection-ravaged United States escorting Ellie, with the Left Behind expansion.",
+    },
+  },
+  'burnout-revenge': {
+    releasedAt: '2006-03-07',
+    developer: 'Criterion Games',
+    publisher: 'Electronic Arts',
+    genres: ['Corrida'],
+    summary: {
+      pt: "Corridas em alta velocidade em que bater nos rivais e no trânsito é parte da estratégia.",
+      en: "High-speed racing where slamming rivals and traffic is part of the strategy.",
+    },
+  },
+  'drakengard-3': {
+    releasedAt: '2013-12-19',
+    developer: 'Access Games',
+    publisher: 'Square Enix',
+    genres: ['RPG de ação', 'Hack and slash'],
+    summary: {
+      pt: "A diva Zero e seu dragão caçam as próprias irmãs, num prólogo da série que deu origem a NieR.",
+      en: "The Intoner Zero and her dragon hunt down her own sisters, in a prequel to the series that led to NieR.",
+    },
+  },
+  'crash-bandicoot': {
+    releasedAt: '1996-09-09',
+    developer: 'Naughty Dog',
+    publisher: 'Sony Computer Entertainment',
+    genres: ['Plataforma'],
+    summary: {
+      pt: "Crash atravessa as ilhas Wumpa para salvar Tawna e deter o Dr. Neo Cortex.",
+      en: "Crash crosses the Wumpa Islands to rescue Tawna and stop Dr. Neo Cortex.",
+    },
+  },
+  'ninja-gaiden-2': {
+    releasedAt: '2008-06-03',
+    developer: 'Team Ninja',
+    publisher: 'Microsoft Game Studios',
+    genres: ['Ação', 'Hack and slash'],
+    summary: {
+      pt: "Ryu Hayabusa enfrenta os Arquidemônios pelo mundo, em combates rápidos e violentos.",
+      en: "Ryu Hayabusa takes on the Greater Fiends across the world, in fast and brutal combat.",
+    },
+  },
+  'king-kong': {
+    releasedAt: '2005-11-22',
+    developer: 'Ubisoft Montpellier',
+    publisher: 'Ubisoft',
+    genres: ['Ação e aventura'],
+    summary: {
+      pt: "A Ilha da Caveira do filme de 2005, jogada ora como o roteirista Jack Driscoll, ora como o próprio Kong.",
+      en: "Skull Island from the 2005 film, played both as screenwriter Jack Driscoll and as Kong himself.",
+    },
+  },
+  'pokemon-mystery-dungeon-red': {
+    releasedAt: '2005-11-17',
+    developer: 'Chunsoft',
+    publisher: 'Nintendo',
+    genres: ['RPG'],
+    summary: {
+      pt: "Um humano acorda transformado em Pokémon e forma uma equipe de resgate que explora masmorras geradas a cada visita.",
+      en: "A human wakes up as a Pokémon and forms a rescue team that explores dungeons generated anew on each visit.",
+    },
+  },
+  'viva-pinata-tip': {
+    releasedAt: '2008-09-02',
+    developer: 'Rare',
+    publisher: 'Microsoft Game Studios',
+    genres: ['Simulação'],
+    summary: {
+      pt: "Um jardim para atrair, criar e proteger piñatas vivas, agora também no deserto e na tundra.",
+      en: "A garden for attracting, raising and protecting living piñatas, now in the desert and the tundra too.",
+    },
+  },
+  'super-mario-64-ds': {
+    releasedAt: '2004-11-21',
+    developer: 'Nintendo EAD',
+    publisher: 'Nintendo',
+    genres: ['Plataforma'],
+    summary: {
+      pt: "A versão de Super Mario 64 para o DS, com Yoshi, Luigi e Wario jogáveis e estrelas novas.",
+      en: "The DS version of Super Mario 64, with Yoshi, Luigi and Wario playable and new stars.",
+    },
+  },
+  'lego-dimensions': {
+    releasedAt: '2015-09-27',
+    developer: 'TT Fusion',
+    publisher: 'Warner Bros. Interactive Entertainment',
+    genres: ['Ação e aventura'],
+    summary: {
+      pt: "Bonecos e peças LEGO reais sobre uma base levam personagens de dezenas de franquias para o jogo.",
+      en: "Real LEGO figures and builds on a toy pad bring characters from dozens of franchises into the game.",
+    },
+  },
+  'saints-row': {
+    releasedAt: '2006-08-29',
+    developer: 'Volition',
+    publisher: 'THQ',
+    genres: ['Ação e aventura', 'Mundo aberto'],
+    summary: {
+      pt: "Um novato entra para a gangue dos Saints e toma Stilwater bairro a bairro.",
+      en: "A newcomer joins the Saints gang and takes Stilwater one district at a time.",
+    },
+  },
+  'demons-souls': {
+    releasedAt: '2009-02-05',
+    developer: 'FromSoftware',
+    publisher: 'Sony Computer Entertainment',
+    genres: ['RPG de ação', 'Soulslike'],
+    summary: {
+      pt: "O reino de Boletaria, tomado por uma névoa e por demônios, num combate difícil que deu origem a Dark Souls.",
+      en: "The kingdom of Boletaria, swallowed by fog and demons, in the demanding combat that led to Dark Souls.",
+    },
+  },
+  'naruto-rise-of-a-ninja': {
+    releasedAt: '2007-10-30',
+    developer: 'Ubisoft Montreal',
+    publisher: 'Ubisoft',
+    genres: ['Luta', 'Ação e aventura'],
+    summary: {
+      pt: "Konoha aberta para explorar e o início da história de Naruto, com lutas em 3D entre ninjas.",
+      en: "Konoha open to explore and the start of Naruto’s story, with 3D fights between ninjas.",
+    },
+  },
+  'banjo-kazooie-nuts-bolts': {
+    releasedAt: '2008-11-11',
+    developer: 'Rare',
+    publisher: 'Microsoft Game Studios',
+    genres: ['Aventura', 'Sandbox'],
+    summary: {
+      pt: "Banjo e Kazooie constroem veículos peça por peça para vencer os desafios propostos pelo Senhor dos Jogos.",
+      en: "Banjo and Kazooie build vehicles piece by piece to beat the challenges set by the Lord of Games.",
+    },
+  },
+  'mega-man-x': {
+    releasedAt: '1993-12-17',
+    developer: 'Capcom',
+    publisher: 'Capcom',
+    genres: ['Plataforma', 'Ação'],
+    summary: {
+      pt: "X enfrenta os Mavericks de Sigma, ganhando a arma de cada chefe derrotado.",
+      en: "X takes on Sigma’s Mavericks, earning the weapon of every boss he defeats.",
+    },
+  },
+  'ratchet-and-clank': {
+    releasedAt: '2002-11-04',
+    developer: 'Insomniac Games',
+    publisher: 'Sony Computer Entertainment',
+    genres: ['Plataforma', 'Tiro em terceira pessoa'],
+    summary: {
+      pt: "O mecânico Ratchet e o robô Clank cruzam a galáxia com um arsenal de armas improváveis.",
+      en: "Mechanic Ratchet and robot Clank cross the galaxy with an arsenal of unlikely weapons.",
+    },
+  },
+  'kirby-64': {
+    releasedAt: '2000-03-24',
+    developer: 'HAL Laboratory',
+    publisher: 'Nintendo',
+    genres: ['Plataforma'],
+    summary: {
+      pt: "Kirby recolhe os fragmentos de um cristal e combina duas habilidades copiadas em poderes novos.",
+      en: "Kirby gathers the shards of a crystal and combines two copied abilities into new powers.",
+    },
+  },
+  'odin-sphere-leifthrasir': {
+    releasedAt: '2016-01-14',
+    developer: 'Vanillaware',
+    publisher: 'Atlus',
+    genres: ['RPG de ação'],
+    summary: {
+      pt: "Cinco histórias cruzadas num reino à beira do fim, desenhadas à mão, refeitas a partir do jogo de PS2.",
+      en: "Five intertwined stories in a kingdom nearing its end, hand-drawn, remade from the PS2 game.",
+    },
+  },
+  'eternal-sonata': {
+    releasedAt: '2007-06-14',
+    developer: 'tri-Crescendo',
+    publisher: 'Namco Bandai Games',
+    genres: ['RPG'],
+    summary: {
+      pt: "O sonho de Chopin em seus últimos dias, um mundo de fantasia em que luz e sombra mudam o combate.",
+      en: "Chopin’s dream in his final days, a fantasy world where light and shadow change the combat.",
+    },
+  },
+  'parappa-the-rapper-2': {
+    releasedAt: '2001-08-30',
+    developer: 'NanaOn-Sha',
+    publisher: 'Sony Computer Entertainment',
+    genres: ['Ritmo'],
+    summary: {
+      pt: "O cachorro PaRappa rima no tempo da música para salvar a cidade, que está virando macarrão.",
+      en: "PaRappa the dog raps in time with the music to save his town, which is turning into noodles.",
+    },
+  },
+  'cod-finest-hour': {
+    releasedAt: '2004-11-16',
+    developer: 'Spark Unlimited',
+    publisher: 'Activision',
+    genres: ['Tiro em primeira pessoa'],
+    summary: {
+      pt: "A Segunda Guerra nos fronts soviético, africano e europeu, na primeira versão de Call of Duty para console.",
+      en: "The Second World War on the Soviet, African and European fronts, in the first Call of Duty made for consoles.",
+    },
+  },
+  'vib-ribbon': {
+    releasedAt: '1999-12-12',
+    developer: 'NanaOn-Sha',
+    publisher: 'Sony Computer Entertainment',
+    genres: ['Ritmo'],
+    summary: {
+      pt: "A coelhinha Vibri percorre uma linha que forma obstáculos ao ritmo da música, inclusive de CDs do jogador.",
+      en: "Vibri the rabbit runs along a line that forms obstacles to the music, the player’s own CDs included.",
+    },
+  },
+  'super-mario-world': {
+    releasedAt: '1990-11-21',
+    developer: 'Nintendo EAD',
+    publisher: 'Nintendo',
+    genres: ['Plataforma'],
+    summary: {
+      pt: "Mario e Yoshi atravessam a Dinosaur Land para resgatar a princesa, com saídas secretas por todo o mapa.",
+      en: "Mario and Yoshi cross Dinosaur Land to rescue the princess, with secret exits all over the map.",
+    },
+  },
+  'panzer-dragoon-saga': {
+    releasedAt: '1998-01-29',
+    developer: 'Team Andromeda',
+    publisher: 'Sega',
+    genres: ['RPG'],
+    summary: {
+      pt: "Edge, montado num dragão, persegue o império por um mundo em ruínas, em batalhas de posição em volta do inimigo.",
+      en: "Edge rides a dragon after the Empire across a ruined world, in battles fought by circling the enemy.",
+    },
+  },
+  '007-from-russia-with-love': {
+    releasedAt: '2005-11-01',
+    developer: 'EA Redwood Shores',
+    publisher: 'Electronic Arts',
+    genres: ['Tiro em terceira pessoa'],
+    summary: {
+      pt: "A história do filme de 1963 com Sean Connery, que voltou a dar a voz e o rosto a James Bond.",
+      en: "The story of the 1963 film with Sean Connery, who returned to give James Bond his voice and face.",
+    },
+  },
+  'ratchet-tools-of-destruction': {
+    releasedAt: '2007-10-23',
+    developer: 'Insomniac Games',
+    publisher: 'Sony Computer Entertainment',
+    genres: ['Plataforma', 'Tiro em terceira pessoa'],
+    summary: {
+      pt: "Ratchet foge do imperador Tachyon e descobre o destino dos Lombax, a sua espécie.",
+      en: "Ratchet flees Emperor Tachyon and uncovers the fate of the Lombaxes, his own kind.",
+    },
+  },
+  'dino-crisis': {
+    releasedAt: '1999-07-01',
+    developer: 'Capcom',
+    publisher: 'Capcom',
+    genres: ['Survival horror'],
+    summary: {
+      pt: "Regina investiga uma ilha de pesquisa tomada por dinossauros, dos criadores de Resident Evil.",
+      en: "Regina investigates a research island overrun by dinosaurs, from the makers of Resident Evil.",
+    },
+  },
+  'silent-hill-3': {
+    releasedAt: '2003-05-23',
+    developer: 'Team Silent',
+    publisher: 'Konami',
+    genres: ['Survival horror'],
+    summary: {
+      pt: "Heather é arrastada para um pesadelo que a leva de volta à cidade de Silent Hill.",
+      en: "Heather is dragged into a nightmare that leads her back to the town of Silent Hill.",
+    },
+  },
+  'killzone-3': {
+    releasedAt: '2011-02-22',
+    developer: 'Guerrilla Games',
+    publisher: 'Sony Computer Entertainment',
+    genres: ['Tiro em primeira pessoa'],
+    summary: {
+      pt: "A guerra contra os Helghast continua no planeta deles, logo depois do fim de Killzone 2.",
+      en: "The war against the Helghast goes on across their home planet, right after the end of Killzone 2.",
+    },
+  },
+  'infamous-first-light': {
+    releasedAt: '2014-08-26',
+    developer: 'Sucker Punch Productions',
+    publisher: 'Sony Computer Entertainment',
+    genres: ['Ação e aventura', 'Mundo aberto'],
+    summary: {
+      pt: "A história de Fetch, com poderes de neon, antes de inFAMOUS Second Son.",
+      en: "The story of Fetch and her neon powers, before inFAMOUS Second Son.",
+    },
+  },
+  'paper-mario-ttyd': {
+    releasedAt: '2004-07-22',
+    developer: 'Intelligent Systems',
+    publisher: 'Nintendo',
+    genres: ['RPG'],
+    summary: {
+      pt: "Mario procura as Estrelas de Cristal atrás da Porta Milenar, em batalhas por turnos encenadas num palco.",
+      en: "Mario seeks the Crystal Stars behind the Thousand-Year Door, in turn-based battles staged on a theatre stage.",
+    },
+  },
+  'killzone-2': {
+    releasedAt: '2009-02-27',
+    developer: 'Guerrilla Games',
+    publisher: 'Sony Computer Entertainment',
+    genres: ['Tiro em primeira pessoa'],
+    summary: {
+      pt: "A ISA invade o planeta Helghan para capturar o imperador Visari.",
+      en: "The ISA invades the planet Helghan to capture Emperor Visari.",
+    },
+  },
+  'metroid-zero-mission': {
+    releasedAt: '2004-02-09',
+    developer: 'Nintendo R&D1',
+    publisher: 'Nintendo',
+    genres: ['Metroidvania'],
+    summary: {
+      pt: "O primeiro Metroid refeito, com o planeta Zebes ampliado e um capítulo novo no fim.",
+      en: "The first Metroid remade, with planet Zebes expanded and a new chapter at the end.",
+    },
+  },
+  'svr-2007': {
+    releasedAt: '2006-11-14',
+    developer: 'Yuke\'s',
+    publisher: 'THQ',
+    genres: ['Luta', 'Esporte'],
+    summary: {
+      pt: "Luta livre da WWE com o elenco de 2006 e o modo de carreira de uma temporada.",
+      en: "WWE wrestling with the 2006 roster and a season-long career mode.",
+    },
+  },
+  'kirby-amazing-mirror': {
+    releasedAt: '2004-04-15',
+    developer: 'HAL Laboratory',
+    publisher: 'Nintendo',
+    genres: ['Plataforma', 'Metroidvania'],
+    summary: {
+      pt: "Kirby, dividido em quatro, explora um labirinto de espelhos interligado.",
+      en: "Kirby, split into four, explores an interconnected maze of mirrors.",
+    },
+  },
+  'ace-combat-5': {
+    releasedAt: '2004-10-21',
+    developer: 'Namco',
+    publisher: 'Namco',
+    genres: ['Simulação de voo'],
+    summary: {
+      pt: "Combates aéreos com o esquadrão Wardog numa guerra entre Osea e Yuktobania.",
+      en: "Air combat with Wardog squadron in a war between Osea and Yuktobania.",
+    },
+  },
+  'pokemon-pinball-rs': {
+    releasedAt: '2003-08-01',
+    developer: 'Jupiter',
+    publisher: 'Nintendo',
+    genres: ['Arcade'],
+    summary: {
+      pt: "Pinball em que a bola captura e choca os Pokémon da região de Hoenn.",
+      en: "Pinball where the ball catches and hatches the Pokémon of the Hoenn region.",
+    },
+  },
+  'xenoblade-chronicles': {
+    releasedAt: '2010-06-10',
+    developer: 'Monolith Soft',
+    publisher: 'Nintendo',
+    genres: ['RPG'],
+    summary: {
+      pt: "Shulk empunha a espada Monado num mundo construído sobre os corpos de dois titãs.",
+      en: "Shulk wields the Monado sword in a world built on the bodies of two titans.",
+    },
+  },
+  'golden-sun': {
+    releasedAt: '2001-08-01',
+    developer: 'Camelot Software Planning',
+    publisher: 'Nintendo',
+    genres: ['RPG'],
+    summary: {
+      pt: "Isaac e seus amigos usam a Psinergia para impedir que os faróis elementais sejam acesos.",
+      en: "Isaac and his friends use Psynergy to stop the elemental lighthouses from being lit.",
+    },
+  },
+  'valkyrie-profile': {
+    releasedAt: '1999-12-22',
+    developer: 'tri-Ace',
+    publisher: 'Enix',
+    genres: ['RPG'],
+    summary: {
+      pt: "A valquíria Lenneth recruta as almas de guerreiros mortos para o Ragnarok.",
+      en: "The valkyrie Lenneth recruits the souls of fallen warriors for Ragnarok.",
+    },
+  },
+  'mega-man-x4': {
+    releasedAt: '1997-08-01',
+    developer: 'Capcom',
+    publisher: 'Capcom',
+    genres: ['Plataforma', 'Ação'],
+    summary: {
+      pt: "X ou Zero, à escolha, contra a rebelião da Repliforce.",
+      en: "X or Zero, the player’s pick, against the Repliforce rebellion.",
+    },
+  },
+  'crash-twinsanity': {
+    releasedAt: '2004-09-28',
+    developer: 'Traveller\'s Tales Oxford',
+    publisher: 'Vivendi Universal Games',
+    genres: ['Plataforma'],
+    summary: {
+      pt: "Crash e o Dr. Neo Cortex, obrigados a se aliar contra os Gêmeos Malvados.",
+      en: "Crash and Dr. Neo Cortex forced to team up against the Evil Twins.",
+    },
+  },
+  '13-sentinels': {
+    releasedAt: '2019-11-28',
+    developer: 'Vanillaware',
+    publisher: 'Atlus',
+    genres: ['Aventura', 'Estratégia em tempo real'],
+    summary: {
+      pt: "Treze estudantes, robôs gigantes e uma história contada fora de ordem, entre aventura e batalhas táticas.",
+      en: "Thirteen students, giant robots and a story told out of order, between adventure and tactical battles.",
+    },
+  },
+  'crackdown': {
+    releasedAt: '2007-02-20',
+    developer: 'Realtime Worlds',
+    publisher: 'Microsoft Game Studios',
+    genres: ['Ação', 'Mundo aberto'],
+    summary: {
+      pt: "Um agente que fica mais forte a cada crime combatido limpa Pacific City das gangues.",
+      en: "An agent who grows stronger with every crime he fights clears Pacific City of its gangs.",
+    },
+  },
+  'gears-of-war-judgment': {
+    releasedAt: '2013-03-19',
+    developer: 'People Can Fly',
+    publisher: 'Microsoft Studios',
+    genres: ['Tiro em terceira pessoa'],
+    summary: {
+      pt: "O esquadrão Kilo de Baird, julgado por um tribunal militar, nos primeiros dias da guerra contra os Locust.",
+      en: "Baird’s Kilo squad, on trial before a military tribunal, in the first days of the war against the Locust.",
+    },
+  },
+  'dragon-quest-viii': {
+    releasedAt: '2004-11-27',
+    developer: 'Level-5',
+    publisher: 'Square Enix',
+    genres: ['RPG'],
+    summary: {
+      pt: "Um guarda e seu rei, transformado em sapo, perseguem o bobo da corte Dhoulmagus pelo mundo.",
+      en: "A guard and his king, turned into a toad, pursue the jester Dhoulmagus across the world.",
+    },
+  },
+  'pokemon-legends-arceus': {
+    releasedAt: '2022-01-28',
+    developer: 'Game Freak',
+    publisher: 'Nintendo',
+    genres: ['RPG', 'Ação e aventura'],
+    summary: {
+      pt: "A região de Hisui no passado, com Pokémon soltos em áreas abertas, para estudar e capturar.",
+      en: "The Hisui region long ago, with Pokémon roaming open areas to study and catch.",
+    },
+  },
+  'ridge-racer-6': {
+    releasedAt: '2005-11-22',
+    developer: 'Namco',
+    publisher: 'Namco',
+    genres: ['Corrida'],
+    summary: {
+      pt: "Corridas de derrapagem com o nitro, num mapa de mais de duzentos eventos.",
+      en: "Drift racing with nitrous, across a map of more than two hundred events.",
+    },
+  },
+  'castlevania-hod': {
+    releasedAt: '2010-08-04',
+    developer: 'Konami',
+    publisher: 'Konami',
+    genres: ['Metroidvania'],
+    summary: {
+      pt: "Heróis de toda a série exploram juntos, em até seis jogadores, um castelo visto inteiro na tela.",
+      en: "Heroes from across the series explore together, up to six players, a castle seen whole on screen.",
+    },
+  },
+  'pgr2': {
+    releasedAt: '2003-11-18',
+    developer: 'Bizarre Creations',
+    publisher: 'Microsoft Game Studios',
+    genres: ['Corrida'],
+    summary: {
+      pt: "Corridas por ruas de cidades reais, em que estilo ao volante vale pontos, os Kudos.",
+      en: "Racing through real city streets, where style at the wheel earns points, the Kudos.",
+    },
+  },
+  'fight-night-champion': {
+    releasedAt: '2011-03-15',
+    developer: 'EA Canada',
+    publisher: 'EA Sports',
+    genres: ['Esporte', 'Luta'],
+    summary: {
+      pt: "Boxe com os golpes no analógico e um modo história sobre a carreira de Andre Bishop.",
+      en: "Boxing with punches on the analogue stick and a story mode about Andre Bishop’s career.",
+    },
+  },
+  'forza-motorsport-3': {
+    releasedAt: '2009-10-27',
+    developer: 'Turn 10 Studios',
+    publisher: 'Microsoft Game Studios',
+    genres: ['Corrida'],
+    summary: {
+      pt: "Simulação de corrida com mais de quatrocentos carros e um botão para voltar no tempo.",
+      en: "Racing simulation with more than four hundred cars and a button to rewind time.",
+    },
+  },
+  'cod2-big-red-one': {
+    releasedAt: '2005-11-01',
+    developer: 'Treyarch',
+    publisher: 'Activision',
+    genres: ['Tiro em primeira pessoa'],
+    summary: {
+      pt: "A Primeira Divisão de Infantaria dos EUA, da África do Norte à Alemanha, na Segunda Guerra.",
+      en: "The US 1st Infantry Division, from North Africa to Germany, in the Second World War.",
+    },
+  },
+  '007-everything-or-nothing': {
+    releasedAt: '2004-02-17',
+    developer: 'EA Redwood Shores',
+    publisher: 'Electronic Arts',
+    genres: ['Tiro em terceira pessoa'],
+    summary: {
+      pt: "Uma aventura original de James Bond com o rosto e a voz de Pierce Brosnan.",
+      en: "An original James Bond adventure with Pierce Brosnan’s face and voice.",
+    },
+  },
+  'ridge-racer-v': {
+    releasedAt: '2000-03-04',
+    developer: 'Namco',
+    publisher: 'Namco',
+    genres: ['Corrida'],
+    summary: {
+      pt: "Derrapagens pelas ruas de Ridge City, entre os primeiros jogos do PlayStation 2.",
+      en: "Drifting through the streets of Ridge City, among the first PlayStation 2 games.",
+    },
+  },
+  'ssf2t-hd-remix': {
+    releasedAt: '2008-11-26',
+    developer: 'Backbone Entertainment',
+    publisher: 'Capcom',
+    genres: ['Luta'],
+    summary: {
+      pt: "Super Street Fighter II Turbo redesenhado em alta resolução e com o equilíbrio revisto.",
+      en: "Super Street Fighter II Turbo redrawn in high resolution and rebalanced.",
+    },
+  },
   wet: {
     releasedAt: '2009-09-15',
     developer: 'Artificial Mind and Movement',

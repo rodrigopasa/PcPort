@@ -162,6 +162,19 @@ const WIKI: Record<string, string[]> = {
  */
 const REJECTED: Record<string, string> = {
   // Judged by eye on 2026-11-25.
+  'outrun': 'Fandom served an Australian classification certificate, not the game',
+  'metroid-dread': 'Fandom served character art of Samus, not the box',
+  'gta-vi': 'Fandom served the Grand Theft Auto V box, a different game',
+  'last-of-us-remastered': 'Fandom served a PlayStation trophy icon, not the game',
+  'lego-dimensions': 'Fandom served the logo, not the box',
+  'naruto-rise-of-a-ninja': 'Fandom served the box of Ultimate Ninja Storm, a different game',
+  'infamous-first-light': 'Fandom served the box of the first inFAMOUS, a different game',
+  'gears-of-war-judgment': 'Fandom served the box of the first Gears of War, a different game',
+  'pokemon-legends-arceus': 'Fandom served a sprite of Arceus, not the box',
+  'castlevania-hod': 'Fandom served the box of Harmony of Dissonance, a different game',
+  'fight-night-champion': 'Fandom served the box of Fight Night Round 3, a different game',
+  'forza-motorsport-3': 'Fandom served the box of the first Forza Motorsport, a different game',
+  'ssf2t-hd-remix': 'Fandom served the 3DO box of Super Street Fighter II Turbo, a different version',
   'project-gotham-racing-4': 'Fandom served the box of Project Gotham Racing 2, a different game',
   'tears-of-the-kingdom': 'Fandom served the Breath of the Wild box, a different game',
   'naruto-broken-bond': 'Fandom served the box of Ultimate Ninja Storm, a different game',
