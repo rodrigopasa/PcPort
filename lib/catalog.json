@@ -46,7 +46,7 @@
     "console": "Xbox Series X|S",
     "mechanism": "translation-layer",
     "platforms": [],
-    "stars": 355,
+    "stars": 356,
     "description": "Native PC port layer for an Xbox Series X|S title: the game's x64 code runs on your CPU and its RDNA2 GPU code is recompiled for your graphics card. Bring your own files.",
     "version": null,
     "releasedAt": "2026-11-26",
@@ -103,12 +103,52 @@
     "console": "Xbox Series X|S",
     "mechanism": "in-progress",
     "platforms": [],
-    "stars": 448,
+    "stars": 450,
     "description": "Continuation of Project Leonida, aiming to bring GTA VI from Xbox to PC through static recompilation.",
     "version": null,
     "releasedAt": "2026-11-26",
     "sizeBytes": null,
     "releaseUrl": "https://github.com/ProjectLeonidaL/leonida/releases",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
+  },
+  {
+    "id": "mikesemicolond-roguesquadron64recomp",
+    "repo": "MikeSemicolonD/RogueSquadron64Recomp",
+    "title": "Star Wars: Rogue Squadron",
+    "game": null,
+    "author": "MikeSemicolonD",
+    "console": "Nintendo 64",
+    "mechanism": "recompiled",
+    "platforms": [],
+    "stars": 48,
+    "description": "A fully playable (AI assisted) static recompilation of Star Wars: Rogue Squadron on N64 for Windows 10, Linux, MacOS & Android",
+    "version": null,
+    "releasedAt": "2026-11-26",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/MikeSemicolonD/RogueSquadron64Recomp/releases",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
+  },
+  {
+    "id": "therealafsan-shinobi-ps2-recomp",
+    "repo": "TheRealAfsan/Shinobi-PS2-Recomp",
+    "title": "Shinobi",
+    "game": null,
+    "author": "TheRealAfsan",
+    "console": "PlayStation 2",
+    "mechanism": "native",
+    "platforms": [
+      "Windows"
+    ],
+    "stars": 72,
+    "description": "Native Windows port of Shinobi (PS2, USA). Bring your own disc image. Launcher included.",
+    "version": "v0.7.4",
+    "releasedAt": "2026-11-26",
+    "sizeBytes": 30862710,
+    "releaseUrl": "https://github.com/TheRealAfsan/Shinobi-PS2-Recomp/releases/tag/v0.7.4",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
@@ -185,7 +225,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 248,
+    "stars": 249,
     "description": "A PC port of Downhill Domination (PS2), built on a matching decompilation. Bring your own disc.",
     "version": "v0.8.13",
     "releasedAt": "2026-11-25",
@@ -226,7 +266,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 639,
+    "stars": 641,
     "description": "A native Windows PC port of Super Mario Odyssey by static recompilation. Bring your own game: no game files included.",
     "version": "v1.0.2",
     "releasedAt": "2026-11-25",
@@ -248,7 +288,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 180,
+    "stars": 181,
     "description": "Native PC port of Diablo III: Reaper of Souls – Ultimate Evil Edition (PS4). Local co-op for 4.",
     "version": "v0.7.6",
     "releasedAt": "2026-11-25",
@@ -374,7 +414,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 580,
+    "stars": 582,
     "description": "Dragon's Crown Pro native PC port for Windows, with direct PS4 PKG installation, TRG launcher and modern graphics options",
     "version": "v1.5.1",
     "releasedAt": "2026-11-25",
@@ -596,7 +636,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 367,
+    "stars": 368,
     "description": "",
     "version": null,
     "releasedAt": "2026-11-25",
@@ -884,7 +924,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 1039,
+    "stars": 1040,
     "description": "A cozy life-simulation and sandbox builder with fantastical creatures (Switch 2), recompiled to run natively on Windows, Linux and macOS. Multiplayer, all events, modding, enhancements and more.",
     "version": "v0.17.7",
     "releasedAt": "2026-11-25",
@@ -934,25 +974,6 @@
     "releasedAt": "2026-11-25",
     "sizeBytes": 41187832,
     "releaseUrl": "https://github.com/gamboozino/ngbrecomp/releases/tag/v1.0.1",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
-    "curated": true
-  },
-  {
-    "id": "mikesemicolond-roguesquadron64recomp",
-    "repo": "MikeSemicolonD/RogueSquadron64Recomp",
-    "title": "Star Wars: Rogue Squadron",
-    "game": null,
-    "author": "MikeSemicolonD",
-    "console": "Nintendo 64",
-    "mechanism": "recompiled",
-    "platforms": [],
-    "stars": 48,
-    "description": "A fully playable (AI assisted) static recompilation of Star Wars: Rogue Squadron on N64 for Windows 10, Linux, MacOS & Android",
-    "version": null,
-    "releasedAt": "2026-11-25",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/MikeSemicolonD/RogueSquadron64Recomp/releases",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
@@ -1138,7 +1159,7 @@
       "Linux",
       "Android"
     ],
-    "stars": 46,
+    "stars": 47,
     "description": "Native Linux, Windows and Android port of Shadow of the Colossus (PS2 USA), based on Celosia/PS2Recomp; requires your own ROM.",
     "version": "v1.2.6",
     "releasedAt": "2026-11-25",
@@ -1208,27 +1229,6 @@
     "releasedAt": "2026-11-25",
     "sizeBytes": null,
     "releaseUrl": "https://github.com/Alano6678/hwaoi-recomp/releases",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
-    "curated": true
-  },
-  {
-    "id": "therealafsan-shinobi-ps2-recomp",
-    "repo": "TheRealAfsan/Shinobi-PS2-Recomp",
-    "title": "Shinobi",
-    "game": null,
-    "author": "TheRealAfsan",
-    "console": "PlayStation 2",
-    "mechanism": "native",
-    "platforms": [
-      "Windows"
-    ],
-    "stars": 71,
-    "description": "Native Windows port of Shinobi (PS2, USA). Bring your own disc image. Launcher included.",
-    "version": "v0.7.3",
-    "releasedAt": "2026-11-25",
-    "sizeBytes": 30773804,
-    "releaseUrl": "https://github.com/TheRealAfsan/Shinobi-PS2-Recomp/releases/tag/v0.7.3",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
@@ -1396,7 +1396,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 497,
+    "stars": 498,
     "description": "The 2012 Forza Horizon, native on Windows and Linux, and online again: Horizon World, leaderboards and Rivals on a public server you can also self-host. Bring your own copy.",
     "version": "v0.4.2",
     "releasedAt": "2026-11-24",
@@ -1440,7 +1440,7 @@
     "console": "Nintendo 3DS",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 94,
+    "stars": 96,
     "description": "Fire Emblem Fates, statically recompiled to a native Windows program. Contains no game files: you build it from your own dump.",
     "version": "v1.4.2",
     "releasedAt": "2026-11-24",
@@ -1528,7 +1528,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 107,
+    "stars": 109,
     "description": "Burnout 3: Takedown, native on every platform",
     "version": "v1.4.0",
     "releasedAt": "2026-11-24",
@@ -1922,7 +1922,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 46,
+    "stars": 47,
     "description": "Unofficial native PC port of Ryu ga Gotoku Kenzan! (PS3, BLJM60064) for Linux and Windows. Statically recompiled with ps3recomp and rendered with Vulkan, with the English fan translation, 30/60/120 FPS options and a launcher that installs from your own copy of the game. No game files included.",
     "version": "V1.0.0",
     "releasedAt": "2026-11-24",
@@ -2168,7 +2168,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 2598,
+    "stars": 2597,
     "description": "Static recompilation of Link's Awakening (Switch) to native macOS, Windows, Linux, iOS and Android.",
     "version": "v0.6.1",
     "releasedAt": "2026-11-23",
@@ -2341,7 +2341,7 @@
     "platforms": [
       "Linux"
     ],
-    "stars": 2064,
+    "stars": 2065,
     "description": "Native Windows port of Shadow of the Colossus (PS4, CUSA08809) - bring your own game dump. Port nativo para PC.",
     "version": "v0.77",
     "releasedAt": "2026-11-23",
@@ -2532,7 +2532,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 8290,
+    "stars": 8291,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.5.0",
     "releasedAt": "2026-11-22",
@@ -2895,7 +2895,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 191,
+    "stars": 192,
     "description": "Unofficial PC port of the Xbox 360 version of Army of Two (2008). Online co-op supported.",
     "version": "v1.6.0",
     "releasedAt": "2026-11-21",
@@ -3068,7 +3068,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 350,
+    "stars": 351,
     "description": "Conker's Bad Fur Day Recompiled",
     "version": "V0.1.7",
     "releasedAt": "2026-11-19",
@@ -3113,7 +3113,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 230,
+    "stars": 231,
     "description": "Odin Sphere Leifthrasir native PC port for Windows, with direct PS4 PKG installation, TRG launcher and modern graphics options",
     "version": "v0.3.0",
     "releasedAt": "2026-11-19",
@@ -3220,7 +3220,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 480,
+    "stars": 479,
     "description": "Static recompilation of Metroid Dread (Switch, 2.1.0) for Windows, Linux and Steam Deck. Bring your own dump: no game files, keys or dumping tools included.",
     "version": "v0.5.10",
     "releasedAt": "2026-11-19",
@@ -3954,7 +3954,7 @@
       "Windows",
       "macOS"
     ],
-    "stars": 185,
+    "stars": 186,
     "description": "Forza Motorsport 4 recompilation based on ShiftGlue",
     "version": "v0.3.3",
     "releasedAt": "2026-11-15",
@@ -3975,7 +3975,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 2372,
+    "stars": 2373,
     "description": "Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo",
     "version": "v0.3.15",
     "releasedAt": "2026-11-15",
@@ -4216,7 +4216,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 282,
+    "stars": 283,
     "description": "Native Windows PC port of God of War (PS2), built by statically recompiling MIPS R5900 code to C++ with PS2Recomp. Includes an installer launcher, one-click build, fan-translation support and a 60 fps target. No game files included: you need your own copy.",
     "version": "v0.6.1",
     "releasedAt": "2026-11-14",
@@ -4877,7 +4877,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 141,
+    "stars": 142,
     "description": "13 Sentinels: Aegis Rim native PC port for Windows and Linux, with direct PS4 PKG installation, TRG launcher and modern graphics options",
     "version": "v0.1.0",
     "releasedAt": "2026-11-09",
@@ -5009,7 +5009,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 956,
+    "stars": 957,
     "description": "Xbox 360 to PC port of Dante's Inferno using ReXGlue (static recompilation)",
     "version": "v0.8.6-beta-hotfix",
     "releasedAt": "2026-11-08",
@@ -5887,7 +5887,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 34393,
+    "stars": 34394,
     "description": "PlayStation 4 emulator for Windows, Linux, macOS and FreeBSD written in C++",
     "version": "v.0.21.0",
     "releasedAt": "2026-10-30",
@@ -6017,7 +6017,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 117,
+    "stars": 118,
     "description": "Marvel Ultimate Alliance 1, Gold Edition and 2 native PC ports via static recompilation, in one bundle with high frame rates, 4K rendering, ultrawide, HD Text, TRG launcher, and experimental Linux/Steam Deck support",
     "version": "v0.2.0",
     "releasedAt": "2026-10-29",
@@ -6240,7 +6240,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 200,
+    "stars": 201,
     "description": "Conker's Bad Fur Day running natively on PC: an N64 recompilation with a Classic mode true to the N64 and a Modern mode (widescreen, smooth frame rate, free camera).",
     "version": "v1.4.7",
     "releasedAt": "2026-10-28",
@@ -8558,7 +8558,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 46,
+    "stars": 47,
     "description": "Made with PSXrecomp, a Sony PlayStation game static recompiler ecosystem · Part of the R.A.I.D. community",
     "version": "v1.0.0",
     "releasedAt": "2026-09-03",
@@ -8730,7 +8730,7 @@
     "console": "Xbox 360",
     "mechanism": "native",
     "platforms": [],
-    "stars": 612,
+    "stars": 613,
     "description": "static Recomp of AC6 with Rexglue",
     "version": null,
     "releasedAt": "2026-08-22",
