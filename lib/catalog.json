@@ -103,7 +103,7 @@
     "console": "Xbox Series X|S",
     "mechanism": "in-progress",
     "platforms": [],
-    "stars": 451,
+    "stars": 454,
     "description": "Continuation of Project Leonida, aiming to bring GTA VI from Xbox to PC through static recompilation.",
     "version": null,
     "releasedAt": "2026-11-26",
@@ -291,11 +291,122 @@
     "stars": 53,
     "description": "Matching decompilation of Shadow of the Colossus (PS2, NTSC-U) aiming for a native PC port",
     "version": null,
-    "releasedAt": "2026-11-25",
+    "releasedAt": "2026-11-26",
     "sizeBytes": null,
     "releaseUrl": "https://github.com/TheRealestNwah/sotc-decomp/releases",
     "licenseId": "CC0-1.0",
     "licenseUrl": "https://api.github.com/licenses/cc0-1.0",
+    "curated": true
+  },
+  {
+    "id": "matteo842-crashbandicoot-launcher",
+    "repo": "Matteo842/CrashBandicoot-Launcher",
+    "title": "Crash Bandicoot",
+    "game": "crash-bandicoot",
+    "author": "Matteo842",
+    "console": "PlayStation",
+    "mechanism": "native",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "Android"
+    ],
+    "stars": 356,
+    "description": "CrashBandicoot native pc port",
+    "version": "2.7.1",
+    "releasedAt": "2026-11-26",
+    "sizeBytes": 76965079,
+    "releaseUrl": "https://github.com/Matteo842/CrashBandicoot-Launcher/releases/tag/2.7.1",
+    "licenseId": "MIT",
+    "licenseUrl": "https://api.github.com/licenses/mit",
+    "curated": true
+  },
+  {
+    "id": "mstan-megamanxsnesrecomp",
+    "repo": "mstan/MegaManXSNESRecomp",
+    "title": "Mega Man X",
+    "game": "mega-man-x",
+    "author": "mstan",
+    "console": "SNES",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 243,
+    "description": "Mega Man X recompiled for the Super Nintendo using snesrecomp · Part of the R.A.I.D. community",
+    "version": "v2.4.10",
+    "releasedAt": "2026-11-26",
+    "sizeBytes": 17645854,
+    "releaseUrl": "https://github.com/mstan/MegaManXSNESRecomp/releases/tag/v2.4.10",
+    "licenseId": "NOASSERTION",
+    "licenseUrl": null,
+    "curated": true
+  },
+  {
+    "id": "mstan-supermarioworldrecomp",
+    "repo": "mstan/SuperMarioWorldRecomp",
+    "title": "Super Mario World",
+    "game": "super-mario-world",
+    "author": "mstan",
+    "console": "SNES",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 193,
+    "description": "Super Mario World recompiled for the Super Nintendo using snesrecomp · Part of the R.A.I.D. community",
+    "version": "v0.15.12",
+    "releasedAt": "2026-11-26",
+    "sizeBytes": 25909752,
+    "releaseUrl": "https://github.com/mstan/SuperMarioWorldRecomp/releases/tag/v0.15.12",
+    "licenseId": "NOASSERTION",
+    "licenseUrl": null,
+    "curated": true
+  },
+  {
+    "id": "iexplosiverage-dbz-burst-limit-recompiled",
+    "repo": "iExplosiveRage/DBZ-Burst-Limit-Recompiled",
+    "title": "Dragon Ball Z: Burst Limit",
+    "game": "dbz-burst-limit",
+    "author": "iExplosiveRage",
+    "console": "PlayStation 3",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Linux"
+    ],
+    "stars": 130,
+    "description": "Dragon Ball Z: Burst Limit Recompiled - native PC port via ReXGlue static recompilation",
+    "version": "v0.8.2",
+    "releasedAt": "2026-11-26",
+    "sizeBytes": 75184343,
+    "releaseUrl": "https://github.com/iExplosiveRage/DBZ-Burst-Limit-Recompiled/releases/tag/v0.8.2",
+    "licenseId": null,
+    "licenseUrl": null,
+    "curated": true
+  },
+  {
+    "id": "chupathingyce-chupathingyce",
+    "repo": "ChupathingyCE/chupathingyce",
+    "title": "Halo: Combat Evolved",
+    "game": "halo-ce",
+    "author": "ChupathingyCE",
+    "console": "Xbox",
+    "mechanism": "native",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "stars": 149,
+    "description": "Halo CE: Ported for Everyone. Windows, Mac, Linux, Steam Deck, Android and FreeBSD, with online play and stats. Bring your own copy of the game.",
+    "version": "v0.9.2",
+    "releasedAt": "2026-11-26",
+    "sizeBytes": 90339473,
+    "releaseUrl": "https://github.com/ChupathingyCE/chupathingyce/releases/tag/v0.9.2",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
   },
   {
@@ -493,7 +604,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 87,
+    "stars": 88,
     "description": "Native port of Shadow of the Colossus (PS2) to macOS and PS Vita: static recompilation with PS2Recomp, a native Metal/OpenGL renderer, and a decompilation in progress",
     "version": null,
     "releasedAt": "2026-11-25",
@@ -599,7 +710,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 583,
+    "stars": 584,
     "description": "This is an open source, all-in-one, static recompilation project that I built from the ground up for the Xbox 360 Gears of War series. All 4 games have been personally recompiled for use with a fully native renderer by me.",
     "version": "0.6.9",
     "releasedAt": "2026-11-25",
@@ -1097,7 +1208,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 119,
+    "stars": 66,
     "description": "God of War Classic Greek Saga PC Port & Static Recompilation v3.7.9: Native Windows 10/11 (x64) studio environment with pre-configured.",
     "version": "v3.7.9",
     "releasedAt": "2026-11-25",
@@ -1171,26 +1282,6 @@
     "curated": true
   },
   {
-    "id": "mywilliam211-gow-pc-port-classic-recompiled",
-    "repo": "mywilliam211/gow-pc-port-classic-recompiled",
-    "title": "Gow Classic",
-    "game": null,
-    "author": "mywilliam211",
-    "console": "PC",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows"
-    ],
-    "stars": 78,
-    "description": "God of War Classic Greek Saga PC Port & Static Recompilation (v4.1.3) — Portable 64-bit Windows workstation build with CUDA/DirectML.",
-    "version": "v4.1.3",
-    "releasedAt": "2026-11-25",
-    "sizeBytes": 29003123,
-    "releaseUrl": "https://github.com/mywilliam211/gow-pc-port-classic-recompiled/releases/tag/v4.1.3",
-    "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit"
-  },
-  {
     "id": "tokatta007-opentm2",
     "repo": "Tokatta007/OpenTM2",
     "title": "Twisted Metal 2",
@@ -1224,7 +1315,7 @@
       "Linux",
       "Android"
     ],
-    "stars": 49,
+    "stars": 51,
     "description": "Native Linux, Windows and Android port of Shadow of the Colossus (PS2 USA), based on Celosia/PS2Recomp; requires your own ROM.",
     "version": "v1.2.6",
     "releasedAt": "2026-11-25",
@@ -1378,29 +1469,6 @@
     "releasedAt": "2026-11-24",
     "sizeBytes": 109773,
     "releaseUrl": "https://github.com/MormonFTP-hub/gt5-recomp/releases/tag/v0.1.116",
-    "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit",
-    "curated": true
-  },
-  {
-    "id": "matteo842-crashbandicoot-launcher",
-    "repo": "Matteo842/CrashBandicoot-Launcher",
-    "title": "Crash Bandicoot",
-    "game": "crash-bandicoot",
-    "author": "Matteo842",
-    "console": "PlayStation",
-    "mechanism": "native",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "Android"
-    ],
-    "stars": 356,
-    "description": "CrashBandicoot native pc port",
-    "version": "2.7",
-    "releasedAt": "2026-11-24",
-    "sizeBytes": 76965079,
-    "releaseUrl": "https://github.com/Matteo842/CrashBandicoot-Launcher/releases/tag/2.7",
     "licenseId": "MIT",
     "licenseUrl": "https://api.github.com/licenses/mit",
     "curated": true
@@ -1737,7 +1805,7 @@
     "console": "PlayStation 3",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 367,
+    "stars": 368,
     "description": "Drakengard 3 (PS3) static recompilation using ps3recomp",
     "version": null,
     "releasedAt": "2026-11-24",
@@ -2160,28 +2228,6 @@
     "curated": true
   },
   {
-    "id": "mstan-megamanxsnesrecomp",
-    "repo": "mstan/MegaManXSNESRecomp",
-    "title": "Mega Man X",
-    "game": "mega-man-x",
-    "author": "mstan",
-    "console": "SNES",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 243,
-    "description": "Mega Man X recompiled for the Super Nintendo using snesrecomp · Part of the R.A.I.D. community",
-    "version": "v2.4.9",
-    "releasedAt": "2026-11-23",
-    "sizeBytes": 16455730,
-    "releaseUrl": "https://github.com/mstan/MegaManXSNESRecomp/releases/tag/v2.4.9",
-    "licenseId": "NOASSERTION",
-    "licenseUrl": null,
-    "curated": true
-  },
-  {
     "id": "promethendev-wwe13-recomp",
     "repo": "PromethenDev/wwe13-recomp",
     "title": "WWE '13",
@@ -2553,7 +2599,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 8293,
+    "stars": 8295,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.5.0",
     "releasedAt": "2026-11-22",
@@ -2668,28 +2714,6 @@
     "releaseUrl": "https://github.com/BigDaddyJRich/hctp-recomp/releases/tag/v0.3.7",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
-    "curated": true
-  },
-  {
-    "id": "mstan-supermarioworldrecomp",
-    "repo": "mstan/SuperMarioWorldRecomp",
-    "title": "Super Mario World",
-    "game": "super-mario-world",
-    "author": "mstan",
-    "console": "SNES",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 193,
-    "description": "Super Mario World recompiled for the Super Nintendo using snesrecomp · Part of the R.A.I.D. community",
-    "version": "v0.15.11",
-    "releasedAt": "2026-11-21",
-    "sizeBytes": 25787143,
-    "releaseUrl": "https://github.com/mstan/SuperMarioWorldRecomp/releases/tag/v0.15.11",
-    "licenseId": "NOASSERTION",
-    "licenseUrl": null,
     "curated": true
   },
   {
@@ -2876,7 +2900,7 @@
       "Linux",
       "Android"
     ],
-    "stars": 146,
+    "stars": 147,
     "description": "Recomp of Asura's Wrath using RexGlue for PC (playable, wip)",
     "version": "v0.4.3",
     "releasedAt": "2026-11-21",
@@ -3399,27 +3423,6 @@
     "curated": true
   },
   {
-    "id": "iexplosiverage-dbz-burst-limit-recompiled",
-    "repo": "iExplosiveRage/DBZ-Burst-Limit-Recompiled",
-    "title": "Dragon Ball Z: Burst Limit",
-    "game": "dbz-burst-limit",
-    "author": "iExplosiveRage",
-    "console": "PlayStation 3",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Linux"
-    ],
-    "stars": 130,
-    "description": "Dragon Ball Z: Burst Limit Recompiled - native PC port via ReXGlue static recompilation",
-    "version": "v0.8.1",
-    "releasedAt": "2026-11-18",
-    "sizeBytes": 75162829,
-    "releaseUrl": "https://github.com/iExplosiveRage/DBZ-Burst-Limit-Recompiled/releases/tag/v0.8.1",
-    "licenseId": null,
-    "licenseUrl": null,
-    "curated": true
-  },
-  {
     "id": "korvonordico-shadow-of-rome-recompiled",
     "repo": "Korvonordico/shadow-of-rome-recompiled",
     "title": "Shadow of Rome",
@@ -3558,7 +3561,7 @@
     "console": "Nintendo Switch",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 472,
+    "stars": 473,
     "description": "Experimental Windows x64 native porting toolkit for Super Smash Bros. Ultimate: static AArch64 recompilation, a D3D11 runtime, and Local Wireless relay netplay.",
     "version": null,
     "releasedAt": "2026-11-17",
@@ -4037,7 +4040,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 730,
+    "stars": 731,
     "description": "",
     "version": "1.6.1",
     "releasedAt": "2026-11-15",
@@ -4081,7 +4084,7 @@
       "Linux",
       "iOS"
     ],
-    "stars": 671,
+    "stars": 672,
     "description": "The Legend of Zelda: The Wind Waker Recompiled. Native for MacOS, iOS, Windows, Linux, and Android.",
     "version": "v0.12.0",
     "releasedAt": "2026-11-15",
@@ -4268,29 +4271,6 @@
     "curated": true
   },
   {
-    "id": "chupathingyce-chupathingyce",
-    "repo": "ChupathingyCE/chupathingyce",
-    "title": "Halo: Combat Evolved",
-    "game": "halo-ce",
-    "author": "ChupathingyCE",
-    "console": "Xbox",
-    "mechanism": "native",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "macOS"
-    ],
-    "stars": 149,
-    "description": "Halo CE: Ported for Everyone. Windows, Mac, Linux, Steam Deck, Android and FreeBSD, with online play and stats. Bring your own copy of the game.",
-    "version": "v0.9.1a",
-    "releasedAt": "2026-11-14",
-    "sizeBytes": 63028570,
-    "releaseUrl": "https://github.com/ChupathingyCE/chupathingyce/releases/tag/v0.9.1a",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
-    "curated": true
-  },
-  {
     "id": "sulphurs16-acfa-port",
     "repo": "SulphurS16/ACFA-Port",
     "title": "Armored Core: For Answer",
@@ -4429,7 +4409,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 611,
+    "stars": 612,
     "description": "Native PC port (Linux/Windows) of The Last Guardian (PS4, CUSA03627) — runs your own game dump; no game or firmware files included. Mouse/keyboard, optional 60 FPS, SMAA/CAS filters. | Port nativo para PC de The Last Guardian — usa o seu próprio dump.",
     "version": "v2026.11.14-ee3327d",
     "releasedAt": "2026-11-14",
@@ -4474,7 +4454,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5687,
+    "stars": 5688,
     "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
     "version": "windows-v1.9.8.6",
     "releasedAt": "2026-11-13",
@@ -5093,7 +5073,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 114,
+    "stars": 115,
     "description": "Project Gotham Racing 4 PC port on ReGPU (XenonRecomp)",
     "version": "v0.2.7",
     "releasedAt": "2026-11-08",
@@ -6343,7 +6323,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 4207,
+    "stars": 4209,
     "description": "Bloodborne (v1.09) running natively on Linux and Windows: the game's x86-64 code runs as is, GPU side translated to Vulkan; FSR 4 / DLSS, co-op (BBSC). Bring your own dump.",
     "version": "0.7",
     "releasedAt": "2026-10-28",
@@ -6587,7 +6567,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 8311,
+    "stars": 8314,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -6899,7 +6879,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 1257,
+    "stars": 1258,
     "description": "Native PC port (Linux/Windows) of inFAMOUS Second Son (PS4, CUSA00223) — in development, playable; runs your own game dump; no game or firmware files included. Motion sensor emulation. | Port nativo para PC de inFAMOUS Second Son (em desenvolvimento) — usa o seu próprio dump.",
     "version": "v1.0",
     "releasedAt": "2026-10-22",
@@ -7854,7 +7834,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 190,
+    "stars": 191,
     "description": "Deadly Premonition (Xbox 360) native PC port by static recompilation - v2.0.14: native DirectX 12 renderer ready for testing (up to 4x internal resolution); 60 FPS, mouse look, keyboard driving, FSR 3, ISO installer, PAL + USA",
     "version": "v2.0.14",
     "releasedAt": "2026-10-03",
@@ -8687,7 +8667,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2531,
+    "stars": 2532,
     "description": "2 Ship 2 Harkinian: a PC port of Majora's Mask built from the decompilation, with widescreen, high resolution and mod support.",
     "version": "5.0.1",
     "releasedAt": "2026-08-25",
@@ -9195,7 +9175,7 @@
     "console": "PlayStation 2",
     "mechanism": "native",
     "platforms": [],
-    "stars": 157,
+    "stars": 158,
     "description": "An  in-progress decompilation of the preview version of Shadow of the Colossus on the PlayStation 2",
     "version": null,
     "releasedAt": "2026-03-02",
@@ -9628,7 +9608,7 @@
     "console": "SNES",
     "mechanism": "native",
     "platforms": [],
-    "stars": 5032,
+    "stars": 5033,
     "description": "",
     "version": "v0.3",
     "releasedAt": "2023-08-17",
