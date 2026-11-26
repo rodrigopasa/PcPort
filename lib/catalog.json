@@ -46,7 +46,7 @@
     "console": "Xbox Series X|S",
     "mechanism": "translation-layer",
     "platforms": [],
-    "stars": 383,
+    "stars": 391,
     "description": "Native PC port layer for an Xbox Series X|S title: the game's x64 code runs on your CPU and its RDNA2 GPU code is recompiled for your graphics card. Bring your own files.",
     "version": null,
     "releasedAt": "2026-11-26",
@@ -103,7 +103,7 @@
     "console": "Xbox Series X|S",
     "mechanism": "in-progress",
     "platforms": [],
-    "stars": 479,
+    "stars": 481,
     "description": "Continuation of Project Leonida, aiming to bring GTA VI from Xbox to PC through static recompilation.",
     "version": null,
     "releasedAt": "2026-11-26",
@@ -632,6 +632,94 @@
     "curated": true
   },
   {
+    "id": "dyzz-srw64-recomp",
+    "repo": "dyzz/srw64-recomp",
+    "title": "Super Robot Wars 64",
+    "game": null,
+    "author": "dyzz",
+    "console": "Nintendo 64",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Android"
+    ],
+    "stars": 53,
+    "description": "Unofficial native recompilation of Super Robot Wars 64 for Windows, macOS, Linux/Steam Deck, Android and Switch: Japanese, English, Simplified and Traditional Chinese, Korean, widescreen, optional HD art, mods and bug fixes. Requires your own ROM.",
+    "version": "v0.5.4.1",
+    "releasedAt": "2026-11-26",
+    "sizeBytes": 75629409,
+    "releaseUrl": "https://github.com/dyzz/srw64-recomp/releases/tag/v0.5.4.1",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
+  },
+  {
+    "id": "paulcombal-mw2-recompiled",
+    "repo": "PaulCombal/mw2-recompiled",
+    "title": "Call of Duty: Modern Warfare 2",
+    "game": "cod-mw2",
+    "author": "PaulCombal",
+    "console": "Xbox 360",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 218,
+    "description": "Call of Duty: Modern Warfare 2 (2009) for Xbox 360 recompiled for Windows & Linux",
+    "version": "v0.9.1",
+    "releasedAt": "2026-11-26",
+    "sizeBytes": 19305235,
+    "releaseUrl": "https://github.com/PaulCombal/mw2-recompiled/releases/tag/v0.9.1",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
+  },
+  {
+    "id": "maryncrt-ultimate-mortal-kombat-3-ios-decompiled",
+    "repo": "MaryNCRT/Ultimate-Mortal-Kombat-3-iOS-Decompiled",
+    "title": "Ultimate Mortal Kombat 3",
+    "game": null,
+    "author": "MaryNCRT",
+    "console": "Arcade",
+    "mechanism": "in-progress",
+    "platforms": [],
+    "stars": 80,
+    "description": "Decompiled Ultimate Mortal Kombat 3 (iOS v1.2.59) with a playable native PC port featuring DirectX, Vulkan, OpenGL, widescreen support, HD textures, and multiplayer. Original game assets required.",
+    "version": null,
+    "releasedAt": "2026-11-26",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/MaryNCRT/Ultimate-Mortal-Kombat-3-iOS-Decompiled/releases",
+    "licenseId": "NOASSERTION",
+    "licenseUrl": null,
+    "curated": true
+  },
+  {
+    "id": "santiquiroz-gears-of-war-2-pc-port",
+    "repo": "santiquiroz/gears-of-war-2-pc-port",
+    "title": "Gears of War 2",
+    "game": "gears-of-war-2",
+    "author": "santiquiroz",
+    "console": "Xbox 360",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "Android"
+    ],
+    "stars": 195,
+    "description": "Gears of War 2 native PC port: the Xbox 360 game statically recompiled to x64 (not an emulator). 1440p/4K, FSR, 4K texture packs, keyboard & mouse, Android in progress. Bring your own copy.",
+    "version": "v0.4.9",
+    "releasedAt": "2026-11-26",
+    "sizeBytes": 114997317,
+    "releaseUrl": "https://github.com/santiquiroz/gears-of-war-2-pc-port/releases/tag/v0.4.9",
+    "licenseId": "BSD-3-Clause",
+    "licenseUrl": "https://api.github.com/licenses/bsd-3-clause",
+    "curated": true
+  },
+  {
     "id": "skuza-oss-downhill-revived",
     "repo": "skuza-oss/downhill-revived",
     "title": "Downhill Domination",
@@ -731,7 +819,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 166,
+    "stars": 167,
     "description": "Battlefield 1943 Reborn: the Xbox 360 game running natively on PC, with its online multiplayer restored. Releases and server packages.",
     "version": "v0.4.7.5",
     "releasedAt": "2026-11-25",
@@ -856,7 +944,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 591,
+    "stars": 592,
     "description": "This is an open source, all-in-one, static recompilation project that I built from the ground up for the Xbox 360 Gears of War series. All 4 games have been personally recompiled for use with a fully native renderer by me.",
     "version": "0.6.9",
     "releasedAt": "2026-11-25",
@@ -1148,30 +1236,6 @@
     "curated": true
   },
   {
-    "id": "dyzz-srw64-recomp",
-    "repo": "dyzz/srw64-recomp",
-    "title": "Super Robot Wars 64",
-    "game": null,
-    "author": "dyzz",
-    "console": "Nintendo 64",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "macOS",
-      "Android"
-    ],
-    "stars": 53,
-    "description": "Unofficial native recompilation of Super Robot Wars 64 for Windows, macOS, Linux/Steam Deck, Android and Switch: Japanese, English, Simplified and Traditional Chinese, Korean, widescreen, optional HD art, mods and bug fixes. Requires your own ROM.",
-    "version": "v0.5.4",
-    "releasedAt": "2026-11-25",
-    "sizeBytes": 75622035,
-    "releaseUrl": "https://github.com/dyzz/srw64-recomp/releases/tag/v0.5.4",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
-    "curated": true
-  },
-  {
     "id": "sinan-karakaya-dq8-recompiled",
     "repo": "Sinan-Karakaya/DQ8-Recompiled",
     "title": "Dragon Quest VIII: Journey of the Cursed King",
@@ -1400,7 +1464,7 @@
       "Linux",
       "Android"
     ],
-    "stars": 52,
+    "stars": 53,
     "description": "Native Linux, Windows and Android port of Shadow of the Colossus (PS2 USA), based on Celosia/PS2Recomp; requires your own ROM.",
     "version": "v1.2.6",
     "releasedAt": "2026-11-25",
@@ -1529,7 +1593,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 142,
+    "stars": 143,
     "description": "Native PC port of Ace Combat 6: Fires of Liberation using XenonRecomp",
     "version": "v1.1.2",
     "releasedAt": "2026-11-25",
@@ -1551,7 +1615,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 253,
+    "stars": 254,
     "description": "Recompilacion estatica (ReXGlue) de Dragon Ball Z: Budokai 3 HD Collection (Xbox 360) para Windows con launcher, sistema de mods y herramientas. No incluye datos del juego.",
     "version": "v1.5.7.1",
     "releasedAt": "2026-11-24",
@@ -1595,7 +1659,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 499,
+    "stars": 500,
     "description": "The 2012 Forza Horizon, native on Windows and Linux, and online again: Horizon World, leaderboards and Rivals on a public server you can also self-host. Bring your own copy.",
     "version": "v0.4.2",
     "releasedAt": "2026-11-24",
@@ -1772,7 +1836,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 1435,
+    "stars": 1436,
     "description": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows and Linux with Vulkan. 0.5.2 out: TOTK to DKB rename, Feast Layer muck fix, 4 GB cards, Switch 2 controllers on USB; one-file Windows launcher. Requirements: docs/requirements.md. Roadmap: #10. No game files included.",
     "version": "v0.5.2",
     "releasedAt": "2026-11-24",
@@ -1990,28 +2054,6 @@
     "curated": true
   },
   {
-    "id": "paulcombal-mw2-recompiled",
-    "repo": "PaulCombal/mw2-recompiled",
-    "title": "Call of Duty: Modern Warfare 2",
-    "game": "cod-mw2",
-    "author": "PaulCombal",
-    "console": "Xbox 360",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 218,
-    "description": "Call of Duty: Modern Warfare 2 (2009) for Xbox 360 recompiled for Windows & Linux",
-    "version": "v0.9.0",
-    "releasedAt": "2026-11-24",
-    "sizeBytes": 19479853,
-    "releaseUrl": "https://github.com/PaulCombal/mw2-recompiled/releases/tag/v0.9.0",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
-    "curated": true
-  },
-  {
     "id": "carlosexabyte-arceuszada",
     "repo": "CarlosExabyte/Arceuszada",
     "title": "Pokémon Legends: Arceus",
@@ -2120,7 +2162,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 60,
+    "stars": 61,
     "description": "An unofficial PC port of Far Cry Instincts: Predator via static recompilation.",
     "version": "V1",
     "releasedAt": "2026-11-24",
@@ -2128,25 +2170,6 @@
     "releaseUrl": "https://github.com/TGP482/FCIP-XEXRecomp/releases/tag/V1",
     "licenseId": "MIT",
     "licenseUrl": "https://api.github.com/licenses/mit"
-  },
-  {
-    "id": "maryncrt-ultimate-mortal-kombat-3-ios-decompiled",
-    "repo": "MaryNCRT/Ultimate-Mortal-Kombat-3-iOS-Decompiled",
-    "title": "Ultimate Mortal Kombat 3",
-    "game": null,
-    "author": "MaryNCRT",
-    "console": "Arcade",
-    "mechanism": "in-progress",
-    "platforms": [],
-    "stars": 80,
-    "description": "Decompiled Ultimate Mortal Kombat 3 (iOS v1.2.59) with a playable native PC port featuring DirectX, Vulkan, OpenGL, widescreen support, HD textures, and multiplayer. Original game assets required.",
-    "version": null,
-    "releasedAt": "2026-11-23",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/MaryNCRT/Ultimate-Mortal-Kombat-3-iOS-Decompiled/releases",
-    "licenseId": "NOASSERTION",
-    "licenseUrl": null,
-    "curated": true
   },
   {
     "id": "pret-pokeheartgold",
@@ -2356,29 +2379,6 @@
     "curated": true
   },
   {
-    "id": "santiquiroz-gears-of-war-2-pc-port",
-    "repo": "santiquiroz/gears-of-war-2-pc-port",
-    "title": "Gears of War 2",
-    "game": "gears-of-war-2",
-    "author": "santiquiroz",
-    "console": "Xbox 360",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "Android"
-    ],
-    "stars": 195,
-    "description": "Gears of War 2 native PC port: the Xbox 360 game statically recompiled to x64 (not an emulator). 1440p/4K, FSR, 4K texture packs, keyboard & mouse, Android in progress. Bring your own copy.",
-    "version": "v0.4.8",
-    "releasedAt": "2026-11-23",
-    "sizeBytes": 114974996,
-    "releaseUrl": "https://github.com/santiquiroz/gears-of-war-2-pc-port/releases/tag/v0.4.8",
-    "licenseId": "BSD-3-Clause",
-    "licenseUrl": "https://api.github.com/licenses/bsd-3-clause",
-    "curated": true
-  },
-  {
     "id": "crazyriddler-finesthourremastered",
     "repo": "crazyriddler/FinestHourRemastered",
     "title": "Call of Duty: Finest Hour",
@@ -2583,7 +2583,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 111,
+    "stars": 112,
     "description": "A native PC port of SSX (2012), decoded from the Xbox 360 disc and rebuilt in Rust on Bevy.",
     "version": "v0.4.2",
     "releasedAt": "2026-11-22",
@@ -3266,7 +3266,7 @@
       "Linux",
       "Android"
     ],
-    "stars": 103,
+    "stars": 104,
     "description": "Sin and Punishment N64 Recomp",
     "version": "0.2.12",
     "releasedAt": "2026-11-19",
@@ -3310,7 +3310,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 481,
+    "stars": 482,
     "description": "Static recompilation of Metroid Dread (Switch, 2.1.0) for Windows, Linux and Steam Deck. Bring your own dump: no game files, keys or dumping tools included.",
     "version": "v0.5.10",
     "releasedAt": "2026-11-19",
@@ -3333,7 +3333,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 39,
+    "stars": 40,
     "description": "Native PC ports of Battlefield 1943 and Bad Company (Xbox 360) via static recompilation",
     "version": "v0.4.1",
     "releasedAt": "2026-11-19",
@@ -3352,7 +3352,7 @@
     "console": "Xbox 360",
     "mechanism": "native",
     "platforms": [],
-    "stars": 434,
+    "stars": 435,
     "description": "A native PC port of The Darkness (Xbox 360) for Windows, featuring DirectX 11 graphics, mouse and keyboard controls, and customizable settings.",
     "version": null,
     "releasedAt": "2026-11-18",
@@ -4501,7 +4501,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 222,
+    "stars": 223,
     "description": "Unofficial native PC port of God of War (2005, PS2) for Windows, with experimental Linux support. Statically recompiled to C++, not an emulator. OpenGL renderer, launcher, cheat menu, widescreen, 60 FPS. Bring your own game dump: no game files included.",
     "version": "launcher-v0.4.0",
     "releasedAt": "2026-11-13",
@@ -4837,7 +4837,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 225,
+    "stars": 226,
     "description": "Forza Motorsport 4 native on PC",
     "version": "v0.3.11",
     "releasedAt": "2026-11-10",
@@ -4923,7 +4923,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 142,
+    "stars": 144,
     "description": "13 Sentinels: Aegis Rim native PC port for Windows and Linux, with direct PS4 PKG installation, TRG launcher and modern graphics options",
     "version": "v0.1.0",
     "releasedAt": "2026-11-09",
@@ -5034,7 +5034,7 @@
       "macOS",
       "iOS"
     ],
-    "stars": 74,
+    "stars": 75,
     "description": "Unofficial static recompilation of the Xbox 360 version of Need for Speed: Carbon (2006): a native port for Steam Deck, Steam Machine, Steam Frame, Linux and Mac, plus a Windows beta (iPhone/iPad: sideload the experimental IPA or build it yourself). Bring your own disc: no game files included. Not affiliated with EA or Valve.",
     "version": "v0.1.3",
     "releasedAt": "2026-11-09",
@@ -5720,7 +5720,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 337,
+    "stars": 339,
     "description": "GTA V (Xbox 360, TU27) static recompilation with ReXGlue",
     "version": "v0.3.0",
     "releasedAt": "2026-11-02",
@@ -6327,7 +6327,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 4219,
+    "stars": 4221,
     "description": "Bloodborne (v1.09) running natively on Linux and Windows: the game's x86-64 code runs as is, GPU side translated to Vulkan; FSR 4 / DLSS, co-op (BBSC). Bring your own dump.",
     "version": "0.7",
     "releasedAt": "2026-10-28",
@@ -6571,7 +6571,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 8331,
+    "stars": 8333,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -7162,7 +7162,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 6172,
+    "stars": 6173,
     "description": "Ship of Harkinian: a PC port of Ocarina of Time built from the decompilation, with widescreen, high framerate and mod support.",
     "version": "9.3.1",
     "releasedAt": "2026-10-18",
@@ -8030,7 +8030,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 6551,
+    "stars": 6552,
     "description": "Dusklight brings a classic adventure to PC and mobile platforms with a variety of fixes and improvements.",
     "version": "v2.0.3",
     "releasedAt": "2026-09-30",
@@ -8498,7 +8498,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 910,
+    "stars": 911,
     "description": "Multiplatform and Feature-rich Port based on PSX decompilation of Silent Hill 1 made with Claude and Psycross. Still in beta and is in active development.",
     "version": "crossplatform-beta",
     "releasedAt": "2026-09-04",
@@ -9202,7 +9202,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2513,
+    "stars": 2514,
     "description": "I have spaghetti, now i just need a kart",
     "version": "1.0.0",
     "releasedAt": "2026-02-25",
