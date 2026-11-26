@@ -46,7 +46,7 @@
     "console": "Xbox Series X|S",
     "mechanism": "translation-layer",
     "platforms": [],
-    "stars": 494,
+    "stars": 505,
     "description": "Native PC port layer for an Xbox Series X|S title: the game's x64 code runs on your CPU and its RDNA2 GPU code is recompiled for your graphics card. Bring your own files.",
     "version": null,
     "releasedAt": "2026-11-26",
@@ -103,7 +103,7 @@
     "console": "Xbox Series X|S",
     "mechanism": "in-progress",
     "platforms": [],
-    "stars": 496,
+    "stars": 500,
     "description": "Continuation of Project Leonida, aiming to bring GTA VI from Xbox to PC through static recompilation.",
     "version": null,
     "releasedAt": "2026-11-26",
@@ -204,7 +204,7 @@
       "Linux",
       "Android"
     ],
-    "stars": 400,
+    "stars": 401,
     "description": "Ninja Gaiden Black (Xbox, 2005) statically recompiled into native Linux, Windows and Android, drawn by its own Vulkan renderer. A steady 60 fps, widescreen and ultrawide, keyboard and mouse, touch controls on Android, Steam Deck ready. Bring your own copy of the game.",
     "version": "v1.0.2",
     "releasedAt": "2026-11-26",
@@ -225,7 +225,7 @@
     "platforms": [
       "Linux"
     ],
-    "stars": 2072,
+    "stars": 2073,
     "description": "Native Windows port of Shadow of the Colossus (PS4, CUSA08809) - bring your own game dump. Port nativo para PC.",
     "version": "v0.78",
     "releasedAt": "2026-11-26",
@@ -399,7 +399,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 149,
+    "stars": 150,
     "description": "Halo CE: Ported for Everyone. Windows, Mac, Linux, Steam Deck, Android and FreeBSD, with online play and stats. Bring your own copy of the game.",
     "version": "v0.9.2",
     "releasedAt": "2026-11-26",
@@ -475,7 +475,7 @@
     "console": "PlayStation",
     "mechanism": "native",
     "platforms": [],
-    "stars": 973,
+    "stars": 974,
     "description": "An in-progress decompilation of Silent Hill on the PlayStation 1.",
     "version": null,
     "releasedAt": "2026-11-26",
@@ -755,7 +755,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 1707,
+    "stars": 1710,
     "description": "Zelda Wind Waker HD Recomp",
     "version": "v0.5.2",
     "releasedAt": "2026-11-26",
@@ -840,10 +840,10 @@
     ],
     "stars": 58,
     "description": "A PC port of Twisted Metal 2 (PlayStation, 1996)",
-    "version": "v1.0.17",
+    "version": "v1.0.18",
     "releasedAt": "2026-11-26",
-    "sizeBytes": 18130034,
-    "releaseUrl": "https://github.com/Tokatta007/OpenTM2/releases/tag/v1.0.17",
+    "sizeBytes": 18130228,
+    "releaseUrl": "https://github.com/Tokatta007/OpenTM2/releases/tag/v1.0.18",
     "licenseId": "NOASSERTION",
     "licenseUrl": null,
     "curated": true
@@ -905,7 +905,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 349,
+    "stars": 350,
     "description": "Ninja Gaiden II (Xbox 360, 2008) statically recompiled into native Linux and Windows builds, drawn by its own Vulkan renderer. A steady 60 fps, up to 8x render scale, widescreen and ultrawide, keyboard and mouse, mods, Steam Deck ready. Bring your own copy of the game.",
     "version": "v0.8.1",
     "releasedAt": "2026-11-26",
@@ -926,12 +926,34 @@
     "platforms": [],
     "stars": 489,
     "description": "Tekken 6 (Xbox 360) native on Windows with rollback netcode - build from your own ISO",
-    "version": "v3.3.0",
+    "version": "v3.3.1",
     "releasedAt": "2026-11-26",
-    "sizeBytes": 199876663,
-    "releaseUrl": "https://github.com/Ekspym/Tekken6-native-online/releases/tag/v3.3.0",
+    "sizeBytes": 199878242,
+    "releaseUrl": "https://github.com/Ekspym/Tekken6-native-online/releases/tag/v3.3.1",
     "licenseId": null,
     "licenseUrl": null,
+    "curated": true
+  },
+  {
+    "id": "ravencaio-tlou-remastered-pc",
+    "repo": "ravencaio/tlou-remastered-pc",
+    "title": "The Last of Us Remastered",
+    "game": "last-of-us-remastered",
+    "author": "ravencaio",
+    "console": "PlayStation 4",
+    "mechanism": "native",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 399,
+    "description": "Unnoficial Native Windows PC port of The Last of Us Remastered (PS4, CUSA00552). Runs the game’s own x86-64 code on a custom runtime, with PS4 system libraries reimplemented and a Vulkan renderer based on shadPS4. Includes a launcher. No game files included: you need your own copy.",
+    "version": "v0.6.0",
+    "releasedAt": "2026-11-26",
+    "sizeBytes": 168793187,
+    "releaseUrl": "https://github.com/ravencaio/tlou-remastered-pc/releases/tag/v0.6.0",
+    "licenseId": "GPL-2.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-2.0",
     "curated": true
   },
   {
@@ -990,7 +1012,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 658,
+    "stars": 659,
     "description": "A native Windows PC port of Super Mario Odyssey by static recompilation. Bring your own game: no game files included.",
     "version": "v1.0.2",
     "releasedAt": "2026-11-25",
@@ -1012,7 +1034,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 185,
+    "stars": 187,
     "description": "Native PC port of Diablo III: Reaper of Souls – Ultimate Evil Edition (PS4). Local co-op for 4.",
     "version": "v0.7.6",
     "releasedAt": "2026-11-25",
@@ -1034,7 +1056,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 170,
+    "stars": 171,
     "description": "Battlefield 1943 Reborn: the Xbox 360 game running natively on PC, with its online multiplayer restored. Releases and server packages.",
     "version": "v0.4.7.5",
     "releasedAt": "2026-11-25",
@@ -1100,7 +1122,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 586,
+    "stars": 587,
     "description": "Dragon's Crown Pro native PC port for Windows, with direct PS4 PKG installation, TRG launcher and modern graphics options",
     "version": "v1.5.1",
     "releasedAt": "2026-11-25",
@@ -1331,7 +1353,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 109,
+    "stars": 110,
     "description": "Play Midtown Madness 3 natively on Windows 10/11 and Linux: your resolution, widescreen, up to 120 fps, controller or keyboard, and optional mods. Get the installer from Releases; you need your own copy of the Xbox game.",
     "version": "v2.8.5",
     "releasedAt": "2026-11-25",
@@ -1505,7 +1527,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 51,
+    "stars": 24,
     "description": "God of War Classic Greek Saga PC Port & Static Recompilation v3.7.9: Native Windows 10/11 (x64) studio environment with pre-configured.",
     "version": "v3.7.9",
     "releasedAt": "2026-11-25",
@@ -1980,7 +2002,7 @@
     "platforms": [
       "Linux"
     ],
-    "stars": 112,
+    "stars": 113,
     "description": "",
     "version": "v1.7.2",
     "releasedAt": "2026-11-24",
@@ -2021,7 +2043,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 90,
+    "stars": 91,
     "description": "SplatPC SPLATOON 1 PORT",
     "version": "v1.0.11",
     "releasedAt": "2026-11-24",
@@ -2205,7 +2227,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 66,
+    "stars": 67,
     "description": "An unofficial PC port of Far Cry Instincts: Predator via static recompilation.",
     "version": "V1",
     "releasedAt": "2026-11-24",
@@ -2387,7 +2409,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 282,
+    "stars": 283,
     "description": "A Recompilation of Project Gotham Racing 4",
     "version": "v2.0.2",
     "releasedAt": "2026-11-23",
@@ -2411,7 +2433,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 2608,
+    "stars": 2610,
     "description": "Static recompilation of Link's Awakening (Switch) to native macOS, Windows, Linux, iOS and Android.",
     "version": "v0.6.1",
     "releasedAt": "2026-11-23",
@@ -2604,7 +2626,7 @@
     "console": "Game Boy Advance",
     "mechanism": "native",
     "platforms": [],
-    "stars": 3719,
+    "stars": 3718,
     "description": "Decompilation of Pokémon Emerald",
     "version": null,
     "releasedAt": "2026-11-23",
@@ -2924,7 +2946,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 291,
+    "stars": 292,
     "description": "StarFox Remake [recompiled]: static recompilation of Star Fox (Nintendo Switch 2) into a native Windows app, built on your PC from your own copy. No game files included.",
     "version": "v1.2.0",
     "releasedAt": "2026-11-21",
@@ -3083,27 +3105,6 @@
     "curated": true
   },
   {
-    "id": "ravencaio-tlou-remastered-pc",
-    "repo": "ravencaio/tlou-remastered-pc",
-    "title": "The Last of Us Remastered",
-    "game": "last-of-us-remastered",
-    "author": "ravencaio",
-    "console": "PlayStation 4",
-    "mechanism": "native",
-    "platforms": [
-      "Windows"
-    ],
-    "stars": 399,
-    "description": "Unnoficial Native Windows PC port of The Last of Us Remastered (PS4, CUSA00552). Runs the game’s own x86-64 code on a custom runtime, with PS4 system libraries reimplemented and a Vulkan renderer based on shadPS4. Includes a launcher. No game files included: you need your own copy.",
-    "version": "v0.4.0",
-    "releasedAt": "2026-11-20",
-    "sizeBytes": 78048618,
-    "releaseUrl": "https://github.com/ravencaio/tlou-remastered-pc/releases/tag/v0.4.0",
-    "licenseId": "GPL-2.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-2.0",
-    "curated": true
-  },
-  {
     "id": "chrissotraidis-paperpad",
     "repo": "chrissotraidis/paperpad",
     "title": "Paper Mario",
@@ -3244,7 +3245,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 232,
+    "stars": 233,
     "description": "Odin Sphere Leifthrasir native PC port for Windows, with direct PS4 PKG installation, TRG launcher and modern graphics options",
     "version": "v0.3.0",
     "releasedAt": "2026-11-19",
@@ -3393,7 +3394,7 @@
     "console": "Xbox 360",
     "mechanism": "native",
     "platforms": [],
-    "stars": 435,
+    "stars": 434,
     "description": "A native PC port of The Darkness (Xbox 360) for Windows, featuring DirectX 11 graphics, mouse and keyboard controls, and customizable settings.",
     "version": null,
     "releasedAt": "2026-11-18",
@@ -3784,7 +3785,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 191,
+    "stars": 192,
     "description": "Conker: Live & Reloaded (Xbox) on Windows & Linux: a native recompilation with a launcher that builds it from your own disc, widescreen up to 240 FPS, enhancements, and online play with room codes.",
     "version": "v1.4.3",
     "releasedAt": "2026-11-16",
@@ -3970,7 +3971,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 114,
+    "stars": 115,
     "description": "007 Everything or Nothing recompilation for a native PC port.",
     "version": "v1.3.2",
     "releasedAt": "2026-11-15",
@@ -4150,7 +4151,7 @@
       "Linux",
       "iOS"
     ],
-    "stars": 678,
+    "stars": 679,
     "description": "The Legend of Zelda: The Wind Waker Recompiled. Native for MacOS, iOS, Windows, Linux, and Android.",
     "version": "v0.12.0",
     "releasedAt": "2026-11-15",
@@ -4520,7 +4521,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5696,
+    "stars": 5698,
     "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
     "version": "windows-v1.9.8.6",
     "releasedAt": "2026-11-13",
@@ -4836,7 +4837,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 973,
+    "stars": 974,
     "description": "Unofficial native PC and Steam Deck port of Tears of the Kingdom 1.4.3 using static recompilation. Builds locally from the player's own extracted game dump; no game files included.",
     "version": "v0.4.0",
     "releasedAt": "2026-11-11",
@@ -5096,7 +5097,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 960,
+    "stars": 962,
     "description": "Xbox 360 to PC port of Dante's Inferno using ReXGlue (static recompilation)",
     "version": "v0.8.6-beta-hotfix",
     "releasedAt": "2026-11-08",
@@ -5929,7 +5930,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 34397,
+    "stars": 34398,
     "description": "PlayStation 4 emulator for Windows, Linux, macOS and FreeBSD written in C++",
     "version": "v.0.21.0",
     "releasedAt": "2026-10-30",
@@ -6118,7 +6119,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 993,
+    "stars": 994,
     "description": "An unofficial original Xbox version PC port of BLACK (2006) via static recompilation.",
     "version": "V3",
     "releasedAt": "2026-10-29",
@@ -6322,7 +6323,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 252,
+    "stars": 253,
     "description": "A static native recompilation of Need for Speed: Most Wanted (2005) Xbox 360",
     "version": "v1.0.2",
     "releasedAt": "2026-10-28",
@@ -6588,7 +6589,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 8337,
+    "stars": 8338,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -7710,7 +7711,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 345,
+    "stars": 346,
     "description": "GoldenEye 007 (N64, 1997) as a native PC game for Windows, Linux, Steam Deck and macOS. Built from the open decompilation, with widescreen, mouse and keyboard or controller, and split-screen. Not an emulator.",
     "version": "v0.5.0",
     "releasedAt": "2026-10-07",
@@ -7936,7 +7937,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 267,
+    "stars": 268,
     "description": "",
     "version": "V1.2.2",
     "releasedAt": "2026-10-02",
@@ -9278,7 +9279,7 @@
     "console": "Xbox 360",
     "mechanism": "emulator",
     "platforms": [],
-    "stars": 9863,
+    "stars": 9864,
     "description": "Xbox 360 Emulator Research Project",
     "version": null,
     "releasedAt": "2026-02-18",
