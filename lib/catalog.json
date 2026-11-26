@@ -46,7 +46,7 @@
     "console": "Xbox Series X|S",
     "mechanism": "translation-layer",
     "platforms": [],
-    "stars": 400,
+    "stars": 408,
     "description": "Native PC port layer for an Xbox Series X|S title: the game's x64 code runs on your CPU and its RDNA2 GPU code is recompiled for your graphics card. Bring your own files.",
     "version": null,
     "releasedAt": "2026-11-26",
@@ -103,7 +103,7 @@
     "console": "Xbox Series X|S",
     "mechanism": "in-progress",
     "platforms": [],
-    "stars": 484,
+    "stars": 486,
     "description": "Continuation of Project Leonida, aiming to bring GTA VI from Xbox to PC through static recompilation.",
     "version": null,
     "releasedAt": "2026-11-26",
@@ -143,7 +143,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 73,
+    "stars": 72,
     "description": "Native Windows port of Shinobi (PS2, USA). Bring your own disc image. Launcher included.",
     "version": "v0.7.4",
     "releasedAt": "2026-11-26",
@@ -225,7 +225,7 @@
     "platforms": [
       "Linux"
     ],
-    "stars": 2069,
+    "stars": 2070,
     "description": "Native Windows port of Shadow of the Colossus (PS4, CUSA08809) - bring your own game dump. Port nativo para PC.",
     "version": "v0.78",
     "releasedAt": "2026-11-26",
@@ -564,10 +564,10 @@
     ],
     "stars": 55,
     "description": "Bayonetta 3 PC, Steam Deck and Android native port: static ARM-to-C++ recompiler, Horizon/NVN runtime and Vulkan backend. No emulator; bring your own 1.2.0 game files.",
-    "version": "v0.4.1",
+    "version": "v0.4.2",
     "releasedAt": "2026-11-26",
-    "sizeBytes": 270868340,
-    "releaseUrl": "https://github.com/aoxzh/bayo3-recomp/releases/tag/v0.4.1",
+    "sizeBytes": 270911719,
+    "releaseUrl": "https://github.com/aoxzh/bayo3-recomp/releases/tag/v0.4.2",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
@@ -732,7 +732,7 @@
       "Linux",
       "Android"
     ],
-    "stars": 55,
+    "stars": 56,
     "description": "Native Linux, Windows and Android port of Shadow of the Colossus (PS2 USA), based on Celosia/PS2Recomp; requires your own ROM.",
     "version": "v1.2.7",
     "releasedAt": "2026-11-26",
@@ -755,7 +755,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 1692,
+    "stars": 1696,
     "description": "Zelda Wind Waker HD Recomp",
     "version": "v0.5.2",
     "releasedAt": "2026-11-26",
@@ -763,6 +763,68 @@
     "releaseUrl": "https://github.com/ZeldaWWHDRecomp/ZeldaWWHDRecomp/releases/tag/v0.5.2",
     "licenseId": "MPL-2.0",
     "licenseUrl": "https://api.github.com/licenses/mpl-2.0",
+    "curated": true
+  },
+  {
+    "id": "xenios-jp-xenios",
+    "repo": "xenios-jp/XeniOS",
+    "title": "XeniOS",
+    "game": null,
+    "author": "xenios-jp",
+    "console": "Xbox 360",
+    "mechanism": "emulator",
+    "platforms": [
+      "macOS",
+      "iOS"
+    ],
+    "stars": 379,
+    "description": "The iOS and MacOS port of Xenia, the Xbox 360 Emulator Research project.",
+    "version": "release-v2.3.5-build-12326",
+    "releasedAt": "2026-11-26",
+    "sizeBytes": 41096850,
+    "releaseUrl": "https://github.com/xenios-jp/XeniOS/releases/tag/release-v2.3.5-build-12326",
+    "licenseId": "BSD-3-Clause",
+    "licenseUrl": "https://api.github.com/licenses/bsd-3-clause",
+    "curated": true
+  },
+  {
+    "id": "ivanbarbosafilho-yakuza-kenzan-recomp",
+    "repo": "IvanBarbosaFilho/Yakuza-Kenzan-Recomp",
+    "title": "Ryu ga Gotoku Kenzan!",
+    "game": null,
+    "author": "IvanBarbosaFilho",
+    "console": "PlayStation 3",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 49,
+    "description": "Unofficial native PC port of Ryu ga Gotoku Kenzan! (PS3, BLJM60064) for Linux and Windows. Statically recompiled with ps3recomp and rendered with Vulkan, with the English fan translation, 30/60/120 FPS options and a launcher that installs from your own copy of the game. No game files included.",
+    "version": "V1.1.0",
+    "releasedAt": "2026-11-26",
+    "sizeBytes": 762608120,
+    "releaseUrl": "https://github.com/IvanBarbosaFilho/Yakuza-Kenzan-Recomp/releases/tag/V1.1.0",
+    "licenseId": null,
+    "licenseUrl": null
+  },
+  {
+    "id": "russophone-tomodachi-ltd-recomp",
+    "repo": "RussoPhone/tomodachi-ltd-recomp",
+    "title": "Tomodachi Life: Living the Dream",
+    "game": null,
+    "author": "RussoPhone",
+    "console": "Nintendo Switch",
+    "mechanism": "in-progress",
+    "platforms": [],
+    "stars": 71,
+    "description": "Unofficial native PC port (alpha) of Tomodachi Life: Living the Dream, built on your computer from your own copy. Linux first. NO game files, firmware or keys included.",
+    "version": null,
+    "releasedAt": "2026-11-26",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/RussoPhone/tomodachi-ltd-recomp/releases",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
   },
   {
@@ -821,7 +883,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 651,
+    "stars": 654,
     "description": "A native Windows PC port of Super Mario Odyssey by static recompilation. Bring your own game: no game files included.",
     "version": "v1.0.2",
     "releasedAt": "2026-11-25",
@@ -1021,28 +1083,6 @@
     "releaseUrl": "https://github.com/vyanhursky/DefJamFFNY-recomp/releases/tag/v1.2.3",
     "licenseId": "NOASSERTION",
     "licenseUrl": null,
-    "curated": true
-  },
-  {
-    "id": "xenios-jp-xenios",
-    "repo": "xenios-jp/XeniOS",
-    "title": "XeniOS",
-    "game": null,
-    "author": "xenios-jp",
-    "console": "Xbox 360",
-    "mechanism": "emulator",
-    "platforms": [
-      "macOS",
-      "iOS"
-    ],
-    "stars": 379,
-    "description": "The iOS and MacOS port of Xenia, the Xbox 360 Emulator Research project.",
-    "version": "release-v2.3.5-build-12324",
-    "releasedAt": "2026-11-25",
-    "sizeBytes": 41085710,
-    "releaseUrl": "https://github.com/xenios-jp/XeniOS/releases/tag/release-v2.3.5-build-12324",
-    "licenseId": "BSD-3-Clause",
-    "licenseUrl": "https://api.github.com/licenses/bsd-3-clause",
     "curated": true
   },
   {
@@ -1318,7 +1358,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 1045,
+    "stars": 1044,
     "description": "A cozy life-simulation and sandbox builder with fantastical creatures (Switch 2), recompiled to run natively on Windows, Linux and macOS. Multiplayer, all events, modding, enhancements and more.",
     "version": "v0.17.7",
     "releasedAt": "2026-11-25",
@@ -1403,7 +1443,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 54,
+    "stars": 53,
     "description": "God of War Classic Greek Saga PC Port & Static Recompilation v3.7.9: Native Windows 10/11 (x64) studio environment with pre-configured.",
     "version": "v3.7.9",
     "releasedAt": "2026-11-25",
@@ -1423,7 +1463,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 94,
+    "stars": 95,
     "description": "DOAX 2 Recompilation with RexGlue",
     "version": "v1.2.2",
     "releasedAt": "2026-11-25",
@@ -1487,7 +1527,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 56,
+    "stars": 58,
     "description": "A PC port of Twisted Metal 2 (PlayStation, 1996)",
     "version": "v1.0.16",
     "releasedAt": "2026-11-25",
@@ -1796,7 +1836,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 109,
+    "stars": 110,
     "description": "Burnout 3: Takedown, native on every platform",
     "version": "v1.4.0",
     "releasedAt": "2026-11-24",
@@ -1860,7 +1900,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 1437,
+    "stars": 1436,
     "description": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows and Linux with Vulkan. 0.5.2 out: TOTK to DKB rename, Feast Layer muck fix, 4 GB cards, Switch 2 controllers on USB; one-file Windows launcher. Requirements: docs/requirements.md. Roadmap: #10. No game files included.",
     "version": "v0.5.2",
     "releasedAt": "2026-11-24",
@@ -2105,7 +2145,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 3908,
+    "stars": 3909,
     "description": "Playstation 2 Static Recompiler & Runtime Tool to make native PC ports",
     "version": null,
     "releasedAt": "2026-11-24",
@@ -2157,27 +2197,6 @@
     "curated": true
   },
   {
-    "id": "ivanbarbosafilho-yakuza-kenzan-recomp",
-    "repo": "IvanBarbosaFilho/Yakuza-Kenzan-Recomp",
-    "title": "Ryu ga Gotoku Kenzan!",
-    "game": null,
-    "author": "IvanBarbosaFilho",
-    "console": "PlayStation 3",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 49,
-    "description": "Unofficial native PC port of Ryu ga Gotoku Kenzan! (PS3, BLJM60064) for Linux and Windows. Statically recompiled with ps3recomp and rendered with Vulkan, with the English fan translation, 30/60/120 FPS options and a launcher that installs from your own copy of the game. No game files included.",
-    "version": "V1.0.0",
-    "releasedAt": "2026-11-24",
-    "sizeBytes": 387463672,
-    "releaseUrl": "https://github.com/IvanBarbosaFilho/Yakuza-Kenzan-Recomp/releases/tag/V1.0.0",
-    "licenseId": null,
-    "licenseUrl": null
-  },
-  {
     "id": "tgp482-fcip-xexrecomp",
     "repo": "TGP482/FCIP-XEXRecomp",
     "title": "Far Cry Instincts: Predator",
@@ -2194,6 +2213,25 @@
     "releaseUrl": "https://github.com/TGP482/FCIP-XEXRecomp/releases/tag/V1",
     "licenseId": "MIT",
     "licenseUrl": "https://api.github.com/licenses/mit"
+  },
+  {
+    "id": "st4rwhx-resident-evil-4-native-port",
+    "repo": "st4rwhx/Resident-Evil-4-Native-Port",
+    "title": "Resident Evil 4",
+    "game": "resident-evil-4",
+    "author": "st4rwhx",
+    "console": "GameCube",
+    "mechanism": "native",
+    "platforms": [],
+    "stars": 78,
+    "description": "Nightjar: Resident Evil 4 (GameCube) 100% native source port, byte-matching decompilation & standalone engine runtime for Android (32/64-bit), iOS (Metal), Windows, and Linux.",
+    "version": "nightly",
+    "releasedAt": "2026-11-24",
+    "sizeBytes": 50620459,
+    "releaseUrl": "https://github.com/st4rwhx/Resident-Evil-4-Native-Port/releases",
+    "licenseId": "CC0-1.0",
+    "licenseUrl": "https://api.github.com/licenses/cc0-1.0",
+    "curated": true
   },
   {
     "id": "pret-pokeheartgold",
@@ -2435,7 +2473,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 292,
+    "stars": 293,
     "description": "Experimental static recompilation of Mario Kart 8 Deluxe 4.0.1 for Windows x64 and Linux amd64. Native Vulkan runtime, Mii creator, online play via Nextendo and Steam rooms. Bring your own game files and keys: no ROMs, assets or keys included.",
     "version": "v0.6.3",
     "releasedAt": "2026-11-23",
@@ -2456,7 +2494,7 @@
     "platforms": [
       "Linux"
     ],
-    "stars": 76,
+    "stars": 77,
     "description": "Beta Windows/Linux recompilation port of True Crime: New York City (Xbox US & PAL)",
     "version": "v0.9.2-beta.5.1",
     "releasedAt": "2026-11-23",
@@ -2480,7 +2518,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 369,
+    "stars": 370,
     "description": "Burnout Revenge recompilation based on RexGlue + standalone Plume render",
     "version": "v0.4.19",
     "releasedAt": "2026-11-23",
@@ -2508,25 +2546,6 @@
     "releasedAt": "2026-11-23",
     "sizeBytes": 7130460,
     "releaseUrl": "https://github.com/denzi-gh/crashwoc-nuworld/releases/tag/v0.10.1",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
-    "curated": true
-  },
-  {
-    "id": "russophone-tomodachi-ltd-recomp",
-    "repo": "RussoPhone/tomodachi-ltd-recomp",
-    "title": "Tomodachi Life: Living the Dream",
-    "game": null,
-    "author": "RussoPhone",
-    "console": "Nintendo Switch",
-    "mechanism": "in-progress",
-    "platforms": [],
-    "stars": 71,
-    "description": "Unofficial native PC port (alpha) of Tomodachi Life: Living the Dream, built on your computer from your own copy. Linux first. NO game files, firmware or keys included.",
-    "version": null,
-    "releasedAt": "2026-11-23",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/RussoPhone/tomodachi-ltd-recomp/releases",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
@@ -2670,7 +2689,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 8323,
+    "stars": 8324,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.5.0",
     "releasedAt": "2026-11-22",
@@ -2905,7 +2924,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 130,
+    "stars": 131,
     "description": "Project Gotham Racing 2 recompilation for a native PC port.",
     "version": "v1.6.4",
     "releasedAt": "2026-11-21",
@@ -2926,7 +2945,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 99,
+    "stars": 100,
     "description": "Project Gotham Racing recompilation for a native PC port.",
     "version": "v1.8",
     "releasedAt": "2026-11-21",
@@ -3018,29 +3037,6 @@
     "releaseUrl": "https://github.com/efm-games/scarface-recomp/releases/tag/v1.3.2",
     "licenseId": null,
     "licenseUrl": null
-  },
-  {
-    "id": "st4rwhx-resident-evil-4-native-port",
-    "repo": "st4rwhx/Resident-Evil-4-Native-Port",
-    "title": "Resident Evil 4",
-    "game": "resident-evil-4",
-    "author": "st4rwhx",
-    "console": "GameCube",
-    "mechanism": "native",
-    "platforms": [
-      "Windows",
-      "Android",
-      "iOS"
-    ],
-    "stars": 78,
-    "description": "Nightjar: Resident Evil 4 (GameCube) 100% native source port, byte-matching decompilation & standalone engine runtime for Android (32/64-bit), iOS (Metal), Windows, and Linux.",
-    "version": "nightly",
-    "releasedAt": "2026-11-20",
-    "sizeBytes": 50620459,
-    "releaseUrl": "https://github.com/st4rwhx/Resident-Evil-4-Native-Port/releases/tag/nightly",
-    "licenseId": "CC0-1.0",
-    "licenseUrl": "https://api.github.com/licenses/cc0-1.0",
-    "curated": true
   },
   {
     "id": "arcanite24-pinyon-shift",
@@ -3248,7 +3244,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 98,
+    "stars": 97,
     "description": "inFamous 2 (PS3) statically recompiled to a native Windows PC port, with a launcher that builds it from your own game files. No game files included.",
     "version": "v0.1.47",
     "releasedAt": "2026-11-19",
@@ -3290,7 +3286,7 @@
       "Linux",
       "Android"
     ],
-    "stars": 104,
+    "stars": 105,
     "description": "Sin and Punishment N64 Recomp",
     "version": "0.2.12",
     "releasedAt": "2026-11-19",
@@ -4133,7 +4129,7 @@
       "Linux",
       "iOS"
     ],
-    "stars": 676,
+    "stars": 677,
     "description": "The Legend of Zelda: The Wind Waker Recompiled. Native for MacOS, iOS, Windows, Linux, and Android.",
     "version": "v0.12.0",
     "releasedAt": "2026-11-15",
@@ -4287,7 +4283,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 372,
+    "stars": 373,
     "description": "WipEout Omega Collection (PS4) native PC port for Windows and Linux: the game's own x86-64 code on the CPU, a PS4 runtime and the shadPS4 Vulkan video core. Playable, in active development. No game files included. ⭐ Star it if you like it! 💙 Donate: PayPal a.deghbouche@esi-sba.dz or ko-fi.com/abd_dbh",
     "version": "windows-v0.2.76",
     "releasedAt": "2026-11-14",
@@ -4309,7 +4305,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 284,
+    "stars": 285,
     "description": "Native Windows PC port of God of War (PS2), built by statically recompiling MIPS R5900 code to C++ with PS2Recomp. Includes an installer launcher, one-click build, fan-translation support and a 60 fps target. No game files included: you need your own copy.",
     "version": "v0.6.1",
     "releasedAt": "2026-11-14",
@@ -4458,7 +4454,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 612,
+    "stars": 611,
     "description": "Native PC port (Linux/Windows) of The Last Guardian (PS4, CUSA03627) — runs your own game dump; no game or firmware files included. Mouse/keyboard, optional 60 FPS, SMAA/CAS filters. | Port nativo para PC de The Last Guardian — usa o seu próprio dump.",
     "version": "v2026.11.14-ee3327d",
     "releasedAt": "2026-11-14",
@@ -4861,7 +4857,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 226,
+    "stars": 227,
     "description": "Forza Motorsport 4 native on PC",
     "version": "v0.3.11",
     "releasedAt": "2026-11-10",
@@ -5079,7 +5075,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 959,
+    "stars": 960,
     "description": "Xbox 360 to PC port of Dante's Inferno using ReXGlue (static recompilation)",
     "version": "v0.8.6-beta-hotfix",
     "releasedAt": "2026-11-08",
@@ -5650,7 +5646,7 @@
     "platforms": [
       "Android"
     ],
-    "stars": 66,
+    "stars": 67,
     "description": "Naruto Storm 4 MOD (sobre o Ultimate Ninja Storm Revolution) - port nativo para Android (ARM64) e PC (sem arquivos do jogo)",
     "version": "v1.1.11",
     "releasedAt": "2026-11-03",
@@ -5912,7 +5908,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 34396,
+    "stars": 34398,
     "description": "PlayStation 4 emulator for Windows, Linux, macOS and FreeBSD written in C++",
     "version": "v.0.21.0",
     "releasedAt": "2026-10-30",
@@ -6327,7 +6323,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 4221,
+    "stars": 4222,
     "description": "Bloodborne (v1.09) running natively on Linux and Windows: the game's x86-64 code runs as is, GPU side translated to Vulkan; FSR 4 / DLSS, co-op (BBSC). Bring your own dump.",
     "version": "0.7",
     "releasedAt": "2026-10-28",
@@ -6962,7 +6958,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 450,
+    "stars": 451,
     "description": "Call of Duty 3 (Xbox 360) static recompilation: host runtime, tools and notes",
     "version": null,
     "releasedAt": "2026-10-21",
@@ -7376,7 +7372,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 151,
+    "stars": 152,
     "description": "Experimental static recompilation of Forza Motorsport 4 using ReXGlue. No game files included.",
     "version": "v0.1.0-alpha.2",
     "releasedAt": "2026-10-15",
@@ -8030,7 +8026,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 6552,
+    "stars": 6553,
     "description": "Dusklight brings a classic adventure to PC and mobile platforms with a variety of fixes and improvements.",
     "version": "v2.0.3",
     "releasedAt": "2026-09-30",
@@ -8498,7 +8494,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 912,
+    "stars": 913,
     "description": "Multiplatform and Feature-rich Port based on PSX decompilation of Silent Hill 1 made with Claude and Psycross. Still in beta and is in active development.",
     "version": "crossplatform-beta",
     "releasedAt": "2026-09-04",
@@ -9261,7 +9257,7 @@
     "console": "Xbox 360",
     "mechanism": "emulator",
     "platforms": [],
-    "stars": 9862,
+    "stars": 9863,
     "description": "Xbox 360 Emulator Research Project",
     "version": null,
     "releasedAt": "2026-02-18",
