@@ -27,7 +27,7 @@
     "console": "Game Boy Advance",
     "mechanism": "native",
     "platforms": [],
-    "stars": 147,
+    "stars": 148,
     "description": "The 🌋 Alchemy project reconstructs the source code of both Golden Sun games on Game Boy Advance for video game preservation. It is a 100% matching decompilation.",
     "version": null,
     "releasedAt": "2026-11-26",
@@ -46,7 +46,7 @@
     "console": "Xbox Series X|S",
     "mechanism": "translation-layer",
     "platforms": [],
-    "stars": 391,
+    "stars": 400,
     "description": "Native PC port layer for an Xbox Series X|S title: the game's x64 code runs on your CPU and its RDNA2 GPU code is recompiled for your graphics card. Bring your own files.",
     "version": null,
     "releasedAt": "2026-11-26",
@@ -103,7 +103,7 @@
     "console": "Xbox Series X|S",
     "mechanism": "in-progress",
     "platforms": [],
-    "stars": 481,
+    "stars": 484,
     "description": "Continuation of Project Leonida, aiming to bring GTA VI from Xbox to PC through static recompilation.",
     "version": null,
     "releasedAt": "2026-11-26",
@@ -720,6 +720,52 @@
     "curated": true
   },
   {
+    "id": "genissonemilio-shadowofthecolossuspc",
+    "repo": "GenissonEmilio/ShadowOfTheColossusPC",
+    "title": "Shadow of the Colossus",
+    "game": null,
+    "author": "GenissonEmilio",
+    "console": "PlayStation 2",
+    "mechanism": "native",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "Android"
+    ],
+    "stars": 55,
+    "description": "Native Linux, Windows and Android port of Shadow of the Colossus (PS2 USA), based on Celosia/PS2Recomp; requires your own ROM.",
+    "version": "v1.2.7",
+    "releasedAt": "2026-11-26",
+    "sizeBytes": 205228534,
+    "releaseUrl": "https://github.com/GenissonEmilio/ShadowOfTheColossusPC/releases/tag/v1.2.7",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
+  },
+  {
+    "id": "zeldawwhdrecomp-zeldawwhdrecomp",
+    "repo": "ZeldaWWHDRecomp/ZeldaWWHDRecomp",
+    "title": "The Legend of Zelda: The Wind Waker HD",
+    "game": "wind-waker-hd",
+    "author": "ZeldaWWHDRecomp",
+    "console": "Wii U",
+    "mechanism": "native",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Android"
+    ],
+    "stars": 1692,
+    "description": "Zelda Wind Waker HD Recomp",
+    "version": "v0.5.2",
+    "releasedAt": "2026-11-26",
+    "sizeBytes": 380665651,
+    "releaseUrl": "https://github.com/ZeldaWWHDRecomp/ZeldaWWHDRecomp/releases/tag/v0.5.2",
+    "licenseId": "MPL-2.0",
+    "licenseUrl": "https://api.github.com/licenses/mpl-2.0",
+    "curated": true
+  },
+  {
     "id": "skuza-oss-downhill-revived",
     "repo": "skuza-oss/downhill-revived",
     "title": "Downhill Domination",
@@ -734,7 +780,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 249,
+    "stars": 250,
     "description": "A PC port of Downhill Domination (PS2), built on a matching decompilation. Bring your own disc.",
     "version": "v0.8.13",
     "releasedAt": "2026-11-25",
@@ -775,7 +821,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 650,
+    "stars": 651,
     "description": "A native Windows PC port of Super Mario Odyssey by static recompilation. Bring your own game: no game files included.",
     "version": "v1.0.2",
     "releasedAt": "2026-11-25",
@@ -819,7 +865,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 167,
+    "stars": 168,
     "description": "Battlefield 1943 Reborn: the Xbox 360 game running natively on PC, with its online multiplayer restored. Releases and server packages.",
     "version": "v0.4.7.5",
     "releasedAt": "2026-11-25",
@@ -944,7 +990,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 592,
+    "stars": 593,
     "description": "This is an open source, all-in-one, static recompilation project that I built from the ground up for the Xbox 360 Gears of War series. All 4 games have been personally recompiled for use with a fully native renderer by me.",
     "version": "0.6.9",
     "releasedAt": "2026-11-25",
@@ -1272,7 +1318,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 1044,
+    "stars": 1045,
     "description": "A cozy life-simulation and sandbox builder with fantastical creatures (Switch 2), recompiled to run natively on Windows, Linux and macOS. Multiplayer, all events, modding, enhancements and more.",
     "version": "v0.17.7",
     "releasedAt": "2026-11-25",
@@ -1452,28 +1498,6 @@
     "curated": true
   },
   {
-    "id": "genissonemilio-shadowofthecolossuspc",
-    "repo": "GenissonEmilio/ShadowOfTheColossusPC",
-    "title": "Shadow of the Colossus",
-    "game": null,
-    "author": "GenissonEmilio",
-    "console": "PlayStation 2",
-    "mechanism": "native",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "Android"
-    ],
-    "stars": 53,
-    "description": "Native Linux, Windows and Android port of Shadow of the Colossus (PS2 USA), based on Celosia/PS2Recomp; requires your own ROM.",
-    "version": "v1.2.6",
-    "releasedAt": "2026-11-25",
-    "sizeBytes": 205179773,
-    "releaseUrl": "https://github.com/GenissonEmilio/ShadowOfTheColossusPC/releases/tag/v1.2.6",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0"
-  },
-  {
     "id": "nathanialf-ico-pc",
     "repo": "nathanialf/ico-pc",
     "title": "ICO",
@@ -1528,7 +1552,7 @@
     "console": "Nintendo Switch 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 111,
+    "stars": 112,
     "description": "Experimental Hyrule Warriors: Age of Imprisonment recompilation for Windows, with a local NUP compiler. Non-60 FPS modes accelerate gameplay; higher resolutions are unstable.",
     "version": null,
     "releasedAt": "2026-11-25",
@@ -1836,7 +1860,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 1436,
+    "stars": 1437,
     "description": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows and Linux with Vulkan. 0.5.2 out: TOTK to DKB rename, Feast Layer muck fix, 4 GB cards, Switch 2 controllers on USB; one-file Windows launcher. Requirements: docs/requirements.md. Roadmap: #10. No game files included.",
     "version": "v0.5.2",
     "releasedAt": "2026-11-24",
@@ -1916,7 +1940,7 @@
     "console": "PlayStation 3",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 368,
+    "stars": 369,
     "description": "Drakengard 3 (PS3) static recompilation using ps3recomp",
     "version": null,
     "releasedAt": "2026-11-24",
@@ -2001,7 +2025,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 99,
+    "stars": 100,
     "description": "Unofficial native PC ports of the classic Monster Hunter games via static recompilation, starting with Freedom Unite. No emulator. Bring your own copy",
     "version": "v0.13.0",
     "releasedAt": "2026-11-24",
@@ -2043,7 +2067,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 66,
+    "stars": 67,
     "description": "Runtime for ports or recompilations of 3DS games.",
     "version": "v0.2.33",
     "releasedAt": "2026-11-24",
@@ -2162,7 +2186,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 61,
+    "stars": 63,
     "description": "An unofficial PC port of Far Cry Instincts: Predator via static recompilation.",
     "version": "V1",
     "releasedAt": "2026-11-24",
@@ -2243,7 +2267,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 2507,
+    "stars": 2508,
     "description": "Decompilation of The Legend of Zelda: Breath of the Wild (Switch 1.5.0)",
     "version": null,
     "releasedAt": "2026-11-23",
@@ -2325,7 +2349,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 281,
+    "stars": 282,
     "description": "A Recompilation of Project Gotham Racing 4",
     "version": "v2.0.2",
     "releasedAt": "2026-11-23",
@@ -2349,7 +2373,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 2604,
+    "stars": 2606,
     "description": "Static recompilation of Link's Awakening (Switch) to native macOS, Windows, Linux, iOS and Android.",
     "version": "v0.6.1",
     "releasedAt": "2026-11-23",
@@ -2520,7 +2544,7 @@
       "Linux",
       "Android"
     ],
-    "stars": 59,
+    "stars": 60,
     "description": "Native recompilation of Final Fantasy Tactics Advance with shaders, post-processing, haptics/rumble, and native Android support",
     "version": "v2.2",
     "releasedAt": "2026-11-23",
@@ -2646,7 +2670,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 8321,
+    "stars": 8323,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.5.0",
     "releasedAt": "2026-11-22",
@@ -2688,7 +2712,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 266,
+    "stars": 267,
     "description": "Native Windows port of Demon's Souls (PS3, BLUS-30443) via ps3recomp static recompilation. Bring your own disc image; no game files included.",
     "version": "v2026.11.22",
     "releasedAt": "2026-11-22",
@@ -3952,7 +3976,7 @@
       "Linux",
       "Android"
     ],
-    "stars": 450,
+    "stars": 451,
     "description": "A work in progress recomp of the The Simpsons Game 2007 from the Xbox 360 using the RexXGlue recomping tool to get the game running",
     "version": "v0.0.7.1",
     "releasedAt": "2026-11-15",
@@ -4065,7 +4089,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 731,
+    "stars": 730,
     "description": "",
     "version": "1.6.1",
     "releasedAt": "2026-11-15",
@@ -4479,7 +4503,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5694,
+    "stars": 5695,
     "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
     "version": "windows-v1.9.8.6",
     "releasedAt": "2026-11-13",
@@ -5055,7 +5079,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 960,
+    "stars": 959,
     "description": "Xbox 360 to PC port of Dante's Inferno using ReXGlue (static recompilation)",
     "version": "v0.8.6-beta-hotfix",
     "releasedAt": "2026-11-08",
@@ -5337,30 +5361,6 @@
     "curated": true
   },
   {
-    "id": "zeldawwhdrecomp-zeldawwhdrecomp",
-    "repo": "ZeldaWWHDRecomp/ZeldaWWHDRecomp",
-    "title": "The Legend of Zelda: The Wind Waker HD",
-    "game": "wind-waker-hd",
-    "author": "ZeldaWWHDRecomp",
-    "console": "Wii U",
-    "mechanism": "native",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "macOS",
-      "Android"
-    ],
-    "stars": 1692,
-    "description": "Zelda Wind Waker HD Recomp",
-    "version": "v0.5.1",
-    "releasedAt": "2026-11-06",
-    "sizeBytes": 158598877,
-    "releaseUrl": "https://github.com/ZeldaWWHDRecomp/ZeldaWWHDRecomp/releases/tag/v0.5.1",
-    "licenseId": "MPL-2.0",
-    "licenseUrl": "https://api.github.com/licenses/mpl-2.0",
-    "curated": true
-  },
-  {
     "id": "juansolo457-fear360-recomp",
     "repo": "Juansolo457/fear360-recomp",
     "title": "F.E.A.R. & F.E.A.R. Files",
@@ -5520,7 +5520,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 144,
+    "stars": 145,
     "description": "Mega Man X4 (USA, SLUS-00561) statically recompiled to a native PC executable with PSXRecomp",
     "version": "v1.0.29",
     "releasedAt": "2026-11-03",
@@ -5720,7 +5720,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 339,
+    "stars": 340,
     "description": "GTA V (Xbox 360, TU27) static recompilation with ReXGlue",
     "version": "v0.3.0",
     "releasedAt": "2026-11-02",
@@ -6571,7 +6571,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 8333,
+    "stars": 8335,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -6699,7 +6699,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 159,
+    "stars": 160,
     "description": "A Static recompilation of Ace Combat 5 with native rendering",
     "version": "V3.0",
     "releasedAt": "2026-10-24",
@@ -8498,7 +8498,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 911,
+    "stars": 912,
     "description": "Multiplatform and Feature-rich Port based on PSX decompilation of Silent Hill 1 made with Claude and Psycross. Still in beta and is in active development.",
     "version": "crossplatform-beta",
     "releasedAt": "2026-09-04",
@@ -8671,7 +8671,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2532,
+    "stars": 2533,
     "description": "2 Ship 2 Harkinian: a PC port of Majora's Mask built from the decompilation, with widescreen, high resolution and mod support.",
     "version": "5.0.1",
     "releasedAt": "2026-08-25",
