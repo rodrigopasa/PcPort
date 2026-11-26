@@ -46,7 +46,7 @@
     "console": "Xbox Series X|S",
     "mechanism": "translation-layer",
     "platforms": [],
-    "stars": 457,
+    "stars": 494,
     "description": "Native PC port layer for an Xbox Series X|S title: the game's x64 code runs on your CPU and its RDNA2 GPU code is recompiled for your graphics card. Bring your own files.",
     "version": null,
     "releasedAt": "2026-11-26",
@@ -103,7 +103,7 @@
     "console": "Xbox Series X|S",
     "mechanism": "in-progress",
     "platforms": [],
-    "stars": 494,
+    "stars": 496,
     "description": "Continuation of Project Leonida, aiming to bring GTA VI from Xbox to PC through static recompilation.",
     "version": null,
     "releasedAt": "2026-11-26",
@@ -205,7 +205,7 @@
       "Android"
     ],
     "stars": 400,
-    "description": "Ninja Gaiden Black (Xbox, 2005) statically recompiled into native Linux and Windows builds, with an experimental Android port, drawn by its own Vulkan renderer. A steady 60 fps, widescreen and ultrawide, keyboard and mouse, touch controls on Android, Steam Deck ready. Bring your own copy of the game.",
+    "description": "Ninja Gaiden Black (Xbox, 2005) statically recompiled into native Linux, Windows and Android, drawn by its own Vulkan renderer. A steady 60 fps, widescreen and ultrawide, keyboard and mouse, touch controls on Android, Steam Deck ready. Bring your own copy of the game.",
     "version": "v1.0.2",
     "releasedAt": "2026-11-26",
     "sizeBytes": 41191928,
@@ -225,7 +225,7 @@
     "platforms": [
       "Linux"
     ],
-    "stars": 2071,
+    "stars": 2072,
     "description": "Native Windows port of Shadow of the Colossus (PS4, CUSA08809) - bring your own game dump. Port nativo para PC.",
     "version": "v0.78",
     "releasedAt": "2026-11-26",
@@ -420,10 +420,10 @@
     "platforms": [],
     "stars": 88,
     "description": "Unofficial PC port of Gran Turismo 5 on ps3recomp. Needs your own GT5 disc, EBOOT v1.00, no update: Europe BCES00569 (tested) or US BCUS98114 (untested). Code and tools only: no game files, keys or firmware.",
-    "version": "v0.1.117",
+    "version": "v0.1.118",
     "releasedAt": "2026-11-26",
     "sizeBytes": 109773,
-    "releaseUrl": "https://github.com/MormonFTP-hub/gt5-recomp/releases/tag/v0.1.117",
+    "releaseUrl": "https://github.com/MormonFTP-hub/gt5-recomp/releases/tag/v0.1.118",
     "licenseId": "MIT",
     "licenseUrl": "https://api.github.com/licenses/mit",
     "curated": true
@@ -732,7 +732,7 @@
       "Linux",
       "Android"
     ],
-    "stars": 58,
+    "stars": 59,
     "description": "Native Linux, Windows and Android port of Shadow of the Colossus (PS2 USA), based on Celosia/PS2Recomp; requires your own ROM.",
     "version": "v1.2.7",
     "releasedAt": "2026-11-26",
@@ -755,7 +755,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 1705,
+    "stars": 1707,
     "description": "Zelda Wind Waker HD Recomp",
     "version": "v0.5.2",
     "releasedAt": "2026-11-26",
@@ -891,6 +891,47 @@
     "releaseUrl": "https://github.com/n64hub/mario-party-recomp/releases/tag/v0.2.30",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
+  },
+  {
+    "id": "gamboozino-ng2recomp",
+    "repo": "gamboozino/ng2recomp",
+    "title": "Ninja Gaiden II",
+    "game": "ninja-gaiden-2",
+    "author": "gamboozino",
+    "console": "Xbox 360",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 349,
+    "description": "Ninja Gaiden II (Xbox 360, 2008) statically recompiled into native Linux and Windows builds, drawn by its own Vulkan renderer. A steady 60 fps, up to 8x render scale, widescreen and ultrawide, keyboard and mouse, mods, Steam Deck ready. Bring your own copy of the game.",
+    "version": "v0.8.1",
+    "releasedAt": "2026-11-26",
+    "sizeBytes": 162450170,
+    "releaseUrl": "https://github.com/gamboozino/ng2recomp/releases/tag/v0.8.1",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
+  },
+  {
+    "id": "ekspym-tekken6-native-online",
+    "repo": "Ekspym/Tekken6-native-online",
+    "title": "Tekken 6",
+    "game": "tekken-6",
+    "author": "Ekspym",
+    "console": "Xbox 360",
+    "mechanism": "native",
+    "platforms": [],
+    "stars": 489,
+    "description": "Tekken 6 (Xbox 360) native on Windows with rollback netcode - build from your own ISO",
+    "version": "v3.3.0",
+    "releasedAt": "2026-11-26",
+    "sizeBytes": 199876663,
+    "releaseUrl": "https://github.com/Ekspym/Tekken6-native-online/releases/tag/v3.3.0",
+    "licenseId": null,
+    "licenseUrl": null,
     "curated": true
   },
   {
@@ -1059,7 +1100,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 585,
+    "stars": 586,
     "description": "Dragon's Crown Pro native PC port for Windows, with direct PS4 PKG installation, TRG launcher and modern graphics options",
     "version": "v1.5.1",
     "releasedAt": "2026-11-25",
@@ -1099,7 +1140,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 200,
+    "stars": 201,
     "description": "God of War: Ascension PC port: an unofficial, native Windows port of the PS3 game by static recompilation, no emulator. No game files included: you build it from your own copy.",
     "version": "v0.4.1",
     "releasedAt": "2026-11-25",
@@ -1118,7 +1159,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 594,
+    "stars": 596,
     "description": "This is an open source, all-in-one, static recompilation project that I built from the ground up for the Xbox 360 Gears of War series. All 4 games have been personally recompiled for use with a fully native renderer by me.",
     "version": "0.6.9",
     "releasedAt": "2026-11-25",
@@ -1198,7 +1239,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2566,
+    "stars": 2567,
     "description": "Native PC port of P.T. (runs from your own PS4 game files)",
     "version": "v1.1.2",
     "releasedAt": "2026-11-25",
@@ -1430,28 +1471,6 @@
     "releaseUrl": "https://github.com/HossEz/fifa-world-cup-2014-recompiled/releases/tag/v0.3.2",
     "licenseId": "BSD-3-Clause",
     "licenseUrl": "https://api.github.com/licenses/bsd-3-clause",
-    "curated": true
-  },
-  {
-    "id": "gamboozino-ng2recomp",
-    "repo": "gamboozino/ng2recomp",
-    "title": "Ninja Gaiden II",
-    "game": "ninja-gaiden-2",
-    "author": "gamboozino",
-    "console": "Xbox 360",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 348,
-    "description": "Ninja Gaiden II (Xbox 360, 2008) statically recompiled into native Linux and Windows builds, drawn by its own Vulkan renderer. A steady 60 fps, up to 8x render scale, widescreen and ultrawide, keyboard and mouse, mods, Steam Deck ready. Bring your own copy of the game.",
-    "version": "v0.8.0",
-    "releasedAt": "2026-11-25",
-    "sizeBytes": 162387352,
-    "releaseUrl": "https://github.com/gamboozino/ng2recomp/releases/tag/v0.8.0",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
   },
   {
@@ -2076,25 +2095,6 @@
     "curated": true
   },
   {
-    "id": "ekspym-tekken6-native-online",
-    "repo": "Ekspym/Tekken6-native-online",
-    "title": "Tekken 6",
-    "game": "tekken-6",
-    "author": "Ekspym",
-    "console": "Xbox 360",
-    "mechanism": "native",
-    "platforms": [],
-    "stars": 489,
-    "description": "Tekken 6 (Xbox 360) native on Windows with rollback netcode - build from your own ISO",
-    "version": "v3.2.0",
-    "releasedAt": "2026-11-24",
-    "sizeBytes": 199864645,
-    "releaseUrl": "https://github.com/Ekspym/Tekken6-native-online/releases/tag/v3.2.0",
-    "licenseId": null,
-    "licenseUrl": null,
-    "curated": true
-  },
-  {
     "id": "fearkov-zakuro",
     "repo": "fearkov/zakuro",
     "title": "Zakuro",
@@ -2205,7 +2205,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 65,
+    "stars": 66,
     "description": "An unofficial PC port of Far Cry Instincts: Predator via static recompilation.",
     "version": "V1",
     "releasedAt": "2026-11-24",
@@ -2710,7 +2710,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 8331,
+    "stars": 8330,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.5.0",
     "releasedAt": "2026-11-22",
@@ -2729,7 +2729,7 @@
     "console": "Nintendo 64",
     "mechanism": "native",
     "platforms": [],
-    "stars": 1797,
+    "stars": 1798,
     "description": "Decompilation of The Legend of Zelda: Majora's Mask",
     "version": null,
     "releasedAt": "2026-11-22",
@@ -3072,7 +3072,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 1099,
+    "stars": 1100,
     "description": "A playable preview of Forza Horizon static recompilation",
     "version": "v0.9.5",
     "releasedAt": "2026-11-20",
@@ -3521,7 +3521,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 298,
+    "stars": 299,
     "description": "inFAMOUS 2 (PS3) as a native PC program for Windows and Linux: Setup recompiles YOUR copy on your PC (static recompilation, Vulkan). No game files included.",
     "version": "v0.6.3",
     "releasedAt": "2026-11-18",
@@ -3589,7 +3589,7 @@
       "Linux",
       "Android"
     ],
-    "stars": 70,
+    "stars": 71,
     "description": "AI Driven Project to Port Monster Hunter Freedom Unite Natively on Windows and Android, Multiplayer Supports across Platform and Regions.",
     "version": "v0.4.9",
     "releasedAt": "2026-11-17",
@@ -4085,7 +4085,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 2376,
+    "stars": 2377,
     "description": "Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo",
     "version": "v0.3.15",
     "releasedAt": "2026-11-15",
@@ -4150,7 +4150,7 @@
       "Linux",
       "iOS"
     ],
-    "stars": 677,
+    "stars": 678,
     "description": "The Legend of Zelda: The Wind Waker Recompiled. Native for MacOS, iOS, Windows, Linux, and Android.",
     "version": "v0.12.0",
     "releasedAt": "2026-11-15",
@@ -4387,7 +4387,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 768,
+    "stars": 767,
     "description": "A native Windows and Linux port of Grand Theft Auto: Vice City Stories (PS2, USA, SLUS-21590), made by recompiling the game's PS2 executable into C++",
     "version": "v0.3.0",
     "releasedAt": "2026-11-14",
@@ -4453,7 +4453,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 533,
+    "stars": 534,
     "description": "ReStreet: FIFA Street (2012) recompiled for Windows PC, with online play, a launcher with friends, chat and rooms. Bring your own game.",
     "version": "v2.1.5-online-beta",
     "releasedAt": "2026-11-14",
@@ -4520,7 +4520,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5695,
+    "stars": 5696,
     "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
     "version": "windows-v1.9.8.6",
     "releasedAt": "2026-11-13",
@@ -4584,7 +4584,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 63,
+    "stars": 64,
     "description": "Static recompilation of the original Xbox Far Cry Instincts into a native Windows x64 executable (Direct3D 11). Bring your own copy of the game; no game files included.",
     "version": "v0.9.1",
     "releasedAt": "2026-11-13",
@@ -5929,7 +5929,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 34398,
+    "stars": 34397,
     "description": "PlayStation 4 emulator for Windows, Linux, macOS and FreeBSD written in C++",
     "version": "v.0.21.0",
     "releasedAt": "2026-10-30",
@@ -7307,7 +7307,7 @@
     "console": "Xbox 360",
     "mechanism": "native",
     "platforms": [],
-    "stars": 119,
+    "stars": 120,
     "description": "Forza Motorsport 3 native on PC",
     "version": "0.1.3",
     "releasedAt": "2026-10-17",
@@ -9400,7 +9400,7 @@
     "console": "PlayStation",
     "mechanism": "native",
     "platforms": [],
-    "stars": 197,
+    "stars": 196,
     "description": "vib-ribbon decompilation (PAL version)",
     "version": null,
     "releasedAt": "2025-08-26",
