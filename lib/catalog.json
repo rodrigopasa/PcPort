@@ -29,7 +29,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 795,
+    "stars": 829,
     "description": "Native PC port layer for an Xbox Series X|S title: the game's x64 code runs on your CPU and its RDNA2 GPU code is recompiled for your graphics card. Bring your own files.",
     "version": "v0.5.3",
     "releasedAt": "2026-11-27",
@@ -283,7 +283,7 @@
     "console": "Xbox Series X|S",
     "mechanism": "in-progress",
     "platforms": [],
-    "stars": 523,
+    "stars": 525,
     "description": "Continuation of Project Leonida, aiming to bring GTA VI from Xbox to PC through static recompilation.",
     "version": null,
     "releasedAt": "2026-11-27",
@@ -326,7 +326,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 1739,
+    "stars": 1741,
     "description": "Zelda Wind Waker HD Recomp",
     "version": "v0.5.3",
     "releasedAt": "2026-11-27",
@@ -447,6 +447,66 @@
     "curated": true
   },
   {
+    "id": "victor-takai-rogue-galaxy-recomp",
+    "repo": "victor-takai/rogue-galaxy-recomp",
+    "title": "Rogue Galaxy",
+    "game": null,
+    "author": "victor-takai",
+    "console": "PlayStation 2",
+    "mechanism": "recompiled",
+    "platforms": [],
+    "stars": 100,
+    "description": "Rogue Galaxy (PS2) as a native Windows game: a static recompilation on PS2Recomp, built from your own disc.",
+    "version": null,
+    "releasedAt": "2026-11-27",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/victor-takai/rogue-galaxy-recomp/releases",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
+  },
+  {
+    "id": "simon3sarkis-super-odyssey-pc-recomp",
+    "repo": "Simon3Sarkis/super-odyssey-pc-recomp",
+    "title": "Super Mario Odyssey",
+    "game": "super-mario-odyssey",
+    "author": "Simon3Sarkis",
+    "console": "Nintendo Switch",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 671,
+    "description": "A native Windows PC port of Super Mario Odyssey by static recompilation. Bring your own game: no game files included.",
+    "version": "v1.0.3",
+    "releasedAt": "2026-11-27",
+    "sizeBytes": 231596091,
+    "releaseUrl": "https://github.com/Simon3Sarkis/super-odyssey-pc-recomp/releases/tag/v1.0.3",
+    "licenseId": "NOASSERTION",
+    "licenseUrl": null,
+    "curated": true
+  },
+  {
+    "id": "thebozos-tmb-recomp",
+    "repo": "TheBozos/TMB_Recomp",
+    "title": "Twisted Metal: Black",
+    "game": null,
+    "author": "TheBozos",
+    "console": "PlayStation 2",
+    "mechanism": "recompiled",
+    "platforms": [],
+    "stars": 49,
+    "description": "Twisted Metal: Black (USA, SCUS-97101) as a native PC port: static recompilation with PS2Recomp (no game data)",
+    "version": "v0.7.0",
+    "releasedAt": "2026-11-27",
+    "sizeBytes": 452279693,
+    "releaseUrl": "https://github.com/TheBozos/TMB_Recomp/releases/tag/v0.7.0",
+    "licenseId": "NOASSERTION",
+    "licenseUrl": null,
+    "curated": true
+  },
+  {
     "id": "gensokyoclub-th06",
     "repo": "GensokyoClub/th06",
     "title": "Touhou 6: The Embodiment of Scarlet Devil",
@@ -503,25 +563,6 @@
     "releaseUrl": "https://github.com/mzzvxm/LARecomp/releases",
     "licenseId": null,
     "licenseUrl": null,
-    "curated": true
-  },
-  {
-    "id": "victor-takai-rogue-galaxy-recomp",
-    "repo": "victor-takai/rogue-galaxy-recomp",
-    "title": "Rogue Galaxy",
-    "game": null,
-    "author": "victor-takai",
-    "console": "PlayStation 2",
-    "mechanism": "recompiled",
-    "platforms": [],
-    "stars": 100,
-    "description": "Rogue Galaxy (PS2) as a native Windows game: a static recompilation on PS2Recomp, built from your own disc.",
-    "version": null,
-    "releasedAt": "2026-11-26",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/victor-takai/rogue-galaxy-recomp/releases",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
   },
   {
@@ -1098,7 +1139,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 402,
+    "stars": 403,
     "description": "Unnoficial Native Windows PC port of The Last of Us Remastered (PS4, CUSA00552). Runs the game’s own x86-64 code on a custom runtime, with PS4 system libraries reimplemented and a Vulkan renderer based on shadPS4. Includes a launcher. No game files included: you need your own copy.",
     "version": "v0.6.0",
     "releasedAt": "2026-11-26",
@@ -1177,28 +1218,6 @@
     "releaseUrl": "https://github.com/skuza-oss/downhill-revived/releases/tag/v0.8.13",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
-    "curated": true
-  },
-  {
-    "id": "simon3sarkis-super-odyssey-pc-recomp",
-    "repo": "Simon3Sarkis/super-odyssey-pc-recomp",
-    "title": "Super Mario Odyssey",
-    "game": "super-mario-odyssey",
-    "author": "Simon3Sarkis",
-    "console": "Nintendo Switch",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 669,
-    "description": "A native Windows PC port of Super Mario Odyssey by static recompilation. Bring your own game: no game files included.",
-    "version": "v1.0.2",
-    "releasedAt": "2026-11-25",
-    "sizeBytes": 231553441,
-    "releaseUrl": "https://github.com/Simon3Sarkis/super-odyssey-pc-recomp/releases/tag/v1.0.2",
-    "licenseId": "NOASSERTION",
-    "licenseUrl": null,
     "curated": true
   },
   {
@@ -1338,7 +1357,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 614,
+    "stars": 616,
     "description": "This is an open source, all-in-one, static recompilation project that I built from the ground up for the Xbox 360 Gears of War series. All 4 games have been personally recompiled for use with a fully native renderer by me.",
     "version": "0.6.9",
     "releasedAt": "2026-11-25",
@@ -1445,7 +1464,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 219,
+    "stars": 220,
     "description": "CPS-2 Recomp: unofficial native PC ports of Capcom CPS-2 arcade games (Street Fighter Alpha 2, Super Puzzle Fighter II Turbo, Vampire Savior) via static recompilation, with training modes, in one launcher: macOS, Linux, Steam Deck, Windows. Requires your own ROM sets. Beta.",
     "version": "v1.6.0-beta.6",
     "releasedAt": "2026-11-25",
@@ -1536,7 +1555,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 87,
+    "stars": 88,
     "description": "Unofficial static recompilation of Splatoon Raiders (Switch 2) to native Linux/Windows x86-64 with a Vulkan renderer. No game data included: bring your own dump.",
     "version": "v0.2.2",
     "releasedAt": "2026-11-25",
@@ -2500,7 +2519,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 2620,
+    "stars": 2621,
     "description": "Static recompilation of Link's Awakening (Switch) to native macOS, Windows, Linux, iOS and Android.",
     "version": "v0.6.1",
     "releasedAt": "2026-11-23",
@@ -3313,7 +3332,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 233,
+    "stars": 234,
     "description": "Odin Sphere Leifthrasir native PC port for Windows, with direct PS4 PKG installation, TRG launcher and modern graphics options",
     "version": "v0.3.0",
     "releasedAt": "2026-11-19",
@@ -3398,7 +3417,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 57,
+    "stars": 58,
     "description": "Shadow Tower native port (recompiled) with modern PC controls, graphical improvements.",
     "version": "v0.3.2",
     "releasedAt": "2026-11-19",
@@ -4110,7 +4129,7 @@
       "Windows",
       "macOS"
     ],
-    "stars": 201,
+    "stars": 202,
     "description": "Forza Motorsport 4 recompilation based on ShiftGlue",
     "version": "v0.3.3",
     "releasedAt": "2026-11-15",
@@ -4131,7 +4150,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 2381,
+    "stars": 2382,
     "description": "Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo",
     "version": "v0.3.15",
     "releasedAt": "2026-11-15",
@@ -4566,7 +4585,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5708,
+    "stars": 5710,
     "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
     "version": "windows-v1.9.8.6",
     "releasedAt": "2026-11-13",
@@ -4848,25 +4867,6 @@
     "sizeBytes": 70950209,
     "releaseUrl": "https://github.com/TGP482/RDR-XBERecomp/releases/tag/V2",
     "licenseId": null,
-    "licenseUrl": null,
-    "curated": true
-  },
-  {
-    "id": "thebozos-tmb-recomp",
-    "repo": "TheBozos/TMB_Recomp",
-    "title": "Twisted Metal: Black",
-    "game": null,
-    "author": "TheBozos",
-    "console": "PlayStation 2",
-    "mechanism": "recompiled",
-    "platforms": [],
-    "stars": 49,
-    "description": "Twisted Metal: Black (USA, SCUS-97101) as a native PC port: static recompilation with PS2Recomp (no game data)",
-    "version": "v0.6.0",
-    "releasedAt": "2026-11-11",
-    "sizeBytes": 452279693,
-    "releaseUrl": "https://github.com/TheBozos/TMB_Recomp/releases/tag/v0.6.0",
-    "licenseId": "NOASSERTION",
     "licenseUrl": null,
     "curated": true
   },
@@ -5497,7 +5497,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 91,
+    "stars": 92,
     "description": "Static recompilation of Kameo: Elements of Power (Xbox 360) for Windows and Linux, built on the ReXGlue SDK.",
     "version": "v0.3.4",
     "releasedAt": "2026-11-05",
@@ -5953,7 +5953,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 34400,
+    "stars": 34401,
     "description": "PlayStation 4 emulator for Windows, Linux, macOS and FreeBSD written in C++",
     "version": "v.0.21.0",
     "releasedAt": "2026-10-30",
@@ -6083,7 +6083,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 121,
+    "stars": 122,
     "description": "Marvel Ultimate Alliance 1, Gold Edition and 2 native PC ports via static recompilation, in one bundle with high frame rates, 4K rendering, ultrawide, HD Text, TRG launcher, and experimental Linux/Steam Deck support",
     "version": "v0.2.0",
     "releasedAt": "2026-10-29",
@@ -6634,7 +6634,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 145,
+    "stars": 147,
     "description": "Crackdown native PC port via static recompilation, with high frame rates, 4K rendering, ultrawide support, offline achievements, language selection, TRG launcher, and experimental Linux/Steam Deck support",
     "version": "v0.6.2",
     "releasedAt": "2026-10-25",
@@ -6678,7 +6678,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 87,
+    "stars": 88,
     "description": "Hard Corps: Uprising native PC port via static recompilation, the Xbox 360 XBLA Contra spin-off, with TRG launcher",
     "version": "v0.7.1",
     "releasedAt": "2026-10-25",
@@ -6984,7 +6984,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 404,
+    "stars": 405,
     "description": "A playable PC port of Sly Cooper and the Thievius Raccoonus, rebuilt through reverse engineering.",
     "version": "decompilation",
     "releasedAt": "2026-10-21",
