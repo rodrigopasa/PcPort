@@ -29,7 +29,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 1239,
+    "stars": 1258,
     "description": "Native PC port layer for an Xbox Series X|S title: the game's x64 code runs on your CPU and its RDNA2 GPU code is recompiled for your graphics card. Bring your own files.",
     "version": "v0.5.5",
     "releasedAt": "2026-11-27",
@@ -282,13 +282,15 @@
     "author": "ProjectLeonidaL",
     "console": "Xbox Series X|S",
     "mechanism": "in-progress",
-    "platforms": [],
-    "stars": 543,
+    "platforms": [
+      "Windows"
+    ],
+    "stars": 547,
     "description": "Continuation of Project Leonida, aiming to bring GTA VI from Xbox to PC through static recompilation.",
-    "version": null,
+    "version": "build-608",
     "releasedAt": "2026-11-27",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/ProjectLeonidaL/leonida/releases",
+    "sizeBytes": 3878561,
+    "releaseUrl": "https://github.com/ProjectLeonidaL/leonida/releases/tag/build-608",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
@@ -326,7 +328,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 1758,
+    "stars": 1759,
     "description": "Zelda Wind Waker HD Recomp",
     "version": "v0.5.3",
     "releasedAt": "2026-11-27",
@@ -780,7 +782,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 8381,
+    "stars": 8382,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.5.1",
     "releasedAt": "2026-11-27",
@@ -802,7 +804,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 356,
+    "stars": 357,
     "description": "Ninja Gaiden II (Xbox 360, 2008) statically recompiled into native Linux and Windows builds, drawn by its own Vulkan renderer. A steady 60 fps, up to 8x render scale, widescreen and ultrawide, keyboard and mouse, mods, Steam Deck ready. Bring your own copy of the game.",
     "version": "v0.9.0",
     "releasedAt": "2026-11-27",
@@ -869,6 +871,29 @@
     "releaseUrl": "https://github.com/AmarilloNL/ssx-recomp/releases/tag/v2.0.1",
     "licenseId": "NOASSERTION",
     "licenseUrl": null
+  },
+  {
+    "id": "chupathingyce-chupathingyce",
+    "repo": "ChupathingyCE/chupathingyce",
+    "title": "Halo: Combat Evolved",
+    "game": "halo-ce",
+    "author": "ChupathingyCE",
+    "console": "Xbox",
+    "mechanism": "native",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "stars": 153,
+    "description": "Halo CE: Ported for Everyone. Windows, Mac, Linux, Steam Deck, Android and FreeBSD, with online play and stats. Bring your own copy of the game.",
+    "version": "v0.9.2a",
+    "releasedAt": "2026-11-27",
+    "sizeBytes": 90485358,
+    "releaseUrl": "https://github.com/ChupathingyCE/chupathingyce/releases/tag/v0.9.2a",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
   },
   {
     "id": "gensokyoclub-th06",
@@ -1061,29 +1086,6 @@
     "releaseUrl": "https://github.com/iExplosiveRage/DBZ-Burst-Limit-Recompiled/releases/tag/v0.8.2",
     "licenseId": null,
     "licenseUrl": null,
-    "curated": true
-  },
-  {
-    "id": "chupathingyce-chupathingyce",
-    "repo": "ChupathingyCE/chupathingyce",
-    "title": "Halo: Combat Evolved",
-    "game": "halo-ce",
-    "author": "ChupathingyCE",
-    "console": "Xbox",
-    "mechanism": "native",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "macOS"
-    ],
-    "stars": 152,
-    "description": "Halo CE: Ported for Everyone. Windows, Mac, Linux, Steam Deck, Android and FreeBSD, with online play and stats. Bring your own copy of the game.",
-    "version": "v0.9.2",
-    "releasedAt": "2026-11-26",
-    "sizeBytes": 90339473,
-    "releaseUrl": "https://github.com/ChupathingyCE/chupathingyce/releases/tag/v0.9.2",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
   },
   {
@@ -1416,7 +1418,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 42,
+    "stars": 44,
     "description": "Native Windows/Linux build of your own Hyrule Warriors: Age of Imprisonment (Switch 2): static recompilation, step-by-step setup, full settings, native controllers, RecompLauncher-ready. No game files included.",
     "version": "v0.3.5",
     "releasedAt": "2026-11-26",
@@ -1434,7 +1436,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 144,
+    "stars": 145,
     "description": "Project ReCity: GTA VI (Xbox Series) static recompilation for Windows, built on your PC from your own copy. No game files included.",
     "version": null,
     "releasedAt": "2026-11-26",
@@ -1778,7 +1780,7 @@
     "console": "PlayStation",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 638,
+    "stars": 639,
     "description": "PSX Static Recompiler and Runtime, Not Affiliated With Sony or PlayStation",
     "version": null,
     "releasedAt": "2026-11-25",
@@ -2147,7 +2149,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 119,
+    "stars": 120,
     "description": "Burnout 3: Takedown, native on every platform",
     "version": "v1.4.0",
     "releasedAt": "2026-11-24",
@@ -2211,7 +2213,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 1450,
+    "stars": 1452,
     "description": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows and Linux with Vulkan. 0.5.2 out: TOTK to DKB rename, Feast Layer muck fix, 4 GB cards, Switch 2 controllers on USB; one-file Windows launcher. Requirements: docs/requirements.md. Roadmap: #10. No game files included.",
     "version": "v0.5.2",
     "releasedAt": "2026-11-24",
@@ -2418,7 +2420,7 @@
     "console": "PlayStation 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 3917,
+    "stars": 3918,
     "description": "Playstation 2 Static Recompiler & Runtime Tool to make native PC ports",
     "version": null,
     "releasedAt": "2026-11-24",
@@ -2709,7 +2711,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 303,
+    "stars": 304,
     "description": "Experimental static recompilation of Mario Kart 8 Deluxe 4.0.1 for Windows x64 and Linux amd64. Native Vulkan runtime, Mii creator, online play via Nextendo and Steam rooms. Bring your own game files and keys: no ROMs, assets or keys included.",
     "version": "v0.6.3",
     "releasedAt": "2026-11-23",
@@ -3203,7 +3205,7 @@
       "Linux",
       "Android"
     ],
-    "stars": 157,
+    "stars": 158,
     "description": "Recomp of Asura's Wrath using RexGlue for PC (playable, wip)",
     "version": "v0.4.3",
     "releasedAt": "2026-11-21",
@@ -3607,7 +3609,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 243,
+    "stars": 244,
     "description": "A matching decompilation and PC port for the Ratchet & Clank series",
     "version": "launcher-v1.1.0",
     "releasedAt": "2026-11-18",
@@ -3756,7 +3758,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 98,
+    "stars": 99,
     "description": "A native PC port of Mario Kart Arcade GP and GP 2 by static recompilation. Builds the games from your own disc images.",
     "version": "v1.0.6",
     "releasedAt": "2026-11-17",
@@ -4036,7 +4038,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 878,
+    "stars": 879,
     "description": "Definitive Bloodborne PC Experience",
     "version": "v0.2.35",
     "releasedAt": "2026-11-15",
@@ -4493,7 +4495,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 776,
+    "stars": 777,
     "description": "A native Windows and Linux port of Grand Theft Auto: Vice City Stories (PS2, USA, SLUS-21590), made by recompiling the game's PS2 executable into C++",
     "version": "v0.3.0",
     "releasedAt": "2026-11-14",
@@ -4626,7 +4628,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5721,
+    "stars": 5722,
     "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
     "version": "windows-v1.9.8.6",
     "releasedAt": "2026-11-13",
@@ -5029,7 +5031,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 299,
+    "stars": 300,
     "description": "Native PC port of Peter Jackson's King Kong (Xbox 360) via static recompilation",
     "version": "v2.1.3",
     "releasedAt": "2026-11-09",
@@ -5517,7 +5519,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 92,
+    "stars": 93,
     "description": "Static recompilation of Kameo: Elements of Power (Xbox 360) for Windows and Linux, built on the ReXGlue SDK.",
     "version": "v0.3.4",
     "releasedAt": "2026-11-05",
@@ -6017,7 +6019,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 533,
+    "stars": 534,
     "description": "An unofficial PC port of the Xbox 360 version of Spider-Man: Edge of Time created through the process of static recompilation.",
     "version": "v1.1",
     "releasedAt": "2026-10-30",
@@ -6143,7 +6145,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 505,
+    "stars": 506,
     "description": "An unofficial original Xbox version PC port of Splinter Cell: Double Agent via static recompilation.",
     "version": "V3",
     "releasedAt": "2026-10-29",
@@ -6632,7 +6634,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 8363,
+    "stars": 8364,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -7223,7 +7225,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 6177,
+    "stars": 6178,
     "description": "Ship of Harkinian: a PC port of Ocarina of Time built from the decompilation, with widescreen, high framerate and mod support.",
     "version": "9.3.1",
     "releasedAt": "2026-10-18",
