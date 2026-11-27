@@ -29,7 +29,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 1050,
+    "stars": 1083,
     "description": "Native PC port layer for an Xbox Series X|S title: the game's x64 code runs on your CPU and its RDNA2 GPU code is recompiled for your graphics card. Bring your own files.",
     "version": "v0.5.4",
     "releasedAt": "2026-11-27",
@@ -169,10 +169,10 @@
     ],
     "stars": 179,
     "description": "Battlefield 1943 Reborn: the Xbox 360 game running natively on PC, with its online multiplayer restored. Releases and server packages.",
-    "version": "v0.4.8",
+    "version": "v0.4.8.1",
     "releasedAt": "2026-11-27",
-    "sizeBytes": 69290488,
-    "releaseUrl": "https://github.com/TekRantGaming/Battlefield-1943-Reborn/releases/tag/v0.4.8",
+    "sizeBytes": 59198927,
+    "releaseUrl": "https://github.com/TekRantGaming/Battlefield-1943-Reborn/releases/tag/v0.4.8.1",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
@@ -224,7 +224,7 @@
     "console": "PlayStation 3",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 89,
+    "stars": 90,
     "description": "Unofficial PC port of Gran Turismo 5 on ps3recomp. Needs your own GT5 disc, EBOOT v1.00, no update: Europe BCES00569 (tested) or US BCUS98114 (untested). Code and tools only: no game files, keys or firmware.",
     "version": "v0.1.119",
     "releasedAt": "2026-11-27",
@@ -326,7 +326,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 1751,
+    "stars": 1753,
     "description": "Zelda Wind Waker HD Recomp",
     "version": "v0.5.3",
     "releasedAt": "2026-11-27",
@@ -478,7 +478,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 675,
+    "stars": 677,
     "description": "A native Windows PC port of Super Mario Odyssey by static recompilation. Bring your own game: no game files included.",
     "version": "v1.0.4",
     "releasedAt": "2026-11-27",
@@ -538,7 +538,7 @@
     "console": "PlayStation 3",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 370,
+    "stars": 371,
     "description": "Drakengard 3 (PS3) static recompilation using ps3recomp",
     "version": null,
     "releasedAt": "2026-11-27",
@@ -635,6 +635,31 @@
     "curated": true
   },
   {
+    "id": "yuutatsubasa-free-riders-recompiled",
+    "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+    "title": "Sonic Free Riders",
+    "game": "sonic-free-riders",
+    "author": "YuutaTsubasa",
+    "console": "Xbox 360",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Android",
+      "iOS"
+    ],
+    "stars": 132,
+    "description": "Unofficial static recompilation of Sonic Free Riders for Windows, Linux and Android, with controller/keyboard support, custom VRM avatars, and Kinect v1, Kinect v2 (experimental) and webcam motion controls on Windows.",
+    "version": "v0.10.78",
+    "releasedAt": "2026-11-27",
+    "sizeBytes": 106358180,
+    "releaseUrl": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.78",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
+  },
+  {
     "id": "gensokyoclub-th06",
     "repo": "GensokyoClub/th06",
     "title": "Touhou 6: The Embodiment of Scarlet Devil",
@@ -687,7 +712,7 @@
       "Linux",
       "Android"
     ],
-    "stars": 405,
+    "stars": 404,
     "description": "Ninja Gaiden Black (Xbox, 2005) statically recompiled into native Linux, Windows and Android, drawn by its own Vulkan renderer. A steady 60 fps, widescreen and ultrawide, keyboard and mouse, touch controls on Android, Steam Deck ready. Bring your own copy of the game.",
     "version": "v1.0.3",
     "releasedAt": "2026-11-26",
@@ -752,7 +777,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 89,
+    "stars": 90,
     "description": "The Legend of Zelda: A Link to the Past recompiled for the Super Nintendo using snesrecomp · Part of the R.A.I.D. community",
     "version": "v0.6.7",
     "releasedAt": "2026-11-26",
@@ -1162,7 +1187,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 356,
+    "stars": 357,
     "description": "Ninja Gaiden II (Xbox 360, 2008) statically recompiled into native Linux and Windows builds, drawn by its own Vulkan renderer. A steady 60 fps, up to 8x render scale, widescreen and ultrawide, keyboard and mouse, mods, Steam Deck ready. Bring your own copy of the game.",
     "version": "v0.8.1",
     "releasedAt": "2026-11-26",
@@ -1214,31 +1239,6 @@
     "curated": true
   },
   {
-    "id": "yuutatsubasa-free-riders-recompiled",
-    "repo": "YuutaTsubasa/Free-Riders-Recompiled",
-    "title": "Sonic Free Riders",
-    "game": "sonic-free-riders",
-    "author": "YuutaTsubasa",
-    "console": "Xbox 360",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "macOS",
-      "Android",
-      "iOS"
-    ],
-    "stars": 132,
-    "description": "Unofficial static recompilation of Sonic Free Riders for Windows, Linux and Android, with controller/keyboard support, custom VRM avatars, and Kinect v1, Kinect v2 (experimental) and webcam motion controls on Windows.",
-    "version": "v0.10.77",
-    "releasedAt": "2026-11-26",
-    "sizeBytes": 106358180,
-    "releaseUrl": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.77",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
-    "curated": true
-  },
-  {
     "id": "icosisenpai-age-of-decomp",
     "repo": "iCosiSenpai/age-of-decomp",
     "title": "Age Of",
@@ -1268,7 +1268,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 117,
+    "stars": 122,
     "description": "Project ReCity: GTA VI (Xbox Series) static recompilation for Windows, built on your PC from your own copy. No game files included.",
     "version": null,
     "releasedAt": "2026-11-26",
@@ -1292,7 +1292,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 253,
+    "stars": 252,
     "description": "A PC port of Downhill Domination (PS2), built on a matching decompilation. Bring your own disc.",
     "version": "v0.8.13",
     "releasedAt": "2026-11-25",
@@ -1546,7 +1546,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 220,
+    "stars": 219,
     "description": "CPS-2 Recomp: unofficial native PC ports of Capcom CPS-2 arcade games (Street Fighter Alpha 2, Super Puzzle Fighter II Turbo, Vampire Savior) via static recompilation, with training modes, in one launcher: macOS, Linux, Steam Deck, Windows. Requires your own ROM sets. Beta.",
     "version": "v1.6.0-beta.6",
     "releasedAt": "2026-11-25",
@@ -1570,7 +1570,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 1056,
+    "stars": 1057,
     "description": "Experimental native PC port of Lost Odyssey using static recompilation. No game assets included.",
     "version": "v1.2.0",
     "releasedAt": "2026-11-25",
@@ -1708,26 +1708,6 @@
     "licenseId": "NOASSERTION",
     "licenseUrl": null,
     "curated": true
-  },
-  {
-    "id": "martina1713-gow-pc-port-classic-recompiled",
-    "repo": "martina1713/gow-pc-port-classic-recompiled",
-    "title": "Gow Classic",
-    "game": null,
-    "author": "martina1713",
-    "console": "PC",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows"
-    ],
-    "stars": 22,
-    "description": "God of War Classic Greek Saga PC Port & Static Recompilation v3.7.9: Native Windows 10/11 (x64) studio environment with pre-configured.",
-    "version": "v3.7.9",
-    "releasedAt": "2026-11-25",
-    "sizeBytes": 29003123,
-    "releaseUrl": "https://github.com/martina1713/gow-pc-port-classic-recompiled/releases/tag/v3.7.9",
-    "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit"
   },
   {
     "id": "hibikifukui22-dead-or-alive-xtreme-2-recompilation",
@@ -2560,7 +2540,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 2624,
+    "stars": 2625,
     "description": "Static recompilation of Link's Awakening (Switch) to native macOS, Windows, Linux, iOS and Android.",
     "version": "v0.6.1",
     "releasedAt": "2026-11-23",
@@ -2902,7 +2882,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 8373,
+    "stars": 8377,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.5.0",
     "releasedAt": "2026-11-22",
@@ -3094,7 +3074,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 297,
+    "stars": 298,
     "description": "StarFox Remake [recompiled]: static recompilation of Star Fox (Nintendo Switch 2) into a native Windows app, built on your PC from your own copy. No game files included.",
     "version": "v1.2.0",
     "releasedAt": "2026-11-21",
@@ -3159,7 +3139,7 @@
       "Linux",
       "Android"
     ],
-    "stars": 156,
+    "stars": 155,
     "description": "Recomp of Asura's Wrath using RexGlue for PC (playable, wip)",
     "version": "v0.4.3",
     "releasedAt": "2026-11-21",
@@ -3435,7 +3415,7 @@
       "Linux",
       "Android"
     ],
-    "stars": 106,
+    "stars": 107,
     "description": "Sin and Punishment N64 Recomp",
     "version": "0.2.12",
     "releasedAt": "2026-11-19",
@@ -3479,7 +3459,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 488,
+    "stars": 489,
     "description": "Static recompilation of Metroid Dread (Switch, 2.1.0) for Windows, Linux and Steam Deck. Bring your own dump: no game files, keys or dumping tools included.",
     "version": "v0.5.10",
     "releasedAt": "2026-11-19",
@@ -3502,7 +3482,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 41,
+    "stars": 42,
     "description": "Native PC ports of Battlefield 1943 and Bad Company (Xbox 360) via static recompilation",
     "version": "v0.4.1",
     "releasedAt": "2026-11-19",
@@ -4035,7 +4015,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 877,
+    "stars": 878,
     "description": "Definitive Bloodborne PC Experience",
     "version": "v0.2.35",
     "releasedAt": "2026-11-15",
@@ -4190,7 +4170,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 2382,
+    "stars": 2383,
     "description": "Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo",
     "version": "v0.3.15",
     "releasedAt": "2026-11-15",
@@ -4211,7 +4191,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 733,
+    "stars": 732,
     "description": "",
     "version": "1.6.1",
     "releasedAt": "2026-11-15",
@@ -4409,7 +4389,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 375,
+    "stars": 376,
     "description": "WipEout Omega Collection (PS4) native PC port for Windows and Linux: the game's own x86-64 code on the CPU, a PS4 runtime and the shadPS4 Vulkan video core. Playable, in active development. No game files included. ⭐ Star it if you like it! 💙 Donate: PayPal a.deghbouche@esi-sba.dz or ko-fi.com/abd_dbh",
     "version": "windows-v0.2.76",
     "releasedAt": "2026-11-14",
@@ -4625,7 +4605,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5715,
+    "stars": 5718,
     "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
     "version": "windows-v1.9.8.6",
     "releasedAt": "2026-11-13",
@@ -5182,7 +5162,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 964,
+    "stars": 965,
     "description": "Xbox 360 to PC port of Dante's Inferno using ReXGlue (static recompilation)",
     "version": "v0.8.6-beta-hotfix",
     "releasedAt": "2026-11-08",
@@ -5993,7 +5973,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 34403,
+    "stars": 34404,
     "description": "PlayStation 4 emulator for Windows, Linux, macOS and FreeBSD written in C++",
     "version": "v.0.21.0",
     "releasedAt": "2026-10-30",
@@ -6163,7 +6143,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 503,
+    "stars": 504,
     "description": "An unofficial original Xbox version PC port of Splinter Cell: Double Agent via static recompilation.",
     "version": "V3",
     "releasedAt": "2026-10-29",
@@ -6408,7 +6388,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 4229,
+    "stars": 4230,
     "description": "Bloodborne (v1.09) running natively on Linux and Windows: the game's x86-64 code runs as is, GPU side translated to Vulkan; FSR 4 / DLSS, co-op (BBSC). Bring your own dump.",
     "version": "0.7",
     "releasedAt": "2026-10-28",
@@ -6633,7 +6613,7 @@
     "platforms": [
       "Linux"
     ],
-    "stars": 174,
+    "stars": 173,
     "description": "Unofficial native PC port of inFAMOUS First Light (PS4). Bring your own game dump - no game files included.",
     "version": "v0.3.8",
     "releasedAt": "2026-10-25",
@@ -7002,7 +6982,7 @@
     "console": "Nintendo Switch",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 656,
+    "stars": 657,
     "description": "Unofficial static recompilation of Bayonetta 2 (Switch) for Windows. Builds the game on your PC from your own legally dumped copy. No game files, keys or SDK code included.",
     "version": "v0.3.3",
     "releasedAt": "2026-10-22",
@@ -7959,7 +7939,7 @@
     "console": "GameCube",
     "mechanism": "native",
     "platforms": [],
-    "stars": 408,
+    "stars": 409,
     "description": "Resident Evil 4 (GameCube, G4BE08 debug build) — complete byte-identical decompilation to C/C++",
     "version": null,
     "releasedAt": "2026-10-02",
@@ -8111,7 +8091,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 6563,
+    "stars": 6564,
     "description": "Dusklight brings a classic adventure to PC and mobile platforms with a variety of fixes and improvements.",
     "version": "v2.0.3",
     "releasedAt": "2026-09-30",
@@ -8918,7 +8898,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2155,
+    "stars": 2156,
     "description": "PC Port of Banjo-Kazooie made using N64: Recompiled (Windows/Linux/Mac) ",
     "version": "v1.0.2",
     "releasedAt": "2026-07-31",
