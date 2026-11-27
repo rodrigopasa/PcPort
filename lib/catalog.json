@@ -29,7 +29,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 1148,
+    "stars": 1188,
     "description": "Native PC port layer for an Xbox Series X|S title: the game's x64 code runs on your CPU and its RDNA2 GPU code is recompiled for your graphics card. Bring your own files.",
     "version": "v0.5.4",
     "releasedAt": "2026-11-27",
@@ -67,7 +67,7 @@
     "console": "PlayStation 2",
     "mechanism": "in-progress",
     "platforms": [],
-    "stars": 54,
+    "stars": 55,
     "description": "Matching decompilation of Shadow of the Colossus (PS2, NTSC-U) aiming for a native PC port",
     "version": null,
     "releasedAt": "2026-11-27",
@@ -226,10 +226,10 @@
     "platforms": [],
     "stars": 90,
     "description": "Unofficial PC port of Gran Turismo 5 on ps3recomp. Needs your own GT5 disc, EBOOT v1.00, no update: Europe BCES00569 (tested) or US BCUS98114 (untested). Code and tools only: no game files, keys or firmware.",
-    "version": "v0.1.120",
+    "version": "v0.1.121",
     "releasedAt": "2026-11-27",
     "sizeBytes": 109773,
-    "releaseUrl": "https://github.com/MormonFTP-hub/gt5-recomp/releases/tag/v0.1.120",
+    "releaseUrl": "https://github.com/MormonFTP-hub/gt5-recomp/releases/tag/v0.1.121",
     "licenseId": "MIT",
     "licenseUrl": "https://api.github.com/licenses/mit",
     "curated": true
@@ -283,7 +283,7 @@
     "console": "Xbox Series X|S",
     "mechanism": "in-progress",
     "platforms": [],
-    "stars": 540,
+    "stars": 541,
     "description": "Continuation of Project Leonida, aiming to bring GTA VI from Xbox to PC through static recompilation.",
     "version": null,
     "releasedAt": "2026-11-27",
@@ -326,7 +326,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 1756,
+    "stars": 1755,
     "description": "Zelda Wind Waker HD Recomp",
     "version": "v0.5.3",
     "releasedAt": "2026-11-27",
@@ -414,7 +414,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 1060,
+    "stars": 1062,
     "description": "A cozy life-simulation and sandbox builder with fantastical creatures (Switch 2), recompiled to run natively on Windows, Linux and macOS. Multiplayer, all events, modding, enhancements and more.",
     "version": "v0.18.0",
     "releasedAt": "2026-11-27",
@@ -478,7 +478,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 678,
+    "stars": 677,
     "description": "A native Windows PC port of Super Mario Odyssey by static recompilation. Bring your own game: no game files included.",
     "version": "v1.0.4",
     "releasedAt": "2026-11-27",
@@ -585,10 +585,10 @@
     ],
     "stars": 57,
     "description": "Bayonetta 3 PC, Steam Deck and Android native port: static ARM-to-C++ recompiler, Horizon/NVN runtime and Vulkan backend. No emulator; bring your own 1.2.0 game files.",
-    "version": "v0.4.6",
+    "version": "v0.5.0",
     "releasedAt": "2026-11-27",
-    "sizeBytes": 271318351,
-    "releaseUrl": "https://github.com/aoxzh/bayo3-recomp/releases/tag/v0.4.6",
+    "sizeBytes": 271298805,
+    "releaseUrl": "https://github.com/aoxzh/bayo3-recomp/releases/tag/v0.5.0",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
@@ -769,6 +769,28 @@
     "curated": true
   },
   {
+    "id": "valentderah-totk-pc-recomp",
+    "repo": "valentderah/totk-pc-recomp",
+    "title": "The Legend of Zelda: Tears of the Kingdom",
+    "game": "tears-of-the-kingdom",
+    "author": "valentderah",
+    "console": "Nintendo Switch",
+    "mechanism": "recompiled",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 8380,
+    "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
+    "version": "v0.5.1",
+    "releasedAt": "2026-11-27",
+    "sizeBytes": 251083256,
+    "releaseUrl": "https://github.com/valentderah/totk-pc-recomp/releases/tag/v0.5.1",
+    "licenseId": "MIT",
+    "licenseUrl": "https://api.github.com/licenses/mit",
+    "curated": true
+  },
+  {
     "id": "gensokyoclub-th06",
     "repo": "GensokyoClub/th06",
     "title": "Touhou 6: The Embodiment of Scarlet Devil",
@@ -863,7 +885,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 92,
+    "stars": 93,
     "description": "The Legend of Zelda: A Link to the Past recompiled for the Super Nintendo using snesrecomp · Part of the R.A.I.D. community",
     "version": "v0.6.7",
     "releasedAt": "2026-11-26",
@@ -908,7 +930,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 244,
+    "stars": 245,
     "description": "Mega Man X recompiled for the Super Nintendo using snesrecomp · Part of the R.A.I.D. community",
     "version": "v2.4.12",
     "releasedAt": "2026-11-26",
@@ -1057,7 +1079,7 @@
     "console": "PlayStation",
     "mechanism": "native",
     "platforms": [],
-    "stars": 448,
+    "stars": 450,
     "description": "A Crash Team Racing Decompilation Project",
     "version": null,
     "releasedAt": "2026-11-26",
@@ -1124,7 +1146,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 220,
+    "stars": 221,
     "description": "Call of Duty: Modern Warfare 2 (2009) for Xbox 360 recompiled for Windows & Linux",
     "version": "v0.9.1",
     "releasedAt": "2026-11-26",
@@ -1273,7 +1295,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 357,
+    "stars": 356,
     "description": "Ninja Gaiden II (Xbox 360, 2008) statically recompiled into native Linux and Windows builds, drawn by its own Vulkan renderer. A steady 60 fps, up to 8x render scale, widescreen and ultrawide, keyboard and mouse, mods, Steam Deck ready. Bring your own copy of the game.",
     "version": "v0.8.1",
     "releasedAt": "2026-11-26",
@@ -1354,7 +1376,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 135,
+    "stars": 137,
     "description": "Project ReCity: GTA VI (Xbox Series) static recompilation for Windows, built on your PC from your own copy. No game files included.",
     "version": null,
     "releasedAt": "2026-11-26",
@@ -1378,7 +1400,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 252,
+    "stars": 253,
     "description": "A PC port of Downhill Domination (PS2), built on a matching decompilation. Bring your own disc.",
     "version": "v0.8.13",
     "releasedAt": "2026-11-25",
@@ -1397,7 +1419,7 @@
     "console": "PlayStation 3",
     "mechanism": "in-progress",
     "platforms": [],
-    "stars": 182,
+    "stars": 181,
     "description": "Killzone 3 // Unofficial PC Port (static recompilation). Work in progress, partly playable. Builds on your PC from your own game.",
     "version": null,
     "releasedAt": "2026-11-25",
@@ -1444,7 +1466,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 592,
+    "stars": 591,
     "description": "Dragon's Crown Pro native PC port for Windows, with direct PS4 PKG installation, TRG launcher and modern graphics options",
     "version": "v1.5.1",
     "releasedAt": "2026-11-25",
@@ -1503,7 +1525,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 620,
+    "stars": 621,
     "description": "This is an open source, all-in-one, static recompilation project that I built from the ground up for the Xbox 360 Gears of War series. All 4 games have been personally recompiled for use with a fully native renderer by me.",
     "version": "0.6.9",
     "releasedAt": "2026-11-25",
@@ -1634,7 +1656,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 1057,
+    "stars": 1058,
     "description": "Experimental native PC port of Lost Odyssey using static recompilation. No game assets included.",
     "version": "v1.2.0",
     "releasedAt": "2026-11-25",
@@ -1892,7 +1914,7 @@
     "console": "Nintendo Switch 2",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 114,
+    "stars": 115,
     "description": "Experimental Hyrule Warriors: Age of Imprisonment recompilation for Windows, with a local NUP compiler. Non-60 FPS modes accelerate gameplay; higher resolutions are unstable.",
     "version": null,
     "releasedAt": "2026-11-25",
@@ -2044,7 +2066,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 238,
+    "stars": 239,
     "description": "Native SDL3 port of Colin McRae Rally 2.0 built from the CMR2Decomp decompilation. No game data included.",
     "version": "v1.9.1",
     "releasedAt": "2026-11-24",
@@ -2067,7 +2089,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 118,
+    "stars": 119,
     "description": "Burnout 3: Takedown, native on every platform",
     "version": "v1.4.0",
     "releasedAt": "2026-11-24",
@@ -2711,7 +2733,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 373,
+    "stars": 374,
     "description": "Burnout Revenge recompilation based on RexGlue + standalone Plume render",
     "version": "v0.4.19",
     "releasedAt": "2026-11-23",
@@ -2778,7 +2800,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 59,
+    "stars": 60,
     "description": "Yoshi's Story Recomp",
     "version": "0.1.9",
     "releasedAt": "2026-11-23",
@@ -2797,7 +2819,7 @@
     "console": "Game Boy Advance",
     "mechanism": "native",
     "platforms": [],
-    "stars": 3720,
+    "stars": 3721,
     "description": "Decompilation of Pokémon Emerald",
     "version": null,
     "releasedAt": "2026-11-23",
@@ -2902,7 +2924,7 @@
     "console": "Nintendo DS",
     "mechanism": "native",
     "platforms": [],
-    "stars": 621,
+    "stars": 622,
     "description": "Decompilation of Pokémon Platinum",
     "version": null,
     "releasedAt": "2026-11-22",
@@ -2932,28 +2954,6 @@
     "releaseUrl": "https://github.com/mstan/ApeEscapeRecomp/releases/tag/v0.5.11",
     "licenseId": "NOASSERTION",
     "licenseUrl": null,
-    "curated": true
-  },
-  {
-    "id": "valentderah-totk-pc-recomp",
-    "repo": "valentderah/totk-pc-recomp",
-    "title": "The Legend of Zelda: Tears of the Kingdom",
-    "game": "tears-of-the-kingdom",
-    "author": "valentderah",
-    "console": "Nintendo Switch",
-    "mechanism": "recompiled",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 8381,
-    "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
-    "version": "v0.5.0",
-    "releasedAt": "2026-11-22",
-    "sizeBytes": 249973240,
-    "releaseUrl": "https://github.com/valentderah/totk-pc-recomp/releases/tag/v0.5.0",
-    "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit",
     "curated": true
   },
   {
@@ -3394,7 +3394,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 234,
+    "stars": 233,
     "description": "Odin Sphere Leifthrasir native PC port for Windows, with direct PS4 PKG installation, TRG launcher and modern graphics options",
     "version": "v0.3.0",
     "releasedAt": "2026-11-19",
@@ -3480,7 +3480,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 489,
+    "stars": 488,
     "description": "Static recompilation of Metroid Dread (Switch, 2.1.0) for Windows, Linux and Steam Deck. Bring your own dump: no game files, keys or dumping tools included.",
     "version": "v0.5.10",
     "releasedAt": "2026-11-19",
@@ -4256,7 +4256,7 @@
       "Linux",
       "iOS"
     ],
-    "stars": 685,
+    "stars": 686,
     "description": "The Legend of Zelda: The Wind Waker Recompiled. Native for MacOS, iOS, Windows, Linux, and Android.",
     "version": "v0.12.0",
     "releasedAt": "2026-11-15",
@@ -4493,7 +4493,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 771,
+    "stars": 772,
     "description": "A native Windows and Linux port of Grand Theft Auto: Vice City Stories (PS2, USA, SLUS-21590), made by recompiling the game's PS2 executable into C++",
     "version": "v0.3.0",
     "releasedAt": "2026-11-14",
@@ -4626,7 +4626,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5721,
+    "stars": 5722,
     "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
     "version": "windows-v1.9.8.6",
     "releasedAt": "2026-11-13",
@@ -4709,7 +4709,7 @@
     "console": "PSP",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 231,
+    "stars": 230,
     "description": "Unofficial native PC ports of God of War: Chains of Olympus and Ghost of Sparta (PSP) by static recompilation. Bring your own disc.",
     "version": "v1.6.0",
     "releasedAt": "2026-11-13",
@@ -4752,7 +4752,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 60,
+    "stars": 61,
     "description": "Native PC port of Knack (PS4): the game's own x86-64 code runs on the PC, with a PS4 runtime and the shadPS4 Vulkan video core. No emulator. 💙 Donate: PayPal a.deghbouche@esi-sba.dz or ko-fi.com/abd_dbh",
     "version": "v0.1.14",
     "releasedAt": "2026-11-12",
@@ -4923,7 +4923,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 974,
+    "stars": 973,
     "description": "Unofficial native PC and Steam Deck port of Tears of the Kingdom 1.4.3 using static recompilation. Builds locally from the player's own extracted game dump; no game files included.",
     "version": "v0.4.0",
     "releasedAt": "2026-11-11",
@@ -5781,7 +5781,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 344,
+    "stars": 345,
     "description": "GTA V (Xbox 360, TU27) static recompilation with ReXGlue",
     "version": "v0.3.0",
     "releasedAt": "2026-11-02",
@@ -5931,7 +5931,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 67,
+    "stars": 68,
     "description": "This project aims to create a Natively running Windows & Linux port of Haunting Ground (PS2) by static recompilation: it will support up to 4K resolution with HD textures i upscaled myself and 60 fps . Requires an US ISO of Haunting Ground",
     "version": "v0.2",
     "releasedAt": "2026-10-31",
@@ -5973,7 +5973,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 34404,
+    "stars": 34405,
     "description": "PlayStation 4 emulator for Windows, Linux, macOS and FreeBSD written in C++",
     "version": "v.0.21.0",
     "releasedAt": "2026-10-30",
@@ -6017,7 +6017,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 532,
+    "stars": 533,
     "description": "An unofficial PC port of the Xbox 360 version of Spider-Man: Edge of Time created through the process of static recompilation.",
     "version": "v1.1",
     "releasedAt": "2026-10-30",
@@ -6103,7 +6103,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 122,
+    "stars": 121,
     "description": "Marvel Ultimate Alliance 1, Gold Edition and 2 native PC ports via static recompilation, in one bundle with high frame rates, 4K rendering, ultrawide, HD Text, TRG launcher, and experimental Linux/Steam Deck support",
     "version": "v0.2.0",
     "releasedAt": "2026-10-29",
@@ -6982,7 +6982,7 @@
     "console": "Nintendo Switch",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 657,
+    "stars": 656,
     "description": "Unofficial static recompilation of Bayonetta 2 (Switch) for Windows. Builds the game on your PC from your own legally dumped copy. No game files, keys or SDK code included.",
     "version": "v0.3.3",
     "releasedAt": "2026-10-22",
@@ -8559,7 +8559,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 918,
+    "stars": 919,
     "description": "Multiplatform and Feature-rich Port based on PSX decompilation of Silent Hill 1 made with Claude and Psycross. Still in beta and is in active development.",
     "version": "crossplatform-beta",
     "releasedAt": "2026-09-04",
@@ -8732,7 +8732,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 2536,
+    "stars": 2535,
     "description": "2 Ship 2 Harkinian: a PC port of Majora's Mask built from the decompilation, with widescreen, high resolution and mod support.",
     "version": "5.0.1",
     "releasedAt": "2026-08-25",
