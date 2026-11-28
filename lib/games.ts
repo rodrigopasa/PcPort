@@ -2551,6 +2551,685 @@ export const GAMES: Record<string, GameMeta> = {
       en: "Juno, Vela and Lupus the dog take on Mizar’s insect army.",
     },
   },
+  'aerogauge': {
+    releasedAt: '1997-12-19',
+    developer: 'Locomotive',
+    publisher: 'ASCII Entertainment',
+    genres: ['Corrida', 'Futurista'],
+    summary: {
+      pt: "Corrida futurista com naves que flutuam sobre a pista, em alta velocidade.",
+      en: "Futuristic racing in machines that hover over the track at high speed.",
+    },
+  },
+  'aidyn-chronicles': {
+    releasedAt: '2001-03-20',
+    developer: 'H2O Entertainment',
+    publisher: 'THQ',
+    genres: ['RPG'],
+    summary: {
+      pt: "O escudeiro Alaron cruza o reino de Gwernia em busca da cura para um ferimento mágico.",
+      en: "The squire Alaron crosses the kingdom of Gwernia seeking a cure for a magical wound.",
+    },
+  },
+  'automobili-lamborghini': {
+    releasedAt: '1997-11-22',
+    developer: 'Titus France',
+    publisher: 'Titus France',
+    genres: ['Corrida'],
+    summary: {
+      pt: "Corridas com Lamborghinis e outros superesportivos da época, também em tela dividida.",
+      en: "Racing Lamborghinis and other supercars of the era, split screen included.",
+    },
+  },
+  'beetle-adventure-racing': {
+    releasedAt: '1999-03-23',
+    developer: 'Paradigm Entertainment',
+    publisher: 'Electronic Arts',
+    genres: ['Corrida'],
+    summary: {
+      pt: "O New Beetle da Volkswagen em pistas cheias de atalhos e caminhos secretos.",
+      en: "Volkswagen's New Beetle on tracks full of shortcuts and secret paths.",
+    },
+  },
+  'blast-corps': {
+    releasedAt: '1997-03-21',
+    developer: 'Rare',
+    publisher: 'Nintendo',
+    genres: ['Ação', 'Quebra-cabeça'],
+    summary: {
+      pt: "Uma equipe de demolição abre caminho para um caminhão de mísseis nucleares desgovernado.",
+      en: "A demolition crew clears the way for a runaway nuclear missile carrier.",
+    },
+  },
+  'bomberman-64': {
+    releasedAt: '1997-09-26',
+    developer: 'Hudson Soft',
+    publisher: 'Hudson Soft',
+    genres: ['Ação', 'Quebra-cabeça'],
+    summary: {
+      pt: "Bomberman em mundos 3D contra Altair, com bombas que crescem, rolam e podem ser arremessadas.",
+      en: "Bomberman in 3D worlds against Altair, with bombs that grow, roll and can be thrown.",
+    },
+  },
+  'bomberman-hero': {
+    releasedAt: '1998-04-30',
+    developer: 'A.I',
+    publisher: 'Hudson Soft',
+    genres: ['Plataforma', 'Ação'],
+    summary: {
+      pt: "Bomberman parte para resgatar a princesa Millian em fases de plataforma em 3D.",
+      en: "Bomberman sets out to rescue Princess Millian in 3D platforming stages.",
+    },
+  },
+  'castlevania-lod': {
+    releasedAt: '1999-12-08',
+    developer: 'Konami Computer Entertainment Kobe',
+    publisher: 'Konami',
+    genres: ['Ação', 'Aventura'],
+    summary: {
+      pt: "Cornell, um homem-lobo, invade o castelo de Drácula oito anos antes do Castlevania de 1999 para N64.",
+      en: "Cornell, a werewolf, storms Dracula's castle eight years before the 1999 Castlevania for N64.",
+    },
+  },
+  'harvest-moon-64': {
+    releasedAt: '1999-02-05',
+    developer: 'Victor Interactive Software',
+    publisher: 'Pack-In Soft',
+    genres: ['Simulação'],
+    summary: {
+      pt: "Um jovem herda a fazenda do avô e divide os dias entre plantação, animais e a vida na vila.",
+      en: "A young man inherits his grandfather's farm and splits his days between crops, animals and village life.",
+    },
+  },
+  'killer-instinct-gold': {
+    releasedAt: '1996-11-25',
+    developer: 'Rare',
+    publisher: 'Nintendo',
+    genres: ['Luta'],
+    summary: {
+      pt: "A versão de Nintendo 64 de Killer Instinct 2, com combos longos e golpes finais Ultra.",
+      en: "The Nintendo 64 version of Killer Instinct 2, with long combos and Ultra finishers.",
+    },
+  },
+  'quest-64': {
+    releasedAt: '1998-06-10',
+    developer: 'Imagineer',
+    publisher: 'THQ',
+    genres: ['RPG'],
+    summary: {
+      pt: "O aprendiz de mago Brian procura o pai e um livro roubado, e aprende magia com os quatro elementos.",
+      en: "Apprentice mage Brian searches for his father and a stolen book, learning magic from the four elements.",
+    },
+  },
+  'rocket-robot-on-wheels': {
+    releasedAt: '1999-11-12',
+    developer: 'Sucker Punch Productions',
+    publisher: 'Ubi Soft',
+    genres: ['Plataforma'],
+    summary: {
+      pt: "Um robô de uma roda só conserta um parque de diversões sabotado pelo guaxinim Jojo.",
+      en: "A one-wheeled robot repairs an amusement park sabotaged by Jojo the raccoon.",
+    },
+  },
+  'rush-2': {
+    releasedAt: '1998-11-11',
+    developer: 'Atari Games',
+    publisher: 'Midway',
+    genres: ['Corrida', 'Arcade'],
+    summary: {
+      pt: "Corridas arcade por cidades americanas, com saltos enormes e atalhos escondidos.",
+      en: "Arcade racing through American cities, with huge jumps and hidden shortcuts.",
+    },
+  },
+  'rogue-squadron': {
+    releasedAt: '1998-12-08',
+    developer: 'Factor 5',
+    publisher: 'LucasArts',
+    genres: ['Ação', 'Simulação de voo'],
+    summary: {
+      pt: "Luke Skywalker e Wedge Antilles lideram o Esquadrão Rogue em missões de X-wing entre os filmes.",
+      en: "Luke Skywalker and Wedge Antilles lead Rogue Squadron in X-wing missions set between the films.",
+    },
+  },
+  'starcraft-64': {
+    releasedAt: '2000-06-13',
+    developer: 'Blizzard Entertainment e Mass Media',
+    publisher: 'Nintendo',
+    genres: ['Estratégia em tempo real'],
+    summary: {
+      pt: "O StarCraft do PC, com a expansão Brood War, adaptado ao controle do Nintendo 64.",
+      en: "The PC StarCraft, Brood War expansion included, adapted to the Nintendo 64 controller.",
+    },
+  },
+  'super-robot-wars-64': {
+    releasedAt: '1999-10-29',
+    developer: 'AI',
+    publisher: 'Banpresto',
+    genres: ['RPG tático'],
+    summary: {
+      pt: "Robôs de vários animes, de Gundam a Mazinger, lado a lado num RPG tático lançado só no Japão.",
+      en: "Robots from many anime, from Gundam to Mazinger, side by side in a tactics RPG released only in Japan.",
+    },
+  },
+  'wcw-vs-nwo-world-tour': {
+    releasedAt: '1997-12-02',
+    developer: 'AKI Corporation e Asmik Ace',
+    publisher: 'THQ',
+    genres: ['Luta', 'Esporte'],
+    summary: {
+      pt: "Luta livre da WCW de 1997, com o sistema de agarrões que a AKI levaria depois a WWF No Mercy.",
+      en: "WCW wrestling from 1997, with the grappling system AKI later carried into WWF No Mercy.",
+    },
+  },
+  'ape-escape': {
+    releasedAt: '1999-06-22',
+    developer: 'Sony Computer Entertainment Japan',
+    publisher: 'Sony Computer Entertainment',
+    genres: ['Plataforma'],
+    summary: {
+      pt: "Spike captura macacos espalhados pela história, no primeiro jogo que exigia o controle DualShock.",
+      en: "Spike catches monkeys scattered through history, in the first game to require the DualShock controller.",
+    },
+  },
+  'hercules-ps1': {
+    releasedAt: '1997-07-03',
+    developer: 'Eurocom',
+    publisher: 'Virgin Interactive',
+    genres: ['Plataforma', 'Ação'],
+    summary: {
+      pt: "Hércules treina com Filoctetes e enfrenta Hades em fases inspiradas no filme da Disney.",
+      en: "Hercules trains with Phil and takes on Hades in stages drawn from the Disney film.",
+    },
+  },
+  'medal-of-honor': {
+    releasedAt: '1999-11-10',
+    developer: 'DreamWorks Interactive',
+    publisher: 'Electronic Arts',
+    genres: ['Tiro em primeira pessoa'],
+    summary: {
+      pt: "O tenente Jimmy Patterson age atrás das linhas alemãs na Segunda Guerra, num jogo idealizado por Steven Spielberg.",
+      en: "Lieutenant Jimmy Patterson operates behind German lines in World War II, in a game conceived by Steven Spielberg.",
+    },
+  },
+  'medievil': {
+    releasedAt: '1998-10-09',
+    developer: 'SCE Cambridge Studio',
+    publisher: 'Sony Computer Entertainment',
+    genres: ['Ação', 'Aventura'],
+    summary: {
+      pt: "Sir Daniel Fortesque, cavaleiro morto na primeira batalha, volta do túmulo cem anos depois para deter Zarok.",
+      en: "Sir Daniel Fortesque, a knight who fell in the first battle, rises from the grave a century later to stop Zarok.",
+    },
+  },
+  'ridge-racer': {
+    releasedAt: '1994-12-03',
+    developer: 'Namco',
+    publisher: 'Namco',
+    genres: ['Corrida', 'Arcade'],
+    summary: {
+      pt: "Corrida arcade de derrapagens que chegou junto com o PlayStation no Japão.",
+      en: "Drift-heavy arcade racing that launched alongside the PlayStation in Japan.",
+    },
+  },
+  'street-fighter-alpha-3': {
+    releasedAt: '1998-12-23',
+    developer: 'Capcom',
+    publisher: 'Capcom',
+    genres: ['Luta'],
+    summary: {
+      pt: "Luta 2D com três estilos para cada personagem, os ismos, e o maior elenco da série Alpha.",
+      en: "A 2D fighter with three styles for every character, the isms, and the largest roster in the Alpha series.",
+    },
+  },
+  'street-fighter-ex-plus-alpha': {
+    releasedAt: '1997-07-17',
+    developer: 'Arika',
+    publisher: 'Capcom',
+    genres: ['Luta'],
+    summary: {
+      pt: "O primeiro Street Fighter em 3D, com lutadores clássicos e novos criados pela Arika.",
+      en: "The first 3D Street Fighter, with classic fighters and new ones created by Arika.",
+    },
+  },
+  'strider-2': {
+    releasedAt: '2000-02-24',
+    developer: 'Capcom',
+    publisher: 'Capcom',
+    genres: ['Ação', 'Plataforma'],
+    summary: {
+      pt: "Strider Hiryu volta com a espada Cypher para enfrentar de novo o Grandmaster Meio.",
+      en: "Strider Hiryu returns with his Cypher blade to face Grandmaster Meio again.",
+    },
+  },
+  'syphon-filter-2': {
+    releasedAt: '2000-03-14',
+    developer: 'Eidetic',
+    publisher: '989 Studios',
+    genres: ['Ação', 'Tiro em terceira pessoa'],
+    summary: {
+      pt: "Gabe Logan e Lian Xing, caçados pela própria agência, seguem atrás do vírus Syphon Filter.",
+      en: "Gabe Logan and Lian Xing, hunted by their own agency, stay on the trail of the Syphon Filter virus.",
+    },
+  },
+  'tomba': {
+    releasedAt: '1997-12-25',
+    developer: 'Whoopee Camp',
+    publisher: 'Whoopee Camp',
+    genres: ['Plataforma', 'Aventura'],
+    summary: {
+      pt: "Um garoto selvagem de cabelo rosa persegue os Porcos Malvados que roubaram o bracelete do avô.",
+      en: "A pink-haired wild boy chases the Evil Pigs who stole his grandfather's bracelet.",
+    },
+  },
+  'twisted-metal-2': {
+    releasedAt: '1996-11-08',
+    developer: 'SingleTrac',
+    publisher: 'Sony Computer Entertainment',
+    genres: ['Ação', 'Corrida'],
+    summary: {
+      pt: "Combate de carros pelo mundo, de Los Angeles a Paris, no torneio de Calypso.",
+      en: "Car combat around the world, from Los Angeles to Paris, in Calypso's tournament.",
+    },
+  },
+  'downhill-domination': {
+    releasedAt: '2003-07-22',
+    developer: 'Incognito Entertainment',
+    publisher: 'Sony Computer Entertainment',
+    genres: ['Corrida', 'Esporte'],
+    summary: {
+      pt: "Mountain bike ladeira abaixo, com manobras e golpes nos rivais no meio da descida.",
+      en: "Downhill mountain biking, with tricks and hits on rivals on the way down.",
+    },
+  },
+  'guitar-hero-ii': {
+    releasedAt: '2006-11-07',
+    developer: 'Harmonix',
+    publisher: 'RedOctane',
+    genres: ['Ritmo'],
+    summary: {
+      pt: "A guitarra de plástico de volta, agora com baixo e guitarra base no modo cooperativo.",
+      en: "The plastic guitar is back, now with bass and rhythm guitar in co-op.",
+    },
+  },
+  'rampage-total-destruction': {
+    releasedAt: '2006-04-24',
+    developer: 'Pipeworks Software',
+    publisher: 'Midway',
+    genres: ['Ação', 'Arcade'],
+    summary: {
+      pt: "George, Lizzie, Ralph e outros monstros gigantes derrubam prédios cidade por cidade.",
+      en: "George, Lizzie, Ralph and other giant monsters level buildings city by city.",
+    },
+  },
+  'socom-ii': {
+    releasedAt: '2003-11-04',
+    developer: 'Zipper Interactive',
+    publisher: 'Sony Computer Entertainment',
+    genres: ['Tiro em terceira pessoa'],
+    summary: {
+      pt: "Missões táticas de um esquadrão de SEALs, com comandos de voz e partidas online.",
+      en: "Tactical missions for a SEAL squad, with voice commands and online matches.",
+    },
+  },
+  'shinobi-ps2': {
+    releasedAt: '2002-11-12',
+    developer: 'Overworks',
+    publisher: 'Sega',
+    genres: ['Ação', 'Hack and slash'],
+    summary: {
+      pt: "Hotsuma e a espada Akujiki, que se alimenta das almas dos inimigos, numa Tóquio destruída.",
+      en: "Hotsuma and the Akujiki blade, which feeds on enemy souls, in a ruined Tokyo.",
+    },
+  },
+  'transformers-armada': {
+    releasedAt: '2004-05-07',
+    developer: 'Melbourne House',
+    publisher: 'Atari',
+    genres: ['Ação', 'Tiro em terceira pessoa'],
+    summary: {
+      pt: "Optimus Prime, Hot Shot e Red Alert enfrentam os Decepticons com a ajuda dos Mini-Cons.",
+      en: "Optimus Prime, Hot Shot and Red Alert take on the Decepticons with help from the Mini-Cons.",
+    },
+  },
+  'urban-reign': {
+    releasedAt: '2005-09-13',
+    developer: 'Namco',
+    publisher: 'Namco',
+    genres: ['Luta', 'Briga'],
+    summary: {
+      pt: "Brad Hawk, lutador contratado, enfrenta as gangues de uma cidade em brigas de rua.",
+      en: "Brad Hawk, a hired fighter, takes on a city's gangs in street brawls.",
+    },
+  },
+  'smackdown-hctp': {
+    releasedAt: '2003-10-27',
+    developer: 'Yuke\'s',
+    publisher: 'THQ',
+    genres: ['Luta', 'Esporte'],
+    summary: {
+      pt: "Luta livre com o elenco da WWE de 2003 e um modo temporada movido a rivalidades.",
+      en: "Wrestling with the 2003 WWE roster and a season mode built on rivalries.",
+    },
+  },
+  '007-agent-under-fire': {
+    releasedAt: '2002-03-26',
+    developer: 'EA Redwood Shores',
+    publisher: 'Electronic Arts',
+    genres: ['Tiro em primeira pessoa'],
+    summary: {
+      pt: "James Bond numa história original, sem filme por trás, contra uma organização que clona líderes mundiais.",
+      en: "James Bond in an original story, with no film behind it, against an organization cloning world leaders.",
+    },
+  },
+  'bloody-roar-extreme': {
+    releasedAt: '2003-05-27',
+    developer: 'Eighting',
+    publisher: 'Konami',
+    genres: ['Luta'],
+    summary: {
+      pt: "Lutadores que viram feras no meio da luta, numa versão ampliada de Bloody Roar: Primal Fury.",
+      en: "Fighters who turn into beasts mid-fight, in an expanded version of Bloody Roar: Primal Fury.",
+    },
+  },
+  'colin-mcrae-rally-2005': {
+    releasedAt: '2004-09-24',
+    developer: 'Codemasters',
+    publisher: 'Codemasters',
+    genres: ['Corrida', 'Rali'],
+    summary: {
+      pt: "Rali por vários países, com um modo carreira que passa por dezenas de carros.",
+      en: "Rally across many countries, with a career mode spanning dozens of cars.",
+    },
+  },
+  'dead-or-alive-2-ultimate': {
+    releasedAt: '2004-10-26',
+    developer: 'Team Ninja',
+    publisher: 'Tecmo',
+    genres: ['Luta'],
+    summary: {
+      pt: "Dead or Alive 2 refeito para o Xbox, com cenários de vários andares e as primeiras lutas online da série.",
+      en: "Dead or Alive 2 remade for the Xbox, with multi-level stages and the series' first online fights.",
+    },
+  },
+  'midtown-madness-3': {
+    releasedAt: '2003-06-17',
+    developer: 'Digital Illusions CE',
+    publisher: 'Microsoft Game Studios',
+    genres: ['Corrida', 'Mundo aberto'],
+    summary: {
+      pt: "Corridas livres por Paris e Washington, com trabalhos de entregador, taxista e policial.",
+      en: "Free-roaming races through Paris and Washington, with jobs as a courier, a cabbie and a cop.",
+    },
+  },
+  'predator-concrete-jungle': {
+    releasedAt: '2005-04-15',
+    developer: 'Eurocom',
+    publisher: 'Vivendi Universal Games',
+    genres: ['Ação', 'Hack and slash'],
+    summary: {
+      pt: "Um Predador exilado volta à Terra para recuperar a honra numa cidade futurista dominada pelo crime.",
+      en: "An exiled Predator returns to Earth to win back his honour in a crime-ridden future city.",
+    },
+  },
+  'scarface-twiy': {
+    releasedAt: '2006-10-10',
+    developer: 'Radical Entertainment',
+    publisher: 'Vivendi Games',
+    genres: ['Ação e aventura', 'Mundo aberto'],
+    summary: {
+      pt: "E se Tony Montana sobrevivesse ao fim do filme: ele reconstrói o império em Miami.",
+      en: "What if Tony Montana survived the end of the film: he rebuilds his empire in Miami.",
+    },
+  },
+  'fifa-world-cup-2014': {
+    releasedAt: '2014-04-15',
+    developer: 'EA Canada',
+    publisher: 'EA Sports',
+    genres: ['Esporte', 'Futebol'],
+    summary: {
+      pt: "O jogo oficial da Copa do Mundo no Brasil, com as seleções e os estádios do torneio.",
+      en: "The official game of the World Cup in Brazil, with the tournament's teams and stadiums.",
+    },
+  },
+  'dead-or-alive-xtreme-2': {
+    releasedAt: '2006-11-13',
+    developer: 'Team Ninja',
+    publisher: 'Tecmo',
+    genres: ['Esporte'],
+    summary: {
+      pt: "Férias numa ilha com as lutadoras de Dead or Alive, entre vôlei de praia e minijogos na água.",
+      en: "A holiday on an island with the Dead or Alive fighters, between beach volleyball and water minigames.",
+    },
+  },
+  'destroy-all-humans-furon': {
+    releasedAt: '2008-12-01',
+    developer: 'Sandblast Games',
+    publisher: 'THQ',
+    genres: ['Ação', 'Mundo aberto'],
+    summary: {
+      pt: "O alienígena Crypto volta nos anos 70, abduzindo humanos e destruindo cidades com o disco voador.",
+      en: "The alien Crypto returns in the 1970s, abducting humans and wrecking cities from his saucer.",
+    },
+  },
+  'dodonpachi-saidaioujou': {
+    releasedAt: '2013-05-30',
+    developer: 'Cave',
+    publisher: 'Cave',
+    genres: ['Tiro', 'Arcade'],
+    summary: {
+      pt: "Tiro vertical de chuva de balas, o quinto jogo da série DonPachi.",
+      en: "A vertical bullet-hell shooter, the fifth game in the DonPachi series.",
+    },
+  },
+  'raging-blast-2': {
+    releasedAt: '2010-11-02',
+    developer: 'Spike',
+    publisher: 'Namco Bandai Games',
+    genres: ['Luta'],
+    summary: {
+      pt: "Lutas em 3D de Dragon Ball Z, com voo livre e cenários que se despedaçam.",
+      en: "Dragon Ball Z fights in 3D, with free flight and stages that break apart.",
+    },
+  },
+  'earthworm-jim-hd': {
+    releasedAt: '2010-06-09',
+    developer: 'Gameloft',
+    publisher: 'Gameloft',
+    genres: ['Plataforma'],
+    summary: {
+      pt: "A minhoca de supertraje do jogo de 1994, redesenhada em alta definição e com cooperativo.",
+      en: "The super-suited worm of the 1994 game, redrawn in high definition, with co-op.",
+    },
+  },
+  'fifa-09': {
+    releasedAt: '2008-10-02',
+    developer: 'EA Canada',
+    publisher: 'EA Sports',
+    genres: ['Esporte', 'Futebol'],
+    summary: {
+      pt: "Futebol com o modo Seja um Profissional, em que se controla um único jogador em campo.",
+      en: "Football with Be a Pro, where you control a single player on the pitch.",
+    },
+  },
+  'naruto-storm-2': {
+    releasedAt: '2010-10-15',
+    developer: 'CyberConnect2',
+    publisher: 'Namco Bandai Games',
+    genres: ['Luta'],
+    summary: {
+      pt: "Lutas em 3D que seguem o anime Naruto Shippuden, com chefes gigantes e cenas interativas.",
+      en: "Fights in 3D that follow the Naruto Shippuden anime, with giant bosses and interactive scenes.",
+    },
+  },
+  'naruto-storm-3-full-burst': {
+    releasedAt: '2013-10-22',
+    developer: 'CyberConnect2',
+    publisher: 'Namco Bandai Games',
+    genres: ['Luta'],
+    summary: {
+      pt: "A Quarta Grande Guerra Ninja em lutas 3D, numa edição ampliada com um capítulo novo para Kabuto.",
+      en: "The Fourth Great Ninja War in 3D fights, in an expanded edition with a new chapter for Kabuto.",
+    },
+  },
+  'naruto-storm-revolution': {
+    releasedAt: '2014-09-11',
+    developer: 'CyberConnect2',
+    publisher: 'Bandai Namco Games',
+    genres: ['Luta'],
+    summary: {
+      pt: "Lutas em 3D de Naruto Shippuden com mais de cem personagens e histórias inéditas fora do anime.",
+      en: "Naruto Shippuden fights in 3D with more than a hundred characters and stories not told in the anime.",
+    },
+  },
+  'pirates-at-worlds-end': {
+    releasedAt: '2007-05-22',
+    developer: 'Eurocom',
+    publisher: 'Disney Interactive Studios',
+    genres: ['Ação', 'Aventura'],
+    summary: {
+      pt: "Jack Sparrow e Will Turner nas histórias do segundo e do terceiro filme da série.",
+      en: "Jack Sparrow and Will Turner through the stories of the second and third films.",
+    },
+  },
+  'rayman-3-hd': {
+    releasedAt: '2012-03-21',
+    developer: 'Ubisoft Shanghai',
+    publisher: 'Ubisoft',
+    genres: ['Plataforma'],
+    summary: {
+      pt: "Rayman persegue André, um lum negro que espalha capangas pelo mundo, agora em alta definição.",
+      en: "Rayman chases André, a black lum spreading Hoodlums across the world, now in high definition.",
+    },
+  },
+  'stuntman-ignition': {
+    releasedAt: '2007-08-28',
+    developer: 'Paradigm Entertainment',
+    publisher: 'THQ',
+    genres: ['Corrida', 'Ação'],
+    summary: {
+      pt: "Um dublê grava cenas de ação para filmes fictícios, cada manobra marcada no tempo certo.",
+      en: "A stunt driver shoots action scenes for fictional films, every stunt cued to the right moment.",
+    },
+  },
+  'tmnt-turtles-in-time-reshelled': {
+    releasedAt: '2009-08-05',
+    developer: 'Ubisoft Singapore',
+    publisher: 'Ubisoft',
+    genres: ['Ação', 'Briga'],
+    summary: {
+      pt: "O beat em up de 1991 das Tartarugas Ninja refeito em 3D, para até quatro jogadores.",
+      en: "The 1991 Turtles in Time beat 'em up remade in 3D, for up to four players.",
+    },
+  },
+  'wwe-12': {
+    releasedAt: '2011-11-22',
+    developer: 'Yuke\'s',
+    publisher: 'THQ',
+    genres: ['Luta', 'Esporte'],
+    summary: {
+      pt: "O primeiro depois do fim do nome SmackDown vs. Raw, com o modo Road to WrestleMania.",
+      en: "The first after the SmackDown vs. Raw name was dropped, with the Road to WrestleMania mode.",
+    },
+  },
+  'wwe-13': {
+    releasedAt: '2012-10-30',
+    developer: 'Yuke\'s',
+    publisher: 'THQ',
+    genres: ['Luta', 'Esporte'],
+    summary: {
+      pt: "Luta livre com o modo Attitude Era, que recria a WWE do fim dos anos 90.",
+      en: "Wrestling with the Attitude Era mode, recreating the WWE of the late 1990s.",
+    },
+  },
+  'wwe-2k14': {
+    releasedAt: '2013-10-29',
+    developer: 'Yuke\'s',
+    publisher: '2K Sports',
+    genres: ['Luta', 'Esporte'],
+    summary: {
+      pt: "O primeiro da série pela 2K, com o modo 30 Years of WrestleMania.",
+      en: "The series' first under 2K, with the 30 Years of WrestleMania mode.",
+    },
+  },
+  'ryu-ga-gotoku-kenzan': {
+    releasedAt: '2008-03-06',
+    developer: 'Sega',
+    publisher: 'Sega',
+    genres: ['Ação e aventura', 'Briga'],
+    summary: {
+      pt: "Um spin-off de Yakuza no Japão do século XVII, com o espadachim Miyamoto Musashi.",
+      en: "A Yakuza spin-off set in 17th-century Japan, following the swordsman Miyamoto Musashi.",
+    },
+  },
+  'soulcalibur-ii-hd': {
+    releasedAt: '2013-11-19',
+    developer: 'Project Soul',
+    publisher: 'Namco Bandai Games',
+    genres: ['Luta'],
+    summary: {
+      pt: "Soulcalibur II em alta definição, com partidas online e os convidados Heihachi e Spawn.",
+      en: "Soulcalibur II in high definition, with online matches and guest fighters Heihachi and Spawn.",
+    },
+  },
+  'rayman-3-gba': {
+    releasedAt: '2003-02-21',
+    developer: 'Ludi Factory',
+    publisher: 'Ubi Soft',
+    genres: ['Plataforma'],
+    summary: {
+      pt: "Uma versão própria para o Game Boy Advance, em 2D, com fases diferentes das do console.",
+      en: "A version of its own for the Game Boy Advance, in 2D, with stages unlike the console game's.",
+    },
+  },
+  'yo-kai-watch-4': {
+    releasedAt: '2019-12-05',
+    developer: 'Level-5',
+    publisher: 'Level-5',
+    genres: ['RPG'],
+    summary: {
+      pt: "Versão ampliada de Yo-kai Watch 4, que cruza gerações da série e só saiu no Japão.",
+      en: "An expanded Yo-kai Watch 4, crossing generations of the series, released only in Japan.",
+    },
+  },
+  'tomodachi-life-ltd': {
+    releasedAt: '2026-04-16',
+    developer: 'Nintendo EPD',
+    publisher: 'Nintendo',
+    genres: ['Simulação'],
+    summary: {
+      pt: "Miis vivem numa ilha uma vida que o jogador observa: amizades, brigas, namoros e sonhos estranhos.",
+      en: "Miis live out island lives the player watches: friendships, quarrels, romances and odd dreams.",
+    },
+  },
+  'deus-ex-hr': {
+    releasedAt: '2011-08-23',
+    developer: 'Eidos-Montréal',
+    publisher: 'Square Enix',
+    genres: ['RPG de ação', 'Furtividade'],
+    summary: {
+      pt: "Adam Jensen, chefe de segurança com implantes cibernéticos, investiga um ataque em 2027.",
+      en: "Adam Jensen, a security chief with cybernetic implants, investigates an attack in 2027.",
+    },
+  },
+  'binding-of-isaac': {
+    releasedAt: '2011-09-28',
+    developer: 'Edmund McMillen e Florian Himsl',
+    genres: ['Ação', 'Roguelike'],
+    summary: {
+      pt: "Isaac foge pelo porão da mãe em salas geradas ao acaso, e cada partida é diferente.",
+      en: "Isaac flees through his mother's basement in randomly generated rooms, and every run is different.",
+    },
+  },
+  'touhou-6': {
+    releasedAt: '2002-08-11',
+    developer: 'Team Shanghai Alice',
+    publisher: 'Team Shanghai Alice',
+    genres: ['Tiro'],
+    summary: {
+      pt: "Reimu e Marisa enfrentam uma névoa vermelha que cobre Gensokyo, no primeiro Touhou para Windows.",
+      en: "Reimu and Marisa face a scarlet mist covering Gensokyo, in the first Touhou for Windows.",
+    },
+  },
   wet: {
     releasedAt: '2009-09-15',
     developer: 'Artificial Mind and Movement',

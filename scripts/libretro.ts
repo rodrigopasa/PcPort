@@ -94,6 +94,10 @@ const COVER_CONSOLE: Record<string, string> = {
   'fifa-street': 'PlayStation 2',
   'virtua-fighter': 'Sega 32X',
   'breath-of-the-wild': 'Wii U',
+  // The 360 versions are not in the archive; the PlayStation 2 release of
+  // the same year carries the same box art.
+  'fifa-09': 'PlayStation 2',
+  'stuntman-ignition': 'PlayStation 2',
 }
 
 
@@ -123,6 +127,8 @@ const ALIAS: Record<string, string> = {
   // The catalog says "PlayStation Doom" to tell it from PC Doom; on the
   // PlayStation shelf of the archive it is simply "Doom".
   'psx-doom': 'Doom',
+  'hercules-ps1': "Disney's Hercules Action Game",
+  'rayman-3-gba': 'Rayman 3',
 }
 
 /** Builds and demos are not the retail box. */
@@ -131,7 +137,10 @@ const ALIAS: Record<string, string> = {
  * always, but a file can carry the wrong scan under the right name.
  */
 const REJECTED: Record<string, string> = {
-  'mario-party': 'the file named Mario Party (USA) holds the Mario Party 3 box',
+  // 'mario-party' was rejected on 2026-11-25 as the Mario Party 3 box. It is the
+  // Mario Party 1 box (the 3 is on a dice block), checked against Wikipedia's cover.
+  // Judged by eye on 2026-11-28.
+  'dead-or-alive-2-ultimate': 'the archive has only the Disc 1 scan, the Dead or Alive 1 Ultimate box',
 }
 
 const NOT_RETAIL = /\((beta|demo|proto|sample|program|kiosk|debug)\b/i

@@ -162,6 +162,18 @@ const WIKI: Record<string, string[]> = {
  */
 const REJECTED: Record<string, string> = {
   // Judged by eye on 2026-11-28.
+  'hercules-ps1': 'Fandom served a British age-rating label, not the game',
+  'dead-or-alive-2-ultimate': 'Fandom served the Dreamcast Dead or Alive 2 box, not Ultimate',
+  'earthworm-jim-hd': 'Fandom served the 1994 Mega Drive box, not the HD remake',
+  'fifa-09': 'Fandom served the box of FIFA 10, a different game',
+  'naruto-storm-3-full-burst': 'Fandom served the box of the first Ultimate Ninja Storm, a different game',
+  'naruto-storm-revolution': 'Fandom served the Ultimate Ninja Storm 4 logo, a different game',
+  'tmnt-turtles-in-time-reshelled': 'Fandom served a screenshot of the NES TMNT II, not the game',
+  'ryu-ga-gotoku-kenzan': 'Fandom served the box of Yakuza 5, a different game',
+  'rayman-3-gba': 'Fandom served the PC box of the console Rayman 3, not the GBA game',
+  'yo-kai-watch-4': 'Fandom served a Mario amiibo, not the game',
+  'tomodachi-life-ltd': 'Fandom served the box of Mario & Luigi: Dream Team, a different game',
+  'binding-of-isaac': 'Fandom served the Afterbirth+ store logo, not the game',
   'hyrule-warriors-aoi': 'Fandom served the Hyrule Warriors: Age of Calamity logo, a different game',
   'ssx-2012': 'Fandom served the box of SSX On Tour, a different game',
   'perfect-dark-zero': 'Fandom served an Australian classification certificate, not the game',
