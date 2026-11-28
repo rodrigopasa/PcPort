@@ -161,6 +161,20 @@ const WIKI: Record<string, string[]> = {
  * file anyway and the list stops mattering.
  */
 const REJECTED: Record<string, string> = {
+  // Judged by eye on 2026-11-28.
+  'hyrule-warriors-aoi': 'Fandom served the Hyrule Warriors: Age of Calamity logo, a different game',
+  'ssx-2012': 'Fandom served the box of SSX On Tour, a different game',
+  'perfect-dark-zero': 'Fandom served an Australian classification certificate, not the game',
+  'knack-2': 'Fandom served the box of the first Knack, a different game',
+  'goldeneye-reloaded': 'Fandom served the Nintendo 64 GoldenEye box, a different game',
+  'far-cry-instincts-predator': 'Fandom served the box of the first Far Cry Instincts, a different game',
+  'bayonetta-3': 'Fandom served the box of the first Bayonetta, a different game',
+  'gh-warriors-of-rock': 'Fandom served the box of Guitar Hero III, a different game',
+  'mario-luigi-brothership': 'Fandom served the box of Partners in Time, a different game',
+  'civilization-revolution': 'Fandom served the box of the first Civilization, a different game',
+  'fire-emblem-fates': 'Fandom served the logo, not the box',
+  'splatterhouse': 'Fandom served the box of the 1990 TurboGrafx Splatterhouse, a different game',
+  'hydro-thunder-hurricane': 'Fandom served the box of the first Hydro Thunder, a different game',
   // Judged by eye on 2026-11-25.
   'outrun': 'Fandom served an Australian classification certificate, not the game',
   'metroid-dread': 'Fandom served character art of Samus, not the box',

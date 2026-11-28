@@ -28,7 +28,9 @@ GITHUB_TOKEN="$(grep -E '^GITHUB_TOKEN=' /opt/pcport/.env 2>/dev/null | cut -d= 
 AUTH=()
 [ -n "${GITHUB_TOKEN:-}" ] && AUTH=(-H "Authorization: Bearer $GITHUB_TOKEN")
 VOLUME="pcport_catalog-data"
-FILES="catalog.json shots.json fandom.json covers.json libretro.json"
+# The old-address files ride along: the hourly refresh renames and removes
+# entries, and their redirects have to arrive with the catalog that made them.
+FILES="catalog.json shots.json fandom.json covers.json libretro.json slug-history.json slug-gone.json"
 TMP="$(mktemp -d)"
 trap 'rm -rf "$TMP"' EXIT
 

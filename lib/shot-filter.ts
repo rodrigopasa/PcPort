@@ -103,6 +103,24 @@ const REJECTED: string[] = [
   "https://github.com/user-attachments/assets/2bf3f451-05f7-40a8-80ce-93ad4740b90a",
   "https://github.com/user-attachments/assets/d80c06b9-bc26-4fca-b235-22de8d32971b",
   "https://github.com/user-attachments/assets/acde8277-e179-48aa-a379-329655ab4323",
+  // Reviewed on contact sheets on 2026-11-28: launcher and settings screens,
+  // promotional pages, official art and a frame with Android touch controls.
+  "https://raw.githubusercontent.com/iCosiSenpai/age-of-decomp/main/docs/assets/screenshots/home.png",
+  "https://raw.githubusercontent.com/iCosiSenpai/age-of-decomp/main/docs/assets/screenshots/setup.png",
+  "https://raw.githubusercontent.com/iCosiSenpai/age-of-decomp/main/docs/assets/screenshots/display.png",
+  "https://raw.githubusercontent.com/TekRantGaming/Battlefield-1943-Reborn/main/docs/images/readme/hero.png",
+  "https://raw.githubusercontent.com/TekRantGaming/Battlefield-1943-Reborn/main/docs/images/readme/board-048.jpg",
+  "https://raw.githubusercontent.com/TekRantGaming/Battlefield-1943-Reborn/main/docs/images/readme/chapter-1.png",
+  "https://github.com/user-attachments/assets/5dd81a7e-44d2-44fa-8f6b-86bf49129ac8",
+  "https://github.com/user-attachments/assets/e07df3fd-04f2-4dbd-af32-0faa8ec42773",
+  "https://raw.githubusercontent.com/GenissonEmilio/ShadowOfTheColossusPC/main/docs/android-widescreen.png",
+  "https://raw.githubusercontent.com/teclilla18/sonic-riders-recomp/main/docs/images/v0.10.0/online-crossplay.jpg",
+  "https://raw.githubusercontent.com/teclilla18/sonic-riders-recomp/main/docs/images/sonic-riders-readme.jpg",
+  "https://raw.githubusercontent.com/Destinity13/TimeSplitters-2-Native-Recomp-Windows-Linux-SteamDeck/main/news/img/online-hero.jpg",
+  "https://github.com/user-attachments/assets/def470af-3424-4f7b-910c-f9d327352faa",
+  "https://raw.githubusercontent.com/AmarilloNL/ssx-recomp/main/art/screenshot-setup.png",
+  "https://raw.githubusercontent.com/AmarilloNL/ssx-recomp/main/art/screenshot-f1-display.png",
+  "https://github.com/user-attachments/assets/bbcdef35-0007-42e6-ba53-da89b478f862",
 ]
 
 export function isUsableShot(s: { url: string; w: number; h: number }): boolean {

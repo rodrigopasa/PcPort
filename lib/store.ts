@@ -76,6 +76,19 @@ export function libretro<T>(): T {
 }
 
 /**
+ * Old addresses. Read at run time like the catalog, because the hourly
+ * refresh renames and removes entries: imported at build time, an address the
+ * refresh retired answered 404 until the next deploy. The copy built into the
+ * bundle is the fallback.
+ */
+export function slugHistory<T>(built: T): T {
+  return read('slug-history', built)
+}
+export function slugGone<T>(built: T): T {
+  return read('slug-gone', built)
+}
+
+/**
  * Kept for the revalidate endpoint. Invalidation is by mtime, so this is only
  * a belt-and-braces drop of the cache.
  */

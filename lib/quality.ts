@@ -49,6 +49,13 @@ export type Candidate = {
  * catches nothing.
  */
 const DENIED: Record<string, string> = {
+  // Judged on 2026-11-28.
+  "aashiqkhan9568-ctrl/project-leonida-gta-vi-port":
+    "no source code: a PowerShell installer fetched from a website, the shape of malware bait",
+  "GhostScitSMT/Shadow-of-the-Colossus-Android-Port":
+    "runs on Android only, and the repository has no code",
+  "OpenJoystickDriver/OpenJoystickDriver":
+    "not a game port: a gamepad driver for macOS",
   // Judged on 2026-11-25.
   "dennis5heikh/native-instruments-massive-x":
     "not a game: a paid audio plugin offered for Windows from a repository with no code, the shape of malware bait",

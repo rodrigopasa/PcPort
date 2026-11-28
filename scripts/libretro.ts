@@ -126,6 +126,14 @@ const ALIAS: Record<string, string> = {
 }
 
 /** Builds and demos are not the retail box. */
+/**
+ * Covers judged wrong by eye on a contact sheet. The archive is right nearly
+ * always, but a file can carry the wrong scan under the right name.
+ */
+const REJECTED: Record<string, string> = {
+  'mario-party': 'the file named Mario Party (USA) holds the Mario Party 3 box',
+}
+
 const NOT_RETAIL = /\((beta|demo|proto|sample|program|kiosk|debug)\b/i
 
 type Entry = { file: string; name: string; rank: number }
@@ -259,6 +267,10 @@ async function main() {
   const misses: string[] = []
 
   for (const gameKey of Object.keys(GAMES)) {
+    if (REJECTED[gameKey]) {
+      delete existing[gameKey]
+      continue
+    }
     if (existing[gameKey] && !force) continue
     const console_ = COVER_CONSOLE[gameKey] ?? byConsole.get(gameKey)
     const system = console_ ? SYSTEM[console_] : undefined

@@ -1891,6 +1891,666 @@ export const GAMES: Record<string, GameMeta> = {
       en: "Super Street Fighter II Turbo redrawn in high resolution and rebalanced.",
     },
   },
+  'hyrule-warriors-aoi': {
+    releasedAt: '2025-11-06',
+    developer: 'Koei Tecmo',
+    publisher: 'Nintendo',
+    genres: ['Ação', 'Hack and slash'],
+    summary: {
+      pt: "A Guerra do Selamento contada por Zelda, presa no passado de Hyrule, em batalhas contra exércitos inteiros.",
+      en: "The Imprisoning War told through Zelda, stranded in Hyrule’s past, in battles against whole armies.",
+    },
+  },
+  'ssx-2012': {
+    releasedAt: '2012-02-28',
+    developer: 'EA Canada',
+    publisher: 'Electronic Arts',
+    genres: ['Esporte'],
+    summary: {
+      pt: "Snowboard em montanhas reais do mundo todo, descendo picos inteiros de helicóptero até a base.",
+      en: "Snowboarding across real mountains around the world, dropping from a helicopter down entire peaks.",
+    },
+  },
+  'sin-and-punishment': {
+    releasedAt: '2000-11-21',
+    developer: 'Treasure',
+    publisher: 'Nintendo',
+    genres: ['Tiro', 'Trilho'],
+    summary: {
+      pt: "Tiro sobre trilhos no Japão do futuro, com mira livre e espada para rebater projéteis.",
+      en: "A rail shooter in a future Japan, with free aiming and a sword to bat projectiles back.",
+    },
+  },
+  'einhander': {
+    releasedAt: '1997-11-20',
+    developer: 'Square',
+    publisher: 'Square',
+    genres: ['Tiro', 'Arcade'],
+    summary: {
+      pt: "Nave de rolagem lateral que arranca as armas dos inimigos abatidos e as usa contra eles.",
+      en: "A side-scrolling shooter whose ship tears the weapons off downed enemies and turns them on the rest.",
+    },
+  },
+  'resident-evil-3': {
+    releasedAt: '1999-09-22',
+    developer: 'Capcom',
+    publisher: 'Capcom',
+    genres: ['Survival horror'],
+    summary: {
+      pt: "Jill Valentine foge de Raccoon City perseguida pelo Nemesis.",
+      en: "Jill Valentine escapes Raccoon City, hunted by the Nemesis.",
+    },
+  },
+  'rogue-galaxy': {
+    releasedAt: '2005-12-08',
+    developer: 'Level-5',
+    publisher: 'Sony Computer Entertainment',
+    genres: ['RPG de ação'],
+    summary: {
+      pt: "Jaster vira pirata espacial e cruza planetas inteiros em combates em tempo real.",
+      en: "Jaster becomes a space pirate and crosses whole planets in real-time combat.",
+    },
+  },
+  'crash-bandicoot-2': {
+    releasedAt: '1997-10-31',
+    developer: 'Naughty Dog',
+    publisher: 'Sony Computer Entertainment',
+    genres: ['Plataforma'],
+    summary: {
+      pt: "Crash recolhe cristais a pedido do Dr. Neo Cortex, que diz querer salvar o mundo.",
+      en: "Crash gathers crystals for Dr. Neo Cortex, who claims he wants to save the world.",
+    },
+  },
+  'crash-wrath-of-cortex': {
+    releasedAt: '2001-10-29',
+    developer: 'Traveller\'s Tales',
+    publisher: 'Universal Interactive',
+    genres: ['Plataforma'],
+    summary: {
+      pt: "Crash enfrenta Crunch e as máscaras elementais criadas por Cortex e Uka Uka.",
+      en: "Crash faces Crunch and the elemental masks created by Cortex and Uka Uka.",
+    },
+  },
+  'project-gotham-racing': {
+    releasedAt: '2001-11-15',
+    developer: 'Bizarre Creations',
+    publisher: 'Microsoft',
+    genres: ['Corrida'],
+    summary: {
+      pt: "Corridas por Londres, Nova York, São Francisco e Tóquio, com pontos por estilo ao volante.",
+      en: "Racing through London, New York, San Francisco and Tokyo, with points for style at the wheel.",
+    },
+  },
+  'perfect-dark-zero': {
+    releasedAt: '2005-11-22',
+    developer: 'Rare',
+    publisher: 'Microsoft Game Studios',
+    genres: ['Tiro em primeira pessoa'],
+    summary: {
+      pt: "Joanna Dark começa como caçadora de recompensas, num prólogo de Perfect Dark.",
+      en: "Joanna Dark starts out as a bounty hunter, in a prequel to Perfect Dark.",
+    },
+  },
+  'kameo': {
+    releasedAt: '2005-11-22',
+    developer: 'Rare',
+    publisher: 'Microsoft Game Studios',
+    genres: ['Ação e aventura'],
+    summary: {
+      pt: "A princesa elfa Kameo se transforma em guerreiros elementais para resgatar a família.",
+      en: "Elf princess Kameo turns into elemental warriors to rescue her family.",
+    },
+  },
+  'gran-turismo-5': {
+    releasedAt: '2010-11-24',
+    developer: 'Polyphony Digital',
+    publisher: 'Sony Computer Entertainment',
+    genres: ['Corrida'],
+    summary: {
+      pt: "Simulação de corrida com mais de mil carros, rali, karts e o circuito de Nürburgring.",
+      en: "Racing simulation with more than a thousand cars, rally, karts and the Nürburgring.",
+    },
+  },
+  'mega-man-x6': {
+    releasedAt: '2001-11-29',
+    developer: 'Capcom',
+    publisher: 'Capcom',
+    genres: ['Plataforma', 'Ação'],
+    summary: {
+      pt: "X enfrenta o Gate e os Nightmares depois da queda da colônia Eurasia.",
+      en: "X takes on Gate and the Nightmares after the fall of the Eurasia colony.",
+    },
+  },
+  'sonic-riders': {
+    releasedAt: '2006-02-21',
+    developer: 'Sonic Team',
+    publisher: 'Sega',
+    genres: ['Corrida'],
+    summary: {
+      pt: "Sonic e os amigos correm em pranchas flutuantes contra os Babylon Rogues.",
+      en: "Sonic and friends race on hoverboards against the Babylon Rogues.",
+    },
+  },
+  'dragon-age-origins': {
+    releasedAt: '2009-11-03',
+    developer: 'BioWare',
+    publisher: 'Electronic Arts',
+    genres: ['RPG'],
+    summary: {
+      pt: "Um Guardião Cinzento reúne aliados em Ferelden contra a Praga e a horda das trevas.",
+      en: "A Grey Warden gathers allies across Ferelden against the Blight and the darkspawn.",
+    },
+  },
+  'gears-of-war-3': {
+    releasedAt: '2011-09-20',
+    developer: 'Epic Games',
+    publisher: 'Microsoft Studios',
+    genres: ['Tiro em terceira pessoa'],
+    summary: {
+      pt: "Marcus Fenix e o esquadrão Delta no fim da guerra contra os Locust e os Lambent.",
+      en: "Marcus Fenix and Delta squad at the end of the war against the Locust and the Lambent.",
+    },
+  },
+  'table-tennis': {
+    releasedAt: '2006-05-23',
+    developer: 'Rockstar San Diego',
+    publisher: 'Rockstar Games',
+    genres: ['Esporte'],
+    summary: {
+      pt: "Tênis de mesa com efeito na bola e trocas de bola que esquentam ponto a ponto.",
+      en: "Table tennis with spin on the ball and rallies that heat up point by point.",
+    },
+  },
+  'xenogears': {
+    releasedAt: '1998-02-11',
+    developer: 'Square',
+    publisher: 'Square',
+    genres: ['RPG'],
+    summary: {
+      pt: "Fei Fong Wong e robôs gigantes, os Gears, no meio de uma guerra entre duas nações.",
+      en: "Fei Fong Wong and giant robots, the Gears, caught in a war between two nations.",
+    },
+  },
+  'true-crime-nyc': {
+    releasedAt: '2005-11-15',
+    developer: 'Luxoflux',
+    publisher: 'Activision',
+    genres: ['Ação e aventura', 'Mundo aberto'],
+    summary: {
+      pt: "Marcus Reed, ex-criminoso que virou policial, numa Nova York aberta.",
+      en: "Marcus Reed, a former criminal turned cop, in an open New York City.",
+    },
+  },
+  'knack-2': {
+    releasedAt: '2017-09-05',
+    developer: 'SIE Japan Studio',
+    publisher: 'Sony Interactive Entertainment',
+    genres: ['Plataforma', 'Ação'],
+    summary: {
+      pt: "Knack cresce e encolhe juntando relíquias, agora com cooperativo para dois.",
+      en: "Knack grows and shrinks by gathering relics, now with two-player co-op.",
+    },
+  },
+  'knack': {
+    releasedAt: '2013-11-15',
+    developer: 'SIE Japan Studio',
+    publisher: 'Sony Computer Entertainment',
+    genres: ['Plataforma', 'Ação'],
+    summary: {
+      pt: "Um ser feito de relíquias antigas cresce a cada peça que junta, contra os goblins.",
+      en: "A creature made of ancient relics grows with every piece it gathers, against the goblins.",
+    },
+  },
+  'armored-core-4': {
+    releasedAt: '2006-12-21',
+    developer: 'FromSoftware',
+    publisher: 'FromSoftware',
+    genres: ['Ação'],
+    summary: {
+      pt: "Robôs de combate montados peça por peça numa guerra de corporações.",
+      en: "Combat mechs assembled part by part in a war between corporations.",
+    },
+  },
+  'zone-of-the-enders': {
+    releasedAt: '2001-03-01',
+    developer: 'Konami',
+    publisher: 'Konami',
+    genres: ['Ação'],
+    summary: {
+      pt: "O garoto Leo pilota o robô Jehuty para fugir de uma colônia em Júpiter.",
+      en: "Young Leo pilots the robot Jehuty to escape a colony orbiting Jupiter.",
+    },
+  },
+  'mega-man-x5': {
+    releasedAt: '2000-11-30',
+    developer: 'Capcom',
+    publisher: 'Capcom',
+    genres: ['Plataforma', 'Ação'],
+    summary: {
+      pt: "X e Zero têm 16 horas para impedir que a colônia Eurasia caia na Terra.",
+      en: "X and Zero have sixteen hours to stop the Eurasia colony from crashing into Earth.",
+    },
+  },
+  'goldeneye-reloaded': {
+    releasedAt: '2011-11-01',
+    developer: 'Eurocom',
+    publisher: 'Activision',
+    genres: ['Tiro em primeira pessoa'],
+    summary: {
+      pt: "A refilmagem de 2010 de GoldenEye com Daniel Craig, em alta definição e com missões extras.",
+      en: "The 2010 GoldenEye reimagining with Daniel Craig, in high definition with extra missions.",
+    },
+  },
+  'haunting-ground': {
+    releasedAt: '2005-04-21',
+    developer: 'Capcom',
+    publisher: 'Capcom',
+    genres: ['Survival horror'],
+    summary: {
+      pt: "Fiona acorda presa num castelo e foge dos perseguidores com a ajuda da cadela Hewie.",
+      en: "Fiona wakes up trapped in a castle and flees her pursuers with the help of Hewie the dog.",
+    },
+  },
+  'mk-vs-dc': {
+    releasedAt: '2008-11-16',
+    developer: 'Midway Games',
+    publisher: 'Midway Games',
+    genres: ['Luta'],
+    summary: {
+      pt: "Os lutadores de Mortal Kombat contra os heróis e vilões da DC.",
+      en: "The Mortal Kombat fighters against the heroes and villains of DC.",
+    },
+  },
+  'shadows-of-the-empire': {
+    releasedAt: '1996-12-03',
+    developer: 'LucasArts',
+    publisher: 'Nintendo',
+    genres: ['Ação'],
+    summary: {
+      pt: "Dash Rendar entre os filmes O Império Contra-Ataca e O Retorno de Jedi, de Hoth a Coruscant.",
+      en: "Dash Rendar between The Empire Strikes Back and Return of the Jedi, from Hoth to Coruscant.",
+    },
+  },
+  'far-cry-instincts': {
+    releasedAt: '2005-09-27',
+    developer: 'Ubisoft Montreal',
+    publisher: 'Ubisoft',
+    genres: ['Tiro em primeira pessoa'],
+    summary: {
+      pt: "Jack Carver ganha instintos animais numa ilha tropical tomada por mercenários.",
+      en: "Jack Carver gains animal instincts on a tropical island overrun by mercenaries.",
+    },
+  },
+  'far-cry-instincts-predator': {
+    releasedAt: '2006-03-28',
+    developer: 'Ubisoft Montreal',
+    publisher: 'Ubisoft',
+    genres: ['Tiro em primeira pessoa'],
+    summary: {
+      pt: "Far Cry Instincts e a continuação Evolution juntos, refeitos para o Xbox 360.",
+      en: "Far Cry Instincts and its sequel Evolution together, remade for the Xbox 360.",
+    },
+  },
+  'the-warriors': {
+    releasedAt: '2005-10-17',
+    developer: 'Rockstar Toronto',
+    publisher: 'Rockstar Games',
+    genres: ['Ação', 'Luta'],
+    summary: {
+      pt: "A gangue do filme de 1979 atravessa Nova York de volta a Coney Island, briga por briga.",
+      en: "The gang from the 1979 film crosses New York back to Coney Island, one brawl at a time.",
+    },
+  },
+  'yoshis-story': {
+    releasedAt: '1997-12-21',
+    developer: 'Nintendo EAD',
+    publisher: 'Nintendo',
+    genres: ['Plataforma'],
+    summary: {
+      pt: "Os Yoshis atravessam um livro ilustrado para recuperar a Árvore da Felicidade.",
+      en: "The Yoshis cross a pop-up storybook to win back the Super Happy Tree.",
+    },
+  },
+  'def-jam-vendetta': {
+    releasedAt: '2003-04-01',
+    developer: 'EA Canada',
+    publisher: 'EA Sports Big',
+    genres: ['Luta', 'Esporte'],
+    summary: {
+      pt: "Luta livre com rappers da Def Jam num circuito clandestino.",
+      en: "Wrestling with Def Jam rappers in an underground circuit.",
+    },
+  },
+  'shadow-of-rome': {
+    releasedAt: '2005-02-08',
+    developer: 'Capcom',
+    publisher: 'Capcom',
+    genres: ['Ação'],
+    summary: {
+      pt: "Gladiadores na arena e intriga no Senado após o assassinato de Júlio César.",
+      en: "Gladiators in the arena and intrigue in the Senate after the murder of Julius Caesar.",
+    },
+  },
+  'rock-band-3': {
+    releasedAt: '2010-10-26',
+    developer: 'Harmonix',
+    publisher: 'MTV Games',
+    genres: ['Ritmo'],
+    summary: {
+      pt: "Banda de rock com guitarra, baixo, bateria, voz e, pela primeira vez, teclado.",
+      en: "A rock band with guitar, bass, drums, vocals and, for the first time, keys.",
+    },
+  },
+  'bayonetta-3': {
+    releasedAt: '2022-10-28',
+    developer: 'PlatinumGames',
+    publisher: 'Nintendo',
+    genres: ['Ação', 'Hack and slash'],
+    summary: {
+      pt: "Bayonetta atravessa o multiverso e invoca demônios gigantes contra os Homunculi.",
+      en: "Bayonetta crosses the multiverse and summons giant demons against the Homunculi.",
+    },
+  },
+  'shadow-tower': {
+    releasedAt: '1998-06-25',
+    developer: 'FromSoftware',
+    publisher: 'FromSoftware',
+    genres: ['RPG de ação'],
+    summary: {
+      pt: "Masmorras em primeira pessoa numa torre amaldiçoada, com equipamento que se desgasta.",
+      en: "First-person dungeons in a cursed tower, with gear that wears out.",
+    },
+  },
+  'infinite-undiscovery': {
+    releasedAt: '2008-09-02',
+    developer: 'tri-Ace',
+    publisher: 'Square Enix',
+    genres: ['RPG de ação'],
+    summary: {
+      pt: "Capell, confundido com um herói, luta para cortar as correntes que prendem a lua.",
+      en: "Capell, mistaken for a hero, fights to cut the chains that bind the moon.",
+    },
+  },
+  'gh-warriors-of-rock': {
+    releasedAt: '2010-09-28',
+    developer: 'Neversoft',
+    publisher: 'Activision',
+    genres: ['Ritmo'],
+    summary: {
+      pt: "Guitar Hero com um modo história narrado por Gene Simmons sobre guerreiros do rock.",
+      en: "Guitar Hero with a story mode narrated by Gene Simmons about warriors of rock.",
+    },
+  },
+  'wwf-no-mercy': {
+    releasedAt: '2000-11-17',
+    developer: 'AKI Corporation',
+    publisher: 'THQ',
+    genres: ['Luta', 'Esporte'],
+    summary: {
+      pt: "Luta livre da WWF com um modo de carreira cheio de caminhos e um editor de lutadores.",
+      en: "WWF wrestling with a branching career mode and a wrestler editor.",
+    },
+  },
+  'halo-reach': {
+    releasedAt: '2010-09-14',
+    developer: 'Bungie',
+    publisher: 'Microsoft Game Studios',
+    genres: ['Tiro em primeira pessoa'],
+    summary: {
+      pt: "O Esquadrão Noble na queda do planeta Reach, logo antes de Halo: Combat Evolved.",
+      en: "Noble Team in the fall of the planet Reach, just before Halo: Combat Evolved.",
+    },
+  },
+  'god-hand': {
+    releasedAt: '2006-09-14',
+    developer: 'Clover Studio',
+    publisher: 'Capcom',
+    genres: ['Ação', 'Luta'],
+    summary: {
+      pt: "Gene usa o braço divino para derrotar demônios com combos montados pelo jogador.",
+      en: "Gene uses a divine arm to beat demons with combos the player assembles.",
+    },
+  },
+  'mario-party': {
+    releasedAt: '1998-12-18',
+    developer: 'Hudson Soft',
+    publisher: 'Nintendo',
+    genres: ['Festa'],
+    summary: {
+      pt: "Tabuleiro com minijogos entre cada rodada, para quatro jogadores.",
+      en: "A board game with minigames between rounds, for four players.",
+    },
+  },
+  'twisted-metal-black': {
+    releasedAt: '2001-06-18',
+    developer: 'Incognito Entertainment',
+    publisher: 'Sony Computer Entertainment',
+    genres: ['Ação'],
+    summary: {
+      pt: "Combate entre carros armados, com pilotos fugidos de um hospício.",
+      en: "Armed car combat, with drivers escaped from an asylum.",
+    },
+  },
+  'gta-iv': {
+    releasedAt: '2008-04-29',
+    developer: 'Rockstar North',
+    publisher: 'Rockstar Games',
+    genres: ['Ação e aventura', 'Mundo aberto'],
+    summary: {
+      pt: "Niko Bellic chega a Liberty City atrás do sonho americano e de um acerto de contas.",
+      en: "Niko Bellic arrives in Liberty City chasing the American dream and an old score.",
+    },
+  },
+  'ridge-racer-type-4': {
+    releasedAt: '1998-12-03',
+    developer: 'Namco',
+    publisher: 'Namco',
+    genres: ['Corrida'],
+    summary: {
+      pt: "Uma temporada de corridas por equipes, com mais de trezentos carros para liberar.",
+      en: "A season of team racing, with more than three hundred cars to unlock.",
+    },
+  },
+  'mario-luigi-brothership': {
+    releasedAt: '2024-11-07',
+    developer: 'Acquire',
+    publisher: 'Nintendo',
+    genres: ['RPG'],
+    summary: {
+      pt: "Os irmãos navegam numa ilha-navio para reconectar as ilhas de Concordia.",
+      en: "The brothers sail on an island-ship to reconnect the islands of Concordia.",
+    },
+  },
+  'soulcalibur-iv': {
+    releasedAt: '2008-07-29',
+    developer: 'Project Soul',
+    publisher: 'Namco Bandai Games',
+    genres: ['Luta'],
+    summary: {
+      pt: "Luta com armas em 3D, com Darth Vader e Yoda como convidados.",
+      en: "Weapons-based 3D fighting, with Darth Vader and Yoda as guests.",
+    },
+  },
+  'metal-gear-solid': {
+    releasedAt: '1998-09-03',
+    developer: 'Konami',
+    publisher: 'Konami',
+    genres: ['Ação', 'Furtividade'],
+    summary: {
+      pt: "Solid Snake se infiltra em Shadow Moses para deter a FOXHOUND e o Metal Gear REX.",
+      en: "Solid Snake infiltrates Shadow Moses to stop FOXHOUND and Metal Gear REX.",
+    },
+  },
+  'f-zero-x': {
+    releasedAt: '1998-07-14',
+    developer: 'Nintendo EAD',
+    publisher: 'Nintendo',
+    genres: ['Corrida'],
+    summary: {
+      pt: "Trinta naves por corrida a mais de mil quilômetros por hora, a sessenta quadros por segundo.",
+      en: "Thirty machines per race at over a thousand kilometres an hour, at sixty frames per second.",
+    },
+  },
+  'parasite-eve': {
+    releasedAt: '1998-03-29',
+    developer: 'Square',
+    publisher: 'Square',
+    genres: ['RPG', 'Survival horror'],
+    summary: {
+      pt: "A policial Aya Brea enfrenta Eve, uma ameaça que nasce nas mitocôndrias, em Nova York.",
+      en: "Police officer Aya Brea faces Eve, a threat born in the mitochondria, in New York.",
+    },
+  },
+  'star-fox-snes': {
+    releasedAt: '1993-02-21',
+    developer: 'Nintendo EAD',
+    publisher: 'Nintendo',
+    genres: ['Tiro', 'Trilho'],
+    summary: {
+      pt: "Fox McCloud e a equipe Star Fox em naves de polígonos, com o chip Super FX.",
+      en: "Fox McCloud and the Star Fox team in polygon ships, powered by the Super FX chip.",
+    },
+  },
+  'civilization-revolution': {
+    releasedAt: '2008-07-08',
+    developer: 'Firaxis Games',
+    publisher: '2K Games',
+    genres: ['Estratégia'],
+    summary: {
+      pt: "Uma civilização da Idade da Pedra à era espacial, em partidas mais curtas, feitas para console.",
+      en: "A civilisation from the Stone Age to the space age, in shorter games built for consoles.",
+    },
+  },
+  'earthbound': {
+    releasedAt: '1994-08-27',
+    developer: 'Ape e HAL Laboratory',
+    publisher: 'Nintendo',
+    genres: ['RPG'],
+    summary: {
+      pt: "Ness e os amigos atravessam uma América dos anos 1990 contra o alienígena Giygas.",
+      en: "Ness and his friends cross a 1990s America against the alien Giygas.",
+    },
+  },
+  'splatoon': {
+    releasedAt: '2015-05-28',
+    developer: 'Nintendo EAD',
+    publisher: 'Nintendo',
+    genres: ['Tiro em terceira pessoa'],
+    summary: {
+      pt: "Inklings pintam o chão com tinta em batalhas de quatro contra quatro.",
+      en: "Inklings cover the ground in ink in four-against-four battles.",
+    },
+  },
+  'fire-emblem-fates': {
+    releasedAt: '2015-06-25',
+    developer: 'Intelligent Systems',
+    publisher: 'Nintendo',
+    genres: ['RPG tático'],
+    summary: {
+      pt: "Corrin escolhe entre a família de sangue e a família que o criou, em batalhas táticas.",
+      en: "Corrin chooses between a birth family and the family that raised them, in tactical battles.",
+    },
+  },
+  'burnout-3': {
+    releasedAt: '2004-09-07',
+    developer: 'Criterion Games',
+    publisher: 'Electronic Arts',
+    genres: ['Corrida'],
+    summary: {
+      pt: "Corridas em que tirar os rivais da pista com batidas enche a barra de nitro.",
+      en: "Racing where knocking rivals off the road fills the boost bar.",
+    },
+  },
+  'otogi': {
+    releasedAt: '2002-12-12',
+    developer: 'FromSoftware',
+    publisher: 'FromSoftware',
+    genres: ['Ação', 'Hack and slash'],
+    summary: {
+      pt: "Raikoh, guerreiro morto e trazido de volta, purifica o Japão feudal de demônios.",
+      en: "Raikoh, a dead warrior brought back, cleanses feudal Japan of demons.",
+    },
+  },
+  'crackdown-2': {
+    releasedAt: '2010-07-06',
+    developer: 'Ruffian Games',
+    publisher: 'Microsoft Game Studios',
+    genres: ['Ação', 'Mundo aberto'],
+    summary: {
+      pt: "Os agentes voltam a Pacific City, agora tomada por mutantes que saem à noite.",
+      en: "The agents return to Pacific City, now overrun by mutants that come out at night.",
+    },
+  },
+  'splatterhouse': {
+    releasedAt: '2010-11-23',
+    developer: 'BottleRocket e Namco Bandai',
+    publisher: 'Namco Bandai Games',
+    genres: ['Ação', 'Hack and slash'],
+    summary: {
+      pt: "Rick veste a Máscara do Terror para resgatar a namorada de uma mansão cheia de monstros.",
+      en: "Rick puts on the Terror Mask to rescue his girlfriend from a mansion full of monsters.",
+    },
+  },
+  '50-cent-blood-on-the-sand': {
+    releasedAt: '2009-02-24',
+    developer: 'Swordfish Studios',
+    publisher: 'THQ',
+    genres: ['Tiro em terceira pessoa'],
+    summary: {
+      pt: "50 Cent e a G-Unit perseguem uma caveira cravejada de diamantes no Oriente Médio.",
+      en: "50 Cent and G-Unit chase a diamond-encrusted skull through the Middle East.",
+    },
+  },
+  'mischief-makers': {
+    releasedAt: '1997-06-27',
+    developer: 'Treasure',
+    publisher: 'Enix',
+    genres: ['Plataforma'],
+    summary: {
+      pt: "A robô Marina agarra, sacode e arremessa inimigos para resgatar seu criador.",
+      en: "Robot Marina grabs, shakes and throws enemies to rescue her creator.",
+    },
+  },
+  'ogre-battle-64': {
+    releasedAt: '1999-07-14',
+    developer: 'Quest',
+    publisher: 'Nintendo',
+    genres: ['RPG tático', 'Estratégia'],
+    summary: {
+      pt: "Magnus lidera unidades por um mapa de guerra em tempo real numa rebelião contra o reino.",
+      en: "Magnus leads units across a real-time war map in a rebellion against the realm.",
+    },
+  },
+  'hydro-thunder-hurricane': {
+    releasedAt: '2010-07-28',
+    developer: 'Vector Unit',
+    publisher: 'Microsoft Game Studios',
+    genres: ['Corrida', 'Arcade'],
+    summary: {
+      pt: "Corridas de lancha em pistas cheias de saltos, atalhos e ondas.",
+      en: "Speedboat racing on tracks full of jumps, shortcuts and waves.",
+    },
+  },
+  'klonoa': {
+    releasedAt: '1997-12-11',
+    developer: 'Namco',
+    publisher: 'Namco',
+    genres: ['Plataforma'],
+    summary: {
+      pt: "Klonoa agarra inimigos com o anel do vento para atravessar o mundo dos sonhos.",
+      en: "Klonoa grabs enemies with his wind ring to cross the world of dreams.",
+    },
+  },
+  'jet-force-gemini': {
+    releasedAt: '1999-10-11',
+    developer: 'Rare',
+    publisher: 'Nintendo',
+    genres: ['Tiro em terceira pessoa'],
+    summary: {
+      pt: "Juno, Vela e o cão Lupus enfrentam o exército de insetos de Mizar.",
+      en: "Juno, Vela and Lupus the dog take on Mizar’s insect army.",
+    },
+  },
   wet: {
     releasedAt: '2009-09-15',
     developer: 'Artificial Mind and Movement',

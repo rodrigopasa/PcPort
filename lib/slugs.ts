@@ -1,7 +1,11 @@
 import { slugify } from './format'
 import type { Lang } from './db/schema'
-import HISTORY from './slug-history.json'
-import GONE from './slug-gone.json'
+import HISTORY_BUILT from './slug-history.json'
+import GONE_BUILT from './slug-gone.json'
+import { slugGone, slugHistory } from './store'
+
+const GONE = () => slugGone<GoneBook>(GONE_BUILT as GoneBook)
+const HISTORY = () => slugHistory<SlugHistory>(HISTORY_BUILT as SlugHistory)
 
 /**
  * A port page's address is made from its title, so curating a title moves
@@ -59,27 +63,27 @@ export function buildSlugs(rows: SlugRow[], lang: Lang): Map<string, string> {
 
 /** What a removed entry's address was about, if it was ever an entry's. */
 export function goneFrom(lang: Lang, slug: string): Gone | null {
-  return (GONE as GoneBook)[lang]?.[slug] ?? null
+  return GONE()[lang]?.[slug] ?? null
 }
 
 /** Every console a removed entry belonged to, by name. */
 export function goneConsoles(): string[] {
   const out = new Set<string>()
-  for (const book of Object.values(GONE as GoneBook))
+  for (const book of Object.values(GONE()))
     for (const g of Object.values(book)) if (g.console) out.add(g.console)
   return [...out]
 }
 
 /** The console a game's removed ports were on, for a comparison page left empty. */
 export function goneConsoleOf(game: string): string | null {
-  for (const book of Object.values(GONE as GoneBook))
+  for (const book of Object.values(GONE()))
     for (const g of Object.values(book)) if (g.game === game && g.console) return g.console
   return null
 }
 
 /** The entry an old address belonged to, if it ever belonged to one. */
 export function movedFrom(lang: Lang, slug: string): string | null {
-  return (HISTORY as SlugHistory)[lang]?.[slug] ?? null
+  return HISTORY()[lang]?.[slug] ?? null
 }
 
 /**
