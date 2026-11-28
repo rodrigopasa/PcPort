@@ -29,7 +29,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 1432,
+    "stars": 1445,
     "description": "Native PC port layer for an Xbox Series X|S title: the game's x64 code runs on your CPU and its RDNA2 GPU code is recompiled for your graphics card. Bring your own files.",
     "version": "v0.5.7",
     "releasedAt": "2026-11-28",
@@ -90,7 +90,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 685,
+    "stars": 686,
     "description": "A native Windows PC port of Super Mario Odyssey by static recompilation. Bring your own game: no game files included.",
     "version": "v1.0.5",
     "releasedAt": "2026-11-28",
@@ -109,7 +109,7 @@
     "console": "PlayStation 3",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 370,
+    "stars": 371,
     "description": "Drakengard 3 (PS3) static recompilation using ps3recomp",
     "version": null,
     "releasedAt": "2026-11-28",
@@ -146,13 +146,18 @@
     "author": "MikeSemicolonD",
     "console": "Nintendo 64",
     "mechanism": "recompiled",
-    "platforms": [],
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Android"
+    ],
     "stars": 49,
     "description": "A fully playable (AI assisted) static recompilation of Star Wars: Rogue Squadron on N64 for Windows 10, Linux, MacOS & Android",
-    "version": null,
+    "version": "v1.0.0",
     "releasedAt": "2026-11-28",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/MikeSemicolonD/RogueSquadron64Recomp/releases",
+    "sizeBytes": 24548869,
+    "releaseUrl": "https://github.com/MikeSemicolonD/RogueSquadron64Recomp/releases/tag/v1.0.0",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
@@ -229,7 +234,7 @@
     "console": "Xbox",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 176,
+    "stars": 191,
     "description": "Project Leonida GTA VI Port: Static Recompilation Brings Vice City to PC",
     "version": null,
     "releasedAt": "2026-11-28",
@@ -354,7 +359,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 221,
+    "stars": 222,
     "description": "CPS-2 Recomp: unofficial native PC ports of Capcom CPS-2 arcade games (Street Fighter Alpha 2, Super Puzzle Fighter II Turbo, Vampire Savior) via static recompilation, with training modes, in one launcher: macOS, Linux, Steam Deck, Windows. Requires your own ROM sets. Beta.",
     "version": "v1.6.0-beta.7",
     "releasedAt": "2026-11-28",
@@ -483,7 +488,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 1457,
+    "stars": 1458,
     "description": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows and Linux with Vulkan. 0.5.3 out: amiibo, button prompt styles and a Player 2 pad, DLSS Frame Generation, Chinese, shader precompile, low-spec preset; one-file Windows launcher. Requirements: docs/requirements.md. Roadmap: #10. No game files included.",
     "version": "v0.5.3",
     "releasedAt": "2026-11-28",
@@ -553,6 +558,28 @@
     "releaseUrl": "https://github.com/zeldaret/botw/releases",
     "licenseId": null,
     "licenseUrl": null,
+    "curated": true
+  },
+  {
+    "id": "abdelmoumendeghbouche-wipeout-pc",
+    "repo": "AbdelmoumenDeghbouche/wipeout_pc",
+    "title": "WipEout Omega Collection",
+    "game": "wipeout-omega-collection",
+    "author": "AbdelmoumenDeghbouche",
+    "console": "PlayStation 4",
+    "mechanism": "in-progress",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "stars": 383,
+    "description": "WipEout Omega Collection (PS4) native PC port for Windows and Linux: the game's own x86-64 code on the CPU, a PS4 runtime and the shadPS4 Vulkan video core. Playable, in active development. No game files included. ⭐ Star it if you like it! 💙 Donate: PayPal a.deghbouche@esi-sba.dz or ko-fi.com/abd_dbh",
+    "version": "windows-v0.2.77",
+    "releasedAt": "2026-11-28",
+    "sizeBytes": 109779448,
+    "releaseUrl": "https://github.com/AbdelmoumenDeghbouche/wipeout_pc/releases/tag/windows-v0.2.77",
+    "licenseId": "GPL-2.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-2.0",
     "curated": true
   },
   {
@@ -993,7 +1020,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 8405,
+    "stars": 8408,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.5.1",
     "releasedAt": "2026-11-27",
@@ -1753,7 +1780,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 203,
+    "stars": 204,
     "description": "God of War: Ascension PC port: an unofficial, native Windows port of the PS3 game by static recompilation, no emulator. No game files included: you build it from your own copy.",
     "version": "v0.4.1",
     "releasedAt": "2026-11-25",
@@ -2224,7 +2251,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 507,
+    "stars": 508,
     "description": "The 2012 Forza Horizon, native on Windows and Linux, and online again: Horizon World, leaderboards and Rivals on a public server you can also self-host. Bring your own copy.",
     "version": "v0.4.2",
     "releasedAt": "2026-11-24",
@@ -2477,7 +2504,7 @@
     "console": "Nintendo 64",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 57,
+    "stars": 56,
     "description": "Native PC port of WWF No Mercy (N64) via static recompilation. No game assets included — bring your own ROM.",
     "version": null,
     "releasedAt": "2026-11-24",
@@ -2726,7 +2753,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 2633,
+    "stars": 2634,
     "description": "Static recompilation of Link's Awakening (Switch) to native macOS, Windows, Linux, iOS and Android.",
     "version": "v0.6.1",
     "releasedAt": "2026-11-23",
@@ -2788,7 +2815,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 306,
+    "stars": 307,
     "description": "Experimental static recompilation of Mario Kart 8 Deluxe 4.0.1 for Windows x64 and Linux amd64. Native Vulkan runtime, Mii creator, online play via Nextendo and Steam rooms. Bring your own game files and keys: no ROMs, assets or keys included.",
     "version": "v0.6.3",
     "releasedAt": "2026-11-23",
@@ -3344,7 +3371,7 @@
     "platforms": [
       "Android"
     ],
-    "stars": 40,
+    "stars": 41,
     "description": "",
     "version": "v0.15.8",
     "releasedAt": "2026-11-21",
@@ -3366,7 +3393,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 1103,
+    "stars": 1105,
     "description": "A playable preview of Forza Horizon static recompilation",
     "version": "v0.9.5",
     "releasedAt": "2026-11-20",
@@ -4116,7 +4143,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 880,
+    "stars": 879,
     "description": "Definitive Bloodborne PC Experience",
     "version": "v0.2.35",
     "releasedAt": "2026-11-15",
@@ -4479,28 +4506,6 @@
     "curated": true
   },
   {
-    "id": "abdelmoumendeghbouche-wipeout-pc",
-    "repo": "AbdelmoumenDeghbouche/wipeout_pc",
-    "title": "WipEout Omega Collection",
-    "game": "wipeout-omega-collection",
-    "author": "AbdelmoumenDeghbouche",
-    "console": "PlayStation 4",
-    "mechanism": "in-progress",
-    "platforms": [
-      "Windows",
-      "Linux"
-    ],
-    "stars": 383,
-    "description": "WipEout Omega Collection (PS4) native PC port for Windows and Linux: the game's own x86-64 code on the CPU, a PS4 runtime and the shadPS4 Vulkan video core. Playable, in active development. No game files included. ⭐ Star it if you like it! 💙 Donate: PayPal a.deghbouche@esi-sba.dz or ko-fi.com/abd_dbh",
-    "version": "windows-v0.2.76",
-    "releasedAt": "2026-11-14",
-    "sizeBytes": 109767160,
-    "releaseUrl": "https://github.com/AbdelmoumenDeghbouche/wipeout_pc/releases/tag/windows-v0.2.76",
-    "licenseId": "GPL-2.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-2.0",
-    "curated": true
-  },
-  {
     "id": "vnnc1-gow-native-pc",
     "repo": "Vnnc1/gow-native-pc",
     "title": "God of War",
@@ -4573,7 +4578,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 783,
+    "stars": 784,
     "description": "A native Windows and Linux port of Grand Theft Auto: Vice City Stories (PS2, USA, SLUS-21590), made by recompiling the game's PS2 executable into C++",
     "version": "v0.3.0",
     "releasedAt": "2026-11-14",
@@ -4706,7 +4711,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 5727,
+    "stars": 5728,
     "description": "Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.",
     "version": "windows-v1.9.8.6",
     "releasedAt": "2026-11-13",
@@ -5110,7 +5115,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 145,
+    "stars": 146,
     "description": "13 Sentinels: Aegis Rim native PC port for Windows and Linux, with direct PS4 PKG installation, TRG launcher and modern graphics options",
     "version": "v0.1.0",
     "releasedAt": "2026-11-09",
@@ -5840,7 +5845,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 348,
+    "stars": 349,
     "description": "GTA V (Xbox 360, TU27) static recompilation with ReXGlue",
     "version": "v0.3.0",
     "releasedAt": "2026-11-02",
@@ -6032,7 +6037,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 34410,
+    "stars": 34411,
     "description": "PlayStation 4 emulator for Windows, Linux, macOS and FreeBSD written in C++",
     "version": "v.0.21.0",
     "releasedAt": "2026-10-30",
@@ -6240,7 +6245,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 248,
+    "stars": 249,
     "description": "Static recompilation of Midnight Club: Los Angeles (Xbox 360) for PC and PS5. No game data included.",
     "version": "v1.0.14",
     "releasedAt": "2026-10-29",
@@ -6691,7 +6696,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 8377,
+    "stars": 8379,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -8150,7 +8155,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 6572,
+    "stars": 6573,
     "description": "Dusklight brings a classic adventure to PC and mobile platforms with a variety of fixes and improvements.",
     "version": "v2.0.3",
     "releasedAt": "2026-09-30",
@@ -9793,7 +9798,7 @@
     "console": "PlayStation",
     "mechanism": "native",
     "platforms": [],
-    "stars": 1254,
+    "stars": 1255,
     "description": "Decompilation of Castlevania: Symphony of the Night (PSX, PSP, Saturn)",
     "version": "cc1-psx-26",
     "releasedAt": "2023-04-05",
