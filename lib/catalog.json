@@ -29,7 +29,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 1497,
+    "stars": 1506,
     "description": "Native PC port layer for an Xbox Series X|S title: the game's x64 code runs on your CPU and its RDNA2 GPU code is recompiled for your graphics card. Bring your own files.",
     "version": "v0.5.7",
     "releasedAt": "2026-11-28",
@@ -67,12 +67,12 @@
     "console": "PlayStation 3",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 92,
+    "stars": 91,
     "description": "Unofficial PC port of Gran Turismo 5 on ps3recomp. Needs your own GT5 disc, EBOOT v1.00, no update: Europe BCES00569 (tested) or US BCUS98114 (untested). Code and tools only: no game files, keys or firmware.",
-    "version": "v0.1.125",
+    "version": "v0.1.126",
     "releasedAt": "2026-11-28",
     "sizeBytes": 109773,
-    "releaseUrl": "https://github.com/MormonFTP-hub/gt5-recomp/releases/tag/v0.1.125",
+    "releaseUrl": "https://github.com/MormonFTP-hub/gt5-recomp/releases/tag/v0.1.126",
     "licenseId": "MIT",
     "licenseUrl": "https://api.github.com/licenses/mit",
     "curated": true
@@ -90,7 +90,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 686,
+    "stars": 688,
     "description": "A native Windows PC port of Super Mario Odyssey by static recompilation. Bring your own game: no game files included.",
     "version": "v1.0.5",
     "releasedAt": "2026-11-28",
@@ -318,7 +318,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 1073,
+    "stars": 1075,
     "description": "A cozy life-simulation and sandbox builder with fantastical creatures (Switch 2), recompiled to run natively on Windows, Linux and macOS. Multiplayer, all events, modding, enhancements and more.",
     "version": "v0.18.1",
     "releasedAt": "2026-11-28",
@@ -385,12 +385,12 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 569,
+    "stars": 571,
     "description": "Continuation of Project Leonida, aiming to bring GTA VI from Xbox to PC through static recompilation.",
-    "version": "build-635",
+    "version": "build-641",
     "releasedAt": "2026-11-28",
-    "sizeBytes": 3923814,
-    "releaseUrl": "https://github.com/ProjectLeonidaL/leonida/releases/tag/build-635",
+    "sizeBytes": 3939422,
+    "releaseUrl": "https://github.com/ProjectLeonidaL/leonida/releases/tag/build-641",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
@@ -453,7 +453,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 1464,
+    "stars": 1465,
     "description": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows and Linux with Vulkan. 0.5.3 out: amiibo, button prompt styles and a Player 2 pad, DLSS Frame Generation, Chinese, shader precompile, low-spec preset; one-file Windows launcher. Requirements: docs/requirements.md. Roadmap: #10. No game files included.",
     "version": "v0.5.4",
     "releasedAt": "2026-11-28",
@@ -634,6 +634,82 @@
     "curated": true
   },
   {
+    "id": "tangosdev-sm64ds-decomp",
+    "repo": "tangosdev/sm64ds-decomp",
+    "title": "Super Mario 64 DS",
+    "game": "super-mario-64-ds",
+    "author": "tangosdev",
+    "console": "Nintendo DS",
+    "mechanism": "native",
+    "platforms": [],
+    "stars": 271,
+    "description": "From-scratch, byte-matching decompilation of Super Mario 64 DS into C/C++, with a live progress atlas and matching tools.",
+    "version": null,
+    "releasedAt": "2026-11-28",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/tangosdev/sm64ds-decomp/releases",
+    "licenseId": "MIT",
+    "licenseUrl": "https://api.github.com/licenses/mit",
+    "curated": true
+  },
+  {
+    "id": "carlosexabyte-arceuszada",
+    "repo": "CarlosExabyte/Arceuszada",
+    "title": "Pokémon Legends: Arceus",
+    "game": "pokemon-legends-arceus",
+    "author": "CarlosExabyte",
+    "console": "Nintendo Switch",
+    "mechanism": "recompiled",
+    "platforms": [],
+    "stars": 140,
+    "description": "Amateur Pokémon Legends: Arceus recompilation project. Requires your own game files. More optimizations and size reductions are coming in future updates!",
+    "version": "v1.2.2",
+    "releasedAt": "2026-11-28",
+    "sizeBytes": 69343290,
+    "releaseUrl": "https://github.com/CarlosExabyte/Arceuszada/releases/tag/v1.2.2",
+    "licenseId": "NOASSERTION",
+    "licenseUrl": null,
+    "curated": true
+  },
+  {
+    "id": "pret-pokeplatinum",
+    "repo": "pret/pokeplatinum",
+    "title": "Pokémon Platinum",
+    "game": "pokemon-platinum",
+    "author": "pret",
+    "console": "Nintendo DS",
+    "mechanism": "native",
+    "platforms": [],
+    "stars": 622,
+    "description": "Decompilation of Pokémon Platinum",
+    "version": null,
+    "releasedAt": "2026-11-28",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/pret/pokeplatinum/releases",
+    "licenseId": null,
+    "licenseUrl": null,
+    "curated": true
+  },
+  {
+    "id": "raycarrot-rayman3readvanced",
+    "repo": "RayCarrot/Rayman3Readvanced",
+    "title": "Rayman 3: Hoodlum Havoc",
+    "game": null,
+    "author": "RayCarrot",
+    "console": "Game Boy Advance",
+    "mechanism": "native",
+    "platforms": [],
+    "stars": 74,
+    "description": "PC port of Rayman 3 GBA",
+    "version": null,
+    "releasedAt": "2026-11-28",
+    "sizeBytes": null,
+    "releaseUrl": "https://github.com/RayCarrot/Rayman3Readvanced/releases",
+    "licenseId": "GPL-3.0",
+    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
+    "curated": true
+  },
+  {
     "id": "therealestnwah-sotc-decomp",
     "repo": "TheRealestNwah/sotc-decomp",
     "title": "Shadow of the Colossus",
@@ -693,25 +769,6 @@
     "curated": true
   },
   {
-    "id": "tangosdev-sm64ds-decomp",
-    "repo": "tangosdev/sm64ds-decomp",
-    "title": "Super Mario 64 DS",
-    "game": "super-mario-64-ds",
-    "author": "tangosdev",
-    "console": "Nintendo DS",
-    "mechanism": "native",
-    "platforms": [],
-    "stars": 271,
-    "description": "From-scratch, byte-matching decompilation of Super Mario 64 DS into C/C++, with a live progress atlas and matching tools.",
-    "version": null,
-    "releasedAt": "2026-11-27",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/tangosdev/sm64ds-decomp/releases",
-    "licenseId": "MIT",
-    "licenseUrl": "https://api.github.com/licenses/mit",
-    "curated": true
-  },
-  {
     "id": "pascalpixel-alchemy",
     "repo": "PascalPixel/alchemy",
     "title": "Golden Sun",
@@ -744,7 +801,7 @@
       "macOS",
       "Android"
     ],
-    "stars": 1780,
+    "stars": 1781,
     "description": "Zelda Wind Waker HD Recomp",
     "version": "v0.5.3",
     "releasedAt": "2026-11-27",
@@ -871,7 +928,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 89,
+    "stars": 90,
     "description": "Unofficial static recompilation of Splatoon Raiders (Switch 2) to native Linux/Windows x86-64 with a Vulkan renderer. No game data included: bring your own dump.",
     "version": "v0.2.3",
     "releasedAt": "2026-11-27",
@@ -1027,7 +1084,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 8420,
+    "stars": 8426,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
     "version": "v0.5.1",
     "releasedAt": "2026-11-27",
@@ -1235,7 +1292,7 @@
     "platforms": [
       "Linux"
     ],
-    "stars": 2093,
+    "stars": 2094,
     "description": "Native Windows port of Shadow of the Colossus (PS4, CUSA08809) - bring your own game dump. Port nativo para PC.",
     "version": "v0.78",
     "releasedAt": "2026-11-26",
@@ -1426,7 +1483,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 115,
+    "stars": 114,
     "description": "Project Gotham Racing 4 PC port on ReGPU (XenonRecomp)",
     "version": "v0.3.0",
     "releasedAt": "2026-11-26",
@@ -1536,7 +1593,7 @@
       "macOS",
       "iOS"
     ],
-    "stars": 380,
+    "stars": 381,
     "description": "The iOS and MacOS port of Xenia, the Xbox 360 Emulator Research project.",
     "version": "release-v2.3.5-build-12326",
     "releasedAt": "2026-11-26",
@@ -1769,7 +1826,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 205,
+    "stars": 206,
     "description": "God of War: Ascension PC port: an unofficial, native Windows port of the PS3 game by static recompilation, no emulator. No game files included: you build it from your own copy.",
     "version": "v0.4.1",
     "releasedAt": "2026-11-25",
@@ -2047,7 +2104,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 98,
+    "stars": 99,
     "description": "A native Windows port of Rayman 3 HD (Xbox 360) using static recompilation, with HD+ enhancements and Turkish localization.",
     "version": "v1.4.0",
     "releasedAt": "2026-11-25",
@@ -2309,7 +2366,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 120,
+    "stars": 119,
     "description": "Burnout 3: Takedown, native on every platform",
     "version": "v1.4.0",
     "releasedAt": "2026-11-24",
@@ -2508,25 +2565,6 @@
     "curated": true
   },
   {
-    "id": "carlosexabyte-arceuszada",
-    "repo": "CarlosExabyte/Arceuszada",
-    "title": "Pokémon Legends: Arceus",
-    "game": "pokemon-legends-arceus",
-    "author": "CarlosExabyte",
-    "console": "Nintendo Switch",
-    "mechanism": "recompiled",
-    "platforms": [],
-    "stars": 141,
-    "description": "Amateur Pokémon Legends: Arceus recompilation project. Requires your own game files. More optimizations and size reductions are coming in future updates!",
-    "version": "v1.2.1",
-    "releasedAt": "2026-11-24",
-    "sizeBytes": 70792703,
-    "releaseUrl": "https://github.com/CarlosExabyte/Arceuszada/releases/tag/v1.2.1",
-    "licenseId": "NOASSERTION",
-    "licenseUrl": null,
-    "curated": true
-  },
-  {
     "id": "ran-j-ps2recomp",
     "repo": "ran-j/PS2Recomp",
     "title": "PS2Recomp",
@@ -2587,25 +2625,6 @@
     "curated": true
   },
   {
-    "id": "st4rwhx-resident-evil-4-native-port",
-    "repo": "st4rwhx/Resident-Evil-4-Native-Port",
-    "title": "Resident Evil 4",
-    "game": "resident-evil-4",
-    "author": "st4rwhx",
-    "console": "GameCube",
-    "mechanism": "native",
-    "platforms": [],
-    "stars": 82,
-    "description": "Nightjar: Resident Evil 4 (GameCube) 100% native source port, byte-matching decompilation & standalone engine runtime for Android (32/64-bit), iOS (Metal), Windows, and Linux.",
-    "version": "nightly",
-    "releasedAt": "2026-11-24",
-    "sizeBytes": 50620459,
-    "releaseUrl": "https://github.com/st4rwhx/Resident-Evil-4-Native-Port/releases",
-    "licenseId": "CC0-1.0",
-    "licenseUrl": "https://api.github.com/licenses/cc0-1.0",
-    "curated": true
-  },
-  {
     "id": "hyant4-knack-ii-pc-port",
     "repo": "Hyant4/Knack-II-pc-port",
     "title": "Knack II",
@@ -2639,7 +2658,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 461,
+    "stars": 460,
     "description": "An unofficial PC port of the Xbox version of Shadow the Hedgehog, created through the process of static recompilation. ",
     "version": "v1.0.1",
     "releasedAt": "2026-11-23",
@@ -2699,7 +2718,7 @@
     "console": "Xbox 360",
     "mechanism": "recompiled",
     "platforms": [],
-    "stars": 285,
+    "stars": 284,
     "description": "A Recompilation of Project Gotham Racing 4",
     "version": "v2.0.2",
     "releasedAt": "2026-11-23",
@@ -2785,7 +2804,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 307,
+    "stars": 308,
     "description": "Experimental static recompilation of Mario Kart 8 Deluxe 4.0.1 for Windows x64 and Linux amd64. Native Vulkan runtime, Mii creator, online play via Nextendo and Steam rooms. Bring your own game files and keys: no ROMs, assets or keys included.",
     "version": "v0.6.3",
     "releasedAt": "2026-11-23",
@@ -2990,25 +3009,6 @@
     "releaseUrl": "https://github.com/MnkyArts/ProjectAvalanche/releases/tag/v0.4.2",
     "licenseId": "MIT",
     "licenseUrl": "https://api.github.com/licenses/mit",
-    "curated": true
-  },
-  {
-    "id": "pret-pokeplatinum",
-    "repo": "pret/pokeplatinum",
-    "title": "Pokémon Platinum",
-    "game": "pokemon-platinum",
-    "author": "pret",
-    "console": "Nintendo DS",
-    "mechanism": "native",
-    "platforms": [],
-    "stars": 622,
-    "description": "Decompilation of Pokémon Platinum",
-    "version": null,
-    "releasedAt": "2026-11-22",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/pret/pokeplatinum/releases",
-    "licenseId": null,
-    "licenseUrl": null,
     "curated": true
   },
   {
@@ -3333,6 +3333,28 @@
     "curated": true
   },
   {
+    "id": "st4rwhx-resident-evil-4-native-port",
+    "repo": "st4rwhx/Resident-Evil-4-Native-Port",
+    "title": "Resident Evil 4",
+    "game": "resident-evil-4",
+    "author": "st4rwhx",
+    "console": "GameCube",
+    "mechanism": "native",
+    "platforms": [
+      "Android",
+      "iOS"
+    ],
+    "stars": 82,
+    "description": "Nightjar: Resident Evil 4 (GameCube) 100% native source port, byte-matching decompilation & standalone engine runtime for Android (32/64-bit), iOS (Metal), Windows, and Linux.",
+    "version": "nightly",
+    "releasedAt": "2026-11-20",
+    "sizeBytes": 28277340,
+    "releaseUrl": "https://github.com/st4rwhx/Resident-Evil-4-Native-Port/releases/tag/nightly",
+    "licenseId": "CC0-1.0",
+    "licenseUrl": "https://api.github.com/licenses/cc0-1.0",
+    "curated": true
+  },
+  {
     "id": "arcanite24-pinyon-shift",
     "repo": "arcanite24/pinyon-shift",
     "title": "Forza Horizon",
@@ -3345,7 +3367,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 1106,
+    "stars": 1107,
     "description": "A playable preview of Forza Horizon static recompilation",
     "version": "v0.9.5",
     "releasedAt": "2026-11-20",
@@ -4551,7 +4573,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 77,
+    "stars": 78,
     "description": "Zone of the Enders - Static Recompilation Project for PC",
     "version": "v1.1.0",
     "releasedAt": "2026-11-14",
@@ -4618,7 +4640,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 612,
+    "stars": 613,
     "description": "Native PC port (Linux/Windows) of The Last Guardian (PS4, CUSA03627) — runs your own game dump; no game or firmware files included. Mouse/keyboard, optional 60 FPS, SMAA/CAS filters. | Port nativo para PC de The Last Guardian — usa o seu próprio dump.",
     "version": "v2026.11.14-ee3327d",
     "releasedAt": "2026-11-14",
@@ -4811,7 +4833,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 130,
+    "stars": 131,
     "description": "Mario Kart 8 Deluxe recompiled to run natively on your PC: no JIT, FSR 3.1 + frame generation, experimental DLSS, 720p to 4K output, HDR10. Bring your own game files.",
     "version": "v0.2.4",
     "releasedAt": "2026-11-12",
@@ -5131,7 +5153,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 299,
+    "stars": 300,
     "description": "Native Windows port of Tekken Tag Tournament 2 (Xbox 360) by static recompilation. Not an emulator. Ships no game data - the installer builds the game from your own disc image and Title Update 3.",
     "version": "v0.2.0",
     "releasedAt": "2026-11-09",
@@ -5797,7 +5819,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 351,
+    "stars": 352,
     "description": "GTA V (Xbox 360, TU27) static recompilation with ReXGlue",
     "version": "v0.3.0",
     "releasedAt": "2026-11-02",
@@ -6404,7 +6426,7 @@
       "Windows",
       "Linux"
     ],
-    "stars": 4230,
+    "stars": 4229,
     "description": "Bloodborne (v1.09) running natively on Linux and Windows: the game's x86-64 code runs as is, GPU side translated to Vulkan; FSR 4 / DLSS, co-op (BBSC). Bring your own dump.",
     "version": "0.7",
     "releasedAt": "2026-10-28",
@@ -6648,7 +6670,7 @@
     "console": "Nintendo Switch",
     "mechanism": "native",
     "platforms": [],
-    "stars": 8386,
+    "stars": 8387,
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
     "version": "v2026.10.25",
     "releasedAt": "2026-10-25",
@@ -6799,7 +6821,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 222,
+    "stars": 223,
     "description": "Eternal Darkness: Sanity's Requiem static recompilation (DolRecomp + GXRuntime) for Mac, Windows and Linux / Steam Deck. Bring your own disc.",
     "version": "v0.9.6",
     "releasedAt": "2026-10-24",
@@ -7239,7 +7261,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 6182,
+    "stars": 6181,
     "description": "Ship of Harkinian: a PC port of Ocarina of Time built from the decompilation, with widescreen, high framerate and mod support.",
     "version": "9.3.1",
     "releasedAt": "2026-10-18",
@@ -7453,7 +7475,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 155,
+    "stars": 156,
     "description": "Experimental static recompilation of Forza Motorsport 4 using ReXGlue. No game files included.",
     "version": "v0.1.0-alpha.2",
     "releasedAt": "2026-10-15",
@@ -7791,7 +7813,7 @@
     "platforms": [
       "Windows"
     ],
-    "stars": 132,
+    "stars": 131,
     "description": "",
     "version": "v1.0",
     "releasedAt": "2026-10-07",
@@ -8107,7 +8129,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 6573,
+    "stars": 6574,
     "description": "Dusklight brings a classic adventure to PC and mobile platforms with a variety of fixes and improvements.",
     "version": "v2.0.3",
     "releasedAt": "2026-09-30",
@@ -8509,7 +8531,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 945,
+    "stars": 946,
     "description": "A PC port of Super Mario 64 with DirectX 11, OpenGL and Vulkan backends, fullscreen and controller support.",
     "version": "3.0.0",
     "releasedAt": "2026-09-07",
@@ -8575,7 +8597,7 @@
       "Android",
       "iOS"
     ],
-    "stars": 921,
+    "stars": 922,
     "description": "Multiplatform and Feature-rich Port based on PSX decompilation of Silent Hill 1 made with Claude and Psycross. Still in beta and is in active development.",
     "version": "crossplatform-beta",
     "releasedAt": "2026-09-04",
@@ -8891,7 +8913,7 @@
       "Linux",
       "macOS"
     ],
-    "stars": 1678,
+    "stars": 1679,
     "description": "A free and open-source Touhou Project fangame",
     "version": "v1.4.6",
     "releasedAt": "2026-08-02",
@@ -9059,25 +9081,6 @@
     "releasedAt": "2026-07-11",
     "sizeBytes": null,
     "releaseUrl": "https://github.com/kholdfuzion/GoldenRecomp/releases",
-    "licenseId": "GPL-3.0",
-    "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
-    "curated": true
-  },
-  {
-    "id": "raycarrot-rayman3readvanced",
-    "repo": "RayCarrot/Rayman3Readvanced",
-    "title": "Rayman 3: Hoodlum Havoc",
-    "game": null,
-    "author": "RayCarrot",
-    "console": "Game Boy Advance",
-    "mechanism": "native",
-    "platforms": [],
-    "stars": 74,
-    "description": "PC port of Rayman 3 GBA",
-    "version": null,
-    "releasedAt": "2026-07-10",
-    "sizeBytes": null,
-    "releaseUrl": "https://github.com/RayCarrot/Rayman3Readvanced/releases",
     "licenseId": "GPL-3.0",
     "licenseUrl": "https://api.github.com/licenses/gpl-3.0",
     "curated": true
